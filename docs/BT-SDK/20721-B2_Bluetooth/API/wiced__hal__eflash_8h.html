@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: wiced_hal_eflash.h File Reference</title>
+<title>Cypress WICED CYW20721: wiced_hal_eflash.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('wiced__hal__eflash_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_hal_eflash.h File Reference</div>  </div>
@@ -107,6 +108,22 @@ $(document).ready(function(){initNavTree('wiced__hal__eflash_8h.html','');});
 <p>List of parameters and defined functions needed to access the Embedded Flash interface driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gae9560b79ebc5c7d96bea3c0821a0373a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae9560b79ebc5c7d96bea3c0821a0373a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___platform.html#gae9560b79ebc5c7d96bea3c0821a0373a">FLASH_SECTOR_SIZE</a>&#160;&#160;&#160;(0x200u)</td></tr>
+<tr class="memdesc:gae9560b79ebc5c7d96bea3c0821a0373a"><td class="mdescLeft">&#160;</td><td class="mdescRight">819 uses 512 byte sector, 1 MB on chip flash. <br /></td></tr>
+<tr class="separator:gae9560b79ebc5c7d96bea3c0821a0373a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae69620948dea1b76e0ab7843ab719db7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae69620948dea1b76e0ab7843ab719db7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_SIZE</b>&#160;&#160;&#160;0x100000</td></tr>
+<tr class="separator:gae69620948dea1b76e0ab7843ab719db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf7e9f0f2ffa9fb65654d7c8b072d1d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabf7e9f0f2ffa9fb65654d7c8b072d1d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>FLASH_BASE_ADDRESS</b>&#160;&#160;&#160;(0x500000u)</td></tr>
+<tr class="separator:gabf7e9f0f2ffa9fb65654d7c8b072d1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga688c3b3c9def5d541c9f273478add2ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___platform.html#ga688c3b3c9def5d541c9f273478add2ee">APPLICATION_SPECIFIC_FLASH_RESERVATION</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ga688c3b3c9def5d541c9f273478add2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of sectors reserved from the end of the flash for the application specific purpose (for ex: to log the crash dump).  <a href="group___platform.html#ga688c3b3c9def5d541c9f273478add2ee">More...</a><br /></td></tr>
+<tr class="separator:ga688c3b3c9def5d541c9f273478add2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga56a1e1bc784e6ec6cfcb0967d700f853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___embedded_flash_interface_driver.html#ga56a1e1bc784e6ec6cfcb0967d700f853">wiced_hal_eflash_init</a> (void)</td></tr>

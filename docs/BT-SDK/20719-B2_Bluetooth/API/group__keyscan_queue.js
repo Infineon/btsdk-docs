@@ -10,12 +10,12 @@ var group__keyscan_queue =
       [ "savedWriteIndexForRollBack", "struct_keyscan_queue_state.html#aaee00d7ee9d7c82f28982081a567a8fc", null ],
       [ "writeIndex", "struct_keyscan_queue_state.html#a75b399a70dc5b784d95741db3c30b783", null ]
     ] ],
-    [ "KeyEvent", "group__keyscan_queue.html#ga86be38ec890da51c57fb2bd8c85fc114", [
-      [ "ROLLOVER", "group__keyscan_queue.html#gga92c4bd66c8074c3d126a069275a0a80cab4a53dc50ba38ef5c3f266d1499ecf32", null ],
-      [ "END_OF_SCAN_CYCLE", "group__keyscan_queue.html#gga92c4bd66c8074c3d126a069275a0a80cad8ba23ff4d3c25d36207e0da40355a22", null ],
-      [ "MIA_KEY_EVENT_FIFO_SIZE", "group__keyscan_queue.html#gga2ee507fea44084259042ff7bb45ecabfa259261502f7197594f2a387a4d2fc07e", null ],
-      [ "KEYSCAN_FW_FIFO_SIZE", "group__keyscan_queue.html#gga2ee507fea44084259042ff7bb45ecabfa28ef28c4eb7c16aca74f3b3e139a1879", null ]
+    [ "KeyEvent", "group__keyscan_queue.html#ga61b27c30fdf568d13655934e59b6c12a", [
+      [ "ROLLOVER", "group__keyscan_queue.html#gga0ac0b7994a7d738aa77d2c1cfe8d6d13ab4a53dc50ba38ef5c3f266d1499ecf32", null ],
+      [ "END_OF_SCAN_CYCLE", "group__keyscan_queue.html#gga0ac0b7994a7d738aa77d2c1cfe8d6d13ad8ba23ff4d3c25d36207e0da40355a22", null ],
+      [ "MIA_KEY_EVENT_FIFO_SIZE", "group__keyscan_queue.html#gga5bea799269f02f5b3395d6b2c068b618a259261502f7197594f2a387a4d2fc07e", null ],
+      [ "KEYSCAN_FW_FIFO_SIZE", "group__keyscan_queue.html#gga5bea799269f02f5b3395d6b2c068b618a28ef28c4eb7c16aca74f3b3e139a1879", null ]
     ] ],
     [ "ksq_isEmpty", "group__keyscan_queue.html#ga80211eaef24176654c2c8987ecb4cdf9", null ],
-    [ "EVENT_NONE", "group__keyscan.html#gga2f1398dba5e4a5616b83437528bdb28ea939a6cc6d749a232a23ff324dca6d48c", null ]
+    [ "EVENT_NONE", "group__keyscan.html#ggae62fccd8cea8f216b24ba625d404c4aea939a6cc6d749a232a23ff324dca6d48c", null ]
 ];

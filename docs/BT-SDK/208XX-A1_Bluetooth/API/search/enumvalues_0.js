@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['aclk_5ffreq_5f1_5fmhz',['ACLK_FREQ_1_MHZ',['../group___a_c_l_k.html#ggab66569008867eb09018a7e2bc0c1c154aa38b55a198e565c2af427c2554bb3d86',1,'wiced_hal_aclk.h']]],
   ['aclk_5ffreq_5f24_5fmhz',['ACLK_FREQ_24_MHZ',['../group___a_c_l_k.html#ggab66569008867eb09018a7e2bc0c1c154a4bde9935abe38dbaa134c0928cfb7de3',1,'wiced_hal_aclk.h']]],
   ['allow_5fthread_5fto_5fsleep',['ALLOW_THREAD_TO_SLEEP',['../group__group__rtos__enums.html#gga892d8468a8928365d30bbb8d4c563ef1a194350a86913f48a4237a63a367a540d',1,'wiced_rtos.h']]],
   ['audio_5froute_5fapp',['AUDIO_ROUTE_APP',['../group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a8a8a194fb200646fa35b2642e1edd1e3',1,'wiced_bt_audio.h']]],

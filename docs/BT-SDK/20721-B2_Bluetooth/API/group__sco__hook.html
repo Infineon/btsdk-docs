@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: SCO Hook</title>
+<title>Cypress WICED CYW20721: SCO Hook</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -132,10 +132,133 @@ int16_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__hook.html#ga1090838c106af7b7afaaec0ee969e174">sample_count</a></td></tr>
 <tr class="memdesc:ga1090838c106af7b7afaaec0ee969e174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of PCM samples. <br /></td></tr>
 <tr class="separator:ga1090838c106af7b7afaaec0ee969e174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b4c9f63de66438c953ea9c1e76eca2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b4c9f63de66438c953ea9c1e76eca2e"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__hook.html#ga8b4c9f63de66438c953ea9c1e76eca2e">inserted_silence_len</a></td></tr>
-<tr class="memdesc:ga8b4c9f63de66438c953ea9c1e76eca2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of silence PCM samples (0 for for Mic) <br /></td></tr>
-<tr class="separator:ga8b4c9f63de66438c953ea9c1e76eca2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7f66047e6e39ba2bb6af8b95f00d1dd"><td class="memItemLeft" ><a class="anchor" id="gae7f66047e6e39ba2bb6af8b95f00d1dd"></a>
+uint32_t&#160;&#160;&#160;<b>value</b></td></tr>
+<tr class="separator:gae7f66047e6e39ba2bb6af8b95f00d1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memItemLeft" ><a class="anchor" id="gaaad5f81a5c51695dd85fde4ec6861fa4"></a>
+uint32_t&#160;&#160;&#160;<b>timeSeqNum</b>: 16</td></tr>
+<tr class="separator:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memItemLeft" ><a class="anchor" id="ga97e3bb97951482c8cf4d55a2d0bfcb62"></a>
+uint32_t&#160;&#160;&#160;<b>res</b>: 8</td></tr>
+<tr class="separator:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memItemLeft" ><a class="anchor" id="gac4cd5ac490ac59da7ffa8a124a967f0c"></a>
+uint32_t&#160;&#160;&#160;<b>bufSmpCnt</b>: 8</td></tr>
+<tr class="separator:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memItemLeft" ><a class="anchor" id="gaaad5f81a5c51695dd85fde4ec6861fa4"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>timeSeqNum</b>: 16</td></tr>
+<tr class="separator:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memItemLeft" ><a class="anchor" id="ga97e3bb97951482c8cf4d55a2d0bfcb62"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>res</b>: 8</td></tr>
+<tr class="separator:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memItemLeft" ><a class="anchor" id="gac4cd5ac490ac59da7ffa8a124a967f0c"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>bufSmpCnt</b>: 8</td></tr>
+<tr class="separator:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" valign="top">}&#160;&#160;&#160;<a class="el" href="group__sco__hook.html#gad6f9fd3ce1895cdb9ecdb77b7946af04">in</a></td></tr>
+<tr class="memdesc:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; bit definition used for input SCO (PCM) data.  <a href="#gad6f9fd3ce1895cdb9ecdb77b7946af04">More...</a><br /></td></tr>
+<tr class="separator:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memItemLeft" ><a class="anchor" id="ga879c3b77f3f26cd337e95c7b3c16d5ab"></a>
+uint32_t&#160;&#160;&#160;<b>corr</b>: 9</td></tr>
+<tr class="separator:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memItemLeft" ><a class="anchor" id="ga16322ac25281161761cf3fb3f6ba2c13"></a>
+uint32_t&#160;&#160;&#160;<b>sign</b>: 1</td></tr>
+<tr class="separator:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memItemLeft" ><a class="anchor" id="ga9f3ae889d31c877524ed971a0b04b78f"></a>
+uint32_t&#160;&#160;&#160;<b>tStamp</b>: 21</td></tr>
+<tr class="separator:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memItemLeft" ><a class="anchor" id="gaa0110dfcd1a7cfdd3fae2a5676f7901d"></a>
+uint32_t&#160;&#160;&#160;<b>reset</b>: 1</td></tr>
+<tr class="separator:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" ><a class="anchor" id="ga0d872c771e5cafb9173ea8b71833664a"></a>
+struct {</td></tr>
+<tr class="memitem:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memItemLeft" ><a class="anchor" id="ga879c3b77f3f26cd337e95c7b3c16d5ab"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>corr</b>: 9</td></tr>
+<tr class="separator:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memItemLeft" ><a class="anchor" id="ga16322ac25281161761cf3fb3f6ba2c13"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>sign</b>: 1</td></tr>
+<tr class="separator:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memItemLeft" ><a class="anchor" id="ga9f3ae889d31c877524ed971a0b04b78f"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>tStamp</b>: 21</td></tr>
+<tr class="separator:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memItemLeft" ><a class="anchor" id="gaa0110dfcd1a7cfdd3fae2a5676f7901d"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>reset</b>: 1</td></tr>
+<tr class="separator:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" valign="top">}&#160;&#160;&#160;<b>out</b></td></tr>
+<tr class="separator:ga0d872c771e5cafb9173ea8b71833664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa12525da950389be27857e516ca2d6dc"><td class="memItemLeft" ><a class="anchor" id="gaa12525da950389be27857e516ca2d6dc"></a>
+union {</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memItemLeft" ><a class="anchor" id="gaaad5f81a5c51695dd85fde4ec6861fa4"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>timeSeqNum</b>: 16</td></tr>
+<tr class="separator:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memItemLeft" ><a class="anchor" id="ga97e3bb97951482c8cf4d55a2d0bfcb62"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>res</b>: 8</td></tr>
+<tr class="separator:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memItemLeft" ><a class="anchor" id="gac4cd5ac490ac59da7ffa8a124a967f0c"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>bufSmpCnt</b>: 8</td></tr>
+<tr class="separator:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="group__sco__hook.html#gad6f9fd3ce1895cdb9ecdb77b7946af04">in</a></td></tr>
+<tr class="memdesc:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; bit definition used for input SCO (PCM) data.  <a href="group__sco__hook.html#gad6f9fd3ce1895cdb9ecdb77b7946af04">More...</a><br /></td></tr>
+<tr class="separator:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" ><a class="anchor" id="ga0d872c771e5cafb9173ea8b71833664a"></a>
+&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memItemLeft" ><a class="anchor" id="ga879c3b77f3f26cd337e95c7b3c16d5ab"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>corr</b>: 9</td></tr>
+<tr class="separator:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memItemLeft" ><a class="anchor" id="ga16322ac25281161761cf3fb3f6ba2c13"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>sign</b>: 1</td></tr>
+<tr class="separator:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memItemLeft" ><a class="anchor" id="ga9f3ae889d31c877524ed971a0b04b78f"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>tStamp</b>: 21</td></tr>
+<tr class="separator:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memItemLeft" ><a class="anchor" id="gaa0110dfcd1a7cfdd3fae2a5676f7901d"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>reset</b>: 1</td></tr>
+<tr class="separator:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<b>out</b></td></tr>
+<tr class="separator:ga0d872c771e5cafb9173ea8b71833664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa12525da950389be27857e516ca2d6dc"><td class="memItemLeft" valign="top">}&#160;&#160;&#160;<b>sco_info</b></td></tr>
+<tr class="separator:gaa12525da950389be27857e516ca2d6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f6f1afa4183eef4d313d4b5af4a8adb"><td class="memItemLeft" ><a class="anchor" id="ga8f6f1afa4183eef4d313d4b5af4a8adb"></a>
+union {</td></tr>
+<tr class="memitem:gae7f66047e6e39ba2bb6af8b95f00d1dd"><td class="memItemLeft" ><a class="anchor" id="gae7f66047e6e39ba2bb6af8b95f00d1dd"></a>
+&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>value</b></td></tr>
+<tr class="separator:gae7f66047e6e39ba2bb6af8b95f00d1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa12525da950389be27857e516ca2d6dc"><td class="memItemLeft" ><a class="anchor" id="gaa12525da950389be27857e516ca2d6dc"></a>
+&#160;&#160;&#160;union {</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memItemLeft" ><a class="anchor" id="gaaad5f81a5c51695dd85fde4ec6861fa4"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>timeSeqNum</b>: 16</td></tr>
+<tr class="separator:gaaad5f81a5c51695dd85fde4ec6861fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memItemLeft" ><a class="anchor" id="ga97e3bb97951482c8cf4d55a2d0bfcb62"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>res</b>: 8</td></tr>
+<tr class="separator:ga97e3bb97951482c8cf4d55a2d0bfcb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memItemLeft" ><a class="anchor" id="gac4cd5ac490ac59da7ffa8a124a967f0c"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>bufSmpCnt</b>: 8</td></tr>
+<tr class="separator:gac4cd5ac490ac59da7ffa8a124a967f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="group__sco__hook.html#gad6f9fd3ce1895cdb9ecdb77b7946af04">in</a></td></tr>
+<tr class="memdesc:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; bit definition used for input SCO (PCM) data.  <a href="group__sco__hook.html#gad6f9fd3ce1895cdb9ecdb77b7946af04">More...</a><br /></td></tr>
+<tr class="separator:gad6f9fd3ce1895cdb9ecdb77b7946af04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" ><a class="anchor" id="ga0d872c771e5cafb9173ea8b71833664a"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memItemLeft" ><a class="anchor" id="ga879c3b77f3f26cd337e95c7b3c16d5ab"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>corr</b>: 9</td></tr>
+<tr class="separator:ga879c3b77f3f26cd337e95c7b3c16d5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memItemLeft" ><a class="anchor" id="ga16322ac25281161761cf3fb3f6ba2c13"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>sign</b>: 1</td></tr>
+<tr class="separator:ga16322ac25281161761cf3fb3f6ba2c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memItemLeft" ><a class="anchor" id="ga9f3ae889d31c877524ed971a0b04b78f"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>tStamp</b>: 21</td></tr>
+<tr class="separator:ga9f3ae889d31c877524ed971a0b04b78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memItemLeft" ><a class="anchor" id="gaa0110dfcd1a7cfdd3fae2a5676f7901d"></a>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>reset</b>: 1</td></tr>
+<tr class="separator:gaa0110dfcd1a7cfdd3fae2a5676f7901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d872c771e5cafb9173ea8b71833664a"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;<b>out</b></td></tr>
+<tr class="separator:ga0d872c771e5cafb9173ea8b71833664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa12525da950389be27857e516ca2d6dc"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<b>sco_info</b></td></tr>
+<tr class="separator:gaa12525da950389be27857e516ca2d6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f6f1afa4183eef4d313d4b5af4a8adb"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__hook.html#ga8f6f1afa4183eef4d313d4b5af4a8adb">inserted_silence_len</a></td></tr>
+<tr class="memdesc:ga8f6f1afa4183eef4d313d4b5af4a8adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of silence PCM samples (0 for for Mic) <br /></td></tr>
+<tr class="separator:ga8f6f1afa4183eef4d313d4b5af4a8adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga243e4e49d82f48c1e7e91dc4b1818c0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga243e4e49d82f48c1e7e91dc4b1818c0a"></a>
 <a class="el" href="structwiced__bt__sco__hook__event__mic__samples__t.html">wiced_bt_sco_hook_event_mic_samples_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mic_samples</b></td></tr>
 <tr class="separator:ga243e4e49d82f48c1e7e91dc4b1818c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +272,37 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Bluetooth SCO Hook Application Programming Interface. </p>
 <p>The SCO Hook library provides API to access SCO/eSCO data (both received and sent). This API can be used by the application to introduce a sound in the SCO data (to the Speaker or from the Microphone) or to implement Noise Reduction and Echo Cancellation. Incoming voice packets (i.e. from Audio Gateway) are passed to the application which can modify them before they goes out of the chip (e.g. to external Codec for rendering). Outgoing voice packets (e.g. from Microphone connected to an external Codec) are passed to the application which can modify them before they are send (to the Audio Gateway). The Audio Algorithm (DSP code) must be provided by the application. Note that the CPU clock is increased to the maximum (i.e. 96 MHz) when the callback is called. Once the callback returns, the CPU clock is set back to the normal frequency. </p>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="gad6f9fd3ce1895cdb9ecdb77b7946af04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct { ... }   in</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt; bit definition used for input SCO (PCM) data. </p>
+<p>bit definition used for output SCO (PCM) data to PCM. </p>
+
+</div>
+</div>
+<a class="anchor" id="gad6f9fd3ce1895cdb9ecdb77b7946af04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct { ... }   in</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt; bit definition used for input SCO (PCM) data. </p>
+<p>bit definition used for output SCO (PCM) data to PCM. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

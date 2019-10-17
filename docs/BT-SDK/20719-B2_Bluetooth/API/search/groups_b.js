@@ -1,10 +1,13 @@
 var searchData=
 [
   ['macros',['Macros',['../group__group__ota__fw__upgrade__macros.html',1,'']]],
+  ['matrix_20functions',['Matrix Functions',['../group__group_matrix.html',1,'']]],
   ['multiple_20interface_20adapter_20_28mia_29',['Multiple Interface Adapter (MIA)',['../group___m_i_a_driver.html',1,'']]],
   ['mutexes',['Mutexes',['../group__mutexes.html',1,'']]],
   ['mesh_20battery_20client',['Mesh Battery Client',['../group__wiced__bt__mesh__battery__client.html',1,'']]],
   ['mesh_20battery_20server',['Mesh Battery Server',['../group__wiced__bt__mesh__battery__server.html',1,'']]],
+  ['mesh_20blob_20transfer_20client',['Mesh BLOB Transfer Client',['../group__wiced__bt__mesh__blob__transfer__client.html',1,'']]],
+  ['mesh_20blob_20transfer_20server',['Mesh BLOB Transfer Server',['../group__wiced__bt__mesh__blob__transfer__server.html',1,'']]],
   ['mesh_20client_20library_20api',['Mesh Client Library API',['../group__wiced__bt__mesh__client.html',1,'']]],
   ['mesh_20core_20library_20api',['Mesh Core Library API',['../group__wiced__bt__mesh__core.html',1,'']]],
   ['mesh_20default_20transition_20time_20client',['Mesh Default Transition Time Client',['../group__wiced__bt__mesh__default__transition__time__client.html',1,'']]],
@@ -27,8 +30,6 @@ var searchData=
   ['mesh_20location_20server',['Mesh Location Server',['../group__wiced__bt__mesh__location__server.html',1,'']]],
   ['mesh_20light_20lc_20server',['Mesh Light LC Server',['../group__wiced__bt__mesh__model__light__lc__server.html',1,'']]],
   ['mesh_20models_20library_20api',['Mesh Models Library API',['../group__wiced__bt__mesh__models.html',1,'']]],
-  ['mesh_20object_20transfer_20client',['Mesh Object Transfer Client',['../group__wiced__bt__mesh__obj__transfer__client.html',1,'']]],
-  ['mesh_20object_20transfer_20server',['Mesh Object Transfer Server',['../group__wiced__bt__mesh__obj__transfer__server.html',1,'']]],
   ['mesh_20onoff_20client',['Mesh OnOff Client',['../group__wiced__bt__mesh__onoff__client.html',1,'']]],
   ['mesh_20onoff_20server',['Mesh OnOff Server',['../group__wiced__bt__mesh__onoff__server.html',1,'']]],
   ['mesh_20power_20level_20client',['Mesh Power Level Client',['../group__wiced__bt__mesh__power__level__client.html',1,'']]],

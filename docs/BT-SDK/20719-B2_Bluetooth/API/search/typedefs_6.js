@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyevent',['KeyEvent',['../group__keyscan_queue.html#ga86be38ec890da51c57fb2bd8c85fc114',1,'keyscan.h']]]
+  ['keyevent',['KeyEvent',['../group__keyscan_queue.html#ga61b27c30fdf568d13655934e59b6c12a',1,'keyscan.h']]]
 ];

@@ -1,28 +1,4 @@
 var searchData=
 [
-  ['filesystem_5flist_5ft',['filesystem_list_t',['../structfilesystem__list__t.html',1,'']]],
-  ['filter_5fctl0_5freg',['FILTER_CTL0_REG',['../union_f_i_l_t_e_r___c_t_l0___r_e_g.html',1,'']]],
-  ['filter_5fctl1_5freg',['FILTER_CTL1_REG',['../union_f_i_l_t_e_r___c_t_l1___r_e_g.html',1,'']]],
-  ['filter_5fctl2_5freg',['FILTER_CTL2_REG',['../union_f_i_l_t_e_r___c_t_l2___r_e_g.html',1,'']]],
-  ['filter_5fctl3_5freg',['FILTER_CTL3_REG',['../union_f_i_l_t_e_r___c_t_l3___r_e_g.html',1,'']]],
-  ['filter_5fctl4_5freg',['FILTER_CTL4_REG',['../union_f_i_l_t_e_r___c_t_l4___r_e_g.html',1,'']]],
-  ['filter_5fctl5_5freg',['FILTER_CTL5_REG',['../union_f_i_l_t_e_r___c_t_l5___r_e_g.html',1,'']]],
-  ['filter_5fctl6_5freg',['FILTER_CTL6_REG',['../union_f_i_l_t_e_r___c_t_l6___r_e_g.html',1,'']]],
-  ['filter_5fctl7_5freg',['FILTER_CTL7_REG',['../union_f_i_l_t_e_r___c_t_l7___r_e_g.html',1,'']]],
-  ['filter_5fctl8_5freg',['FILTER_CTL8_REG',['../union_f_i_l_t_e_r___c_t_l8___r_e_g.html',1,'']]],
-  ['filter_5fctl9_5freg',['FILTER_CTL9_REG',['../union_f_i_l_t_e_r___c_t_l9___r_e_g.html',1,'']]],
-  ['filter_5fctla_5freg',['FILTER_CTLA_REG',['../union_f_i_l_t_e_r___c_t_l_a___r_e_g.html',1,'']]],
-  ['filter_5fctlb_5freg',['FILTER_CTLB_REG',['../union_f_i_l_t_e_r___c_t_l_b___r_e_g.html',1,'']]],
-  ['filter_5fctlc_5freg',['FILTER_CTLC_REG',['../union_f_i_l_t_e_r___c_t_l_c___r_e_g.html',1,'']]],
-  ['filter_5fctld_5freg',['FILTER_CTLD_REG',['../union_f_i_l_t_e_r___c_t_l_d___r_e_g.html',1,'']]],
-  ['filter_5fctle_5freg',['FILTER_CTLE_REG',['../union_f_i_l_t_e_r___c_t_l_e___r_e_g.html',1,'']]],
-  ['filter_5fctlf_5freg',['FILTER_CTLF_REG',['../union_f_i_l_t_e_r___c_t_l_f___r_e_g.html',1,'']]],
-  ['flow_5fspec',['FLOW_SPEC',['../struct_f_l_o_w___s_p_e_c.html',1,'']]],
-  ['function_5fconfig_5finfo_5ft',['function_config_info_t',['../structfunction__config__info__t.html',1,'']]],
-  ['fx_5fcached_5fsector_5fstruct',['FX_CACHED_SECTOR_STRUCT',['../struct_f_x___c_a_c_h_e_d___s_e_c_t_o_r___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fdir_5fentry_5fstruct',['FX_DIR_ENTRY_STRUCT',['../struct_f_x___d_i_r___e_n_t_r_y___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5ffat_5fcache_5fentry_5fstruct',['FX_FAT_CACHE_ENTRY_STRUCT',['../struct_f_x___f_a_t___c_a_c_h_e___e_n_t_r_y___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5ffile_5fstruct',['FX_FILE_STRUCT',['../struct_f_x___f_i_l_e___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fmedia_5fstruct',['FX_MEDIA_STRUCT',['../struct_f_x___m_e_d_i_a___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fpath_5fstruct',['FX_PATH_STRUCT',['../struct_f_x___p_a_t_h___s_t_r_u_c_t.html',1,'']]]
+  ['emconinfo_5fdevinfo',['EMCONINFO_DEVINFO',['../struct_e_m_c_o_n_i_n_f_o___d_e_v_i_n_f_o.html',1,'']]]
 ];

@@ -14,6 +14,7 @@ var searchData=
   ['encryption_5fstatus',['encryption_status',['../unionwiced__bt__management__evt__data__t.html#aec8fb4af1319f261d54c593019d86964',1,'wiced_bt_management_evt_data_t']]],
   ['end_5findex',['end_index',['../structwiced__bt__mesh__sensor__series__get__data__t.html#a884c52b970c72b85d33b1a0b860b5356',1,'wiced_bt_mesh_sensor_series_get_data_t']]],
   ['endian',['endian',['../wiced__transport_8h.html#a7abf946fe0aa5242e9905717dbc47a47',1,'wiced_transport.h']]],
+  ['energy',['energy',['../structarm__lms__norm__instance__f32.html#ae1ed544b72f1510ed55d144a9424fddd',1,'arm_lms_norm_instance_f32::energy()'],['../structarm__lms__norm__instance__q31.html#a012fee0f71095d2557bb633e73ef7355',1,'arm_lms_norm_instance_q31::energy()'],['../structarm__lms__norm__instance__q15.html#ae7a8ccabc82348f6742ca7a2b3da2a41',1,'arm_lms_norm_instance_q15::energy()']]],
   ['energy_5fexpended',['energy_expended',['../structwiced__bt__hrc__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40',1,'wiced_bt_hrc_notification_data_t::energy_expended()'],['../structwiced__bt__hrs__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40',1,'wiced_bt_hrs_notification_data_t::energy_expended()']]],
   ['energy_5fexpended_5fpresent',['energy_expended_present',['../structwiced__bt__hrc__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43',1,'wiced_bt_hrc_notification_data_t::energy_expended_present()'],['../structwiced__bt__hrs__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43',1,'wiced_bt_hrs_notification_data_t::energy_expended_present()']]],
   ['entity_5fid',['entity_id',['../structwiced__bt__ams__event__t.html#a8a6a9a23f3529b81e24d622f72af55b1',1,'wiced_bt_ams_event_t']]],
@@ -22,6 +23,7 @@ var searchData=
   ['err_5fcode',['err_code',['../structwiced__bt__avdt__evt__hdr__t.html#a7c7db8f8afdf36d5e42be7f485336be4',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['err_5fparam',['err_param',['../structwiced__bt__avdt__evt__hdr__t.html#aaf9a0464c401c9866d26ecde335c937e',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['established',['established',['../structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f',1,'wiced_bt_mesh_core_state_friendship_t']]],
+  ['exccnt',['EXCCNT',['../struct_d_w_t___type.html#ae6edad4ef9f92b3ce206dac61621871a',1,'DWT_Type']]],
   ['exec_5fwrite',['exec_write',['../unionwiced__bt__gatt__request__data__t.html#a51924c6528891bbd652edbc59f43fc99',1,'wiced_bt_gatt_request_data_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]]

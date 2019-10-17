@@ -6,6 +6,7 @@ var group___hardware_drivers =
     [ "WICED Transport", "group__group___transport.html", "group__group___transport" ],
     [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
+    [ "config - Default flash (i.e. flash exists on WICED eval boards) configuration.", "group___platform.html", "group___platform" ],
     [ "Embedded Flash Interface", "group___embedded_flash_interface_driver.html", "group___embedded_flash_interface_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
     [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],

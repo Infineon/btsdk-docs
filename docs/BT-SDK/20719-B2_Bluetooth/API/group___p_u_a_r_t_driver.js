@@ -1,5 +1,6 @@
 var group___p_u_a_r_t_driver =
 [
+    [ "wiced_hal_puart_configuration", "group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4", null ],
     [ "wiced_hal_puart_disable_tx", "group___p_u_a_r_t_driver.html#ga0345acfe70d2bb2e1894031f0ad442f8", null ],
     [ "wiced_hal_puart_enable_rx", "group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c", null ],
     [ "wiced_hal_puart_enable_tx", "group___p_u_a_r_t_driver.html#gaa9aa92b462b4a3374910416dbb7b51c7", null ],
@@ -12,7 +13,7 @@ var group___p_u_a_r_t_driver =
     [ "wiced_hal_puart_reset_puart_interrupt", "group___p_u_a_r_t_driver.html#ga883540ae8ff94127b8d28ced7470a0a3", null ],
     [ "wiced_hal_puart_rx_fifo_not_empty", "group___p_u_a_r_t_driver.html#ga177a277358e25832af9fb431840eb9b5", null ],
     [ "wiced_hal_puart_select_uart_pads", "group___p_u_a_r_t_driver.html#ga9143850038b8d3326a0850bba91810de", null ],
-    [ "wiced_hal_puart_set_baudrate", "group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925", null ],
+    [ "wiced_hal_puart_set_baudrate", "group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c", null ],
     [ "wiced_hal_puart_set_watermark_level", "group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a", null ],
     [ "wiced_hal_puart_synchronous_read", "group___p_u_a_r_t_driver.html#ga08c6d9e0eae1c19172f09ddb4317d9d4", null ],
     [ "wiced_hal_puart_synchronous_write", "group___p_u_a_r_t_driver.html#gab848ea2b506d7c75da6a2264b7f6039d", null ],

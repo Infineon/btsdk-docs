@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX API Reference Guide: Mesh Models Library API</title>
+<title>Cypress WICED CYW208XX: Mesh Models Library API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -325,14 +325,14 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__light__lc__property__status__data__t.html">wiced_bt_mesh_light_lc_property_status_data_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Light LC Property Status Data structure exchanged between the application and Light LC library.  <a href="structwiced__bt__mesh__light__lc__property__status__data__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__prepare__t.html">wiced_bt_mesh_obj_transfer_prepare_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object Trasfer Prepare structure exchanged between the application and Object Transfer model.  <a href="structwiced__bt__mesh__obj__transfer__prepare__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__blob__transfer__start__t.html">wiced_bt_mesh_blob_transfer_start_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Start structure exchanged between the application and BLOB Transfer model.  <a href="structwiced__bt__mesh__blob__transfer__start__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__block__data__t.html">wiced_bt_mesh_obj_transfer_block_data_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object Trasfer Block Data structure exchanged between the application and Object Transfer model.  <a href="structwiced__bt__mesh__obj__transfer__block__data__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__blob__transfer__block__data__t.html">wiced_bt_mesh_blob_transfer_block_data_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Trasfer Block Data structure exchanged between the application and BLOB Transfer model.  <a href="structwiced__bt__mesh__blob__transfer__block__data__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__finish__t.html">wiced_bt_mesh_obj_transfer_finish_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object Trasfer Finish structure exchanged between the application and Object Transfer model.  <a href="structwiced__bt__mesh__obj__transfer__finish__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__blob__transfer__finish__t.html">wiced_bt_mesh_blob_transfer_finish_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Finish structure exchanged between the application and BLOB Transfer model.  <a href="structwiced__bt__mesh__blob__transfer__finish__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__update__fw__info__get__t.html">wiced_bt_mesh_fw_update_fw_info_get_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FW Update Information Status Data structure exchanged between the application and FW Update Model.  <a href="structwiced__bt__mesh__fw__update__fw__info__get__t.html#details">More...</a><br /></td></tr>
@@ -353,20 +353,13 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__update__fw__info__status__data__t.html">wiced_bt_mesh_fw_update_fw_info_status_data_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FW Update Information Status Data structure exchanged between the application and FW Update Model.  <a href="structwiced__bt__mesh__fw__update__fw__info__status__data__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__phase__state__t.html">wiced_bt_mesh_obj_transfer_phase_state_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object Transfer Status Data structure exchanged between the application and Generic Level Model.  <a href="structwiced__bt__mesh__obj__transfer__phase__state__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html">wiced_bt_mesh_fw_distr_caps_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">FW Distribution Distributor Capabilities.  <a href="structwiced__bt__mesh__fw__distr__caps__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__obj__transfer__capabilities__state__t.html">mesh_obj_transfer_capabilities_state_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__blob__transfer__capabilities__state__t.html">mesh_blob_transfer_capabilities_state_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Status Data structure exchanged between the application and Generic Level Model.  <a href="structmesh__blob__transfer__capabilities__state__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__phase__status__t.html">wiced_bt_mesh_obj_transfer_phase_status_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__status__t.html">wiced_bt_mesh_obj_transfer_status_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__block__get__t.html">wiced_bt_mesh_obj_transfer_block_get_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__complete__t.html">wiced_bt_mesh_obj_transfer_complete_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__obj__transfer__information__status__data__t.html">wiced_bt_mesh_obj_transfer_information_status_data_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__blob__transfer__complete__t.html">wiced_bt_mesh_blob_transfer_complete_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
@@ -473,14 +466,14 @@ Modules</h2></td></tr>
 <tr class="memitem:group__wiced__bt__mesh__fw__update__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__client.html">Mesh FW Update Client</a></td></tr>
 <tr class="memdesc:group__wiced__bt__mesh__fw__update__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh FW Update Client module provides a way for an application to control Firmware Distribution Servers in the mesh network. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__obj__transfer__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html">Mesh Object Transfer Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__obj__transfer__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Object Transfer Client module provides a way for an application to transfer object to Object Transfer Servers in the mesh network. <br /></td></tr>
+<tr class="memitem:group__wiced__bt__mesh__blob__transfer__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html">Mesh BLOB Transfer Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Client module provides a way for an application to transfer a BLOB to BLOB Transfer Servers in the mesh network. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__wiced__bt__mesh__fw__update__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__server.html">Mesh Firmware Update Server</a></td></tr>
 <tr class="memdesc:group__wiced__bt__mesh__fw__update__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Firmware Update Server module provides a way for an application to Update Firmware in the mesh network. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__obj__transfer__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__obj__transfer__server.html">Mesh Object Transfer Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__obj__transfer__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Object Transfer Server module provides a way for an application to recevie Objects in the mesh network. <br /></td></tr>
+<tr class="memitem:group__wiced__bt__mesh__blob__transfer__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html">Mesh BLOB Transfer Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Server module provides a way for an application to recevie BLOBs in the mesh network. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -533,6 +526,18 @@ Macros</h2></td></tr>
 <tr class="memitem:ga14c6657b594561b3404130f091775d27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga14c6657b594561b3404130f091775d27"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>FW_DISTRIBUTION_FW__ID</b></td></tr>
 <tr class="separator:ga14c6657b594561b3404130f091775d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84daf480facc7803483ea7a5881342f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga84daf480facc7803483ea7a5881342f3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_STATE_IDLE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga84daf480facc7803483ea7a5881342f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25c045b4ef70162571ac0297996f7013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga25c045b4ef70162571ac0297996f7013"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_STATE_ACTIVE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga25c045b4ef70162571ac0297996f7013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2617362f42d5d52bf291072311409cea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2617362f42d5d52bf291072311409cea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_STATE_COMPLETED</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ga2617362f42d5d52bf291072311409cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd9d0a1e9c99e23fd1a3afdda72720f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacd9d0a1e9c99e23fd1a3afdda72720f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_STATE_FAILED</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:gacd9d0a1e9c99e23fd1a3afdda72720f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -566,10 +571,6 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="separator:ga4490c368f8c999c9442fb7a881ceca2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1d89e7a6646daf642d08c62a15733603"><td class="memItemLeft" ><a class="anchor" id="ga1d89e7a6646daf642d08c62a15733603"></a>
 struct {</td></tr>
-<tr class="memitem:a685ae33c442d30cc507fa5415f536e74"><td class="memItemLeft" ><a class="anchor" id="a685ae33c442d30cc507fa5415f536e74"></a>
-&#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__models_8h.html#a685ae33c442d30cc507fa5415f536e74">company_id</a></td></tr>
-<tr class="memdesc:a685ae33c442d30cc507fa5415f536e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">company ID <br /></td></tr>
-<tr class="separator:a685ae33c442d30cc507fa5415f536e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745d4432e611379bd49b546f2896e047"><td class="memItemLeft" ><a class="anchor" id="a745d4432e611379bd49b546f2896e047"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__models_8h.html#a745d4432e611379bd49b546f2896e047">fw_id_len</a></td></tr>
 <tr class="memdesc:a745d4432e611379bd49b546f2896e047"><td class="mdescLeft">&#160;</td><td class="mdescRight">length of firmware id stored in fw_id <br /></td></tr>
@@ -618,6 +619,9 @@ wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_me
 <tr class="memitem:ga4d7fd5e0cd05572355099d207dfbb944"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#ga4d7fd5e0cd05572355099d207dfbb944">wiced_bt_mesh_model_property_client_send_property_set</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, <a class="el" href="structwiced__bt__mesh__property__set__data__t.html">wiced_bt_mesh_property_set_data_t</a> *p_sata)</td></tr>
 <tr class="memdesc:ga4d7fd5e0cd05572355099d207dfbb944"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can call this function to send Property Set client message to the server.  <a href="#ga4d7fd5e0cd05572355099d207dfbb944">More...</a><br /></td></tr>
 <tr class="separator:ga4d7fd5e0cd05572355099d207dfbb944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c9c73f78bec9ff89bf85e9c3d9aabb4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#ga2c9c73f78bec9ff89bf85e9c3d9aabb4">wiced_bt_mesh_blob_transfer_client_get_node_status</a> (uint16_t unicast_addr, uint8_t *p_state, uint8_t *p_progress)</td></tr>
+<tr class="memdesc:ga2c9c73f78bec9ff89bf85e9c3d9aabb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Client Get Node Status.  <a href="#ga2c9c73f78bec9ff89bf85e9c3d9aabb4">More...</a><br /></td></tr>
+<tr class="separator:ga2c9c73f78bec9ff89bf85e9c3d9aabb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Following macros can be used instantiate the mesh models</h2></td></tr>
@@ -681,8 +685,10 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh
 <tr class="separator:ga86fddab90d1232eb838c6a63a45e579c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab5a163a8f35a13194bba2edb0a3b2478"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_FW_UPDATE_SERVER</b></td></tr>
 <tr class="separator:gab5a163a8f35a13194bba2edb0a3b2478"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ad84d9ea644f45539807a0ed01a507c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_FW_DISTRIBUTION_SERVER</b></td></tr>
-<tr class="separator:ga8ad84d9ea644f45539807a0ed01a507c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2850219bc393de13679dae4d023736ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_FW_DISTRIBUTOR</b></td></tr>
+<tr class="separator:ga2850219bc393de13679dae4d023736ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06aba0e4041ff17bd9ee4474d3f61b75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_FW_DISTRIBUTOR_UPDATE_SERVER</b></td></tr>
+<tr class="separator:ga06aba0e4041ff17bd9ee4474d3f61b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4665d11891c8413d0722fbbf4de91927"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#ga4665d11891c8413d0722fbbf4de91927">WICED_BT_MESH_MODEL_LEVEL_CLIENT</a>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_GENERIC_LEVEL_CLNT, <a class="el" href="group__wiced__bt__mesh__level__client.html#gad4d3d3fa26e25ba2a43c461040bfcd3c">wiced_bt_mesh_model_level_client_message_handler</a>, NULL, NULL }</td></tr>
 <tr class="memdesc:ga4665d11891c8413d0722fbbf4de91927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Level Client Device.  <a href="#ga4665d11891c8413d0722fbbf4de91927">More...</a><br /></td></tr>
 <tr class="separator:ga4665d11891c8413d0722fbbf4de91927"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -725,9 +731,9 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh
 <tr class="memitem:gac2a8538754fda1e9016755588370b455"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac2a8538754fda1e9016755588370b455"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_FW_UPDATE_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_UPDATE_CLNT, <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_model_fw_update_client_message_handler</a>, NULL, NULL }</td></tr>
 <tr class="separator:gac2a8538754fda1e9016755588370b455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52f651ea6f561fe96312274e16c4ae3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga52f651ea6f561fe96312274e16c4ae3c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_OBJ_TRANSFER_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_OBJ_TRANSFER_CLNT, <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#gae17b0165f7043c946387114d61cf1015">wiced_bt_mesh_model_obj_transfer_client_message_handler</a>, NULL, NULL }</td></tr>
-<tr class="separator:ga52f651ea6f561fe96312274e16c4ae3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f852d3c0d7758c990828683593e4847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7f852d3c0d7758c990828683593e4847"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_BLOB_TRANSFER_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_CLNT, <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_model_blob_transfer_client_message_handler</a>, NULL, NULL }</td></tr>
+<tr class="separator:ga7f852d3c0d7758c990828683593e4847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Battery Presence Flags</h2></td></tr>
@@ -987,20 +993,44 @@ Battery Service Required State Flags</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga8ad84d9ea644f45539807a0ed01a507c"></a>
+<a class="anchor" id="ga2850219bc393de13679dae4d023736ca"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_MODEL_FW_DISTRIBUTION_SERVER</td>
+          <td class="memname">#define WICED_BT_MESH_MODEL_FW_DISTRIBUTOR</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_DISTRIBUTION_SRV, <a class="code" href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_model_fw_distribution_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_UPDATE_CLNT, <a class="code" href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_model_fw_update_client_message_handler</a>, NULL, NULL }, \</div>
-<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_OBJ_TRANSFER_CLNT, <a class="code" href="group__wiced__bt__mesh__obj__transfer__client.html#gae17b0165f7043c946387114d61cf1015">wiced_bt_mesh_model_obj_transfer_client_message_handler</a>, NULL, NULL }</div>
-<div class="ttc" id="group__wiced__bt__mesh__obj__transfer__client_html_gae17b0165f7043c946387114d61cf1015"><div class="ttname"><a href="group__wiced__bt__mesh__obj__transfer__client.html#gae17b0165f7043c946387114d61cf1015">wiced_bt_mesh_model_obj_transfer_client_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_obj_transfer_client_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Object Transfer Client Message Handler. </div></div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_SRV, <a class="code" href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a>, NULL, NULL }, \</div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_CLNT, <a class="code" href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_model_blob_transfer_client_message_handler</a>, NULL, NULL }</div>
+<div class="ttc" id="group__wiced__bt__mesh__blob__transfer__server_html_gad3c5732aa8b11e7a677caebd2147f457"><div class="ttname"><a href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_blob_transfer_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">BLOB Transfer Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__fw__distribution__server_html_gac187dc0bbf551ca88309c324bad71835"><div class="ttname"><a href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_model_fw_distribution_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_distribution_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Firmware Distribution Server Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__blob__transfer__client_html_ga970e96a3993ea320fc89e5054b5e0a0b"><div class="ttname"><a href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_model_blob_transfer_client_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_blob_transfer_client_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">BLOB Transfer Client Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__fw__update__client_html_ga703d477f0730b0804ba9bb804e259ddc"><div class="ttname"><a href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_model_fw_update_client_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_update_client_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Generic Level Client Message Handler. </div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ga06aba0e4041ff17bd9ee4474d3f61b75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_MODEL_FW_DISTRIBUTOR_UPDATE_SERVER</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_DISTRIBUTION_SRV, <a class="code" href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_model_fw_distribution_server_message_handler</a>, NULL, NULL }, \</div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_UPDATE_CLNT, <a class="code" href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_model_fw_update_client_message_handler</a>, NULL, NULL }, \</div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_UPDATE_SRV, <a class="code" href="group__wiced__bt__mesh__fw__update__server.html#gac41f8fc777d1f9a1f40d6008d92fa4a2">wiced_bt_mesh_model_fw_update_server_message_handler</a>, NULL, NULL }, \</div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_CLNT, <a class="code" href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_model_blob_transfer_client_message_handler</a>, NULL, NULL }, \</div>
+<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_SRV, <a class="code" href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a>, NULL, NULL }</div>
+<div class="ttc" id="group__wiced__bt__mesh__fw__update__server_html_gac41f8fc777d1f9a1f40d6008d92fa4a2"><div class="ttname"><a href="group__wiced__bt__mesh__fw__update__server.html#gac41f8fc777d1f9a1f40d6008d92fa4a2">wiced_bt_mesh_model_fw_update_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_update_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Firmware Update Server Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__blob__transfer__server_html_gad3c5732aa8b11e7a677caebd2147f457"><div class="ttname"><a href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_blob_transfer_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">BLOB Transfer Server Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__fw__distribution__server_html_gac187dc0bbf551ca88309c324bad71835"><div class="ttname"><a href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_model_fw_distribution_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_distribution_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Firmware Distribution Server Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__blob__transfer__client_html_ga970e96a3993ea320fc89e5054b5e0a0b"><div class="ttname"><a href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_model_blob_transfer_client_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_blob_transfer_client_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">BLOB Transfer Client Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__fw__update__client_html_ga703d477f0730b0804ba9bb804e259ddc"><div class="ttname"><a href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_model_fw_update_client_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_update_client_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Generic Level Client Message Handler. </div></div>
 </div><!-- fragment -->
 </div>
@@ -1014,10 +1044,10 @@ Battery Service Required State Flags</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_OBJ_TRANSFER_SRV, <a class="code" href="group__wiced__bt__mesh__obj__transfer__server.html#ga112593c34b1cfe60727bacae85331f61">wiced_bt_mesh_model_obj_transfer_server_message_handler</a>, NULL, NULL }, \</div>
+<b>Value:</b><div class="fragment"><div class="line">{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_SRV, <a class="code" href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_FW_UPDATE_SRV, <a class="code" href="group__wiced__bt__mesh__fw__update__server.html#gac41f8fc777d1f9a1f40d6008d92fa4a2">wiced_bt_mesh_model_fw_update_server_message_handler</a>, NULL, NULL }</div>
 <div class="ttc" id="group__wiced__bt__mesh__fw__update__server_html_gac41f8fc777d1f9a1f40d6008d92fa4a2"><div class="ttname"><a href="group__wiced__bt__mesh__fw__update__server.html#gac41f8fc777d1f9a1f40d6008d92fa4a2">wiced_bt_mesh_model_fw_update_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_fw_update_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Firmware Update Server Message Handler. </div></div>
-<div class="ttc" id="group__wiced__bt__mesh__obj__transfer__server_html_ga112593c34b1cfe60727bacae85331f61"><div class="ttname"><a href="group__wiced__bt__mesh__obj__transfer__server.html#ga112593c34b1cfe60727bacae85331f61">wiced_bt_mesh_model_obj_transfer_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_obj_transfer_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Object Transfer Server Message Handler. </div></div>
+<div class="ttc" id="group__wiced__bt__mesh__blob__transfer__server_html_gad3c5732aa8b11e7a677caebd2147f457"><div class="ttname"><a href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_model_blob_transfer_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_blob_transfer_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">BLOB Transfer Server Message Handler. </div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1362,6 +1392,50 @@ Battery Service Required State Flags</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga2c9c73f78bec9ff89bf85e9c3d9aabb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_mesh_blob_transfer_client_get_node_status </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>unicast_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_progress</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BLOB Transfer Client Get Node Status. </p>
+<p>A client model above BLOB Transfer Client or an application can call this function to retrieve status of a node. The function executes and returns results syncronously.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unicast_addr</td><td>Address of the node (BLOB Transfer Server) </td></tr>
+    <tr><td class="paramname">p_state</td><td>Pointer to return the node state </td></tr>
+    <tr><td class="paramname">p_progress</td><td>Pointer to return the transfer progress (if in active state, otherwise return 0)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE if node exist </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gadadea936ad14f7ecdef0e8419eda2934"></a>
 <div class="memitem">
 <div class="memproto">

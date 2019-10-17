@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: Globals</title>
+<title>Cypress WICED CYW20721: Globals</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -81,6 +81,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
       <li><a href="globals_func.html#index__"><span>_</span></a></li>
+      <li><a href="globals_func_m.html#index_m"><span>m</span></a></li>
       <li><a href="globals_func_p.html#index_p"><span>p</span></a></li>
       <li><a href="globals_func_s.html#index_s"><span>s</span></a></li>
       <li><a href="globals_func_t.html#index_t"><span>t</span></a></li>
@@ -786,6 +787,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_ble_verify_signature()
 : <a class="el" href="group__btm__ble__api__functions.html#ga771629322c842c541611d928ad128a40">wiced_bt_ble.h</a>
 </li>
+<li>wiced_bt_buffer_poolutilization()
+: <a class="el" href="group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2">wiced_memory.h</a>
+</li>
 <li>wiced_bt_cancel_inquiry()
 : <a class="el" href="group__wicedbt__bredr.html#ga43c56d1d7a8b08e7766817fc798b7067">wiced_bt_dev.h</a>
 </li>
@@ -899,6 +903,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_dev_set_sniff_subrating()
 : <a class="el" href="group__wicedbt__bredr.html#gae25ed058e78ce94a0884a6d62d1d1b8e">wiced_bt_dev.h</a>
+</li>
+<li>wiced_bt_dev_set_tx_power_table_offset()
+: <a class="el" href="wiced__bt__dev_8h.html#afcc841b65ce78e3653a06af3a0d4b66d">wiced_bt_dev.h</a>
 </li>
 <li>wiced_bt_dev_set_vse_callback_num()
 : <a class="el" href="wiced__bt__dev_8h.html#aef59e1cac952c1fe027d71eae960c473">wiced_bt_dev.h</a>
@@ -1275,6 +1282,15 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_battery_server_send_status()
 : <a class="el" href="group__wiced__bt__mesh__battery__server.html#gaf8305491af7a945d77439e1e4cfd1a33">wiced_bt_mesh_models.h</a>
 </li>
+<li>wiced_bt_mesh_blob_transfer_client_get_info()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#gaa8e184e88edd496f3aaf1dc182a8fe76">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_blob_transfer_client_get_node_status()
+: <a class="el" href="group__wiced__bt__mesh__models.html#ga2c9c73f78bec9ff89bf85e9c3d9aabb4">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_blob_transfer_client_get_status()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga950a8208e748cd240a618636b5a3fb5e">wiced_bt_mesh_models.h</a>
+</li>
 <li>wiced_bt_mesh_client_init()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga9366e77c599dbef0e726e54c2da38440">wiced_bt_mesh_provision.h</a>
 </li>
@@ -1415,6 +1431,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_core_crypt()
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga9580d0f3619961a4013a546684fae1d7">wiced_bt_mesh_core.h</a>
 </li>
+<li>wiced_bt_mesh_core_del_last_element()
+: <a class="el" href="group__wiced__bt__mesh__core.html#gaaedb278521314ff08d00126ac573515d">wiced_bt_mesh_core.h</a>
+</li>
 <li>wiced_bt_mesh_core_del_seq()
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga7e86f4756b92b621d1202fbecd7e8f00">wiced_bt_mesh_core.h</a>
 </li>
@@ -1435,6 +1454,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_mesh_core_lpn_get_friend_addr()
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga5c51b8d2c5fc488a83b9d3fd488d3e45">wiced_bt_mesh_core.h</a>
+</li>
+<li>wiced_bt_mesh_core_needs_composition_refresh()
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga22380210a6e0d18c705961dcec9783ad">wiced_bt_mesh_core.h</a>
 </li>
 <li>wiced_bt_mesh_core_provision_gatt_packet()
 : <a class="el" href="group__wiced__bt__mesh__core.html#gae7a9b773b1540e81c3d817279505c0e0">wiced_bt_mesh_core.h</a>
@@ -1499,11 +1521,8 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_create_reply_event()
 : <a class="el" href="group__wiced__bt__mesh__core.html#gaccd6185e2edfb1a91692727fef0da12a">wiced_bt_mesh_event.h</a>
 </li>
-<li>wiced_bt_mesh_fw_provider_get_detailed_status()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga6da86a9a1cf0696d0b14e573a9e0667a">wiced_bt_mesh_provision.h</a>
-</li>
 <li>wiced_bt_mesh_fw_provider_get_status()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga82d5e9eb8527733c285712eca24ae380">wiced_bt_mesh_provision.h</a>
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga00d132d53bba9a40c17c46da47d0dd69">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_fw_provider_start()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gaface74b5d9bb0bc7044d870367b643f6">wiced_bt_mesh_provision.h</a>
@@ -1559,6 +1578,33 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_battery_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__battery__server.html#gad2e1906984d49ae51d8c4dd50f6f9ac4">wiced_bt_mesh_models.h</a>
 </li>
+<li>wiced_bt_mesh_model_blob_transfer_abort()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gadd00ed24a80efe83f825eba702f4dc1f">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_client_abort()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#gadb66cc8f9123a9954cf86c98150b0823">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_client_init()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#gaa5d49be30056cd0d8c3b47b8dd85e929">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_client_message_handler()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_client_phase_get()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga5591f3fd7520f5d4bf540fdf9b07ef89">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_client_start()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga8e3d704f1d2589261b666d82a18b65b5">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_prepare()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gafb1ddeb5daf31688dbacd29210efdaa4">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_server_init()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gabc73617d9a2f82b5461189a4fb1f377c">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_server_message_handler()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gad3c5732aa8b11e7a677caebd2147f457">wiced_bt_mesh_models.h</a>
+</li>
 <li>wiced_bt_mesh_model_client_property_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__models.html#gab4ab2ce6eb5e4bf979c11e352d206e3f">wiced_bt_mesh_models.h</a>
 </li>
@@ -1585,9 +1631,6 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_mesh_model_fw_distribution_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_provider_details_list_get()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga47bfda533c18be58e41b5218d21d9b3b">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_model_fw_provider_init()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga35543c6f8cda959cb2cc3f9800d10234">wiced_bt_mesh_provision.h</a>
@@ -1982,33 +2025,6 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_manufacturer_property_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__models.html#gab74a3871693811ae897a7d80d8e3f93a">wiced_bt_mesh_models.h</a>
 </li>
-<li>wiced_bt_mesh_model_obj_transfer_abort()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__server.html#ga6bbf40492cf1a7938445ef4fb14577df">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_client_abort()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#ga66ade77d960fe1ce449255138ea7b697">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_client_init()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#ga75478675a52e84f94dfae14cd10c9470">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_client_message_handler()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#gae17b0165f7043c946387114d61cf1015">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_client_phase_get()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#ga68c7eb47978463bfcf8c969d9010d30f">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_client_start()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#ga970703d3b0d31aa551498424091b055a">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_prepare()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__server.html#ga243269d802feb4ae2e8b057e47b828e7">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_server_init()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__server.html#gadcf93c9b47de0929608bb843ebfe8c6b">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_obj_transfer_server_message_handler()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__server.html#ga112593c34b1cfe60727bacae85331f61">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_model_onoff_changed()
 : <a class="el" href="group__wiced__bt__mesh__onoff__server.html#gaac632b3bcb0f941d86d1f4d0b9d92b2e">wiced_bt_mesh_models.h</a>
 </li>
@@ -2285,12 +2301,6 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_user_property_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__models.html#ga1df6c7ca36c15004c84a759c6a8728ad">wiced_bt_mesh_models.h</a>
 </li>
-<li>wiced_bt_mesh_object_transfer_client_get_info()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#gab0c3f817a96b204677a6a550b10d93f4">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_object_transfer_client_get_status()
-: <a class="el" href="group__wiced__bt__mesh__obj__transfer__client.html#ga4e05da95825b7fca2072e15874059bf0">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_provision_client_init()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56">wiced_bt_mesh_provision.h</a>
 </li>
@@ -2301,8 +2311,8 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gabbbf8f95b4a89f82e4c9b420993a2766">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_disconnect()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga06c7244e2e167ae29995e8ff6da58c36">wiced_bt_mesh_provision.h</a>
-, <a class="el" href="group__wiced__bt__mesh__client.html#ga06c7244e2e167ae29995e8ff6da58c36">wiced_bt_mesh_client.h</a>
+: <a class="el" href="group__wiced__bt__mesh__client.html#ga06c7244e2e167ae29995e8ff6da58c36">wiced_bt_mesh_client.h</a>
+, <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga06c7244e2e167ae29995e8ff6da58c36">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_local_device_set()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga892eb2fb45d11b31505feaa2a363a2da">wiced_bt_mesh_provision.h</a>
@@ -2457,6 +2467,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_sco_create_as_acceptor()
 : <a class="el" href="group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8">wiced_bt_sco.h</a>
+</li>
+<li>wiced_bt_sco_create_as_acceptor_with_specific_ag()
+: <a class="el" href="group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85">wiced_bt_sco.h</a>
 </li>
 <li>wiced_bt_sco_create_as_initiator()
 : <a class="el" href="group__sco__api__functions.html#gad3c0ea63212a9cca3b0b668d7e392288">wiced_bt_sco.h</a>
@@ -2884,6 +2897,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_hal_pspi_tx_data()
 : <a class="el" href="group___peripheral_spi_driver.html#ga42d75e18b20f8014932bd4fd6416c0c7">wiced_hal_pspi.h</a>
 </li>
+<li>wiced_hal_puart_configuration()
+: <a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart.h</a>
+</li>
 <li>wiced_hal_puart_disable_tx()
 : <a class="el" href="group___p_u_a_r_t_driver.html#ga0345acfe70d2bb2e1894031f0ad442f8">wiced_hal_puart.h</a>
 </li>
@@ -2921,7 +2937,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group___p_u_a_r_t_driver.html#ga9143850038b8d3326a0850bba91810de">wiced_hal_puart.h</a>
 </li>
 <li>wiced_hal_puart_set_baudrate()
-: <a class="el" href="group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925">wiced_hal_puart.h</a>
+: <a class="el" href="group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c">wiced_hal_puart.h</a>
 </li>
 <li>wiced_hal_puart_set_watermark_level()
 : <a class="el" href="group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a">wiced_hal_puart.h</a>
@@ -2988,6 +3004,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_hal_wdog_disable()
 : <a class="el" href="group___watchdog_interface.html#gad45001891199d229974743de69baee0a">wiced_hal_wdog.h</a>
+</li>
+<li>wiced_hal_wdog_enable_application_wdog()
+: <a class="el" href="group___watchdog_interface.html#ga5b3f06b7454dbb5e1082dd5e863242f1">wiced_hal_wdog.h</a>
 </li>
 <li>wiced_hal_wdog_reset_system()
 : <a class="el" href="group___watchdog_interface.html#ga4627effaec0c10bbb5db7919043755a6">wiced_hal_wdog.h</a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX API Reference Guide: HIDD Library API</title>
+<title>Cypress WICED CYW208XX: HIDD Library API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -130,7 +130,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga028f51d38d4a6c395278aa16b7f3fa89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga028f51d38d4a6c395278aa16b7f3fa89">wiced_hidd_event_queue_remove_current_element</a> (<a class="el" href="structwiced__hidd__app__event__queue__t.html">wiced_hidd_app_event_queue_t</a> *theq)</td></tr>
 <tr class="memdesc:ga028f51d38d4a6c395278aa16b7f3fa89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the current element from the queue.  <a href="#ga028f51d38d4a6c395278aa16b7f3fa89">More...</a><br /></td></tr>
 <tr class="separator:ga028f51d38d4a6c395278aa16b7f3fa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab35295a9227dd8667a99fffc29a50c5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gab35295a9227dd8667a99fffc29a50c5e">wiced_hidd_event_queue_add_event_with_overflow</a> (<a class="el" href="structwiced__hidd__app__event__queue__t.html">wiced_hidd_app_event_queue_t</a> *theq, <a class="el" href="group___hid_events.html#ga14d2ac54f507a340ea37abc3af47541b">HidEvent</a> *event, uint8_t len, uint8_t pollSeqn)</td></tr>
+<tr class="memitem:gab35295a9227dd8667a99fffc29a50c5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gab35295a9227dd8667a99fffc29a50c5e">wiced_hidd_event_queue_add_event_with_overflow</a> (<a class="el" href="structwiced__hidd__app__event__queue__t.html">wiced_hidd_app_event_queue_t</a> *theq, <a class="el" href="group___hid_events.html#ga14d2ac54f507a340ea37abc3af47541b">HidEvent</a> *event, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, uint8_t pollSeqn)</td></tr>
 <tr class="memdesc:gab35295a9227dd8667a99fffc29a50c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue the given event into the event fifo.  <a href="#gab35295a9227dd8667a99fffc29a50c5e">More...</a><br /></td></tr>
 <tr class="separator:gab35295a9227dd8667a99fffc29a50c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad290568b4d425c45c6ba6d67d5817b95"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad290568b4d425c45c6ba6d67d5817b95">wiced_hidd_get_current_native_bt_clock</a> (void)</td></tr>
@@ -178,10 +178,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8e927247ea56012e9043ce05689ca96c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga8e927247ea56012e9043ce05689ca96c">wiced_blehidd_register_report_table</a> (<a class="el" href="structwiced__blehidd__report__gatt__characteristic__t.html">wiced_blehidd_report_gatt_characteristic_t</a> *table, uint32_t num)</td></tr>
 <tr class="memdesc:ga8e927247ea56012e9043ce05689ca96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">register HID report table for sending and receiving  <a href="#ga8e927247ea56012e9043ce05689ca96c">More...</a><br /></td></tr>
 <tr class="separator:ga8e927247ea56012e9043ce05689ca96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad4b4a117edf4fad1932fdc7ef1f5e332"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad4b4a117edf4fad1932fdc7ef1f5e332">wiced_blehidd_send_report</a> (uint16_t gatts_conn_id, uint8_t reportID, wiced_hidd_report_type_t reportType, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint8_t length)</td></tr>
+<tr class="memitem:gad4b4a117edf4fad1932fdc7ef1f5e332"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad4b4a117edf4fad1932fdc7ef1f5e332">wiced_blehidd_send_report</a> (uint16_t gatts_conn_id, uint8_t reportID, wiced_hidd_report_type_t reportType, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, uint8_t length)</td></tr>
 <tr class="memdesc:gad4b4a117edf4fad1932fdc7ef1f5e332"><td class="mdescLeft">&#160;</td><td class="mdescRight">send HID report as GATT notification  <a href="#gad4b4a117edf4fad1932fdc7ef1f5e332">More...</a><br /></td></tr>
 <tr class="separator:gad4b4a117edf4fad1932fdc7ef1f5e332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gaeb5b40597fba02091bf70aa3c8c02d2f">wiced_blehidd_write_handler</a> (void *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>)</td></tr>
+<tr class="memitem:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gaeb5b40597fba02091bf70aa3c8c02d2f">wiced_blehidd_write_handler</a> (void *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>)</td></tr>
 <tr class="memdesc:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle GATT write cmd/req for HID reports.  <a href="#gaeb5b40597fba02091bf70aa3c8c02d2f">More...</a><br /></td></tr>
 <tr class="separator:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad086c02399d249f94c0076bb406d7b94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad086c02399d249f94c0076bb406d7b94">wiced_blehidd_pwm_buz_init</a> (uint8_t gpio, uint8_t offVal)</td></tr>

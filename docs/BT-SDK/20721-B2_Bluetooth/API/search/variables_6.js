@@ -44,7 +44,6 @@ var searchData=
   ['friend_5fcfg',['friend_cfg',['../wiced__bt__mesh__cfg_8h.html#afdedfc25df1eb073867c1e82a3406c27',1,'wiced_bt_mesh_cfg.h']]],
   ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]],
   ['function',['function',['../structbutton__event__message__t.html#a1abdc60a9d65aaf0e2825977d9642198',1,'button_event_message_t']]],
-  ['functionality',['functionality',['../structwiced__platform__gpio__t.html#a24dae43a4c1c31a4e706e56ab656a789',1,'wiced_platform_gpio_t']]],
   ['fw_5fid',['fw_id',['../wiced__bt__mesh__models_8h.html#a497e938c436146db4bcea782144269a8',1,'fw_id():&#160;wiced_bt_mesh_models.h'],['../wiced__bt__mesh__provision_8h.html#a497e938c436146db4bcea782144269a8',1,'fw_id():&#160;wiced_bt_mesh_provision.h']]],
   ['fw_5fid_5flen',['fw_id_len',['../wiced__bt__mesh__models_8h.html#a745d4432e611379bd49b546f2896e047',1,'fw_id_len():&#160;wiced_bt_mesh_models.h'],['../wiced__bt__mesh__provision_8h.html#a745d4432e611379bd49b546f2896e047',1,'fw_id_len():&#160;wiced_bt_mesh_provision.h']]]
 ];

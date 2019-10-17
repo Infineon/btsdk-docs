@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20719 API Reference Guide: wiced_hal_lpm.h File Reference</title>
+<title>Cypress WICED CYW20719: wiced_hal_lpm.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
       <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
@@ -126,17 +127,17 @@ typedef enum <br class="typebreak" />
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:abc6126af1d45847bc59afa0aa3216b04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04acabdd83d017e1a6c8d49f1ed7d927915">WICED_BT_LPM_WAKE_SOURCE_GPIO</a> = (1 &lt;&lt; 8), 
-<a class="el" href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04a4102fcb4d36899e523055d0bb01a7698">WICED_BT_LPM_WAKE_SOURCE_LHL</a> = WICED_BT_LPM_WAKE_SOURCE_GPIO, 
-<a class="el" href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04aee1cc866617f78b47e5cf85e78cc1c9d">WICED_BT_LPM_WAKE_SOURCE_KEYSCAN</a> = (1 &lt;&lt; 6), 
-<a class="el" href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04a11d18da6eeb4ffff78baed6eb931ff50">WICED_BT_LPM_WAKE_SOURCE_QUAD</a> = (1 &lt;&lt; 7), 
+<tr class="memitem:abed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600acabdd83d017e1a6c8d49f1ed7d927915">WICED_BT_LPM_WAKE_SOURCE_GPIO</a> = (1 &lt;&lt; 8), 
+<a class="el" href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600a4102fcb4d36899e523055d0bb01a7698">WICED_BT_LPM_WAKE_SOURCE_LHL</a> = WICED_BT_LPM_WAKE_SOURCE_GPIO, 
+<a class="el" href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600aee1cc866617f78b47e5cf85e78cc1c9d">WICED_BT_LPM_WAKE_SOURCE_KEYSCAN</a> = (1 &lt;&lt; 6), 
+<a class="el" href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600a11d18da6eeb4ffff78baed6eb931ff50">WICED_BT_LPM_WAKE_SOURCE_QUAD</a> = (1 &lt;&lt; 7), 
 <br />
-&#160;&#160;<a class="el" href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04ad3abc332e51ead7a529a35d4e3c26b37">WICED_BT_LPM_WAKE_SOURCE_MASK</a> = (WICED_BT_LPM_WAKE_SOURCE_GPIO | WICED_BT_LPM_WAKE_SOURCE_KEYSCAN | WICED_BT_LPM_WAKE_SOURCE_QUAD)
+&#160;&#160;<a class="el" href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600ad3abc332e51ead7a529a35d4e3c26b37">WICED_BT_LPM_WAKE_SOURCE_MASK</a> = (WICED_BT_LPM_WAKE_SOURCE_GPIO | WICED_BT_LPM_WAKE_SOURCE_KEYSCAN | WICED_BT_LPM_WAKE_SOURCE_QUAD)
 <br />
  }</td></tr>
-<tr class="memdesc:abc6126af1d45847bc59afa0aa3216b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wake up sources.  <a href="wiced__hal__lpm_8h.html#abc6126af1d45847bc59afa0aa3216b04">More...</a><br /></td></tr>
-<tr class="separator:abc6126af1d45847bc59afa0aa3216b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:abed82baf7f470b522273a3e37c24c600"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wake up sources.  <a href="wiced__hal__lpm_8h.html#abed82baf7f470b522273a3e37c24c600">More...</a><br /></td></tr>
+<tr class="separator:abed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886091abbf0ab8457b8d3c0306adf5f6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6">wiced_bt_lpm_poll_type_e</a> { <a class="el" href="wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6a7e2562846d0c3e9bd7d98a2ebba77df6">WICED_BT_LOW_POWER_MODE_POLL_TYPE_SLEEP</a> = 0, 
 <a class="el" href="wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6af2a6decc4cb27ffb57aa329b75f7d63f">WICED_BT_LOW_POWER_MODE_POLL_TYPE_SDS</a> = 2
  }</td></tr>
@@ -156,7 +157,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1c1e6aa3206abe12b1e93cefaaf83f95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a1c1e6aa3206abe12b1e93cefaaf83f95">wiced_hal_lpm_enable_wake_from</a> (uint32_t sources)</td></tr>
 <tr class="memdesc:a1c1e6aa3206abe12b1e93cefaaf83f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables wake up from the given sources.  <a href="#a1c1e6aa3206abe12b1e93cefaaf83f95">More...</a><br /></td></tr>
 <tr class="separator:a1c1e6aa3206abe12b1e93cefaaf83f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2aa6526d7b3ef8051aa4aa3544d4a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#aca2aa6526d7b3ef8051aa4aa3544d4a6">wiced_hal_lpm_register_for_wake_notification</a> (uint8_t(*fn)(void *), void *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>)</td></tr>
+<tr class="memitem:aca2aa6526d7b3ef8051aa4aa3544d4a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#aca2aa6526d7b3ef8051aa4aa3544d4a6">wiced_hal_lpm_register_for_wake_notification</a> (uint8_t(*fn)(void *), void *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>)</td></tr>
 <tr class="memdesc:aca2aa6526d7b3ef8051aa4aa3544d4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows an application to register for wake notification that the wake source are enabled by <a class="el" href="wiced__hal__lpm_8h.html#a1c1e6aa3206abe12b1e93cefaaf83f95" title="Enables wake up from the given sources. ">wiced_hal_lpm_enable_wake_from(uint32_t sources)</a>.  <a href="#aca2aa6526d7b3ef8051aa4aa3544d4a6">More...</a><br /></td></tr>
 <tr class="separator:aca2aa6526d7b3ef8051aa4aa3544d4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81e89d52d4b512d9be3f6e8ddc85c98"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#ad81e89d52d4b512d9be3f6e8ddc85c98">wiced_hal_lpm_register_for_low_power_queries</a> (<a class="el" href="wiced__hal__lpm_8h.html#a8fff2726c049c232690b971cf7af6c22">wiced_bt_lpm_callback_fp</a> callback, uint32_t context)</td></tr>
@@ -183,7 +184,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04"></a>
+<a class="anchor" id="abed82baf7f470b522273a3e37c24c600"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -195,19 +196,19 @@ Functions</h2></td></tr>
 
 <p>The wake up sources. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04acabdd83d017e1a6c8d49f1ed7d927915"></a>WICED_BT_LPM_WAKE_SOURCE_GPIO&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="abed82baf7f470b522273a3e37c24c600acabdd83d017e1a6c8d49f1ed7d927915"></a>WICED_BT_LPM_WAKE_SOURCE_GPIO&#160;</td><td class="fielddoc">
 <p>Wake from GPIO. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04a4102fcb4d36899e523055d0bb01a7698"></a>WICED_BT_LPM_WAKE_SOURCE_LHL&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="abed82baf7f470b522273a3e37c24c600a4102fcb4d36899e523055d0bb01a7698"></a>WICED_BT_LPM_WAKE_SOURCE_LHL&#160;</td><td class="fielddoc">
 <p>Wake from LHL is the same as waking from GPIO. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04aee1cc866617f78b47e5cf85e78cc1c9d"></a>WICED_BT_LPM_WAKE_SOURCE_KEYSCAN&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="abed82baf7f470b522273a3e37c24c600aee1cc866617f78b47e5cf85e78cc1c9d"></a>WICED_BT_LPM_WAKE_SOURCE_KEYSCAN&#160;</td><td class="fielddoc">
 <p>Wake from keyscan. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04a11d18da6eeb4ffff78baed6eb931ff50"></a>WICED_BT_LPM_WAKE_SOURCE_QUAD&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="abed82baf7f470b522273a3e37c24c600a11d18da6eeb4ffff78baed6eb931ff50"></a>WICED_BT_LPM_WAKE_SOURCE_QUAD&#160;</td><td class="fielddoc">
 <p>Wake from wuadrature sensor. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04ad3abc332e51ead7a529a35d4e3c26b37"></a>WICED_BT_LPM_WAKE_SOURCE_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="abed82baf7f470b522273a3e37c24c600ad3abc332e51ead7a529a35d4e3c26b37"></a>WICED_BT_LPM_WAKE_SOURCE_MASK&#160;</td><td class="fielddoc">
 <p>All wake HID sources. </p>
 </td></tr>
 </table>
@@ -404,7 +405,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_20c552cd157059cc90a56e28149c4752.html">20719B2</a></li><li class="navelem"><a class="el" href="dir_b97fe401638e20fcc0932001c33637a4.html">include</a></li><li class="navelem"><a class="el" href="dir_d4e26cd43d6741f73164f349b9193155.html">20719</a></li><li class="navelem"><a class="el" href="dir_f48f05e9c685ef76da45b8aa11075b72.html">hal</a></li><li class="navelem"><a class="el" href="wiced__hal__lpm_8h.html">wiced_hal_lpm.h</a></li>
+    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_20c552cd157059cc90a56e28149c4752.html">20719B2</a></li><li class="navelem"><a class="el" href="dir_b97fe401638e20fcc0932001c33637a4.html">include</a></li><li class="navelem"><a class="el" href="dir_946ac350d2ff4f3f78e4a492ec3cc6e4.html">hal</a></li><li class="navelem"><a class="el" href="wiced__hal__lpm_8h.html">wiced_hal_lpm.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

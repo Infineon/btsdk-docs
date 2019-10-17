@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: wiced_hal_puart.h File Reference</title>
+<title>Cypress WICED CYW20721: wiced_hal_puart.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('wiced__hal__puart_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_hal_puart.h File Reference</div>  </div>
@@ -107,6 +108,18 @@ $(document).ready(function(){initNavTree('wiced__hal__puart_8h.html','');});
 <p>List of parameters and defined functions needed to access the Peripheral Universal Asynchronous Receiver/Transmitter (PUART) driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8c9f47bdc80c9f4db63b7bf8b1ad5290"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c9f47bdc80c9f4db63b7bf8b1ad5290"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>parity_t</b> { <b>PARITY_ODD</b>, 
+<b>PARITY_EVEN</b>, 
+<b>PARITY_NONE</b>
+ }</td></tr>
+<tr class="separator:a8c9f47bdc80c9f4db63b7bf8b1ad5290"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0958f1ec4805f6b584eb165b2c396ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0958f1ec4805f6b584eb165b2c396ea"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>stop_bit_t</b> { <b>STOP_BIT_1</b>, 
+<b>STOP_BIT_2</b>
+ }</td></tr>
+<tr class="separator:aa0958f1ec4805f6b584eb165b2c396ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga899e336f088e0b42a42dfb18099aa2ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga899e336f088e0b42a42dfb18099aa2ff">wiced_hal_puart_init</a> (void)</td></tr>
@@ -139,9 +152,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4029b09bc208b55dbba881ed4c7038c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">wiced_hal_puart_enable_rx</a> (void)</td></tr>
 <tr class="memdesc:gac4029b09bc208b55dbba881ed4c7038c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable receive capability (specifically, by enabling PUART RX interrupts through the MIA driver).  <a href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">More...</a><br /></td></tr>
 <tr class="separator:gac4029b09bc208b55dbba881ed4c7038c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07f270e7fabc6b74189f88353f863925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate)</td></tr>
-<tr class="memdesc:ga07f270e7fabc6b74189f88353f863925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925">More...</a><br /></td></tr>
-<tr class="separator:ga07f270e7fabc6b74189f88353f863925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate) <a class="el" href="struct____attribute____.html">__attribute__</a>((deprecated(&quot;Please use <a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a>()&quot;)))</td></tr>
+<tr class="memdesc:gafa330450c115f00b4fb19aa8ce710a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c">More...</a><br /></td></tr>
+<tr class="separator:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga08c6d9e0eae1c19172f09ddb4317d9d4">wiced_hal_puart_synchronous_read</a> (uint8_t *buffer, uint32_t length)</td></tr>
 <tr class="memdesc:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read in a set of bytes sequentially.  <a href="group___p_u_a_r_t_driver.html#ga08c6d9e0eae1c19172f09ddb4317d9d4">More...</a><br /></td></tr>
 <tr class="separator:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +173,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a">wiced_hal_puart_set_watermark_level</a> (uint32_t watermark_level)</td></tr>
 <tr class="memdesc:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the watermark level to the received value  <a href="group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a">More...</a><br /></td></tr>
 <tr class="separator:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab165ee1b50a45b84c706b7041017ecd4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a> (uint32_t baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
+<tr class="memdesc:gab165ee1b50a45b84c706b7041017ecd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the parity and stop bits as per received value  <a href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">More...</a><br /></td></tr>
+<tr class="separator:gab165ee1b50a45b84c706b7041017ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of parameters and defined functions needed to access the Peripheral Universal Asynchronous Receiver/Transmitter (PUART) driver. </p>

@@ -21,8 +21,6 @@ var searchData=
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
   ['gndreading',['gndReading',['../struct_adc_state.html#a8b65f0682ea489420f58953026bdded6',1,'AdcState']]],
-  ['gpio',['gpio',['../structwiced__platform__led__config__t.html#a6bf4a37c4529ea66629c217b00031029',1,'wiced_platform_led_config_t::gpio()'],['../structwiced__platform__button__config__t.html#a6bf4a37c4529ea66629c217b00031029',1,'wiced_platform_button_config_t::gpio()'],['../structwiced__platform__gpio__config__t.html#a6bf4a37c4529ea66629c217b00031029',1,'wiced_platform_gpio_config_t::gpio()']]],
-  ['gpio_5fpin',['gpio_pin',['../structwiced__platform__gpio__t.html#a271940adf7923a11b3d7db14838ce322',1,'wiced_platform_gpio_t']]],
   ['group_5faddr',['group_addr',['../wiced__bt__mesh__provision_8h.html#abafd9bffcd5412eef9458d47158b1845',1,'wiced_bt_mesh_provision.h']]],
   ['group_5flist',['group_list',['../structwiced__bt__mesh__event____t.html#a34d36841c40e58287b383920f7227e38',1,'wiced_bt_mesh_event__t']]],
   ['group_5fsize',['group_size',['../wiced__bt__mesh__provision_8h.html#abb148898d98fe1f086dbc9f87f0f5c3b',1,'wiced_bt_mesh_provision.h']]],

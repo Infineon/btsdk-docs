@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: wiced_bt_sco.h File Reference</title>
+<title>Cypress WICED CYW20721: wiced_bt_sco.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -121,6 +121,18 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a49d734e161b737d295da9de4fa72a727"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49d734e161b737d295da9de4fa72a727"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_ACCEPT</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a49d734e161b737d295da9de4fa72a727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02079c0bf5602a19c6d2c05c4f1626b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02079c0bf5602a19c6d2c05c4f1626b2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_RESOURCES</b>&#160;&#160;&#160;0x0D</td></tr>
+<tr class="separator:a02079c0bf5602a19c6d2c05c4f1626b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961d131fe75c05d30b53b74078cd2dba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a961d131fe75c05d30b53b74078cd2dba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_SECURITY</b>&#160;&#160;&#160;0x0E</td></tr>
+<tr class="separator:a961d131fe75c05d30b53b74078cd2dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e375ab538464fd21b95caa3890056a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e375ab538464fd21b95caa3890056a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_DEVICE</b>&#160;&#160;&#160;0x0F</td></tr>
+<tr class="separator:a2e375ab538464fd21b95caa3890056a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3814708e5171cbf34f1bfee832f4e02e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3814708e5171cbf34f1bfee832f4e02e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_INVALID_SCO_INDEX</b>&#160;&#160;&#160;0xFFFF</td></tr>
 <tr class="separator:a3814708e5171cbf34f1bfee832f4e02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +186,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaba857121768256e41d47bb56eab560b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8">wiced_bt_sco_create_as_acceptor</a> (uint16_t *p_sco_index)</td></tr>
 <tr class="memdesc:gaba857121768256e41d47bb56eab560b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_create_as_acceptor.  <a href="group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8">More...</a><br /></td></tr>
 <tr class="separator:gaba857121768256e41d47bb56eab560b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71bacb02b232d6368b31e61624a69e85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85">wiced_bt_sco_create_as_acceptor_with_specific_ag</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> ag_addr, uint16_t *p_sco_index)</td></tr>
+<tr class="memdesc:ga71bacb02b232d6368b31e61624a69e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_create_as_acceptor.  <a href="group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85">More...</a><br /></td></tr>
+<tr class="separator:ga71bacb02b232d6368b31e61624a69e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0fba642e9f6ed365e385457be01e4e15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga0fba642e9f6ed365e385457be01e4e15">wiced_bt_sco_remove</a> (uint16_t sco_index)</td></tr>
 <tr class="memdesc:ga0fba642e9f6ed365e385457be01e4e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_remove.  <a href="group__sco__api__functions.html#ga0fba642e9f6ed365e385457be01e4e15">More...</a><br /></td></tr>
 <tr class="separator:ga0fba642e9f6ed365e385457be01e4e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,7 +198,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaf913710ad791aa3c1f6509524921250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gaaf913710ad791aa3c1f6509524921250">wiced_bt_sco_setup_voice_path</a> (<a class="el" href="structwiced__bt__voice__path__setup__t.html">wiced_bt_voice_path_setup_t</a> *pData)</td></tr>
 <tr class="memdesc:gaaf913710ad791aa3c1f6509524921250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_setup_voice_path.  <a href="group__sco__api__functions.html#gaaf913710ad791aa3c1f6509524921250">More...</a><br /></td></tr>
 <tr class="separator:gaaf913710ad791aa3c1f6509524921250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga127c7a31a1a50679013855db90a0f430"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga127c7a31a1a50679013855db90a0f430">wiced_bt_sco_output_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memitem:ga127c7a31a1a50679013855db90a0f430"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga127c7a31a1a50679013855db90a0f430">wiced_bt_sco_output_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga127c7a31a1a50679013855db90a0f430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_output_stream.  <a href="group__sco__api__functions.html#ga127c7a31a1a50679013855db90a0f430">More...</a><br /></td></tr>
 <tr class="separator:ga127c7a31a1a50679013855db90a0f430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae8704d3d0ef9c0ad9d789b6b2db4eda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gae8704d3d0ef9c0ad9d789b6b2db4eda8">wiced_bt_sco_turn_off_pcm_clock</a> (void)</td></tr>

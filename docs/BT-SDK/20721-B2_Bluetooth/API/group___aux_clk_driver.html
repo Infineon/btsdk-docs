@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: Auxiliary Clock (ACLK)</title>
+<title>Cypress WICED CYW20721: Auxiliary Clock (ACLK)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -114,8 +114,7 @@ Enumerations</h2></td></tr>
 <b>WICED_ACLK1</b>
  }</td></tr>
 <tr class="separator:gafe9fece24e9916df9d6bec40b6186214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabb65709ab724a55e8506046f8e220dc8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabb65709ab724a55e8506046f8e220dc8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>WICED_CLK_SRC_FREQ_SEL</b> { <b>WICED_ACLK_FREQ_1_MHZ</b>, 
-<b>WICED_ACLK_FREQ_24_MHZ</b>
+<tr class="memitem:gabb65709ab724a55e8506046f8e220dc8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabb65709ab724a55e8506046f8e220dc8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>WICED_CLK_SRC_FREQ_SEL</b> { <b>WICED_ACLK_FREQ_24_MHZ</b> = 1
  }</td></tr>
 <tr class="separator:gabb65709ab724a55e8506046f8e220dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -193,7 +192,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">frequency</td><td>- Desired frequency (in KHz) to output; 0 is the same as disable. </td></tr>
     <tr><td class="paramname">clkSrc</td><td>- ACLK0 or ACLK1 </td></tr>
-    <tr><td class="paramname">baseFreqSel</td><td>- ACLK_FREQ_1_MHZ or ACLK_FREQ_24_MHZ.</td></tr>
+    <tr><td class="paramname">baseFreqSel</td><td>- ACLK_FREQ_24_MHZ.</td></tr>
   </table>
   </dd>
 </dl>

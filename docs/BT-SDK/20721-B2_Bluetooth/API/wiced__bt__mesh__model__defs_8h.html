@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: wiced_bt_mesh_model_defs.h File Reference</title>
+<title>Cypress WICED CYW20721: wiced_bt_mesh_model_defs.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -266,7 +266,7 @@ Macros</h2></td></tr>
 <tr class="separator:a981f62d6309aadd66451e20d04814a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86295893dee04b4a4556d7f74e008f17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86295893dee04b4a4556d7f74e008f17"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a86295893dee04b4a4556d7f74e008f17">WICED_BT_MESH_REMOTE_PROVISION_STATUS_CLOSED_CANNOT_TX_PDU</a>&#160;&#160;&#160;0x0A</td></tr>
-<tr class="memdesc:a86295893dee04b4a4556d7f74e008f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Closed as Cannot Receive PDU. <br /></td></tr>
+<tr class="memdesc:a86295893dee04b4a4556d7f74e008f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Closed as Cannot Send PDU. <br /></td></tr>
 <tr class="separator:a86295893dee04b4a4556d7f74e008f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9308b77a6fa0bbb3fd816de7121e45bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9308b77a6fa0bbb3fd816de7121e45bb"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a9308b77a6fa0bbb3fd816de7121e45bb">WICED_BT_MESH_REMOTE_PROVISION_STATUS_CLOSED_FAIL_SEND_PDU_REPORT</a>&#160;&#160;&#160;0x0B</td></tr>
@@ -330,12 +330,16 @@ Macros</h2></td></tr>
 <tr class="memitem:a345da7cbaea1f5258a3269012973ee8e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a345da7cbaea1f5258a3269012973ee8e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_IS_UNICAST_ADDR</b>(x)&#160;&#160;&#160;(((x) &amp; 0x8000) == 0)</td></tr>
 <tr class="separator:a345da7cbaea1f5258a3269012973ee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48830ae73a731b50c2d6d02fb0121c5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48830ae73a731b50c2d6d02fb0121c5e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OBJ_TRANSFER_OBJ_ID_LEN</b>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a48830ae73a731b50c2d6d02fb0121c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ac46145ebc15c4fa53cae462b63cbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69ac46145ebc15c4fa53cae462b63cbd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_VENDOR_VALIDATION_SIZE</b>&#160;&#160;&#160;256</td></tr>
-<tr class="separator:a69ac46145ebc15c4fa53cae462b63cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e6d54ec077f3ff40326c95d97d46b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96e6d54ec077f3ff40326c95d97d46b6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_FW_INDEX_NOT_PRESENT</b>&#160;&#160;&#160;0xFFFF</td></tr>
+<tr class="separator:a96e6d54ec077f3ff40326c95d97d46b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4647e12ec016be57df84c7076b547483"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4647e12ec016be57df84c7076b547483"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOB_ID_LEN</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a4647e12ec016be57df84c7076b547483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161f7e18ba65f6663f01510fc7d3b248"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a161f7e18ba65f6663f01510fc7d3b248"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a161f7e18ba65f6663f01510fc7d3b248">WICED_BT_MESH_BLOB_TRANSFER_MAX_BLOB_SIZE</a>&#160;&#160;&#160;262144</td></tr>
+<tr class="memdesc:a161f7e18ba65f6663f01510fc7d3b248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max BLOB size is 256KB. <br /></td></tr>
+<tr class="separator:a161f7e18ba65f6663f01510fc7d3b248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8b0b11ad3ce259c595f215b630df662"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8b0b11ad3ce259c595f215b630df662"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ad8b0b11ad3ce259c595f215b630df662">WICED_BT_MESH_CONFIG_PERIOD_LOG_MAX</a>&#160;&#160;&#160;0x11</td></tr>
 <tr class="memdesc:ad8b0b11ad3ce259c595f215b630df662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of period log. <br /></td></tr>
@@ -647,12 +651,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a47f1b1d816f2787489f1dfa7406f9cd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47f1b1d816f2787489f1dfa7406f9cd4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_CORE_MODEL_ID_FW_DISTRIBUTION_CLNT</b>&#160;&#160;&#160;0xFE03</td></tr>
 <tr class="separator:a47f1b1d816f2787489f1dfa7406f9cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1eb4af5fbfdce17ccb3442e7d567fe0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1eb4af5fbfdce17ccb3442e7d567fe0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_CORE_MODEL_ID_OBJ_TRANSFER_SRV</b>&#160;&#160;&#160;0xFF00</td></tr>
-<tr class="separator:ad1eb4af5fbfdce17ccb3442e7d567fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d6a933616e1bf16f02a9c2f0543235"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0d6a933616e1bf16f02a9c2f0543235"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_CORE_MODEL_ID_OBJ_TRANSFER_CLNT</b>&#160;&#160;&#160;0xFF01</td></tr>
-<tr class="separator:ab0d6a933616e1bf16f02a9c2f0543235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99f3978e5333dc4778fe6883a716e6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad99f3978e5333dc4778fe6883a716e6c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_SRV</b>&#160;&#160;&#160;0xFF00</td></tr>
+<tr class="separator:ad99f3978e5333dc4778fe6883a716e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382a3f9f2e46f01a93f87eba0260cb68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a382a3f9f2e46f01a93f87eba0260cb68"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_CORE_MODEL_ID_BLOB_TRANSFER_CLNT</b>&#160;&#160;&#160;0xFF01</td></tr>
+<tr class="separator:a382a3f9f2e46f01a93f87eba0260cb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mesh model opcodes</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="WICED_BT_MESH_MODEL_OPCODE"></a></p>
 <p>The following is the list of the Mesh model opcodes. </p>
@@ -1605,87 +1609,129 @@ Macros</h2></td></tr>
 <tr class="memitem:a489ee13703c61a6f808299b8730c3b53"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a489ee13703c61a6f808299b8730c3b53"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_LIGHT_LC_PROPERTY_STATUS</b>&#160;&#160;&#160;0x64</td></tr>
 <tr class="separator:a489ee13703c61a6f808299b8730c3b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55f590755248107a38103c76d42a8085"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55f590755248107a38103c76d42a8085"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_INFO_GET</b>&#160;&#160;&#160;0xB601</td></tr>
-<tr class="separator:a55f590755248107a38103c76d42a8085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11b2b12db8d9e3e7cea2f8d264f26a9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11b2b12db8d9e3e7cea2f8d264f26a9e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_INFO_STATUS</b>&#160;&#160;&#160;0xB602</td></tr>
-<tr class="separator:a11b2b12db8d9e3e7cea2f8d264f26a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbef2071cfb7452eafc6a43d52958125"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbef2071cfb7452eafc6a43d52958125"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_INFO_GET</b>&#160;&#160;&#160;0xB601</td></tr>
+<tr class="separator:adbef2071cfb7452eafc6a43d52958125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b93c46382e3cd11b7ce0cc4179910d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19b93c46382e3cd11b7ce0cc4179910d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_INFO_STATUS</b>&#160;&#160;&#160;0xB602</td></tr>
+<tr class="separator:a19b93c46382e3cd11b7ce0cc4179910d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad211d90b582c7278c303de7523dc7853"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad211d90b582c7278c303de7523dc7853"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_VALIDATION_DATA_CHECK</b>&#160;&#160;&#160;0xB603</td></tr>
+<tr class="separator:ad211d90b582c7278c303de7523dc7853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978df57dcfd619de9fec23e19c683f75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a978df57dcfd619de9fec23e19c683f75"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_VALIDATION_DATA_STATUS</b>&#160;&#160;&#160;0xB604</td></tr>
+<tr class="separator:a978df57dcfd619de9fec23e19c683f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea4f3050a225651f6017298899929746"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea4f3050a225651f6017298899929746"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_GET</b>&#160;&#160;&#160;0xB603</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_GET</b>&#160;&#160;&#160;0xB605</td></tr>
 <tr class="separator:aea4f3050a225651f6017298899929746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d16865665ad27e69512340d2ca54603"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d16865665ad27e69512340d2ca54603"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_PREPARE</b>&#160;&#160;&#160;0xB604</td></tr>
-<tr class="separator:a7d16865665ad27e69512340d2ca54603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb049972fa5ae6b702b72e4b8e1d80a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb049972fa5ae6b702b72e4b8e1d80a2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_START</b>&#160;&#160;&#160;0xB605</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_START</b>&#160;&#160;&#160;0xB606</td></tr>
 <tr class="separator:adb049972fa5ae6b702b72e4b8e1d80a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a820e55ac39b166d1b3d280a2909f4a90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a820e55ac39b166d1b3d280a2909f4a90"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_ABORT</b>&#160;&#160;&#160;0xB606</td></tr>
-<tr class="separator:a820e55ac39b166d1b3d280a2909f4a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8989f4c5e9ac15eed3fc0922bc6edd7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8989f4c5e9ac15eed3fc0922bc6edd7c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_CANCEL</b>&#160;&#160;&#160;0xB607</td></tr>
+<tr class="separator:a8989f4c5e9ac15eed3fc0922bc6edd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb3e7311e37e3db94376b23a64ab9542"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb3e7311e37e3db94376b23a64ab9542"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_APPLY</b>&#160;&#160;&#160;0xB607</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_APPLY</b>&#160;&#160;&#160;0xB608</td></tr>
 <tr class="separator:adb3e7311e37e3db94376b23a64ab9542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a5ae4519ce72b6794cf7aaae960272"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59a5ae4519ce72b6794cf7aaae960272"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_STATUS</b>&#160;&#160;&#160;0xB608</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_UPDATE_STATUS</b>&#160;&#160;&#160;0xB609</td></tr>
 <tr class="separator:a59a5ae4519ce72b6794cf7aaae960272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9113ccc0c2f3da7db22616d6752c525"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9113ccc0c2f3da7db22616d6752c525"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_GET</b>&#160;&#160;&#160;0xB609</td></tr>
-<tr class="separator:aa9113ccc0c2f3da7db22616d6752c525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b6a0710186c9785e56a84fa75dfcfbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b6a0710186c9785e56a84fa75dfcfbb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_START</b>&#160;&#160;&#160;0xB60A</td></tr>
-<tr class="separator:a3b6a0710186c9785e56a84fa75dfcfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab5d684d16e4b46d0353219e97902cc9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab5d684d16e4b46d0353219e97902cc9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_STOP</b>&#160;&#160;&#160;0xB60B</td></tr>
-<tr class="separator:aab5d684d16e4b46d0353219e97902cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21ce42663fcca848fdafe6ebb78d7379"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21ce42663fcca848fdafe6ebb78d7379"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_STATUS</b>&#160;&#160;&#160;0xB60C</td></tr>
-<tr class="separator:a21ce42663fcca848fdafe6ebb78d7379"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab273ce97836998a6b8f52ee9a2b7e3f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab273ce97836998a6b8f52ee9a2b7e3f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_DETAILS_GET</b>&#160;&#160;&#160;0xB60D</td></tr>
-<tr class="separator:ab273ce97836998a6b8f52ee9a2b7e3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c3bf0d1fe87b89abc0f9cc91794c4c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c3bf0d1fe87b89abc0f9cc91794c4c2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTRIBUTION_DETAILS_LIST</b>&#160;&#160;&#160;0xB60E</td></tr>
-<tr class="separator:a7c3bf0d1fe87b89abc0f9cc91794c4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad72096c5f23330a555d24fa69bb54734"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad72096c5f23330a555d24fa69bb54734"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_GET</b>&#160;&#160;&#160;0xB701</td></tr>
-<tr class="separator:ad72096c5f23330a555d24fa69bb54734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0532b4945f6f2c7ca2ddada81ad822d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0532b4945f6f2c7ca2ddada81ad822d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_START</b>&#160;&#160;&#160;0xB702</td></tr>
-<tr class="separator:aa0532b4945f6f2c7ca2ddada81ad822d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f32646c2ce33aaa83c1a0b461ec795"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4f32646c2ce33aaa83c1a0b461ec795"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_ABORT</b>&#160;&#160;&#160;0xB703</td></tr>
-<tr class="separator:aa4f32646c2ce33aaa83c1a0b461ec795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7364205d38d2e2e6e3858f88eedc2556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7364205d38d2e2e6e3858f88eedc2556"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_STATUS</b>&#160;&#160;&#160;0xB704</td></tr>
-<tr class="separator:a7364205d38d2e2e6e3858f88eedc2556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a449dd845a8b5edff5b79c1ffbae46dc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a449dd845a8b5edff5b79c1ffbae46dc6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_BLOCK_TRANSFER_START</b>&#160;&#160;&#160;0xB705</td></tr>
-<tr class="separator:a449dd845a8b5edff5b79c1ffbae46dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad77923d4977f403dad697e238f506d34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad77923d4977f403dad697e238f506d34"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_BLOCK_TRANSFER_STATUS</b>&#160;&#160;&#160;0xB706</td></tr>
-<tr class="separator:ad77923d4977f403dad697e238f506d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe51a8465c22692bfdbce9597c0c625"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fe51a8465c22692bfdbce9597c0c625"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_CHUNK_TRANSFER</b>&#160;&#160;&#160;0x7D</td></tr>
-<tr class="separator:a3fe51a8465c22692bfdbce9597c0c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f22c7226c2b438cdba2e259cc722da7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f22c7226c2b438cdba2e259cc722da7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_BLOCK_GET</b>&#160;&#160;&#160;0x7E</td></tr>
-<tr class="separator:a0f22c7226c2b438cdba2e259cc722da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae55280e2f5be9e6c59c10bab60844b17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae55280e2f5be9e6c59c10bab60844b17"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_BLOCK_STATUS</b>&#160;&#160;&#160;0xB709</td></tr>
-<tr class="separator:ae55280e2f5be9e6c59c10bab60844b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72f58226b51e50fd4e5bf0767ce048a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72f58226b51e50fd4e5bf0767ce048a9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_INFO_GET</b>&#160;&#160;&#160;0xB70A</td></tr>
-<tr class="separator:a72f58226b51e50fd4e5bf0767ce048a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8210b9210e1f7d4d36fd6278cc7b0ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8210b9210e1f7d4d36fd6278cc7b0ae"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_INFO_STATUS</b>&#160;&#160;&#160;0xB70B</td></tr>
-<tr class="separator:ac8210b9210e1f7d4d36fd6278cc7b0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae41684cda698b81dc4888325ac4c4e6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae41684cda698b81dc4888325ac4c4e6a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_PHASE_GET</b>&#160;&#160;&#160;0xB70C</td></tr>
-<tr class="separator:ae41684cda698b81dc4888325ac4c4e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7885902118b9496344097f0ee9dd9b7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7885902118b9496344097f0ee9dd9b7c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_OBJ_TRANSFER_PHASE_STATUS</b>&#160;&#160;&#160;0xB70D</td></tr>
-<tr class="separator:a7885902118b9496344097f0ee9dd9b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b34704fb3d0c11e822e46238b00d2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4b34704fb3d0c11e822e46238b00d2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_GET</b>&#160;&#160;&#160;0xB60A</td></tr>
+<tr class="separator:af4b34704fb3d0c11e822e46238b00d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3961e4ed0052bfcc157a480944c8bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b3961e4ed0052bfcc157a480944c8bc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_START</b>&#160;&#160;&#160;0xB60B</td></tr>
+<tr class="separator:a4b3961e4ed0052bfcc157a480944c8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5772b32c9f6ed8f22aa64524dead3d43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5772b32c9f6ed8f22aa64524dead3d43"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_CANCEL</b>&#160;&#160;&#160;0xB60C</td></tr>
+<tr class="separator:a5772b32c9f6ed8f22aa64524dead3d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af341f658c7036079757f21981ead6e6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af341f658c7036079757f21981ead6e6e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_APPLY</b>&#160;&#160;&#160;0xB60D</td></tr>
+<tr class="separator:af341f658c7036079757f21981ead6e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3c7e25bee20fb265b1adff4cde89ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f3c7e25bee20fb265b1adff4cde89ea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_STATUS</b>&#160;&#160;&#160;0xB60E</td></tr>
+<tr class="separator:a6f3c7e25bee20fb265b1adff4cde89ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33ad8ae582bc570009d77508c394c5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae33ad8ae582bc570009d77508c394c5c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_NODES_GET</b>&#160;&#160;&#160;0xB60F</td></tr>
+<tr class="separator:ae33ad8ae582bc570009d77508c394c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b7c7f844a03923dbfdf9dd9b72e129"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31b7c7f844a03923dbfdf9dd9b72e129"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_NODES_LIST</b>&#160;&#160;&#160;0xB610</td></tr>
+<tr class="separator:a31b7c7f844a03923dbfdf9dd9b72e129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0274b3a002020783e30f36f0b2538b72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0274b3a002020783e30f36f0b2538b72"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_NODES_ADD</b>&#160;&#160;&#160;0xB611</td></tr>
+<tr class="separator:a0274b3a002020783e30f36f0b2538b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f3e29425ee8889bb33bf344a690952"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62f3e29425ee8889bb33bf344a690952"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_NODES_DELETE_ALL</b>&#160;&#160;&#160;0xB612</td></tr>
+<tr class="separator:a62f3e29425ee8889bb33bf344a690952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44efa095eaee1d658f65ef3403745d0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44efa095eaee1d658f65ef3403745d0f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_NODES_STATUS</b>&#160;&#160;&#160;0xB613</td></tr>
+<tr class="separator:a44efa095eaee1d658f65ef3403745d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94c0834f6444b9e1c069bb03f5d7f9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af94c0834f6444b9e1c069bb03f5d7f9c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_CAPABILITIES_GET</b>&#160;&#160;&#160;0xB614</td></tr>
+<tr class="separator:af94c0834f6444b9e1c069bb03f5d7f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a70cc518bc5d1ed3174350deef3d05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92a70cc518bc5d1ed3174350deef3d05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_CAPABILITIES_STATUS</b>&#160;&#160;&#160;0xB615</td></tr>
+<tr class="separator:a92a70cc518bc5d1ed3174350deef3d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69ae6ba218bbe658f4f6ebe13f89f87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac69ae6ba218bbe658f4f6ebe13f89f87"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_UPLOAD_GET</b>&#160;&#160;&#160;0xB616</td></tr>
+<tr class="separator:ac69ae6ba218bbe658f4f6ebe13f89f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa795738ef49d35ef77634ed0579c15e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa795738ef49d35ef77634ed0579c15e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_UPLOAD_START</b>&#160;&#160;&#160;0xB617</td></tr>
+<tr class="separator:aa795738ef49d35ef77634ed0579c15e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea4368f085685b95510d43e0d8d0e24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ea4368f085685b95510d43e0d8d0e24"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_UPLOAD_OOB_START</b>&#160;&#160;&#160;0xB618</td></tr>
+<tr class="separator:a3ea4368f085685b95510d43e0d8d0e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5824b3dbf438d6b7cf5e3c925ec4fea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5824b3dbf438d6b7cf5e3c925ec4fea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_UPLOAD_CANCEL</b>&#160;&#160;&#160;0xB619</td></tr>
+<tr class="separator:af5824b3dbf438d6b7cf5e3c925ec4fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119ed04e636cdbb130c6d8094138de45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a119ed04e636cdbb130c6d8094138de45"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_UPLOAD_STATUS</b>&#160;&#160;&#160;0xB61A</td></tr>
+<tr class="separator:a119ed04e636cdbb130c6d8094138de45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf08d59a0001efe88df559dbea7872d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeaf08d59a0001efe88df559dbea7872d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_FW_GET</b>&#160;&#160;&#160;0xB61B</td></tr>
+<tr class="separator:aeaf08d59a0001efe88df559dbea7872d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8088ffb6b3e858b7196370b707b45286"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8088ffb6b3e858b7196370b707b45286"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_FW_STATUS</b>&#160;&#160;&#160;0xB61C</td></tr>
+<tr class="separator:a8088ffb6b3e858b7196370b707b45286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab61d53c860f9221a1ab5341306cb17fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab61d53c860f9221a1ab5341306cb17fd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_FW_GET_BY_INDEX</b>&#160;&#160;&#160;0xB61D</td></tr>
+<tr class="separator:ab61d53c860f9221a1ab5341306cb17fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1838ea893b6c960d67646bdeba77e328"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1838ea893b6c960d67646bdeba77e328"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_FW_DELETE</b>&#160;&#160;&#160;0xB61E</td></tr>
+<tr class="separator:a1838ea893b6c960d67646bdeba77e328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9560397a4e9ee282f07fd063eaa0d080"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9560397a4e9ee282f07fd063eaa0d080"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_FW_DISTR_FW_DELETE_ALL</b>&#160;&#160;&#160;0xB61F</td></tr>
+<tr class="separator:a9560397a4e9ee282f07fd063eaa0d080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01860c7fde9598be576d313e66bd8547"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01860c7fde9598be576d313e66bd8547"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_TRANSFER_GET</b>&#160;&#160;&#160;0xB701</td></tr>
+<tr class="separator:a01860c7fde9598be576d313e66bd8547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bfcfed3bd7a7f9cb07950c398616050"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bfcfed3bd7a7f9cb07950c398616050"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_TRANSFER_START</b>&#160;&#160;&#160;0xB702</td></tr>
+<tr class="separator:a6bfcfed3bd7a7f9cb07950c398616050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619d5f7bdf6b4c88773ecd869ef46532"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a619d5f7bdf6b4c88773ecd869ef46532"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_TRANSFER_CANCEL</b>&#160;&#160;&#160;0xB703</td></tr>
+<tr class="separator:a619d5f7bdf6b4c88773ecd869ef46532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad644a41b3b3e598b9fd8e0f52c1d6b33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad644a41b3b3e598b9fd8e0f52c1d6b33"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_TRANSFER_STATUS</b>&#160;&#160;&#160;0xB704</td></tr>
+<tr class="separator:ad644a41b3b3e598b9fd8e0f52c1d6b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19ed151ac1372fe9e9474fe95e3df9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac19ed151ac1372fe9e9474fe95e3df9d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_BLOCK_START</b>&#160;&#160;&#160;0xB705</td></tr>
+<tr class="separator:ac19ed151ac1372fe9e9474fe95e3df9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff312b3e1acd29b0829f564d2508387"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ff312b3e1acd29b0829f564d2508387"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_BLOCK_GET</b>&#160;&#160;&#160;0xB707</td></tr>
+<tr class="separator:a0ff312b3e1acd29b0829f564d2508387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f0a63f413ebd907b081a60a3eb7de8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93f0a63f413ebd907b081a60a3eb7de8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_BLOCK_STATUS</b>&#160;&#160;&#160;0x7E</td></tr>
+<tr class="separator:a93f0a63f413ebd907b081a60a3eb7de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01dbb9eca3889f84c5fff38407fc3f25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01dbb9eca3889f84c5fff38407fc3f25"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_CHUNK_TRANSFER</b>&#160;&#160;&#160;0x7D</td></tr>
+<tr class="separator:a01dbb9eca3889f84c5fff38407fc3f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a508d9a3f4d063075e6e846f1c8b0de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a508d9a3f4d063075e6e846f1c8b0de"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_INFO_GET</b>&#160;&#160;&#160;0xB70A</td></tr>
+<tr class="separator:a3a508d9a3f4d063075e6e846f1c8b0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5c012290139a9b3d3ac8824f381762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f5c012290139a9b3d3ac8824f381762"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_BLOB_INFO_STATUS</b>&#160;&#160;&#160;0xB70B</td></tr>
+<tr class="separator:a2f5c012290139a9b3d3ac8824f381762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9bba348ee17845b5440ac13511717d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9bba348ee17845b5440ac13511717d1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OPCODE_UNKNOWN</b>&#160;&#160;&#160;0xFFFF</td></tr>
 <tr class="separator:af9bba348ee17845b5440ac13511717d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2570,170 +2616,228 @@ Macros</h2></td></tr>
 <tr class="memitem:a606bd5e22b871407f127a87f4ddfd7ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a606bd5e22b871407f127a87f4ddfd7ae"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_FAILED</b>&#160;&#160;&#160;9</td></tr>
 <tr class="separator:a606bd5e22b871407f127a87f4ddfd7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Distribution Status Code Definitions</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_DISTRIBUTION_STATUS_CODE"></a></p>
-</div></td></tr>
-<tr class="memitem:a6c9452e0741bc096d5573bed94ac99ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c9452e0741bc096d5573bed94ac99ee"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a6c9452e0741bc096d5573bed94ac99ee">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_READY</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a6c9452e0741bc096d5573bed94ac99ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">ready, distribution is not active <br /></td></tr>
-<tr class="separator:a6c9452e0741bc096d5573bed94ac99ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeab7e59e50cb0f87fff3678524b77bfd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeab7e59e50cb0f87fff3678524b77bfd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aeab7e59e50cb0f87fff3678524b77bfd">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_ACTIVE</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:aeab7e59e50cb0f87fff3678524b77bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">distribution is active <br /></td></tr>
-<tr class="separator:aeab7e59e50cb0f87fff3678524b77bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a365fe126e5b08e21ea12a0f2ae93db68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a365fe126e5b08e21ea12a0f2ae93db68"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a365fe126e5b08e21ea12a0f2ae93db68">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_WRONG_ID</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memdesc:a365fe126e5b08e21ea12a0f2ae93db68"><td class="mdescLeft">&#160;</td><td class="mdescRight">no such Company ID and Firmware ID combination <br /></td></tr>
-<tr class="separator:a365fe126e5b08e21ea12a0f2ae93db68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6d0d1c13f244c070378192991446224"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6d0d1c13f244c070378192991446224"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ac6d0d1c13f244c070378192991446224">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_BUSY</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memdesc:ac6d0d1c13f244c070378192991446224"><td class="mdescLeft">&#160;</td><td class="mdescRight">busy with different distribution <br /></td></tr>
-<tr class="separator:ac6d0d1c13f244c070378192991446224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11a29e81dc87fa73ed1efa7dd49237a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11a29e81dc87fa73ed1efa7dd49237a1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a11a29e81dc87fa73ed1efa7dd49237a1">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_LIST_TOO_LONG</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="memdesc:a11a29e81dc87fa73ed1efa7dd49237a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">update nodes list is too long <br /></td></tr>
-<tr class="separator:a11a29e81dc87fa73ed1efa7dd49237a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a3471a334e857ff3048993473214f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49a3471a334e857ff3048993473214f2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a49a3471a334e857ff3048993473214f2">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_FAILED</a>&#160;&#160;&#160;0x05</td></tr>
-<tr class="memdesc:a49a3471a334e857ff3048993473214f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">distribution failed <br /></td></tr>
-<tr class="separator:a49a3471a334e857ff3048993473214f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4b01eb108ccdd07564f88c8dc18fb9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4b01eb108ccdd07564f88c8dc18fb9c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aa4b01eb108ccdd07564f88c8dc18fb9c">WICED_BT_MESH_FW_DISTRIBUTION_STATUS_COMPLETED</a>&#160;&#160;&#160;0x06</td></tr>
-<tr class="memdesc:aa4b01eb108ccdd07564f88c8dc18fb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">distribution completed <br /></td></tr>
-<tr class="separator:aa4b01eb108ccdd07564f88c8dc18fb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Policy</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_POLICY"></a></p>
-</div></td></tr>
-<tr class="memitem:a6d8cbccf60f6502cbd294271bfe82682"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a6d8cbccf60f6502cbd294271bfe82682">WICED_BT_MESH_FW_UPDATE_POLICY_NONE</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a6d8cbccf60f6502cbd294271bfe82682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not apply new firmware when Object transfer is completed.  <a href="#a6d8cbccf60f6502cbd294271bfe82682">More...</a><br /></td></tr>
-<tr class="separator:a6d8cbccf60f6502cbd294271bfe82682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a817931540a99c1a97f3897079ad85367"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a817931540a99c1a97f3897079ad85367">WICED_BT_MESH_FW_UPDATE_POLICY_AUTO_UPDATE</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:a817931540a99c1a97f3897079ad85367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply new firmware when Object transfer is completed.  <a href="#a817931540a99c1a97f3897079ad85367">More...</a><br /></td></tr>
-<tr class="separator:a817931540a99c1a97f3897079ad85367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Phases</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_PHASES"></a></p>
 </div></td></tr>
-<tr class="memitem:a8fcaf7b8b8115207f67defba80fa1323"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fcaf7b8b8115207f67defba80fa1323"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a8fcaf7b8b8115207f67defba80fa1323">WICED_BT_MESH_FW_UPDATE_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a8fcaf7b8b8115207f67defba80fa1323"><td class="mdescLeft">&#160;</td><td class="mdescRight">No DFU update in progress. <br /></td></tr>
+<tr class="memitem:a8fcaf7b8b8115207f67defba80fa1323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a8fcaf7b8b8115207f67defba80fa1323">WICED_BT_MESH_FW_UPDATE_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a8fcaf7b8b8115207f67defba80fa1323"><td class="mdescLeft">&#160;</td><td class="mdescRight">No firmware download is in progress.  <a href="#a8fcaf7b8b8115207f67defba80fa1323">More...</a><br /></td></tr>
 <tr class="separator:a8fcaf7b8b8115207f67defba80fa1323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64fe0526d67ec19cf7e5dbe5fc42592d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64fe0526d67ec19cf7e5dbe5fc42592d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a64fe0526d67ec19cf7e5dbe5fc42592d">WICED_BT_MESH_FW_UPDATE_PHASE_PREPARED</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:a64fe0526d67ec19cf7e5dbe5fc42592d"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFU update is prepared and awaiting start. <br /></td></tr>
-<tr class="separator:a64fe0526d67ec19cf7e5dbe5fc42592d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab65580ce11c98e9dd918d19303345c93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab65580ce11c98e9dd918d19303345c93"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ab65580ce11c98e9dd918d19303345c93">WICED_BT_MESH_FW_UPDATE_PHASE_IN_PROGRESS</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memdesc:ab65580ce11c98e9dd918d19303345c93"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFU update is in progress. <br /></td></tr>
-<tr class="separator:ab65580ce11c98e9dd918d19303345c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac7ce5a4d012121d11c9eadba43e8d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ac7ce5a4d012121d11c9eadba43e8d2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a7ac7ce5a4d012121d11c9eadba43e8d2">WICED_BT_MESH_FW_UPDATE_PHASE_DFU_READY</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memdesc:a7ac7ce5a4d012121d11c9eadba43e8d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFU upload is finished and waiting to be applied. <br /></td></tr>
-<tr class="separator:a7ac7ce5a4d012121d11c9eadba43e8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc932affe6468e6aa2581129c8fb7808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#adc932affe6468e6aa2581129c8fb7808">WICED_BT_MESH_FW_UPDATE_PHASE_TRANSFER_ERROR</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:adc932affe6468e6aa2581129c8fb7808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware download failed because of a BLOB Transfer protocol error, such as a timeout.  <a href="#adc932affe6468e6aa2581129c8fb7808">More...</a><br /></td></tr>
+<tr class="separator:adc932affe6468e6aa2581129c8fb7808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ef4fdc797572092920a17575fb78bb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a0ef4fdc797572092920a17575fb78bb2">WICED_BT_MESH_FW_UPDATE_PHASE_TRANSFER_ACTIVE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:a0ef4fdc797572092920a17575fb78bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware download is in progress.  <a href="#a0ef4fdc797572092920a17575fb78bb2">More...</a><br /></td></tr>
+<tr class="separator:a0ef4fdc797572092920a17575fb78bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39b78854bc1fb04c8e7997eb99e2660"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ab39b78854bc1fb04c8e7997eb99e2660">WICED_BT_MESH_FW_UPDATE_PHASE_VERIFICATION_SUCCESS</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:ab39b78854bc1fb04c8e7997eb99e2660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware download finished and verification succeeded.  <a href="#ab39b78854bc1fb04c8e7997eb99e2660">More...</a><br /></td></tr>
+<tr class="separator:ab39b78854bc1fb04c8e7997eb99e2660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d34c9e8a3302480617c3a881aa6616"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ab2d34c9e8a3302480617c3a881aa6616">WICED_BT_MESH_FW_UPDATE_PHASE_VERIFICATION_FAILED</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:ab2d34c9e8a3302480617c3a881aa6616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware download finished and verification failed.  <a href="#ab2d34c9e8a3302480617c3a881aa6616">More...</a><br /></td></tr>
+<tr class="separator:ab2d34c9e8a3302480617c3a881aa6616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4b35396e1b4d9e7960add742e524be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aba4b35396e1b4d9e7960add742e524be">WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_ACTIVE</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="memdesc:aba4b35396e1b4d9e7960add742e524be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware applying is in progress.  <a href="#aba4b35396e1b4d9e7960add742e524be">More...</a><br /></td></tr>
+<tr class="separator:aba4b35396e1b4d9e7960add742e524be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a64b3e27b923b5fa6b2e27fa1220a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a41a64b3e27b923b5fa6b2e27fa1220a2">WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_SUCCESS</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="memdesc:a41a64b3e27b923b5fa6b2e27fa1220a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware applying succeeded.  <a href="#a41a64b3e27b923b5fa6b2e27fa1220a2">More...</a><br /></td></tr>
+<tr class="separator:a41a64b3e27b923b5fa6b2e27fa1220a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2430a7b7217aaca95330fe270f1dd059"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a2430a7b7217aaca95330fe270f1dd059">WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_FAILED</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="memdesc:a2430a7b7217aaca95330fe270f1dd059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware applying failed.  <a href="#a2430a7b7217aaca95330fe270f1dd059">More...</a><br /></td></tr>
+<tr class="separator:a2430a7b7217aaca95330fe270f1dd059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Additional Information</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_ADDITIONAL_INFO"></a></p>
+</div></td></tr>
+<tr class="memitem:aadfcc85eb8b2f4f355f563bd5d9729c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aadfcc85eb8b2f4f355f563bd5d9729c1">WICED_BT_MESH_FW_UPDATE_PROVISIONING_NEEDED</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:aadfcc85eb8b2f4f355f563bd5d9729c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device shall be in an unprovisioned state after new firmware is applied (possibly because of new models added).  <a href="#aadfcc85eb8b2f4f355f563bd5d9729c1">More...</a><br /></td></tr>
+<tr class="separator:aadfcc85eb8b2f4f355f563bd5d9729c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9ad1292f894ff145918b1001e160ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aac9ad1292f894ff145918b1001e160ba">WICED_BT_MESH_FW_UPDATE_COMPOSITION_CHANGE_EXPECTED</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:aac9ad1292f894ff145918b1001e160ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device is expected to expose page 0x80 of the Composition Data state, and execution of either the Node Composition Refresh procedure or Node Removal procedure is needed.  <a href="#aac9ad1292f894ff145918b1001e160ba">More...</a><br /></td></tr>
+<tr class="separator:aac9ad1292f894ff145918b1001e160ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Out-of-Band Retrieval Supported</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_OOB_SUPPORT"></a></p>
+</div></td></tr>
+<tr class="memitem:ad987c698fc858ac6573026090b6549d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ad987c698fc858ac6573026090b6549d3">WICED_BT_MESH_FW_UPDATE_OOB_SUPPORTED</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:ad987c698fc858ac6573026090b6549d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Distributor supports firmware retrieval using Out-of-Band mechanism.  <a href="#ad987c698fc858ac6573026090b6549d3">More...</a><br /></td></tr>
+<tr class="separator:ad987c698fc858ac6573026090b6549d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Distribution Phases</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_DISTRIBUTION_PHASES"></a></p>
+</div></td></tr>
+<tr class="memitem:a254f7773eb846f880abfdc3b45c27715"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a254f7773eb846f880abfdc3b45c27715">WICED_BT_MESH_FW_DISTR_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a254f7773eb846f880abfdc3b45c27715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution is not active.  <a href="#a254f7773eb846f880abfdc3b45c27715">More...</a><br /></td></tr>
+<tr class="separator:a254f7773eb846f880abfdc3b45c27715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684b0cf65d81c046f6c41bd09e196281"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a684b0cf65d81c046f6c41bd09e196281">WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_ACTIVE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:a684b0cf65d81c046f6c41bd09e196281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware transfer in progress.  <a href="#a684b0cf65d81c046f6c41bd09e196281">More...</a><br /></td></tr>
+<tr class="separator:a684b0cf65d81c046f6c41bd09e196281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f993c535d09e6fe4f48eda8d7a9478f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a5f993c535d09e6fe4f48eda8d7a9478f">WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_SUCCESS</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:a5f993c535d09e6fe4f48eda8d7a9478f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware transfer is complete and Updating Nodes verified the firmware successfully.  <a href="#a5f993c535d09e6fe4f48eda8d7a9478f">More...</a><br /></td></tr>
+<tr class="separator:a5f993c535d09e6fe4f48eda8d7a9478f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c209963759c0c4a73ddffbbf5867e66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a7c209963759c0c4a73ddffbbf5867e66">WICED_BT_MESH_FW_DISTR_PHASE_APPLY_ACTIVE</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:a7c209963759c0c4a73ddffbbf5867e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware applying in progress.  <a href="#a7c209963759c0c4a73ddffbbf5867e66">More...</a><br /></td></tr>
+<tr class="separator:a7c209963759c0c4a73ddffbbf5867e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60da461bc842c91046bec09e9209e8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ac60da461bc842c91046bec09e9209e8a">WICED_BT_MESH_FW_DISTR_PHASE_COMPLETED</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:ac60da461bc842c91046bec09e9209e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">At least one Updating Node was updated successfully.  <a href="#ac60da461bc842c91046bec09e9209e8a">More...</a><br /></td></tr>
+<tr class="separator:ac60da461bc842c91046bec09e9209e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8af9bc5c91570c479731b28a7cd2ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aeb8af9bc5c91570c479731b28a7cd2ae">WICED_BT_MESH_FW_DISTR_PHASE_FAILED</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="memdesc:aeb8af9bc5c91570c479731b28a7cd2ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">No Updating Nodes were updated successfully.  <a href="#aeb8af9bc5c91570c479731b28a7cd2ae">More...</a><br /></td></tr>
+<tr class="separator:aeb8af9bc5c91570c479731b28a7cd2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Policy</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_POLICY"></a></p>
+</div></td></tr>
+<tr class="memitem:a93ba9cb7eb9d5b09eb54fa3d84169875"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a93ba9cb7eb9d5b09eb54fa3d84169875">WICED_BT_MESH_FW_UPDATE_POLICY_VERIFY_ONLY</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a93ba9cb7eb9d5b09eb54fa3d84169875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not send a Firmware Update Apply when the firmware transfer is completed.  <a href="#a93ba9cb7eb9d5b09eb54fa3d84169875">More...</a><br /></td></tr>
+<tr class="separator:a93ba9cb7eb9d5b09eb54fa3d84169875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad997251e94473377a416f16e7d1f2e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a6ad997251e94473377a416f16e7d1f2e">WICED_BT_MESH_FW_UPDATE_POLICY_VERIFY_AND_APPLY</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:a6ad997251e94473377a416f16e7d1f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a Firmware Update Apply message when the firmware transfer is completed.  <a href="#a6ad997251e94473377a416f16e7d1f2e">More...</a><br /></td></tr>
+<tr class="separator:a6ad997251e94473377a416f16e7d1f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Upload Phases</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPLOAD_PHASES"></a></p>
+</div></td></tr>
+<tr class="memitem:a03bb402f23f3762d02e6b78fe593d0b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a03bb402f23f3762d02e6b78fe593d0b1">WICED_BT_MESH_FW_UPLOAD_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a03bb402f23f3762d02e6b78fe593d0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">No firmware upload is in progress.  <a href="#a03bb402f23f3762d02e6b78fe593d0b1">More...</a><br /></td></tr>
+<tr class="separator:a03bb402f23f3762d02e6b78fe593d0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29c87fb420690800f320112ebbdf584"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aa29c87fb420690800f320112ebbdf584">WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_ACTIVE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:aa29c87fb420690800f320112ebbdf584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware upload using the BLOB transfer is in progress.  <a href="#aa29c87fb420690800f320112ebbdf584">More...</a><br /></td></tr>
+<tr class="separator:aa29c87fb420690800f320112ebbdf584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af549a525ff88805b2fc71ef562e27b3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#af549a525ff88805b2fc71ef562e27b3a">WICED_BT_MESH_FW_UPLOAD_PHASE_OOB_TRANSFER_ACTIVE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:af549a525ff88805b2fc71ef562e27b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware upload using the Out-of-Band mechanism is in progress.  <a href="#af549a525ff88805b2fc71ef562e27b3a">More...</a><br /></td></tr>
+<tr class="separator:af549a525ff88805b2fc71ef562e27b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae78997f4b96bc2c65cffe41e731f287c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ae78997f4b96bc2c65cffe41e731f287c">WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_ERROR</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:ae78997f4b96bc2c65cffe41e731f287c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware upload failed because of a BLOB Transfer protocol error, such as a timeout.  <a href="#ae78997f4b96bc2c65cffe41e731f287c">More...</a><br /></td></tr>
+<tr class="separator:ae78997f4b96bc2c65cffe41e731f287c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f8283cb78149ae5bdc1b37ed0f88d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a77f8283cb78149ae5bdc1b37ed0f88d1">WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_SUCCESS</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:a77f8283cb78149ae5bdc1b37ed0f88d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware uploaded successfully.  <a href="#a77f8283cb78149ae5bdc1b37ed0f88d1">More...</a><br /></td></tr>
+<tr class="separator:a77f8283cb78149ae5bdc1b37ed0f88d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mesh Firmware Update Status Code Definitions</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_UPDATE_STATUS_CODE"></a></p>
 </div></td></tr>
 <tr class="memitem:a100427ad4c080ee02ffcf538598c20a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a100427ad4c080ee02ffcf538598c20a1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a100427ad4c080ee02ffcf538598c20a1">WICED_BT_MESH_FW_UPDATE_STATUS_SUCCESS</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a100427ad4c080ee02ffcf538598c20a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">success <br /></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_SUCCESS</b>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:a100427ad4c080ee02ffcf538598c20a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0623ad9b90b743ba13943fa96293a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d0623ad9b90b743ba13943fa96293a5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a3d0623ad9b90b743ba13943fa96293a5">WICED_BT_MESH_FW_UPDATE_STATUS_WRONG_ID</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:a3d0623ad9b90b743ba13943fa96293a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrong Company ID and Firmware ID combination <br /></td></tr>
-<tr class="separator:a3d0623ad9b90b743ba13943fa96293a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a491a8520acd92812aad44a697d392d83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a491a8520acd92812aad44a697d392d83"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a491a8520acd92812aad44a697d392d83">WICED_BT_MESH_FW_UPDATE_STATUS_BUSY</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memdesc:a491a8520acd92812aad44a697d392d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">different object transfer already ongoing <br /></td></tr>
-<tr class="separator:a491a8520acd92812aad44a697d392d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af20924b01f8ee985355f467deeba2f4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af20924b01f8ee985355f467deeba2f4f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#af20924b01f8ee985355f467deeba2f4f">WICED_BT_MESH_FW_UPDATE_STATUS_ID_APPLY_FAILED</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memdesc:af20924b01f8ee985355f467deeba2f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Company ID and Firmware ID combination apply failed. <br /></td></tr>
-<tr class="separator:af20924b01f8ee985355f467deeba2f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a559bd569fb4818acb1f1750451ef59c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a559bd569fb4818acb1f1750451ef59c6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a559bd569fb4818acb1f1750451ef59c6">WICED_BT_MESH_FW_UPDATE_STATUS_VERSION_TOO_OLD</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="memdesc:a559bd569fb4818acb1f1750451ef59c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Company ID and Firmware ID combination permanently rejected, new firmware version present. <br /></td></tr>
-<tr class="separator:a559bd569fb4818acb1f1750451ef59c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6056f824b6a30d85d318b3a9f5be0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c6056f824b6a30d85d318b3a9f5be0b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a1c6056f824b6a30d85d318b3a9f5be0b">WICED_BT_MESH_FW_UPDATE_STATUS_TRY_LATER</a>&#160;&#160;&#160;0x05</td></tr>
-<tr class="memdesc:a1c6056f824b6a30d85d318b3a9f5be0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Company ID and Firmware ID combination temporarily rejected, node is not able to accept new firmware now, try again later. <br /></td></tr>
-<tr class="separator:a1c6056f824b6a30d85d318b3a9f5be0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48614631442acbbb074fedd1a0f8c0c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48614631442acbbb074fedd1a0f8c0c2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_TX_FAILED</b>&#160;&#160;&#160;0xFF</td></tr>
-<tr class="separator:a48614631442acbbb074fedd1a0f8c0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mesh Object Transfer Phase States</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_OBJ_TRANSFER_PHASE_STATES"></a></p>
+<tr class="memitem:a273b54f745dcee14b8b6b79aad2f3d4b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a273b54f745dcee14b8b6b79aad2f3d4b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_VALIDATION_FAILED</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a273b54f745dcee14b8b6b79aad2f3d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b641cf1a6d231c59648a45d80f82d4b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b641cf1a6d231c59648a45d80f82d4b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_INVALID_ID</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a8b641cf1a6d231c59648a45d80f82d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98f3caf7b1c2ed1c6ee9aedb300ac78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af98f3caf7b1c2ed1c6ee9aedb300ac78"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_DISTR_BUSY</b>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:af98f3caf7b1c2ed1c6ee9aedb300ac78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf0b542bc5edd02f69b1697b06783bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9cf0b542bc5edd02f69b1697b06783bf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_OUT_OF_RESOURCES</b>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a9cf0b542bc5edd02f69b1697b06783bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a7e51eb75f40e2c5ad117c897fd27c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4a7e51eb75f40e2c5ad117c897fd27c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_BLOB_TRANS_BUSY</b>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:ac4a7e51eb75f40e2c5ad117c897fd27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b3ab02e289729d2aa2bcfbc4693d28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19b3ab02e289729d2aa2bcfbc4693d28"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_FW_ID</b>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:a19b3ab02e289729d2aa2bcfbc4693d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb05a539740addb940a712084c57a629"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb05a539740addb940a712084c57a629"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_TEMP_UNABLE</b>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:aeb05a539740addb940a712084c57a629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f61f01507770397cc06060c451e54b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f61f01507770397cc06060c451e54b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_UPDATE_STATUS_INVALID_COMMAND</b>&#160;&#160;&#160;0x09</td></tr>
+<tr class="separator:a9f61f01507770397cc06060c451e54b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh Firmware Distribution Status Code Definitions</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_FW_DISTRIBUTION_STATUS_CODE"></a></p>
 </div></td></tr>
-<tr class="memitem:a5a944bd4a12e02d75d0dd7f3e5a9bd56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a944bd4a12e02d75d0dd7f3e5a9bd56"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a5a944bd4a12e02d75d0dd7f3e5a9bd56">WICED_BT_MESH_OBJ_TRANSFER_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a5a944bd4a12e02d75d0dd7f3e5a9bd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object transfer procedure is not active. <br /></td></tr>
-<tr class="separator:a5a944bd4a12e02d75d0dd7f3e5a9bd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65e34a53d688cebbfef52d7889388e70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65e34a53d688cebbfef52d7889388e70"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a65e34a53d688cebbfef52d7889388e70">WICED_BT_MESH_OBJ_TRANSFER_PHASE_WAIT_NEXT_BLOCK</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:a65e34a53d688cebbfef52d7889388e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object transfer server is waiting for the next block of data. <br /></td></tr>
-<tr class="separator:a65e34a53d688cebbfef52d7889388e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00e1cf2e9accd53217d594cd5e06a054"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00e1cf2e9accd53217d594cd5e06a054"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a00e1cf2e9accd53217d594cd5e06a054">WICED_BT_MESH_OBJ_TRANSFER_PHASE_WAIT_NEXT_CHUNK</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memdesc:a00e1cf2e9accd53217d594cd5e06a054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object transfer server is waiting for the next chunk of data. <br /></td></tr>
-<tr class="separator:a00e1cf2e9accd53217d594cd5e06a054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mesh Object Transfer Block Size Log range</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_OBJ_TRANSFER_BLOCK_SIZE_LOG"></a></p>
+<tr class="memitem:af5d5d22099d2d07ec84164614a501955"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5d5d22099d2d07ec84164614a501955"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_SUCCESS</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:af5d5d22099d2d07ec84164614a501955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180fc77b4db236b2dc75d348352ea6b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a180fc77b4db236b2dc75d348352ea6b4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_OUT_OF_RESOURCES</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a180fc77b4db236b2dc75d348352ea6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21171eb2aaa52a0311ed8cf427e60b9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21171eb2aaa52a0311ed8cf427e60b9a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_INVALID_APPKEY_INDEX</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a21171eb2aaa52a0311ed8cf427e60b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c131603500ffd0d8809eae53f7cad7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15c131603500ffd0d8809eae53f7cad7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_NODES_LIST_EMPTY</b>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:a15c131603500ffd0d8809eae53f7cad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6911f4f43736fd5055b76229d6dfbc78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6911f4f43736fd5055b76229d6dfbc78"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_INVALID_PHASE</b>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a6911f4f43736fd5055b76229d6dfbc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004a70637dcdb73fd1e61f0d2d963b01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a004a70637dcdb73fd1e61f0d2d963b01"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_FW_NOT_FOUND</b>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:a004a70637dcdb73fd1e61f0d2d963b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe0814f83d607f394cbc261e9ef315d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fe0814f83d607f394cbc261e9ef315d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_BUSY</b>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:a7fe0814f83d607f394cbc261e9ef315d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6832c9b8c794bf0ce979a5153895ca0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6832c9b8c794bf0ce979a5153895ca0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_URI_NOT_SUPPORTED</b>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:aa6832c9b8c794bf0ce979a5153895ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aee9985d8448ce15ee8b29fa5f34706"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aee9985d8448ce15ee8b29fa5f34706"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_FW_DISTR_STATUS_URI_MALFORMED</b>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:a0aee9985d8448ce15ee8b29fa5f34706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh BLOB Transfer Phase States</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_BLOB_TRANSFER_PHASE_STATES"></a></p>
 </div></td></tr>
-<tr class="memitem:a6b81180221f33e9bfed86b675846e665"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b81180221f33e9bfed86b675846e665"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OBJ_TRANSFER_BLOCK_SIZE_LOG_MIN</b>&#160;&#160;&#160;0x06</td></tr>
-<tr class="separator:a6b81180221f33e9bfed86b675846e665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a098c519add72b67bd83cb0bfbe7680"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a098c519add72b67bd83cb0bfbe7680"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_OBJ_TRANSFER_BLOCK_SIZE_LOG_MAX</b>&#160;&#160;&#160;0x20</td></tr>
-<tr class="separator:a4a098c519add72b67bd83cb0bfbe7680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Mesh Object Transfer Status Code Definitions</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_OBJ_TRANSFER_STATUS_CODE"></a></p>
+<tr class="memitem:acfc2eaaf6c62cd9ec99b5d07edc2b129"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#acfc2eaaf6c62cd9ec99b5d07edc2b129">WICED_BT_MESH_BLOB_TRANSFER_PHASE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:acfc2eaaf6c62cd9ec99b5d07edc2b129"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Server is ready to receive the BLOB identified by the Expected BLOB ID.  <a href="#acfc2eaaf6c62cd9ec99b5d07edc2b129">More...</a><br /></td></tr>
+<tr class="separator:acfc2eaaf6c62cd9ec99b5d07edc2b129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a26abc9e7246d010ff4cb5860bad53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a33a26abc9e7246d010ff4cb5860bad53">WICED_BT_MESH_BLOB_TRANSFER_PHASE_WAIT_NEXT_BLOCK</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:a33a26abc9e7246d010ff4cb5860bad53"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Server is waiting for the next block of data.  <a href="#a33a26abc9e7246d010ff4cb5860bad53">More...</a><br /></td></tr>
+<tr class="separator:a33a26abc9e7246d010ff4cb5860bad53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fc2c34ec047018e6f043f309ae484b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#af9fc2c34ec047018e6f043f309ae484b">WICED_BT_MESH_BLOB_TRANSFER_PHASE_WAIT_NEXT_CHUNK</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:af9fc2c34ec047018e6f043f309ae484b"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Server is waiting for the next chunk of data.  <a href="#af9fc2c34ec047018e6f043f309ae484b">More...</a><br /></td></tr>
+<tr class="separator:af9fc2c34ec047018e6f043f309ae484b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8b11a140a5a0d7f835ede3a3c2dde9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a5c8b11a140a5a0d7f835ede3a3c2dde9">WICED_BT_MESH_BLOB_TRANSFER_PHASE_COMPLETE</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:a5c8b11a140a5a0d7f835ede3a3c2dde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive BLOB Procedure is complete.  <a href="#a5c8b11a140a5a0d7f835ede3a3c2dde9">More...</a><br /></td></tr>
+<tr class="separator:a5c8b11a140a5a0d7f835ede3a3c2dde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03eda14f43be66180ba80ccef255bfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#af03eda14f43be66180ba80ccef255bfe">WICED_BT_MESH_BLOB_TRANSFER_PHASE_SUSPENDED</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:af03eda14f43be66180ba80ccef255bfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive BLOB Procedure has been timed out.  <a href="#af03eda14f43be66180ba80ccef255bfe">More...</a><br /></td></tr>
+<tr class="separator:af03eda14f43be66180ba80ccef255bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae90f90eff3c644c07072b23c052672c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aae90f90eff3c644c07072b23c052672c">WICED_BT_MESH_BLOB_TRANSFER_PHASE_INACTIVE</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="memdesc:aae90f90eff3c644c07072b23c052672c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive BLOB Procedure is not ready and has not been given an Expected BLOB ID.  <a href="#aae90f90eff3c644c07072b23c052672c">More...</a><br /></td></tr>
+<tr class="separator:aae90f90eff3c644c07072b23c052672c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh BLOB Transfer Block Size Log range</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_BLOB_TRANSFER_BLOCK_SIZE_LOG"></a></p>
 </div></td></tr>
-<tr class="memitem:a468500edf069ecbfffbd0d8aa5e7b958"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a468500edf069ecbfffbd0d8aa5e7b958">WICED_BT_MESH_OBJ_TRANSFER_STATUS_SUCCESS</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="memdesc:a468500edf069ecbfffbd0d8aa5e7b958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result of the operation was success.  <a href="#a468500edf069ecbfffbd0d8aa5e7b958">More...</a><br /></td></tr>
-<tr class="separator:a468500edf069ecbfffbd0d8aa5e7b958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1ee14e338599e9d9158bcadda4bfc22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ae1ee14e338599e9d9158bcadda4bfc22">WICED_BT_MESH_OBJ_TRANSFER_STATUS_BUSY</a>&#160;&#160;&#160;0x01</td></tr>
-<tr class="memdesc:ae1ee14e338599e9d9158bcadda4bfc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object transfer is currently active.  <a href="#ae1ee14e338599e9d9158bcadda4bfc22">More...</a><br /></td></tr>
-<tr class="separator:ae1ee14e338599e9d9158bcadda4bfc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773dd03d9b32dcda64b7434c3fc03ebb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a773dd03d9b32dcda64b7434c3fc03ebb">WICED_BT_MESH_OBJ_TRANSFER_STATUS_CANNOT_ABORT</a>&#160;&#160;&#160;0x02</td></tr>
-<tr class="memdesc:a773dd03d9b32dcda64b7434c3fc03ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operation cannot be aborted.  <a href="#a773dd03d9b32dcda64b7434c3fc03ebb">More...</a><br /></td></tr>
-<tr class="separator:a773dd03d9b32dcda64b7434c3fc03ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa09a20566f5cde7fd2dc6f15a75caf11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#aa09a20566f5cde7fd2dc6f15a75caf11">WICED_BT_MESH_OBJ_TRANSFER_STATUS_CANNOT_ACCEPT</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memdesc:aa09a20566f5cde7fd2dc6f15a75caf11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block cannot be accepted.  <a href="#aa09a20566f5cde7fd2dc6f15a75caf11">More...</a><br /></td></tr>
-<tr class="separator:aa09a20566f5cde7fd2dc6f15a75caf11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63383a9bc11af7ec0fc8c1d64e246541"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a63383a9bc11af7ec0fc8c1d64e246541">WICED_BT_MESH_OBJ_TRANSFER_STATUS_DUPLICATE_BLOCK</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="memdesc:a63383a9bc11af7ec0fc8c1d64e246541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block already transferred.  <a href="#a63383a9bc11af7ec0fc8c1d64e246541">More...</a><br /></td></tr>
-<tr class="separator:a63383a9bc11af7ec0fc8c1d64e246541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a744a7c70ca8f44855f74f989293d8ea8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a744a7c70ca8f44855f74f989293d8ea8">WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_BLOCK_NUMBER</a>&#160;&#160;&#160;0x05</td></tr>
-<tr class="memdesc:a744a7c70ca8f44855f74f989293d8ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Block Number field value is either not within range or not previously received.  <a href="#a744a7c70ca8f44855f74f989293d8ea8">More...</a><br /></td></tr>
-<tr class="separator:a744a7c70ca8f44855f74f989293d8ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d4aa57aae01690d0335518d81a62bfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a8d4aa57aae01690d0335518d81a62bfa">WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_BLOCK_SIZE</a>&#160;&#160;&#160;0x06</td></tr>
-<tr class="memdesc:a8d4aa57aae01690d0335518d81a62bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bigger than the block size log.  <a href="#a8d4aa57aae01690d0335518d81a62bfa">More...</a><br /></td></tr>
-<tr class="separator:a8d4aa57aae01690d0335518d81a62bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eeecab259d3b09b49a7fa906f0f46e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a3eeecab259d3b09b49a7fa906f0f46e0">WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_CHUNK_SIZE</a>&#160;&#160;&#160;0x07</td></tr>
-<tr class="memdesc:a3eeecab259d3b09b49a7fa906f0f46e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smaller than block size divided by max chunks number.  <a href="#a3eeecab259d3b09b49a7fa906f0f46e0">More...</a><br /></td></tr>
-<tr class="separator:a3eeecab259d3b09b49a7fa906f0f46e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fd5b08b99298f63ff8a8ece923a6fae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a1fd5b08b99298f63ff8a8ece923a6fae">WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_STATE</a>&#160;&#160;&#160;0x08</td></tr>
-<tr class="memdesc:a1fd5b08b99298f63ff8a8ece923a6fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model is in the invalid state.  <a href="#a1fd5b08b99298f63ff8a8ece923a6fae">More...</a><br /></td></tr>
-<tr class="separator:a1fd5b08b99298f63ff8a8ece923a6fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b56ad38c3c2aa849c68a6286628a9e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a5b56ad38c3c2aa849c68a6286628a9e8">WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_PARAMETER</a>&#160;&#160;&#160;0x09</td></tr>
-<tr class="memdesc:a5b56ad38c3c2aa849c68a6286628a9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter value cannot be accepted.  <a href="#a5b56ad38c3c2aa849c68a6286628a9e8">More...</a><br /></td></tr>
-<tr class="separator:a5b56ad38c3c2aa849c68a6286628a9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631557df46438e32efd5ee9ed7f9414c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a631557df46438e32efd5ee9ed7f9414c">WICED_BT_MESH_OBJ_TRANSFER_STATUS_INCOMPLETE_BLOCK</a>&#160;&#160;&#160;0x0A</td></tr>
-<tr class="memdesc:a631557df46438e32efd5ee9ed7f9414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not all chunks have been received.  <a href="#a631557df46438e32efd5ee9ed7f9414c">More...</a><br /></td></tr>
-<tr class="separator:a631557df46438e32efd5ee9ed7f9414c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e9439edca6880307ae8d9529fed053"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a11e9439edca6880307ae8d9529fed053">WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_OBJECT_ID</a>&#160;&#160;&#160;0x0B</td></tr>
-<tr class="memdesc:a11e9439edca6880307ae8d9529fed053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requested object ID not active.  <a href="#a11e9439edca6880307ae8d9529fed053">More...</a><br /></td></tr>
-<tr class="separator:a11e9439edca6880307ae8d9529fed053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab03b7bfca8d094e9835b719aa18df198"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ab03b7bfca8d094e9835b719aa18df198">WICED_BT_MESH_OBJ_TRANSFER_STATUS_FRESH_BLOCK</a>&#160;&#160;&#160;0x0C</td></tr>
-<tr class="memdesc:ab03b7bfca8d094e9835b719aa18df198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requested block was never received.  <a href="#ab03b7bfca8d094e9835b719aa18df198">More...</a><br /></td></tr>
-<tr class="separator:ab03b7bfca8d094e9835b719aa18df198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15365daa29cccd557d0864fea663a1f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a15365daa29cccd557d0864fea663a1f1">WICED_BT_MESH_OBJ_TRANSFER_STATUS_TEMPORARY_UNABLE_TO_RECEIVE</a>&#160;&#160;&#160;0x0D</td></tr>
-<tr class="memdesc:a15365daa29cccd557d0864fea663a1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary unable to receive the block.  <a href="#a15365daa29cccd557d0864fea663a1f1">More...</a><br /></td></tr>
-<tr class="separator:a15365daa29cccd557d0864fea663a1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad161c4706c1c8c12f8fc4c5cd8eb5c90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ad161c4706c1c8c12f8fc4c5cd8eb5c90">WICED_BT_MESH_OBJ_TRANSFER_STATUS_FATAL_ERROR</a>&#160;&#160;&#160;0x0E</td></tr>
-<tr class="memdesc:ad161c4706c1c8c12f8fc4c5cd8eb5c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal error occurred, and node cannot continue the block transfer anymore.  <a href="#ad161c4706c1c8c12f8fc4c5cd8eb5c90">More...</a><br /></td></tr>
-<tr class="separator:ad161c4706c1c8c12f8fc4c5cd8eb5c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0cc959e1ec8ed74533f2131051062e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ab0cc959e1ec8ed74533f2131051062e0">WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_RESPONSE</a>&#160;&#160;&#160;0xFF</td></tr>
-<tr class="memdesc:ab0cc959e1ec8ed74533f2131051062e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid response.  <a href="#ab0cc959e1ec8ed74533f2131051062e0">More...</a><br /></td></tr>
-<tr class="separator:ab0cc959e1ec8ed74533f2131051062e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4429ed2e2e77df5e0312bf02be121a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4429ed2e2e77df5e0312bf02be121a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOCK_SIZE_LOG_MIN</b>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:ac4429ed2e2e77df5e0312bf02be121a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74ad879954795800d64a2e5cf3a8280"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa74ad879954795800d64a2e5cf3a8280"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOCK_SIZE_LOG_MAX</b>&#160;&#160;&#160;0x20</td></tr>
+<tr class="separator:aa74ad879954795800d64a2e5cf3a8280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh BLOB Transfer Status Code Definitions</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_BLOB_TRANSFER_STATUS_CODE"></a></p>
+</div></td></tr>
+<tr class="memitem:a4bfc5e7099c0960d73f63197e1aaf40c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a4bfc5e7099c0960d73f63197e1aaf40c">WICED_BT_MESH_BLOB_TRANSFER_STATUS_SUCCESS</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="memdesc:a4bfc5e7099c0960d73f63197e1aaf40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The message was processed successfully.  <a href="#a4bfc5e7099c0960d73f63197e1aaf40c">More...</a><br /></td></tr>
+<tr class="separator:a4bfc5e7099c0960d73f63197e1aaf40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9955a8a80b8c2e0ee38bcdc05085a1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#af9955a8a80b8c2e0ee38bcdc05085a1c">WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_BLOCK_NUMBER</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="memdesc:af9955a8a80b8c2e0ee38bcdc05085a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Block Number field value is not within range.  <a href="#af9955a8a80b8c2e0ee38bcdc05085a1c">More...</a><br /></td></tr>
+<tr class="separator:af9955a8a80b8c2e0ee38bcdc05085a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad119b3940887a2f4115168f69ebf46b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ad119b3940887a2f4115168f69ebf46b8">WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_BLOCK_SIZE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="memdesc:ad119b3940887a2f4115168f69ebf46b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The block size is lower than the size represented by Min Block Size Log, or the block size is higher than the size represented by Max Block Size Log.  <a href="#ad119b3940887a2f4115168f69ebf46b8">More...</a><br /></td></tr>
+<tr class="separator:ad119b3940887a2f4115168f69ebf46b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355f137a25f08beac0f703b253f7b000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a355f137a25f08beac0f703b253f7b000">WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_CHUNK_SIZE</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:a355f137a25f08beac0f703b253f7b000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chunk size exceeds the size represented by Max Chunk Size, or the number of chunks exceeds the number specified by Max Chunks Number.  <a href="#a355f137a25f08beac0f703b253f7b000">More...</a><br /></td></tr>
+<tr class="separator:a355f137a25f08beac0f703b253f7b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4debe80e2ecd2f25efe982adde3cbeb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a4debe80e2ecd2f25efe982adde3cbeb0">WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_STATE</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:a4debe80e2ecd2f25efe982adde3cbeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The model is in a state where it cannot process the message.  <a href="#a4debe80e2ecd2f25efe982adde3cbeb0">More...</a><br /></td></tr>
+<tr class="separator:a4debe80e2ecd2f25efe982adde3cbeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27aad79d406a2c8b57bba52281f3f552"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a27aad79d406a2c8b57bba52281f3f552">WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_PARAMETER</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="memdesc:a27aad79d406a2c8b57bba52281f3f552"><td class="mdescLeft">&#160;</td><td class="mdescRight">A parameter value in the message cannot be accepted.  <a href="#a27aad79d406a2c8b57bba52281f3f552">More...</a><br /></td></tr>
+<tr class="separator:a27aad79d406a2c8b57bba52281f3f552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3e140fd88bf0a6d381762a2c71df77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a3a3e140fd88bf0a6d381762a2c71df77">WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_BLOB_ID</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="memdesc:a3a3e140fd88bf0a6d381762a2c71df77"><td class="mdescLeft">&#160;</td><td class="mdescRight">The requested BLOB ID is not expected.  <a href="#a3a3e140fd88bf0a6d381762a2c71df77">More...</a><br /></td></tr>
+<tr class="separator:a3a3e140fd88bf0a6d381762a2c71df77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66809f6220d680c9439d5682c16320c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a66809f6220d680c9439d5682c16320c9">WICED_BT_MESH_BLOB_TRANSFER_STATUS_STORAGE_LIMIT</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="memdesc:a66809f6220d680c9439d5682c16320c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not enough memory space to receive the BLOB.  <a href="#a66809f6220d680c9439d5682c16320c9">More...</a><br /></td></tr>
+<tr class="separator:a66809f6220d680c9439d5682c16320c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450d21ad0e33877ab352c3fa3d490d98"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a450d21ad0e33877ab352c3fa3d490d98">WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_RESPONSE</a>&#160;&#160;&#160;0xFF</td></tr>
+<tr class="memdesc:a450d21ad0e33877ab352c3fa3d490d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid response.  <a href="#a450d21ad0e33877ab352c3fa3d490d98">More...</a><br /></td></tr>
+<tr class="separator:a450d21ad0e33877ab352c3fa3d490d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Mesh BLOB Transfer Block Missing Chunks</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_BLOB_TRANSFER_BLOCK_CHUNKS_MISSING"></a></p>
+</div></td></tr>
+<tr class="memitem:a0620128084b3a8944768cd0cbf305929"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0620128084b3a8944768cd0cbf305929"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOCK_ALL_CHUNKS_MISSING</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a0620128084b3a8944768cd0cbf305929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18d13de65e10f99e8a3728de2c8dfe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa18d13de65e10f99e8a3728de2c8dfe3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOCK_NO_CHUNK_MISSING</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:aa18d13de65e10f99e8a3728de2c8dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f60bcde18159d1642b21e381fb47a0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f60bcde18159d1642b21e381fb47a0b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_BLOB_TRANSFER_BLOCK_SOME_CHUNKS_MISSING</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a1f60bcde18159d1642b21e381fb47a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
@@ -2754,166 +2858,125 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a817931540a99c1a97f3897079ad85367"></a>
+<a class="anchor" id="a5c8b11a140a5a0d7f835ede3a3c2dde9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_POLICY_AUTO_UPDATE&#160;&#160;&#160;0x01</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_COMPLETE&#160;&#160;&#160;0x03</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Apply new firmware when Object transfer is completed. </p>
+<p>Receive BLOB Procedure is complete. </p>
+<p>The server is waiting for a higher-layer application or model to set the server into the Idle or Inactive state. </p>
 
 </div>
 </div>
-<a class="anchor" id="a6d8cbccf60f6502cbd294271bfe82682"></a>
+<a class="anchor" id="acfc2eaaf6c62cd9ec99b5d07edc2b129"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_POLICY_NONE&#160;&#160;&#160;0x00</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_IDLE&#160;&#160;&#160;0x00</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Do not apply new firmware when Object transfer is completed. </p>
+<p>BLOB Transfer Server is ready to receive the BLOB identified by the Expected BLOB ID. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae1ee14e338599e9d9158bcadda4bfc22"></a>
+<a class="anchor" id="aae90f90eff3c644c07072b23c052672c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_BUSY&#160;&#160;&#160;0x01</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_INACTIVE&#160;&#160;&#160;0x05</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Object transfer is currently active. </p>
+<p>Receive BLOB Procedure is not ready and has not been given an Expected BLOB ID. </p>
 
 </div>
 </div>
-<a class="anchor" id="a773dd03d9b32dcda64b7434c3fc03ebb"></a>
+<a class="anchor" id="af03eda14f43be66180ba80ccef255bfe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_CANNOT_ABORT&#160;&#160;&#160;0x02</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_SUSPENDED&#160;&#160;&#160;0x04</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Operation cannot be aborted. </p>
+<p>Receive BLOB Procedure has been timed out. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa09a20566f5cde7fd2dc6f15a75caf11"></a>
+<a class="anchor" id="a33a26abc9e7246d010ff4cb5860bad53"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_CANNOT_ACCEPT&#160;&#160;&#160;0x03</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_WAIT_NEXT_BLOCK&#160;&#160;&#160;0x01</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Block cannot be accepted. </p>
+<p>BLOB Transfer Server is waiting for the next block of data. </p>
 
 </div>
 </div>
-<a class="anchor" id="a63383a9bc11af7ec0fc8c1d64e246541"></a>
+<a class="anchor" id="af9fc2c34ec047018e6f043f309ae484b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_DUPLICATE_BLOCK&#160;&#160;&#160;0x04</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_PHASE_WAIT_NEXT_CHUNK&#160;&#160;&#160;0x02</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Block already transferred. </p>
+<p>BLOB Transfer Server is waiting for the next chunk of data. </p>
 
 </div>
 </div>
-<a class="anchor" id="ad161c4706c1c8c12f8fc4c5cd8eb5c90"></a>
+<a class="anchor" id="af9955a8a80b8c2e0ee38bcdc05085a1c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_FATAL_ERROR&#160;&#160;&#160;0x0E</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_BLOCK_NUMBER&#160;&#160;&#160;0x01</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Internal error occurred, and node cannot continue the block transfer anymore. </p>
+<p>The Block Number field value is not within range. </p>
 
 </div>
 </div>
-<a class="anchor" id="ab03b7bfca8d094e9835b719aa18df198"></a>
+<a class="anchor" id="a27aad79d406a2c8b57bba52281f3f552"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_FRESH_BLOCK&#160;&#160;&#160;0x0C</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_PARAMETER&#160;&#160;&#160;0x05</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Requested block was never received. </p>
+<p>A parameter value in the message cannot be accepted. </p>
 
 </div>
 </div>
-<a class="anchor" id="a631557df46438e32efd5ee9ed7f9414c"></a>
+<a class="anchor" id="a450d21ad0e33877ab352c3fa3d490d98"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_INCOMPLETE_BLOCK&#160;&#160;&#160;0x0A</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Not all chunks have been received. </p>
-
-</div>
-</div>
-<a class="anchor" id="a744a7c70ca8f44855f74f989293d8ea8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_BLOCK_NUMBER&#160;&#160;&#160;0x05</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The Block Number field value is either not within range or not previously received. </p>
-
-</div>
-</div>
-<a class="anchor" id="a5b56ad38c3c2aa849c68a6286628a9e8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_PARAMETER&#160;&#160;&#160;0x09</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Parameter value cannot be accepted. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab0cc959e1ec8ed74533f2131051062e0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_RESPONSE&#160;&#160;&#160;0xFF</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_RESPONSE&#160;&#160;&#160;0xFF</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2922,87 +2985,424 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1fd5b08b99298f63ff8a8ece923a6fae"></a>
+<a class="anchor" id="a4debe80e2ecd2f25efe982adde3cbeb0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_INVALID_STATE&#160;&#160;&#160;0x08</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_INVALID_STATE&#160;&#160;&#160;0x04</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Model is in the invalid state. </p>
+<p>The model is in a state where it cannot process the message. </p>
 
 </div>
 </div>
-<a class="anchor" id="a468500edf069ecbfffbd0d8aa5e7b958"></a>
+<a class="anchor" id="a66809f6220d680c9439d5682c16320c9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_SUCCESS&#160;&#160;&#160;0x00</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_STORAGE_LIMIT&#160;&#160;&#160;0x07</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Result of the operation was success. </p>
+<p>Not enough memory space to receive the BLOB. </p>
 
 </div>
 </div>
-<a class="anchor" id="a15365daa29cccd557d0864fea663a1f1"></a>
+<a class="anchor" id="a4bfc5e7099c0960d73f63197e1aaf40c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_TEMPORARY_UNABLE_TO_RECEIVE&#160;&#160;&#160;0x0D</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_SUCCESS&#160;&#160;&#160;0x00</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Temporary unable to receive the block. </p>
+<p>The message was processed successfully. </p>
 
 </div>
 </div>
-<a class="anchor" id="a8d4aa57aae01690d0335518d81a62bfa"></a>
+<a class="anchor" id="a3a3e140fd88bf0a6d381762a2c71df77"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_BLOCK_SIZE&#160;&#160;&#160;0x06</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_BLOB_ID&#160;&#160;&#160;0x06</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bigger than the block size log. </p>
+<p>The requested BLOB ID is not expected. </p>
 
 </div>
 </div>
-<a class="anchor" id="a3eeecab259d3b09b49a7fa906f0f46e0"></a>
+<a class="anchor" id="ad119b3940887a2f4115168f69ebf46b8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_CHUNK_SIZE&#160;&#160;&#160;0x07</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_BLOCK_SIZE&#160;&#160;&#160;0x02</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Smaller than block size divided by max chunks number. </p>
+<p>The block size is lower than the size represented by Min Block Size Log, or the block size is higher than the size represented by Max Block Size Log. </p>
 
 </div>
 </div>
-<a class="anchor" id="a11e9439edca6880307ae8d9529fed053"></a>
+<a class="anchor" id="a355f137a25f08beac0f703b253f7b000"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_MESH_OBJ_TRANSFER_STATUS_WRONG_OBJECT_ID&#160;&#160;&#160;0x0B</td>
+          <td class="memname">#define WICED_BT_MESH_BLOB_TRANSFER_STATUS_WRONG_CHUNK_SIZE&#160;&#160;&#160;0x03</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Requested object ID not active. </p>
+<p>Chunk size exceeds the size represented by Max Chunk Size, or the number of chunks exceeds the number specified by Max Chunks Number. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7c209963759c0c4a73ddffbbf5867e66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_APPLY_ACTIVE&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware applying in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac60da461bc842c91046bec09e9209e8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_COMPLETED&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>At least one Updating Node was updated successfully. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeb8af9bc5c91570c479731b28a7cd2ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_FAILED&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>No Updating Nodes were updated successfully. </p>
+
+</div>
+</div>
+<a class="anchor" id="a254f7773eb846f880abfdc3b45c27715"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_IDLE&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Distribution is not active. </p>
+
+</div>
+</div>
+<a class="anchor" id="a684b0cf65d81c046f6c41bd09e196281"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_ACTIVE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware transfer in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f993c535d09e6fe4f48eda8d7a9478f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_SUCCESS&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware transfer is complete and Updating Nodes verified the firmware successfully. </p>
+
+</div>
+</div>
+<a class="anchor" id="aac9ad1292f894ff145918b1001e160ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_COMPOSITION_CHANGE_EXPECTED&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The device is expected to expose page 0x80 of the Composition Data state, and execution of either the Node Composition Refresh procedure or Node Removal procedure is needed. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad987c698fc858ac6573026090b6549d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_OOB_SUPPORTED&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Distributor supports firmware retrieval using Out-of-Band mechanism. </p>
+
+</div>
+</div>
+<a class="anchor" id="aba4b35396e1b4d9e7960add742e524be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_ACTIVE&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware applying is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2430a7b7217aaca95330fe270f1dd059"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_FAILED&#160;&#160;&#160;0x07</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware applying failed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a41a64b3e27b923b5fa6b2e27fa1220a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_APPLY_SUCCESS&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware applying succeeded. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8fcaf7b8b8115207f67defba80fa1323"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_IDLE&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>No firmware download is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ef4fdc797572092920a17575fb78bb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_TRANSFER_ACTIVE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware download is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="adc932affe6468e6aa2581129c8fb7808"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_TRANSFER_ERROR&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware download failed because of a BLOB Transfer protocol error, such as a timeout. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab2d34c9e8a3302480617c3a881aa6616"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_VERIFICATION_FAILED&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware download finished and verification failed. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab39b78854bc1fb04c8e7997eb99e2660"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PHASE_VERIFICATION_SUCCESS&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware download finished and verification succeeded. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ad997251e94473377a416f16e7d1f2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_POLICY_VERIFY_AND_APPLY&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send a Firmware Update Apply message when the firmware transfer is completed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a93ba9cb7eb9d5b09eb54fa3d84169875"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_POLICY_VERIFY_ONLY&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Do not send a Firmware Update Apply when the firmware transfer is completed. </p>
+<p>Wait for the Initiator to send the Firmware Distribution Apply message before sending the Firmware Update Apply message. </p>
+
+</div>
+</div>
+<a class="anchor" id="aadfcc85eb8b2f4f355f563bd5d9729c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPDATE_PROVISIONING_NEEDED&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The device shall be in an unprovisioned state after new firmware is applied (possibly because of new models added). </p>
+
+</div>
+</div>
+<a class="anchor" id="a03bb402f23f3762d02e6b78fe593d0b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPLOAD_PHASE_IDLE&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>No firmware upload is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="af549a525ff88805b2fc71ef562e27b3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPLOAD_PHASE_OOB_TRANSFER_ACTIVE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware upload using the Out-of-Band mechanism is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa29c87fb420690800f320112ebbdf584"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_ACTIVE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware upload using the BLOB transfer is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae78997f4b96bc2c65cffe41e731f287c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_ERROR&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware upload failed because of a BLOB Transfer protocol error, such as a timeout. </p>
+
+</div>
+</div>
+<a class="anchor" id="a77f8283cb78149ae5bdc1b37ed0f88d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_FW_UPLOAD_PHASE_TRANSFER_SUCCESS&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Firmware uploaded successfully. </p>
 
 </div>
 </div>

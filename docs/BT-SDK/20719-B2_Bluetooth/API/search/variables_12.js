@@ -30,6 +30,7 @@ var searchData=
   ['received_5fseg_5fmsg_5fcnt',['received_seg_msg_cnt',['../structwiced__bt__mesh__core__transport__statistics__t.html#aa59787cc266df0c83c580f317ecc0630',1,'wiced_bt_mesh_core_transport_statistics_t']]],
   ['received_5fttl',['received_ttl',['../wiced__bt__mesh__provision_8h.html#a092a645f2bb4b3a6f9c165d42edf485f',1,'wiced_bt_mesh_provision.h']]],
   ['received_5funseg_5fmsg_5fcnt',['received_unseg_msg_cnt',['../structwiced__bt__mesh__core__transport__statistics__t.html#a41bc14e41bc5258b85e05ace6086c35c',1,'wiced_bt_mesh_core_transport_statistics_t']]],
+  ['reciptable',['recipTable',['../structarm__lms__norm__instance__q31.html#aec8a88dd688519b6b1e3c8d2e24bb775',1,'arm_lms_norm_instance_q31::recipTable()'],['../structarm__lms__norm__instance__q15.html#a39b65b32f68643831304cece01e093bd',1,'arm_lms_norm_instance_q15::recipTable()']]],
   ['reconfig_5fcfm',['reconfig_cfm',['../unionwiced__bt__avdt__ctrl__t.html#acfd38cec38feb0b47d4ed26d54059df8',1,'wiced_bt_avdt_ctrl_t']]],
   ['reconfig_5find',['reconfig_ind',['../unionwiced__bt__avdt__ctrl__t.html#aca11967612fa535a371d04cd2c6bba54',1,'wiced_bt_avdt_ctrl_t']]],
   ['recov_5fmnmp',['recov_mnmp',['../structwiced__bt__avdt__cfg__t.html#a4e332505476576bab57fc50ce14b38a4',1,'wiced_bt_avdt_cfg_t']]],

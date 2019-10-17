@@ -1,31 +1,5 @@
 var searchData=
 [
-  ['t_5fsdp_5fdi_5fget_5frecord',['t_sdp_di_get_record',['../structt__sdp__di__get__record.html',1,'']]],
-  ['t_5fsdp_5fdi_5frecord',['t_sdp_di_record',['../structt__sdp__di__record.html',1,'']]],
-  ['t_5fsdp_5fdisc_5fattr',['t_sdp_disc_attr',['../structt__sdp__disc__attr.html',1,'']]],
-  ['t_5fsdp_5fdisc_5frec',['t_sdp_disc_rec',['../structt__sdp__disc__rec.html',1,'']]],
-  ['t_5fsdp_5fdiscovery_5fattr',['t_sdp_discovery_attr',['../structt__sdp__discovery__attr.html',1,'']]],
-  ['tble_5fbd_5faddr',['tBLE_BD_ADDR',['../structt_b_l_e___b_d___a_d_d_r.html',1,'']]],
-  ['tbt_5fconn_5fstats',['tBT_CONN_STATS',['../structt_b_t___c_o_n_n___s_t_a_t_s.html',1,'']]],
-  ['tbt_5fuuid',['tBT_UUID',['../structt_b_t___u_u_i_d.html',1,'']]],
-  ['tester_5fblock_5fdevice_5fspecific_5fdata_5ft',['tester_block_device_specific_data_t',['../structtester__block__device__specific__data__t.html',1,'']]],
-  ['thci_5fext_5fflow_5fspec',['tHCI_EXT_FLOW_SPEC',['../structt_h_c_i___e_x_t___f_l_o_w___s_p_e_c.html',1,'']]],
-  ['trtc_5flhl_5fadc_5frtc_5fctl_5freg',['tRTC_LHL_ADC_RTC_CTL_REG',['../uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html',1,'']]],
-  ['trtc_5freal_5ftime_5fclock',['tRTC_REAL_TIME_CLOCK',['../uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html',1,'']]],
-  ['tsdp_5fdata',['tSDP_DATA',['../uniont_s_d_p___d_a_t_a.html',1,'']]],
-  ['tsdp_5fdisc_5fatval',['tSDP_DISC_ATVAL',['../structt_s_d_p___d_i_s_c___a_t_v_a_l.html',1,'']]],
-  ['tsdp_5fdiscovery_5fdb',['tSDP_DISCOVERY_DB',['../structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html',1,'']]],
-  ['tsdp_5fdr_5fdata',['tSDP_DR_DATA',['../structt_s_d_p___d_r___d_a_t_a.html',1,'']]],
-  ['tsdp_5fdr_5fopen',['tSDP_DR_OPEN',['../structt_s_d_p___d_r___o_p_e_n.html',1,'']]],
-  ['tsdp_5fproto_5flist_5felem',['tSDP_PROTO_LIST_ELEM',['../structt_s_d_p___p_r_o_t_o___l_i_s_t___e_l_e_m.html',1,'']]],
-  ['tsdp_5fprotocol_5felem',['tSDP_PROTOCOL_ELEM',['../structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html',1,'']]],
-  ['tx_5fblock_5fpool_5fstruct',['TX_BLOCK_POOL_STRUCT',['../struct_t_x___b_l_o_c_k___p_o_o_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fbyte_5fpool_5fstruct',['TX_BYTE_POOL_STRUCT',['../struct_t_x___b_y_t_e___p_o_o_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fevent_5fflags_5fgroup_5fstruct',['TX_EVENT_FLAGS_GROUP_STRUCT',['../struct_t_x___e_v_e_n_t___f_l_a_g_s___g_r_o_u_p___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fmutex_5fstruct',['TX_MUTEX_STRUCT',['../struct_t_x___m_u_t_e_x___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fqueue_5fstruct',['TX_QUEUE_STRUCT',['../struct_t_x___q_u_e_u_e___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fsemaphore_5fstruct',['TX_SEMAPHORE_STRUCT',['../struct_t_x___s_e_m_a_p_h_o_r_e___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fthread_5fstruct',['TX_THREAD_STRUCT',['../struct_t_x___t_h_r_e_a_d___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5ftimer_5finternal_5fstruct',['TX_TIMER_INTERNAL_STRUCT',['../struct_t_x___t_i_m_e_r___i_n_t_e_r_n_a_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5ftimer_5fstruct',['TX_TIMER_STRUCT',['../struct_t_x___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]]
+  ['rtcstate',['RtcState',['../struct_rtc_state.html',1,'']]],
+  ['rtctime',['RtcTime',['../struct_rtc_time.html',1,'']]]
 ];

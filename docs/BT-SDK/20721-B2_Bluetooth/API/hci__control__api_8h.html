@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: hci_control_api.h File Reference</title>
+<title>Cypress WICED CYW20721: hci_control_api.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -2717,7 +2717,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA</b>&#160;&#160;&#160;10  /* Data (folder/message list, message), variable length */</td></tr>
 <tr class="separator:a402ac588508b209c25da7567f74782ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a459effbf412bdfd6b18e35746f1e7bb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a459effbf412bdfd6b18e35746f1e7bb4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA_END</b>&#160;&#160;&#160;11  /* Last part of <a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a> (folder/message list, message), variable length */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA_END</b>&#160;&#160;&#160;11  /* Last part of <a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a> (folder/message list, message), variable length */</td></tr>
 <tr class="separator:a459effbf412bdfd6b18e35746f1e7bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fcab46435ecda63bcfa8f74ea086b2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fcab46435ecda63bcfa8f74ea086b2a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_STATUS</b>&#160;&#160;&#160;12  /* Event <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>, 1 byte */</td></tr>
@@ -2734,6 +2734,12 @@ Macros</h2></td></tr>
 <tr class="memitem:aff6240dcaae5059f04a39398a3e98429"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff6240dcaae5059f04a39398a3e98429"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_NOTIF_STATUS</b>&#160;&#160;&#160;16  /* Notification <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a> (1:ON, 0:OFF), 1 byte */</td></tr>
 <tr class="separator:aff6240dcaae5059f04a39398a3e98429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415acb312f849768e22476a84c81ec05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a415acb312f849768e22476a84c81ec05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_MAX_LIST_COUNT</b>&#160;&#160;&#160;17  /* Maximum number of items listed, 2 bytes */</td></tr>
+<tr class="separator:a415acb312f849768e22476a84c81ec05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09a906888904451b9dcab189fc950ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae09a906888904451b9dcab189fc950ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_LIST_START_OFFSET</b>&#160;&#160;&#160;18  /* Offset of the first item in list, 2 bytes */</td></tr>
+<tr class="separator:ae09a906888904451b9dcab189fc950ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>

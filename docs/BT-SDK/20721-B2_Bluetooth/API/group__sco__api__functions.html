@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721 API Reference Guide: Synchronous Connection Oriented (SCO) Channel</title>
+<title>Cypress WICED CYW20721: Synchronous Connection Oriented (SCO) Channel</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - API Reference Guide
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -115,6 +115,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaba857121768256e41d47bb56eab560b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8">wiced_bt_sco_create_as_acceptor</a> (uint16_t *p_sco_index)</td></tr>
 <tr class="memdesc:gaba857121768256e41d47bb56eab560b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_create_as_acceptor.  <a href="#gaba857121768256e41d47bb56eab560b8">More...</a><br /></td></tr>
 <tr class="separator:gaba857121768256e41d47bb56eab560b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71bacb02b232d6368b31e61624a69e85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85">wiced_bt_sco_create_as_acceptor_with_specific_ag</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> ag_addr, uint16_t *p_sco_index)</td></tr>
+<tr class="memdesc:ga71bacb02b232d6368b31e61624a69e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_create_as_acceptor.  <a href="#ga71bacb02b232d6368b31e61624a69e85">More...</a><br /></td></tr>
+<tr class="separator:ga71bacb02b232d6368b31e61624a69e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0fba642e9f6ed365e385457be01e4e15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga0fba642e9f6ed365e385457be01e4e15">wiced_bt_sco_remove</a> (uint16_t sco_index)</td></tr>
 <tr class="memdesc:ga0fba642e9f6ed365e385457be01e4e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_remove.  <a href="#ga0fba642e9f6ed365e385457be01e4e15">More...</a><br /></td></tr>
 <tr class="separator:ga0fba642e9f6ed365e385457be01e4e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,7 +127,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaf913710ad791aa3c1f6509524921250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gaaf913710ad791aa3c1f6509524921250">wiced_bt_sco_setup_voice_path</a> (<a class="el" href="structwiced__bt__voice__path__setup__t.html">wiced_bt_voice_path_setup_t</a> *pData)</td></tr>
 <tr class="memdesc:gaaf913710ad791aa3c1f6509524921250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_setup_voice_path.  <a href="#gaaf913710ad791aa3c1f6509524921250">More...</a><br /></td></tr>
 <tr class="separator:gaaf913710ad791aa3c1f6509524921250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga127c7a31a1a50679013855db90a0f430"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga127c7a31a1a50679013855db90a0f430">wiced_bt_sco_output_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memitem:ga127c7a31a1a50679013855db90a0f430"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga127c7a31a1a50679013855db90a0f430">wiced_bt_sco_output_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga127c7a31a1a50679013855db90a0f430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_output_stream.  <a href="#ga127c7a31a1a50679013855db90a0f430">More...</a><br /></td></tr>
 <tr class="separator:ga127c7a31a1a50679013855db90a0f430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae8704d3d0ef9c0ad9d789b6b2db4eda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gae8704d3d0ef9c0ad9d789b6b2db4eda8">wiced_bt_sco_turn_off_pcm_clock</a> (void)</td></tr>
@@ -200,6 +203,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b> WICED_BT_UNKNOWN_ADDR </b> : Create connection failed, ACL connection is not up or address is invalid <b> WICED_BT_BUSY </b> : Create connection failed, a SCO connection is already conncted to the same BD address <b> WICED_BT_WRONG_MODE </b> : Create connection failed, link in park mode or automatic un-park is not supported <b> WICED_BT_NO_RESOURCES </b> : Create connection failed, max SCO limit has been reached <b> WICED_BT_PENDING </b> : Create connection successfully, "p_sco_index" is returned </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga71bacb02b232d6368b31e61624a69e85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a> wiced_bt_sco_create_as_acceptor_with_specific_ag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>ag_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>p_sco_index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_sco_create_as_acceptor. </p>
+<p>Creates a synchronous connection oriented connection as acceptor with specifi Audio Gateway. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ag_addr</td><td>: Target Audio Gateway's address </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_sco_index</td><td>: SCO index returned</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> WICED_BT_UNKNOWN_ADDR </b> : Create connection failed, ACL connection is not up or address is invalid <b> WICED_BT_BUSY </b> : Create connection failed, a SCO connection is already conncted to the same BD address <b> WICED_BT_WRONG_MODE </b> : Create connection failed, link in park mode or automatic un-park is not supported <b> WICED_BT_NO_RESOURCES </b> : Create connection failed, max SCO limit has been reached <b> BTM_CMD_STARTED </b> : Create connection successfully, "p_sco_index" is returned </dd></dl>
 
 </div>
 </div>

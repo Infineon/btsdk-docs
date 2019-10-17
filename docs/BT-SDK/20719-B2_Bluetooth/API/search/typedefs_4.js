@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['hidevent',['HidEvent',['../group___hid_events.html#ga0ba1e6f5e66107361bd95582624dd68d',1,'hidevent.h']]],
-  ['hideventany',['HidEventAny',['../group___hid_events.html#gaf464ff8776c421ab12ab7f4387b579e8',1,'hidevent.h']]],
-  ['hideventbuttonstatechange',['HidEventButtonStateChange',['../group___hid_events.html#ga7e720ba225f313b5c6e3d6f03c44cd3c',1,'hidevent.h']]],
-  ['hideventkey',['HidEventKey',['../group___hid_events.html#gabb524128c71184b59e41ddf8dd5a9f16',1,'hidevent.h']]],
-  ['hideventmotionab',['HidEventMotionAB',['../group___hid_events.html#ga10110b577499906b7c911300c84a34ea',1,'hidevent.h']]],
-  ['hideventmotionsingleaxis',['HidEventMotionSingleAxis',['../group___hid_events.html#ga259701159e2ca84f1e50aca5c7605674',1,'hidevent.h']]],
-  ['hideventmotionxy',['HidEventMotionXY',['../group___hid_events.html#ga9fd4b9a317a8f1b613c4fccece8d74b8',1,'hidevent.h']]]
+  ['hidevent',['HidEvent',['../group___hid_events.html#ga02b134e0fd08f069b0d6616940e93c26',1,'hidevent.h']]],
+  ['hideventany',['HidEventAny',['../group___hid_events.html#gac106189b107c3d5c4cac43ce997fd0ea',1,'hidevent.h']]],
+  ['hideventbuttonstatechange',['HidEventButtonStateChange',['../group___hid_events.html#gad2e7908af5ed9a6f13ae049c48798b7f',1,'hidevent.h']]],
+  ['hideventkey',['HidEventKey',['../group___hid_events.html#ga144144c4c53306e152fdbdbc26ae9c52',1,'hidevent.h']]],
+  ['hideventmotionab',['HidEventMotionAB',['../group___hid_events.html#ga98a6197a3c5910fd1595b9da34fddbba',1,'hidevent.h']]],
+  ['hideventmotionsingleaxis',['HidEventMotionSingleAxis',['../group___hid_events.html#ga99d9f12d9014a1ba558e517eb957b281',1,'hidevent.h']]],
+  ['hideventmotionxy',['HidEventMotionXY',['../group___hid_events.html#ga50dcf1745a7ec61f6efc7c10bd3d1038',1,'hidevent.h']]]
 ];

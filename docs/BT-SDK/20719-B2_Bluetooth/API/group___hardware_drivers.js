@@ -5,6 +5,7 @@ var group___hardware_drivers =
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
     [ "BatteryMonitorDriver", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
     [ "Clock", "group___c_p_u.html", "group___c_p_u" ],
+    [ "config - Default flash (i.e. flash exists on WICED eval boards) configuration.", "group___platform.html", "group___platform" ],
     [ "Embedded Flash Interface", "group___embedded_flash_interface_driver.html", "group___embedded_flash_interface_driver" ],
     [ "External Power Amplifier", "group___external_power_amplifier_driver.html", "group___external_power_amplifier_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
