@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -48,8 +48,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +67,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -231,6 +238,9 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_bt_ble_hidh_filter_cback_t
 : <a class="el" href="group__wiced__bt__ble__hidh__api__functions.html#ga945cfe253e5b4edffa3514bb5f864a4c">wiced_bt_ble_hidh.h</a>
+</li>
+<li>wiced_bt_ble_multi_advert_filtering_policy_t
+: <a class="el" href="wiced__bt__ble_8h.html#a4e4090cd2ec534fe59977f6db1e90dc3">wiced_bt_ble.h</a>
 </li>
 <li>wiced_bt_ble_multi_advert_type_t
 : <a class="el" href="wiced__bt__ble_8h.html#a9b230bb2ed817386a6067735d397272b">wiced_bt_ble.h</a>
@@ -539,22 +549,22 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__core.html#gaf683e2e337ff9cc9f0ea78dacc1bcb29">wiced_bt_mesh_core.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_element_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga5a405944744b8bf718303e3a857a0718">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga8a6756f5a4a3727fb58451bb30db50f2">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_friend_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga9f21f8ae217ae0000c6bf6bbd3013687">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga2aa0de1b5a12ce5379b6f0b7b00adfe5">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_low_power_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#gaa7d79c195479309b03aae4c1f4105a3e">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga4db060c6827175209215cbb895de6123">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_model_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#gadbaf17be16e44f7dcb166a79410ebad5">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga81d683ac68ccbc5d436e77bc6ed5733a">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_property_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga8189707f2fc9aa1f347f6249af37c6cf">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga44ad139931a34b309c03cb77925f7292">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#gaf304029f5fd38093a1c1963a378ae23a">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#gaeb359d4359dc34ef8a2e8e3ae07b3173">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_get_dev_key_callback_t
 : <a class="el" href="group__wiced__bt__mesh__core.html#gaf2dce674a35994927cc0981140134443">wiced_bt_mesh_core.h</a>
@@ -778,18 +788,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 <li>wiced_dev_ble_signature_t
 : <a class="el" href="wiced__bt__ble_8h.html#a39b3b50eac531691f2bc87291526bb73">wiced_bt_ble.h</a>
 </li>
-<li>wiced_dir_t
-: <a class="el" href="wiced__filesystem_8h.html#a173e85093bd2f382e5147aef815ccbb1">wiced_filesystem.h</a>
-</li>
-<li>wiced_file_t
-: <a class="el" href="wiced__filesystem_8h.html#aee79a54c41a99ec695614b4e6113cab3">wiced_filesystem.h</a>
-</li>
-<li>wiced_filesystem_mounted_device_t
-: <a class="el" href="wiced__filesystem_8h.html#ac0ec541c184b3909307e75b59b67d040">wiced_filesystem.h</a>
-</li>
-<li>wiced_filesystem_t
-: <a class="el" href="wiced__filesystem_8h.html#ac2b146c3defbc3171c48b60909955dd2">wiced_filesystem.h</a>
-</li>
 <li>wiced_gattdb_entry_t
 : <a class="el" href="wiced__bt__gatt_8h.html#a3700c6e6439e518fcdd0a3ff4b3a0538">wiced_bt_gatt.h</a>
 </li>
@@ -802,6 +800,9 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 <li>wiced_model_scene_store_handler_t
 : <a class="el" href="group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45">wiced_bt_mesh_models.h</a>
 </li>
+<li>wiced_ota_firmware_event_callback_t
+: <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">wiced_bt_ota_firmware_upgrade.h</a>
+</li>
 <li>wiced_ota_firmware_upgrade_send_data_callback_t
 : <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
@@ -813,9 +814,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_spi_transport_cfg_t
 : <a class="el" href="group___transport.html#ga03c53df53ec36f89dbddd919d26448b8">wiced_transport.h</a>
-</li>
-<li>wiced_time_t
-: <a class="el" href="wiced__filesystem_8h.html#ab72826466036544afd26cb80ab51d286">wiced_filesystem.h</a>
 </li>
 <li>wiced_tranport_data_handler_t
 : <a class="el" href="group___transport.html#gac18db9b6503a1f1fd4ff237c5d4fccca">wiced_transport.h</a>
@@ -840,12 +838,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_uart_transport_cfg_t
 : <a class="el" href="group___transport.html#gaef699c789add200b23cd080eae36c4e0">wiced_transport.h</a>
-</li>
-<li>wiced_utc_time_ms_t
-: <a class="el" href="wiced__filesystem_8h.html#ab0bcc35a765c4a13de3f89234ad1f997">wiced_filesystem.h</a>
-</li>
-<li>wiced_utc_time_t
-: <a class="el" href="wiced__filesystem_8h.html#aeed617e56e7e89bb5dbb7a17964706d0">wiced_filesystem.h</a>
 </li>
 </ul>
 </div><!-- contents -->

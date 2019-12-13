@@ -91,5 +91,7 @@ var searchData=
   ['exec_5fwrite',['exec_write',['../unionwiced__bt__gatt__request__data__t.html#a51924c6528891bbd652edbc59f43fc99',1,'wiced_bt_gatt_request_data_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]],
-  ['external_20power_20amplifier',['External Power Amplifier',['../group___external_power_amplifier_driver.html',1,'']]]
+  ['external_20power_20amplifier',['External Power Amplifier',['../group___external_power_amplifier_driver.html',1,'']]],
+  ['encoder_20related_20ctls',['Encoder related CTLs',['../group__opus__encoderctls.html',1,'']]],
+  ['error_20codes',['Error codes',['../group__opus__errorcodes.html',1,'']]]
 ];

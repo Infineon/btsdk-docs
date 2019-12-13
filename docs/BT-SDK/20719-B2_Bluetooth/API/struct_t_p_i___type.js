@@ -1,0 +1,27 @@
+var struct_t_p_i___type =
+[
+    [ "ACPR", "struct_t_p_i___type.html#a4bdbe4ff58983d940ca72d8733feaedd", null ],
+    [ "CLAIMCLR", "struct_t_p_i___type.html#a9c887c45efeb6fef9b6a9ab5bc490f62", null ],
+    [ "CLAIMSET", "struct_t_p_i___type.html#a72a4fb10cf406fa6af1740e3bf6c2e41", null ],
+    [ "CSPSR", "struct_t_p_i___type.html#a473c1ca66cec890b536d9c9a13a2d8c2", null ],
+    [ "DEVID", "struct_t_p_i___type.html#ac427ef592ac98a4e2d4b04d76ce02a4e", null ],
+    [ "DEVTYPE", "struct_t_p_i___type.html#a67888dcdd12f305556012ba4c39cea19", null ],
+    [ "FFCR", "struct_t_p_i___type.html#a511d496d51cf81ccef6e97fd1d5abe31", null ],
+    [ "FFSR", "struct_t_p_i___type.html#ab1bcdedfb12eaebecde53a7add7f9f84", null ],
+    [ "FIFO0", "struct_t_p_i___type.html#afaaebd439123255be4d82536f8bda272", null ],
+    [ "FIFO1", "struct_t_p_i___type.html#af9289020546ed8dfae56b59506dfb29c", null ],
+    [ "FSCR", "struct_t_p_i___type.html#a3030960fcac362026459469bc2ff3178", null ],
+    [ "ITATBCTR0", "struct_t_p_i___type.html#afa3718bbb523ffb294402f58896592e6", null ],
+    [ "ITATBCTR2", "struct_t_p_i___type.html#a89c5da21240d76e6b873144202deffa3", null ],
+    [ "ITCTRL", "struct_t_p_i___type.html#ad987483f555c0f6034ef24a8840f337d", null ],
+    [ "RESERVED0", "struct_t_p_i___type.html#a8be676577db129a84a9a2689519a8502", null ],
+    [ "RESERVED1", "struct_t_p_i___type.html#ab445bcbcbaa3aa0a1ce8788d8f852304", null ],
+    [ "RESERVED2", "struct_t_p_i___type.html#a0d017a4e3963442ad8909edf518e28a0", null ],
+    [ "RESERVED3", "struct_t_p_i___type.html#a121d5e812f2f5661abb848f39d7f8e05", null ],
+    [ "RESERVED4", "struct_t_p_i___type.html#af0c531739b392deb828f4c141f586dfb", null ],
+    [ "RESERVED5", "struct_t_p_i___type.html#add1bab5dc33926f62b9e00a9089b36ae", null ],
+    [ "RESERVED7", "struct_t_p_i___type.html#a609715cee159355fc73286bac021a11f", null ],
+    [ "SPPR", "struct_t_p_i___type.html#a102814b254904beb9060757a93fe526c", null ],
+    [ "SSPSR", "struct_t_p_i___type.html#ad6abd8c7878d64e5e8e442de842f9de8", null ],
+    [ "TRIGGER", "struct_t_p_i___type.html#aa3adfea70bff38242f8231737a7fa2dd", null ]
+];

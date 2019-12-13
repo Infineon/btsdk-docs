@@ -1,5 +1,6 @@
 var group__wicedbt__av__a2d__helper =
 [
+    [ "Advanced Audio Distribution Profile (A2DP) Sink", "group__wicedbt__a2dp.html", "group__wicedbt__a2dp" ],
     [ "wiced_bt_a2d_sdp_db_params_t", "structwiced__bt__a2d__sdp__db__params__t.html", [
       [ "db_len", "group__wicedbt__av__a2d__helper.html#gad869c77e637e74544b7da4fc883c965e", null ],
       [ "num_attr", "group__wicedbt__av__a2d__helper.html#ga15873975ac30bb80d6e4a1a47b14ca00", null ],
@@ -14,7 +15,6 @@ var group__wicedbt__av__a2d__helper =
       [ "provider_len", "group__wicedbt__av__a2d__helper.html#ga1141e4ebcbdd40401137776441e5a17b", null ],
       [ "service_len", "group__wicedbt__av__a2d__helper.html#ga412f90be47a00ccd253665c53b890f60", null ]
     ] ],
-    [ "Advanced Audio Distribution Profile (A2DP) Sink", "group__wicedbt__a2dp.html", "group__wicedbt__a2dp" ],
     [ "A2D_BAD_ALLOC_MTHD", "group__wicedbt__av__a2d__helper.html#gad192d339d80f88f0ab96ce1d5d1be313", null ],
     [ "A2D_BAD_BIT_RATE", "group__wicedbt__av__a2d__helper.html#ga653486795f9a5c0765c51760939d9992", null ],
     [ "A2D_BAD_BLOCK_LEN", "group__wicedbt__av__a2d__helper.html#gab32a5584267f6873c2c5440985b501c4", null ],

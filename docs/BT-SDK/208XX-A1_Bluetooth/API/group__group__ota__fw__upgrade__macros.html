@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -145,9 +146,6 @@ Macros</h2></td></tr>
 <tr class="memitem:gaf8eb1cb0b40a10df8e847f625f303785"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf8eb1cb0b40a10df8e847f625f303785"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_COMMAND_ABORT</b>&#160;&#160;&#160;7</td></tr>
 <tr class="separator:gaf8eb1cb0b40a10df8e847f625f303785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77da8ec7dd1bf63d6f31604f739337d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga77da8ec7dd1bf63d6f31604f739337d0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_COMMAND_APPLY</b>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:ga77da8ec7dd1bf63d6f31604f739337d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac639931494871febc166678d9759f028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac639931494871febc166678d9759f028"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_STATUS_OK</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:gac639931494871febc166678d9759f028"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,6 +216,15 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32">OTA_FW_UPGRADE_STATUS_VERIFICATION_START</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:ga3a0fbd9c3c66798702d400a37676bb32"><td class="mdescLeft">&#160;</td><td class="mdescRight">OTA firmware upgrade starts verification. <br /></td></tr>
 <tr class="separator:ga3a0fbd9c3c66798702d400a37676bb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70e0ad3657b3ce6d6efe2aef2d4890b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga70e0ad3657b3ce6d6efe2aef2d4890b9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_STARTED</b>&#160;&#160;&#160;1   /* Client started OTA firmware upgrade process */</td></tr>
+<tr class="separator:ga70e0ad3657b3ce6d6efe2aef2d4890b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2e72a398311d4a3c76a1f5999fb8055"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad2e72a398311d4a3c76a1f5999fb8055"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_DATA</b>&#160;&#160;&#160;2   /* OTA firmware upgrade <a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a> received */</td></tr>
+<tr class="separator:gad2e72a398311d4a3c76a1f5999fb8055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3189009d770129c51b7a0d70feade41a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3189009d770129c51b7a0d70feade41a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_COMPLETED</b>&#160;&#160;&#160;3   /* OTA firmware upgrade completed */</td></tr>
+<tr class="separator:ga3189009d770129c51b7a0d70feade41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 </div><!-- contents -->

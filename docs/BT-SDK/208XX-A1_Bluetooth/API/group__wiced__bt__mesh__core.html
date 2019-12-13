@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -857,6 +858,9 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_cor
 <tr class="memitem:ga021068ae3488888ac9d25c1c5876f47f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__core.html#ga021068ae3488888ac9d25c1c5876f47f">wiced_bt_core_lower_transport_ack_timeout_ms</a></td></tr>
 <tr class="memdesc:ga021068ae3488888ac9d25c1c5876f47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower Transport Layer ACK timeout.  <a href="#ga021068ae3488888ac9d25c1c5876f47f">More...</a><br /></td></tr>
 <tr class="separator:ga021068ae3488888ac9d25c1c5876f47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89a11dca5efe4e307efba3cab7843823"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__core.html#ga89a11dca5efe4e307efba3cab7843823">wiced_bt_mesh_core_proxy_adv_interval</a></td></tr>
+<tr class="memdesc:ga89a11dca5efe4e307efba3cab7843823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy service adv interval: * 0.625 ms.  <a href="#ga89a11dca5efe4e307efba3cab7843823">More...</a><br /></td></tr>
+<tr class="separator:ga89a11dca5efe4e307efba3cab7843823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Supported features bitmap</h2></td></tr>
@@ -3328,6 +3332,21 @@ OOB callback definitions</h2></td></tr>
 
 <p>Advertising interval in MS of the provisioning URL in units 0.5 sec. </p>
 <p>Default value: 8000 (5 sec) </p>
+
+</div>
+</div>
+<a class="anchor" id="ga89a11dca5efe4e307efba3cab7843823"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_bt_mesh_core_proxy_adv_interval</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Proxy service adv interval: * 0.625 ms. </p>
+<p>Default value is 800 - 500 ms </p>
 
 </div>
 </div>

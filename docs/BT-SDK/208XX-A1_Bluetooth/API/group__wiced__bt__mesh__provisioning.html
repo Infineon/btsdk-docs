@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -116,6 +117,8 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__local__device__set__data__t.html">wiced_bt_mesh_local_device_set_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__set__dev__key__data__t.html">wiced_bt_mesh_set_dev_key_data_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__add__vendor__model__data__t.html">wiced_bt_mesh_add_vendor_model_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__proxy__device__network__data__t.html">wiced_bt_mesh_proxy_device_network_data_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure contains information sent to the provisioner application from the provisioner library with information from the proxy device advertisements while device advertises network identity.  <a href="structwiced__bt__mesh__proxy__device__network__data__t.html#details">More...</a><br /></td></tr>
@@ -1156,6 +1159,10 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#af811f910b8a3ea18fbca2cc6a9508e12">update_nodes_list</a> [<a class="el" href="wiced__bt__mesh__provision_8h.html#a392f6943dc03d2fa471aac2c04dc1240">WICED_BT_MESH_MAX_UPDATES_NODES</a>]</td></tr>
 <tr class="memdesc:af811f910b8a3ea18fbca2cc6a9508e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of the nodes. <br /></td></tr>
 <tr class="separator:af811f910b8a3ea18fbca2cc6a9508e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b39023470b7af0c5618263fd24db5b7"><td class="memItemLeft" ><a class="anchor" id="a5b39023470b7af0c5618263fd24db5b7"></a>
+&#160;&#160;&#160;wiced_bool_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a5b39023470b7af0c5618263fd24db5b7">ota_supported</a></td></tr>
+<tr class="memdesc:a5b39023470b7af0c5618263fd24db5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distributor support OTA. <br /></td></tr>
+<tr class="separator:a5b39023470b7af0c5618263fd24db5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4224b50ae2f79fb058618d271e979530"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_fw_distribution_start_data_t</b></td></tr>
 <tr class="separator:ga4224b50ae2f79fb058618d271e979530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2e2005cd1403d24da2ca0800e9585605"><td class="memItemLeft" ><a class="anchor" id="ga2e2005cd1403d24da2ca0800e9585605"></a>
@@ -1237,6 +1244,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0881bc700e7e3aab0ac438bd4f1642d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga0881bc700e7e3aab0ac438bd4f1642d7">wiced_bt_mesh_provision_set_dev_key</a> (<a class="el" href="structwiced__bt__mesh__set__dev__key__data__t.html">wiced_bt_mesh_set_dev_key_data_t</a> *p_data)</td></tr>
 <tr class="memdesc:ga0881bc700e7e3aab0ac438bd4f1642d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Device Key.  <a href="#ga0881bc700e7e3aab0ac438bd4f1642d7">More...</a><br /></td></tr>
 <tr class="separator:ga0881bc700e7e3aab0ac438bd4f1642d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7d8b9839dcecb5ff268d4500a132ad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gac7d8b9839dcecb5ff268d4500a132ad7">wiced_bt_mesh_add_vendor_model</a> (<a class="el" href="structwiced__bt__mesh__add__vendor__model__data__t.html">wiced_bt_mesh_add_vendor_model_data_t</a> *p_data)</td></tr>
+<tr class="memdesc:gac7d8b9839dcecb5ff268d4500a132ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add Vendor Model.  <a href="#gac7d8b9839dcecb5ff268d4500a132ad7">More...</a><br /></td></tr>
+<tr class="separator:gac7d8b9839dcecb5ff268d4500a132ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3e6e4e8377819dbc70d3500d402e4ccb"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga3e6e4e8377819dbc70d3500d402e4ccb">wiced_bt_mesh_provision_scan_unprovisioned_devices</a> (wiced_bool_t start)</td></tr>
 <tr class="memdesc:ga3e6e4e8377819dbc70d3500d402e4ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scan Unprovisioned Devices.  <a href="#ga3e6e4e8377819dbc70d3500d402e4ccb">More...</a><br /></td></tr>
 <tr class="separator:ga3e6e4e8377819dbc70d3500d402e4ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1435,12 +1445,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga00d132d53bba9a40c17c46da47d0dd69"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga00d132d53bba9a40c17c46da47d0dd69">wiced_bt_mesh_fw_provider_get_status</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga593c37eb82c054299ec4fa832ea4fd09">wiced_bt_mesh_fw_provider_callback_t</a> *p_callback)</td></tr>
 <tr class="memdesc:ga00d132d53bba9a40c17c46da47d0dd69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can call this function to get the state of the current firmware distribution process.  <a href="#ga00d132d53bba9a40c17c46da47d0dd69">More...</a><br /></td></tr>
 <tr class="separator:ga00d132d53bba9a40c17c46da47d0dd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaface74b5d9bb0bc7044d870367b643f6"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gaface74b5d9bb0bc7044d870367b643f6">wiced_bt_mesh_fw_provider_start</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, wiced_bt_mesh_fw_distribution_start_data_t *p_data)</td></tr>
-<tr class="memdesc:gaface74b5d9bb0bc7044d870367b643f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can call this function to start firmware distribution procedure.  <a href="#gaface74b5d9bb0bc7044d870367b643f6">More...</a><br /></td></tr>
-<tr class="separator:gaface74b5d9bb0bc7044d870367b643f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84774493236865ad2f8cc6684d6eac0b"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga84774493236865ad2f8cc6684d6eac0b">wiced_bt_mesh_fw_provider_start</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, wiced_bt_mesh_fw_distribution_start_data_t *p_data, <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga593c37eb82c054299ec4fa832ea4fd09">wiced_bt_mesh_fw_provider_callback_t</a> *p_callback)</td></tr>
+<tr class="memdesc:ga84774493236865ad2f8cc6684d6eac0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can call this function to start firmware distribution procedure.  <a href="#ga84774493236865ad2f8cc6684d6eac0b">More...</a><br /></td></tr>
+<tr class="separator:ga84774493236865ad2f8cc6684d6eac0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf84b575babd00ddb0a600ef4d9edf52a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gaf84b575babd00ddb0a600ef4d9edf52a">wiced_bt_mesh_fw_provider_stop</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event)</td></tr>
 <tr class="memdesc:gaf84b575babd00ddb0a600ef4d9edf52a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can call this function to terminate firmware distribution procedure.  <a href="#gaf84b575babd00ddb0a600ef4d9edf52a">More...</a><br /></td></tr>
 <tr class="separator:gaf84b575babd00ddb0a600ef4d9edf52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21d0a4c533f85606360c6c97a695065b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga21d0a4c533f85606360c6c97a695065b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_fw_provider_ota_finish</b> (uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>)</td></tr>
+<tr class="separator:ga21d0a4c533f85606360c6c97a695065b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1816,6 +1829,32 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gac7d8b9839dcecb5ff268d4500a132ad7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_mesh_add_vendor_model </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structwiced__bt__mesh__add__vendor__model__data__t.html">wiced_bt_mesh_add_vendor_model_data_t</a> *&#160;</td>
+          <td class="paramname"><em>p_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add Vendor Model. </p>
+<p>The application can call this function to vendor model to mesh core. Once added, mesh core forwards all vendor specific messages/event to vendor client message handler.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>Pointer to the data structure with vendor model information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga72759040067bb5962bbfff1a752d94d8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3186,7 +3225,7 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 
 </div>
 </div>
-<a class="anchor" id="gaface74b5d9bb0bc7044d870367b643f6"></a>
+<a class="anchor" id="ga84774493236865ad2f8cc6684d6eac0b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3200,7 +3239,13 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">wiced_bt_mesh_fw_distribution_start_data_t *&#160;</td>
-          <td class="paramname"><em>p_data</em>&#160;</td>
+          <td class="paramname"><em>p_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga593c37eb82c054299ec4fa832ea4fd09">wiced_bt_mesh_fw_provider_callback_t</a> *&#160;</td>
+          <td class="paramname"><em>p_callback</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

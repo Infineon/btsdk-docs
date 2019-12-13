@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -65,6 +66,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -1276,6 +1283,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a09a650d08a4e3e2cd4c6252b6bb68192"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09a650d08a4e3e2cd4c6252b6bb68192"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_HEALTH_ATTENTION_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xaf )  /* Health Attention Set */</td></tr>
 <tr class="separator:a09a650d08a4e3e2cd4c6252b6bb68192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef9b97a24ff4d8668a91942db26068a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acef9b97a24ff4d8668a91942db26068a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_MODEL_ADD</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb0 )  /* Add Vendor Model */</td></tr>
+<tr class="separator:acef9b97a24ff4d8668a91942db26068a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a017ecf24e7aff6c83c50fec418259c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a017ecf24e7aff6c83c50fec418259c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_SET_LOCAL_DEVICE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xe0 )  /* Set Local Device. Application can set it once to make provisioner client. */</td></tr>
 <tr class="separator:a7a017ecf24e7aff6c83c50fec418259c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1801,6 +1811,12 @@ Macros</h2></td></tr>
 <tr class="memitem:aadb06a28b240f1284c054dd264ce517b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aadb06a28b240f1284c054dd264ce517b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_CLOSED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x04 )    /* Host attempt to establish connection failed */</td></tr>
 <tr class="separator:aadb06a28b240f1284c054dd264ce517b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092649f8ee7174dbfe65d1757931c579"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a092649f8ee7174dbfe65d1757931c579"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_HOST_ADDR</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x05 )    /* Paired host address */</td></tr>
+<tr class="separator:a092649f8ee7174dbfe65d1757931c579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755d30b5279a594a6733bccceb71503e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a755d30b5279a594a6733bccceb71503e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_STATE_CHANGE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x06 )    /* Device State Change */</td></tr>
+<tr class="separator:a755d30b5279a594a6733bccceb71503e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24f6f539fd5b7d5f6dbe51ee8176402b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0xFF )    /* Result status for HID commands */</td></tr>
 <tr class="separator:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memSeparator" colspan="2">&#160;</td></tr>

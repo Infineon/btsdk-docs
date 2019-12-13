@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -48,8 +48,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -179,6 +180,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga95d301057888bd9f906adee32f26bdb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2">wiced_bt_buffer_poolutilization</a> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> <a class="el" href="wiced__memory_8h.html#a41a59945291a60c900ac520531d7ef6b">pool_id</a>)</td></tr>
 <tr class="memdesc:ga95d301057888bd9f906adee32f26bdb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get specific buffer pool utilization.  <a href="#ga95d301057888bd9f906adee32f26bdb2">More...</a><br /></td></tr>
 <tr class="separator:ga95d301057888bd9f906adee32f26bdb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5113b7316a4a104fe3fe7147937688a4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4">wiced_memory_permanent_allocate</a> (uint32_t size)</td></tr>
+<tr class="memdesc:ga5113b7316a4a104fe3fe7147937688a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory for permanent usage.  <a href="#ga5113b7316a4a104fe3fe7147937688a4">More...</a><br /></td></tr>
+<tr class="separator:ga5113b7316a4a104fe3fe7147937688a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Wiced Memory Management Interface. </p>
@@ -200,11 +204,11 @@ Functions</h2></td></tr>
 <p>Get specific buffer pool utilization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pool_id</td><td>: (input) pool ID </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pool_id</td><td>: (input) pool ID</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: % of buffers used from 0 to 100 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>% of buffers used from 0 to 100 </dd></dl>
 
 </div>
 </div>
@@ -233,15 +237,16 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_create_pool. </p>
-<p>Creates a private pool dedicated for the application usage.</p>
+<p>Creates a private buffer pool dedicated for the application usage.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">buffer_size</td><td>:size of the buffers in the pool</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">buffer_cnt</td><td>:number of buffers in the pool</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buffer_size</td><td>: size of the buffers in the pool</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buffer_cnt</td><td>: number of buffers in the pool</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pointer to the created pool on success NULL on failure </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>pointer to the created pool on success NULL on failure</dd></dl>
+<p>Note : The max number of buffer pools configured in <a class="el" href="structwiced__bt__cfg__settings__t.html#aebf20b03bc99ed8208100cdf410df5b7" title="Maximum number of buffer pools in p_btm_cfg_buf_pools and by wiced_create_pool. ">wiced_bt_cfg_settings_t.max_number_of_buffer_pools</a> must be increased for each buffer pool the application creates. </p>
 
 </div>
 </div>
@@ -400,7 +405,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_get_buffer_usage. </p>
-<p>Dumps dynamic buffer usage (see <a class="el" href="group__wiced__mem.html#ga048f1864903c2f309ce96f76a5c22d2d" title="wiced bt dynamic buffer statistics ">wiced_bt_buffer_statistics_t</a>),from the last start of the system.</p>
+<p>Dumps dynamic buffer usage (see <a class="el" href="group__wiced__mem.html#ga048f1864903c2f309ce96f76a5c22d2d" title="wiced bt dynamic buffer statistics ">wiced_bt_buffer_statistics_t</a>), from the last start of the system.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_buffer_stat</td><td>- pointer buffer to fill statistics. </td></tr>
@@ -481,6 +486,31 @@ Functions</h2></td></tr>
 <p>Function wiced_memory_get_free_bytes. </p>
 <p>Returns the number of free bytes of RAM left</p>
 <dl class="section return"><dt>Returns</dt><dd>the number of free bytes of RAM left </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5113b7316a4a104fe3fe7147937688a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* wiced_memory_permanent_allocate </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocates memory for permanent usage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>: The size of the memory to be allocated</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The pointer to the allocated memory on success NULL on failure </dd></dl>
 
 </div>
 </div>

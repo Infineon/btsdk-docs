@@ -74,6 +74,7 @@ var searchData=
   ['wiced_5fbt_5fmesh_5ffw_5fdistr_5fphase_5fidle',['WICED_BT_MESH_FW_DISTR_PHASE_IDLE',['../wiced__bt__mesh__model__defs_8h.html#a254f7773eb846f880abfdc3b45c27715',1,'wiced_bt_mesh_model_defs.h']]],
   ['wiced_5fbt_5fmesh_5ffw_5fdistr_5fphase_5ftransfer_5factive',['WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_ACTIVE',['../wiced__bt__mesh__model__defs_8h.html#a684b0cf65d81c046f6c41bd09e196281',1,'wiced_bt_mesh_model_defs.h']]],
   ['wiced_5fbt_5fmesh_5ffw_5fdistr_5fphase_5ftransfer_5fsuccess',['WICED_BT_MESH_FW_DISTR_PHASE_TRANSFER_SUCCESS',['../wiced__bt__mesh__model__defs_8h.html#a5f993c535d09e6fe4f48eda8d7a9478f',1,'wiced_bt_mesh_model_defs.h']]],
+  ['wiced_5fbt_5fmesh_5ffw_5fdistribution_5fstart_5fota',['WICED_BT_MESH_FW_DISTRIBUTION_START_OTA',['../wiced__bt__mesh__models_8h.html#a6a43d5cb6c0096d04fbe525d9b2c5a6b',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5ffw_5fdistribution_5fstatus',['WICED_BT_MESH_FW_DISTRIBUTION_STATUS',['../wiced__bt__mesh__models_8h.html#aa1ca95072806dac0f08235bebad1f6c6',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5ffw_5fupdate_5fapply',['WICED_BT_MESH_FW_UPDATE_APPLY',['../wiced__bt__mesh__models_8h.html#ae2b50dd708c54f31c1eeed37acc51f35',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5ffw_5fupdate_5fcomposition_5fchange_5fexpected',['WICED_BT_MESH_FW_UPDATE_COMPOSITION_CHANGE_EXPECTED',['../wiced__bt__mesh__model__defs_8h.html#aac9ad1292f894ff145918b1001e160ba',1,'wiced_bt_mesh_model_defs.h']]],

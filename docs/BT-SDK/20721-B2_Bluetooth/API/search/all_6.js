@@ -21,7 +21,6 @@ var searchData=
   ['feature_5frelay',['feature_relay',['../wiced__bt__mesh__provision_8h.html#aeaf7f9ce45a39cfdc395f87ee03dd4cc',1,'wiced_bt_mesh_provision.h']]],
   ['features',['features',['../group__wicedbt__av__a2d__helper.html#ga05394e2501b222db77c3a39194523065',1,'wiced_bt_a2d_service_t::features()'],['../wiced__bt__mesh__cfg_8h.html#a05394e2501b222db77c3a39194523065',1,'features():&#160;wiced_bt_mesh_cfg.h']]],
   ['file_5fplayback',['FILE_PLAYBACK',['../wiced__audio__manager_8h.html#aebb40016c198e3e5e1f82c86929dc454ab8e90a426952242dd8e08de7bbd211ef',1,'wiced_audio_manager.h']]],
-  ['filesystem_5flist_5ft',['filesystem_list_t',['../structfilesystem__list__t.html',1,'']]],
   ['filesystem_5fresult_5flist',['FILESYSTEM_RESULT_LIST',['../wiced__result_8h.html#ae2a7bddb90281cc09b2ae3cfa9996352',1,'wiced_result.h']]],
   ['fillbits',['fillBits',['../structwiced__hal__pcm__param__t.html#adf0fb8cace10051f23fe146d53e03285',1,'wiced_hal_pcm_param_t']]],
   ['filldata',['fillData',['../structwiced__hal__pcm__param__t.html#a5993607d518f7259da6cdc84f64c5396',1,'wiced_hal_pcm_param_t']]],
@@ -69,12 +68,6 @@ var searchData=
   ['function',['function',['../structbutton__event__message__t.html#a1abdc60a9d65aaf0e2825977d9642198',1,'button_event_message_t']]],
   ['fw_5fid',['fw_id',['../wiced__bt__mesh__models_8h.html#a497e938c436146db4bcea782144269a8',1,'fw_id():&#160;wiced_bt_mesh_models.h'],['../wiced__bt__mesh__provision_8h.html#a497e938c436146db4bcea782144269a8',1,'fw_id():&#160;wiced_bt_mesh_provision.h']]],
   ['fw_5fid_5flen',['fw_id_len',['../wiced__bt__mesh__models_8h.html#a745d4432e611379bd49b546f2896e047',1,'fw_id_len():&#160;wiced_bt_mesh_models.h'],['../wiced__bt__mesh__provision_8h.html#a745d4432e611379bd49b546f2896e047',1,'fw_id_len():&#160;wiced_bt_mesh_provision.h']]],
-  ['fx_5fcached_5fsector_5fstruct',['FX_CACHED_SECTOR_STRUCT',['../struct_f_x___c_a_c_h_e_d___s_e_c_t_o_r___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fdir_5fentry_5fstruct',['FX_DIR_ENTRY_STRUCT',['../struct_f_x___d_i_r___e_n_t_r_y___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5ffat_5fcache_5fentry_5fstruct',['FX_FAT_CACHE_ENTRY_STRUCT',['../struct_f_x___f_a_t___c_a_c_h_e___e_n_t_r_y___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5ffile_5fstruct',['FX_FILE_STRUCT',['../struct_f_x___f_i_l_e___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fmedia_5fstruct',['FX_MEDIA_STRUCT',['../struct_f_x___m_e_d_i_a___s_t_r_u_c_t.html',1,'']]],
-  ['fx_5fpath_5fstruct',['FX_PATH_STRUCT',['../struct_f_x___p_a_t_h___s_t_r_u_c_t.html',1,'']]],
   ['functions',['Functions',['../group__group__ota__fw__upgrade__functions.html',1,'']]],
   ['framework',['Framework',['../group__wicedbt___framework.html',1,'']]]
 ];

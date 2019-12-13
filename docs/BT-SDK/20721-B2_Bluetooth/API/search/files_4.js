@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['platform_5faudio_5fdevice_2eh',['platform_audio_device.h',['../platform__audio__device_8h.html',1,'']]]
+  ['opus_2eh',['opus.h',['../opus_8h.html',1,'']]],
+  ['opus_5fdefines_2eh',['opus_defines.h',['../opus__defines_8h.html',1,'']]],
+  ['opus_5ftypes_2eh',['opus_types.h',['../opus__types_8h.html',1,'']]]
 ];

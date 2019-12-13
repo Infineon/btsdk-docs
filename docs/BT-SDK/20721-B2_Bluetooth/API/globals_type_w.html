@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -65,6 +66,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -85,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_type_d.html#index_d"><span>d</span></a></li>
       <li><a href="globals_type_f.html#index_f"><span>f</span></a></li>
       <li><a href="globals_type_i.html#index_i"><span>i</span></a></li>
+      <li><a href="globals_type_o.html#index_o"><span>o</span></a></li>
       <li><a href="globals_type_s.html#index_s"><span>s</span></a></li>
       <li><a href="globals_type_u.html#index_u"><span>u</span></a></li>
       <li class="current"><a href="globals_type_w.html#index_w"><span>w</span></a></li>
@@ -174,6 +182,9 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 <li>wiced_bt_audio_insert_callback_t
 : <a class="el" href="group__audio__insert__data__types.html#ga5bf4a687958189cd1de3bc1e0e11a2ae">wiced_bt_audio_insert.h</a>
 </li>
+<li>wiced_bt_audio_record_callback_t
+: <a class="el" href="group__audio__record__data__types.html#ga6cd880c8715699e87e4dccdbf66b7dc2">wiced_bt_audio_record.h</a>
+</li>
 <li>wiced_bt_avdt_ctrl_cback_t
 : <a class="el" href="wiced__bt__avdt_8h.html#ac1378c10df94557a737dae86fcb8011a">wiced_bt_avdt.h</a>
 </li>
@@ -233,6 +244,9 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_bt_ble_hidh_filter_cback_t
 : <a class="el" href="group__wiced__bt__ble__hidh__api__functions.html#ga945cfe253e5b4edffa3514bb5f864a4c">wiced_bt_ble_hidh.h</a>
+</li>
+<li>wiced_bt_ble_multi_advert_filtering_policy_t
+: <a class="el" href="wiced__bt__ble_8h.html#a4e4090cd2ec534fe59977f6db1e90dc3">wiced_bt_ble.h</a>
 </li>
 <li>wiced_bt_ble_multi_advert_type_t
 : <a class="el" href="wiced__bt__ble_8h.html#a9b230bb2ed817386a6067735d397272b">wiced_bt_ble.h</a>
@@ -541,22 +555,22 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__core.html#gaf683e2e337ff9cc9f0ea78dacc1bcb29">wiced_bt_mesh_core.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_element_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga5362398fa87baa8e3918797391efc4f4">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga4062170aa1493e9126dcede9edc5372f">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_friend_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga36d8185f01448639c3530eec4b7b0fe8">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga0806611d54c39d488f49756d66a6859c">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_low_power_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga72ccf816e829979507047cff7b7845dc">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#gaeaa84e3c4f1e8c00beb30d16a2bdeed9">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_model_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga7d876fd1e292edbfa00be8a5496457e5">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#gada3499a5f01bd9f9cd9c6953348a306b">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_property_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#gaf967df016fe64f3625f8b27912ce40e7">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#gaa38bbf4ffcdb77ae5e025479af508da3">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_config_t
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga98e2817542e75f69c549edad424f8df1">wiced_bt_mesh_cfg.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#gaf5a8f8322bddb30096f7d704e09489fb">wiced_bt_mesh_cfg.h</a>
 </li>
 <li>wiced_bt_mesh_core_get_dev_key_callback_t
 : <a class="el" href="group__wiced__bt__mesh__core.html#gaf2dce674a35994927cc0981140134443">wiced_bt_mesh_core.h</a>
@@ -795,18 +809,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 <li>wiced_dev_ble_signature_t
 : <a class="el" href="wiced__bt__ble_8h.html#a39b3b50eac531691f2bc87291526bb73">wiced_bt_ble.h</a>
 </li>
-<li>wiced_dir_t
-: <a class="el" href="wiced__filesystem_8h.html#a173e85093bd2f382e5147aef815ccbb1">wiced_filesystem.h</a>
-</li>
-<li>wiced_file_t
-: <a class="el" href="wiced__filesystem_8h.html#aee79a54c41a99ec695614b4e6113cab3">wiced_filesystem.h</a>
-</li>
-<li>wiced_filesystem_mounted_device_t
-: <a class="el" href="wiced__filesystem_8h.html#ac0ec541c184b3909307e75b59b67d040">wiced_filesystem.h</a>
-</li>
-<li>wiced_filesystem_t
-: <a class="el" href="wiced__filesystem_8h.html#ac2b146c3defbc3171c48b60909955dd2">wiced_filesystem.h</a>
-</li>
 <li>wiced_gattdb_entry_t
 : <a class="el" href="wiced__bt__gatt_8h.html#a53bc968017658d4484abc7ac1469e2f7">wiced_bt_gatt.h</a>
 </li>
@@ -822,6 +824,9 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 <li>wiced_model_scene_store_handler_t
 : <a class="el" href="group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45">wiced_bt_mesh_models.h</a>
 </li>
+<li>wiced_ota_firmware_event_callback_t
+: <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">wiced_bt_ota_firmware_upgrade.h</a>
+</li>
 <li>wiced_ota_firmware_upgrade_send_data_callback_t
 : <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
@@ -833,9 +838,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_spi_transport_cfg_t
 : <a class="el" href="group___transport.html#gab6b5be6d80251fd28e484d80dbb3798a">wiced_transport.h</a>
-</li>
-<li>wiced_time_t
-: <a class="el" href="wiced__filesystem_8h.html#ab72826466036544afd26cb80ab51d286">wiced_filesystem.h</a>
 </li>
 <li>wiced_tranport_data_handler_t
 : <a class="el" href="group___transport.html#gac18db9b6503a1f1fd4ff237c5d4fccca">wiced_transport.h</a>
@@ -860,12 +862,6 @@ $(document).ready(function(){initNavTree('globals_type_w.html','');});
 </li>
 <li>wiced_uart_transport_cfg_t
 : <a class="el" href="group___transport.html#ga0cd3fe5559969780110b36458388970d">wiced_transport.h</a>
-</li>
-<li>wiced_utc_time_ms_t
-: <a class="el" href="wiced__filesystem_8h.html#ab0bcc35a765c4a13de3f89234ad1f997">wiced_filesystem.h</a>
-</li>
-<li>wiced_utc_time_t
-: <a class="el" href="wiced__filesystem_8h.html#aeed617e56e7e89bb5dbb7a17964706d0">wiced_filesystem.h</a>
 </li>
 </ul>
 </div><!-- contents -->

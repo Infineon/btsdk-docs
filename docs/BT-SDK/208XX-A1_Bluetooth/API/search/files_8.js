@@ -33,6 +33,7 @@ var searchData=
   ['wiced_5fbt_5fhrc_2eh',['wiced_bt_hrc.h',['../wiced__bt__hrc_8h.html',1,'']]],
   ['wiced_5fbt_5fhrp_2eh',['wiced_bt_hrp.h',['../wiced__bt__hrp_8h.html',1,'']]],
   ['wiced_5fbt_5fhrs_2eh',['wiced_bt_hrs.h',['../wiced__bt__hrs_8h.html',1,'']]],
+  ['wiced_5fbt_5fiap2_2eh',['wiced_bt_iap2.h',['../wiced__bt__iap2_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fapp_2eh',['wiced_bt_mesh_app.h',['../wiced__bt__mesh__app_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fcfg_2eh',['wiced_bt_mesh_cfg.h',['../wiced__bt__mesh__cfg_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fclient_2eh',['wiced_bt_mesh_client.h',['../wiced__bt__mesh__client_8h.html',1,'']]],

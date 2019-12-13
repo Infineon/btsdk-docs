@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -104,6 +105,8 @@ $(document).ready(function(){initNavTree('dir_607578583615735f38f6fb8abfd34eda.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="subdirs"></a>
 Directories</h2></td></tr>
+<tr class="memitem:dir_96834424869b8dea042a5b9ed88b95cd"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_96834424869b8dea042a5b9ed88b95cd.html">celt</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dir_c1044513e984567d305b57d97e578ec8"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_c1044513e984567d305b57d97e578ec8.html">hal</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dir_3f8dc96eac5bb708c79934202ac0045e"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_3f8dc96eac5bb708c79934202ac0045e.html">internal</a></td></tr>
@@ -115,8 +118,6 @@ Directories</h2></td></tr>
 Files</h2></td></tr>
 <tr class="memitem:brcm__fw__types_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html">brcm_fw_types.h</a></td></tr>
 <tr class="memdesc:brcm__fw__types_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines basic but size-specific types, and prohibits the use of certain constructs. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:u8g_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>u8g.h</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>wiced.h</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +159,8 @@ Files</h2></td></tr>
 <tr class="memdesc:wiced__bt__audio__codec_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the utilities used by the A2DP for configuring the audio codec. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__bt__audio__insert_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__audio__insert_8h.html">wiced_bt_audio_insert.h</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wiced__bt__audio__record_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__audio__record_8h.html">wiced_bt_audio_record.h</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__bt__avdt_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__avdt_8h.html">wiced_bt_avdt.h</a></td></tr>
 <tr class="memdesc:wiced__bt__avdt_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bluetooth Audio Video Distribution Transport Protocol (AVDTP) Application Programming Interface. <br /></td></tr>
@@ -210,9 +213,6 @@ Files</h2></td></tr>
 <tr class="memitem:wiced__bt__hidh_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidh_8h.html">wiced_bt_hidh.h</a></td></tr>
 <tr class="memdesc:wiced__bt__hidh_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED HID Host interface. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wiced__bt__iap2_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__iap2_8h.html">wiced_bt_iap2.h</a></td></tr>
-<tr class="memdesc:wiced__bt__iap2_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">This file provides definitions of the IAP2 implementation. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__bt__l2c_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html">wiced_bt_l2c.h</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__bt__obex_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__obex_8h.html">wiced_bt_obex.h</a></td></tr>
@@ -245,11 +245,6 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__data__types_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>wiced_data_types.h</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wiced__filesystem_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__filesystem_8h.html">wiced_filesystem.h</a></td></tr>
-<tr class="memdesc:wiced__filesystem_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public API of filesystem functions for WICED. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wiced__filex_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>wiced_filex.h</b></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__hidd__lib_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hidd__lib_8h.html">wiced_hidd_lib.h</a></td></tr>
 <tr class="memdesc:wiced__hidd__lib_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED BLEHIDD COMMON APIs for Human Interface Device Profile (HID) Device over BLE. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +259,9 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wiced__rtos_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtos_8h.html">wiced_rtos.h</a></td></tr>
 <tr class="memdesc:wiced__rtos_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines functions to access functions provided by the RTOS in a generic way. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wiced__vpc__decoder_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__vpc__decoder_8h.html">wiced_vpc_decoder.h</a></td></tr>
+<tr class="memdesc:wiced__vpc__decoder_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Voice Prompt Decoder definitions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

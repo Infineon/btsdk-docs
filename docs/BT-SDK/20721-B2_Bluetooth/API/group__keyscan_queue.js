@@ -16,6 +16,5 @@ var group__keyscan_queue =
       [ "MIA_KEY_EVENT_FIFO_SIZE", "group__keyscan_queue.html#gga2ee507fea44084259042ff7bb45ecabfa259261502f7197594f2a387a4d2fc07e", null ],
       [ "KEYSCAN_FW_FIFO_SIZE", "group__keyscan_queue.html#gga2ee507fea44084259042ff7bb45ecabfa28ef28c4eb7c16aca74f3b3e139a1879", null ]
     ] ],
-    [ "ksq_isEmpty", "group__keyscan_queue.html#ga80211eaef24176654c2c8987ecb4cdf9", null ],
-    [ "EVENT_NONE", "group__keyscan.html#gga2f1398dba5e4a5616b83437528bdb28ea939a6cc6d749a232a23ff324dca6d48c", null ]
+    [ "ksq_isEmpty", "group__keyscan_queue.html#ga80211eaef24176654c2c8987ecb4cdf9", null ]
 ];

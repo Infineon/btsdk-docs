@@ -130,7 +130,6 @@ var searchData=
   ['aircr',['AIRCR',['../struct_s_c_b___type.html#aaec159b48828355cb770049b8b2e8d91',1,'SCB_Type']]],
   ['algorithm',['algorithm',['../structwiced__bt__mesh__core__provision__start__t.html#a667f83dab4442a82405f7b56b8b9a64a',1,'wiced_bt_mesh_core_provision_start_t::algorithm()'],['../structwiced__bt__mesh__provision__start__data__t.html#a667f83dab4442a82405f7b56b8b9a64a',1,'wiced_bt_mesh_provision_start_data_t::algorithm()']]],
   ['algorithms',['algorithms',['../structwiced__bt__mesh__core__provision__capabilities__t.html#acdcf58d8bce4a46df7ae49a600743561',1,'wiced_bt_mesh_core_provision_capabilities_t::algorithms()'],['../structwiced__bt__mesh__provision__device__capabilities__data__t.html#aa797828ecf12578e9e5d11886e94ee2b',1,'wiced_bt_mesh_provision_device_capabilities_data_t::algorithms()']]],
-  ['all_5ffilesystem_5fdevices',['all_filesystem_devices',['../wiced__filesystem_8h.html#a384ebb6f2738ccfb8433e2439526fb83',1,'wiced_filesystem.h']]],
   ['alloc_5fmethod',['alloc_method',['../structwiced__codec__param__sbc__t.html#a449453e0a05e7ab837543796215b232c',1,'wiced_codec_param_sbc_t']]],
   ['allowed_5fmodes',['allowed_modes',['../structwiced__bt__l2cap__ertm__information__t.html#ace35506a5e91a707f9ffaadf3a2152ba',1,'wiced_bt_l2cap_ertm_information_t']]],
   ['ams_5fentity_5fattribute',['AMS_ENTITY_ATTRIBUTE',['../group__wiced__bt__ams__api__functions.html#ga78e591b70a6375f18504a1328369d785',1,'wiced_bt_ams.h']]],

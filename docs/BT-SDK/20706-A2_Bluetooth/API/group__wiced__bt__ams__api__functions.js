@@ -1,0 +1,45 @@
+var group__wiced__bt__ams__api__functions =
+[
+    [ "wiced_bt_ams_event_t", "structwiced__bt__ams__event__t.html", [
+      [ "attribute_id", "structwiced__bt__ams__event__t.html#a4a72c117a189a3ad3e2f1b7ec9cea318", null ],
+      [ "attribute_len", "structwiced__bt__ams__event__t.html#a683f235e6ec9588de14533231d58f537", null ],
+      [ "attribute_str", "structwiced__bt__ams__event__t.html#a272034a097698024d0a72c70ecfe1b21", null ],
+      [ "entity_id", "structwiced__bt__ams__event__t.html#a8a6a9a23f3529b81e24d622f72af55b1", null ],
+      [ "flags", "structwiced__bt__ams__event__t.html#aa2585d779da0ab21273a8d92de9a0ebe", null ]
+    ] ],
+    [ "wiced_bt_ams_reg_t", "structwiced__bt__ams__reg__t.html", [
+      [ "p_discovery_complete_callback", "structwiced__bt__ams__reg__t.html#ac39bc988098a70dc981bb0b479afe8ac", null ],
+      [ "p_start_complete_callback", "structwiced__bt__ams__reg__t.html#aecdc36e2e4400a4151d43289fbea2e87", null ],
+      [ "p_stop_complete_callback", "structwiced__bt__ams__reg__t.html#af035e4e846ea24560d34ec64110b83bd", null ]
+    ] ],
+    [ "AMS_ENTITY_UPDATE_FLAG_TRUNCATED", "group__wiced__bt__ams__api__functions.html#ga2c85fb80820820ce88a6fa4c0abc4f18", null ],
+    [ "AMS_PLAYER_ATTRIBUTE_ID_NAME", "group__wiced__bt__ams__api__functions.html#gaec8847c74fdd591f91a3427ade59c819", null ],
+    [ "AMS_PLAYER_ATTRIBUTE_ID_PLAYBACK_INFO", "group__wiced__bt__ams__api__functions.html#ga97e79295b0844f0f9c8f9487d0dfafb4", null ],
+    [ "AMS_PLAYER_ATTRIBUTE_ID_VOLUME", "group__wiced__bt__ams__api__functions.html#ga6bf440ce448ef8664a1b31518808e224", null ],
+    [ "AMS_QUEUE_ATTRIBUTE_ID_COUNT", "group__wiced__bt__ams__api__functions.html#gae00f98937c588c0c6f4fb4cd458cfac9", null ],
+    [ "AMS_QUEUE_ATTRIBUTE_ID_INDEX", "group__wiced__bt__ams__api__functions.html#ga1e5b199f4f0a4dd6cccc93f06dec2e0f", null ],
+    [ "AMS_QUEUE_ATTRIBUTE_ID_REPEAT_MODE", "group__wiced__bt__ams__api__functions.html#ga45fca8e851edcf30e58ddad31f684c73", null ],
+    [ "AMS_QUEUE_ATTRIBUTE_ID_SHUFFLE_MODE", "group__wiced__bt__ams__api__functions.html#ga3eeb1b0d95bdc1276927d6154ee21010", null ],
+    [ "AMS_TRACK_ATTRIBUTE_ID_ALBUM", "group__wiced__bt__ams__api__functions.html#ga89041d45eb6858913261a6b5f9418241", null ],
+    [ "AMS_TRACK_ATTRIBUTE_ID_ARTIST", "group__wiced__bt__ams__api__functions.html#gadb8fb4a305c2fc28451a57c12ee7022f", null ],
+    [ "AMS_TRACK_ATTRIBUTE_ID_DURATION", "group__wiced__bt__ams__api__functions.html#ga547b6cdfc36d40ceb3ef16621a664818", null ],
+    [ "AMS_TRACK_ATTRIBUTE_ID_TITLE", "group__wiced__bt__ams__api__functions.html#gabd9e14ce0ca5ac298c25a75e9d0b041d", null ],
+    [ "wiced_bt_ams_discovery_complete_callback_t", "group__wiced__bt__ams__api__functions.html#gac0ceef00c2b9c2f4b10edf8a68b77d37", null ],
+    [ "wiced_bt_ams_start_complete_callback_t", "group__wiced__bt__ams__api__functions.html#gad87ae6fd516b27bf465371a407aa1286", null ],
+    [ "wiced_bt_ams_stop_complete_callback_t", "group__wiced__bt__ams__api__functions.html#ga35ed555b9c8b3e37611ee8502593c9de", null ],
+    [ "wiced_bt_ams_client_connection_down", "group__wiced__bt__ams__api__functions.html#gaefb61b00e783369aedc2164ae179cfcf", null ],
+    [ "wiced_bt_ams_client_connection_up", "group__wiced__bt__ams__api__functions.html#gaff626f0d2227270d117955bfeecd9e56", null ],
+    [ "wiced_bt_ams_client_discover", "group__wiced__bt__ams__api__functions.html#gaada6a5ceb4dcc1ebca324898638dd472", null ],
+    [ "wiced_bt_ams_client_discovery_complete", "group__wiced__bt__ams__api__functions.html#ga432436b8e8ddad3575a97e427aa0c1f4", null ],
+    [ "wiced_bt_ams_client_discovery_result", "group__wiced__bt__ams__api__functions.html#gad2a211e1a6e62bea60255b2220c95a71", null ],
+    [ "wiced_bt_ams_client_initialize", "group__wiced__bt__ams__api__functions.html#gaac5edff6c0f475659f8a1a0f24e84359", null ],
+    [ "wiced_bt_ams_client_process_notification", "group__wiced__bt__ams__api__functions.html#ga47a359bd2bb3aaf8de2fa469b083b57e", null ],
+    [ "wiced_bt_ams_client_start", "group__wiced__bt__ams__api__functions.html#ga9f90fc35760a7ab10faa7a8dcb231dca", null ],
+    [ "wiced_bt_ams_client_stop", "group__wiced__bt__ams__api__functions.html#ga688ee4566031fff60753caa67baa18d6", null ],
+    [ "wiced_bt_ams_client_write_rsp", "group__wiced__bt__ams__api__functions.html#gadee377ba7ae24f670da9db2752970d1c", null ],
+    [ "wiced_bt_ams_send_remote_command", "group__wiced__bt__ams__api__functions.html#ga97834fbbbfc7e1deb8cba4dc6bb0ae31", null ],
+    [ "AMS_ENTITY_ATTRIBUTE", "group__wiced__bt__ams__api__functions.html#ga78e591b70a6375f18504a1328369d785", null ],
+    [ "AMS_ENTITY_UPDATE", "group__wiced__bt__ams__api__functions.html#ga42bda17023a4af413c6f42bd742f0322", null ],
+    [ "AMS_REMOTE_CONTROL", "group__wiced__bt__ams__api__functions.html#gaa41f27326342b66e87c6e866a0257c1f", null ],
+    [ "AMS_SERVICE", "group__wiced__bt__ams__api__functions.html#gaa6ab508d3a62d516e1bb0f6c8d323f71", null ]
+];

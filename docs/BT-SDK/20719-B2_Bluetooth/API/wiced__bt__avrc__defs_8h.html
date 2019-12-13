@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -48,8 +48,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +67,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -841,33 +848,33 @@ Macros</h2></td></tr>
 <tr class="memitem:afe2d7f2a2f8f0258f9ca679e56ae5c9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe2d7f2a2f8f0258f9ca679e56ae5c9c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_FOLDER_TYPE_YEARS</b>&#160;&#160;&#160;0x06</td></tr>
 <tr class="separator:afe2d7f2a2f8f0258f9ca679e56ae5c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414fee2432578b656c0fc6aee697276a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a414fee2432578b656c0fc6aee697276a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MJ_TYPE_AUDIO</b>&#160;&#160;&#160;0x01  /* Audio */</td></tr>
-<tr class="separator:a414fee2432578b656c0fc6aee697276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a053e4f5e9f7ec1c7d5b6c7a9ac976b7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a053e4f5e9f7ec1c7d5b6c7a9ac976b7c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MJ_TYPE_VIDEO</b>&#160;&#160;&#160;0x02  /* Video */</td></tr>
-<tr class="separator:a053e4f5e9f7ec1c7d5b6c7a9ac976b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dbdaf925d67eba661599ca3ba38c8fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dbdaf925d67eba661599ca3ba38c8fc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MJ_TYPE_BC_AUDIO</b>&#160;&#160;&#160;0x04  /* Broadcasting Audio */</td></tr>
-<tr class="separator:a9dbdaf925d67eba661599ca3ba38c8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe87d255db2fe8a7eaa0a33ed9c102a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affe87d255db2fe8a7eaa0a33ed9c102a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MJ_TYPE_BC_VIDEO</b>&#160;&#160;&#160;0x08  /* Broadcasting Video */</td></tr>
-<tr class="separator:affe87d255db2fe8a7eaa0a33ed9c102a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaca33577c1fc323be655b1abc63f4aef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaca33577c1fc323be655b1abc63f4aef"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MJ_TYPE_INVALID</b>&#160;&#160;&#160;0xF0</td></tr>
-<tr class="separator:aaca33577c1fc323be655b1abc63f4aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab161e336da84f6b841ce03ecd9a74a23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab161e336da84f6b841ce03ecd9a74a23"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_SUB_TYPE_NONE</b>&#160;&#160;&#160;0x00</td></tr>
-<tr class="separator:ab161e336da84f6b841ce03ecd9a74a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1903b2a71f53a956190163f63c9e26f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1903b2a71f53a956190163f63c9e26f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_SUB_TYPE_AUDIO_BOOK</b>&#160;&#160;&#160;0x01  /* Audio Book */</td></tr>
-<tr class="separator:a1903b2a71f53a956190163f63c9e26f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7c357e866847e9686fd76e50827269"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b7c357e866847e9686fd76e50827269"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_SUB_TYPE_PODCAST</b>&#160;&#160;&#160;0x02  /* Podcast */</td></tr>
-<tr class="separator:a7b7c357e866847e9686fd76e50827269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe8fc6ed0985f71239ebe3dc6dfbf58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fe8fc6ed0985f71239ebe3dc6dfbf58"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_SUB_TYPE_INVALID</b>&#160;&#160;&#160;0xFC</td></tr>
-<tr class="separator:a3fe8fc6ed0985f71239ebe3dc6dfbf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa69ed2715a6ed352053b239053e4648"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa69ed2715a6ed352053b239053e4648"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_MAJOR_TYPE_AUDIO</b>&#160;&#160;&#160;0x01  /* Audio */</td></tr>
+<tr class="separator:afa69ed2715a6ed352053b239053e4648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad627a99878ca79559cd49a975ead526c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad627a99878ca79559cd49a975ead526c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_MAJOR_TYPE_VIDEO</b>&#160;&#160;&#160;0x02  /* Video */</td></tr>
+<tr class="separator:ad627a99878ca79559cd49a975ead526c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68abd13a70dc1558f18cabc2dcfef5bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68abd13a70dc1558f18cabc2dcfef5bb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_MAJOR_TYPE_BC_AUDIO</b>&#160;&#160;&#160;0x04  /* Broadcasting Audio */</td></tr>
+<tr class="separator:a68abd13a70dc1558f18cabc2dcfef5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad911d245b427df9f7fd65845cdbc3c1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad911d245b427df9f7fd65845cdbc3c1e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_MAJOR_TYPE_BC_VIDEO</b>&#160;&#160;&#160;0x08  /* Broadcasting Video */</td></tr>
+<tr class="separator:ad911d245b427df9f7fd65845cdbc3c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03a8e964b6267c1ad73f1a52f56c8ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac03a8e964b6267c1ad73f1a52f56c8ef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_MAJOR_TYPE_INVALID</b>&#160;&#160;&#160;0xF0</td></tr>
+<tr class="separator:ac03a8e964b6267c1ad73f1a52f56c8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a74a436d9d73b8641da6f97a41bd671"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a74a436d9d73b8641da6f97a41bd671"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_SUB_TYPE_NONE</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a0a74a436d9d73b8641da6f97a41bd671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52a68141bd5c4b5e28958a56f96198d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab52a68141bd5c4b5e28958a56f96198d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_SUB_TYPE_AUDIO_BOOK</b>&#160;&#160;&#160;0x01  /* Audio Book */</td></tr>
+<tr class="separator:ab52a68141bd5c4b5e28958a56f96198d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537843d1ba9cbf44c22088a9d949c907"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a537843d1ba9cbf44c22088a9d949c907"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_SUB_TYPE_PODCAST</b>&#160;&#160;&#160;0x02  /* Podcast */</td></tr>
+<tr class="separator:a537843d1ba9cbf44c22088a9d949c907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d1a8ca26db6ae60e6a5aef362f0b77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88d1a8ca26db6ae60e6a5aef362f0b77"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_PLAYER_SUB_TYPE_INVALID</b>&#160;&#160;&#160;0xFC</td></tr>
+<tr class="separator:a88d1a8ca26db6ae60e6a5aef362f0b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aab774763aa402890801c21b8d7bfd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9aab774763aa402890801c21b8d7bfd6"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MEDIA_TYPE_AUDIO</b>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:a9aab774763aa402890801c21b8d7bfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>

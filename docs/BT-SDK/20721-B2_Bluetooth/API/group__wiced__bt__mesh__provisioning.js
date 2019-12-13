@@ -15,6 +15,12 @@ var group__wiced__bt__mesh__provisioning =
       [ "dst", "structwiced__bt__mesh__set__dev__key__data__t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e", null ],
       [ "net_key_idx", "structwiced__bt__mesh__set__dev__key__data__t.html#a88c79cd52cb7992eefd326dbdc584a64", null ]
     ] ],
+    [ "wiced_bt_mesh_add_vendor_model_data_t", "structwiced__bt__mesh__add__vendor__model__data__t.html", [
+      [ "company_id", "structwiced__bt__mesh__add__vendor__model__data__t.html#a685ae33c442d30cc507fa5415f536e74", null ],
+      [ "model_id", "structwiced__bt__mesh__add__vendor__model__data__t.html#a345b5a533872a471f810a988b331f60c", null ],
+      [ "num_opcodes", "structwiced__bt__mesh__add__vendor__model__data__t.html#af88675d56f4f20c327ffea5ade71e49a", null ],
+      [ "opcode", "structwiced__bt__mesh__add__vendor__model__data__t.html#acebf561f8e189648b19ea117dfd6488a", null ]
+    ] ],
     [ "wiced_bt_mesh_proxy_device_network_data_t", "structwiced__bt__mesh__proxy__device__network__data__t.html", [
       [ "bd_addr", "structwiced__bt__mesh__proxy__device__network__data__t.html#a624fd24b46be2b40c8731334c9de5d06", null ],
       [ "bd_addr_type", "structwiced__bt__mesh__proxy__device__network__data__t.html#a952371edef8f87661e8017d3327e9113", null ],
@@ -196,6 +202,7 @@ var group__wiced__bt__mesh__provisioning =
     [ "wiced_bt_mesh_provision_client_callback_t", "group__wiced__bt__mesh__provisioning.html#gae828573dd50940999788e2acbe3a5ca2", null ],
     [ "wiced_bt_mesh_provision_server_callback_t", "group__wiced__bt__mesh__provisioning.html#gacbe4e5d8a37099c5d81cf01610c6c248", null ],
     [ "wiced_bt_mesh_proxy_client_callback_t", "group__wiced__bt__mesh__provisioning.html#ga77e1303f8da783fa49d36b2d67d21e6e", null ],
+    [ "wiced_bt_mesh_add_vendor_model", "group__wiced__bt__mesh__provisioning.html#gac7d8b9839dcecb5ff268d4500a132ad7", null ],
     [ "wiced_bt_mesh_app_provision_server_configure", "group__wiced__bt__mesh__provisioning.html#ga72759040067bb5962bbfff1a752d94d8", null ],
     [ "wiced_bt_mesh_app_provision_server_init", "group__wiced__bt__mesh__provisioning.html#gab4272aa6ad5868416752477a0090c424", null ],
     [ "wiced_bt_mesh_client_init", "group__wiced__bt__mesh__provisioning.html#ga9366e77c599dbef0e726e54c2da38440", null ],
@@ -237,7 +244,7 @@ var group__wiced__bt__mesh__provisioning =
     [ "wiced_bt_mesh_config_relay_get", "group__wiced__bt__mesh__provisioning.html#ga562131f5334771617f7da6cc66b8cf2a", null ],
     [ "wiced_bt_mesh_config_relay_set", "group__wiced__bt__mesh__provisioning.html#gaa56a1ef9d543fc828274a905d65b3d8e", null ],
     [ "wiced_bt_mesh_fw_provider_get_status", "group__wiced__bt__mesh__provisioning.html#ga00d132d53bba9a40c17c46da47d0dd69", null ],
-    [ "wiced_bt_mesh_fw_provider_start", "group__wiced__bt__mesh__provisioning.html#gaface74b5d9bb0bc7044d870367b643f6", null ],
+    [ "wiced_bt_mesh_fw_provider_start", "group__wiced__bt__mesh__provisioning.html#ga84774493236865ad2f8cc6684d6eac0b", null ],
     [ "wiced_bt_mesh_fw_provider_stop", "group__wiced__bt__mesh__provisioning.html#gaf84b575babd00ddb0a600ef4d9edf52a", null ],
     [ "wiced_bt_mesh_gatt_client_process_connectable_adv", "group__wiced__bt__mesh__provisioning.html#gad9dc649419ddd1f010549c17e08e9f20", null ],
     [ "wiced_bt_mesh_health_attention_get", "group__wiced__bt__mesh__provisioning.html#ga51a9dd9a4576c7532a2460c29659e5de", null ],

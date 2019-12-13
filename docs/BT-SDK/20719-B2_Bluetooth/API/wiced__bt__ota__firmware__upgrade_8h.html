@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -48,8 +48,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +67,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,6 +106,7 @@ $(document).ready(function(){initNavTree('wiced__bt__ota__firmware__upgrade_8h.h
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -110,6 +118,11 @@ $(document).ready(function(){initNavTree('wiced__bt__ota__firmware__upgrade_8h.h
 <p>&gt;  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ota__fw__upgrad__event__data__t.html">wiced_bt_ota_fw_upgrad_event_data_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:gad9db1b88075025d6af7ae38ee480c4c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad9db1b88075025d6af7ae38ee480c4c9"></a>
@@ -151,9 +164,6 @@ Macros</h2></td></tr>
 <tr class="memitem:gaf8eb1cb0b40a10df8e847f625f303785"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf8eb1cb0b40a10df8e847f625f303785"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_COMMAND_ABORT</b>&#160;&#160;&#160;7</td></tr>
 <tr class="separator:gaf8eb1cb0b40a10df8e847f625f303785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77da8ec7dd1bf63d6f31604f739337d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga77da8ec7dd1bf63d6f31604f739337d0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_COMMAND_APPLY</b>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:ga77da8ec7dd1bf63d6f31604f739337d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac639931494871febc166678d9759f028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac639931494871febc166678d9759f028"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_OTA_UPGRADE_STATUS_OK</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:gac639931494871febc166678d9759f028"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,6 +234,15 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32">OTA_FW_UPGRADE_STATUS_VERIFICATION_START</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:ga3a0fbd9c3c66798702d400a37676bb32"><td class="mdescLeft">&#160;</td><td class="mdescRight">OTA firmware upgrade starts verification. <br /></td></tr>
 <tr class="separator:ga3a0fbd9c3c66798702d400a37676bb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70e0ad3657b3ce6d6efe2aef2d4890b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga70e0ad3657b3ce6d6efe2aef2d4890b9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_STARTED</b>&#160;&#160;&#160;1   /* Client started OTA firmware upgrade process */</td></tr>
+<tr class="separator:ga70e0ad3657b3ce6d6efe2aef2d4890b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2e72a398311d4a3c76a1f5999fb8055"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad2e72a398311d4a3c76a1f5999fb8055"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_DATA</b>&#160;&#160;&#160;2   /* OTA firmware upgrade <a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a> received */</td></tr>
+<tr class="separator:gad2e72a398311d4a3c76a1f5999fb8055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3189009d770129c51b7a0d70feade41a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3189009d770129c51b7a0d70feade41a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OTA_FW_UPGRADE_EVENT_COMPLETED</b>&#160;&#160;&#160;3   /* OTA firmware upgrade completed */</td></tr>
+<tr class="separator:ga3189009d770129c51b7a0d70feade41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -233,6 +252,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga9da5e9daa4a12f226d46565316c0ef2d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d">wiced_ota_firmware_upgrade_send_data_callback_t</a> )(wiced_bool_t is_notification, uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
 <tr class="memdesc:ga9da5e9daa4a12f226d46565316c0ef2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional callback to be executed to before sending data over the air.  <a href="group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d">More...</a><br /></td></tr>
 <tr class="separator:ga9da5e9daa4a12f226d46565316c0ef2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4e7a2fccd707c5281bf76c9e0dfcfc7"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">wiced_ota_firmware_event_callback_t</a> )(uint16_t event, void *p_data)</td></tr>
+<tr class="memdesc:gad4e7a2fccd707c5281bf76c9e0dfcfc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callback used in Transfer-Only mode to pass event/data to upper layer.  <a href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">More...</a><br /></td></tr>
+<tr class="separator:gad4e7a2fccd707c5281bf76c9e0dfcfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -260,6 +282,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gabb708ac34042fa81f73a13f0d99292f9"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__functions.html#gabb708ac34042fa81f73a13f0d99292f9">wiced_ota_fw_upgrade_get_new_fw_info</a> (uint16_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a685ae33c442d30cc507fa5415f536e74">company_id</a>, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a745d4432e611379bd49b546f2896e047">fw_id_len</a>, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a497e938c436146db4bcea782144269a8">fw_id</a>)</td></tr>
 <tr class="memdesc:gabb708ac34042fa81f73a13f0d99292f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets info of received firmware.  <a href="group__group__ota__fw__upgrade__functions.html#gabb708ac34042fa81f73a13f0d99292f9">More...</a><br /></td></tr>
 <tr class="separator:gabb708ac34042fa81f73a13f0d99292f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaef880de5cc1190467de245f8e7d1557"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ota__fw__upgrade__functions.html#gaaef880de5cc1190467de245f8e7d1557">wiced_ota_fw_upgrade_set_transfer_mode</a> (wiced_bool_t transfer_only, <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">wiced_ota_firmware_event_callback_t</a> *p_event_callback)</td></tr>
+<tr class="memdesc:gaaef880de5cc1190467de245f8e7d1557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set OTA for data transfer only.  <a href="group__group__ota__fw__upgrade__functions.html#gaaef880de5cc1190467de245f8e7d1557">More...</a><br /></td></tr>
+<tr class="separator:gaaef880de5cc1190467de245f8e7d1557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>

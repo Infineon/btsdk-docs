@@ -63,7 +63,6 @@ var searchData=
   ['wiced_5fbt_5ftrace_2eh',['wiced_bt_trace.h',['../wiced__bt__trace_8h.html',1,'']]],
   ['wiced_5fbt_5ftypes_2eh',['wiced_bt_types.h',['../wiced__bt__types_8h.html',1,'']]],
   ['wiced_5fbt_5fuuid_2eh',['wiced_bt_uuid.h',['../wiced__bt__uuid_8h.html',1,'']]],
-  ['wiced_5ffilesystem_2eh',['wiced_filesystem.h',['../wiced__filesystem_8h.html',1,'']]],
   ['wiced_5ffirmware_5fupgrade_2eh',['wiced_firmware_upgrade.h',['../wiced__firmware__upgrade_8h.html',1,'']]],
   ['wiced_5fgki_2eh',['wiced_gki.h',['../wiced__gki_8h.html',1,'']]],
   ['wiced_5fhal_5faclk_2eh',['wiced_hal_aclk.h',['../wiced__hal__aclk_8h.html',1,'']]],

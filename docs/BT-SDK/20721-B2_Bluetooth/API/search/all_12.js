@@ -1,6 +1,7 @@
 var searchData=
 [
   ['remote_20control_20_20_20_20_20_20_20remote_20control',['Remote Control       Remote control',['../group___a_v.html',1,'']]],
+  ['repacketizer',['Repacketizer',['../group__opus__repacketizer.html',1,'']]],
   ['r_5f192',['r_192',['../structwiced__bt__dev__local__oob__t.html#ad97fe3dcd7db6be10be95d1d6e07e596',1,'wiced_bt_dev_local_oob_t']]],
   ['r_5f256',['r_256',['../structwiced__bt__dev__local__oob__t.html#a5dbf6232265d8171dff097e91a2e3a35',1,'wiced_bt_dev_local_oob_t']]],
   ['rand',['rand',['../wiced__bt__dev_8h.html#aa36285a4e1a932d092c3f584a2dbff59',1,'wiced_bt_dev.h']]],

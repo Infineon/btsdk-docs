@@ -26,5 +26,6 @@ var searchData=
   ['evtq_5fmaxnumelements',['evtq_maxNumElements',['../structwiced__hidd__app__event__queue__t.html#afd7ac3395f6b1e7ec823bc2703e129f5',1,'wiced_hidd_app_event_queue_t']]],
   ['evtq_5freadindex',['evtq_readIndex',['../structwiced__hidd__app__event__queue__t.html#a10ff0d5ed1d351b72c3f50f165dbb890',1,'wiced_hidd_app_event_queue_t']]],
   ['evtq_5fwriteindex',['evtq_writeIndex',['../structwiced__hidd__app__event__queue__t.html#af47103cf534b74f5cdadfddf5fd40a5f',1,'wiced_hidd_app_event_queue_t']]],
-  ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]]
+  ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
+  ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]]
 ];

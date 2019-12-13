@@ -33,6 +33,7 @@ var searchData=
   ['num_5fin_5fgroup',['num_in_group',['../structwiced__bt__mesh__event____t.html#aa6e1912d7643723a2b3d3e3bdaf8eccf',1,'wiced_bt_mesh_event__t']]],
   ['num_5fkeys',['num_keys',['../wiced__bt__mesh__provision_8h.html#a2fc969948626eb680f5e663ec9939d9c',1,'wiced_bt_mesh_provision.h']]],
   ['num_5fnodes',['num_nodes',['../wiced__bt__mesh__provision_8h.html#a556e7dea96e69041dca2d95353f43974',1,'wiced_bt_mesh_provision.h']]],
+  ['num_5fopcodes',['num_opcodes',['../structwiced__bt__mesh__add__vendor__model__data__t.html#af88675d56f4f20c327ffea5ade71e49a',1,'wiced_bt_mesh_add_vendor_model_data_t']]],
   ['num_5fparams',['num_params',['../structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html#a448474fb75da1bdb0b687b96e756a190',1,'tSDP_PROTOCOL_ELEM::num_params()'],['../structwiced__bt__sdp__protocol__elem__t.html#a390ce228ed343cb6fa7f56c8687b61ea',1,'wiced_bt_sdp_protocol_elem_t::num_params()']]],
   ['num_5fprotect',['num_protect',['../structwiced__bt__avdt__cfg__t.html#ad2b165f8ad178e4b29e95c61715cbaef',1,'wiced_bt_avdt_cfg_t']]],
   ['num_5fseps',['num_seps',['../structwiced__bt__avdt__discover__t.html#abc63ee639c69c57384b4591c2b0466e2',1,'wiced_bt_avdt_discover_t']]],

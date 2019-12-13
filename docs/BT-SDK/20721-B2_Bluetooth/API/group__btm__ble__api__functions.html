@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -220,10 +221,50 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4a5d1f3afd3fadbcf7fcd8b52bc612b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga4a5d1f3afd3fadbcf7fcd8b52bc612b6">wiced_bt_ble_set_local_identity_key_data</a> (uint8_t *p_data)</td></tr>
 <tr class="memdesc:ga4a5d1f3afd3fadbcf7fcd8b52bc612b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_set_local_identity_key_data.  <a href="#ga4a5d1f3afd3fadbcf7fcd8b52bc612b6">More...</a><br /></td></tr>
 <tr class="separator:ga4a5d1f3afd3fadbcf7fcd8b52bc612b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gaa1a08bf54c9c06015c1bbafbaab433c1">wiced_ble_private_device_address_resolution</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rpa, <a class="el" href="wiced__bt__types_8h.html#a3081047eede654f70f0bf771e34e47a8">BT_OCTET16</a> <a class="el" href="wiced__bt__dev_8h.html#a6d3e9fb072da8c4bb15467bec49032d4">irk</a>)</td></tr>
+<tr class="memdesc:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_ble_private_device_address_resolution.  <a href="#gaa1a08bf54c9c06015c1bbafbaab433c1">More...</a><br /></td></tr>
+<tr class="separator:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>BLE (Bluetooth Low Energy) Functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gaa1a08bf54c9c06015c1bbafbaab433c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_ble_private_device_address_resolution </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>rpa</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#a3081047eede654f70f0bf771e34e47a8">BT_OCTET16</a>&#160;</td>
+          <td class="paramname"><em>irk</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_ble_private_device_address_resolution. </p>
+<p>Private Device Address Resolution</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rpa</td><td>BLE Resolvable Private Address </td></tr>
+    <tr><td class="paramname">irk</td><td>BLE IRK </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_BT_SUCCESS the identity of device address has been resolved. WICED_BT_ERROR otherwise. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga8d62204cf6ab289f977215c08d5864ca"></a>
 <div class="memitem">
 <div class="memproto">

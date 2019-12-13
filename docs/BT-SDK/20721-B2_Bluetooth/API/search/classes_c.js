@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['pg_5fedge_5fstruct',['pg_edge_struct',['../structpg__edge__struct.html',1,'']]],
-  ['pg_5fpoint_5fstruct',['pg_point_struct',['../structpg__point__struct.html',1,'']]],
   ['platform_5faudio_5fconfig_5ft',['platform_audio_config_t',['../structplatform__audio__config__t.html',1,'']]],
   ['platform_5faudio_5fdevice_5fioctl_5fdata_5ft',['platform_audio_device_ioctl_data_t',['../unionplatform__audio__device__ioctl__data__t.html',1,'']]],
   ['platform_5faudio_5feffect_5faec_5fconfig_5ft',['platform_audio_effect_aec_config_t',['../structplatform__audio__effect__aec__config__t.html',1,'']]],

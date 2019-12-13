@@ -8,35 +8,90 @@ var NAVTREE =
     [ "Bluetooth References", "index.html#bt_smart_ref", null ],
     [ "WICED Community", "index.html#wiced_forum", null ],
     [ "WICED BT SDK Licensing Information", "index.html#wiced_license", null ],
-    [ "Components", "modules.html", "modules" ],
-    [ "Globals", "globals.html", [
-      [ "All", "globals.html", "globals_dup" ],
-      [ "Functions", "globals_func.html", "globals_func" ],
-      [ "Variables", "globals_vars.html", "globals_vars" ],
-      [ "Typedefs", "globals_type.html", "globals_type" ],
-      [ "Enumerations", "globals_enum.html", null ],
-      [ "Enumerator", "globals_eval.html", "globals_eval" ],
-      [ "Macros", "globals_defs.html", "globals_defs" ]
+    [ "Modules", "modules.html", "modules" ],
+    [ "Data Structures", null, [
+      [ "Data Structures", "annotated.html", "annotated" ],
+      [ "Data Structure Index", "classes.html", null ],
+      [ "Data Fields", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ]
+      ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
+      [ "Globals", "globals.html", [
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", "globals_func" ],
+        [ "Variables", "globals_vars.html", "globals_vars" ],
+        [ "Typedefs", "globals_type.html", "globals_type" ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"globals.html",
-"group___m_i_a_driver.html#ga82144b02e140eba0b43c278c24ad7eb4",
-"group__btm__ble__api__functions.html#gad02e0949bb39b3f69a099e2ade0650ca",
-"group__sco__hook.html#ga005ae2de3ea7b11f4885aafeb6a4de31",
-"group__wiced__bt__ble__hidh__api__functions.html#gacf66d9c19d8a5e1f7ab209edd6370243",
-"group__wiced__bt__mesh__core.html#ga835762c5ffaaf4bc6d752ff2a4df81e8",
-"group__wiced__bt__mesh__model__light__lc__server.html#ga77530a80ee364b3719464b764a2ec5a6",
-"group__wiced__bt__mesh__scene__client.html",
-"group__wicedbt__av__ascb.html#ga5458723aeb4b8bfd513108df7253f224",
-"structmesh__core__provision__cb__t.html#a80af59c7280f9431131dbc3258219cd6",
-"structwiced__bt__ble__hidh__get__report__t.html#a8304c4af5da6e830b86d7199dc9a22e6",
-"structwiced__bt__mesh__core__transport__statistics__t.html#a003de10b1a2ff53f17be5b902c06630e",
-"structwiced__bt__mesh__light__xyl__set__t.html#a0f1bf111da0755d7b5f9ef52f61e966e",
-"structwiced__pwm__config__t.html"
+"annotated.html",
+"globals_b.html",
+"group___aux_clk_driver.html#gaee0d5876034de94fa98f8d4a8b287815",
+"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125a0401bf407ef1ada8b58adb12eec77efb",
+"group___peripheral_spi_driver.html#ggae506139af46f1328f631ddacd54af96da152359b11fb4b43ed0c5485eb0ab0673",
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310af9eb01fc29b5ff5e726043de9c1d4d7e",
+"group__gatt__client__api__functions.html#ga1e8c83cd289240692f4610a1012688b3",
+"group__hidd__api__functions.html#gaa5c41bb8cadb7312cd2aef3e1ba718ed",
+"group__opus__ctlvalues.html#ga4696f62216f4afb1493471bb4c25baea",
+"group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85",
+"group__timer.html#gad18b313d83b4c4ca57f73cee258a26fd",
+"group__wiced__bt__bac__api__functions.html#gab7c19a026129de02c6fa2a22e805f264",
+"group__wiced__bt__hrc__api__functions.html#gaa744d4ea05fec7260ba8b483d00ef711",
+"group__wiced__bt__mesh__core.html#ga436f9c9c050dc77dc3a5da7215ad509d",
+"group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503ba4f2dd799d88b0f3483e070dcdf623dd4",
+"group__wiced__bt__mesh__light__lightness__client.html#ga6171eaf2f01acec4d2f1e6a06559b716",
+"group__wiced__bt__mesh__models.html#gadadea936ad14f7ecdef0e8419eda2934",
+"group__wiced__bt__mesh__provisioning.html#ga593c37eb82c054299ec4fa832ea4fd09",
+"group__wiced__bt__mesh__sensor__client.html#ga10e988bdc5e8088ea23a34cfaa003aa7",
+"group__wicedbt__a2dp__sbc.html#ga3ac42153512bea435afc160a5f38e834",
+"group__wicedbt__avdt.html#ga9bfa823c10d9a5d7ad01707c0d049cf5",
+"group__wpl__event.html#ggad188658f896faab5c88049e633bbeb7daa3804180879c042b98bf15c3dcff9bc6",
+"hci__control__api_8h.html#a3f25385e40d79c3c6a10d9bc21d6a76c",
+"hci__control__api_8h.html#a864e0f10995de5f6d2e1f80b54361d2d",
+"hci__control__api_8h.html#accbe13d323c07ac67444d2beea0a11be",
+"struct_b_m_s_g___e_n_v_e_l_o_p_e__struct.html#a46b3b8db2420ef5ea1b26f43b172a9ad",
+"struct_s_b_c___d_e_c___p_a_r_a_m_s___t_a_g.html#a0051c789e9c9a69d76e5097f7dec31fb",
+"structplatform__audio__effect__eq__config__t.html",
+"structwiced__bt__a2dp__sink__status__t.html",
+"structwiced__bt__avrc__conn__cb__t.html#affab3252c905d33e9da0c50c0128dfcb",
+"structwiced__bt__avrc__set__br__player__rsp__t.html#a0d474530bd96f8237ea1d5fb9308cfe2",
+"structwiced__bt__cfg__settings__t.html#ab1002285cad88b712c2ef26ab847b820",
+"structwiced__bt__hfp__hf__at__cb__t.html",
+"structwiced__bt__l2cap__fcr__options__t.html#a37e90f5e3bd99fac2021fb3a326607d4",
+"structwiced__bt__mesh__core__state__node__state__t.html#a41752e761db534597bc8061dc6f6a18b",
+"structwiced__bt__mesh__light__lightness__status__data__t.html",
+"structwiced__bt__mesh__sensor__cadence__set__data__t.html#ad39bfe7de446e4fc386ed7c3645acbcd",
+"structwiced__button__manager__configuration__t.html",
+"union_f_i_l_t_e_r___c_t_l6___r_e_g.html#a104d0546613c74688f1e2d6cadbb65bf",
+"unionwiced__bt__avrc__notif__rsp__param__t.html#a5f853c9661639819cf1ecce930d3c602",
+"wiced__audio__manager_8h.html#a982d67c5d2cfe30f82830c944cfc100fa2228d66731211b37e32a9feae17cd6d2",
+"wiced__bt__anp_8h.html#af6d858caa1b4a640cde248ac6f4f5973",
+"wiced__bt__avrc__defs_8h.html#a170b89f2e89fa54738393f110c25e4c6",
+"wiced__bt__avrc__defs_8h.html#a8c2901b5c458b1dcc9deb6a729a52ee6",
+"wiced__bt__avrc__defs_8h.html#afdeeb812bcc17dd89ea9a5fedd063180",
+"wiced__bt__cfg_8h.html#abf16e48cf6e91d4611a9652561cd5e4d",
+"wiced__bt__dev_8h.html#ab94d20733e23c6a87c030964a9215bcb",
+"wiced__bt__gatt_8h.html#a73f2dc0af76c3ed1688d7fc5719a37b5",
+"wiced__bt__hfp__hf_8h.html#aeebed2d8b4e824634c470ceb3fba3886acf61488bed518cca9db5a1178bd8b42a",
+"wiced__bt__l2c_8h.html#ac2e6c9918ec11fb7d19aac7e96d338fd",
+"wiced__bt__mesh__model__defs_8h.html#a24b85e4f0097bfd9a8587951cba300d2",
+"wiced__bt__mesh__model__defs_8h.html#a765d54fc170bd6556280444e058df6ca",
+"wiced__bt__mesh__model__defs_8h.html#ac19ed151ac1372fe9e9474fe95e3df9d",
+"wiced__bt__mesh__models_8h.html#a25120fb1e286705e680cf3c8d31b6f56",
+"wiced__bt__obex_8h.html#a35feeefde9c73aa8e5caa67c4df92882",
+"wiced__bt__uuid_8h.html#a39a2ae8bfd92a397f2482fb6e73fc7eca8763bce817f82f37c732ec0343e532de",
+"wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca1b84b2cd67ddaee0ba6e3f7ffd286ed3",
+"wiced__vpc__decoder_8h.html#a98c4ba46a3c33b9452e982c84d1b1512"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

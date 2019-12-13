@@ -13,5 +13,6 @@ var group__wiced__mem =
     [ "wiced_memory_allocate", "group__wiced__mem.html#gad1f1a0590591e126a631146850ade850", null ],
     [ "wiced_memory_free", "group__wiced__mem.html#ga1cffc04feb3287cb93e89aae170d73d1", null ],
     [ "wiced_memory_get_free_bytes", "group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f", null ],
+    [ "wiced_memory_permanent_allocate", "group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4", null ],
     [ "wiced_memory_set_application_thread_stack_size", "group__wiced__mem.html#gaa4d8555484fe8d5616346704c0dbbba3", null ]
 ];

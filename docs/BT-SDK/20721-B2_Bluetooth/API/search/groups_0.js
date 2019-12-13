@@ -4,6 +4,8 @@ var searchData=
   ['analog_2dto_2ddigital_20converter_20_28adc_29',['Analog-to-Digital Converter (ADC)',['../group___adc_driver.html',1,'']]],
   ['audio_20insertion',['Audio Insertion',['../group__audio__insert.html',1,'']]],
   ['api_20functions',['API Functions',['../group__audio__insert__api__functions.html',1,'']]],
+  ['audio_20record',['Audio Record',['../group__audio__record.html',1,'']]],
+  ['api_20functions',['API Functions',['../group__audio__record__api__functions.html',1,'']]],
   ['auxiliary_20clock_20_28aclk_29',['Auxiliary Clock (ACLK)',['../group___aux_clk_driver.html',1,'']]],
   ['api_20functions',['API Functions',['../group__l2cap__api__functions.html',1,'']]],
   ['api_20functions',['API Functions',['../group__sco__hook__api__functions.html',1,'']]],

@@ -18,14 +18,5 @@ var searchData=
   ['tsdp_5fdr_5fdata',['tSDP_DR_DATA',['../structt_s_d_p___d_r___d_a_t_a.html',1,'']]],
   ['tsdp_5fdr_5fopen',['tSDP_DR_OPEN',['../structt_s_d_p___d_r___o_p_e_n.html',1,'']]],
   ['tsdp_5fproto_5flist_5felem',['tSDP_PROTO_LIST_ELEM',['../structt_s_d_p___p_r_o_t_o___l_i_s_t___e_l_e_m.html',1,'']]],
-  ['tsdp_5fprotocol_5felem',['tSDP_PROTOCOL_ELEM',['../structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html',1,'']]],
-  ['tx_5fblock_5fpool_5fstruct',['TX_BLOCK_POOL_STRUCT',['../struct_t_x___b_l_o_c_k___p_o_o_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fbyte_5fpool_5fstruct',['TX_BYTE_POOL_STRUCT',['../struct_t_x___b_y_t_e___p_o_o_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fevent_5fflags_5fgroup_5fstruct',['TX_EVENT_FLAGS_GROUP_STRUCT',['../struct_t_x___e_v_e_n_t___f_l_a_g_s___g_r_o_u_p___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fmutex_5fstruct',['TX_MUTEX_STRUCT',['../struct_t_x___m_u_t_e_x___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fqueue_5fstruct',['TX_QUEUE_STRUCT',['../struct_t_x___q_u_e_u_e___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fsemaphore_5fstruct',['TX_SEMAPHORE_STRUCT',['../struct_t_x___s_e_m_a_p_h_o_r_e___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5fthread_5fstruct',['TX_THREAD_STRUCT',['../struct_t_x___t_h_r_e_a_d___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5ftimer_5finternal_5fstruct',['TX_TIMER_INTERNAL_STRUCT',['../struct_t_x___t_i_m_e_r___i_n_t_e_r_n_a_l___s_t_r_u_c_t.html',1,'']]],
-  ['tx_5ftimer_5fstruct',['TX_TIMER_STRUCT',['../struct_t_x___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]]
+  ['tsdp_5fprotocol_5felem',['tSDP_PROTOCOL_ELEM',['../structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html',1,'']]]
 ];

@@ -5,7 +5,7 @@ var searchData=
   ['vector_20inverse_20park_20transform',['Vector Inverse Park transform',['../group__inv__park.html',1,'']]],
   ['vector_20park_20transform',['Vector Park Transform',['../group__park.html',1,'']]],
   ['v',['V',['../union_a_p_s_r___type.html#acd4a2b64faee91e4a9eef300667fa222',1,'APSR_Type::V()'],['../unionx_p_s_r___type.html#acd4a2b64faee91e4a9eef300667fa222',1,'xPSR_Type::V()']]],
-  ['val',['VAL',['../struct_sys_tick___type.html#a26fb318c3b0a0ec7f45daafd5f8799a3',1,'SysTick_Type::VAL()'],['../structwiced__bt__mesh__sensor__config__setting__t.html#a11e750dbec691489a3e323cb8c61704a',1,'wiced_bt_mesh_sensor_config_setting_t::val()'],['../structwiced__bt__mesh__sensor__setting__t.html#aaf05f4ec0c027f722e4b1a56df97f013',1,'wiced_bt_mesh_sensor_setting_t::val()']]],
+  ['val',['val',['../structwiced__bt__mesh__sensor__config__setting__t.html#a11e750dbec691489a3e323cb8c61704a',1,'wiced_bt_mesh_sensor_config_setting_t::val()'],['../structwiced__bt__mesh__sensor__setting__t.html#aaf05f4ec0c027f722e4b1a56df97f013',1,'wiced_bt_mesh_sensor_setting_t::val()'],['../struct_sys_tick___type.html#a26fb318c3b0a0ec7f45daafd5f8799a3',1,'SysTick_Type::VAL()']]],
   ['val_5fhandle',['val_handle',['../structwiced__bt__gatt__char__declaration__t.html#a13d14e316098f34a69b6e4f3c29b9b3c',1,'wiced_bt_gatt_char_declaration_t']]],
   ['val_5flen',['val_len',['../structwiced__bt__gatt__write__t.html#ad078959e82badb1a5b5492437adc440f',1,'wiced_bt_gatt_write_t']]],
   ['validation_5fdata',['validation_data',['../wiced__bt__mesh__provision_8h.html#a648e1fe59467641490cdcab1b05c4834',1,'wiced_bt_mesh_provision.h']]],

@@ -1,0 +1,26 @@
+var union_a_d_c___c_t_l0___r_e_g =
+[
+    [ "adc_ctl0_reg", "union_a_d_c___c_t_l0___r_e_g.html#a66d9c1833606febc05782edebd12fae5", null ],
+    [ "ADC_SCF_bypass", "union_a_d_c___c_t_l0___r_e_g.html#aab0d8cab0321bb40c85cbf2c129c4050", null ],
+    [ "adcBgCtatCtl", "union_a_d_c___c_t_l0___r_e_g.html#a2fa4078762fceb894d61c9de96143106", null ],
+    [ "adcBgPtatCtl", "union_a_d_c___c_t_l0___r_e_g.html#aaa76d7d59debb083708599a76687f112", null ],
+    [ "adcBiasCtl", "union_a_d_c___c_t_l0___r_e_g.html#a92b9721330ab0c7d5b8d7052b8f55bb8", null ],
+    [ "adcClkDiv2", "union_a_d_c___c_t_l0___r_e_g.html#ace6720144afa913358f0b3ca2eed83bf", null ],
+    [ "adcCorePwrup", "union_a_d_c___c_t_l0___r_e_g.html#a29a1d371a9540aff726106f861ca7579", null ],
+    [ "adcDcInputRange", "union_a_d_c___c_t_l0___r_e_g.html#a137fcfcc95d4878058701a2874c68fff", null ],
+    [ "adcIddq", "union_a_d_c___c_t_l0___r_e_g.html#a91be07f51a6fd322c77ca02e251054b6", null ],
+    [ "adcMicPdslt", "union_a_d_c___c_t_l0___r_e_g.html#ae51280da6da8054c68eab042f851d2ad", null ],
+    [ "adcMode", "union_a_d_c___c_t_l0___r_e_g.html#a804bfb2eb1f01b85cc23e97318b7ff0d", null ],
+    [ "adcPwrup", "union_a_d_c___c_t_l0___r_e_g.html#adf72050f84d8d641883d03f725e321dc", null ],
+    [ "adcRefCtl", "union_a_d_c___c_t_l0___r_e_g.html#a8809b6ff76830563faf04771f041d612", null ],
+    [ "adcRefPwrup", "union_a_d_c___c_t_l0___r_e_g.html#a9c6e5490da85308ce0b5ced26b2e3e03", null ],
+    [ "adcScfBypassSeq", "union_a_d_c___c_t_l0___r_e_g.html#acc4484d6da1de422bce30f84042c1e80", null ],
+    [ "adcScfClkDiv", "union_a_d_c___c_t_l0___r_e_g.html#a6225c4c3f41f848bb0269eead1df5473", null ],
+    [ "adcScfSeqSlt", "union_a_d_c___c_t_l0___r_e_g.html#a8ea08279c039345872b377ff1415d3eb", null ],
+    [ "adcSynClkPhase", "union_a_d_c___c_t_l0___r_e_g.html#aec840299ea9e35a5bff676667dcf7ca8", null ],
+    [ "bitmap", "union_a_d_c___c_t_l0___r_e_g.html#a26bacb2e06897c7a9844907da7abf16f", null ],
+    [ "micBiasPwrup", "union_a_d_c___c_t_l0___r_e_g.html#a8b6c0ad07927bbf5508814af05efbc59", null ],
+    [ "micPwrup", "union_a_d_c___c_t_l0___r_e_g.html#af8f6e85c2eee185f027133aeab04dc35", null ],
+    [ "reserved0", "union_a_d_c___c_t_l0___r_e_g.html#a4b65ea7117985f76b5d32ffc38c5b98f", null ],
+    [ "reserved1", "union_a_d_c___c_t_l0___r_e_g.html#afcfd9004b2604b08068988140cc7e658", null ]
+];

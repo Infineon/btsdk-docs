@@ -7,5 +7,6 @@ var group__group__ota__fw__upgrade__functions =
     [ "wiced_ota_fw_upgrade_is_active", "group__group__ota__fw__upgrade__functions.html#ga386f45f9e638c97425057f06f22a9cf4", null ],
     [ "wiced_ota_fw_upgrade_is_gatt_handle", "group__group__ota__fw__upgrade__functions.html#ga90318a6f1f8e4f418c293f4b22249e11", null ],
     [ "wiced_ota_fw_upgrade_read_handler", "group__group__ota__fw__upgrade__functions.html#ga212afd28ddaf5c594d8cf52f2607d995", null ],
+    [ "wiced_ota_fw_upgrade_set_transfer_mode", "group__group__ota__fw__upgrade__functions.html#gaaef880de5cc1190467de245f8e7d1557", null ],
     [ "wiced_ota_fw_upgrade_write_handler", "group__group__ota__fw__upgrade__functions.html#gace605108600db50d65304e59b531b77d", null ]
 ];

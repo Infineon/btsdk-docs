@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
@@ -47,8 +47,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Components</span></a></li>
-      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -65,6 +66,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li class="current"><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -2014,6 +2021,45 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 <li>wiced_bt_hrs_set_previous_connection_client_notification_configuration()
 : <a class="el" href="group__wiced__bt__hrs__api__functions.html#ga3079f4121adc0643990b4908691a655f">wiced_bt_hrs.h</a>
 </li>
+<li>wiced_bt_iap2_can_send_more_data()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga54641988dcce0854ae4bfcd424259ba0">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_connect()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gae9ff9af806c575f4a4f7dc917ff5b22d">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_connection_down_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gae34d89c126790df6f639b8e2d677ac32">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_connection_failed_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga572763901b39557b64adcb848ec4bcfc">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_connection_up_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gac6295c867b58e1f49a4ec6df31b32c1b">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_disconnect()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gab869d34e26353e11fdbb8dc6857a9dc0">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_get_auth_chip_info()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga58451ec7fe94986d945171c124ad5a9c">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_rx_data_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gaabdd0dc9a34df0a6f9de68ff1fcff935">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_rx_flow_enabled()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga188e5f40898c670e9351e6aed720c385">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_send_session_data()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga937cb784b9a9e8af0b60ef9ceee2c269">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_service_not_found_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gaeafb8b8d5103247396628d38c3d92ea4">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_startup()
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#ga36bdc0f6bf37670f91ce339558b91f31">wiced_bt_iap2.h</a>
+</li>
+<li>wiced_bt_iap2_tx_complete_callback_t
+: <a class="el" href="group__wiced__bt__iap2__api__functions.html#gae0494c2cb95f26c0a18910510d219b0a">wiced_bt_iap2.h</a>
+</li>
 <li>wiced_bt_ibeacon_set_adv_data()
 : <a class="el" href="wiced__bt__beacon_8h.html#a5b0ea7f87a916f1cadde72ba0a971d62">wiced_bt_beacon.h</a>
 </li>
@@ -2076,6 +2122,9 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 </li>
 <li>wiced_bt_management_evt_t
 : <a class="el" href="group__group__dev__enums.html#gac3571ba3ce819fad4defed1974617981">wiced_bt_dev.h</a>
+</li>
+<li>wiced_bt_mesh_add_vendor_model()
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#gac7d8b9839dcecb5ff268d4500a132ad7">wiced_bt_mesh_provision.h</a>
 </li>
 <li>WICED_BT_MESH_ADDR_LEN
 : <a class="el" href="wiced__bt__mesh__model__defs_8h.html#a2bf89fada9fed98d0cf0dc971f28d6eb">wiced_bt_mesh_model_defs.h</a>
@@ -2685,6 +2734,9 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 <li>wiced_bt_mesh_core_provisioning_url_adv_interval
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga56ccaf452f6865b7487897210d77cc22">wiced_bt_mesh_core.h</a>
 </li>
+<li>wiced_bt_mesh_core_proxy_adv_interval
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga89a11dca5efe4e307efba3cab7843823">wiced_bt_mesh_core.h</a>
+</li>
 <li>wiced_bt_mesh_core_proxy_on_demand_advert_to
 : <a class="el" href="group__wiced__bt__mesh__core.html#gab3700a0fa535db54eb22acdb36256dfc">wiced_bt_mesh_core.h</a>
 </li>
@@ -2880,6 +2932,9 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 <li>wiced_bt_mesh_fw_distribution_server_callback_t
 : <a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html#ga2c74e46baa5e3893d56b1615b303813e">wiced_bt_mesh_models.h</a>
 </li>
+<li>WICED_BT_MESH_FW_DISTRIBUTION_START_OTA
+: <a class="el" href="wiced__bt__mesh__models_8h.html#a6a43d5cb6c0096d04fbe525d9b2c5a6b">wiced_bt_mesh_models.h</a>
+</li>
 <li>WICED_BT_MESH_FW_DISTRIBUTION_STATUS
 : <a class="el" href="wiced__bt__mesh__models_8h.html#aa1ca95072806dac0f08235bebad1f6c6">wiced_bt_mesh_models.h</a>
 </li>
@@ -2890,7 +2945,7 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga00d132d53bba9a40c17c46da47d0dd69">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_fw_provider_start()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#gaface74b5d9bb0bc7044d870367b643f6">wiced_bt_mesh_provision.h</a>
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga84774493236865ad2f8cc6684d6eac0b">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_fw_provider_stop()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gaf84b575babd00ddb0a600ef4d9edf52a">wiced_bt_mesh_provision.h</a>
@@ -4413,8 +4468,8 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 : <a class="el" href="wiced__bt__mesh__model__defs_8h.html#a5f8ebcfd5e9443893e96da8f7f436f68">wiced_bt_mesh_model_defs.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_adv_packet()
-: <a class="el" href="group__wiced__bt__mesh__client.html#ga287d1bf483557b44312cb1d67d11b070">wiced_bt_mesh_client.h</a>
-, <a class="el" href="group__wiced__bt__mesh__core.html#ga287d1bf483557b44312cb1d67d11b070">wiced_bt_mesh_core.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga287d1bf483557b44312cb1d67d11b070">wiced_bt_mesh_core.h</a>
+, <a class="el" href="group__wiced__bt__mesh__client.html#ga287d1bf483557b44312cb1d67d11b070">wiced_bt_mesh_client.h</a>
 </li>
 <li>WICED_BT_MESH_REMOTE_PROVISIONING_CLOSE_REASON_FAIL
 : <a class="el" href="wiced__bt__mesh__model__defs_8h.html#af4a694614c2c1e59daedcd55e532a660">wiced_bt_mesh_model_defs.h</a>
@@ -5683,6 +5738,9 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 <li>wiced_model_scene_store_handler_t
 : <a class="el" href="group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45">wiced_bt_mesh_models.h</a>
 </li>
+<li>wiced_ota_firmware_event_callback_t
+: <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7">wiced_bt_ota_firmware_upgrade.h</a>
+</li>
 <li>wiced_ota_firmware_upgrade_send_data_callback_t
 : <a class="el" href="group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
@@ -5709,6 +5767,9 @@ $(document).ready(function(){initNavTree('globals_w.html','');});
 </li>
 <li>wiced_ota_fw_upgrade_read_handler()
 : <a class="el" href="group__group__ota__fw__upgrade__functions.html#ga212afd28ddaf5c594d8cf52f2607d995">wiced_bt_ota_firmware_upgrade.h</a>
+</li>
+<li>wiced_ota_fw_upgrade_set_transfer_mode()
+: <a class="el" href="group__group__ota__fw__upgrade__functions.html#gaaef880de5cc1190467de245f8e7d1557">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
 <li>wiced_ota_fw_upgrade_write_handler()
 : <a class="el" href="group__group__ota__fw__upgrade__functions.html#gace605108600db50d65304e59b531b77d">wiced_bt_ota_firmware_upgrade.h</a>

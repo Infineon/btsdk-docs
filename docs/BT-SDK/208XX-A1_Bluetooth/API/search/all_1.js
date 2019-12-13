@@ -192,6 +192,7 @@ var searchData=
   ['app_5fkey_5findex',['app_key_index',['../structwiced__bt__mesh__core__state__model__app__t.html#ae21043cbaf0ce72b114762a411cef83d',1,'wiced_bt_mesh_core_state_model_app_t']]],
   ['appearance',['appearance',['../structwiced__bt__cfg__gatt__settings__t.html#a9624ab9f6c7a72785f0a6233b0aec056',1,'wiced_bt_cfg_gatt_settings_t']]],
   ['application_5fspecific_5fflash_5freservation',['APPLICATION_SPECIFIC_FLASH_RESERVATION',['../group___platform.html#ga688c3b3c9def5d541c9f273478add2ee',1,'wiced_hal_eflash.h']]],
+  ['appmatchteamid',['AppMatchTeamId',['../group__wiced__bt__iap2__api__functions.html#gaee9b3f28a7664ba180748ae3355c5989',1,'wiced_bt_iap2.h']]],
   ['application_20thread_20serialization',['Application Thread Serialization',['../group__appthread.html',1,'']]],
   ['arm_5fpl081_2eh',['arm_pl081.h',['../arm__pl081_8h.html',1,'']]],
   ['array',['array',['../structwiced__bt__sdp__discovery__attribute__value__t.html#a698e7a1cc91c377532b021018e74eac8',1,'wiced_bt_sdp_discovery_attribute_value_t']]],
