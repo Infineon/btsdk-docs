@@ -1,6 +1,5 @@
 var group__sco__hook__data__types =
 [
-    [ "API Functions", "group__sco__hook__api__functions.html", "group__sco__hook__api__functions" ],
     [ "wiced_bt_sco_hook_event_mic_samples_t", "structwiced__bt__sco__hook__event__mic__samples__t.html", [
       [ "bufSmpCnt", "group__sco__hook.html#gac4cd5ac490ac59da7ffa8a124a967f0c", null ],
       [ "corr", "group__sco__hook.html#ga879c3b77f3f26cd337e95c7b3c16d5ab", null ],
@@ -23,6 +22,7 @@ var group__sco__hook__data__types =
       [ "spk_samples", "group__sco__hook.html#ga005ae2de3ea7b11f4885aafeb6a4de31", null ],
       [ "spk_zeros_inserted", "group__sco__hook.html#ga6a90f3dc9ccf0edd65d345afb4a43620", null ]
     ] ],
+    [ "API Functions", "group__sco__hook__api__functions.html", "group__sco__hook__api__functions" ],
     [ "wiced_bt_sco_hook_callback_t", "group__sco__hook__data__types.html#ga4cec0cfce2a333779a6151c4701b8508", null ],
     [ "wiced_bt_sco_hook_event_spk_inserted_zeros_t", "group__sco__hook__data__types.html#ga4face0d1242bcbc8eb9d2ba6e0f43dd6", null ],
     [ "wiced_bt_sco_hook_event_spk_samples_t", "group__sco__hook__data__types.html#ga05df9ee36a6edfb2d5d2881883ebd446", null ],

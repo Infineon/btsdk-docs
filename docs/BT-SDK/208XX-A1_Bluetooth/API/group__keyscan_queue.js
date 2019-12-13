@@ -19,5 +19,6 @@ var group__keyscan_queue =
     [ "ksq_isEmpty", "group__keyscan_queue.html#ga80211eaef24176654c2c8987ecb4cdf9", null ],
     [ "wiced_hal_keyscan_events_pending", "group__keyscan_queue.html#ga9bc21fd697240669295621a8e794e3c9", null ],
     [ "wiced_hal_keyscan_flush_HW_events", "group__keyscan_queue.html#ga2a5aecb0cc03d6a0b697788d48caf427", null ],
-    [ "wiced_hal_keyscan_get_next_event", "group__keyscan_queue.html#ga6033a5527d20ba7310fef232caa48e9b", null ]
+    [ "wiced_hal_keyscan_get_next_event", "group__keyscan_queue.html#ga6033a5527d20ba7310fef232caa48e9b", null ],
+    [ "EVENT_NONE", "group__keyscan.html#gga34df7cc7f69a8ec535eec8a524dcbaf9a939a6cc6d749a232a23ff324dca6d48c", null ]
 ];

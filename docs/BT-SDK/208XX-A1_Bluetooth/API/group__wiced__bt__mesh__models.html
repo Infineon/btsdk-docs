@@ -34,7 +34,7 @@
         WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="cy_logo.png" alt="WICED Logo" /></td>
+        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -47,9 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="modules.html"><span>Components</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -99,8 +98,8 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__models.html','
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#groups">Modules</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -112,120 +111,6 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__models.html','
 <p>Mesh Models library of the WICED SDK provide a simple method for an application to use various Mesh models defined in the Bluetooth Mesh Model specification.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:group__wiced__bt__mesh__battery__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__battery__server.html">Mesh Battery Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__battery__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__battery__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__battery__client.html">Mesh Battery Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__battery__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Battery Client module provides a way for an application to retrieve the battery status of a mesh node. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__location__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__location__server.html">Mesh Location Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__location__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__location__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__location__client.html">Mesh Location Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__location__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Location Client module provides a way for an application to configure the device with a Global or a Local Location data or to retrieve this data. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__onoff__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__onoff__server.html">Mesh OnOff Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__onoff__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh OnOff Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple On/Off switch, aka On/Off client. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__onoff__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__onoff__client.html">Mesh OnOff Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__onoff__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__level__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__level__server.html">Mesh Level Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__level__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Level Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple level slider, aka Level client. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__level__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__level__client.html">Mesh Level Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__level__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Level Client module of the Mesh Models library provides a way for an application to send Level commands (set, delta and move) to the server and optionally receive status information. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__default__transition__time__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__default__transition__time__server.html">Mesh Default Transition Time Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__default__transition__time__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Default Transition Time Server module of the Mesh Models library provides implementation of the Default Transition Time model. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__default__transition__time__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__default__transition__time__client.html">Mesh Default Transition Time Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__default__transition__time__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Default Transition Time Client module of the Mesh Models library provides a way for a controlling device to set default transition time for the devices in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__power__onoff__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html">Mesh Power OnOff Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__power__onoff__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power OnOff Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple On/Off switch, aka On/Off client. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__power__onoff__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__client.html">Mesh Power OnOff Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__power__onoff__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__power__level__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__level__server.html">Mesh Power Level Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__power__level__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power Level Server module of the Mesh Models library provides a way to implement functionality of a power plug type of a device that can be controlled using a Level slider (Generic Level client) and On/Off switch (Generic On/Off client). <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__power__level__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__level__client.html">Mesh Power Level Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__power__level__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power Level Client module of the Mesh Models library provides a way for an application to control power level of the Power Level Servers in the mesh network optionally receive status information. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__lightness__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lightness__server.html">Mesh Light Lightness Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__lightness__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light Lightness Server module provides a way for an application to implement a dimmable light device which can be controlled specifically by setting the brightness, but also can be can be controlled using a Level slider (Generic Level client) and On/Off switch (Generic On/Off client). <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__lightness__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lightness__client.html">Mesh Light Lightness Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__lightness__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light Lightness Client module of the Mesh Models library provides a way for an application to control brightness level of the Light Lightness Servers in the mesh network optionally receive status information. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__ctl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__ctl__server.html">Mesh Light CTL Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__ctl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Color Temperature Lightness (CTL) Server module provides a way for an application to implement a dimmable light device with color temperature support. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__ctl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__ctl__client.html">Mesh Light CTL Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__ctl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light CTL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support Color Temperature adjustments. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__hsl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__server.html">Mesh Light HSL Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__hsl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Hue Saturation Lightness (HSL) Server module provides a way for an application to implement a dimmable light device with hue/saturation support. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__hsl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__client.html">Mesh Light HSL Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__hsl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light HSL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support Hue/Saturation control. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__xyl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__xyl__server.html">Mesh Light xyL Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__xyl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__xyl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__xyl__client.html">Mesh Light xyL Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__xyl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light XYL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support xyL control. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__model__light__lc__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__model__light__lc__server.html">Mesh Light LC Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__model__light__lc__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light LC Server module provides a way for an application to implement a Light Control Server device which can be a client to a Sensor Server model and controls the Light Lightness Actual state via defined state bindings. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__light__lc__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lc__client.html">Mesh Light LC Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__light__lc__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light LC Client module of the Mesh Models library provides a way for an application to configure and control lights that support LC control. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__sensor__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__server.html">Mesh Sensor Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__sensor__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__sensor__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__client.html">Mesh Sensor Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__sensor__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Sensor Client module provides a way for an application to control Sensor Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__scene__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scene__server.html">Mesh Scene Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__scene__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scene Server module provides a way for an application to implement a functionality for the devices that support scene state. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__scene__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scene__client.html">Mesh Scene Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__scene__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scene Client module provides a way for an application to control Scene Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__time__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__time__server.html">Mesh Time Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__time__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Time Server module provides a way for an application to implement a functionality for the devices that support time state. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__time__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__time__client.html">Mesh Time Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__time__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Time Client module provides a way for an application to control Time Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__scheduler__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scheduler__server.html">Mesh Scheduler Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__scheduler__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scheduler Server module provides a way for an application to implement a functionality for the devices that support Scheduler. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__scheduler__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scheduler__client.html">Mesh Scheduler Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__scheduler__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scheduler Client module provides a way for an application to control Scheduler Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__fw__distribution__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html">Mesh Firmware Distribution Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__fw__distribution__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Firmware Distribution Server module provides a way for an application to implement a functionality for the devices that support Firmware Distribution. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__fw__update__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__client.html">Mesh FW Update Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__fw__update__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh FW Update Client module provides a way for an application to control Firmware Distribution Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__blob__transfer__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html">Mesh BLOB Transfer Client</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Client module provides a way for an application to transfer a BLOB to BLOB Transfer Servers in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__fw__update__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__server.html">Mesh Firmware Update Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__fw__update__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Firmware Update Server module provides a way for an application to Update Firmware in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__bt__mesh__blob__transfer__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html">Mesh BLOB Transfer Server</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Server module provides a way for an application to recevie BLOBs in the mesh network. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__battery__event__t.html">mesh_battery_event_t</a></td></tr>
@@ -475,6 +360,120 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLOB Transfer Status Data structure exchanged between the application and Generic Level Model.  <a href="structmesh__blob__transfer__capabilities__state__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__blob__transfer__complete__t.html">wiced_bt_mesh_blob_transfer_complete_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__wiced__bt__mesh__battery__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__battery__server.html">Mesh Battery Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__battery__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__battery__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__battery__client.html">Mesh Battery Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__battery__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Battery Client module provides a way for an application to retrieve the battery status of a mesh node. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__location__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__location__server.html">Mesh Location Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__location__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__location__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__location__client.html">Mesh Location Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__location__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Location Client module provides a way for an application to configure the device with a Global or a Local Location data or to retrieve this data. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__onoff__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__onoff__server.html">Mesh OnOff Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__onoff__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh OnOff Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple On/Off switch, aka On/Off client. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__onoff__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__onoff__client.html">Mesh OnOff Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__onoff__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__level__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__level__server.html">Mesh Level Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__level__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Level Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple level slider, aka Level client. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__level__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__level__client.html">Mesh Level Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__level__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Level Client module of the Mesh Models library provides a way for an application to send Level commands (set, delta and move) to the server and optionally receive status information. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__default__transition__time__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__default__transition__time__server.html">Mesh Default Transition Time Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__default__transition__time__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Default Transition Time Server module of the Mesh Models library provides implementation of the Default Transition Time model. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__default__transition__time__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__default__transition__time__client.html">Mesh Default Transition Time Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__default__transition__time__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Default Transition Time Client module of the Mesh Models library provides a way for a controlling device to set default transition time for the devices in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__power__onoff__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html">Mesh Power OnOff Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__power__onoff__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power OnOff Server module of the Mesh Models library provides a way to implement functionality for the devices that can be controlled using a simple On/Off switch, aka On/Off client. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__power__onoff__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__client.html">Mesh Power OnOff Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__power__onoff__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__power__level__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__level__server.html">Mesh Power Level Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__power__level__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power Level Server module of the Mesh Models library provides a way to implement functionality of a power plug type of a device that can be controlled using a Level slider (Generic Level client) and On/Off switch (Generic On/Off client). <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__power__level__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__level__client.html">Mesh Power Level Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__power__level__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Power Level Client module of the Mesh Models library provides a way for an application to control power level of the Power Level Servers in the mesh network optionally receive status information. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__lightness__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lightness__server.html">Mesh Light Lightness Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__lightness__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light Lightness Server module provides a way for an application to implement a dimmable light device which can be controlled specifically by setting the brightness, but also can be can be controlled using a Level slider (Generic Level client) and On/Off switch (Generic On/Off client). <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__lightness__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lightness__client.html">Mesh Light Lightness Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__lightness__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light Lightness Client module of the Mesh Models library provides a way for an application to control brightness level of the Light Lightness Servers in the mesh network optionally receive status information. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__ctl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__ctl__server.html">Mesh Light CTL Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__ctl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Color Temperature Lightness (CTL) Server module provides a way for an application to implement a dimmable light device with color temperature support. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__ctl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__ctl__client.html">Mesh Light CTL Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__ctl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light CTL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support Color Temperature adjustments. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__hsl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__server.html">Mesh Light HSL Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__hsl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Hue Saturation Lightness (HSL) Server module provides a way for an application to implement a dimmable light device with hue/saturation support. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__hsl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__client.html">Mesh Light HSL Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__hsl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light HSL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support Hue/Saturation control. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__xyl__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__xyl__server.html">Mesh Light xyL Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__xyl__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__xyl__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__xyl__client.html">Mesh Light xyL Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__xyl__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light XYL Client module of the Mesh Models library provides a way for an application to configure and control color lights that support xyL control. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__model__light__lc__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__model__light__lc__server.html">Mesh Light LC Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__model__light__lc__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light LC Server module provides a way for an application to implement a Light Control Server device which can be a client to a Sensor Server model and controls the Light Lightness Actual state via defined state bindings. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__light__lc__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__lc__client.html">Mesh Light LC Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__light__lc__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Light LC Client module of the Mesh Models library provides a way for an application to configure and control lights that support LC control. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__sensor__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__server.html">Mesh Sensor Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__sensor__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__sensor__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__client.html">Mesh Sensor Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__sensor__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Sensor Client module provides a way for an application to control Sensor Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__scene__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scene__server.html">Mesh Scene Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__scene__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scene Server module provides a way for an application to implement a functionality for the devices that support scene state. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__scene__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scene__client.html">Mesh Scene Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__scene__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scene Client module provides a way for an application to control Scene Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__time__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__time__server.html">Mesh Time Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__time__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Time Server module provides a way for an application to implement a functionality for the devices that support time state. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__time__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__time__client.html">Mesh Time Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__time__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Time Client module provides a way for an application to control Time Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__scheduler__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scheduler__server.html">Mesh Scheduler Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__scheduler__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scheduler Server module provides a way for an application to implement a functionality for the devices that support Scheduler. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__scheduler__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__scheduler__client.html">Mesh Scheduler Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__scheduler__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Scheduler Client module provides a way for an application to control Scheduler Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__fw__distribution__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html">Mesh Firmware Distribution Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__fw__distribution__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Firmware Distribution Server module provides a way for an application to implement a functionality for the devices that support Firmware Distribution. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__fw__update__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__client.html">Mesh FW Update Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__fw__update__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh FW Update Client module provides a way for an application to control Firmware Distribution Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__blob__transfer__client"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html">Mesh BLOB Transfer Client</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Client module provides a way for an application to transfer a BLOB to BLOB Transfer Servers in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__fw__update__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__fw__update__server.html">Mesh Firmware Update Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__fw__update__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh Firmware Update Server module provides a way for an application to Update Firmware in the mesh network. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wiced__bt__mesh__blob__transfer__server"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html">Mesh BLOB Transfer Server</a></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__blob__transfer__server"><td class="mdescLeft">&#160;</td><td class="mdescRight">The WICED Mesh BLOB Transfer Server module provides a way for an application to recevie BLOBs in the mesh network. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
