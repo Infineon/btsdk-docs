@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['intf_5fctl2_5freg',['INTF_CTL2_REG',['../union_i_n_t_f___c_t_l2___r_e_g.html',1,'']]],
-  ['intf_5fctl_5freg',['INTF_CTL_REG',['../union_i_n_t_f___c_t_l___r_e_g.html',1,'']]]
+  ['sdp_5fdiscovery_5frecord_5ft',['sdp_discovery_record_t',['../structsdp__discovery__record__t.html',1,'']]],
+  ['sdp_5finfo',['sdp_info',['../structsdp__info.html',1,'']]],
+  ['stereowidthstate',['StereoWidthState',['../struct_stereo_width_state.html',1,'']]],
+  ['stream_5finterface_5ft',['stream_interface_t',['../structstream__interface__t.html',1,'']]]
 ];

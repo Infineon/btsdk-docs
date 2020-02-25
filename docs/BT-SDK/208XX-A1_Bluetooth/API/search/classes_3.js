@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['celt_5fenc_5fparams',['CELT_ENC_PARAMS',['../struct_c_e_l_t___e_n_c___p_a_r_a_m_s.html',1,'']]],
-  ['codecstate_5ft',['CodecState_t',['../struct_codec_state__t.html',1,'']]]
+  ['mesh_5fbattery_5fevent_5ft',['mesh_battery_event_t',['../structmesh__battery__event__t.html',1,'']]],
+  ['mesh_5fblob_5ftransfer_5fcapabilities_5fstate_5ft',['mesh_blob_transfer_capabilities_state_t',['../structmesh__blob__transfer__capabilities__state__t.html',1,'']]],
+  ['mesh_5fcore_5fprovision_5fcb_5ft',['mesh_core_provision_cb_t',['../structmesh__core__provision__cb__t.html',1,'']]]
 ];

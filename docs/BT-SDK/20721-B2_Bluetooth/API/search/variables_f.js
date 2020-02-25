@@ -17,7 +17,6 @@ var searchData=
   ['open_5find',['open_ind',['../unionwiced__bt__avdt__ctrl__t.html#a8370f67e7b908dfb92e3ea9350503ad5',1,'wiced_bt_avdt_ctrl_t']]],
   ['operation',['operation',['../wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fcomplete',['operation_complete',['../unionwiced__bt__gatt__event__data__t.html#a1591543de83205542fe85654d2bf4152',1,'wiced_bt_gatt_event_data_t']]],
-  ['oscillatorfrequencykhz',['oscillatorFrequencykHz',['../struct____attribute____.html#ababa18153a4dc2e3cc1fb8db26c34010',1,'__attribute__']]],
   ['ota_5fsupported',['ota_supported',['../wiced__bt__mesh__provision_8h.html#a5b39023470b7af0c5618263fd24db5b7',1,'wiced_bt_mesh_provision.h']]],
   ['outbound_5fpdu_5fnumber',['outbound_pdu_number',['../structwiced__bt__mesh__provision__outbound__pdu__report__data__t.html#ada12258386fd57ad72c3ccc8ea729f37',1,'wiced_bt_mesh_provision_outbound_pdu_report_data_t']]],
   ['output_5foob_5faction',['output_oob_action',['../structwiced__bt__mesh__core__provision__capabilities__t.html#a2765cfa7a7d328eaf1d71cec2d2f15e9',1,'wiced_bt_mesh_core_provision_capabilities_t::output_oob_action()'],['../structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e',1,'wiced_bt_mesh_provision_capabilities_data_t::output_oob_action()'],['../structwiced__bt__mesh__provision__device__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e',1,'wiced_bt_mesh_provision_device_capabilities_data_t::output_oob_action()']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['end_5fof_5fscan_5fcycle',['END_OF_SCAN_CYCLE',['../group__keyscan_queue.html#gga0ac0b7994a7d738aa77d2c1cfe8d6d13ad8ba23ff4d3c25d36207e0da40355a22',1,'keyscan.h']]],
   ['event_5fdesc_5fbt_5fmax',['EVENT_DESC_BT_MAX',['../group__wpl__event.html#ggad188658f896faab5c88049e633bbeb7dabaa48f08ea8fb102216bc7eec4613fd1',1,'wiced_power_logger.h']]],
   ['event_5fdesc_5fbt_5fpower_5fdeep_5fsleep',['EVENT_DESC_BT_POWER_DEEP_SLEEP',['../group__wpl__event.html#ggad188658f896faab5c88049e633bbeb7daa3804180879c042b98bf15c3dcff9bc6',1,'wiced_power_logger.h']]],
   ['event_5fdesc_5fbt_5fpower_5fidle',['EVENT_DESC_BT_POWER_IDLE',['../group__wpl__event.html#ggad188658f896faab5c88049e633bbeb7da206758883ae2920fc530f095384ddfd4',1,'wiced_power_logger.h']]],
@@ -55,7 +54,6 @@ var searchData=
   ['event_5fid_5fuart',['EVENT_ID_UART',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aa3c7a2bad41028339de227528d339cc5a',1,'wiced_power_logger.h']]],
   ['event_5fid_5fuart_5ftransport',['EVENT_ID_UART_TRANSPORT',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aab3c570024efc6b69922140fc90763255',1,'wiced_power_logger.h']]],
   ['event_5fid_5fwifi_5fdata',['EVENT_ID_WIFI_DATA',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aa5e706fa337a1980e0c86c29144a5a4cc',1,'wiced_power_logger.h']]],
-  ['event_5fnone',['EVENT_NONE',['../group__keyscan.html#ggae62fccd8cea8f216b24ba625d404c4aea939a6cc6d749a232a23ff324dca6d48c',1,'keyscan.h']]],
   ['event_5fproc_5fid_5fbt',['EVENT_PROC_ID_BT',['../group__wpl__event.html#ggaf1c716d8b62763b0dc37aeae1d81435ca3314b2a21510c8982a6d00b1f8f21d6b',1,'wiced_power_logger.h']]],
   ['event_5fproc_5fid_5fmax',['EVENT_PROC_ID_MAX',['../group__wpl__event.html#ggaf1c716d8b62763b0dc37aeae1d81435ca643d9ed8bd096f6fde118480571227d7',1,'wiced_power_logger.h']]],
   ['event_5fproc_5fid_5fmcu',['EVENT_PROC_ID_MCU',['../group__wpl__event.html#ggaf1c716d8b62763b0dc37aeae1d81435ca1e7c1857210ad7e29d6cbafab318d5e8',1,'wiced_power_logger.h']]],

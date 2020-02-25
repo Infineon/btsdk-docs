@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -183,10 +183,17 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47">reply_timeout</a></td></tr>
 <tr class="memdesc:a7389b2a7e380437f6af8ee6784f93a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time to wait for the peer model layer acknowledgment in 50-millisecond steps. <br /></td></tr>
 <tr class="separator:a7389b2a7e380437f6af8ee6784f93a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081886e498ac52dbcf5231639b698178"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a081886e498ac52dbcf5231639b698178"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a081886e498ac52dbcf5231639b698178">tx_status</a></td></tr>
-<tr class="memdesc:a081886e498ac52dbcf5231639b698178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission failed or timeout occurred waiting for peer reply. <br /></td></tr>
-<tr class="separator:a081886e498ac52dbcf5231639b698178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc703e1108475cbceaa210ec18e5729"><td class="memItemLeft" ><a class="anchor" id="a6fc703e1108475cbceaa210ec18e5729"></a>
+union {</td></tr>
+<tr class="memitem:a9bc203bec977ff9eca018660844ad042"><td class="memItemLeft" ><a class="anchor" id="a9bc203bec977ff9eca018660844ad042"></a>
+&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042">tx_flag</a></td></tr>
+<tr class="memdesc:a9bc203bec977ff9eca018660844ad042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission failed or timeout occurred waiting for peer reply. <br /></td></tr>
+<tr class="separator:a9bc203bec977ff9eca018660844ad042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49728107d19a75a401215330b469934"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934">rpl_delay</a></td></tr>
+<tr class="memdesc:ab49728107d19a75a401215330b469934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model indicates how SEQ shall be saved by the core.  <a href="#ab49728107d19a75a401215330b469934">More...</a><br /></td></tr>
+<tr class="separator:ab49728107d19a75a401215330b469934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc703e1108475cbceaa210ec18e5729"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:a6fc703e1108475cbceaa210ec18e5729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6161ae10c48014f8d738ee16a4de74a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a">friend_addr</a></td></tr>
 <tr class="memdesc:aa6161ae10c48014f8d738ee16a4de74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">core sets it to friend address when calls complete_callback if segmented message has been sent and acked by the friend OnBehalfOf LPN.  <a href="#aa6161ae10c48014f8d738ee16a4de74a">More...</a><br /></td></tr>
 <tr class="separator:aa6161ae10c48014f8d738ee16a4de74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +253,21 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 
 <p>Interval between retransmissions in 50-millisecond steps. </p>
 <p>If bit 0x80 of the retrans_cnt is set then The transmission interval = (retrans_time + 1) * 10 </p>
+
+</div>
+</div>
+<a class="anchor" id="ab49728107d19a75a401215330b469934"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t rpl_delay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Model indicates how SEQ shall be saved by the core. </p>
+<p>It is delay in seconds to save SEQ in RPL. 0-save immediatly; 0xff - don't save; </p>
 
 </div>
 </div>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fp_5fdoneinterrupt_5ft',['fp_DoneInterrupt_t',['../arm__pl081_8h.html#ab84af6967822ab48cc3c0bfabd215532',1,'arm_pl081.h']]]
+  ['opusdecoder',['OpusDecoder',['../group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6',1,'opus.h']]],
+  ['opusencoder',['OpusEncoder',['../group__opus__encoder.html#gaf461a3ef2f10c2fe8b994a176f06c9bd',1,'opus.h']]]
 ];

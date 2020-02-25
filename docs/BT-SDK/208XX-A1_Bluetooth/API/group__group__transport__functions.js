@@ -8,5 +8,6 @@ var group__group__transport__functions =
     [ "wiced_transport_init", "group__group__transport__functions.html#gacdec4255fa64baf4937295afdd26cb7c", null ],
     [ "wiced_transport_send_buffer", "group__group__transport__functions.html#ga0e0c4dd9bf07c0e1ef695807c34e0fbc", null ],
     [ "wiced_transport_send_data", "group__group__transport__functions.html#ga0d22fe05e0462ab0a56b6878d3174d79", null ],
-    [ "wiced_transport_send_hci_trace", "group__group__transport__functions.html#ga593dffa16f0976ef9f813934c0147f11", null ]
+    [ "wiced_transport_send_hci_trace", "group__group__transport__functions.html#ga593dffa16f0976ef9f813934c0147f11", null ],
+    [ "wiced_transport_send_raw_buffer", "group__group__transport__functions.html#gac329bcaf18ad4e563bbaedeb72db949c", null ]
 ];

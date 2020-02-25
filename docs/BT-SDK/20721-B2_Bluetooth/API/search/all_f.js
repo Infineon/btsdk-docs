@@ -119,8 +119,6 @@ var searchData=
   ['opus_5funimplemented',['OPUS_UNIMPLEMENTED',['../group__opus__errorcodes.html#ga3b8d73b0f44b8b925ff40fd7c02b14a0',1,'opus_defines.h']]],
   ['opusdecoder',['OpusDecoder',['../group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6',1,'opus.h']]],
   ['opusencoder',['OpusEncoder',['../struct_opus_encoder.html',1,'OpusEncoder'],['../group__opus__encoder.html#gaf461a3ef2f10c2fe8b994a176f06c9bd',1,'OpusEncoder():&#160;opus.h']]],
-  ['osapi_5ftimer_5fstruct',['OSAPI_TIMER_STRUCT',['../struct_o_s_a_p_i___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]],
-  ['oscillatorfrequencykhz',['oscillatorFrequencykHz',['../struct____attribute____.html#ababa18153a4dc2e3cc1fb8db26c34010',1,'__attribute__']]],
   ['ota_5ffw_5fupgrade_5fstatus_5fverification_5fstart',['OTA_FW_UPGRADE_STATUS_VERIFICATION_START',['../group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32',1,'wiced_bt_ota_firmware_upgrade.h']]],
   ['ota_5fsupported',['ota_supported',['../wiced__bt__mesh__provision_8h.html#a5b39023470b7af0c5618263fd24db5b7',1,'wiced_bt_mesh_provision.h']]],
   ['out',['OUT',['../brcm__fw__types_8h.html#aec78e7a9e90a406a56f859ee456e8eae',1,'brcm_fw_types.h']]],

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -112,6 +112,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gadd4d6565480f41e236caef5d19c82c50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_v.html#gadd4d6565480f41e236caef5d19c82c50">wiced_bt_avrc_ct_init</a> (uint32_t local_features, uint8_t *supported_events, <a class="el" href="wiced__bt__avrc__ct_8h.html#ad858b73acd5a0f89dc31c73f511abe6a">wiced_bt_avrc_ct_connection_state_cback_t</a> p_connection_cb, <a class="el" href="wiced__bt__avrc__ct_8h.html#aaea90a4f94e148ac2cccf9a28fa8e8cf">wiced_bt_avrc_ct_cmd_cback_t</a> p_cmd_cb, <a class="el" href="wiced__bt__avrc__ct_8h.html#ad29f68f0d216dac59fc5c1a67902f87f">wiced_bt_avrc_ct_rsp_cback_t</a> p_rsp_cb, <a class="el" href="wiced__bt__avrc__ct_8h.html#adaa88ddf80ce4116a0c265b65d5d714c">wiced_bt_avrc_ct_pt_rsp_cback_t</a> p_ptrsp_cb)</td></tr>
 <tr class="memdesc:gadd4d6565480f41e236caef5d19c82c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_init.  <a href="#gadd4d6565480f41e236caef5d19c82c50">More...</a><br /></td></tr>
 <tr class="separator:gadd4d6565480f41e236caef5d19c82c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04feecaa580e016eb188cff0c2cc74d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_v.html#ga04feecaa580e016eb188cff0c2cc74d4">wiced_bt_avrc_ct_features_register</a> (wiced_bt_avrc_ct_features_cback_t features_callback)</td></tr>
+<tr class="memdesc:ga04feecaa580e016eb188cff0c2cc74d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_features_register.  <a href="#ga04feecaa580e016eb188cff0c2cc74d4">More...</a><br /></td></tr>
+<tr class="separator:ga04feecaa580e016eb188cff0c2cc74d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9320731852e15f365b220a3b24d660ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_v.html#ga9320731852e15f365b220a3b24d660ef">wiced_bt_avrc_ct_deinit</a> (void)</td></tr>
 <tr class="memdesc:ga9320731852e15f365b220a3b24d660ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_deinit.  <a href="#ga9320731852e15f365b220a3b24d660ef">More...</a><br /></td></tr>
 <tr class="separator:ga9320731852e15f365b220a3b24d660ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,6 +356,26 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bdcmp</b> (const <a cl
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga04feecaa580e016eb188cff0c2cc74d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_avrc_ct_features_register </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_avrc_ct_features_cback_t&#160;</td>
+          <td class="paramname"><em>features_callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_avrc_ct_features_register. </p>
+<p>Register for AVRC Feature events. This, optional, function must be called after wiced_bt_avrc_ct_init</p>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>

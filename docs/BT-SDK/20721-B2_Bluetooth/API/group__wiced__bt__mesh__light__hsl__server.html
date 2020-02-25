@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -162,8 +162,8 @@ Functions</h2></td></tr>
 <p>In addition to the definition, the application shall initialize the HSL Server module by calling <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#ga3bc33dafd57f3d1f0f907e0234374dc5">wiced_bt_mesh_model_light_hsl_server_init</a> function for each primary element where the HSL functionality is required providing the <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gaca62061f62c0221672b88d0f8e065da2">wiced_bt_mesh_light_hsl_server_callback_t</a> callback that will be executed when the brightness level, the hue or the saturation of the device needs to be changed.</p>
 <p>If device supports local control, for example, when the brightness of the device can be changed locally, the application should call the wiced_bt_mesh_model_light_hsl_status_changed function so that the library can maintain correct state and send an appropriate status message if it is configured to do so.</p>
 <p>Most of the functionality of the Light HSL server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#ab5606452893f6bbf4bb891630369cb25">WICED_BT_MESH_LIGHT_HSL_SET</a> event. If a client requests to change the brightness or the color to the target values over a period of time, the library will maintain the timer and will periodically call the application with appropriate values.</p>
-<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#gaf5a8f8322bddb30096f7d704e09489fb">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
-<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#gaf5a8f8322bddb30096f7d704e09489fb">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
+<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
+<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga9886cc05eab91cf96e4b4d542b4aa45c"></a>
 <div class="memitem">

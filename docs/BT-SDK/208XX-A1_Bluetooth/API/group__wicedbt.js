@@ -1,6 +1,5 @@
 var group__wicedbt =
 [
-    [ "HID Events", "group___hid_events.html", "group___hid_events" ],
     [ "AMS Library API", "group__wiced__bt__ams__api__functions.html", "group__wiced__bt__ams__api__functions" ],
     [ "ANCS Library API", "group__wiced__bt__ancs__api__functions.html", "group__wiced__bt__ancs__api__functions" ],
     [ "Audio / Video", "group__wicedbt__av.html", "group__wicedbt__av" ],

@@ -7,7 +7,6 @@ var searchData=
   ['net_5fkey_5findex',['net_key_index',['../structwiced__bt__mesh__core__state__app__key__t.html#a22f3b78c54405482a77f0c82141b779f',1,'wiced_bt_mesh_core_state_app_key_t']]],
   ['network_5fkey',['network_key',['../structwiced__bt__mesh__local__device__set__data__t.html#a2a5abc74f4c3049cd802e24a2bdbf84b',1,'wiced_bt_mesh_local_device_set_data_t']]],
   ['new_5falert',['new_alert',['../structwiced__bt__ans__gatt__handles__t.html#a087b928809f7184de8a6d11072f1d3d4',1,'wiced_bt_ans_gatt_handles_t']]],
-  ['next',['next',['../struct_d_m_a___t_r_a_n_s_f_e_r___r_e_q_u_e_s_t.html#a8a5efeb4b44acaded3160fd28f601fa4',1,'DMA_TRANSFER_REQUEST']]],
   ['no_5fof_5fcolumns',['no_of_columns',['../structwiced__bt__mesh__sensor__series__status__data__t.html#ab75ff33b4d4f55e4b2dc05c9d3937932',1,'wiced_bt_mesh_sensor_series_status_data_t']]],
   ['node',['node',['../wiced__bt__mesh__provision_8h.html#a15604e1aa454b3500c820ca3f4ada1cd',1,'wiced_bt_mesh_provision.h']]],
   ['node_5fid',['node_id',['../structmesh__core__provision__cb__t.html#a07ec3cc0de32c2b7496197f15e96c475',1,'mesh_core_provision_cb_t::node_id()'],['../structwiced__bt__mesh__proxy__connect__data__t.html#a07ec3cc0de32c2b7496197f15e96c475',1,'wiced_bt_mesh_proxy_connect_data_t::node_id()']]],

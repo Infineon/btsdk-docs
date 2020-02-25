@@ -20,5 +20,6 @@ var group___transport =
     [ "wiced_transport_send_buffer", "group___transport.html#ga0e0c4dd9bf07c0e1ef695807c34e0fbc", null ],
     [ "wiced_transport_send_data", "group___transport.html#ga0d22fe05e0462ab0a56b6878d3174d79", null ],
     [ "wiced_transport_send_hci_trace", "group___transport.html#ga593dffa16f0976ef9f813934c0147f11", null ],
+    [ "wiced_transport_send_raw_buffer", "group___transport.html#gac329bcaf18ad4e563bbaedeb72db949c", null ],
     [ "wiced_transport_set_detect_on", "group___transport.html#ga380d645dcc489d47a7c65f284e861f57", null ]
 ];

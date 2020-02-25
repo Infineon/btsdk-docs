@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -204,6 +204,12 @@ Macros</h2></td></tr>
 <tr class="memitem:ab1c88c2eae50a9a385d42b20d3642e63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1c88c2eae50a9a385d42b20d3642e63"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_REMOTE_PROVISIONING_SERVER_SINGLE_DEVICE_SCAN</b>&#160;&#160;&#160;0x02</td></tr>
 <tr class="separator:ab1c88c2eae50a9a385d42b20d3642e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5def29df8319de0b4dd6f50cf2b120"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee5def29df8319de0b4dd6f50cf2b120"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_REMOTE_PROVISIONING_LINK_OPEN_TIMEOUT_MIN</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:aee5def29df8319de0b4dd6f50cf2b120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab341efed035aae70f788773193836594"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab341efed035aae70f788773193836594"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_REMOTE_PROVISIONING_LINK_OPEN_TIMEOUT_MAX</b>&#160;&#160;&#160;0x3C</td></tr>
+<tr class="separator:ab341efed035aae70f788773193836594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acda74c5fa9117ce05f3556c274c9389f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acda74c5fa9117ce05f3556c274c9389f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#acda74c5fa9117ce05f3556c274c9389f">WICED_BT_MESH_REMOTE_PROVISION_STATE_IDLE</a>&#160;&#160;&#160;0x00</td></tr>
 <tr class="memdesc:acda74c5fa9117ce05f3556c274c9389f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Idle. <br /></td></tr>
@@ -344,10 +350,18 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ad8b0b11ad3ce259c595f215b630df662">WICED_BT_MESH_CONFIG_PERIOD_LOG_MAX</a>&#160;&#160;&#160;0x11</td></tr>
 <tr class="memdesc:ad8b0b11ad3ce259c595f215b630df662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of period log. <br /></td></tr>
 <tr class="separator:ad8b0b11ad3ce259c595f215b630df662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a174d81e4761a1c394b79cc0f1068d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a174d81e4761a1c394b79cc0f1068d1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a0a174d81e4761a1c394b79cc0f1068d1">WICED_BT_MESH_CONFIG_COUNT_LOG_MAX</a>&#160;&#160;&#160;0x10</td></tr>
-<tr class="memdesc:a0a174d81e4761a1c394b79cc0f1068d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of count log. <br /></td></tr>
-<tr class="separator:a0a174d81e4761a1c394b79cc0f1068d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34dced1a45674f1b74709ab707976e46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34dced1a45674f1b74709ab707976e46"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a34dced1a45674f1b74709ab707976e46">WICED_BT_MESH_CONFIG_SUB_COUNT_LOG_MAX</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="memdesc:a34dced1a45674f1b74709ab707976e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of subscription count log. <br /></td></tr>
+<tr class="separator:a34dced1a45674f1b74709ab707976e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03b13ca82fcb4c9d625c57e01fdf97b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae03b13ca82fcb4c9d625c57e01fdf97b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ae03b13ca82fcb4c9d625c57e01fdf97b">WICED_BT_MESH_CONFIG_PUB_COUNT_LOG_MAX</a>&#160;&#160;&#160;0x11</td></tr>
+<tr class="memdesc:ae03b13ca82fcb4c9d625c57e01fdf97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of publication count log. <br /></td></tr>
+<tr class="separator:ae03b13ca82fcb4c9d625c57e01fdf97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace9802f6981871684a5cc8d4e234346a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace9802f6981871684a5cc8d4e234346a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ace9802f6981871684a5cc8d4e234346a">WICED_BT_MESH_CONFIG_COUNT_LOG_NO_LIMIT</a>&#160;&#160;&#160;0xFF</td></tr>
+<tr class="memdesc:ace9802f6981871684a5cc8d4e234346a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of count log representing unlimited count. <br /></td></tr>
+<tr class="separator:ace9802f6981871684a5cc8d4e234346a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83dfa0eb1e192ba0e4b95bfed7cfdb3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83dfa0eb1e192ba0e4b95bfed7cfdb3b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a83dfa0eb1e192ba0e4b95bfed7cfdb3b">WICED_BT_MESH_CONFIG_HOPS_MAX</a>&#160;&#160;&#160;0x7f</td></tr>
 <tr class="memdesc:a83dfa0eb1e192ba0e4b95bfed7cfdb3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max value of min hops or max hops. <br /></td></tr>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -248,6 +248,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga380d645dcc489d47a7c65f284e861f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#ga380d645dcc489d47a7c65f284e861f57">wiced_transport_set_detect_on</a> (<a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> detect_on_second)</td></tr>
 <tr class="memdesc:ga380d645dcc489d47a7c65f284e861f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_transport_set_detect_on.  <a href="#ga380d645dcc489d47a7c65f284e861f57">More...</a><br /></td></tr>
 <tr class="separator:ga380d645dcc489d47a7c65f284e861f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#gac329bcaf18ad4e563bbaedeb72db949c">wiced_transport_send_raw_buffer</a> (uint8_t *p_buf, uint16_t length)</td></tr>
+<tr class="memdesc:gac329bcaf18ad4e563bbaedeb72db949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_transport_send_raw_buffer.  <a href="#gac329bcaf18ad4e563bbaedeb72db949c">More...</a><br /></td></tr>
+<tr class="separator:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines the transport utilities for configuring the transport, send data and receive data. </p>
@@ -650,6 +653,44 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_SUCCESS, if success, WICED_NO_MEMORY if buffers not available to send, WICED_ERROR otherwise </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac329bcaf18ad4e563bbaedeb72db949c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_send_raw_buffer </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_transport_send_raw_buffer. </p>
+<p>Used when transport mode is WICED_TRANSPORT_UART_RAW_MODE. Available with the wiced_uart_raw_mode_lib. Send the packet to the host over the transport using the buffer allocated by the application. This function takes care of preparing the header and sending the data. The buffer must be freed by the application if return status is WICED_SUCCESS.</p>
+<p>Note: Application has to allocate buffer from transport pool using wiced_transport_allocate_buffer and copy the payload to this buffer and send the payload pointer. This allows the application to use custom size buffers and avoid overrun of generic buffers, which is shared across firmware code.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_buf</td><td>:Pointer to the payload </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>:Payload length </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>
 </div>

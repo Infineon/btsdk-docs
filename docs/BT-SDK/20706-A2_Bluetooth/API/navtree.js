@@ -23,21 +23,19 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"class_ag7530_driver.html",
-"group___g_p_i_o_driver.html#gaf12a24ac8dc0ed30ea1f9889f8e793d1",
-"group___quadrature.html#ga2bb74d9bb384c64e5a7de409c320d5b5",
-"group__curve25519.html",
-"group__l2cap__data__types.html#ga36a742ec81d6b130ef9fce023755ab36",
-"group__wiced__bt__bac__api__functions.html#ga8b3a8074ff8eff01a9f22b9b441c4c2a",
-"group__wiced__bt__mesh__battery__server.html#gaf8305491af7a945d77439e1e4cfd1a33",
-"group__wiced__bt__mesh__light__hsl__client.html#ga591aa733ed43e54866b9d89c3f53e36b",
-"group__wiced__bt__mesh__provisioning.html#ga3bbb1d7ffb5711406aa96e8c6139b614",
-"group__wicedbt__a2dp__sbc.html#ga2f7be66871476b08d1072024e3aac784",
-"structmesh__core__provision__cb__t.html#a0b57aa10271a66f3dc936bba1d2f3830",
-"structwiced__bt__hrc__start__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47",
-"structwiced__bt__mesh__fw__update__prepare__t.html#a4e432f0962cc687586cedb4127266965",
-"structwiced__bt__mesh__power__level__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
-"unionwiced__bt__mesh__core__state__t.html#a7e3e4de72857ff1813ac6bd07fe9a7f2"
+"globals.html",
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310a2a588e0fcdbd59ae3bb83a11dd0e521b",
+"group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32",
+"group__sha512.html#gae088715ecd0c108a940a383f4ded9df3",
+"group__wiced__bt__hidh__api__functions.html#gga2ba7091a2e89571fa68081e1b33e3071af92a207ed0eb4e597459746740da40b5",
+"group__wiced__bt__mesh__core.html#gad8693daf067e0dd367c3d44f46d570bd",
+"group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45",
+"group__wiced__bt__mesh__sensor__server.html#gae23dc22a4ea8e68cdaa5ca643c52169b",
+"structancs__event__t.html#a0b9e4627203f814e26eb305c1cd121a1",
+"structwiced__bt__hidh__report__t.html",
+"structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49",
+"structwiced__bt__mesh__location__local__data__t.html#a23889ca4a3f67a8d2ba2edc7a14e9ad1",
+"unionwiced__bt__hrc__event__data__t.html#a201d08007f0b9f1940418c510e12cd83"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

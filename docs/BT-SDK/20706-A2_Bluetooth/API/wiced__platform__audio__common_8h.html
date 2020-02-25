@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -154,26 +154,19 @@ Enumerations</h2></td></tr>
 <b>PLATFORM_BUTTON_VOLUME_UP</b>, 
 <br />
 &#160;&#160;<b>PLATFORM_BUTTON_VOLUME_DOWN</b>, 
-<b>PLATFORM_BUTTON_A2DP_PLAY</b>, 
-<b>PLATFORM_BUTTON_A2DP_PAUSE</b>, 
-<b>PLATFORM_BUTTON_A2DP_FORWARD</b>, 
-<br />
-&#160;&#160;<b>PLATFORM_BUTTON_A2DP_BACKWARD</b>, 
-<b>PLATFORM_BUTTON_CALL_ANSWER</b>, 
-<b>PLATFORM_BUTTON_CALL_HANG_UP</b>, 
+<b>PLATFORM_BUTTON_WICED_HCI_DETECT_ON</b>, 
 <b>PLATFORM_BUTTON_LRAC_BUTTON_1_LONG</b>, 
+<b>PLATFORM_BUTTON_LRAC_BUTTON_1_SHORT</b>, 
 <br />
-&#160;&#160;<b>PLATFORM_BUTTON_LRAC_BUTTON_1_SHORT</b>, 
-<b>PLATFORM_BUTTON_LRAC_BUTTON_1_REPEAT</b>, 
+&#160;&#160;<b>PLATFORM_BUTTON_LRAC_BUTTON_1_REPEAT</b>, 
 <b>PLATFORM_BUTTON_LRAC_BUTTON_2_LONG</b>, 
 <b>PLATFORM_BUTTON_LRAC_BUTTON_2_SHORT</b>, 
+<b>PLATFORM_BUTTON_LRAC_BUTTON_2_REPEAT</b>, 
 <br />
-&#160;&#160;<b>PLATFORM_BUTTON_LRAC_BUTTON_2_REPEAT</b>, 
-<b>PLATFORM_BUTTON_LRAC_BUTTON_3_LONG</b>, 
+&#160;&#160;<b>PLATFORM_BUTTON_LRAC_BUTTON_3_LONG</b>, 
 <b>PLATFORM_BUTTON_LRAC_BUTTON_3_SHORT</b>, 
 <b>PLATFORM_BUTTON_LRAC_BUTTON_3_REPEAT</b>, 
-<br />
-&#160;&#160;<b>PLATFORM_BUTTON_LAST</b>
+<b>PLATFORM_BUTTON_LAST</b>
 <br />
  }</td></tr>
 <tr class="separator:a8fca5422c0e4caa63a5bb17eb800f8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,14 +174,10 @@ Enumerations</h2></td></tr>
 <b>PLATFORM_AUDIO_SIDE_RIGHT</b>
  }</td></tr>
 <tr class="separator:acdea7f9557bbb15af7a9a9af4ea23b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad253c587deb4f2f81b60074cbd7cf3b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad253c587deb4f2f81b60074cbd7cf3b6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>platform_codec_route</b> { <br />
-&#160;&#160;<b>PLATFORM_CODEC_ROUTE_NONE</b> = 0, 
+<tr class="memitem:ad253c587deb4f2f81b60074cbd7cf3b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad253c587deb4f2f81b60074cbd7cf3b6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>platform_codec_route</b> { <b>PLATFORM_CODEC_ROUTE_NONE</b> = 0, 
 <b>PLATFORM_CODEC_ROUTE_CVSD</b>, 
 <b>PLATFORM_CODEC_ROUTE_MSBC</b>, 
-<b>PLATFORM_CODEC_ROUTE_STREAM</b>, 
-<br />
-&#160;&#160;<b>PLATFORM_CODEC_ROUTE_AUDIO_INSERT</b>
-<br />
+<b>PLATFORM_CODEC_ROUTE_AUDIO_INSERT</b>
  }</td></tr>
 <tr class="separator:ad253c587deb4f2f81b60074cbd7cf3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa57a2e43ef941ad057b09e6edbd3505a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa57a2e43ef941ad057b09e6edbd3505a"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>platform_led_state</b> { <br />
@@ -233,21 +222,6 @@ platform_global_state_t&#160;</td><td class="memItemRight" valign="bottom"><b>pl
 <tr class="memitem:a86d3a5bab4b82973b506432568d1931a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86d3a5bab4b82973b506432568d1931a"></a>
 <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>platform_audio_side_set</b> (platform_audio_side_t audio_side)</td></tr>
 <tr class="separator:a86d3a5bab4b82973b506432568d1931a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e642a6df5dacf53ae54aeefed6f9b77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e642a6df5dacf53ae54aeefed6f9b77"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>platform_volume_voice_set</b> (uint8_t volume)</td></tr>
-<tr class="separator:a0e642a6df5dacf53ae54aeefed6f9b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9d08b7fb196b27a1ca681d16acf2f09"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9d08b7fb196b27a1ca681d16acf2f09"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>platform_volume_ring_set</b> (uint8_t volume)</td></tr>
-<tr class="separator:ac9d08b7fb196b27a1ca681d16acf2f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a56a3b608be6e52c62e85b7cc88e52b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a56a3b608be6e52c62e85b7cc88e52b"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>platform_volume_micro_set</b> (uint8_t volume)</td></tr>
-<tr class="separator:a7a56a3b608be6e52c62e85b7cc88e52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab157a33c0b3fe2730ca8c993a45e6d56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab157a33c0b3fe2730ca8c993a45e6d56"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>platform_volume_stream_set</b> (uint8_t volume)</td></tr>
-<tr class="separator:ab157a33c0b3fe2730ca8c993a45e6d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c697ceca08fc2f40ede7f1211c158ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c697ceca08fc2f40ede7f1211c158ec"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>platform_volume_audio_insert_set</b> (uint8_t volume)</td></tr>
-<tr class="separator:a1c697ceca08fc2f40ede7f1211c158ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a006701c5553c60a568602241021ade66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a006701c5553c60a568602241021ade66"></a>
 <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>platform_codec_route_set</b> (platform_codec_route_t codec_route)</td></tr>
 <tr class="separator:a006701c5553c60a568602241021ade66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,6 +240,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>platform_handle_hci_c
 <tr class="memitem:a9daff8168d65fbba2259f18cd1f2d7b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9daff8168d65fbba2259f18cd1f2d7b8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_platform_debug_enable</b> (void)</td></tr>
 <tr class="separator:a9daff8168d65fbba2259f18cd1f2d7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db4d7a5fef17c22fb4540212c08bf0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9db4d7a5fef17c22fb4540212c08bf0f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>platform_button_emulator</b> (platform_button_id_t button_id, uint32_t repeat_counter)</td></tr>
+<tr class="separator:a9db4d7a5fef17c22fb4540212c08bf0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><blockquote class="doxtable">

@@ -10,7 +10,6 @@ var searchData=
   ['hdrcmp_5fmask',['hdrcmp_mask',['../structwiced__bt__avdt__cfg__t.html#a4c8a0a174c42239ca6daf20a68b9199a',1,'wiced_bt_avdt_cfg_t']]],
   ['heart_5frate',['heart_rate',['../structwiced__bt__hrc__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4',1,'wiced_bt_hrc_notification_data_t::heart_rate()'],['../structwiced__bt__hrs__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4',1,'wiced_bt_hrs_notification_data_t::heart_rate()']]],
   ['hecerrs',['hecErrs',['../wiced__bt__dev_8h.html#a347f76ceae5ca481ab3d36d335302947',1,'wiced_bt_dev.h']]],
-  ['hfsr',['HFSR',['../struct_s_c_b___type.html#a87aadbc5e1ffb76d755cf13f4721ae71',1,'SCB_Type']]],
   ['high_5fduty_5fconn_5fduration',['high_duty_conn_duration',['../structwiced__bt__cfg__ble__scan__settings__t.html#a4db6ad71b0655164d4e46e95db34a943',1,'wiced_bt_cfg_ble_scan_settings_t']]],
   ['high_5fduty_5fconn_5fscan_5finterval',['high_duty_conn_scan_interval',['../structwiced__bt__cfg__ble__scan__settings__t.html#af7f08497ea9ed5cb3f456fddd8f081ac',1,'wiced_bt_cfg_ble_scan_settings_t']]],
   ['high_5fduty_5fconn_5fscan_5fwindow',['high_duty_conn_scan_window',['../structwiced__bt__cfg__ble__scan__settings__t.html#a28acf1abc2ba9eef0e658507e942a4eb',1,'wiced_bt_cfg_ble_scan_settings_t']]],
@@ -28,7 +27,7 @@ var searchData=
   ['host_5faddr',['host_addr',['../structwiced__bt__hidd__reg__info__t.html#a0d117f305c2c148e84c6200a429d3f97',1,'wiced_bt_hidd_reg_info_t']]],
   ['host_5fbdaddr',['host_bdaddr',['../unionwiced__bt__hidd__event__data__t.html#a7d136ee18bc5e8889ce9a4a5d65d6457',1,'wiced_bt_hidd_event_data_t']]],
   ['host_5fwake_5fmode',['host_wake_mode',['../structwiced__sleep__config__t.html#a5171a33fef2269ba49d52e375fd6ef24',1,'wiced_sleep_config_t']]],
-  ['hour',['hour',['../struct_rtc_time.html#a01a2c00bde7e0eaa814045a09ef7892d',1,'RtcTime::hour()'],['../structwiced__bt__mesh__scheduler__action__data__t.html#ae5af4ff48939d13d480f87e56a9385d6',1,'wiced_bt_mesh_scheduler_action_data_t::hour()']]],
+  ['hour',['hour',['../structwiced__bt__mesh__scheduler__action__data__t.html#ae5af4ff48939d13d480f87e56a9385d6',1,'wiced_bt_mesh_scheduler_action_data_t']]],
   ['hue',['hue',['../structwiced__bt__mesh__light__hsl__data__t.html#a2d3850bf87522a9e917e8a33cf4201a5',1,'wiced_bt_mesh_light_hsl_data_t']]],
   ['hue_5fmax',['hue_max',['../structwiced__bt__mesh__light__hsl__range__set__data__t.html#ad1d0b7aeaf52154060bb19946434a646',1,'wiced_bt_mesh_light_hsl_range_set_data_t::hue_max()'],['../structwiced__bt__mesh__light__hsl__range__status__data__t.html#ad1d0b7aeaf52154060bb19946434a646',1,'wiced_bt_mesh_light_hsl_range_status_data_t::hue_max()']]],
   ['hue_5fmin',['hue_min',['../structwiced__bt__mesh__light__hsl__range__set__data__t.html#acc4bde8ecfb2c24668e99b08702c7429',1,'wiced_bt_mesh_light_hsl_range_set_data_t::hue_min()'],['../structwiced__bt__mesh__light__hsl__range__status__data__t.html#acc4bde8ecfb2c24668e99b08702c7429',1,'wiced_bt_mesh_light_hsl_range_status_data_t::hue_min()']]]

@@ -20,8 +20,5 @@ var group___hardware_drivers =
     [ "Serial Flash Interface", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],
     [ "Watchdog Interface", "group___watchdog_interface.html", "group___watchdog_interface" ],
     [ "WICED Sleep Configuration", "group__wiced__sleep__config.html", "group__wiced__sleep__config" ],
-    [ "Timer Management Services", "group__timer.html", "group__timer" ],
-    [ "ADC", "group___a_d_c.html", null ],
-    [ "Keyscan", "group__keyscan.html", "group__keyscan" ],
-    [ "RTC", "group___r_t_c.html", "group___r_t_c" ]
+    [ "Timer Management Services", "group__timer.html", "group__timer" ]
 ];

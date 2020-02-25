@@ -8,7 +8,6 @@ var searchData=
   ['sdp_20api_20functions',['SDP API Functions',['../group__sdp__api__functions.html',1,'']]],
   ['sdp_20data_20types',['SDP Data Types',['../group__sdp__types.html',1,'']]],
   ['serial_20flash_20interface',['Serial Flash Interface',['../group___serial_flash_interface_driver.html',1,'']]],
-  ['single_20list_20utilities',['Single List Utilities',['../group__single__list.html',1,'']]],
   ['spp_20library_20api',['SPP Library API',['../group__wiced__bt__spp__api__functions.html',1,'']]],
   ['system',['System',['../group__wicedsys.html',1,'']]]
 ];

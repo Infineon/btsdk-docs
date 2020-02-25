@@ -5,6 +5,7 @@ var group___a_v =
     [ "wiced_bt_avrc_ct_connect", "group___a_v.html#gad40ece7639165beb78d3e8e72a42ddb0", null ],
     [ "wiced_bt_avrc_ct_deinit", "group___a_v.html#ga9320731852e15f365b220a3b24d660ef", null ],
     [ "wiced_bt_avrc_ct_disconnect", "group___a_v.html#gaaaed1dabc37fbf4ee464b2268ad462b1", null ],
+    [ "wiced_bt_avrc_ct_features_register", "group___a_v.html#ga04feecaa580e016eb188cff0c2cc74d4", null ],
     [ "wiced_bt_avrc_ct_get_element_attr_cmd", "group___a_v.html#ga4c0e9918900e835504052bc995bd5b76", null ],
     [ "wiced_bt_avrc_ct_get_folder_items_cmd", "group___a_v.html#ga5cabc9351dd2ae3f48042d6962c1edf3", null ],
     [ "wiced_bt_avrc_ct_get_item_attributes_cmd", "group___a_v.html#ga0fb8366577433583bd1a9e1bb440e37b", null ],

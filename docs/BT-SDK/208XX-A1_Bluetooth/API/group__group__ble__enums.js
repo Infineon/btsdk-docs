@@ -18,12 +18,12 @@ var group__group__ble__enums =
     [ "wiced_bt_ble_scanner_filter_policy_t", "group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef", null ],
     [ "wiced_bt_dev_ble_evt_type_t", "group__group__ble__enums.html#ga4fe613f743f42d5ef6e8278686aad75c", null ],
     [ "wiced_dev_ble_signature_t", "group__group__ble__enums.html#ga39b3b50eac531691f2bc87291526bb73", [
-      [ "WICED_BT_ADV_NOTIFICATION_READY", "group__group__ble__enums.html#ggac6bfa7273251ec8fc11ef21ca645ad90a3b535090081f57dba86b37618c259f67", null ],
-      [ "WICED_BT_ADV_NOTIFICATION_DONE", "group__group__ble__enums.html#ggac6bfa7273251ec8fc11ef21ca645ad90a25442af8336efc7697c70cc0da4cb2a7", null ],
-      [ "BTM_BLE_SEC_NONE", "group__group__ble__enums.html#gga63cbfa53a16c7eeb228a37be887ccf54a34e5ad50e465fa4163a7161be701efd2", null ],
-      [ "BTM_BLE_SEC_ENCRYPT", "group__group__ble__enums.html#gga63cbfa53a16c7eeb228a37be887ccf54a388faf71a5345af1a3d7b3546199ecd5", null ],
-      [ "BTM_BLE_SEC_ENCRYPT_NO_MITM", "group__group__ble__enums.html#gga63cbfa53a16c7eeb228a37be887ccf54ae3a9ecda34c85028bad52cbe945443cf", null ],
-      [ "BTM_BLE_SEC_ENCRYPT_MITM", "group__group__ble__enums.html#gga63cbfa53a16c7eeb228a37be887ccf54a83230e5e309d2d7315d308ddf2b01160", null ]
+      [ "WICED_BT_ADV_NOTIFICATION_READY", "group__group__ble__enums.html#ggaae05225933a42f81e7c4a9fb286596f9a3b535090081f57dba86b37618c259f67", null ],
+      [ "WICED_BT_ADV_NOTIFICATION_DONE", "group__group__ble__enums.html#ggaae05225933a42f81e7c4a9fb286596f9a25442af8336efc7697c70cc0da4cb2a7", null ],
+      [ "BTM_BLE_SEC_NONE", "group__group__ble__enums.html#gga39fca1837c5ce7715cbf571669660c13a34e5ad50e465fa4163a7161be701efd2", null ],
+      [ "BTM_BLE_SEC_ENCRYPT", "group__group__ble__enums.html#gga39fca1837c5ce7715cbf571669660c13a388faf71a5345af1a3d7b3546199ecd5", null ],
+      [ "BTM_BLE_SEC_ENCRYPT_NO_MITM", "group__group__ble__enums.html#gga39fca1837c5ce7715cbf571669660c13ae3a9ecda34c85028bad52cbe945443cf", null ],
+      [ "BTM_BLE_SEC_ENCRYPT_MITM", "group__group__ble__enums.html#gga39fca1837c5ce7715cbf571669660c13a83230e5e309d2d7315d308ddf2b01160", null ]
     ] ],
     [ "wiced_bt_ble_advert_chnl_map_e", "group__group__ble__enums.html#ga59d79284e51421afdfc5e9c472adb49b", [
       [ "BTM_BLE_ADVERT_CHNL_37", "group__group__ble__enums.html#gga59d79284e51421afdfc5e9c472adb49baf0b671f9a97f2bc6b7f29c2ddf923241", null ],

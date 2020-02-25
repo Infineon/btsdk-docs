@@ -24,20 +24,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___m_i_a_driver.html#ga334469817660e086d6bfee447cec0eeb",
-"group__btm__ble__api__functions.html#ga4a5d1f3afd3fadbcf7fcd8b52bc612b6",
-"group__opus__ctlvalues.html#ga39d5606c61c4cd21e6ae2f1259a1f15f",
-"group__wiced__bt__ams__api__functions.html#ga1e5b199f4f0a4dd6cccc93f06dec2e0f",
-"group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721",
-"group__wiced__bt__mesh__level__client.html#gae8339c0cec60a17c26326e7bba7f32a2",
-"group__wiced__bt__mesh__provisioning.html#ga000a31a42874bf809a252f9de8e59fbe",
-"group__wiced__sleep__config.html#gga92c8bca5e6e3381001ed2355d28aa2b0a55916285c0b75a6f4ac959d62db980f8",
-"group__wpl__event.html#gaf1c716d8b62763b0dc37aeae1d81435c",
-"structwiced__bt__acsb__lt__addr__reserved__t.html#a0caaac0ab51ed36c80d4548680ecd0ab",
-"structwiced__bt__hrs__notification__enabled__t.html",
-"structwiced__bt__mesh__fw__update__status__data__t.html#ade818037fd6c985038ff29656089758d",
-"structwiced__bt__mesh__properties__status__data__t.html",
-"unionwiced__bt__ble__hidh__event__data__t.html#aa8640711b0fb6ceed9f48b02d2e4200f"
+"group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c",
+"group__btm__ble__api__functions.html#gaabb3afd4913a5d23eabbcece8ffc30e9",
+"group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6",
+"group__wiced__bt__ams__api__functions.html#gadb8fb4a305c2fc28451a57c12ee7022f",
+"group__wiced__bt__mesh.html#wiced_bt_mesh_application_structure",
+"group__wiced__bt__mesh__light__ctl__server.html#ga794cb5d5a4e341379bb70536b8ce41a3",
+"group__wiced__bt__mesh__provisioning.html#ga2cc89b224e0cc15e6332ec014690c8c1",
+"group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092",
+"group__wpl__event.html#ggacfbdf923f6a16d72d5c92269a0aeabe0a09c2e543801d9baa3068863edba1e260",
+"structwiced__bt__avrc__tg__absolute__volume__t.html#a14cc77262954756b30c251feabce7ea6",
+"structwiced__bt__mesh__core__config__sensor__t.html#af818d207fdadd1d42b3f6e34f43609bd",
+"structwiced__bt__mesh__light__lc__light__onoff__set__data__t.html",
+"structwiced__bt__mesh__provision__status__data__t.html#a556c80259568976b607ec50f8747d42a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

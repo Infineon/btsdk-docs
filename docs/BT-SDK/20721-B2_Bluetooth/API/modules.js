@@ -15,5 +15,6 @@ var modules =
     [ "Hardware Drivers", "group___hardware_drivers.html", "group___hardware_drivers" ],
     [ "A2DP Helper Functions", "group__wicedbt__av__a2d__helper.html", "group__wicedbt__av__a2d__helper" ],
     [ "Remote Control       Remote control", "group___a_v.html", "group___a_v" ],
+    [ "Helper", "group__helper.html", "group__helper" ],
     [ "System", "group__wicedsys.html", "group__wicedsys" ]
 ];

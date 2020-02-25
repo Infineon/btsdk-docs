@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['adc',['ADC',['../group___a_d_c.html',1,'']]],
   ['analog_2dto_2ddigital_20converter_20_28adc_29',['Analog-to-Digital Converter (ADC)',['../group___adc_driver.html',1,'']]],
   ['audio_20insertion',['Audio Insertion',['../group__audio__insert.html',1,'']]],
   ['api_20functions',['API Functions',['../group__audio__insert__api__functions.html',1,'']]],
@@ -9,7 +8,6 @@ var searchData=
   ['auxiliary_20clock_20_28aclk_29',['Auxiliary Clock (ACLK)',['../group___aux_clk_driver.html',1,'']]],
   ['api_20functions',['API Functions',['../group__l2cap__api__functions.html',1,'']]],
   ['api_20functions',['API Functions',['../group__sco__hook__api__functions.html',1,'']]],
-  ['api_20functions',['API Functions',['../group__sdp__api__functions.html',1,'']]],
   ['ams_20library_20api',['AMS Library API',['../group__wiced__bt__ams__api__functions.html',1,'']]],
   ['anc_20library_20api',['ANC Library API',['../group__wiced__bt__anc__api__functions.html',1,'']]],
   ['ancs_20library_20api',['ANCS Library API',['../group__wiced__bt__ancs__api__functions.html',1,'']]],

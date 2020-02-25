@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -590,7 +590,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac1378c10df94557a737dae86fcb8011a"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__avdt_8h.html#ac1378c10df94557a737dae86fcb8011a">wiced_bt_avdt_ctrl_cback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint8_t event, <a class="el" href="unionwiced__bt__avdt__ctrl__t.html">wiced_bt_avdt_ctrl_t</a> *p_data)</td></tr>
 <tr class="memdesc:ac1378c10df94557a737dae86fcb8011a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avdt_ctrl_cback_t.  <a href="#ac1378c10df94557a737dae86fcb8011a">More...</a><br /></td></tr>
 <tr class="separator:ac1378c10df94557a737dae86fcb8011a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba1688b984c7397ac45f1397d334d8f9"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__avdt_8h.html#aba1688b984c7397ac45f1397d334d8f9">wiced_bt_avdt_data_cback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> *p_pkt, uint32_t time_stamp, uint8_t m_pt)</td></tr>
+<tr class="memitem:aba1688b984c7397ac45f1397d334d8f9"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__avdt_8h.html#aba1688b984c7397ac45f1397d334d8f9">wiced_bt_avdt_data_cback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, BT_HDR *p_pkt, uint32_t time_stamp, uint8_t m_pt)</td></tr>
 <tr class="memdesc:aba1688b984c7397ac45f1397d334d8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avdt_data_cback_t.  <a href="#aba1688b984c7397ac45f1397d334d8f9">More...</a><br /></td></tr>
 <tr class="separator:aba1688b984c7397ac45f1397d334d8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1972e9e8578668aa394f95f702f8333"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__avdt_8h.html#af1972e9e8578668aa394f95f702f8333">wiced_bt_avdt_media_cback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *p_payload, uint32_t payload_len, uint32_t time_stamp, uint16_t seq_num, uint8_t m_pt, uint8_t marker)</td></tr>
@@ -791,7 +791,7 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void( wiced_bt_avdt_data_cback_t)(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> *p_pkt, uint32_t time_stamp, uint8_t m_pt)</td>
+          <td class="memname">typedef void( wiced_bt_avdt_data_cback_t)(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, BT_HDR *p_pkt, uint32_t time_stamp, uint8_t m_pt)</td>
         </tr>
       </table>
 </div><div class="memdoc">

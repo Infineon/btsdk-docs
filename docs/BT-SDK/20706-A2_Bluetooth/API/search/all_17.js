@@ -12,8 +12,6 @@ var searchData=
   ['vendor_5flen',['vendor_len',['../structwiced__bt__avrc__msg__vendor__t.html#a60651e38f2d42cd19d53586a602aca20',1,'wiced_bt_avrc_msg_vendor_t']]],
   ['vendor_5fvalidation_5fdata',['vendor_validation_data',['../structwiced__bt__mesh__fw__update__prepare__t.html#a4e432f0962cc687586cedb4127266965',1,'wiced_bt_mesh_fw_update_prepare_t']]],
   ['virtual_5funplug',['virtual_unplug',['../unionwiced__bt__ble__hidh__event__data__t.html#aa8640711b0fb6ceed9f48b02d2e4200f',1,'wiced_bt_ble_hidh_event_data_t::virtual_unplug()'],['../unionwiced__bt__hidh__data__t.html#a937147f1ca43709ff800808ebe994b55',1,'wiced_bt_hidh_data_t::virtual_unplug()']]],
-  ['voicecontroldm1report',['VoiceControlDM1Report',['../struct_voice_control_d_m1_report.html',1,'']]],
-  ['voicereport',['VoiceReport',['../struct_voice_report.html',1,'']]],
   ['volume',['volume',['../structwiced__bt__avrc__set__volume__cmd__t.html#a14cc77262954756b30c251feabce7ea6',1,'wiced_bt_avrc_set_volume_cmd_t::volume()'],['../unionwiced__bt__avrc__command__t.html#aaeb8b0ad719c669eb80144132b21ba9d',1,'wiced_bt_avrc_command_t::volume()'],['../structwiced__bt__avrc__set__volume__rsp__t.html#a14cc77262954756b30c251feabce7ea6',1,'wiced_bt_avrc_set_volume_rsp_t::volume()'],['../unionwiced__bt__avrc__response__t.html#abebc1c65db4f9cb31b444d52f0664454',1,'wiced_bt_avrc_response_t::volume()']]],
   ['vs1_5flen',['vs1_len',['../structwiced__fw__upgrade__nv__loc__len__t.html#af37de341cd05f3eddd9d469a21f61957',1,'wiced_fw_upgrade_nv_loc_len_t']]],
   ['vs1_5floc',['vs1_loc',['../structwiced__fw__upgrade__nv__loc__len__t.html#a06637dbd0c2500392a394611f9311195',1,'wiced_fw_upgrade_nv_loc_len_t']]],

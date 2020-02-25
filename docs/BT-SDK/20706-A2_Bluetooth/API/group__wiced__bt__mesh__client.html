@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -109,9 +109,6 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__client.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga287d1bf483557b44312cb1d67d11b070"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__client.html#ga287d1bf483557b44312cb1d67d11b070">wiced_bt_mesh_remote_provisioning_adv_packet</a> (<a class="el" href="structwiced__bt__ble__scan__results__t.html">wiced_bt_ble_scan_results_t</a> *p_adv_report, uint8_t *p_adv_data)</td></tr>
-<tr class="memdesc:ga287d1bf483557b44312cb1d67d11b070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process Advertising Packet.  <a href="#ga287d1bf483557b44312cb1d67d11b070">More...</a><br /></td></tr>
-<tr class="separator:ga287d1bf483557b44312cb1d67d11b070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga987b4bd4b29e503dbc9fd7da3d66da25"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__client.html#ga987b4bd4b29e503dbc9fd7da3d66da25">wiced_bt_mesh_remote_provisioning_is_gatt_connecting</a> (void)</td></tr>
 <tr class="memdesc:ga987b4bd4b29e503dbc9fd7da3d66da25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checking GATT connection.  <a href="#ga987b4bd4b29e503dbc9fd7da3d66da25">More...</a><br /></td></tr>
 <tr class="separator:ga987b4bd4b29e503dbc9fd7da3d66da25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,43 +307,6 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p_event</td><td>Pointer to the event structure which identified the remote provisioning server.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE/WICED_FALSE - success/failed. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga287d1bf483557b44312cb1d67d11b070"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_bt_mesh_remote_provisioning_adv_packet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structwiced__bt__ble__scan__results__t.html">wiced_bt_ble_scan_results_t</a> *&#160;</td>
-          <td class="paramname"><em>p_adv_report</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>p_adv_data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Process Advertising Packet. </p>
-<p>The application can call this function to when it receives advertising packet.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">p_adv_report</td><td>Advertising report paremeters </td></tr>
-    <tr><td class="paramname">p_adv_data</td><td>Advertising data</td></tr>
   </table>
   </dd>
 </dl>

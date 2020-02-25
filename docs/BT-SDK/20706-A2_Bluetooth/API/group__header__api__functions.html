@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -757,7 +757,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>p_array</b></td>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_obex_header_init. </p>
-<p>This function is called to initialize an OBEX packet. This function takes a GKI buffer and sets the offset in <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> as OBEX_HDR_OFFSET, the len as 0. The layer_specific is set to the length still available. This function compares the given (pkt_size - sizeof(uint8_t)) with the peer MTU to get the lesser of the two and set the layer_specific to (lesser_size - OBEX_HDR_OFFSET). If composing a header for the CONNECT request (there is no client handle yet), use OBEX_HANDLE_NULL as the handle.</p>
+<p>This function is called to initialize an OBEX packet. This function takes a GKI buffer and sets the offset in BT_HDR as OBEX_HDR_OFFSET, the len as 0. The layer_specific is set to the length still available. This function compares the given (pkt_size - sizeof(uint8_t)) with the peer MTU to get the lesser of the two and set the layer_specific to (lesser_size - OBEX_HDR_OFFSET). If composing a header for the CONNECT request (there is no client handle yet), use OBEX_HANDLE_NULL as the handle.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: OBEX handle </td></tr>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -141,6 +141,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga724b205fb13d080bbbbd11aa4434589b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#ga724b205fb13d080bbbbd11aa4434589b">wiced_hal_i2c_write</a> (uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, uint16_t length, uint8_t slave)</td></tr>
 <tr class="memdesc:ga724b205fb13d080bbbbd11aa4434589b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the given data to the I2C HW addressing a particular slave address.  <a href="group___i2_c_driver.html#ga724b205fb13d080bbbbd11aa4434589b">More...</a><br /></td></tr>
 <tr class="separator:ga724b205fb13d080bbbbd11aa4434589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#gafd39e71a9ebab9765b275a274ab8a7bb">wiced_hal_i2c_select_pads</a> (uint8_t scl_pin, uint8_t sda_pin)</td></tr>
+<tr class="memdesc:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures GPIOs to use for I2C pins.  <a href="group___i2_c_driver.html#gafd39e71a9ebab9765b275a274ab8a7bb">More...</a><br /></td></tr>
+<tr class="separator:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#ga40dec68e55c2d085a26d62ba0dc0d495">wiced_hal_i2c_combined_read</a> (uint8_t *rx_data, uint8_t rx_data_len, uint8_t *tx_data, uint16_t tx_data_len, uint8_t slave)</td></tr>
 <tr class="memdesc:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes two transactions back-to-back with a repeated start condition between the first and the second.  <a href="group___i2_c_driver.html#ga40dec68e55c2d085a26d62ba0dc0d495">More...</a><br /></td></tr>
 <tr class="separator:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="memSeparator" colspan="2">&#160;</td></tr>

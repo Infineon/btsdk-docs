@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga03792e04a91002c307c684f529aca4d6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#ga03792e04a91002c307c684f529aca4d6">wiced_bt_avrc_set_buffer_pool</a> (uint16_t buffer_size, uint16_t buffer_count)</td></tr>
 <tr class="memdesc:ga03792e04a91002c307c684f529aca4d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_set_buffer_pool.  <a href="#ga03792e04a91002c307c684f529aca4d6">More...</a><br /></td></tr>
 <tr class="separator:ga03792e04a91002c307c684f529aca4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53b2c1c77fbd774aadeda6808417c3ba"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#ga53b2c1c77fbd774aadeda6808417c3ba">wiced_bt_avrc_msg_req</a> (uint8_t handle, uint8_t label, uint8_t ctype, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> *p_pkt)</td></tr>
+<tr class="memitem:ga53b2c1c77fbd774aadeda6808417c3ba"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#ga53b2c1c77fbd774aadeda6808417c3ba">wiced_bt_avrc_msg_req</a> (uint8_t handle, uint8_t label, uint8_t ctype, BT_HDR *p_pkt)</td></tr>
 <tr class="memdesc:ga53b2c1c77fbd774aadeda6808417c3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_msg_req.  <a href="#ga53b2c1c77fbd774aadeda6808417c3ba">More...</a><br /></td></tr>
 <tr class="separator:ga53b2c1c77fbd774aadeda6808417c3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab272eb157462febcc3d0cfc32d51141a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#gab272eb157462febcc3d0cfc32d51141a">wiced_bt_avrc_unit_cmd</a> (uint8_t handle, uint8_t label)</td></tr>
@@ -154,10 +154,10 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_set_
 <tr class="memitem:gadd50cdff96ce504d5e955f249a35564b"><td class="memItemLeft" align="right" valign="top">wiced_bt_avrc_sts_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#gadd50cdff96ce504d5e955f249a35564b">wiced_bt_avrc_parse_response</a> (<a class="el" href="unionwiced__bt__avrc__msg__t.html">wiced_bt_avrc_msg_t</a> *p_msg, <a class="el" href="unionwiced__bt__avrc__response__t.html">wiced_bt_avrc_response_t</a> *p_result, uint8_t *p_buf, uint16_t buf_len)</td></tr>
 <tr class="memdesc:gadd50cdff96ce504d5e955f249a35564b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_parse_response.  <a href="#gadd50cdff96ce504d5e955f249a35564b">More...</a><br /></td></tr>
 <tr class="separator:gadd50cdff96ce504d5e955f249a35564b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6ba21548528d4347c9262f68f0cb6fd"><td class="memItemLeft" align="right" valign="top">wiced_bt_avrc_sts_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#gae6ba21548528d4347c9262f68f0cb6fd">wiced_bt_avrc_bld_command</a> (<a class="el" href="unionwiced__bt__avrc__command__t.html">wiced_bt_avrc_command_t</a> *p_cmd, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> **pp_pkt)</td></tr>
+<tr class="memitem:gae6ba21548528d4347c9262f68f0cb6fd"><td class="memItemLeft" align="right" valign="top">wiced_bt_avrc_sts_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#gae6ba21548528d4347c9262f68f0cb6fd">wiced_bt_avrc_bld_command</a> (<a class="el" href="unionwiced__bt__avrc__command__t.html">wiced_bt_avrc_command_t</a> *p_cmd, BT_HDR **pp_pkt)</td></tr>
 <tr class="memdesc:gae6ba21548528d4347c9262f68f0cb6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_bld_command.  <a href="#gae6ba21548528d4347c9262f68f0cb6fd">More...</a><br /></td></tr>
 <tr class="separator:gae6ba21548528d4347c9262f68f0cb6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71a7c234ef5f18cac79a145d80e52b84"><td class="memItemLeft" align="right" valign="top">wiced_bt_avrc_sts_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#ga71a7c234ef5f18cac79a145d80e52b84">wiced_bt_avrc_bld_response</a> (uint8_t handle, <a class="el" href="unionwiced__bt__avrc__response__t.html">wiced_bt_avrc_response_t</a> *p_rsp, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> **pp_pkt)</td></tr>
+<tr class="memitem:ga71a7c234ef5f18cac79a145d80e52b84"><td class="memItemLeft" align="right" valign="top">wiced_bt_avrc_sts_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__common.html#ga71a7c234ef5f18cac79a145d80e52b84">wiced_bt_avrc_bld_response</a> (uint8_t handle, <a class="el" href="unionwiced__bt__avrc__response__t.html">wiced_bt_avrc_response_t</a> *p_rsp, BT_HDR **pp_pkt)</td></tr>
 <tr class="memdesc:ga71a7c234ef5f18cac79a145d80e52b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_bld_response.  <a href="#ga71a7c234ef5f18cac79a145d80e52b84">More...</a><br /></td></tr>
 <tr class="separator:ga71a7c234ef5f18cac79a145d80e52b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaedd40b6b72c5bfe47ff7afb0f8bd4c98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaedd40b6b72c5bfe47ff7afb0f8bd4c98"></a>
@@ -189,7 +189,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_get
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> **&#160;</td>
+          <td class="paramtype">BT_HDR **&#160;</td>
           <td class="paramname"><em>pp_pkt</em>&#160;</td>
         </tr>
         <tr>
@@ -232,7 +232,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_get
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> **&#160;</td>
+          <td class="paramtype">BT_HDR **&#160;</td>
           <td class="paramname"><em>pp_pkt</em>&#160;</td>
         </tr>
         <tr>
@@ -334,7 +334,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_get
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> *&#160;</td>
+          <td class="paramtype">BT_HDR *&#160;</td>
           <td class="paramname"><em>p_pkt</em>&#160;</td>
         </tr>
         <tr>
@@ -347,7 +347,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_get
 
 <p>Function wiced_bt_avrc_msg_req. </p>
 <p>Send an AVRC message</p>
-<dl class="section note"><dt>Note</dt><dd>It is expected that p_pkt-&gt;offset is at least AVCT_MSG_OFFSET p_pkt-&gt;layer_specific is AVCT_DATA_CTRL or AVCT_DATA_BROWSE p_pkt-&gt;event is AVRC_OP_VENDOR, AVRC_OP_PASS_THRU or AVRC_OP_BROWSING The above <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> settings are set by the AVRC_Bld* functions.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>It is expected that p_pkt-&gt;offset is at least AVCT_MSG_OFFSET p_pkt-&gt;layer_specific is AVCT_DATA_CTRL or AVCT_DATA_BROWSE p_pkt-&gt;event is AVRC_OP_VENDOR, AVRC_OP_PASS_THRU or AVRC_OP_BROWSING The above BT_HDR settings are set by the AVRC_Bld* functions.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: Connection handle </td></tr>

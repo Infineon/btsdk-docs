@@ -44,6 +44,7 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fcore_2eh',['wiced_bt_mesh_core.h',['../wiced__bt__mesh__core_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fevent_2eh',['wiced_bt_mesh_event.h',['../wiced__bt__mesh__event_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fmodel_5fdefs_2eh',['wiced_bt_mesh_model_defs.h',['../wiced__bt__mesh__model__defs_8h.html',1,'']]],
+  ['wiced_5fbt_5fmesh_5fmodel_5futils_2eh',['wiced_bt_mesh_model_utils.h',['../wiced__bt__mesh__model__utils_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fmodels_2eh',['wiced_bt_mesh_models.h',['../wiced__bt__mesh__models_8h.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_2eh',['wiced_bt_mesh_provision.h',['../wiced__bt__mesh__provision_8h.html',1,'']]],
   ['wiced_5fbt_5fobex_2eh',['wiced_bt_obex.h',['../wiced__bt__obex_8h.html',1,'']]],

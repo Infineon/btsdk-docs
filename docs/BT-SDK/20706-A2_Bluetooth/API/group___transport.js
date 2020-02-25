@@ -1,14 +1,14 @@
 var group___transport =
 [
-    [ "wiced_spi_transport_cfg_t", "group___transport.html#ga347fc32eecb82b5e5b66bdd1c9a970a4", null ],
+    [ "wiced_spi_transport_cfg_t", "group___transport.html#ga5b7afb6438ef4cccb187d4f7dd1785a5", null ],
     [ "wiced_tranport_data_handler_t", "group___transport.html#gac18db9b6503a1f1fd4ff237c5d4fccca", null ],
     [ "wiced_transport_buffer_pool_t", "group___transport.html#ga4c42181f8444932c1076e589e4c7feef", null ],
-    [ "wiced_transport_cfg_t", "group___transport.html#gaa105e37ef67d7ff849d0f559ea1cc839", null ],
-    [ "wiced_transport_interface_cfg_t", "group___transport.html#gad4271455872f792e7df3def4cbab4717", null ],
-    [ "wiced_transport_rx_buff_pool_cfg_t", "group___transport.html#ga9e8934c6a495df54f3eab8e4c0b43544", null ],
+    [ "wiced_transport_cfg_t", "group___transport.html#ga6d253f631c1bc739ca6b4a34b52de768", null ],
+    [ "wiced_transport_interface_cfg_t", "group___transport.html#gaecb008d41822b968e4f6d8e89f7d20ca", null ],
+    [ "wiced_transport_rx_buff_pool_cfg_t", "group___transport.html#ga1495c89418559f55fa885c24da7449f6", null ],
     [ "wiced_transport_status_handler_t", "group___transport.html#ga7b9d02d5fdbf9d3dd635d92be25d3372", null ],
     [ "wiced_transport_tx_complete_t", "group___transport.html#gaa346b15f3bee3902b565a13ab0f82815", null ],
-    [ "wiced_uart_transport_cfg_t", "group___transport.html#gab7516ccff56449139849ccdadf091611", null ],
+    [ "wiced_uart_transport_cfg_t", "group___transport.html#gab6fee2e3091db8e17b0bf1d642df5e36", null ],
     [ "wiced_transport_type_t", "group___transport.html#gaa3204840aade2c90bfa311c48beabcb3", [
       [ "WICED_TRANSPORT_UART", "group___transport.html#ggaa3204840aade2c90bfa311c48beabcb3a2bf65427736333622c7c79989a0a0b1a", null ],
       [ "WICED_TRANSPORT_SPI", "group___transport.html#ggaa3204840aade2c90bfa311c48beabcb3a045291c9a8159a680e9e0d648dc5eedf", null ],

@@ -32,6 +32,7 @@ var group___result =
       [ "WICED_UNKNOWN_NETWORK_STACK_ERROR", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ab4c918f2ed394fbd698f228311138732", null ],
       [ "WICED_NO_STORED_AP_IN_DCT", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a9d1bf3d6fbcaf55cc642bdd223847c07", null ],
       [ "WICED_STA_JOIN_FAILED", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ab6277311f84816e8899e600e0c992134", null ],
+      [ "WICED_NO_MEMORY", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a490a5e84469d5beaf3c150f5920a574f", null ],
       [ "WICED_BT_SUCCESS", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ad54c2f811ddfa94b623bfd0e26c23673", null ],
       [ "WICED_BT_PARTIAL_RESULTS", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a9c781d6d3af16b5623ac99a31f75fe69", null ],
       [ "WICED_BT_BADARG", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a47f17a4ab699419e77d70f8a9f30076b", null ],

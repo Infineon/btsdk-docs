@@ -21,10 +21,5 @@ var group___hardware_drivers =
     [ "Watchdog Timer", "group__watchdog.html", "group__watchdog" ],
     [ "RTCDriver", "group___r_t_c_driver.html", "group___r_t_c_driver" ],
     [ "WICED Sleep Configuration", "group__wiced__sleep__config.html", "group__wiced__sleep__config" ],
-    [ "Timer Management Services", "group__timer.html", "group__timer" ],
-    [ "ACLK", "group___a_c_l_k.html", "group___a_c_l_k" ],
-    [ "ADC", "group___a_d_c.html", null ],
-    [ "IrTx", "group__ir_tx.html", "group__ir_tx" ],
-    [ "PWM", "group___p_w_m.html", "group___p_w_m" ],
-    [ "RTC", "group___r_t_c.html", "group___r_t_c" ]
+    [ "Timer Management Services", "group__timer.html", "group__timer" ]
 ];

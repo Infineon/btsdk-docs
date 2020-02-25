@@ -3,16 +3,16 @@ var group___g_p_i_o_driver =
     [ "WICED_GPIO_ACTIVE_HIGH", "group___g_p_i_o_driver.html#gaa4118b78467aae8833bc5ec0d12cdcc0", null ],
     [ "WICED_GPIO_ACTIVE_LOW", "group___g_p_i_o_driver.html#gade7692929b65c1c47088453a814283f6", null ],
     [ "wiced_bt_gpio_select_status_t", "group___g_p_i_o_driver.html#gacd9015ec0c0c62f90ec8f722a77089d1", [
-      [ "GPIO_EDGE_TRIGGER_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea83b4ed5524dc27c6152919705119df48", null ],
-      [ "GPIO_TRIGGER_POLARITY_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea26e29e56c5d5de8b6347a1ecb1ff8d80", null ],
-      [ "GPIO_DUAL_EDGE_TRIGGER_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9eafb319b3451ea86949c1abaa47ba9c89b", null ],
-      [ "GPIO_INTERRUPT_ENABLE_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9eaf4308306d2240e90954eee6766367155", null ],
-      [ "GPIO_EN_INT_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea139f26b8d3313940c8f3aac5536dc922", null ],
-      [ "GPIO_INPUT_ENABLE", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea4111531c8681de23e196f4aba8612da1", null ],
-      [ "GPIO_GLOBAL_INPUT_ENABLE", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea3e892d32c8b3a38f4c20d7652c877740", null ],
-      [ "GPIO_PULL_UP_DOWN_NONE", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea6bf73d95a8c14336915192a7697ad188", null ],
-      [ "GPIO_DRIVE_SEL_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9eafaaf0f0e28ca18ea71124e793c11d4e8", null ],
-      [ "GPIO_HYSTERESIS_MASK", "group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea0ea30f9f30b101dbf42180b9d68ca2ae", null ]
+      [ "GPIO_EDGE_TRIGGER_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba83b4ed5524dc27c6152919705119df48", null ],
+      [ "GPIO_TRIGGER_POLARITY_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba26e29e56c5d5de8b6347a1ecb1ff8d80", null ],
+      [ "GPIO_DUAL_EDGE_TRIGGER_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55bafb319b3451ea86949c1abaa47ba9c89b", null ],
+      [ "GPIO_INTERRUPT_ENABLE_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55baf4308306d2240e90954eee6766367155", null ],
+      [ "GPIO_EN_INT_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba139f26b8d3313940c8f3aac5536dc922", null ],
+      [ "GPIO_INPUT_ENABLE", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba4111531c8681de23e196f4aba8612da1", null ],
+      [ "GPIO_GLOBAL_INPUT_ENABLE", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba3e892d32c8b3a38f4c20d7652c877740", null ],
+      [ "GPIO_PULL_UP_DOWN_NONE", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba6bf73d95a8c14336915192a7697ad188", null ],
+      [ "GPIO_DRIVE_SEL_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55bafaaf0f0e28ca18ea71124e793c11d4e8", null ],
+      [ "GPIO_HYSTERESIS_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba0ea30f9f30b101dbf42180b9d68ca2ae", null ]
     ] ],
     [ "GPIO_PIN_OUTPUT_CONFIG", "group___g_p_i_o_driver.html#ga40a6db60a2aa985a2ce0a6561df1d9bf", null ],
     [ "wiced_bt_gpio_function_t", "group___g_p_i_o_driver.html#ga5970b1e3f6e14c03e36addfa832af166", [

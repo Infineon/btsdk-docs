@@ -6,7 +6,6 @@ var group__wiced__bt__mesh__client =
     [ "wiced_bt_mesh_client_search_proxy", "group__wiced__bt__mesh__client.html#ga9c70ecd8be9dd7681a7ee00191f49cbf", null ],
     [ "wiced_bt_mesh_client_vendor_data", "group__wiced__bt__mesh__client.html#ga29b4dab0957dabe3478ad3aa7c207e60", null ],
     [ "wiced_bt_mesh_provision_disconnect", "group__wiced__bt__mesh__client.html#ga06c7244e2e167ae29995e8ff6da58c36", null ],
-    [ "wiced_bt_mesh_remote_provisioning_adv_packet", "group__wiced__bt__mesh__client.html#ga287d1bf483557b44312cb1d67d11b070", null ],
     [ "wiced_bt_mesh_remote_provisioning_connection_state_changed", "group__wiced__bt__mesh__client.html#ga6846d2264854032cc1be924f6e5a9f19", null ],
     [ "wiced_bt_mesh_remote_provisioning_is_gatt_connecting", "group__wiced__bt__mesh__client.html#ga987b4bd4b29e503dbc9fd7da3d66da25", null ]
 ];

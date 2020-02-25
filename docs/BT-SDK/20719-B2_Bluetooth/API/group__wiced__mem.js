@@ -1,7 +1,7 @@
 var group__wiced__mem =
 [
     [ "wiced_bt_buffer_pool_t", "group__wiced__mem.html#ga2b2c44f89a2b95de21e2b90ac8d715ad", null ],
-    [ "wiced_bt_buffer_statistics_t", "group__wiced__mem.html#ga048f1864903c2f309ce96f76a5c22d2d", null ],
+    [ "wiced_bt_buffer_statistics_t", "group__wiced__mem.html#gab005e5a628b06321c04859ff991b1a98", null ],
     [ "wiced_bt_buffer_poolutilization", "group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2", null ],
     [ "wiced_bt_create_pool", "group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c", null ],
     [ "wiced_bt_free_buffer", "group__wiced__mem.html#ga1339337d457a42436789ec5bdd478ac9", null ],

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.1 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('wiced__hal__pspi_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>List of parameters and defined functions needed to access the <a class="el" href="class_peripheral.html">Peripheral</a> SPI driver.  
+<p>List of parameters and defined functions needed to access the Peripheral SPI driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -117,16 +117,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga831b5795adf211dfa086182261563b02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga831b5795adf211dfa086182261563b02"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>SPI_MASTER_ROLE</b> = 1, 
+<tr class="memitem:gaaf105ae5beaca1dee30ae54530691fce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaf105ae5beaca1dee30ae54530691fce"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>SPI_MASTER_ROLE</b> = 1, 
 <b>SPI_SLAVE_ROLE</b> = 2
  }</td></tr>
-<tr class="memdesc:ga831b5795adf211dfa086182261563b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Device Role. <br /></td></tr>
-<tr class="separator:ga831b5795adf211dfa086182261563b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gaaf105ae5beaca1dee30ae54530691fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI Device Role. <br /></td></tr>
+<tr class="separator:gaaf105ae5beaca1dee30ae54530691fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga4f23f4afe02a5afbe98c539ef9d6da17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4f23f4afe02a5afbe98c539ef9d6da17"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_pspi_init_patch</b> (UINT8 devRole, UINT8 spiPinPullConfig, UINT32 spiGpioCfg, UINT32 clkSpeed, <a class="el" href="group___spiffy_driver.html#ga23e4236e76e30bf62f85f9e7026d6be4">SPI_ENDIAN</a> <a class="el" href="wiced__transport_8h.html#a7abf946fe0aa5242e9905717dbc47a47">endian</a>, <a class="el" href="group___spiffy_driver.html#ga257d08e39e34f30499952a3f19318f3d">SPI_SS_POLARITY</a> <a class="el" href="wiced__transport_8h.html#a8207fe9b0e14206f3171d199d6456079">polarity</a>, <a class="el" href="group___spiffy_driver.html#gae506139af46f1328f631ddacd54af96d">SPI_MODE</a> <a class="el" href="wiced__transport_8h.html#a5cb22c5a78ab07810c47792053f7bad9">mode</a>, UINT8 csPin)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_pspi_init_patch</b> (UINT8 devRole, UINT8 spiPinPullConfig, UINT32 spiGpioCfg, UINT32 clkSpeed, SPI_ENDIAN <a class="el" href="wiced__transport_8h.html#a7abf946fe0aa5242e9905717dbc47a47">endian</a>, SPI_SS_POLARITY <a class="el" href="wiced__transport_8h.html#a8207fe9b0e14206f3171d199d6456079">polarity</a>, SPI_MODE <a class="el" href="wiced__transport_8h.html#a5cb22c5a78ab07810c47792053f7bad9">mode</a>, UINT8 csPin)</td></tr>
 <tr class="separator:ga4f23f4afe02a5afbe98c539ef9d6da17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga80c075220f6962461e23c0a5dde87c49"><td class="memItemLeft" align="right" valign="top">static INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___peripheral_spi_driver.html#ga80c075220f6962461e23c0a5dde87c49">wiced_hal_pspi_tx_data</a> (UINT32 txLen, const UINT8 *txBuf)</td></tr>
 <tr class="memdesc:ga80c075220f6962461e23c0a5dde87c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send/transmit data over SPI as the master.  <a href="group___peripheral_spi_driver.html#ga80c075220f6962461e23c0a5dde87c49">More...</a><br /></td></tr>
@@ -166,7 +166,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_pspi_init_p
 <tr class="separator:ga599671d36a96d7a7020f98430737857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>List of parameters and defined functions needed to access the <a class="el" href="class_peripheral.html">Peripheral</a> SPI driver. </p>
+<div class="textblock"><p>List of parameters and defined functions needed to access the Peripheral SPI driver. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
