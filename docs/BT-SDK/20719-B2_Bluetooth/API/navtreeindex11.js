@@ -1,14 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structwiced__bt__mesh__light__lc__property__set__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44":[7,0,18,2,69,2],
-"structwiced__bt__mesh__light__lc__property__status__data__t.html":[7,0,18,2,70],
-"structwiced__bt__mesh__light__lc__property__status__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384":[7,0,18,2,70,0],
-"structwiced__bt__mesh__light__lc__property__status__data__t.html#a8aed22e2c7b283705ec82e0120515618":[7,0,18,2,70,1],
-"structwiced__bt__mesh__light__lc__property__status__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44":[7,0,18,2,70,2],
-"structwiced__bt__mesh__light__lightness__actual__set__t.html":[7,0,18,2,20],
-"structwiced__bt__mesh__light__lightness__actual__set__t.html#a17312bb6480549142f7cfbcc728a75b9":[7,0,18,2,20,1],
-"structwiced__bt__mesh__light__lightness__actual__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,0,18,2,20,2],
-"structwiced__bt__mesh__light__lightness__actual__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,0,18,2,20,0],
 "structwiced__bt__mesh__light__lightness__default__data__t.html":[7,0,18,2,23],
 "structwiced__bt__mesh__light__lightness__default__data__t.html#a9496a26bb12f665ca514f4e482ccf88f":[7,0,18,2,23,0],
 "structwiced__bt__mesh__light__lightness__last__data__t.html":[7,0,18,2,22],
@@ -249,5 +240,14 @@ var NAVTREEINDEX11 =
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a156459577a86ed2743f55656f93bfa4d":[7,0,18,0,3,2],
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a25b0396cd19dce2984099a29939d4078":[7,0,18,0,3,3],
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a34332ed5393e5e12ba27b90d45ab8d5c":[7,0,18,0,3,5],
-"structwiced__bt__mesh__sensor__config__cadence__t.html#aa6ba058174acf77195c7e9b152676f4b":[7,0,18,0,3,4]
+"structwiced__bt__mesh__sensor__config__cadence__t.html#aa6ba058174acf77195c7e9b152676f4b":[7,0,18,0,3,4],
+"structwiced__bt__mesh__sensor__config__cadence__t.html#ae54f82eb86fbd5218802571db540ce18":[7,0,18,0,3,0],
+"structwiced__bt__mesh__sensor__config__cadence__t.html#af8b5d1267869e7dd129210979d5189f9":[7,0,18,0,3,1],
+"structwiced__bt__mesh__sensor__config__column__data__t.html":[7,0,18,0,2],
+"structwiced__bt__mesh__sensor__config__column__data__t.html#a367b34f0eecb416313c4dbebc13319c6":[7,0,18,0,2,1],
+"structwiced__bt__mesh__sensor__config__column__data__t.html#a87741b1236c1b0b0c4bf8dd6edf45168":[7,0,18,0,2,2],
+"structwiced__bt__mesh__sensor__config__column__data__t.html#ad826bbed3a8313e52ef847ad82b68c59":[7,0,18,0,2,0],
+"structwiced__bt__mesh__sensor__config__descriptor__t.html":[7,0,18,0,0],
+"structwiced__bt__mesh__sensor__config__descriptor__t.html#a512e7fc3d4ac2fb160f6481ba3b2cca6":[7,0,18,0,0,3],
+"structwiced__bt__mesh__sensor__config__descriptor__t.html#a5c79664479eea988c595a90463556df2":[7,0,18,0,0,2]
 };

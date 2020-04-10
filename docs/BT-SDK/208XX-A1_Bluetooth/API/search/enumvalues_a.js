@@ -175,6 +175,7 @@ var searchData=
   ['wiced_5fbt_5frfcomm_5fpeer_5ftimeout',['WICED_BT_RFCOMM_PEER_TIMEOUT',['../wiced__bt__rfcomm_8h.html#a919c228fbe128a196f66f0569ff3c1eeaf89b844b21d92478715ee0aaacd2ef5b',1,'wiced_bt_rfcomm.h']]],
   ['wiced_5fbt_5frfcomm_5fstart_5ffailed',['WICED_BT_RFCOMM_START_FAILED',['../wiced__bt__rfcomm_8h.html#a919c228fbe128a196f66f0569ff3c1eeaf7652b0d4430c2f76d3ee44b3607af9a',1,'wiced_bt_rfcomm.h']]],
   ['wiced_5fbt_5frfcomm_5fsuccess',['WICED_BT_RFCOMM_SUCCESS',['../wiced__bt__rfcomm_8h.html#a919c228fbe128a196f66f0569ff3c1eeac6a2ab346e231701aad63ab43f956aa2',1,'wiced_bt_rfcomm.h']]],
+  ['wiced_5fbt_5fsco_5fover_5fpcm',['WICED_BT_SCO_OVER_PCM',['../wiced__bt__sco_8h.html#a4548402097137688617e39d9377fc8a2a0424732db6badc408fdb0510540a0368',1,'wiced_bt_sco.h']]],
   ['wiced_5fbt_5fsdp_5fcancel',['WICED_BT_SDP_CANCEL',['../group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328ad9deb32630ad1d082962cd4a3684e9a0',1,'wiced_bt_sdp.h']]],
   ['wiced_5fbt_5fsdp_5fcfg_5ffailed',['WICED_BT_SDP_CFG_FAILED',['../group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0e441205b20cc13da23016c9ecaed01e',1,'wiced_bt_sdp.h']]],
   ['wiced_5fbt_5fsdp_5fconn_5ffailed',['WICED_BT_SDP_CONN_FAILED',['../group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0112e9137a7447efcbfa03eeb7e31a49',1,'wiced_bt_sdp.h']]],

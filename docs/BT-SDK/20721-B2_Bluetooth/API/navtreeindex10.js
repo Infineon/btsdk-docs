@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58":[7,9,4,2,0,1],
+"structwiced__bt__audio__insert__config.html":[7,9,2,1],
+"structwiced__bt__audio__insert__data.html":[7,9,2,0],
+"structwiced__bt__audio__insert__event__audio__info__t.html":[7,9,2,3],
+"structwiced__bt__audio__insert__event__data__req__t.html":[7,9,2,2],
+"structwiced__bt__audio__record__event__audio__info__t.html":[7,9,3,0,1],
+"structwiced__bt__audio__record__event__data__ready__t.html":[7,9,3,0,0],
+"structwiced__bt__avrc__tg__absolute__volume__t.html":[7,9,4,4,1,5],
 "structwiced__bt__avrc__tg__absolute__volume__t.html#a14cc77262954756b30c251feabce7ea6":[7,9,4,4,1,5,1],
 "structwiced__bt__avrc__tg__absolute__volume__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,9,4,4,1,5,0],
 "structwiced__bt__avrc__tg__passthrough__cmd__t.html":[7,9,4,4,1,4],
@@ -230,8 +238,8 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a231d88a2076c53df88d8ffd7eb1c50ec":[7,9,21,2,72,0],
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6":[7,9,21,2,72,2],
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23":[7,9,21,2,72,1],
-"structwiced__bt__mesh__blob__transfer__complete__t.html":[7,9,21,2,84],
-"structwiced__bt__mesh__blob__transfer__complete__t.html#ade818037fd6c985038ff29656089758d":[7,9,21,2,84,0],
+"structwiced__bt__mesh__blob__transfer__complete__t.html":[7,9,21,2,77],
+"structwiced__bt__mesh__blob__transfer__complete__t.html#ade818037fd6c985038ff29656089758d":[7,9,21,2,77,0],
 "structwiced__bt__mesh__blob__transfer__finish__t.html":[7,9,21,2,73],
 "structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d":[7,9,21,2,73,0],
 "structwiced__bt__mesh__blob__transfer__start__t.html":[7,9,21,2,71],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__connect__status__data__t.html#a41a6aad09727eb120338c35535a652a6":[7,9,21,3,15,0],
 "structwiced__bt__mesh__connect__status__data__t.html#a91553b72c9b4759ddb48feffd7f2ffb1":[7,9,21,3,15,1],
 "structwiced__bt__mesh__connect__status__data__t.html#a9ee92ed85a3879a50045633ea994a168":[7,9,21,3,15,3],
-"structwiced__bt__mesh__core__config__sensor__t.html":[7,9,21,0,4],
-"structwiced__bt__mesh__core__config__sensor__t.html#a1d302dd4902232726dc4aad2e9ddffa2":[7,9,21,0,4,8],
-"structwiced__bt__mesh__core__config__sensor__t.html#a1de712f3f2c4cde536c391ea1575b443":[7,9,21,0,4,7],
-"structwiced__bt__mesh__core__config__sensor__t.html#a688dcaff53af82f69abbe24136e1ad3b":[7,9,21,0,4,0],
-"structwiced__bt__mesh__core__config__sensor__t.html#a77d6334e007a2a11abb7fec7bd5e6be7":[7,9,21,0,4,4],
-"structwiced__bt__mesh__core__config__sensor__t.html#a8d665a621e312f01b66359ff69081f90":[7,9,21,0,4,2],
-"structwiced__bt__mesh__core__config__sensor__t.html#abe222f6d3581e7920dcad5306cc906a8":[7,9,21,0,4,1],
-"structwiced__bt__mesh__core__config__sensor__t.html#ad39bfe7de446e4fc386ed7c3645acbcd":[7,9,21,0,4,6],
-"structwiced__bt__mesh__core__config__sensor__t.html#ae6973a1ab6134515eb51ea7874704553":[7,9,21,0,4,3]
+"structwiced__bt__mesh__core__config__sensor__t.html":[7,9,21,0,4]
 };

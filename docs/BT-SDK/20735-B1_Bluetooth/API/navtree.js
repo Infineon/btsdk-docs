@@ -24,18 +24,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125ad285d930e598307a638c0c39d68199f7",
-"group__btm__ble__api__functions.html#ga397017f8e317d9c93785e719d7ca07cf",
-"group__l2cap__api__functions.html#gaebb8e6a7ac8add5164c86871af99747e",
-"group__wiced__bt__ans__api__functions.html#gafb7e06214b709ffbbd5eb071a4cc4012",
-"group__wiced__bt__mesh__core.html#ga89a11dca5efe4e307efba3cab7843823",
-"group__wiced__bt__mesh__model__light__lc__server.html#ga77530a80ee364b3719464b764a2ec5a6",
-"group__wiced__bt__mesh__provisioning.html#gaff46074a8ffcc0b92779c332fd1f46a8",
-"group__wicedbt__gatt__utils.html#ga3e0081202fdf83bf25d1f702463048ca",
-"structwiced__bt__hrc__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40",
-"structwiced__bt__mesh__fw__update__apply__t.html",
-"structwiced__bt__mesh__power__default__data__t.html#a9bb8314656e9fc5911338903d902d1a9",
-"unionwiced__bt__hrc__event__data__t.html#a201d08007f0b9f1940418c510e12cd83"
+"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125acb25de9fbbdd405cc15e0176da4cba73",
+"group__btm__ble__api__functions.html#ga3748634252d38e79fbc4247975a2ef43",
+"group__l2cap__api__functions.html#gae063bb78235a75f6c9439a73bd4ca12f",
+"group__wiced__bt__ans__api__functions.html#gad2438f73a2ea7d855ffe2f3df8ffff7d",
+"group__wiced__bt__mesh__core.html#ga835762c5ffaaf4bc6d752ff2a4df81e8",
+"group__wiced__bt__mesh__model__light__lc__server.html#gacd115a125b843a2cc22ee3f003568349",
+"group__wiced__bt__mesh__provisioning.html#gaeb410552dddb69a19b7341c0b3fdb986",
+"group__wicedbt__bredr.html#gaf533e2a68506fc637f9fee8da186f2e2",
+"structwiced__bt__hidh__virtual__unplug__t.html#af242d6e3b6108ea75e1eb236e94c8240",
+"structwiced__bt__mesh__fw__distr__caps__t.html",
+"structwiced__bt__mesh__power__level__status__data__t.html",
+"unionwiced__bt__mesh__core__state__t.html#a7e3e4de72857ff1813ac6bd07fe9a7f2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

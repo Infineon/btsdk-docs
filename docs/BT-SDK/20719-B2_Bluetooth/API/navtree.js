@@ -24,18 +24,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___peripheral_spi_driver.html#ga9273c5160032436109dced772a9674e8",
-"group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c",
-"group__wiced__bt__ams__api__functions.html#ga35ed555b9c8b3e37611ee8502593c9de",
-"group__wiced__bt__iap2__api__functions.html#ga4003d01746490d440ae5d50d07d3af88",
-"group__wiced__bt__mesh__level__server.html#ga45b6e18640ccf69649018979016c6fdd",
+"group___peripheral_spi_driver.html#ga84ae0f64b23be6efb1dc71dcd17acbd6",
+"group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d",
+"group__wiced__bt__ams__api__functions.html",
+"group__wiced__bt__iap2__api__functions.html#ga188e5f40898c670e9351e6aed720c385",
+"group__wiced__bt__mesh__level__server.html#gad39b8a61c8da1036850c8bd67bd69368",
 "group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56",
-"group__wiced__sleep__config.html#ggae7bf00dadc5785f71cffbfdfb358186fa8b76ba457532306aca7cf2fed426a90a",
-"group__wpl__event.html#gga20fb23d6fbdc7f5b6a8d891fb6e171f7a4ec5a7f9f0c3ca5e94b28ae7c15caf8d",
-"structwiced__bt__bac__battery__level__notification__t.html",
-"structwiced__bt__mesh__core__provision__capabilities__t.html#acdcf58d8bce4a46df7ae49a600743561",
-"structwiced__bt__mesh__light__lc__property__set__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44",
-"structwiced__bt__mesh__sensor__config__cadence__t.html#ae54f82eb86fbd5218802571db540ce18"
+"group__wiced__sleep__config.html#gga5711a6c22c9c52c9ea07239e533e1a2ca7fc5884694f32a0aa9170927d9cc124e",
+"group__wpl__event.html#gab258d4bd72991292c8d0daa660a54681",
+"structwiced__bt__avrc__tg__player__attr__t.html#a829513f0536295bdbf5e46fbabe77c67",
+"structwiced__bt__mesh__core__init__t.html#ade72180d28e2e8000c8b7c2e3ee9a217",
+"structwiced__bt__mesh__light__lightness__default__data__t.html",
+"structwiced__bt__mesh__sensor__config__descriptor__t.html#a6399f54a5209bbc9ec0347150ffda691"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

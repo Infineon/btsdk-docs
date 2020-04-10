@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -109,17 +109,33 @@ $(document).ready(function(){initNavTree('structwiced__bt__mesh__fw__distr__caps
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a482bf94dc117192958d8c424763a6421"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a482bf94dc117192958d8c424763a6421"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#a482bf94dc117192958d8c424763a6421">max_nodes</a></td></tr>
-<tr class="memdesc:a482bf94dc117192958d8c424763a6421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum Nodes List Size. <br /></td></tr>
-<tr class="separator:a482bf94dc117192958d8c424763a6421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9b08f731e928613a627dffe60d1ae6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad9b08f731e928613a627dffe60d1ae6"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#aad9b08f731e928613a627dffe60d1ae6">max_node_list_size</a></td></tr>
+<tr class="memdesc:aad9b08f731e928613a627dffe60d1ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum possible number of entries on the list of nodes. <br /></td></tr>
+<tr class="separator:aad9b08f731e928613a627dffe60d1ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e17c2e4da28a9dfc367ed54b338d802"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e17c2e4da28a9dfc367ed54b338d802"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#a5e17c2e4da28a9dfc367ed54b338d802">max_firmware_list_size</a></td></tr>
+<tr class="memdesc:a5e17c2e4da28a9dfc367ed54b338d802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum possible number of entries on the list of firmwares. <br /></td></tr>
+<tr class="separator:a5e17c2e4da28a9dfc367ed54b338d802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904fa7afdbcf962901636a5ef2baf11a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a904fa7afdbcf962901636a5ef2baf11a"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#a904fa7afdbcf962901636a5ef2baf11a">max_firmware_size</a></td></tr>
+<tr class="memdesc:a904fa7afdbcf962901636a5ef2baf11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size of one firmware in octets. <br /></td></tr>
+<tr class="separator:a904fa7afdbcf962901636a5ef2baf11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa229bdf78b81f92776769c05d08b0d16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa229bdf78b81f92776769c05d08b0d16"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#aa229bdf78b81f92776769c05d08b0d16">max_upload_space</a></td></tr>
+<tr class="memdesc:aa229bdf78b81f92776769c05d08b0d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the Distributor’s storage in octets. <br /></td></tr>
+<tr class="separator:aa229bdf78b81f92776769c05d08b0d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c249a069390a69845505f33b8c65f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35c249a069390a69845505f33b8c65f9"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#a35c249a069390a69845505f33b8c65f9">remaining_upload_space</a></td></tr>
+<tr class="memdesc:a35c249a069390a69845505f33b8c65f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available size in the storage on the Distributor in octets. <br /></td></tr>
+<tr class="separator:a35c249a069390a69845505f33b8c65f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecf58143b0a29ba82510ddc55057b491"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecf58143b0a29ba82510ddc55057b491"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#aecf58143b0a29ba82510ddc55057b491">oob_supported</a></td></tr>
-<tr class="memdesc:aecf58143b0a29ba82510ddc55057b491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Out-of-Band Retrieval Supported. <br /></td></tr>
+<tr class="memdesc:aecf58143b0a29ba82510ddc55057b491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Out-of-Band Retrieval Supported state. <br /></td></tr>
 <tr class="separator:aecf58143b0a29ba82510ddc55057b491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aa56ba15afa1eedd74e45b7e7d85954"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3aa56ba15afa1eedd74e45b7e7d85954"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__fw__distr__caps__t.html#a3aa56ba15afa1eedd74e45b7e7d85954">uri_scheme_names</a> [<a class="el" href="wiced__bt__mesh__models_8h.html#a23dc2bd8d2343a11a744ae7dbaadb249">MESH_MAX_URI_SCHEME_NAMES</a>]</td></tr>
-<tr class="memdesc:a3aa56ba15afa1eedd74e45b7e7d85954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported URI Scheme Names. <br /></td></tr>
+<tr class="memdesc:a3aa56ba15afa1eedd74e45b7e7d85954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Supported URI Scheme Names state. <br /></td></tr>
 <tr class="separator:a3aa56ba15afa1eedd74e45b7e7d85954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

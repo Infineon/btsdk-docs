@@ -1,5 +1,14 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__avrc__tg__player__attr__t.html#a829513f0536295bdbf5e46fbabe77c67":[7,0,2,4,1,2,1],
+"structwiced__bt__avrc__tg__player__attr__t.html#ae975f891a1db4f3bce6485aa24d3761e":[7,0,2,4,1,2,3],
+"structwiced__bt__avrc__tg__track__attr__t.html":[7,0,2,4,1,0],
+"structwiced__bt__avrc__tg__track__attr__t.html#a517f61746f45da01a7581eef2a80d746":[7,0,2,4,1,0,0],
+"structwiced__bt__avrc__tg__track__attr__t.html#a51f8e5d494f30807eab1cb2d29e2015a":[7,0,2,4,1,0,2],
+"structwiced__bt__avrc__tg__track__attr__t.html#a5c72768eca6a2977b7618577de76a430":[7,0,2,4,1,0,1],
+"structwiced__bt__avrc__tg__track__info__t.html":[7,0,2,4,1,1],
+"structwiced__bt__avrc__tg__track__info__t.html#a4786638e41d0504fec04dbfca8ddbf6f":[7,0,2,4,1,1,0],
+"structwiced__bt__avrc__tg__track__info__t.html#a7855b7c6524bcdea0e793bd249855cd9":[7,0,2,4,1,1,1],
 "structwiced__bt__bac__battery__level__notification__t.html":[7,0,14,2],
 "structwiced__bt__bac__battery__level__notification__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86":[7,0,14,2,0],
 "structwiced__bt__bac__battery__level__notification__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,0,14,2,1],
@@ -209,8 +218,8 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a231d88a2076c53df88d8ffd7eb1c50ec":[7,0,18,2,72,0],
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6":[7,0,18,2,72,2],
 "structwiced__bt__mesh__blob__transfer__block__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23":[7,0,18,2,72,1],
-"structwiced__bt__mesh__blob__transfer__complete__t.html":[7,0,18,2,84],
-"structwiced__bt__mesh__blob__transfer__complete__t.html#ade818037fd6c985038ff29656089758d":[7,0,18,2,84,0],
+"structwiced__bt__mesh__blob__transfer__complete__t.html":[7,0,18,2,77],
+"structwiced__bt__mesh__blob__transfer__complete__t.html#ade818037fd6c985038ff29656089758d":[7,0,18,2,77,0],
 "structwiced__bt__mesh__blob__transfer__finish__t.html":[7,0,18,2,73],
 "structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d":[7,0,18,2,73,0],
 "structwiced__bt__mesh__blob__transfer__start__t.html":[7,0,18,2,71],
@@ -240,14 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__core__init__t.html#aa489112dc2071de2b70e0258d41f7a70":[7,0,18,0,13,8],
 "structwiced__bt__mesh__core__init__t.html#acb3c9da79051759ebee81a75efbc80b9":[7,0,18,0,13,7],
 "structwiced__bt__mesh__core__init__t.html#acd44d95a6055a13e04d716543d4f55af":[7,0,18,0,13,5],
-"structwiced__bt__mesh__core__init__t.html#ace58a7fc0ae6d9cab82e48d580f0f119":[7,0,18,0,13,4],
-"structwiced__bt__mesh__core__init__t.html#ade72180d28e2e8000c8b7c2e3ee9a217":[7,0,18,0,13,6],
-"structwiced__bt__mesh__core__init__t.html#ae0c6674cc6f0fe034d143fe2bd7c3533":[7,0,18,0,13,9],
-"structwiced__bt__mesh__core__provision__capabilities__t.html":[7,0,18,0,14],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#a120cd573c407780952f0fe08fc5ddfba":[7,0,18,0,14,3],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#a2765cfa7a7d328eaf1d71cec2d2f15e9":[7,0,18,0,14,4],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#a95f298b809c97e2d93d2b1900a01b3cc":[7,0,18,0,14,5],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#aa2bab113df363b1c56d14939ca6856ac":[7,0,18,0,14,7],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#ab102a393bd02e7c8c723aca4f3d0bbef":[7,0,18,0,14,1],
-"structwiced__bt__mesh__core__provision__capabilities__t.html#ac9c087c55abf46b46ece74370ca39d42":[7,0,18,0,14,6]
+"structwiced__bt__mesh__core__init__t.html#ace58a7fc0ae6d9cab82e48d580f0f119":[7,0,18,0,13,4]
 };

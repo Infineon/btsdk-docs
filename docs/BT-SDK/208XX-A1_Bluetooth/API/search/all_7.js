@@ -71,7 +71,6 @@ var searchData=
   ['group_5fble_5fstructures',['Group_ble_structures',['../group__group__ble__structures.html',1,'']]],
   ['group_5fdev_5fmacros',['Group_dev_macros',['../group__group__dev__macros.html',1,'']]],
   ['group_5fdev_5fstructures',['Group_dev_structures',['../group__group__dev__structures.html',1,'']]],
-  ['group_5flist',['group_list',['../structwiced__bt__mesh__event____t.html#a34d36841c40e58287b383920f7227e38',1,'wiced_bt_mesh_event__t']]],
   ['group_5fota_5ffw_5fupgrade_5fstructs',['Group_ota_fw_upgrade_structs',['../group__group__ota__fw__upgrade__structs.html',1,'']]],
   ['group_5fperipheralspidriver_5fenums',['Group_PeripheralSpiDriver_enums',['../group__group___peripheral_spi_driver__enums.html',1,'']]],
   ['group_5fperipheralspidriver_5fmacro',['Group_PeripheralSpiDriver_macro',['../group__group___peripheral_spi_driver__macro.html',1,'']]],

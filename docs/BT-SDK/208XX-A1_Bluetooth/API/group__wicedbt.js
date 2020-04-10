@@ -8,6 +8,7 @@ var group__wicedbt =
     [ "HIDD over BLE", "group__hidd__le__api__functions.html", "group__hidd__le__api__functions" ],
     [ "Logical Link Control and Adaptation Protocol (L2CAP)", "group__l2cap.html", "group__l2cap" ],
     [ "RFCOMM", "group__rfcomm__api__functions.html", "group__rfcomm__api__functions" ],
+    [ "Synchronous Connection Oriented (SCO) Channel", "group__sco__api__functions.html", "group__sco__api__functions" ],
     [ "Service Discovery Protocol (SDP)", "group__sdp.html", "group__sdp" ],
     [ "Framework", "group__wicedbt___framework.html", "group__wicedbt___framework" ],
     [ "ANC Library API", "group__wiced__bt__anc__api__functions.html", "group__wiced__bt__anc__api__functions" ],

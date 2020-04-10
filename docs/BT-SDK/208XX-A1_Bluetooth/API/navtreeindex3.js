@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__group__dev__enums.html#gga83e5618d32b7fa1fb7c17ea40555e028a340ebe0ec5dcdf4de0439c942106430a":[7,1,2,36,17],
+"group__group__dev__enums.html#gga83e5618d32b7fa1fb7c17ea40555e028a40d553ff55f5b42fd922d9ff0025b6a7":[7,1,2,36,7],
 "group__group__dev__enums.html#gga83e5618d32b7fa1fb7c17ea40555e028a4224a5ce7d434cde8365697326e8644d":[7,1,2,36,0],
 "group__group__dev__enums.html#gga83e5618d32b7fa1fb7c17ea40555e028a4dc6036f9066dd4caacf5dac04588aee":[7,1,2,36,16],
 "group__group__dev__enums.html#gga83e5618d32b7fa1fb7c17ea40555e028a4f069566ebb7ba3c73c1083eeb1753d1":[7,1,2,36,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__group__rtos__macros.html#gac008a5b7dc36288291358699d0c4aca9":[7,5,5,2],
 "group__group__rtos__structures.html":[7,5,6],
 "group__group__rtos__structures.html#ga3f7d2890e3616cdc06876bacdbf8b8bc":[7,5,6,1],
-"group__group__rtos__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877":[7,5,6,0],
-"group__group__sleep__data__structures.html":[7,6,20,2],
-"group__group__sleep__defines.html":[7,6,20,0]
+"group__group__rtos__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877":[7,5,6,0]
 };

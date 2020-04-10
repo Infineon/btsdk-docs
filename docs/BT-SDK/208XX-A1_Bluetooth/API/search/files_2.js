@@ -45,6 +45,7 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fprovision_2eh',['wiced_bt_mesh_provision.h',['../wiced__bt__mesh__provision_8h.html',1,'']]],
   ['wiced_5fbt_5fota_5ffirmware_5fupgrade_2eh',['wiced_bt_ota_firmware_upgrade.h',['../wiced__bt__ota__firmware__upgrade_8h.html',1,'']]],
   ['wiced_5fbt_5frfcomm_2eh',['wiced_bt_rfcomm.h',['../wiced__bt__rfcomm_8h.html',1,'']]],
+  ['wiced_5fbt_5fsco_2eh',['wiced_bt_sco.h',['../wiced__bt__sco_8h.html',1,'']]],
   ['wiced_5fbt_5fsdp_2eh',['wiced_bt_sdp.h',['../wiced__bt__sdp_8h.html',1,'']]],
   ['wiced_5fbt_5fserial_5fgatt_2eh',['wiced_bt_serial_gatt.h',['../wiced__bt__serial__gatt_8h.html',1,'']]],
   ['wiced_5fbt_5fspp_2eh',['wiced_bt_spp.h',['../wiced__bt__spp_8h.html',1,'']]],

@@ -1,14 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"structwiced__bt__mesh__sensor__config__cadence__t.html#ae54f82eb86fbd5218802571db540ce18":[7,0,18,0,3,0],
-"structwiced__bt__mesh__sensor__config__cadence__t.html#af8b5d1267869e7dd129210979d5189f9":[7,0,18,0,3,1],
-"structwiced__bt__mesh__sensor__config__column__data__t.html":[7,0,18,0,2],
-"structwiced__bt__mesh__sensor__config__column__data__t.html#a367b34f0eecb416313c4dbebc13319c6":[7,0,18,0,2,1],
-"structwiced__bt__mesh__sensor__config__column__data__t.html#a87741b1236c1b0b0c4bf8dd6edf45168":[7,0,18,0,2,2],
-"structwiced__bt__mesh__sensor__config__column__data__t.html#ad826bbed3a8313e52ef847ad82b68c59":[7,0,18,0,2,0],
-"structwiced__bt__mesh__sensor__config__descriptor__t.html":[7,0,18,0,0],
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#a512e7fc3d4ac2fb160f6481ba3b2cca6":[7,0,18,0,0,3],
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#a5c79664479eea988c595a90463556df2":[7,0,18,0,0,2],
 "structwiced__bt__mesh__sensor__config__descriptor__t.html#a6399f54a5209bbc9ec0347150ffda691":[7,0,18,0,0,4],
 "structwiced__bt__mesh__sensor__config__descriptor__t.html#ac9e12cfeda706e202e2d16c25407d429":[7,0,18,0,0,1],
 "structwiced__bt__mesh__sensor__config__descriptor__t.html#aee12a5da325982693371d8dcbe57323a":[7,0,18,0,0,0],

@@ -28,7 +28,6 @@ var searchData=
   ['num_5fattr_5ffilters',['num_attr_filters',['../structwiced__bt__sdp__discovery__db__t.html#a8ec595ae7017a68b48e4e24bbc3ac7da',1,'wiced_bt_sdp_discovery_db_t']]],
   ['num_5fcodec',['num_codec',['../structwiced__bt__avdt__cfg__t.html#a758441eb89f7f8aa5fdb0b81864a9169',1,'wiced_bt_avdt_cfg_t']]],
   ['num_5fdescriptors',['num_descriptors',['../structwiced__bt__mesh__sensor__descriptor__status__data__t.html#afde159eccc4cd1c9ef19b0d394140c9a',1,'wiced_bt_mesh_sensor_descriptor_status_data_t']]],
-  ['num_5fin_5fgroup',['num_in_group',['../structwiced__bt__mesh__event____t.html#aa6e1912d7643723a2b3d3e3bdaf8eccf',1,'wiced_bt_mesh_event__t']]],
   ['num_5fkeys',['num_keys',['../wiced__bt__mesh__provision_8h.html#a2fc969948626eb680f5e663ec9939d9c',1,'wiced_bt_mesh_provision.h']]],
   ['num_5fnodes',['num_nodes',['../wiced__bt__mesh__provision_8h.html#a556e7dea96e69041dca2d95353f43974',1,'wiced_bt_mesh_provision.h']]],
   ['num_5fopcodes',['num_opcodes',['../structwiced__bt__mesh__add__vendor__model__data__t.html#af88675d56f4f20c327ffea5ade71e49a',1,'wiced_bt_mesh_add_vendor_model_data_t']]],

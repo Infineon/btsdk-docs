@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -109,25 +109,25 @@ $(document).ready(function(){initNavTree('group__sha256.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7f11153888fb24425b72f221ad4d971a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga7f11153888fb24425b72f221ad4d971a">sha2_starts</a> (sha2_context *ctx, int32_t is224)</td></tr>
+<tr class="memitem:ga7f11153888fb24425b72f221ad4d971a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga7f11153888fb24425b72f221ad4d971a">sha2_starts</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, int32_t is224)</td></tr>
 <tr class="memdesc:ga7f11153888fb24425b72f221ad4d971a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 context setup.  <a href="#ga7f11153888fb24425b72f221ad4d971a">More...</a><br /></td></tr>
 <tr class="separator:ga7f11153888fb24425b72f221ad4d971a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga596db520f82f7f0876a9dbd6ce91005a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga596db520f82f7f0876a9dbd6ce91005a">sha2_update</a> (sha2_context *ctx, const unsigned char *input, uint32_t ilen)</td></tr>
+<tr class="memitem:ga596db520f82f7f0876a9dbd6ce91005a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga596db520f82f7f0876a9dbd6ce91005a">sha2_update</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, const unsigned char *input, uint32_t ilen)</td></tr>
 <tr class="memdesc:ga596db520f82f7f0876a9dbd6ce91005a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 process buffer.  <a href="#ga596db520f82f7f0876a9dbd6ce91005a">More...</a><br /></td></tr>
 <tr class="separator:ga596db520f82f7f0876a9dbd6ce91005a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2762ab9bf6601a7ab2f2bee3eb72b22a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga2762ab9bf6601a7ab2f2bee3eb72b22a">sha2_finish</a> (sha2_context *ctx, unsigned char output[32])</td></tr>
+<tr class="memitem:ga2762ab9bf6601a7ab2f2bee3eb72b22a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga2762ab9bf6601a7ab2f2bee3eb72b22a">sha2_finish</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, unsigned char output[32])</td></tr>
 <tr class="memdesc:ga2762ab9bf6601a7ab2f2bee3eb72b22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 final digest.  <a href="#ga2762ab9bf6601a7ab2f2bee3eb72b22a">More...</a><br /></td></tr>
 <tr class="separator:ga2762ab9bf6601a7ab2f2bee3eb72b22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga512a0d281bb959197abf434e8210bfc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga512a0d281bb959197abf434e8210bfc0">sha2</a> (const unsigned char *input, uint32_t ilen, unsigned char output[32], int32_t is224)</td></tr>
 <tr class="memdesc:ga512a0d281bb959197abf434e8210bfc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output = SHA-224/256( input buffer )  <a href="#ga512a0d281bb959197abf434e8210bfc0">More...</a><br /></td></tr>
 <tr class="separator:ga512a0d281bb959197abf434e8210bfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d8395396340769dc9bb428972b30da0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga7d8395396340769dc9bb428972b30da0">sha2_hmac_starts</a> (sha2_context *ctx, const unsigned char *key, uint32_t keylen, int32_t is224)</td></tr>
+<tr class="memitem:ga7d8395396340769dc9bb428972b30da0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#ga7d8395396340769dc9bb428972b30da0">sha2_hmac_starts</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, const unsigned char *key, uint32_t keylen, int32_t is224)</td></tr>
 <tr class="memdesc:ga7d8395396340769dc9bb428972b30da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 HMAC context setup.  <a href="#ga7d8395396340769dc9bb428972b30da0">More...</a><br /></td></tr>
 <tr class="separator:ga7d8395396340769dc9bb428972b30da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace3befd10e03dfd1737f6d5bb330e706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#gace3befd10e03dfd1737f6d5bb330e706">sha2_hmac_update</a> (sha2_context *ctx, const unsigned char *input, uint32_t ilen)</td></tr>
+<tr class="memitem:gace3befd10e03dfd1737f6d5bb330e706"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#gace3befd10e03dfd1737f6d5bb330e706">sha2_hmac_update</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, const unsigned char *input, uint32_t ilen)</td></tr>
 <tr class="memdesc:gace3befd10e03dfd1737f6d5bb330e706"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 HMAC process buffer.  <a href="#gace3befd10e03dfd1737f6d5bb330e706">More...</a><br /></td></tr>
 <tr class="separator:gace3befd10e03dfd1737f6d5bb330e706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafad853fc439a23fe3595d3486649d3cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#gafad853fc439a23fe3595d3486649d3cf">sha2_hmac_finish</a> (sha2_context *ctx, unsigned char output[32])</td></tr>
+<tr class="memitem:gafad853fc439a23fe3595d3486649d3cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#gafad853fc439a23fe3595d3486649d3cf">sha2_hmac_finish</a> (<a class="el" href="structsha2__context.html">sha2_context</a> *ctx, unsigned char output[32])</td></tr>
 <tr class="memdesc:gafad853fc439a23fe3595d3486649d3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHA-224 or SHA-256 HMAC final digest.  <a href="#gafad853fc439a23fe3595d3486649d3cf">More...</a><br /></td></tr>
 <tr class="separator:gafad853fc439a23fe3595d3486649d3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafaa89ae2cef8a87b84f7c9d58d99711c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sha256.html#gafaa89ae2cef8a87b84f7c9d58d99711c">sha2_hmac</a> (const unsigned char *key, uint32_t keylen, const unsigned char *input, uint32_t ilen, unsigned char output[32], int32_t is224)</td></tr>
@@ -193,7 +193,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_finish </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>
@@ -291,7 +291,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_hmac_finish </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>
@@ -326,7 +326,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_hmac_starts </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>
@@ -375,7 +375,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_hmac_update </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>
@@ -417,7 +417,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_starts </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>
@@ -452,7 +452,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void sha2_update </td>
           <td>(</td>
-          <td class="paramtype">sha2_context *&#160;</td>
+          <td class="paramtype"><a class="el" href="structsha2__context.html">sha2_context</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
         </tr>
         <tr>

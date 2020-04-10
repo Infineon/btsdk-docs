@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -114,7 +114,7 @@ Macros</h2></td></tr>
 <tr class="memitem:gac798b93324e501ebc39ae11be1c26780"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780">WICED_BT_TRACE</a>(...)&#160;&#160;&#160;wiced_printf(NULL, 0, __VA_ARGS__)</td></tr>
 <tr class="memdesc:gac798b93324e501ebc39ae11be1c26780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro WICED_BT_TRACE.  <a href="group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780">More...</a><br /></td></tr>
 <tr class="separator:gac798b93324e501ebc39ae11be1c26780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac71e4685a9df31378eb9869d8db2f939"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#gac71e4685a9df31378eb9869d8db2f939">WICED_BT_TRACE_ARRAY</a>(ptr, <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>,...)&#160;&#160;&#160;wiced_printf(NULL, 0, __VA_ARGS__); wiced_trace_array(ptr, <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>);</td></tr>
+<tr class="memitem:gac71e4685a9df31378eb9869d8db2f939"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#gac71e4685a9df31378eb9869d8db2f939">WICED_BT_TRACE_ARRAY</a>(ptr, <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>,...)&#160;&#160;&#160;wiced_printf(NULL, 0, __VA_ARGS__); wiced_trace_array(ptr, <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>);</td></tr>
 <tr class="memdesc:gac71e4685a9df31378eb9869d8db2f939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro WICED_BT_TRACE_ARRAY.  <a href="group__wiced__utils.html#gac71e4685a9df31378eb9869d8db2f939">More...</a><br /></td></tr>
 <tr class="separator:gac71e4685a9df31378eb9869d8db2f939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc6035dc170ddd37a9ad2970c0bec19b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc6035dc170ddd37a9ad2970c0bec19b"></a>
@@ -144,13 +144,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga063e7e69efdca1f449e8b2f6bf731808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_debug_uart.  <a href="group__wiced__utils.html#ga063e7e69efdca1f449e8b2f6bf731808">More...</a><br /></td></tr>
 <tr class="separator:ga063e7e69efdca1f449e8b2f6bf731808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6885fbc4b6a0ff75c4b23299e64679fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6885fbc4b6a0ff75c4b23299e64679fb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_trace_array</b> (const char *string, const uint8_t *array, const uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_trace_array</b> (const char *string, const uint8_t *array, const uint16_t <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="separator:a6885fbc4b6a0ff75c4b23299e64679fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6223b42605fce1b8dea9f34eb1a803f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6223b42605fce1b8dea9f34eb1a803f8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_trace_array</b> (const uint8_t *p_array, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_trace_array</b> (const uint8_t *p_array, uint16_t <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="separator:a6223b42605fce1b8dea9f34eb1a803f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a342e93b2d4b710696f8c6a585dc57dc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a342e93b2d4b710696f8c6a585dc57dc2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_printf</b> (char *buffer, int <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>,...)</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_printf</b> (char *buffer, int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>,...)</td></tr>
 <tr class="separator:a342e93b2d4b710696f8c6a585dc57dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -158,7 +158,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_printf</b> (char
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_bd0a61b65cb7d032cdb5fd48047fdd59.html">out</a></li><li class="navelem"><a class="el" href="dir_eed34f1b4c36db0a21d5db67039b1580.html">repos</a></li><li class="navelem"><a class="el" href="dir_89f4de18cedf16ff12fc1e09776fe123.html">20721B2</a></li><li class="navelem"><a class="el" href="dir_5bf74e2ce34ff20a5bc2b8f1e580737c.html">include</a></li><li class="navelem"><a class="el" href="dir_7562b3702c8918c98514a167856991b7.html">hal</a></li><li class="navelem"><a class="el" href="wiced__bt__trace_8h.html">wiced_bt_trace.h</a></li>
+    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_786c74fa2b2862fb18798876cba91425.html">20721B2</a></li><li class="navelem"><a class="el" href="dir_607578583615735f38f6fb8abfd34eda.html">include</a></li><li class="navelem"><a class="el" href="dir_c1044513e984567d305b57d97e578ec8.html">hal</a></li><li class="navelem"><a class="el" href="wiced__bt__trace_8h.html">wiced_bt_trace.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

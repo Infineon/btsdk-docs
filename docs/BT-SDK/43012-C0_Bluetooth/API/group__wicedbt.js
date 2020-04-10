@@ -1,0 +1,27 @@
+var group__wicedbt =
+[
+    [ "Audio Insertion", "group__audio__insert.html", "group__audio__insert" ],
+    [ "Audio / Video", "group__wicedbt__av.html", "group__wicedbt__av" ],
+    [ "Battery Client", "group__wiced__bt__ble__battc__api__functions.html", "group__wiced__bt__ble__battc__api__functions" ],
+    [ "FindMe Locator", "group__wicedbt___findmel__api__functions.html", "group__wicedbt___findmel__api__functions" ],
+    [ "Buffer Management", "group__wiced__bt__buffer__api__functions.html", "group__wiced__bt__buffer__api__functions" ],
+    [ "Device Management", "group__wicedbt___device_management.html", "group__wicedbt___device_management" ],
+    [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],
+    [ "Generic Attribute (GATT) Utilities", "group__wicedbt__gatt__utils.html", "group__wicedbt__gatt__utils" ],
+    [ "HIDD over BR/EDR", "group__hidd__api__functions.html", "group__hidd__api__functions" ],
+    [ "HIDD over BLE", "group__hidd__le__api__functions.html", "group__hidd__le__api__functions" ],
+    [ "OBEX", "group__wicedbt__obex.html", "group__wicedbt__obex" ],
+    [ "RFCOMM", "group__rfcomm__api__functions.html", "group__rfcomm__api__functions" ],
+    [ "Synchronous Connection Oriented (SCO) Channel", "group__sco__api__functions.html", "group__sco__api__functions" ],
+    [ "SCO Hook", "group__sco__hook.html", "group__sco__hook" ],
+    [ "Service Discovery (SDP)", "group__sdp__api__functions.html", "group__sdp__api__functions" ],
+    [ "Framework", "group__wicedbt___framework.html", "group__wicedbt___framework" ],
+    [ "ANC Library API", "group__wiced__bt__anc__api__functions.html", "group__wiced__bt__anc__api__functions" ],
+    [ "ANS Library API", "group__wiced__bt__ans__api__functions.html", "group__wiced__bt__ans__api__functions" ],
+    [ "BAC Library API", "group__wiced__bt__bac__api__functions.html", "group__wiced__bt__bac__api__functions" ],
+    [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
+    [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
+    [ "IAP2 Protocol Library API", "group__wiced__bt__iap2__api__functions.html", "group__wiced__bt__iap2__api__functions" ],
+    [ "BLE Mesh", "group__wiced__bt__mesh.html", "group__wiced__bt__mesh" ],
+    [ "SPP Library API", "group__wiced__bt__spp__api__functions.html", "group__wiced__bt__spp__api__functions" ]
+];

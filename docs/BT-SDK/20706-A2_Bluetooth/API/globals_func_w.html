@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -1176,6 +1176,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_add_vendor_model()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gac7d8b9839dcecb5ff268d4500a132ad7">wiced_bt_mesh_provision.h</a>
 </li>
+<li>wiced_bt_mesh_adv_tx_power_set()
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga0067a50c291c21e9b580f8cc49bb54ec">wiced_bt_mesh_provision.h</a>
+</li>
 <li>wiced_bt_mesh_app_provision_server_configure()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga72759040067bb5962bbfff1a752d94d8">wiced_bt_mesh_provision.h</a>
 </li>
@@ -1188,14 +1191,8 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_battery_server_send_status()
 : <a class="el" href="group__wiced__bt__mesh__battery__server.html#gaf8305491af7a945d77439e1e4cfd1a33">wiced_bt_mesh_models.h</a>
 </li>
-<li>wiced_bt_mesh_blob_transfer_client_get_info()
-: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#gaa8e184e88edd496f3aaf1dc182a8fe76">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_blob_transfer_client_get_node_status()
-: <a class="el" href="group__wiced__bt__mesh__models.html#ga2c9c73f78bec9ff89bf85e9c3d9aabb4">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_blob_transfer_client_get_status()
-: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga950a8208e748cd240a618636b5a3fb5e">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga91cb572693d3a03cbdf7ee654d98c8b2">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_client_init()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga9366e77c599dbef0e726e54c2da38440">wiced_bt_mesh_provision.h</a>
@@ -1367,6 +1364,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_core_needs_composition_refresh()
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga22380210a6e0d18c705961dcec9783ad">wiced_bt_mesh_core.h</a>
 </li>
+<li>wiced_bt_mesh_core_proc_rx_cmd()
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga36434473e919a464e32a916770405695">wiced_bt_mesh_core.h</a>
+</li>
 <li>wiced_bt_mesh_core_provision_gatt_packet()
 : <a class="el" href="group__wiced__bt__mesh__core.html#gae7a9b773b1540e81c3d817279505c0e0">wiced_bt_mesh_core.h</a>
 </li>
@@ -1419,7 +1419,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga6719c351112b38af9cb5afe08022f392">wiced_bt_mesh_core.h</a>
 </li>
 <li>wiced_bt_mesh_core_test_mode_signal()
-: <a class="el" href="group__wiced__bt__mesh__core.html#ga804f09ca2d123e0a30f157ddffe7eb2a">wiced_bt_mesh_core.h</a>
+: <a class="el" href="group__wiced__bt__mesh__core.html#ga2ab4a2d1a20fcf91f8935bacbe8ff01f">wiced_bt_mesh_core.h</a>
 </li>
 <li>wiced_bt_mesh_core_transport_statistics_get()
 : <a class="el" href="group__wiced__bt__mesh__core.html#ga4f0b534e9129d3cde19c380db577d33e">wiced_bt_mesh_core.h</a>
@@ -1502,14 +1502,14 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_blob_transfer_client_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga970e96a3993ea320fc89e5054b5e0a0b">wiced_bt_mesh_models.h</a>
 </li>
-<li>wiced_bt_mesh_model_blob_transfer_client_phase_get()
-: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga5591f3fd7520f5d4bf540fdf9b07ef89">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_model_blob_transfer_client_start()
-: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga8e3d704f1d2589261b666d82a18b65b5">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__client.html#ga91f5b693d8995617acb0b587a5ab479f">wiced_bt_mesh_models.h</a>
+</li>
+<li>wiced_bt_mesh_model_blob_transfer_get_phase()
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gacc41f70731852a167182268b03ca5ab6">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_model_blob_transfer_prepare()
-: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gafb1ddeb5daf31688dbacd29210efdaa4">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gab3b30c2856edc89888475aba28bdcae5">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_model_blob_transfer_server_init()
 : <a class="el" href="group__wiced__bt__mesh__blob__transfer__server.html#gabc73617d9a2f82b5461189a4fb1f377c">wiced_bt_mesh_models.h</a>
@@ -1550,26 +1550,8 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_fw_provider_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga1ebb9b2aef532f55b5481497d58cdd03">wiced_bt_mesh_provision.h</a>
 </li>
-<li>wiced_bt_mesh_model_fw_update_client_init()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#gaed628d1edb7db1dd8ec0e46e9004c017">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_model_fw_update_client_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga703d477f0730b0804ba9bb804e259ddc">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_update_client_send_abort()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga6c480e46cd283f9c2bea967fabf4b8e9">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_update_client_send_apply()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga2fe789f9fd537d8c7ce2b261989df2f4">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_update_client_send_get()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga9775a9e7badca32f9393571d62cf2247">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_update_client_send_prepare()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga9d96166cf15e96e61f209eac24375b35">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_update_client_send_start()
-: <a class="el" href="group__wiced__bt__mesh__fw__update__client.html#ga0b6d711e827d704f42394e33acd32873">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_model_fw_update_server_init()
 : <a class="el" href="group__wiced__bt__mesh__fw__update__server.html#ga3bd9e271133b15e897ecc84ea8e7b39e">wiced_bt_mesh_models.h</a>
@@ -2214,7 +2196,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__models.html#ga1df6c7ca36c15004c84a759c6a8728ad">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_models_set_trace_level()
-: <a class="el" href="wiced__bt__mesh__models_8h.html#ad1d333fbc179417919390f7d2608c7d9">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__models.html#gad1d333fbc179417919390f7d2608c7d9">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_models_utils_ack_received()
 : <a class="el" href="wiced__bt__mesh__model__utils_8h.html#a34a924f256d7aebd8cb02f4722999529">wiced_bt_mesh_model_utils.h</a>
@@ -2293,7 +2275,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__core.html#gab53118d6d25849be44f82d3af7eeb0db">wiced_bt_mesh_event.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_connectable_adv_packet()
-: <a class="el" href="wiced__bt__mesh__models_8h.html#aca85d3e843373ba038d444bf75349cc0">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__models.html#gaca85d3e843373ba038d444bf75349cc0">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_connection_state_changed()
 : <a class="el" href="group__wiced__bt__mesh__client.html#ga6846d2264854032cc1be924f6e5a9f19">wiced_bt_mesh_client.h</a>
@@ -2302,13 +2284,13 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__client.html#ga987b4bd4b29e503dbc9fd7da3d66da25">wiced_bt_mesh_client.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_nonconnectable_adv_packet()
-: <a class="el" href="wiced__bt__mesh__models_8h.html#a645656708d9462cca755b56f5b43ac43">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__models.html#ga645656708d9462cca755b56f5b43ac43">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_scan_rsp()
-: <a class="el" href="wiced__bt__mesh__models_8h.html#a58171fb0b81158e89d751c49222a765b">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__models.html#ga58171fb0b81158e89d751c49222a765b">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_server_init()
-: <a class="el" href="wiced__bt__mesh__models_8h.html#ab8c8aef8d2255030ba1b5b430da95d3d">wiced_bt_mesh_models.h</a>
+: <a class="el" href="group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d">wiced_bt_mesh_models.h</a>
 </li>
 <li>wiced_bt_mesh_remote_provisioning_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga64a7c82065e02064aeef92d752d57acd">wiced_bt_mesh_provision.h</a>

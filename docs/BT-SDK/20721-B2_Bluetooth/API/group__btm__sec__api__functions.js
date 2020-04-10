@@ -1,5 +1,6 @@
 var group__btm__sec__api__functions =
 [
+    [ "wiced_bt_dev_configure_secure_connections_only_mode", "group__btm__sec__api__functions.html#ga8263c58ec739238cab4fb9d603fbd488", null ],
     [ "wiced_bt_dev_confirm_req_reply", "group__btm__sec__api__functions.html#gafc9a54cc8cf09e7f9c42c9a24ce9df97", null ],
     [ "wiced_bt_dev_pass_key_req_reply", "group__btm__sec__api__functions.html#ga6c0d114b3e9c02f0f139106065d0fc91", null ],
     [ "wiced_bt_dev_pin_code_reply", "group__btm__sec__api__functions.html#ga25d190c6dec75838e2ae09d5db385ad7", null ],

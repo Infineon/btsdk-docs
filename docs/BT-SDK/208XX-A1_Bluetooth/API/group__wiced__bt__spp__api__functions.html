@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -132,7 +132,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga991d89c51fd6d6e5ac2dd40f2441ba53">wiced_bt_spp_tx_complete_callback_t</a> )(uint16_t handle, wiced_result_t result)</td></tr>
 <tr class="memdesc:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission Complete callback indicates that application can send more data.  <a href="#ga991d89c51fd6d6e5ac2dd40f2441ba53">More...</a><br /></td></tr>
 <tr class="separator:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga842fc79d956a41f5cbdaada0f1753690"><td class="memItemLeft" align="right" valign="top">typedef wiced_bool_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga842fc79d956a41f5cbdaada0f1753690">wiced_bt_spp_rx_data_callback_t</a> )(uint16_t handle, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memitem:ga842fc79d956a41f5cbdaada0f1753690"><td class="memItemLeft" align="right" valign="top">typedef wiced_bool_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga842fc79d956a41f5cbdaada0f1753690">wiced_bt_spp_rx_data_callback_t</a> )(uint16_t handle, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
 <tr class="memdesc:ga842fc79d956a41f5cbdaada0f1753690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Data callback passed to the application data received over the SPP session.  <a href="#ga842fc79d956a41f5cbdaada0f1753690">More...</a><br /></td></tr>
 <tr class="separator:ga842fc79d956a41f5cbdaada0f1753690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -147,7 +147,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2b34d3ae523669f0f68b8bbf78f43fd6"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6">wiced_bt_spp_disconnect</a> (uint16_t handle)</td></tr>
 <tr class="memdesc:ga2b34d3ae523669f0f68b8bbf78f43fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_spp_disconnect.  <a href="#ga2b34d3ae523669f0f68b8bbf78f43fd6">More...</a><br /></td></tr>
 <tr class="separator:ga2b34d3ae523669f0f68b8bbf78f43fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02b58d1fc649c861de5d05260f848b12"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12">wiced_bt_spp_send_session_data</a> (uint16_t handle, uint8_t *p_data, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memitem:ga02b58d1fc649c861de5d05260f848b12"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12">wiced_bt_spp_send_session_data</a> (uint16_t handle, uint8_t *p_data, uint32_t <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga02b58d1fc649c861de5d05260f848b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data over the established External Accessory connection.  <a href="#ga02b58d1fc649c861de5d05260f848b12">More...</a><br /></td></tr>
 <tr class="separator:ga02b58d1fc649c861de5d05260f848b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga960acfc309b12fbd1304368031049cef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga960acfc309b12fbd1304368031049cef">wiced_bt_spp_rx_flow_enabled</a> (uint16_t handle, wiced_bool_t enable)</td></tr>
@@ -225,7 +225,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef wiced_bool_t(* wiced_bt_spp_rx_data_callback_t)(uint16_t handle, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td>
+          <td class="memname">typedef wiced_bool_t(* wiced_bt_spp_rx_data_callback_t)(uint16_t handle, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">

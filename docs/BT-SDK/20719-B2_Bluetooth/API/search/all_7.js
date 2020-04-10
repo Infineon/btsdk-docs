@@ -126,7 +126,6 @@ var searchData=
   ['gpio_5ftrigger_5fpolarity_5fmask',['GPIO_TRIGGER_POLARITY_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba26e29e56c5d5de8b6347a1ecb1ff8d80',1,'wiced_hal_gpio.h']]],
   ['gpio',['GPIO',['../group___g_p_i_o_driver.html',1,'']]],
   ['group_5faddr',['group_addr',['../wiced__bt__mesh__provision_8h.html#abafd9bffcd5412eef9458d47158b1845',1,'wiced_bt_mesh_provision.h']]],
-  ['group_5flist',['group_list',['../structwiced__bt__mesh__event____t.html#a34d36841c40e58287b383920f7227e38',1,'wiced_bt_mesh_event__t']]],
   ['group_5fota_5ffw_5fupgrade_5fstructs',['Group_ota_fw_upgrade_structs',['../group__group__ota__fw__upgrade__structs.html',1,'']]],
   ['group_5fsize',['group_size',['../wiced__bt__mesh__provision_8h.html#abb148898d98fe1f086dbc9f87f0f5c3b',1,'wiced_bt_mesh_provision.h']]],
   ['group_5fvalue',['group_value',['../unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c',1,'wiced_bt_gatt_discovery_data_t']]],

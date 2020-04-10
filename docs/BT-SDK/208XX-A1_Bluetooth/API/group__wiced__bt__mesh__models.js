@@ -351,44 +351,21 @@ var group__wiced__bt__mesh__models =
     [ "wiced_bt_mesh_blob_transfer_finish_t", "structwiced__bt__mesh__blob__transfer__finish__t.html", [
       [ "blob_transfer_result", "structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d", null ]
     ] ],
-    [ "wiced_bt_mesh_fw_update_fw_info_get_t", "structwiced__bt__mesh__fw__update__fw__info__get__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__fw__info__get__t.html#a1d97922c03d90f122375b1505a0a3574", null ],
-      [ "url", "structwiced__bt__mesh__fw__update__fw__info__get__t.html#a885763dedda04f8c55507c24528f797e", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_get_t", "structwiced__bt__mesh__fw__update__get__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__get__t.html#a1d97922c03d90f122375b1505a0a3574", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_prepare_t", "structwiced__bt__mesh__fw__update__prepare__t.html", [
-      [ "blob_id", "structwiced__bt__mesh__fw__update__prepare__t.html#ab7e2697584f45faae982a237fedac55e", null ],
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__prepare__t.html#a1d97922c03d90f122375b1505a0a3574", null ],
-      [ "vendor_validation_data", "structwiced__bt__mesh__fw__update__prepare__t.html#a4e432f0962cc687586cedb4127266965", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_start_t", "structwiced__bt__mesh__fw__update__start__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__start__t.html#a1d97922c03d90f122375b1505a0a3574", null ],
-      [ "update_policy", "structwiced__bt__mesh__fw__update__start__t.html#ac97044f5ad294a69530b41628e67a005", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_abort_t", "structwiced__bt__mesh__fw__update__abort__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__abort__t.html#a1d97922c03d90f122375b1505a0a3574", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_apply_t", "structwiced__bt__mesh__fw__update__apply__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__apply__t.html#a1d97922c03d90f122375b1505a0a3574", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_status_data_t", "structwiced__bt__mesh__fw__update__status__data__t.html", [
-      [ "additional_information", "structwiced__bt__mesh__fw__update__status__data__t.html#a6354e0c038e98294964219b047b9ca6a", null ],
-      [ "blob_id", "structwiced__bt__mesh__fw__update__status__data__t.html#a4755c2ebca72657ba1ab2dba6fbd7550", null ],
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__status__data__t.html#a1d97922c03d90f122375b1505a0a3574", null ],
-      [ "phase", "structwiced__bt__mesh__fw__update__status__data__t.html#a8f0aef86d47e45a899f77a8bb89d6432", null ],
-      [ "status", "structwiced__bt__mesh__fw__update__status__data__t.html#ade818037fd6c985038ff29656089758d", null ]
-    ] ],
-    [ "wiced_bt_mesh_fw_update_fw_info_status_data_t", "structwiced__bt__mesh__fw__update__fw__info__status__data__t.html", [
-      [ "firmware_id", "structwiced__bt__mesh__fw__update__fw__info__status__data__t.html#a1d97922c03d90f122375b1505a0a3574", null ],
-      [ "status", "structwiced__bt__mesh__fw__update__fw__info__status__data__t.html#ade818037fd6c985038ff29656089758d", null ],
-      [ "url", "structwiced__bt__mesh__fw__update__fw__info__status__data__t.html#a885763dedda04f8c55507c24528f797e", null ]
-    ] ],
     [ "wiced_bt_mesh_fw_distr_caps_t", "structwiced__bt__mesh__fw__distr__caps__t.html", [
-      [ "max_nodes", "structwiced__bt__mesh__fw__distr__caps__t.html#a482bf94dc117192958d8c424763a6421", null ],
+      [ "max_firmware_list_size", "structwiced__bt__mesh__fw__distr__caps__t.html#a5e17c2e4da28a9dfc367ed54b338d802", null ],
+      [ "max_firmware_size", "structwiced__bt__mesh__fw__distr__caps__t.html#a904fa7afdbcf962901636a5ef2baf11a", null ],
+      [ "max_node_list_size", "structwiced__bt__mesh__fw__distr__caps__t.html#aad9b08f731e928613a627dffe60d1ae6", null ],
+      [ "max_upload_space", "structwiced__bt__mesh__fw__distr__caps__t.html#aa229bdf78b81f92776769c05d08b0d16", null ],
       [ "oob_supported", "structwiced__bt__mesh__fw__distr__caps__t.html#aecf58143b0a29ba82510ddc55057b491", null ],
+      [ "remaining_upload_space", "structwiced__bt__mesh__fw__distr__caps__t.html#a35c249a069390a69845505f33b8c65f9", null ],
       [ "uri_scheme_names", "structwiced__bt__mesh__fw__distr__caps__t.html#a3aa56ba15afa1eedd74e45b7e7d85954", null ]
+    ] ],
+    [ "wiced_bt_mesh_fw_updating_node_item_t", "structwiced__bt__mesh__fw__updating__node__item__t.html", [
+      [ "address", "structwiced__bt__mesh__fw__updating__node__item__t.html#a2f55ff1f6cd45ca1b6431493ab5614eb", null ],
+      [ "retrieved_update_phase", "structwiced__bt__mesh__fw__updating__node__item__t.html#ab9776dbf4d67ec106f31506d07c67b8b", null ],
+      [ "transfer_progress", "structwiced__bt__mesh__fw__updating__node__item__t.html#a6b548e64909e17254b38fdb20f8363f7", null ],
+      [ "transfer_status", "structwiced__bt__mesh__fw__updating__node__item__t.html#a14063c7b3bf7a8d403e452e149b18ee4", null ],
+      [ "update_status", "structwiced__bt__mesh__fw__updating__node__item__t.html#a81e7db35bbcc40bac08cb0e88b3fd15d", null ]
     ] ],
     [ "mesh_blob_transfer_capabilities_state_t", "structmesh__blob__transfer__capabilities__state__t.html", [
       [ "max_blob_size", "structmesh__blob__transfer__capabilities__state__t.html#aa03e994a8e1034e27f4d4817960dd337", null ],
@@ -396,7 +373,8 @@ var group__wiced__bt__mesh__models =
       [ "max_chunk_size", "structmesh__blob__transfer__capabilities__state__t.html#a25c5c4673f3f51c7817fd883c5efaf16", null ],
       [ "max_chunks_number", "structmesh__blob__transfer__capabilities__state__t.html#a480b6d353e66f0ac0982bbd276b130ed", null ],
       [ "min_block_size_log", "structmesh__blob__transfer__capabilities__state__t.html#a1b0735b16ddf479fe79fc4202dbe4d83", null ],
-      [ "mtu", "structmesh__blob__transfer__capabilities__state__t.html#a2997a8aa5758871f81608a28ce97b796", null ]
+      [ "mtu", "structmesh__blob__transfer__capabilities__state__t.html#a2997a8aa5758871f81608a28ce97b796", null ],
+      [ "supported_transfer_mode", "structmesh__blob__transfer__capabilities__state__t.html#a4ffd0498957c4d3bfee19253e2e75eee", null ]
     ] ],
     [ "wiced_bt_mesh_blob_transfer_complete_t", "structwiced__bt__mesh__blob__transfer__complete__t.html", [
       [ "status", "structwiced__bt__mesh__blob__transfer__complete__t.html#ade818037fd6c985038ff29656089758d", null ]
@@ -482,7 +460,6 @@ var group__wiced__bt__mesh__models =
     [ "wiced_bt_mesh_property_server_callback_t", "group__wiced__bt__mesh__models.html#ga101721619f1f9291ef8c5faf73c1ea51", null ],
     [ "wiced_model_scene_recall_handler_t", "group__wiced__bt__mesh__models.html#ga14ca9e69ea94ccfbd44c574b786440c1", null ],
     [ "wiced_model_scene_store_handler_t", "group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45", null ],
-    [ "wiced_bt_mesh_blob_transfer_client_get_node_status", "group__wiced__bt__mesh__models.html#ga2c9c73f78bec9ff89bf85e9c3d9aabb4", null ],
     [ "wiced_bt_mesh_model_admin_property_server_message_handler", "group__wiced__bt__mesh__models.html#gadadea936ad14f7ecdef0e8419eda2934", null ],
     [ "wiced_bt_mesh_model_client_property_server_message_handler", "group__wiced__bt__mesh__models.html#gab4ab2ce6eb5e4bf979c11e352d206e3f", null ],
     [ "wiced_bt_mesh_model_manufacturer_property_server_message_handler", "group__wiced__bt__mesh__models.html#gab74a3871693811ae897a7d80d8e3f93a", null ],
@@ -492,5 +469,10 @@ var group__wiced__bt__mesh__models =
     [ "wiced_bt_mesh_model_property_client_send_property_get", "group__wiced__bt__mesh__models.html#gab1549592c2417d10fc21a1258dd7d538", null ],
     [ "wiced_bt_mesh_model_property_client_send_property_set", "group__wiced__bt__mesh__models.html#ga4d7fd5e0cd05572355099d207dfbb944", null ],
     [ "wiced_bt_mesh_model_property_server_init", "group__wiced__bt__mesh__models.html#ga8aaa53929ec2aa4ca6a3d40597841985", null ],
-    [ "wiced_bt_mesh_model_user_property_server_message_handler", "group__wiced__bt__mesh__models.html#ga1df6c7ca36c15004c84a759c6a8728ad", null ]
+    [ "wiced_bt_mesh_model_user_property_server_message_handler", "group__wiced__bt__mesh__models.html#ga1df6c7ca36c15004c84a759c6a8728ad", null ],
+    [ "wiced_bt_mesh_models_set_trace_level", "group__wiced__bt__mesh__models.html#gad1d333fbc179417919390f7d2608c7d9", null ],
+    [ "wiced_bt_mesh_remote_provisioning_connectable_adv_packet", "group__wiced__bt__mesh__models.html#gaca85d3e843373ba038d444bf75349cc0", null ],
+    [ "wiced_bt_mesh_remote_provisioning_nonconnectable_adv_packet", "group__wiced__bt__mesh__models.html#ga645656708d9462cca755b56f5b43ac43", null ],
+    [ "wiced_bt_mesh_remote_provisioning_scan_rsp", "group__wiced__bt__mesh__models.html#ga58171fb0b81158e89d751c49222a765b", null ],
+    [ "wiced_bt_mesh_remote_provisioning_server_init", "group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d", null ]
 ];

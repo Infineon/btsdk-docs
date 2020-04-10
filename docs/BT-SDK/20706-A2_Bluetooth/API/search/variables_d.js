@@ -30,7 +30,6 @@ var searchData=
   ['num_5fdescriptors',['num_descriptors',['../structwiced__bt__mesh__sensor__descriptor__status__data__t.html#afde159eccc4cd1c9ef19b0d394140c9a',1,'wiced_bt_mesh_sensor_descriptor_status_data_t']]],
   ['num_5fhandles',['num_handles',['../structwiced__bt__gatt__read__multi__t.html#a3b21afb7c6efdc8acbcfd858b66722c7',1,'wiced_bt_gatt_read_multi_t']]],
   ['num_5fid',['num_id',['../structwiced__bt__avrc__inform__charset__cmd__t.html#a07fdd5bd3749b91dd500a3c015b58803',1,'wiced_bt_avrc_inform_charset_cmd_t']]],
-  ['num_5fin_5fgroup',['num_in_group',['../structwiced__bt__mesh__event____t.html#aa6e1912d7643723a2b3d3e3bdaf8eccf',1,'wiced_bt_mesh_event__t']]],
   ['num_5fitems',['num_items',['../structwiced__bt__avrc__set__br__player__rsp__t.html#a0d474530bd96f8237ea1d5fb9308cfe2',1,'wiced_bt_avrc_set_br_player_rsp_t::num_items()'],['../structwiced__bt__avrc__chg__path__rsp__t.html#a0d474530bd96f8237ea1d5fb9308cfe2',1,'wiced_bt_avrc_chg_path_rsp_t::num_items()'],['../structwiced__bt__avrc__get__num__of__items__rsp__t.html#a0d474530bd96f8237ea1d5fb9308cfe2',1,'wiced_bt_avrc_get_num_of_items_rsp_t::num_items()'],['../structwiced__bt__avrc__search__rsp__t.html#a0d474530bd96f8237ea1d5fb9308cfe2',1,'wiced_bt_avrc_search_rsp_t::num_items()']]],
   ['num_5fkeys',['num_keys',['../wiced__bt__mesh__provision_8h.html#a2fc969948626eb680f5e663ec9939d9c',1,'wiced_bt_mesh_provision.h']]],
   ['num_5fnodes',['num_nodes',['../wiced__bt__mesh__provision_8h.html#a556e7dea96e69041dca2d95353f43974',1,'wiced_bt_mesh_provision.h']]],

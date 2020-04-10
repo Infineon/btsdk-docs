@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -129,11 +129,11 @@ OPUS_WARN_UNUSED_RESULT <br class="typebreak" />
 <tr class="memdesc:ga8701cc5741eed9947160faf43be0af22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a previously allocated encoder state The memory pointed to by st must be at least the size returned by <a class="el" href="group__opus__encoder.html#ga9ac72d062eca0c77711f5b04b9dcc645" title="Gets the size of an OpusEncoder structure. ">opus_encoder_get_size()</a>.  <a href="#ga8701cc5741eed9947160faf43be0af22">More...</a><br /></td></tr>
 <tr class="separator:ga8701cc5741eed9947160faf43be0af22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf96aa4fafd06a772143142da7a4adf13"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__encoder.html#gaf96aa4fafd06a772143142da7a4adf13">opus_encode_ed</a> (<a class="el" href="struct_opus_encoder.html">OpusEncoder</a> *st, const opus_int16 *pcm, int frame_size, unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, int max_data_bytes) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2) OPUS_ARG_NONNULL(4)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__encoder.html#gaf96aa4fafd06a772143142da7a4adf13">opus_encode_ed</a> (<a class="el" href="struct_opus_encoder.html">OpusEncoder</a> *st, const opus_int16 *pcm, int frame_size, unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int max_data_bytes) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2) OPUS_ARG_NONNULL(4)</td></tr>
 <tr class="memdesc:gaf96aa4fafd06a772143142da7a4adf13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes an Opus frame.  <a href="#gaf96aa4fafd06a772143142da7a4adf13">More...</a><br /></td></tr>
 <tr class="separator:gaf96aa4fafd06a772143142da7a4adf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga423a34d2ed5d7d360db856ad9258a23f"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__encoder.html#ga423a34d2ed5d7d360db856ad9258a23f">opus_encode_float</a> (<a class="el" href="struct_opus_encoder.html">OpusEncoder</a> *st, const float *pcm, int frame_size, unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a>, int max_data_bytes) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2) OPUS_ARG_NONNULL(4)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__encoder.html#ga423a34d2ed5d7d360db856ad9258a23f">opus_encode_float</a> (<a class="el" href="struct_opus_encoder.html">OpusEncoder</a> *st, const float *pcm, int frame_size, unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int max_data_bytes) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2) OPUS_ARG_NONNULL(4)</td></tr>
 <tr class="memdesc:ga423a34d2ed5d7d360db856ad9258a23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes an Opus frame from floating point input.  <a href="#ga423a34d2ed5d7d360db856ad9258a23f">More...</a><br /></td></tr>
 <tr class="separator:ga423a34d2ed5d7d360db856ad9258a23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga899c69582a1cad2a168aedc99cab7be0"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__encoder.html#ga899c69582a1cad2a168aedc99cab7be0">opus_encoder_destroy</a> (<a class="el" href="struct_opus_encoder.html">OpusEncoder</a> *st)</td></tr>

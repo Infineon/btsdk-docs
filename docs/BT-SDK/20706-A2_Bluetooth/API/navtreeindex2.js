@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__group__ota__fw__upgrade__macros.html":[7,5,0,0],
 "group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32":[7,5,0,0,0],
 "group__group__ota__fw__upgrade__structs.html":[7,5,0,3],
 "group__group__ota__wiced__firmware__upgrade.html":[7,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__sha512.html#ga2dcee9ca44dc6a764e14f1db114aaae8":[7,4,4,2],
 "group__sha512.html#ga3c22a90c634a6027c723e7805a670cef":[7,4,4,6],
 "group__sha512.html#ga71a54c32b3ecdca9e4d8dd2584998a0b":[7,4,4,5],
-"group__sha512.html#ga77d7aa2fdbde82954ad31ba2d912e368":[7,4,4,3],
-"group__sha512.html#gab94699019fc93637e91cf88403f80360":[7,4,4,1]
+"group__sha512.html#ga77d7aa2fdbde82954ad31ba2d912e368":[7,4,4,3]
 };

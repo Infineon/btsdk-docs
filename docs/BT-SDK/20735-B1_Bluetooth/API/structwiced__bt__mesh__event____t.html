@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -153,14 +153,6 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
 <tr class="memdesc:a65ecdf93f477372c38b29a69e896d6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Application key index used to decrypt when message was received or which should be used to encrypt to send the message. <br /></td></tr>
 <tr class="separator:a65ecdf93f477372c38b29a69e896d6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6e1912d7643723a2b3d3e3bdaf8eccf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6e1912d7643723a2b3d3e3bdaf8eccf"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#aa6e1912d7643723a2b3d3e3bdaf8eccf">num_in_group</a></td></tr>
-<tr class="memdesc:aa6e1912d7643723a2b3d3e3bdaf8eccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of devices in the group list <br /></td></tr>
-<tr class="separator:aa6e1912d7643723a2b3d3e3bdaf8eccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d36841c40e58287b383920f7227e38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34d36841c40e58287b383920f7227e38"></a>
-uint16_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a34d36841c40e58287b383920f7227e38">group_list</a></td></tr>
-<tr class="memdesc:a34d36841c40e58287b383920f7227e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">If dst is a group address, this points to the array of with individual unicast addresses. <br /></td></tr>
-<tr class="separator:a34d36841c40e58287b383920f7227e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a572736a10ff6b282c5f43c4ea1ccf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1a572736a10ff6b282c5f43c4ea1ccf"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a></td></tr>
 <tr class="memdesc:ad1a572736a10ff6b282c5f43c4ea1ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of data corresponding to the event. <br /></td></tr>
@@ -183,7 +175,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47">reply_timeout</a></td></tr>
 <tr class="memdesc:a7389b2a7e380437f6af8ee6784f93a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time to wait for the peer model layer acknowledgment in 50-millisecond steps. <br /></td></tr>
 <tr class="separator:a7389b2a7e380437f6af8ee6784f93a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba15eccb62798f7ec6355e39a7f1d99d"><td class="memItemLeft" ><a class="anchor" id="aba15eccb62798f7ec6355e39a7f1d99d"></a>
+<tr class="memitem:ad32f88c0994d743201626ce41de6bfb9"><td class="memItemLeft" ><a class="anchor" id="ad32f88c0994d743201626ce41de6bfb9"></a>
 union {</td></tr>
 <tr class="memitem:a9bc203bec977ff9eca018660844ad042"><td class="memItemLeft" ><a class="anchor" id="a9bc203bec977ff9eca018660844ad042"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042">tx_flag</a></td></tr>
@@ -192,8 +184,8 @@ union {</td></tr>
 <tr class="memitem:ab49728107d19a75a401215330b469934"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934">rpl_delay</a></td></tr>
 <tr class="memdesc:ab49728107d19a75a401215330b469934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model indicates how SEQ shall be saved by the core.  <a href="#ab49728107d19a75a401215330b469934">More...</a><br /></td></tr>
 <tr class="separator:ab49728107d19a75a401215330b469934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba15eccb62798f7ec6355e39a7f1d99d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
-<tr class="separator:aba15eccb62798f7ec6355e39a7f1d99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32f88c0994d743201626ce41de6bfb9"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="separator:ad32f88c0994d743201626ce41de6bfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6161ae10c48014f8d738ee16a4de74a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a">friend_addr</a></td></tr>
 <tr class="memdesc:aa6161ae10c48014f8d738ee16a4de74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">core sets it to friend address when calls complete_callback if segmented message has been sent and acked by the friend OnBehalfOf LPN.  <a href="#aa6161ae10c48014f8d738ee16a4de74a">More...</a><br /></td></tr>
 <tr class="separator:aa6161ae10c48014f8d738ee16a4de74a"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.3 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -211,6 +211,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aee321941985a77e5ec8d7bae626dd599"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee321941985a77e5ec8d7bae626dd599"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MCE</b>&#160;&#160;&#160;0x27</td></tr>
 <tr class="separator:aee321941985a77e5ec8d7bae626dd599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4661328be25410ecdb212b979b228905"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4661328be25410ecdb212b979b228905"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_HK</b>&#160;&#160;&#160;0x28</td></tr>
+<tr class="separator:a4661328be25410ecdb212b979b228905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22394dde968c719d47f0d391b5c2968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa22394dde968c719d47f0d391b5c2968"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MISC</b>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="separator:aa22394dde968c719d47f0d391b5c2968"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -595,6 +598,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ae0d5be0da35660ac5b581a4c32d7ec37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0d5be0da35660ac5b581a4c32d7ec37"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_VIRTUAL_UNPLUG</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x07 )     /* Send Virtual Unplug */</td></tr>
 <tr class="separator:ae0d5be0da35660ac5b581a4c32d7ec37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da0d69e3c97e45fb3b410da6ded0467"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6da0d69e3c97e45fb3b410da6ded0467"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_KEY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x08 )     /* Send USB key */</td></tr>
+<tr class="separator:a6da0d69e3c97e45fb3b410da6ded0467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbeb800431750fe7c4416457eb2dee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6dbeb800431750fe7c4416457eb2dee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_TEST_COMMAND_ENCAPSULATED_HCI_COMMAND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_TEST &lt;&lt; 8 ) | 0x10 )     /* Encapsulated HCI command - For manufacturing test purposes */</td></tr>
 <tr class="separator:ae6dbeb800431750fe7c4416457eb2dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1279,6 +1285,30 @@ Macros</h2></td></tr>
 <tr class="memitem:acef9b97a24ff4d8668a91942db26068a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acef9b97a24ff4d8668a91942db26068a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_MODEL_ADD</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb0 )  /* Add Vendor Model */</td></tr>
 <tr class="separator:acef9b97a24ff4d8668a91942db26068a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c9fc455dd2afd9e35c50b0f9b308b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56c9fc455dd2afd9e35c50b0f9b308b5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_TRACE_CORE_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb1 )  /* Set Level for Core Traces */</td></tr>
+<tr class="separator:a56c9fc455dd2afd9e35c50b0f9b308b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecba6c2d59132cd1bdf6bd6c0ad122bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecba6c2d59132cd1bdf6bd6c0ad122bc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_TRACE_MODELS_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb2 )  /* Set Level for Models Traces */</td></tr>
+<tr class="separator:aecba6c2d59132cd1bdf6bd6c0ad122bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629df55d5a7a0939a1093017620aaf4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a629df55d5a7a0939a1093017620aaf4c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_RSSI_TEST_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb3 )  /* Start RSSI test */</td></tr>
+<tr class="separator:a629df55d5a7a0939a1093017620aaf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4efc6a5d32f69e07b61fb15e329c3c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4efc6a5d32f69e07b61fb15e329c3c6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_SET_ADV_TX_POWER</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xb4 )  /* Set Mesh Core ADV Tx Power */</td></tr>
+<tr class="separator:ae4efc6a5d32f69e07b61fb15e329c3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2c5b804f44b379c95e7c30516488dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d2c5b804f44b379c95e7c30516488dc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_UPLOAD_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc0 )  /* Prepare Distribution Client for FW Upload */</td></tr>
+<tr class="separator:a9d2c5b804f44b379c95e7c30516488dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1306526ea008c0eb3ed33240f8d479"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a1306526ea008c0eb3ed33240f8d479"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_UPLOAD_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc1 )  /* FW Upload next data chunk */</td></tr>
+<tr class="separator:a9a1306526ea008c0eb3ed33240f8d479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2613f6b7eeb0c9dcfe9a36e68c15156"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2613f6b7eeb0c9dcfe9a36e68c15156"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_UPLOAD_FINISH</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc2 )  /* FW Upload completed */</td></tr>
+<tr class="separator:ac2613f6b7eeb0c9dcfe9a36e68c15156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73ad151f4739402962732b38dc12876"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab73ad151f4739402962732b38dc12876"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_UPLOAD_GET_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc3 )  /* Get current status and phase */</td></tr>
+<tr class="separator:ab73ad151f4739402962732b38dc12876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a017ecf24e7aff6c83c50fec418259c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a017ecf24e7aff6c83c50fec418259c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_SET_LOCAL_DEVICE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xe0 )  /* Set Local Device. Application can set it once to make provisioner client. */</td></tr>
 <tr class="separator:a7a017ecf24e7aff6c83c50fec418259c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1441,6 +1471,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a82d4d442a40e662b4e975864a8d36c52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82d4d442a40e662b4e975864a8d36c52"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_COMMAND_NOTIF_REG</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MCE &lt;&lt; 8 ) | 0x0B )      /* Register for message notification */</td></tr>
 <tr class="separator:a82d4d442a40e662b4e975864a8d36c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfad2845cc087929722f8b3ae87d79da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfad2845cc087929722f8b3ae87d79da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_READ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x01 )    /* Read characteristic */</td></tr>
+<tr class="separator:acfad2845cc087929722f8b3ae87d79da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1286496868198d63c659a39d25f01e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c1286496868198d63c659a39d25f01e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_WRITE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x02 )    /* Write characteristic */</td></tr>
+<tr class="separator:a6c1286496868198d63c659a39d25f01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bef8535ec8457250756f56c08e4147"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5bef8535ec8457250756f56c08e4147"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_LIST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x03 )    /* List all characteristics */</td></tr>
+<tr class="separator:ac5bef8535ec8457250756f56c08e4147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ece4b4feafc7a94151df2451c3c41d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22ece4b4feafc7a94151df2451c3c41d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_FACTORY_RESET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x04 )    /* Factory reset */</td></tr>
+<tr class="separator:a22ece4b4feafc7a94151df2451c3c41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba7b4935d9b24c811099b6dfd58fff1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ba7b4935d9b24c811099b6dfd58fff1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_GET_TOKEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x05 )    /* Get software authentication token */</td></tr>
+<tr class="separator:a5ba7b4935d9b24c811099b6dfd58fff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e76801a75160fe12c1bb9a8d0a333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29e76801a75160fe12c1bb9a8d0a333"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:af29e76801a75160fe12c1bb9a8d0a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2338,6 +2383,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a66eb0c4139f754d4b6e7cd5d26f45d10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66eb0c4139f754d4b6e7cd5d26f45d10"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_RAW_MODEL_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xbf )  /* Raw model data from the access layer */</td></tr>
 <tr class="separator:a66eb0c4139f754d4b6e7cd5d26f45d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ad5cfbd09681b89c63233b838d58d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33ad5cfbd09681b89c63233b838d58d3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_FW_DISTRIBUTION_UPLOAD_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc0 )  /* Prepare Distribution Client for FW Upload */</td></tr>
+<tr class="separator:a33ad5cfbd09681b89c63233b838d58d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8d34dabf91f1d64f3af7b5c01dbe6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc8d34dabf91f1d64f3af7b5c01dbe6e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_RSSI_TEST_RESULT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xc1 )  /* RSSI test result */</td></tr>
+<tr class="separator:adc8d34dabf91f1d64f3af7b5c01dbe6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e574611b73072c9ad535d1b93ba98b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8e574611b73072c9ad535d1b93ba98b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROXY_CONNECTION_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0xe0 )  /* Proxy connection status */</td></tr>
 <tr class="separator:aa8e574611b73072c9ad535d1b93ba98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2557,6 +2608,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a3177628a21724cd4911483534c933862"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3177628a21724cd4911483534c933862"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_EVENT_NOTIF</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MCE &lt;&lt; 8 ) | 0x0C )      /* Notification */</td></tr>
 <tr class="separator:a3177628a21724cd4911483534c933862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73064b4d1cc7700bd368bfc518718b37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73064b4d1cc7700bd368bfc518718b37"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_EVENT_READ_RESPONSE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x01 )    /* Response to read characteristic command */</td></tr>
+<tr class="separator:a73064b4d1cc7700bd368bfc518718b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a261e242b933cea4bddc4013134949e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a261e242b933cea4bddc4013134949e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_EVENT_UPDATE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x02 )    /* Characteristic value update */</td></tr>
+<tr class="separator:a7a261e242b933cea4bddc4013134949e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741c8ccb363f40fbd1a3f5e9195fd7ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a741c8ccb363f40fbd1a3f5e9195fd7ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_EVENT_LIST_ITEM</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x03 )    /* Characteristic list item */</td></tr>
+<tr class="separator:a741c8ccb363f40fbd1a3f5e9195fd7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95dbe9af726c045f80ca4d6cb895f2e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95dbe9af726c045f80ca4d6cb895f2e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_EVENT_TOKEN_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x04 )    /* Software token data */</td></tr>
+<tr class="separator:a95dbe9af726c045f80ca4d6cb895f2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2723,7 +2786,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA</b>&#160;&#160;&#160;10  /* Data (folder/message list, message), variable length */</td></tr>
 <tr class="separator:a402ac588508b209c25da7567f74782ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a459effbf412bdfd6b18e35746f1e7bb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a459effbf412bdfd6b18e35746f1e7bb4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA_END</b>&#160;&#160;&#160;11  /* Last part of <a class="el" href="wiced__bt__mesh__provision_8h.html#a52bb143c123ed70a9db243517741a36c">data</a> (folder/message list, message), variable length */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_DATA_END</b>&#160;&#160;&#160;11  /* Last part of <a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a> (folder/message list, message), variable length */</td></tr>
 <tr class="separator:a459effbf412bdfd6b18e35746f1e7bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fcab46435ecda63bcfa8f74ea086b2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fcab46435ecda63bcfa8f74ea086b2a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_STATUS</b>&#160;&#160;&#160;12  /* Event <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>, 1 byte */</td></tr>
@@ -2746,6 +2809,15 @@ Macros</h2></td></tr>
 <tr class="memitem:ae09a906888904451b9dcab189fc950ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae09a906888904451b9dcab189fc950ce"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MCE_PARAM_LIST_START_OFFSET</b>&#160;&#160;&#160;18  /* Offset of the first item in list, 2 bytes */</td></tr>
 <tr class="separator:ae09a906888904451b9dcab189fc950ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf127d57e6bbb4877623d8ee8dad374"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cf127d57e6bbb4877623d8ee8dad374"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_TOKEN_DATA_FLAG_START</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a2cf127d57e6bbb4877623d8ee8dad374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa091d90c5d3054ab730498ecbea9ac7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa091d90c5d3054ab730498ecbea9ac7b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_TOKEN_DATA_FLAG_END</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:aa091d90c5d3054ab730498ecbea9ac7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b0bbe1e097e170ef27fc8334cfb2c14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b0bbe1e097e170ef27fc8334cfb2c14"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_TOKEN_DATA_FLAG_UUID</b>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a9b0bbe1e097e170ef27fc8334cfb2c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
@@ -2765,7 +2837,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_bd0a61b65cb7d032cdb5fd48047fdd59.html">out</a></li><li class="navelem"><a class="el" href="dir_eed34f1b4c36db0a21d5db67039b1580.html">repos</a></li><li class="navelem"><a class="el" href="dir_7f51b811c0a754fddbb08e8579166f13.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
+    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_c6f8dc558a50b7602f8e1602a7bcbf05.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

@@ -1,15 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"structwiced__bt__mesh__provision__status__data__t.html#a556c80259568976b607ec50f8747d42a":[7,9,21,3,20,4],
-"structwiced__bt__mesh__provision__status__data__t.html#a88c79cd52cb7992eefd326dbdc584a64":[7,9,21,3,20,2],
-"structwiced__bt__mesh__provision__status__data__t.html#a9ee92ed85a3879a50045633ea994a168":[7,9,21,3,20,3],
-"structwiced__bt__mesh__proxy__connect__data__t.html":[7,9,21,3,16],
-"structwiced__bt__mesh__proxy__connect__data__t.html#a07ec3cc0de32c2b7496197f15e96c475":[7,9,21,3,16,3],
-"structwiced__bt__mesh__proxy__connect__data__t.html#a55fdff5eb435c150ffdb70a5c95edeb3":[7,9,21,3,16,5],
-"structwiced__bt__mesh__proxy__connect__data__t.html#a624fd24b46be2b40c8731334c9de5d06":[7,9,21,3,16,0],
-"structwiced__bt__mesh__proxy__connect__data__t.html#a952371edef8f87661e8017d3327e9113":[7,9,21,3,16,1],
-"structwiced__bt__mesh__proxy__connect__data__t.html#ace7ca43f296e0f3b089ca9be7c10fffa":[7,9,21,3,16,2],
-"structwiced__bt__mesh__proxy__connect__data__t.html#af2be22a2a3bcd22b635dc11b49ffc408":[7,9,21,3,16,4],
 "structwiced__bt__mesh__proxy__device__network__data__t.html":[7,9,21,3,3],
 "structwiced__bt__mesh__proxy__device__network__data__t.html#a3b962e67ba74725bd60ca3c29f785abe":[7,9,21,3,3,3],
 "structwiced__bt__mesh__proxy__device__network__data__t.html#a624fd24b46be2b40c8731334c9de5d06":[7,9,21,3,3,0],

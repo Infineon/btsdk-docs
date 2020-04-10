@@ -24,19 +24,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c",
-"group__btm__ble__api__functions.html#gaabb3afd4913a5d23eabbcece8ffc30e9",
-"group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6",
-"group__wiced__bt__ams__api__functions.html#gadb8fb4a305c2fc28451a57c12ee7022f",
-"group__wiced__bt__mesh.html#wiced_bt_mesh_application_structure",
-"group__wiced__bt__mesh__light__ctl__server.html#ga794cb5d5a4e341379bb70536b8ce41a3",
+"group___p_u_a_r_t_driver.html#gab848ea2b506d7c75da6a2264b7f6039d",
+"group__btm__ble__api__functions.html#gaa3a12d9312cb8bac5e7eb7033aedda8c",
+"group__opus__decoder.html#ga2ff32522aecad0470031a99eca2bb344",
+"group__wiced__bt__ams__api__functions.html#gad2a211e1a6e62bea60255b2220c95a71",
+"group__wiced__bt__iap2__api__functions.html#gaf17d38f064cc5a8e97d1927e6fe7641c",
+"group__wiced__bt__mesh__light__ctl__server.html#gafd52e17efae93150add9349084e86af7",
 "group__wiced__bt__mesh__provisioning.html#ga2cc89b224e0cc15e6332ec014690c8c1",
-"group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092",
-"group__wpl__event.html#ggacfbdf923f6a16d72d5c92269a0aeabe0a09c2e543801d9baa3068863edba1e260",
-"structwiced__bt__avrc__tg__absolute__volume__t.html#a14cc77262954756b30c251feabce7ea6",
-"structwiced__bt__mesh__core__config__sensor__t.html#af818d207fdadd1d42b3f6e34f43609bd",
-"structwiced__bt__mesh__light__lc__light__onoff__set__data__t.html",
-"structwiced__bt__mesh__provision__status__data__t.html#a556c80259568976b607ec50f8747d42a"
+"group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5",
+"group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681a875320fd76e0e530dccf79d35da42d97",
+"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58",
+"structwiced__bt__mesh__core__config__sensor__t.html#a1d302dd4902232726dc4aad2e9ddffa2",
+"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a56282d8f945484706e00e7ebcd67b9a3",
+"structwiced__bt__mesh__proxy__device__network__data__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -19,7 +19,6 @@ var searchData=
   ['ble_5fevt_5ftype',['ble_evt_type',['../structwiced__bt__ble__scan__results__t.html#af456f21b942d8e4a2fae97e726f97952',1,'wiced_bt_ble_scan_results_t']]],
   ['ble_5fscan_5fcfg',['ble_scan_cfg',['../structwiced__bt__cfg__settings__t.html#ab1002285cad88b712c2ef26ab847b820',1,'wiced_bt_cfg_settings_t']]],
   ['ble_5fscan_5fstate_5fchanged',['ble_scan_state_changed',['../unionwiced__bt__management__evt__data__t.html#ab16e83d0d0912e9414feb213d87f2682',1,'wiced_bt_management_evt_data_t']]],
-  ['blob_5fid',['blob_id',['../structwiced__bt__mesh__fw__update__prepare__t.html#ab7e2697584f45faae982a237fedac55e',1,'wiced_bt_mesh_fw_update_prepare_t::blob_id()'],['../structwiced__bt__mesh__fw__update__status__data__t.html#a4755c2ebca72657ba1ab2dba6fbd7550',1,'wiced_bt_mesh_fw_update_status_data_t::blob_id()']]],
   ['blob_5fsize',['blob_size',['../structwiced__bt__mesh__blob__transfer__start__t.html#a32143551b70893faef60f6e35f88ed50',1,'wiced_bt_mesh_blob_transfer_start_t']]],
   ['blob_5ftransfer_5fresult',['blob_transfer_result',['../structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d',1,'wiced_bt_mesh_blob_transfer_finish_t']]],
   ['block_5flength',['block_length',['../structwiced__codec__param__sbc__t.html#a791f6401da49ac50a2dfd406829806b2',1,'wiced_codec_param_sbc_t']]],
@@ -32,6 +31,7 @@ var searchData=
   ['browse_5flen',['browse_len',['../structwiced__bt__avrc__msg__browse__t.html#ac45abc13384e441d6539a8cb7e9c0b40',1,'wiced_bt_avrc_msg_browse_t']]],
   ['buf_5fcount',['buf_count',['../structwiced__bt__cfg__buf__pool__t.html#ada18e4f4edff8bef253cad5e729ddf20',1,'wiced_bt_cfg_buf_pool_t']]],
   ['buf_5fsize',['buf_size',['../structwiced__bt__cfg__buf__pool__t.html#adae01b8e5362764fe757f02f6db4d91e',1,'wiced_bt_cfg_buf_pool_t']]],
+  ['buffer',['buffer',['../structsha2__context.html#a59e96eea04541ecd67c3faca41b13feb',1,'sha2_context']]],
   ['buffer_5fend',['buffer_end',['../structwiced__audio__buffer__info__t.html#a66d710e0093872b26ee80118c1a85d99',1,'wiced_audio_buffer_info_t']]],
   ['buffer_5fstart',['buffer_start',['../structwiced__audio__buffer__info__t.html#a85973b335814248c05f63543876b348e',1,'wiced_audio_buffer_info_t']]],
   ['by_5fhandle',['by_handle',['../unionwiced__bt__gatt__read__param__t.html#a15b45ef6e94393600ca77d93f634ce50',1,'wiced_bt_gatt_read_param_t']]]
