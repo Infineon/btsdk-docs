@@ -24,19 +24,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___p_u_a_r_t_driver.html#gab848ea2b506d7c75da6a2264b7f6039d",
-"group__btm__ble__api__functions.html#gaa3a12d9312cb8bac5e7eb7033aedda8c",
-"group__opus__decoder.html#ga2ff32522aecad0470031a99eca2bb344",
-"group__wiced__bt__ams__api__functions.html#gad2a211e1a6e62bea60255b2220c95a71",
-"group__wiced__bt__iap2__api__functions.html#gaf17d38f064cc5a8e97d1927e6fe7641c",
-"group__wiced__bt__mesh__light__ctl__server.html#gafd52e17efae93150add9349084e86af7",
-"group__wiced__bt__mesh__provisioning.html#ga2cc89b224e0cc15e6332ec014690c8c1",
-"group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5",
-"group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681a875320fd76e0e530dccf79d35da42d97",
-"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58",
-"structwiced__bt__mesh__core__config__sensor__t.html#a1d302dd4902232726dc4aad2e9ddffa2",
-"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a56282d8f945484706e00e7ebcd67b9a3",
-"structwiced__bt__mesh__proxy__device__network__data__t.html"
+"group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c",
+"group__btm__ble__api__functions.html#gaacd4eb0c6e58d372769208bce03ba35b",
+"group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6",
+"group__wiced__bt__ams__api__functions.html#gadb8fb4a305c2fc28451a57c12ee7022f",
+"group__wiced__bt__mesh.html#wiced_bt_mesh_application_structure",
+"group__wiced__bt__mesh__light__hsl__client.html#ga626c6b8c6e122bbe954797c5d528adbc",
+"group__wiced__bt__mesh__provisioning.html#ga33345747ac872e0f5b1c3417febcc3cf",
+"group__wicedbt__a2dp.html#ga00d931eea740da7d5d867797b5048655",
+"group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61bab93d22a8a0526b919a0677ec54a9e859",
+"structwiced__bt__audio__insert__event__data__req__t.html",
+"structwiced__bt__mesh__core__config__sensor__t.html#a8d665a621e312f01b66359ff69081f90",
+"structwiced__bt__mesh__light__lc__occupancy__mode__set__data__t.html",
+"structwiced__bt__mesh__sensor__config__cadence__t.html#a156459577a86ed2743f55656f93bfa4d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

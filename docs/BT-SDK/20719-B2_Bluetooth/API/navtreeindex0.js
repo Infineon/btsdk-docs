@@ -24,8 +24,8 @@ var NAVTREEINDEX0 =
 "globals_defs_w.html":[8,6,14],
 "globals_e.html":[8,0,5],
 "globals_enum.html":[8,4],
-"globals_eval.html":[8,5,0],
 "globals_eval.html":[8,5],
+"globals_eval.html":[8,5,0],
 "globals_eval_b.html":[8,5,1],
 "globals_eval_e.html":[8,5,2],
 "globals_eval_g.html":[8,5,3],
@@ -114,7 +114,6 @@ var NAVTREEINDEX0 =
 "group___a_v.html#gaf9b8b9e92b718a27ac9c12074f16f7bc":[7,5,21],
 "group___adc_driver.html":[7,3,2],
 "group___adc_driver.html#ga054e4da0816f4702b6a9be0f5aa8be36":[7,3,2,4],
-"group___adc_driver.html#ga0971ea1647c9be68cf70330065864737":[7,3,2,10],
 "group___adc_driver.html#ga0ddc657a584e49ae80b32e7ec237c0b8":[7,3,2,6],
 "group___adc_driver.html#ga206723ae9c327d596f93f58572917cd1":[7,3,2,9],
 "group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3":[7,3,2,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "group___peripheral_spi_driver.html#ga4f8f02d20e544054d34867cf97b15efa":[7,3,13,0],
 "group___peripheral_spi_driver.html#ga5cced8cf504cb549ebcbc306c72a1beb":[7,3,13,2],
 "group___peripheral_spi_driver.html#ga67a7982118b97a8b2cdcdb2d2f78913c":[7,3,13,18],
-"group___peripheral_spi_driver.html#ga848ed5ab7a42135cb196c2632b894434":[7,3,13,1]
+"group___peripheral_spi_driver.html#ga848ed5ab7a42135cb196c2632b894434":[7,3,13,1],
+"group___peripheral_spi_driver.html#ga84ae0f64b23be6efb1dc71dcd17acbd6":[7,3,13,9]
 };

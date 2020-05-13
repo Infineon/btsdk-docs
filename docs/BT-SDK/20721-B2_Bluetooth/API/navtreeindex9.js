@@ -1,9 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681a875320fd76e0e530dccf79d35da42d97":[7,10,0,8,0],
-"group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681acfbea09b03dd341ba87e4cbe9a69cd05":[7,10,0,8,3],
-"group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61ba30a22f1ab9dae5f76acc147db46457a6":[7,10,0,7,0],
-"group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61ba54e7e66161e6eecdf9def900cdef6f17":[7,10,0,7,2],
 "group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61bab93d22a8a0526b919a0677ec54a9e859":[7,10,0,7,1],
 "group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61bad90cdb768d2a26d6b3e609264161d8e4":[7,10,0,7,3],
 "group__wpl__event.html#ggabf597cc7a68a42ad6909cd0be3f2a61baf5299312160cc886edecfe0b3c3a3d4c":[7,10,0,7,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX9 =
 "structwiced__bt__audio__config__buffer__t.html":[7,9,4,2,0],
 "structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204":[7,9,4,2,0,3],
 "structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae":[7,9,4,2,0,0],
-"structwiced__bt__audio__config__buffer__t.html#aabe15f26dbdc1cb97a45325bfd923e2b":[7,9,4,2,0,2]
+"structwiced__bt__audio__config__buffer__t.html#aabe15f26dbdc1cb97a45325bfd923e2b":[7,9,4,2,0,2],
+"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58":[7,9,4,2,0,1],
+"structwiced__bt__audio__insert__config.html":[7,9,2,1],
+"structwiced__bt__audio__insert__data.html":[7,9,2,0],
+"structwiced__bt__audio__insert__event__audio__info__t.html":[7,9,2,3]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structwiced__bt__mesh__core__config__sensor__t.html#a1d302dd4902232726dc4aad2e9ddffa2":[7,9,21,0,4,8],
-"structwiced__bt__mesh__core__config__sensor__t.html#a1de712f3f2c4cde536c391ea1575b443":[7,9,21,0,4,7],
-"structwiced__bt__mesh__core__config__sensor__t.html#a688dcaff53af82f69abbe24136e1ad3b":[7,9,21,0,4,0],
-"structwiced__bt__mesh__core__config__sensor__t.html#a77d6334e007a2a11abb7fec7bd5e6be7":[7,9,21,0,4,4],
 "structwiced__bt__mesh__core__config__sensor__t.html#a8d665a621e312f01b66359ff69081f90":[7,9,21,0,4,2],
 "structwiced__bt__mesh__core__config__sensor__t.html#abe222f6d3581e7920dcad5306cc906a8":[7,9,21,0,4,1],
 "structwiced__bt__mesh__core__config__sensor__t.html#ad39bfe7de446e4fc386ed7c3645acbcd":[7,9,21,0,4,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX11 =
 "structwiced__bt__mesh__light__lc__light__onoff__status__data__t.html#a646fa87b42187b149f6d8badab574ec0":[7,9,21,2,66,2],
 "structwiced__bt__mesh__light__lc__light__onoff__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,9,21,2,66,1],
 "structwiced__bt__mesh__light__lc__linear__out__set__data__t.html":[7,9,21,2,67],
-"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a284a81478e29d96532d13ebd737d6b82":[7,9,21,2,67,2]
+"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a284a81478e29d96532d13ebd737d6b82":[7,9,21,2,67,2],
+"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a56282d8f945484706e00e7ebcd67b9a3":[7,9,21,2,67,1],
+"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,9,21,2,67,0],
+"structwiced__bt__mesh__light__lc__mode__set__data__t.html":[7,9,21,2,63],
+"structwiced__bt__mesh__light__lc__mode__set__data__t.html#a37e90f5e3bd99fac2021fb3a326607d4":[7,9,21,2,63,0]
 };

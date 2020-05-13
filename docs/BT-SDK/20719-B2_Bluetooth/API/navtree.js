@@ -24,18 +24,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___peripheral_spi_driver.html#ga84ae0f64b23be6efb1dc71dcd17acbd6",
-"group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d",
-"group__wiced__bt__ams__api__functions.html",
-"group__wiced__bt__iap2__api__functions.html#ga188e5f40898c670e9351e6aed720c385",
-"group__wiced__bt__mesh__level__server.html#gad39b8a61c8da1036850c8bd67bd69368",
-"group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56",
-"group__wiced__sleep__config.html#gga5711a6c22c9c52c9ea07239e533e1a2ca7fc5884694f32a0aa9170927d9cc124e",
-"group__wpl__event.html#gab258d4bd72991292c8d0daa660a54681",
-"structwiced__bt__avrc__tg__player__attr__t.html#a829513f0536295bdbf5e46fbabe77c67",
-"structwiced__bt__mesh__core__init__t.html#ade72180d28e2e8000c8b7c2e3ee9a217",
-"structwiced__bt__mesh__light__lightness__default__data__t.html",
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#a6399f54a5209bbc9ec0347150ffda691"
+"group___peripheral_spi_driver.html#ga86912724f67a7db719f7f687003e9766",
+"group__gattdb__api__functions.html#gabba2ffae8e57ab3035d2fa2b8b167223",
+"group__wiced__bt__ams__api__functions.html#ga1e5b199f4f0a4dd6cccc93f06dec2e0f",
+"group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721",
+"group__wiced__bt__mesh__light__ctl__client.html#ga40a2c9aa9bcbc96342b203438b1794df",
+"group__wiced__bt__mesh__provisioning.html#ga09b83f6240bf4427927b3b5b887d05ef",
+"group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481adf45fe82660f80ecaafc1cb9be9ee4b3",
+"group__wpl__event.html#gad188658f896faab5c88049e633bbeb7d",
+"structwiced__bt__avrc__tg__track__attr__t.html#a517f61746f45da01a7581eef2a80d746",
+"structwiced__bt__mesh__core__provision__capabilities__t.html#a120cd573c407780952f0fe08fc5ddfba",
+"structwiced__bt__mesh__light__lightness__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84",
+"structwiced__bt__mesh__sensor__config__setting__t.html#a8b0d6200bc639dd37ff68847a0adde5f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

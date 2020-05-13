@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__hrc__reset__energy__expended__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,3,0],
+"structwiced__bt__hrc__reset__energy__expended__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,3,1],
+"structwiced__bt__hrc__start__t.html":[7,1,19,1],
+"structwiced__bt__hrc__start__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,1,0],
+"structwiced__bt__hrc__start__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,1,1],
+"structwiced__bt__hrc__stop__t.html":[7,1,19,2],
+"structwiced__bt__hrc__stop__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,2,0],
+"structwiced__bt__hrc__stop__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,2,1],
 "structwiced__bt__hrs__handles__t.html":[7,1,20,0],
 "structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed":[7,1,20,0,1],
 "structwiced__bt__hrs__handles__t.html#a30cfcf503497984749cd11c38f56ae8a":[7,1,20,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__light__ctl__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,22,2,33,0],
 "structwiced__bt__mesh__light__ctl__status__data__t.html":[7,1,22,2,32],
 "structwiced__bt__mesh__light__ctl__status__data__t.html#a70cca36b6f723c28e65089bff78138a2":[7,1,22,2,32,2],
-"structwiced__bt__mesh__light__ctl__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,22,2,32,1],
-"structwiced__bt__mesh__light__ctl__status__data__t.html#ac9f524d68a7ad8c9bebe6e4f77b5f299":[7,1,22,2,32,0],
-"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html":[7,1,22,2,37],
-"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,22,2,37,1],
-"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,22,2,37,0],
-"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html":[7,1,22,2,36],
-"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,22,2,36,1],
-"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#ade818037fd6c985038ff29656089758d":[7,1,22,2,36,2],
-"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,22,2,36,0]
+"structwiced__bt__mesh__light__ctl__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,22,2,32,1]
 };

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opusencoder',['OpusEncoder',['../struct_opus_encoder.html',1,'']]]
+  ['nrec_5fconfig_5ft',['nrec_config_t',['../structnrec__config__t.html',1,'']]]
 ];

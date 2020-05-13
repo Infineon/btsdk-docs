@@ -15,6 +15,7 @@ var searchData=
   ['bit_5frate',['bit_rate',['../structwiced__codec__param__aac__t.html#a3c420d1dec274a2ff6cd553376b2bdeb',1,'wiced_codec_param_aac_t']]],
   ['bit_5frate_5findex',['bit_rate_index',['../structwiced__codec__param__mpx__t.html#addb9eff58baee6396fd2ff4629f98a97',1,'wiced_codec_param_mpx_t::bit_rate_index()'],['../structwiced__codec__param__pcm__t.html#addb9eff58baee6396fd2ff4629f98a97',1,'wiced_codec_param_pcm_t::bit_rate_index()']]],
   ['bitpool_5fsize',['bitpool_size',['../structwiced__codec__param__sbc__t.html#a7a2848960bbffb9f6a7a8ec668a9c0bc',1,'wiced_codec_param_sbc_t']]],
+  ['bits_5fper_5fsample',['bits_per_sample',['../structaudio__config__t.html#ae7755042c6c18d06c3d096a78c5997de',1,'audio_config_t']]],
   ['ble',['ble',['../unionwiced__bt__dev__pairing__info__t.html#ab15272a9914f53c8a74fd655dabf9fb1',1,'wiced_bt_dev_pairing_info_t']]],
   ['ble_5faddr_5fpublic',['BLE_ADDR_PUBLIC',['../wiced__bt__types_8h.html#a409fbb547f9650620650b5301df0e2ff',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5fpublic_5fid',['BLE_ADDR_PUBLIC_ID',['../wiced__bt__types_8h.html#a5ac125aff51458f57329826c93ca922a',1,'wiced_bt_types.h']]],

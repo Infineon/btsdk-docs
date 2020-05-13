@@ -420,7 +420,6 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fprovision_5finbound_5fpdu_5freport_5fdata_5ft',['wiced_bt_mesh_provision_inbound_pdu_report_data_t',['../structwiced__bt__mesh__provision__inbound__pdu__report__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_5flink_5freport_5fdata_5ft',['wiced_bt_mesh_provision_link_report_data_t',['../structwiced__bt__mesh__provision__link__report__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_5flink_5fstatus_5fdata_5ft',['wiced_bt_mesh_provision_link_status_data_t',['../structwiced__bt__mesh__provision__link__status__data__t.html',1,'']]],
-  ['wiced_5fbt_5fmesh_5fprovision_5foob_5fvalue_5fdata_5ft',['wiced_bt_mesh_provision_oob_value_data_t',['../structwiced__bt__mesh__provision__oob__value__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_5foutbound_5fpdu_5freport_5fdata_5ft',['wiced_bt_mesh_provision_outbound_pdu_report_data_t',['../structwiced__bt__mesh__provision__outbound__pdu__report__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_5fscan_5fcapabilities_5fstatus_5fdata_5ft',['wiced_bt_mesh_provision_scan_capabilities_status_data_t',['../structwiced__bt__mesh__provision__scan__capabilities__status__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fprovision_5fscan_5fextended_5freport_5fdata_5ft',['wiced_bt_mesh_provision_scan_extended_report_data_t',['../structwiced__bt__mesh__provision__scan__extended__report__data__t.html',1,'']]],

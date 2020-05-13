@@ -103,6 +103,7 @@ var searchData=
   ['rx_5fdata',['rx_data',['../unionwiced__bt__ble__hidh__audio__event__data__t.html#ad9acdb9f035dc2637fa897f879da8249',1,'wiced_bt_ble_hidh_audio_event_data_t']]],
   ['rx_5fgood_5fbytes',['rx_good_bytes',['../wiced__bt__dev_8h.html#ad7ba143ffe536dd1787870aeeb760dda',1,'wiced_bt_dev.h']]],
   ['rx_5fgood_5fpkt_5fcnt',['rx_good_pkt_cnt',['../wiced__bt__dev_8h.html#a8aff43040dafee83ea9d9fd9e5842bfe',1,'wiced_bt_dev.h']]],
+  ['rx_5fphy',['rx_phy',['../structwiced__bt__ble__phy__update__t.html#af6f4df0bdb65a0bc41eb5deda9d34600',1,'wiced_bt_ble_phy_update_t']]],
   ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]],
   ['rxaclbytes',['rxAclBytes',['../structwiced__bt__lq__br__edr__stats.html#aced791d70d426f6a2b2db972dbe07ac6',1,'wiced_bt_lq_br_edr_stats']]],
   ['rxpkts',['rxPkts',['../structwiced__bt__lq__br__edr__stats.html#ac079d6a72dc8890d363acb2af1931b2f',1,'wiced_bt_lq_br_edr_stats']]]

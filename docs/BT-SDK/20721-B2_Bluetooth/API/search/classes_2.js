@@ -6,5 +6,6 @@ var searchData=
   ['celt_5fenc_5fparams',['CELT_ENC_PARAMS',['../struct_c_e_l_t___e_n_c___p_a_r_a_m_s.html',1,'']]],
   ['celt_5fplc_5flcplc_5fconfig',['celt_plc_LCPLC_config',['../structcelt__plc___l_c_p_l_c__config.html',1,'']]],
   ['celt_5fplc_5flcplc_5fstate',['celt_plc_LCPLC_State',['../structcelt__plc___l_c_p_l_c___state.html',1,'']]],
-  ['celt_5fsmd_5fstruct',['CELT_SMD_STRUCT',['../struct_c_e_l_t___s_m_d___s_t_r_u_c_t.html',1,'']]]
+  ['celt_5fsmd_5fstruct',['CELT_SMD_STRUCT',['../struct_c_e_l_t___s_m_d___s_t_r_u_c_t.html',1,'']]],
+  ['codec_5fconfig_5ft',['codec_config_t',['../structcodec__config__t.html',1,'']]]
 ];

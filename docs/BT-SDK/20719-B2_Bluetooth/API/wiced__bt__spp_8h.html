@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -121,6 +121,12 @@ Macros</h2></td></tr>
 <tr class="memitem:acd2c82ec23e99b10a53439dd69f68c6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd2c82ec23e99b10a53439dd69f68c6d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>SPP_MAX_PACKET_SIZE</b>&#160;&#160;&#160;1013</td></tr>
 <tr class="separator:acd2c82ec23e99b10a53439dd69f68c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8273c2610a43d4d6dd7f3c2fd8598e16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8273c2610a43d4d6dd7f3c2fd8598e16"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_PURGE_TXCLEAR</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a8273c2610a43d4d6dd7f3c2fd8598e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef492b7b7512a2d8da3b1018f98492b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef492b7b7512a2d8da3b1018f98492b7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_PURGE_RXCLEAR</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:aef492b7b7512a2d8da3b1018f98492b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -163,6 +169,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a">wiced_bt_spp_can_send_more_data</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_spp_can_send_more_data.  <a href="group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a">More...</a><br /></td></tr>
 <tr class="separator:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f936b55910974c17394ddc91eed6db3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3">wiced_bt_spp_port_purge</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t purge_flags)</td></tr>
+<tr class="memdesc:ga9f936b55910974c17394ddc91eed6db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to discard all the data from the output or input queues of the specified connection.  <a href="group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3">More...</a><br /></td></tr>
+<tr class="separator:ga9f936b55910974c17394ddc91eed6db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file provides definitions of the SPP implementation. </p>
@@ -171,7 +180,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_c6f8dc558a50b7602f8e1602a7bcbf05.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__spp_8h.html">wiced_bt_spp.h</a></li>
+    <li class="navelem"><a class="el" href="dir_381784b046463e89e192fac110641b13.html">out</a></li><li class="navelem"><a class="el" href="dir_2af11a1d75825a88b1a4e9a0516672cd.html">repos</a></li><li class="navelem"><a class="el" href="dir_70ea0f88d10842b2337e42c4b17b6f53.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__spp_8h.html">wiced_bt_spp.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

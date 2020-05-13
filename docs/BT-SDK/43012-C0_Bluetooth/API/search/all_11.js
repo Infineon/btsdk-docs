@@ -219,7 +219,6 @@ var searchData=
   ['publish_5fttl',['publish_ttl',['../wiced__bt__mesh__provision_8h.html#ae759fc29c75f4f00bdbaa172fd387aa9',1,'wiced_bt_mesh_provision.h']]],
   ['put_5fbuffer',['put_buffer',['../structstream__interface__t.html#a7372381204a30188f5bd2e869af341c8',1,'stream_interface_t']]],
   ['put_5fref_5fbuffer',['put_ref_buffer',['../structcapture__stream__interface__t.html#a034cbe56d63a5c5281b2927c5a77712b',1,'capture_stream_interface_t']]],
-  ['pwm_5fconfig_5ft',['pwm_config_t',['../structpwm__config__t.html',1,'']]],
   ['pwmclocktype',['PwmClockType',['../group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f',1,'wiced_hal_pwm.h']]],
   ['pulse_20width_20modulation_20_28pwm_29',['Pulse Width Modulation (PWM)',['../group___pwm_driver.html',1,'']]]
 ];

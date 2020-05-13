@@ -11,6 +11,7 @@ var searchData=
   ['bit_5frate',['bit_rate',['../structwiced__codec__param__aac__t.html#a3c420d1dec274a2ff6cd553376b2bdeb',1,'wiced_codec_param_aac_t']]],
   ['bit_5frate_5findex',['bit_rate_index',['../structwiced__codec__param__mpx__t.html#addb9eff58baee6396fd2ff4629f98a97',1,'wiced_codec_param_mpx_t::bit_rate_index()'],['../structwiced__codec__param__pcm__t.html#addb9eff58baee6396fd2ff4629f98a97',1,'wiced_codec_param_pcm_t::bit_rate_index()']]],
   ['bitpool_5fsize',['bitpool_size',['../structwiced__codec__param__sbc__t.html#a7a2848960bbffb9f6a7a8ec668a9c0bc',1,'wiced_codec_param_sbc_t']]],
+  ['bits_5fper_5fsample',['bits_per_sample',['../structaudio__config__t.html#ae7755042c6c18d06c3d096a78c5997de',1,'audio_config_t']]],
   ['ble',['ble',['../unionwiced__bt__dev__pairing__info__t.html#ab15272a9914f53c8a74fd655dabf9fb1',1,'wiced_bt_dev_pairing_info_t']]],
   ['ble_5faddr_5ftype',['ble_addr_type',['../structwiced__bt__ble__scan__results__t.html#a96815bc8a531436c4e3a0d73491fe0b3',1,'wiced_bt_ble_scan_results_t::ble_addr_type()'],['../wiced__bt__dev_8h.html#a2d991080ea0c2003c5e8301a4e280538',1,'ble_addr_type():&#160;wiced_bt_dev.h']]],
   ['ble_5fadvert_5fcfg',['ble_advert_cfg',['../structwiced__bt__cfg__settings__t.html#a4d2439f702120d95c09a38f1dac30a25',1,'wiced_bt_cfg_settings_t']]],

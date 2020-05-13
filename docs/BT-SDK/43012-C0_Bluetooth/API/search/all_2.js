@@ -125,6 +125,7 @@ var searchData=
   ['attribute_5frequest',['attribute_request',['../unionwiced__bt__gatt__event__data__t.html#a3887c93ec05d263c951942b55e7937eb',1,'wiced_bt_gatt_event_data_t']]],
   ['attribute_5fstr',['attribute_str',['../structwiced__bt__ams__event__t.html#a272034a097698024d0a72c70ecfe1b21',1,'wiced_bt_ams_event_t']]],
   ['audio_5fcodec_5fbuffer_5fsize',['audio_codec_buffer_size',['../structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae',1,'wiced_bt_audio_config_buffer_t']]],
+  ['audio_5fconfig_5ft',['audio_config_t',['../structaudio__config__t.html',1,'']]],
   ['audio_20insertion',['Audio Insertion',['../group__audio__insert.html',1,'']]],
   ['api_20functions',['API Functions',['../group__audio__insert__api__functions.html',1,'']]],
   ['audio_5froute_5fcompressed_5ftransport',['AUDIO_ROUTE_COMPRESSED_TRANSPORT',['../group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a8e73675db42a0d6d30ed7558f20625a8',1,'wiced_bt_audio.h']]],

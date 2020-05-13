@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d":[7,0,4,3,2],
 "group__gattdb__api__functions.html#gabba2ffae8e57ab3035d2fa2b8b167223":[7,0,4,3,3],
 "group__group__ota__fw__upgrade__cback__functions.html":[7,6,0,1],
 "group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c":[7,6,0,1,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "group__timer.html#ga88f3fefc1d119b55f4b011b80448565a":[7,3,20,5],
 "group__timer.html#gac559821c78cfbda4e360c77144dad978":[7,3,20,1],
 "group__timer.html#gad18b313d83b4c4ca57f73cee258a26fd":[7,3,20,2],
-"group__timer.html#gaff14cd08aabe6a5d074d50c4568a2859":[7,3,20,4]
+"group__timer.html#gaff14cd08aabe6a5d074d50c4568a2859":[7,3,20,4],
+"group__wiced__bt__ams__api__functions.html":[7,0,0]
 };

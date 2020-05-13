@@ -1,5 +1,6 @@
 var group__btm__ble__api__functions =
 [
+    [ "wiced_ble_private_device_address_resolution", "group__btm__ble__api__functions.html#gaa1a08bf54c9c06015c1bbafbaab433c1", null ],
     [ "wiced_bt_ble_check_advertising_data", "group__btm__ble__api__functions.html#ga8d62204cf6ab289f977215c08d5864ca", null ],
     [ "wiced_bt_ble_clear_white_list", "group__btm__ble__api__functions.html#ga0b5e961cacea2b8efab9e9df400765c8", null ],
     [ "wiced_bt_ble_data_signature", "group__btm__ble__api__functions.html#ga1745ec7401f09c80ec5aecbacc9c0002", null ],
@@ -22,5 +23,6 @@ var group__btm__ble__api__functions =
     [ "wiced_bt_ble_update_scanner_white_list", "group__btm__ble__api__functions.html#gabdb60d361b6a6527e0f02bfb4cd61138", null ],
     [ "wiced_bt_ble_verify_signature", "group__btm__ble__api__functions.html#ga771629322c842c541611d928ad128a40", null ],
     [ "wiced_bt_start_advertisements", "group__btm__ble__api__functions.html#ga90a7b45015280a2dcef73a5be07cd561", null ],
-    [ "wiced_btm_ble_update_advertisement_filter_policy", "group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4", null ]
+    [ "wiced_btm_ble_update_advertisement_filter_policy", "group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4", null ],
+    [ "wiced_btm_get_private_bda", "group__btm__ble__api__functions.html#ga25741accdeebfb7297645d5ead4197ba", null ]
 ];

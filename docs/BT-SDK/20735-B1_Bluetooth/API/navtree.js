@@ -24,18 +24,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "globals.html",
-"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125acb25de9fbbdd405cc15e0176da4cba73",
-"group__btm__ble__api__functions.html#ga3748634252d38e79fbc4247975a2ef43",
-"group__l2cap__api__functions.html#gae063bb78235a75f6c9439a73bd4ca12f",
-"group__wiced__bt__ans__api__functions.html#gad2438f73a2ea7d855ffe2f3df8ffff7d",
-"group__wiced__bt__mesh__core.html#ga835762c5ffaaf4bc6d752ff2a4df81e8",
-"group__wiced__bt__mesh__model__light__lc__server.html#gacd115a125b843a2cc22ee3f003568349",
-"group__wiced__bt__mesh__provisioning.html#gaeb410552dddb69a19b7341c0b3fdb986",
-"group__wicedbt__bredr.html#gaf533e2a68506fc637f9fee8da186f2e2",
-"structwiced__bt__hidh__virtual__unplug__t.html#af242d6e3b6108ea75e1eb236e94c8240",
-"structwiced__bt__mesh__fw__distr__caps__t.html",
-"structwiced__bt__mesh__power__level__status__data__t.html",
-"unionwiced__bt__mesh__core__state__t.html#a7e3e4de72857ff1813ac6bd07fe9a7f2"
+"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125acd1688548628f4246cec955c73037bf8",
+"group__btm__ble__api__functions.html#ga37a11fc558b6587f8c7288aa943edf06",
+"group__l2cap__api__functions.html#gae099861fe24b11a8f99029410190f120",
+"group__wiced__bt__ans__api__functions.html#gaecde26d5e924c73b91143375f4131ca7",
+"group__wiced__bt__mesh__core.html#ga89a11dca5efe4e307efba3cab7843823",
+"group__wiced__bt__mesh__models.html#ga002171e5549f1b9a78712220855aa1cb",
+"group__wiced__bt__mesh__provisioning.html#gaf84b575babd00ddb0a600ef4d9edf52a",
+"group__wicedbt__bredr.html#gaff614aad7be8ad5bde22d36351fac720",
+"structwiced__bt__hrc__discovery__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47",
+"structwiced__bt__mesh__fw__distr__caps__t.html#a5e17c2e4da28a9dfc367ed54b338d802",
+"structwiced__bt__mesh__power__level__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
+"unionwiced__bt__mesh__core__state__t.html#ab167c3f49174df8f951ee4280df2902e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

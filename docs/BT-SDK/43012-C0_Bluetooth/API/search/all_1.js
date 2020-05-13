@@ -6,5 +6,5 @@ var searchData=
   ['_5f3_5fdh1_5fcount',['_3_dh1_count',['../unionwiced__bt__br__edr__pkt__type__stats.html#a6e236e3d1c8fee232ebfea78d79a4efd',1,'wiced_bt_br_edr_pkt_type_stats']]],
   ['_5f3_5fdh3_5fcount',['_3_dh3_count',['../unionwiced__bt__br__edr__pkt__type__stats.html#ac67b59900f3fa2e543e9777d8f3e2104',1,'wiced_bt_br_edr_pkt_type_stats']]],
   ['_5f3_5fdh5_5fcount',['_3_dh5_count',['../unionwiced__bt__br__edr__pkt__type__stats.html#a96c06b25fecc185bf93f5fbc258a9623',1,'wiced_bt_br_edr_pkt_type_stats']]],
-  ['_5f_5fattribute_5f_5f',['__attribute__',['../wiced__audio__manager_8h.html#ab898071398b359603a35c202e9c65f3b',1,'wiced_audio_manager.h']]]
+  ['_5fcountof',['_countof',['../group__helper.html#ga4987dd6844197a1b6267f4261ae70cf3',1,'wiced_utilities.h']]]
 ];

@@ -32,5 +32,6 @@ var modules =
     [ "Human Interface Device Host Audio", "group__wiced__bt__ble__hidh__audio__api__functions.html", "group__wiced__bt__ble__hidh__audio__api__functions" ],
     [ "Human Interface Device Host WakeUp", "group__wiced__bt__ble__hidh__wakeup__api__functions.html", "group__wiced__bt__ble__hidh__wakeup__api__functions" ],
     [ "Human Interface Device Host Role (HIDH)", "group__wiced__bt__hidh__api__functions.html", "group__wiced__bt__hidh__api__functions" ],
+    [ "Helper", "group__helper.html", "group__helper" ],
     [ "System", "group__wicedsys.html", "group__wicedsys" ]
 ];

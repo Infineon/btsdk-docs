@@ -29,13 +29,13 @@ var NAVTREEINDEX =
 "group__sha512.html#gab94699019fc93637e91cf88403f80360",
 "group__wiced__bt__hidh__api__functions.html#gga2ba7091a2e89571fa68081e1b33e3071aeb6876b8d4605fe5bf59b73a94e382e0",
 "group__wiced__bt__mesh__core.html#gad429c40f45f13693d7e64894a7402f69",
-"group__wiced__bt__mesh__models.html#gabbefa81d7ef47be9593ed93c80221946",
-"group__wiced__bt__mesh__sensor__server.html#ga1ddaea44b65372c7cabadf2a7637a502",
-"modules.html",
-"structwiced__bt__hidh__get__report__t.html#a8304c4af5da6e830b86d7199dc9a22e6",
-"structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f",
-"structwiced__bt__mesh__onoff__status__data__t.html#a09c7da8c6da38a06ee60cb9bb5c5476b",
-"unionwiced__bt__mesh__core__state__t.html#a90d72a7eaec388bf7b534f43e959ab96"
+"group__wiced__bt__mesh__models.html#gaca85d3e843373ba038d444bf75349cc0",
+"group__wiced__bt__mesh__sensor__server.html#ga88ff291568574d6d5be2af1dd5da0994",
+"struct__wiced__hal__batmon__observer.html",
+"structwiced__bt__hidh__get__report__t.html#af242d6e3b6108ea75e1eb236e94c8240",
+"structwiced__bt__mesh__event____t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e",
+"structwiced__bt__mesh__onoff__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
+"unionwiced__bt__mesh__core__state__t.html#ab167c3f49174df8f951ee4280df2902e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -411,7 +411,6 @@ var group__wiced__bt__mesh__models =
     [ "Mesh Time Client", "group__wiced__bt__mesh__time__client.html", "group__wiced__bt__mesh__time__client" ],
     [ "Mesh Scheduler Server", "group__wiced__bt__mesh__scheduler__server.html", "group__wiced__bt__mesh__scheduler__server" ],
     [ "Mesh Scheduler Client", "group__wiced__bt__mesh__scheduler__client.html", "group__wiced__bt__mesh__scheduler__client" ],
-    [ "Mesh Firmware Distribution Server", "group__wiced__bt__mesh__fw__distribution__server.html", "group__wiced__bt__mesh__fw__distribution__server" ],
     [ "Mesh FW Update Client", "group__wiced__bt__mesh__fw__update__client.html", "group__wiced__bt__mesh__fw__update__client" ],
     [ "Mesh BLOB Transfer Client", "group__wiced__bt__mesh__blob__transfer__client.html", "group__wiced__bt__mesh__blob__transfer__client" ],
     [ "Mesh Firmware Update Server", "group__wiced__bt__mesh__fw__update__server.html", "group__wiced__bt__mesh__fw__update__server" ],

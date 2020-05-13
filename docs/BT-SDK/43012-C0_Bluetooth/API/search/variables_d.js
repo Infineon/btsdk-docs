@@ -42,6 +42,7 @@ var searchData=
   ['mem_5fsize',['mem_size',['../structwiced__bt__sdp__discovery__db__t.html#a3f6a3b0b58cbdacf4ce9a0c9b3d64794',1,'wiced_bt_sdp_discovery_db_t']]],
   ['message',['message',['../structancs__event__t.html#a62f0fd3e52d61e2b4292284eb588c897',1,'ancs_event_t']]],
   ['meta_5fdata',['meta_data',['../wiced__bt__mesh__provision_8h.html#a18f8906dabd27c0cae897a59981531c7',1,'wiced_bt_mesh_provision.h']]],
+  ['mic_5fgain',['mic_gain',['../structaudio__config__t.html#aba51e61d19b71baf5a28019391a4475d',1,'audio_config_t']]],
   ['min',['min',['../structwiced__bt__hidd__pwr__md.html#a1a1f4624f66ab0b2eb0b98316514c369',1,'wiced_bt_hidd_pwr_md']]],
   ['min_5fblock_5fsize_5flog',['min_block_size_log',['../structmesh__blob__transfer__capabilities__state__t.html#a1b0735b16ddf479fe79fc4202dbe4d83',1,'mesh_blob_transfer_capabilities_state_t']]],
   ['min_5fcache_5fsize_5flog',['min_cache_size_log',['../wiced__bt__mesh__cfg_8h.html#aa6d7de2ccc55b094b0ccb727df33efd6',1,'wiced_bt_mesh_cfg.h']]],

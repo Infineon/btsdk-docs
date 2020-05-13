@@ -1,9 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"structwiced__bt__spp__reg__t.html#aefa2be089fd56821b92fe080d17c8f53":[7,3,18,0,5],
-"structwiced__bt__tx__power__result__t.html":[7,1,5,4],
-"structwiced__bt__tx__power__result__t.html#a72a96ade6a01c9bd107a0977b6a3059c":[7,1,5,4,3],
-"structwiced__bt__tx__power__result__t.html#a7dee97e61112cd3d5df7d7a12442757a":[7,1,5,4,1],
 "structwiced__bt__tx__power__result__t.html#aa904d111ff996e4722c677ab290fbc77":[7,1,5,4,0],
 "structwiced__bt__tx__power__result__t.html#ab8e479da74afc23640638fcab4e40062":[7,1,5,4,2],
 "structwiced__rtc__time__t.html":[7,6,19,0],

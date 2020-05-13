@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"structancs__event__t.html#a0b9e4627203f814e26eb305c1cd121a1":[7,26,0,8],
+"structancs__event__t.html#a1a5aaa930940857f68f245eeb89506b5":[7,26,0,1],
+"structancs__event__t.html#a2bb032e5fa1cb5fb70f8b03aadf07200":[7,26,0,7],
+"structancs__event__t.html#a46b3b8db2420ef5ea1b26f43b172a9ad":[7,26,0,6],
+"structancs__event__t.html#a62f0fd3e52d61e2b4292284eb588c897":[7,26,0,3],
+"structancs__event__t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,26,0,2],
+"structancs__event__t.html#ad32641b3997d65c33b13514e10676e29":[7,26,0,0],
+"structancs__event__t.html#ae42f69f6c5e626585ff1d8659302024c":[7,26,0,5],
+"structancs__event__t.html#ae4e6e3dc48c41385e79486c1cd068a4b":[7,26,0,4],
+"structmesh__battery__event__t.html":[7,1,22,2,0],
+"structmesh__battery__event__t.html#a0fb4e2d117d1a1a4f6e6190170bc35ab":[7,1,22,2,0,3],
 "structmesh__battery__event__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86":[7,1,22,2,0,0],
 "structmesh__battery__event__t.html#a3e901fd985daa36b7813eefdc5499018":[7,1,22,2,0,2],
 "structmesh__battery__event__t.html#a4033d2d4da842718b4f4abb7f3a6f5d5":[7,1,22,2,0,5],
@@ -36,9 +47,6 @@ var NAVTREEINDEX8 =
 "structmesh__core__provision__cb__t.html#ab5627d8d8b095c198e2523c44ca380ac":[7,1,22,0,16,19],
 "structmesh__core__provision__cb__t.html#abffe66975a00553d5a2f674873dbbefc":[7,1,22,0,16,16],
 "structmesh__core__provision__cb__t.html#ae13de25336fc357947b3b8f228f54e42":[7,1,22,0,16,11],
-"structpwm__config__t.html":[7,20,0],
-"structpwm__config__t.html#a649717814d87517d92d0c8b26d8c70ec":[7,20,0,1],
-"structpwm__config__t.html#afaed6675877fe8caa9033b3df01ef1ce":[7,20,0,0],
 "structwiced__bt__ams__event__t.html":[7,25,0],
 "structwiced__bt__ams__event__t.html#a272034a097698024d0a72c70ecfe1b21":[7,25,0,2],
 "structwiced__bt__ams__event__t.html#a4a72c117a189a3ad3e2f1b7ec9cea318":[7,25,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__hrc__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4":[7,1,19,4,3],
 "structwiced__bt__hrc__notification__data__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,4,0],
 "structwiced__bt__hrc__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40":[7,1,19,4,1],
-"structwiced__bt__hrc__reset__energy__expended__t.html":[7,1,19,3],
-"structwiced__bt__hrc__reset__energy__expended__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,3,0],
-"structwiced__bt__hrc__reset__energy__expended__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,3,1],
-"structwiced__bt__hrc__start__t.html":[7,1,19,1],
-"structwiced__bt__hrc__start__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,1,0],
-"structwiced__bt__hrc__start__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,1,1],
-"structwiced__bt__hrc__stop__t.html":[7,1,19,2],
-"structwiced__bt__hrc__stop__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,19,2,0],
-"structwiced__bt__hrc__stop__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,19,2,1]
+"structwiced__bt__hrc__reset__energy__expended__t.html":[7,1,19,3]
 };

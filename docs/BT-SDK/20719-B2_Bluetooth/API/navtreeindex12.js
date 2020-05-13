@@ -1,11 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#a6399f54a5209bbc9ec0347150ffda691":[7,0,18,0,0,4],
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#ac9e12cfeda706e202e2d16c25407d429":[7,0,18,0,0,1],
-"structwiced__bt__mesh__sensor__config__descriptor__t.html#aee12a5da325982693371d8dcbe57323a":[7,0,18,0,0,0],
-"structwiced__bt__mesh__sensor__config__setting__t.html":[7,0,18,0,1],
-"structwiced__bt__mesh__sensor__config__setting__t.html#a0cc9076a22653b4c950d95a2e431d8b4":[7,0,18,0,1,1],
-"structwiced__bt__mesh__sensor__config__setting__t.html#a11e750dbec691489a3e323cb8c61704a":[7,0,18,0,1,2],
 "structwiced__bt__mesh__sensor__config__setting__t.html#a8b0d6200bc639dd37ff68847a0adde5f":[7,0,18,0,1,0],
 "structwiced__bt__mesh__sensor__config__setting__t.html#ae02b3e5d161799d5639f0f0b9877997c":[7,0,18,0,1,3],
 "structwiced__bt__mesh__set__dev__key__data__t.html":[7,0,18,3,1],

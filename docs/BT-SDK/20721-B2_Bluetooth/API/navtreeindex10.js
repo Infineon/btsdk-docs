@@ -1,9 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58":[7,9,4,2,0,1],
-"structwiced__bt__audio__insert__config.html":[7,9,2,1],
-"structwiced__bt__audio__insert__data.html":[7,9,2,0],
-"structwiced__bt__audio__insert__event__audio__info__t.html":[7,9,2,3],
 "structwiced__bt__audio__insert__event__data__req__t.html":[7,9,2,2],
 "structwiced__bt__audio__record__event__audio__info__t.html":[7,9,3,0,1],
 "structwiced__bt__audio__record__event__data__ready__t.html":[7,9,3,0,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__connect__status__data__t.html#a41a6aad09727eb120338c35535a652a6":[7,9,21,3,15,0],
 "structwiced__bt__mesh__connect__status__data__t.html#a91553b72c9b4759ddb48feffd7f2ffb1":[7,9,21,3,15,1],
 "structwiced__bt__mesh__connect__status__data__t.html#a9ee92ed85a3879a50045633ea994a168":[7,9,21,3,15,3],
-"structwiced__bt__mesh__core__config__sensor__t.html":[7,9,21,0,4]
+"structwiced__bt__mesh__core__config__sensor__t.html":[7,9,21,0,4],
+"structwiced__bt__mesh__core__config__sensor__t.html#a1d302dd4902232726dc4aad2e9ddffa2":[7,9,21,0,4,8],
+"structwiced__bt__mesh__core__config__sensor__t.html#a1de712f3f2c4cde536c391ea1575b443":[7,9,21,0,4,7],
+"structwiced__bt__mesh__core__config__sensor__t.html#a688dcaff53af82f69abbe24136e1ad3b":[7,9,21,0,4,0],
+"structwiced__bt__mesh__core__config__sensor__t.html#a77d6334e007a2a11abb7fec7bd5e6be7":[7,9,21,0,4,4]
 };

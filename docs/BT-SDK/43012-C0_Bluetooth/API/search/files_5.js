@@ -93,6 +93,7 @@ var searchData=
   ['wiced_5fhal_5fwdog_2eh',['wiced_hal_wdog.h',['../wiced__hal__wdog_8h.html',1,'']]],
   ['wiced_5fhal_5fwlan_2eh',['wiced_hal_wlan.h',['../wiced__hal__wlan_8h.html',1,'']]],
   ['wiced_5fhci_2eh',['wiced_hci.h',['../wiced__hci_8h.html',1,'']]],
+  ['wiced_5fled_5fmanager_2eh',['wiced_led_manager.h',['../wiced__led__manager_8h.html',1,'']]],
   ['wiced_5fmail_5fbox_2eh',['wiced_mail_box.h',['../wiced__mail__box_8h.html',1,'']]],
   ['wiced_5fmemory_2eh',['wiced_memory.h',['../wiced__memory_8h.html',1,'']]],
   ['wiced_5fplatform_5faudio_5fcommon_2eh',['wiced_platform_audio_common.h',['../wiced__platform__audio__common_8h.html',1,'']]],
@@ -101,5 +102,6 @@ var searchData=
   ['wiced_5fsleep_2eh',['wiced_sleep.h',['../wiced__sleep_8h.html',1,'']]],
   ['wiced_5fthermistor_2eh',['wiced_thermistor.h',['../wiced__thermistor_8h.html',1,'']]],
   ['wiced_5ftimer_2eh',['wiced_timer.h',['../wiced__timer_8h.html',1,'']]],
-  ['wiced_5ftransport_2eh',['wiced_transport.h',['../wiced__transport_8h.html',1,'']]]
+  ['wiced_5ftransport_2eh',['wiced_transport.h',['../wiced__transport_8h.html',1,'']]],
+  ['wiced_5futilities_2eh',['wiced_utilities.h',['../wiced__utilities_8h.html',1,'']]]
 ];

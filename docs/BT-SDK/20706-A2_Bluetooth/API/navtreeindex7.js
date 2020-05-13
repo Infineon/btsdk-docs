@@ -1,8 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"group__wiced__bt__mesh__sensor__server.html#ga1ddaea44b65372c7cabadf2a7637a502":[7,0,21,2,102,1],
-"group__wiced__bt__mesh__sensor__server.html#ga278b01024426e46048140d22fbc478fa":[7,0,21,2,102,3],
-"group__wiced__bt__mesh__sensor__server.html#ga5ea857d449567618ce7f299fc57ad227":[7,0,21,2,102,5],
 "group__wiced__bt__mesh__sensor__server.html#ga88ff291568574d6d5be2af1dd5da0994":[7,0,21,2,102,4],
 "group__wiced__bt__mesh__sensor__server.html#gaa878df1a615babe42c88075d626f53d6":[7,0,21,2,102,6],
 "group__wiced__bt__mesh__sensor__server.html#gadc856e45a2e98c17342907e40393ea91":[7,0,21,2,102,2],
@@ -28,18 +25,19 @@ var NAVTREEINDEX7 =
 "group__wiced__bt__mesh__time__server.html#gad29bdd5693a04943116e28289d0b8f6f":[7,0,21,2,106,5],
 "group__wiced__bt__mesh__time__server.html#gae8f8ae85d110535c3d0b5278fca8df45":[7,0,21,2,106,3],
 "group__wiced__bt__spp__api__functions.html":[7,0,22],
-"group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12":[7,0,22,11],
+"group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12":[7,0,22,12],
 "group__wiced__bt__spp__api__functions.html#ga254b2410dbd3d8c9037649489e6b8203":[7,0,22,2],
 "group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6":[7,0,22,9],
 "group__wiced__bt__spp__api__functions.html#ga5c5c70bb21b99504927f619833b091f5":[7,0,22,3],
 "group__wiced__bt__spp__api__functions.html#ga842fc79d956a41f5cbdaada0f1753690":[7,0,22,4],
 "group__wiced__bt__spp__api__functions.html#ga8571fb855fd7139dd611863041339980":[7,0,22,1],
 "group__wiced__bt__spp__api__functions.html#ga85c984a551ff8f1e0bd0d0f3a641620b":[7,0,22,5],
-"group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb":[7,0,22,12],
+"group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb":[7,0,22,13],
 "group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a":[7,0,22,7],
 "group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42":[7,0,22,8],
-"group__wiced__bt__spp__api__functions.html#ga960acfc309b12fbd1304368031049cef":[7,0,22,10],
+"group__wiced__bt__spp__api__functions.html#ga960acfc309b12fbd1304368031049cef":[7,0,22,11],
 "group__wiced__bt__spp__api__functions.html#ga991d89c51fd6d6e5ac2dd40f2441ba53":[7,0,22,6],
+"group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3":[7,0,22,10],
 "group__wiced__mem.html":[7,0,15],
 "group__wiced__mem.html#ga1339337d457a42436789ec5bdd478ac9":[7,0,15,4],
 "group__wiced__mem.html#ga362e499624bcc944e2acf270c3247682":[7,0,15,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "index.html#wiced_hw_docs":[2],
 "index.html#wiced_license":[6],
 "index.html#wiced_pdf_docs":[1],
-"index.html#wiced_web":[3]
+"index.html#wiced_web":[3],
+"modules.html":[7],
+"pages.html":[]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"group___peripheral_spi_driver.html#ga84ae0f64b23be6efb1dc71dcd17acbd6":[7,3,13,9],
 "group___peripheral_spi_driver.html#ga86912724f67a7db719f7f687003e9766":[7,3,13,19],
 "group___peripheral_spi_driver.html#ga9273c5160032436109dced772a9674e8":[7,3,13,20],
 "group___peripheral_spi_driver.html#gaa2c7b00a6d6a55743d6744d257854419":[7,3,13,11],
@@ -214,8 +213,8 @@ var NAVTREEINDEX1 =
 "group__btm__sec__api__functions.html#gafce580b6606202828f9dfb1893cc30f4":[7,0,3,2,10],
 "group__client__api__functions.html":[7,0,7,0,0],
 "group__client__api__functions.html":[7,0,7,1],
-"group__client__api__functions.html#ga02961837344859d8683ac425c8112d41":[7,0,7,0,0,3],
 "group__client__api__functions.html#ga02961837344859d8683ac425c8112d41":[7,0,7,1,3],
+"group__client__api__functions.html#ga02961837344859d8683ac425c8112d41":[7,0,7,0,0,3],
 "group__client__api__functions.html#ga02eee1730c4f9b285c504d25ff465b9d":[7,0,7,0,0,2],
 "group__client__api__functions.html#ga02eee1730c4f9b285c504d25ff465b9d":[7,0,7,1,2],
 "group__client__api__functions.html#ga0d7641369645f30f4809e3e76c805679":[7,0,7,0,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "group__gattdb__api__functions.html":[7,0,4,3],
 "group__gattdb__api__functions.html#ga11e5889a5c9a918bb8852527f41d1012":[7,0,4,3,1],
 "group__gattdb__api__functions.html#ga66c9d67c8068bfe3a82a74fe2fcbda5d":[7,0,4,3,4],
-"group__gattdb__api__functions.html#ga877d48da4bfe8fa5c52a75d76b6932da":[7,0,4,3,0]
+"group__gattdb__api__functions.html#ga877d48da4bfe8fa5c52a75d76b6932da":[7,0,4,3,0],
+"group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d":[7,0,4,3,2]
 };

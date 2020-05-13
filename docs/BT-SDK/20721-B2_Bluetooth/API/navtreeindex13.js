@@ -1,12 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"structwiced__bt__mesh__proxy__device__network__data__t.html":[7,9,21,3,3],
-"structwiced__bt__mesh__proxy__device__network__data__t.html#a3b962e67ba74725bd60ca3c29f785abe":[7,9,21,3,3,3],
-"structwiced__bt__mesh__proxy__device__network__data__t.html#a624fd24b46be2b40c8731334c9de5d06":[7,9,21,3,3,0],
-"structwiced__bt__mesh__proxy__device__network__data__t.html#a88c79cd52cb7992eefd326dbdc584a64":[7,9,21,3,3,2],
-"structwiced__bt__mesh__proxy__device__network__data__t.html#a952371edef8f87661e8017d3327e9113":[7,9,21,3,3,1],
-"structwiced__bt__mesh__sensor__config__cadence__t.html":[7,9,21,0,3],
-"structwiced__bt__mesh__sensor__config__cadence__t.html#a042e475505b83de239dcb9aaea7b09a8":[7,9,21,0,3,6],
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a156459577a86ed2743f55656f93bfa4d":[7,9,21,0,3,2],
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a25b0396cd19dce2984099a29939d4078":[7,9,21,0,3,3],
 "structwiced__bt__mesh__sensor__config__cadence__t.html#a34332ed5393e5e12ba27b90d45ab8d5c":[7,9,21,0,3,5],

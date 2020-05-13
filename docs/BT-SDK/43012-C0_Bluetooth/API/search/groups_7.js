@@ -1,6 +1,7 @@
 var searchData=
 [
   ['header_20operations',['Header Operations',['../group__header__api__functions.html',1,'']]],
+  ['helper',['Helper',['../group__helper.html',1,'']]],
   ['hidd_20over_20br_2fedr',['HIDD over BR/EDR',['../group__hidd__api__functions.html',1,'']]],
   ['hidd_20over_20ble',['HIDD over BLE',['../group__hidd__le__api__functions.html',1,'']]],
   ['human_20interface_20device_20host_20role_20_28hidh_29',['Human Interface Device Host Role (HIDH)',['../group__wiced__bt__ble__hidh__api__functions.html',1,'']]],

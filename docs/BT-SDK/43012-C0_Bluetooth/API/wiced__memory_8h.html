@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -172,6 +172,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a91142d1b1a2e64cfbcacae67aa24867a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__memory_8h.html#a91142d1b1a2e64cfbcacae67aa24867a">wiced_bt_get_buffer_usage</a> (<a class="el" href="wiced__memory_8h.html#a71da702c41e4d593f0e7775e81f42a98">wiced_bt_buffer_statistics_t</a> *p_buffer_stat, uint16_t size)</td></tr>
 <tr class="memdesc:a91142d1b1a2e64cfbcacae67aa24867a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_get_buffer_usage.  <a href="#a91142d1b1a2e64cfbcacae67aa24867a">More...</a><br /></td></tr>
 <tr class="separator:a91142d1b1a2e64cfbcacae67aa24867a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f1a0590591e126a631146850ade850"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__memory_8h.html#ad1f1a0590591e126a631146850ade850">wiced_memory_allocate</a> (uint32_t size)</td></tr>
+<tr class="memdesc:ad1f1a0590591e126a631146850ade850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_allocate.  <a href="#ad1f1a0590591e126a631146850ade850">More...</a><br /></td></tr>
+<tr class="separator:ad1f1a0590591e126a631146850ade850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cffc04feb3287cb93e89aae170d73d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__memory_8h.html#a1cffc04feb3287cb93e89aae170d73d1">wiced_memory_free</a> (void *memoryBlock)</td></tr>
+<tr class="memdesc:a1cffc04feb3287cb93e89aae170d73d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_free.  <a href="#a1cffc04feb3287cb93e89aae170d73d1">More...</a><br /></td></tr>
+<tr class="separator:a1cffc04feb3287cb93e89aae170d73d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wiced Memory Management Interface. </p>
@@ -380,6 +386,58 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad1f1a0590591e126a631146850ade850"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* wiced_memory_allocate </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_memory_allocate. </p>
+<p>Allocates memory from Dynamic Memory pools</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>:size of the memory to be allocated</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>pointer to the allocated memory on success NULL on failure </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1cffc04feb3287cb93e89aae170d73d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_memory_free </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>memoryBlock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_memory_free. </p>
+<p>Frees the buffer</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_buf</td><td>: free memory allocated from Dynamic Memory pools</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ae7ff550ebc3ec2693de3b360f1a1539f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -457,7 +515,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_20c182006085968ec32de20455305d3c.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_d2dd3dece0258efbbec4a254f3e63ca2.html">include</a></li><li class="navelem"><a class="el" href="dir_706082f72bbee25191be8eaef2254407.html">hal</a></li><li class="navelem"><a class="el" href="wiced__memory_8h.html">wiced_memory.h</a></li>
+    <li class="navelem"><a class="el" href="dir_381784b046463e89e192fac110641b13.html">out</a></li><li class="navelem"><a class="el" href="dir_2af11a1d75825a88b1a4e9a0516672cd.html">repos</a></li><li class="navelem"><a class="el" href="dir_c049fcef9c98c0428f09896f018210d5.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_b5c9b0e43e58187e0f3a9b956bf28fb0.html">include</a></li><li class="navelem"><a class="el" href="dir_4ec9759d92d5e2480ad70829dc0ebebd.html">hal</a></li><li class="navelem"><a class="el" href="wiced__memory_8h.html">wiced_memory.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -80,8 +80,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals_func.html#index__"><span>_</span></a></li>
-      <li><a href="globals_func_g.html#index_g"><span>g</span></a></li>
+      <li><a href="globals_func.html#index_g"><span>g</span></a></li>
       <li><a href="globals_func_m.html#index_m"><span>m</span></a></li>
       <li><a href="globals_func_p.html#index_p"><span>p</span></a></li>
       <li><a href="globals_func_s.html#index_s"><span>s</span></a></li>
@@ -187,6 +186,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_audio_volume_ctrl()
 : <a class="el" href="wiced__bt__audio__codec_8h.html#afbaf041131fd87f1bdc58fe810bce9d3">wiced_bt_audio_codec.h</a>
+</li>
+<li>wiced_ble_private_device_address_resolution()
+: <a class="el" href="group__btm__ble__api__functions.html#gaa1a08bf54c9c06015c1bbafbaab433c1">wiced_bt_ble.h</a>
 </li>
 <li>wiced_bt_a2d_bits_set()
 : <a class="el" href="group__wicedbt__a2dp.html#ga8ccbe103977bb96a5e441d382fdfd92c">wiced_bt_a2d.h</a>
@@ -743,6 +745,12 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_cancel_inquiry()
 : <a class="el" href="group__wicedbt__bredr.html#ga43c56d1d7a8b08e7766817fc798b7067">wiced_bt_dev.h</a>
 </li>
+<li>wiced_bt_conn_handle_get()
+: <a class="el" href="wiced__bt__dev_8h.html#a99097bf758f9e2698d647344bbdd3fb4">wiced_bt_dev.h</a>
+</li>
+<li>wiced_bt_connect()
+: <a class="el" href="wiced__bt__dev_8h.html#a7a8f122a671fa3e620a88fecdae539a7">wiced_bt_dev.h</a>
+</li>
 <li>wiced_bt_create_pool()
 : <a class="el" href="wiced__memory_8h.html#a60afb6b14c3a5fb698e1fa28b45d4f2c">wiced_memory.h</a>
 </li>
@@ -800,6 +808,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_dev_register_hci_trace()
 : <a class="el" href="wiced__bt__dev_8h.html#a6f76de78537f24e047f4b95c6fb91ff8">wiced_bt_dev.h</a>
 </li>
+<li>wiced_bt_dev_register_vse_callback()
+: <a class="el" href="wiced__bt__dev_8h.html#a47d967c6345178460a13cbcb9bebebd0">wiced_bt_dev.h</a>
+</li>
 <li>wiced_bt_dev_remote_oob_data_reply()
 : <a class="el" href="group__btm__sec__api__functions.html#ga044c342a9dae8be624d64761d0016001">wiced_bt_dev.h</a>
 </li>
@@ -821,6 +832,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_dev_set_advanced_connection_params()
 : <a class="el" href="group__wicedbt__bredr.html#gaab8ab36f338fdadd7405f28fe6d03d7c">wiced_bt_dev.h</a>
 </li>
+<li>wiced_bt_dev_set_afh_channel_assessment()
+: <a class="el" href="wiced__bt__dev_8h.html#a3bd10a7bfd5904cb41bc4d89bb594c37">wiced_bt_dev.h</a>
+</li>
 <li>wiced_bt_dev_set_connectability()
 : <a class="el" href="group__wicedbt__bredr.html#gaf555928b7af1c2ed27adf10289f3999c">wiced_bt_dev.h</a>
 </li>
@@ -830,11 +844,17 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_dev_set_encryption()
 : <a class="el" href="group__btm__sec__api__functions.html#ga828fe3d842b9923e408a10b87ae8fb69">wiced_bt_dev.h</a>
 </li>
+<li>wiced_bt_dev_set_link_policy()
+: <a class="el" href="wiced__bt__dev_8h.html#aa33eda752b4873cb9f19b0ef2634d9a4">wiced_bt_dev.h</a>
+</li>
 <li>wiced_bt_dev_set_sniff_mode()
 : <a class="el" href="group__wicedbt__bredr.html#gaf533e2a68506fc637f9fee8da186f2e2">wiced_bt_dev.h</a>
 </li>
 <li>wiced_bt_dev_set_sniff_subrating()
 : <a class="el" href="group__wicedbt__bredr.html#gae25ed058e78ce94a0884a6d62d1d1b8e">wiced_bt_dev.h</a>
+</li>
+<li>wiced_bt_dev_switch_role()
+: <a class="el" href="wiced__bt__dev_8h.html#ae1b7f7eb29be9434572a88c9ece51897">wiced_bt_dev.h</a>
 </li>
 <li>wiced_bt_dev_vendor_specific_command()
 : <a class="el" href="group__wicedbt__bredr.html#gaff614aad7be8ad5bde22d36351fac720">wiced_bt_dev.h</a>
@@ -1636,12 +1656,6 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_mesh_model_default_transition_time_server_message_handler()
 : <a class="el" href="group__wiced__bt__mesh__default__transition__time__server.html#gaadbba5b7363b2afda149d73b56d0959d">wiced_bt_mesh_models.h</a>
 </li>
-<li>wiced_bt_mesh_model_fw_distribution_server_init()
-: <a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html#ga7084062b10488b5456f83a8e0b4824f1">wiced_bt_mesh_models.h</a>
-</li>
-<li>wiced_bt_mesh_model_fw_distribution_server_message_handler()
-: <a class="el" href="group__wiced__bt__mesh__fw__distribution__server.html#gac187dc0bbf551ca88309c324bad71835">wiced_bt_mesh_models.h</a>
-</li>
 <li>wiced_bt_mesh_model_fw_provider_init()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga35543c6f8cda959cb2cc3f9800d10234">wiced_bt_mesh_provision.h</a>
 </li>
@@ -2318,7 +2332,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_client_set_oob()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga55a0934d7ef45835dbf3ad3815dcaf21">wiced_bt_mesh_provision.h</a>
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga5b3014b288909c0e2f64bede83c362ff">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_connect()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gabbbf8f95b4a89f82e4c9b420993a2766">wiced_bt_mesh_provision.h</a>
@@ -2352,7 +2366,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga0881bc700e7e3aab0ac438bd4f1642d7">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_set_oob()
-: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga6406888fda3e48f09a15658296cf468c">wiced_bt_mesh_provision.h</a>
+: <a class="el" href="group__wiced__bt__mesh__provisioning.html#ga77409b86216f20df5f4057c4397941d8">wiced_bt_mesh_provision.h</a>
 </li>
 <li>wiced_bt_mesh_provision_start()
 : <a class="el" href="group__wiced__bt__mesh__provisioning.html#gae65f798882db2027bc37e08464cd26b3">wiced_bt_mesh_provision.h</a>
@@ -2483,6 +2497,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_sco_create_as_acceptor()
 : <a class="el" href="group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8">wiced_bt_sco.h</a>
 </li>
+<li>wiced_bt_sco_create_as_acceptor_with_specific_ag()
+: <a class="el" href="group__sco__api__functions.html#ga71bacb02b232d6368b31e61624a69e85">wiced_bt_sco.h</a>
+</li>
 <li>wiced_bt_sco_create_as_initiator()
 : <a class="el" href="group__sco__api__functions.html#gad3c0ea63212a9cca3b0b668d7e392288">wiced_bt_sco.h</a>
 </li>
@@ -2491,9 +2508,6 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_sco_remove()
 : <a class="el" href="group__sco__api__functions.html#ga0fba642e9f6ed365e385457be01e4e15">wiced_bt_sco.h</a>
-</li>
-<li>wiced_bt_sco_setup_voice_path()
-: <a class="el" href="group__sco__api__functions.html#gaaf913710ad791aa3c1f6509524921250">wiced_bt_sco.h</a>
 </li>
 <li>wiced_bt_sco_turn_off_pcm_clock()
 : <a class="el" href="group__sco__api__functions.html#gae8704d3d0ef9c0ad9d789b6b2db4eda8">wiced_bt_sco.h</a>
@@ -2546,6 +2560,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_bt_set_tx_power()
 : <a class="el" href="wiced__bt__dev_8h.html#a2677b1f018f40aba1483cbd950374318">wiced_bt_dev.h</a>
 </li>
+<li>wiced_bt_setup_voice_path()
+: <a class="el" href="group__sco__api__functions.html#gaec10b3c56469bce033c4b02f336712da">wiced_bt_sco.h</a>
+</li>
 <li>wiced_bt_smp_create_local_sc_oob_data()
 : <a class="el" href="group__btm__sec__api__functions.html#gafce580b6606202828f9dfb1893cc30f4">wiced_bt_dev.h</a>
 </li>
@@ -2560,6 +2577,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_spp_disconnect()
 : <a class="el" href="group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6">wiced_bt_spp.h</a>
+</li>
+<li>wiced_bt_spp_port_purge()
+: <a class="el" href="group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3">wiced_bt_spp.h</a>
 </li>
 <li>wiced_bt_spp_rx_flow_enabled()
 : <a class="el" href="group__wiced__bt__spp__api__functions.html#ga960acfc309b12fbd1304368031049cef">wiced_bt_spp.h</a>
@@ -2581,6 +2601,12 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_bt_start_advertisements()
 : <a class="el" href="group__btm__ble__api__functions.html#ga90a7b45015280a2dcef73a5be07cd561">wiced_bt_ble.h</a>
+</li>
+<li>wiced_bt_start_authentication()
+: <a class="el" href="wiced__bt__dev_8h.html#aa6c73f207ba29eb0180a0e1f43b3889c">wiced_bt_dev.h</a>
+</li>
+<li>wiced_bt_start_encryption()
+: <a class="el" href="wiced__bt__dev_8h.html#a3b111dbfe4150ac3eeb62325383b9913">wiced_bt_dev.h</a>
 </li>
 <li>wiced_bt_start_inquiry()
 : <a class="el" href="group__wicedbt__bredr.html#ga2c8467b8c65ef23d30ea28649b13094f">wiced_bt_dev.h</a>
@@ -2605,6 +2631,9 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_btm_ble_update_advertisement_filter_policy()
 : <a class="el" href="group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4">wiced_bt_ble.h</a>
+</li>
+<li>wiced_btm_get_private_bda()
+: <a class="el" href="group__btm__ble__api__functions.html#ga25741accdeebfb7297645d5ead4197ba">wiced_bt_ble.h</a>
 </li>
 <li>wiced_button_manager_deinit()
 : <a class="el" href="wiced__button__manager_8h.html#a2cc0949e0c7d783776ec37a296e989f3">wiced_button_manager.h</a>
@@ -2687,16 +2716,16 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 , <a class="el" href="wiced__bt__fw__upgrade_8h.html#a22f57be793eff4382f54f0bc0fdfb953">wiced_bt_fw_upgrade.h</a>
 </li>
 <li>wiced_firmware_upgrade_init_nv_locations()
-: <a class="el" href="wiced__bt__fw__upgrade_8h.html#a27fc916ae66e079b3459f1e553999f09">wiced_bt_fw_upgrade.h</a>
-, <a class="el" href="wiced__firmware__upgrade_8h.html#a27fc916ae66e079b3459f1e553999f09">wiced_firmware_upgrade.h</a>
+: <a class="el" href="wiced__firmware__upgrade_8h.html#a27fc916ae66e079b3459f1e553999f09">wiced_firmware_upgrade.h</a>
+, <a class="el" href="wiced__bt__fw__upgrade_8h.html#a27fc916ae66e079b3459f1e553999f09">wiced_bt_fw_upgrade.h</a>
 </li>
 <li>wiced_firmware_upgrade_retrieve_from_nv()
-: <a class="el" href="wiced__firmware__upgrade_8h.html#afc75a6dab6803a4ea2ec5418f696b8c3">wiced_firmware_upgrade.h</a>
-, <a class="el" href="wiced__bt__fw__upgrade_8h.html#afc75a6dab6803a4ea2ec5418f696b8c3">wiced_bt_fw_upgrade.h</a>
+: <a class="el" href="wiced__bt__fw__upgrade_8h.html#afc75a6dab6803a4ea2ec5418f696b8c3">wiced_bt_fw_upgrade.h</a>
+, <a class="el" href="wiced__firmware__upgrade_8h.html#afc75a6dab6803a4ea2ec5418f696b8c3">wiced_firmware_upgrade.h</a>
 </li>
 <li>wiced_firmware_upgrade_store_to_nv()
-: <a class="el" href="wiced__bt__fw__upgrade_8h.html#a4433b3bf0f43473881496851ba1fdf9d">wiced_bt_fw_upgrade.h</a>
-, <a class="el" href="wiced__firmware__upgrade_8h.html#a4433b3bf0f43473881496851ba1fdf9d">wiced_firmware_upgrade.h</a>
+: <a class="el" href="wiced__firmware__upgrade_8h.html#a4433b3bf0f43473881496851ba1fdf9d">wiced_firmware_upgrade.h</a>
+, <a class="el" href="wiced__bt__fw__upgrade_8h.html#a4433b3bf0f43473881496851ba1fdf9d">wiced_bt_fw_upgrade.h</a>
 </li>
 <li>wiced_hal_aclk_disable()
 : <a class="el" href="group___aux_clk_driver.html#ga53d1ec00abe111c9ae3dcf1656ff1610">wiced_hal_aclk.h</a>
@@ -2963,7 +2992,7 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group___pwm_driver.html#gab3b14ae881948bda1453be8b64655eda">wiced_hal_pwm.h</a>
 </li>
 <li>wiced_hal_pwm_get_params()
-: <a class="el" href="group___pwm_driver.html#ga87d2b66fd33f2cdf2083763244ec142f">wiced_hal_pwm.h</a>
+: <a class="el" href="group___pwm_driver.html#gad56186be22cf1072eb17f2e404736b3a">wiced_hal_pwm.h</a>
 </li>
 <li>wiced_hal_pwm_get_toggle_count()
 : <a class="el" href="group___pwm_driver.html#ga81c505dff9285c57a41087b141641700">wiced_hal_pwm.h</a>
@@ -3028,6 +3057,24 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 <li>wiced_is_timer_in_use()
 : <a class="el" href="wiced__timer_8h.html#aff14cd08aabe6a5d074d50c4568a2859">wiced_timer.h</a>
 </li>
+<li>wiced_led_manager_blink_led()
+: <a class="el" href="wiced__led__manager_8h.html#a7dee5ef1d1bddeb75e1e941890e71abb">wiced_led_manager.h</a>
+</li>
+<li>wiced_led_manager_deinit()
+: <a class="el" href="wiced__led__manager_8h.html#a80463d7c8b75ce60835c115cf31a9df9">wiced_led_manager.h</a>
+</li>
+<li>wiced_led_manager_disable_led()
+: <a class="el" href="wiced__led__manager_8h.html#ab7807570c0baa3d044d7e2857830c261">wiced_led_manager.h</a>
+</li>
+<li>wiced_led_manager_enable_led()
+: <a class="el" href="wiced__led__manager_8h.html#a08a5afe5447b8261bef4637afd7b0a00">wiced_led_manager.h</a>
+</li>
+<li>wiced_led_manager_init()
+: <a class="el" href="wiced__led__manager_8h.html#a718749b37ec0b75678061af269d89003">wiced_led_manager.h</a>
+</li>
+<li>wiced_led_manager_reconfig_led()
+: <a class="el" href="wiced__led__manager_8h.html#a8245b170609a16d6d1c9cd6900f02e0e">wiced_led_manager.h</a>
+</li>
 <li>wiced_mail_box_register_data_rx_cback()
 : <a class="el" href="wiced__mail__box_8h.html#a4fabe028c6233f4d62d850f4d4e82705">wiced_mail_box.h</a>
 </li>
@@ -3036,6 +3083,12 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 </li>
 <li>wiced_mail_box_write_data()
 : <a class="el" href="wiced__mail__box_8h.html#a882a516b68140a67a699ff6972fbdb2f">wiced_mail_box.h</a>
+</li>
+<li>wiced_memory_allocate()
+: <a class="el" href="wiced__memory_8h.html#ad1f1a0590591e126a631146850ade850">wiced_memory.h</a>
+</li>
+<li>wiced_memory_free()
+: <a class="el" href="wiced__memory_8h.html#a1cffc04feb3287cb93e89aae170d73d1">wiced_memory.h</a>
 </li>
 <li>wiced_memory_get_free_bytes()
 : <a class="el" href="wiced__memory_8h.html#ae7ff550ebc3ec2693de3b360f1a1539f">wiced_memory.h</a>
@@ -3068,15 +3121,15 @@ $(document).ready(function(){initNavTree('globals_func_w.html','');});
 : <a class="el" href="group__group__ota__fw__upgrade__functions.html#ga90318a6f1f8e4f418c293f4b22249e11">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
 <li>wiced_ota_fw_upgrade_read_handler()
-: <a class="el" href="wiced__bt__fw__upgrade_8h.html#a212afd28ddaf5c594d8cf52f2607d995">wiced_bt_fw_upgrade.h</a>
-, <a class="el" href="group__group__ota__fw__upgrade__functions.html#ga212afd28ddaf5c594d8cf52f2607d995">wiced_bt_ota_firmware_upgrade.h</a>
+: <a class="el" href="group__group__ota__fw__upgrade__functions.html#ga212afd28ddaf5c594d8cf52f2607d995">wiced_bt_ota_firmware_upgrade.h</a>
+, <a class="el" href="wiced__bt__fw__upgrade_8h.html#a212afd28ddaf5c594d8cf52f2607d995">wiced_bt_fw_upgrade.h</a>
 </li>
 <li>wiced_ota_fw_upgrade_set_transfer_mode()
 : <a class="el" href="group__group__ota__fw__upgrade__functions.html#gaaef880de5cc1190467de245f8e7d1557">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
 <li>wiced_ota_fw_upgrade_write_handler()
-: <a class="el" href="group__group__ota__fw__upgrade__functions.html#gace605108600db50d65304e59b531b77d">wiced_bt_ota_firmware_upgrade.h</a>
-, <a class="el" href="wiced__bt__fw__upgrade_8h.html#ace605108600db50d65304e59b531b77d">wiced_bt_fw_upgrade.h</a>
+: <a class="el" href="wiced__bt__fw__upgrade_8h.html#ace605108600db50d65304e59b531b77d">wiced_bt_fw_upgrade.h</a>
+, <a class="el" href="group__group__ota__fw__upgrade__functions.html#gace605108600db50d65304e59b531b77d">wiced_bt_ota_firmware_upgrade.h</a>
 </li>
 <li>wiced_rtos_check_for_stack_overflow()
 : <a class="el" href="group__threads.html#ga917a4bd4ebe941e7c48c6187c0c44049">wiced_rtos.h</a>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__mesh__light__ctl__status__data__t.html#ac9f524d68a7ad8c9bebe6e4f77b5f299":[7,1,22,2,32,0],
+"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html":[7,1,22,2,37],
+"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,22,2,37,1],
+"structwiced__bt__mesh__light__ctl__temperature__range__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,22,2,37,0],
+"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html":[7,1,22,2,36],
+"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,22,2,36,1],
+"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#ade818037fd6c985038ff29656089758d":[7,1,22,2,36,2],
+"structwiced__bt__mesh__light__ctl__temperature__range__status__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,22,2,36,0],
 "structwiced__bt__mesh__light__ctl__temperature__set__t.html":[7,1,22,2,34],
 "structwiced__bt__mesh__light__ctl__temperature__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,22,2,34,3],
 "structwiced__bt__mesh__light__ctl__temperature__set__t.html#a86c00786b720f77f2dbad34721a0d541":[7,1,22,2,34,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__provision__connect__data__t.html#a55fdff5eb435c150ffdb70a5c95edeb3":[7,1,22,3,14,2],
 "structwiced__bt__mesh__provision__connect__data__t.html#a9e9f508693ebfeac11721621b59a5620":[7,1,22,3,14,0],
 "structwiced__bt__mesh__provision__connect__data__t.html#abcf631596d63fef2dd8d6710a57601a9":[7,1,22,3,14,1],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html":[7,1,22,3,21],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#a120cd573c407780952f0fe08fc5ddfba":[7,1,22,3,21,3],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#a95f298b809c97e2d93d2b1900a01b3cc":[7,1,22,3,21,5],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#a9cb06c1e3341c4f6b19fb2d0f2b1b396":[7,1,22,3,21,2],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#a9ee92ed85a3879a50045633ea994a168":[7,1,22,3,21,6],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#aa2bab113df363b1c56d14939ca6856ac":[7,1,22,3,21,8],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#aa797828ecf12578e9e5d11886e94ee2b":[7,1,22,3,21,0],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#ab102a393bd02e7c8c723aca4f3d0bbef":[7,1,22,3,21,1],
-"structwiced__bt__mesh__provision__device__capabilities__data__t.html#ac9c087c55abf46b46ece74370ca39d42":[7,1,22,3,21,7]
+"structwiced__bt__mesh__provision__device__capabilities__data__t.html":[7,1,22,3,20]
 };

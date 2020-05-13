@@ -21,6 +21,7 @@ var searchData=
   ['notification_5fenabled',['notification_enabled',['../unionwiced__bt__hrs__event__data__t.html#a5a9b76bb3856ef616fca7478284d4d54',1,'wiced_bt_hrs_event_data_t']]],
   ['notification_5fsupported',['notification_supported',['../structwiced__bt__bac__discovery__complete__t.html#a20cc34004d8d3d4c296b085093b8e1fb',1,'wiced_bt_bac_discovery_complete_t']]],
   ['notification_5fuid',['notification_uid',['../structancs__event__t.html#ae42f69f6c5e626585ff1d8659302024c',1,'ancs_event_t']]],
+  ['nrec_5fconfig_5ft',['nrec_config_t',['../structnrec__config__t.html',1,'']]],
   ['nsc_5fmask',['nsc_mask',['../structwiced__bt__avdt__cs__t.html#a9bb9316bffe43ae2a56f0fa412e12508',1,'wiced_bt_avdt_cs_t']]],
   ['null_5fcount',['null_count',['../unionwiced__bt__br__edr__pkt__type__stats.html#aff6710227dd48fd74334456315a0871f',1,'wiced_bt_br_edr_pkt_type_stats']]],
   ['num_5fad_5ffilters',['num_ad_filters',['../structwiced__bt__mesh__provision__scan__extended__start__t.html#a6bcf4c0ae5d4420ca1c5f4baefac6b92',1,'wiced_bt_mesh_provision_scan_extended_start_t']]],

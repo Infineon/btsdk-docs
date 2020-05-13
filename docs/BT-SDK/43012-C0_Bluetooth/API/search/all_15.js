@@ -57,6 +57,7 @@ var searchData=
   ['tx_5fcomplete_5fcback',['tx_complete_cback',['../structwiced__bt__l2cap__appl__information__t.html#ab54068a956cdd5676f3c37dc69dc3093',1,'wiced_bt_l2cap_appl_information_t']]],
   ['tx_5fflag',['tx_flag',['../structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042',1,'wiced_bt_mesh_event__t']]],
   ['tx_5finterval',['tx_interval',['../structwiced__bt__sco__connection__change__t.html#a02e18c4cedf238d3deccfd0137dd2312',1,'wiced_bt_sco_connection_change_t']]],
+  ['tx_5fphy',['tx_phy',['../structwiced__bt__ble__phy__update__t.html#ab771cbb17ebafbde4821929245c30261',1,'wiced_bt_ble_phy_update_t']]],
   ['tx_5fpkt_5fcnt',['tx_pkt_cnt',['../wiced__bt__dev_8h.html#a0ed151685f78c9803f8844840ad6e200',1,'wiced_bt_dev.h']]],
   ['tx_5fpkt_5flen',['tx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a39683860aaba7b6e2e2c94986d67fce6',1,'wiced_bt_sco_connection_change_t']]],
   ['tx_5fpower',['tx_power',['../structwiced__bt__tx__power__result__t.html#a72a96ade6a01c9bd107a0977b6a3059c',1,'wiced_bt_tx_power_result_t']]],

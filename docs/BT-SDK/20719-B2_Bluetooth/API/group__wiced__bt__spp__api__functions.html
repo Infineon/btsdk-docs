@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
         <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
         <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.4 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
         </td>
         <td style="width:20px"></td>
         <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
@@ -156,6 +156,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a">wiced_bt_spp_can_send_more_data</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_spp_can_send_more_data.  <a href="#ga8f42a8e2ce6fe84024dbe27c8a6ef76a">More...</a><br /></td></tr>
 <tr class="separator:ga8f42a8e2ce6fe84024dbe27c8a6ef76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f936b55910974c17394ddc91eed6db3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3">wiced_bt_spp_port_purge</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t purge_flags)</td></tr>
+<tr class="memdesc:ga9f936b55910974c17394ddc91eed6db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to discard all the data from the output or input queues of the specified connection.  <a href="#ga9f936b55910974c17394ddc91eed6db3">More...</a><br /></td></tr>
+<tr class="separator:ga9f936b55910974c17394ddc91eed6db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>SPP library of the WICED SDK provide a simple method for an application to integrate SPP functionality. </p>
@@ -354,6 +357,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t : Result of operation </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9f936b55910974c17394ddc91eed6db3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t wiced_bt_spp_port_purge </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>purge_flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SPP application may use this function to discard all the data from the output or input queues of the specified connection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: Connection handle indicated in the connection up callback </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">purge_flags</td><td>- specify the action to take with PORT_PURGE_TXCLEAR and/or PORT_PURGE_RXCLEAR. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rfcomm port return code </dd></dl>
 
 </div>
 </div>
