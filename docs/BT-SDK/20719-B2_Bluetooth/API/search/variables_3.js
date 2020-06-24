@@ -27,7 +27,6 @@ var searchData=
   ['client_5fpdu_5fsent',['client_pdu_sent',['../structmesh__core__provision__cb__t.html#a5ea9286171ca98293d467efe5a4ab16e',1,'mesh_core_provision_cb_t']]],
   ['clock_5foffset',['clock_offset',['../structwiced__bt__dev__inquiry__scan__result__t.html#a6a5ea24ae1db2db37726511198e1b8ba',1,'wiced_bt_dev_inquiry_scan_result_t']]],
   ['clock_5fspeed',['clock_speed',['../wiced__transport_8h.html#a6b31cd786761f86279de4b3a2c3d839f',1,'wiced_transport.h']]],
-  ['close',['close',['../unionwiced__bt__hidh__data__t.html#a74331ef6e4ac742f6518c3b400f2d5b0',1,'wiced_bt_hidh_data_t']]],
   ['close_5fcfm',['close_cfm',['../unionwiced__bt__avdt__ctrl__t.html#acc55ff5dcf43979f1f9129cf8b194bc6',1,'wiced_bt_avdt_ctrl_t']]],
   ['cod_5fcond',['cod_cond',['../unionwiced__bt__dev__inq__filt__cond__t.html#af7b891220ce0a5039254de9522e3e1b3',1,'wiced_bt_dev_inq_filt_cond_t']]],
   ['codec_5ffunctions',['codec_functions',['../structwiced__bt__a2dp__ext__codec__info__t.html#af1e6c95518a5ea26c68b97fea8b28d51',1,'wiced_bt_a2dp_ext_codec_info_t']]],

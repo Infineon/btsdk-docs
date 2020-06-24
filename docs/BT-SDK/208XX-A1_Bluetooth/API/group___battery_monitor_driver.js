@@ -4,6 +4,7 @@ var group___battery_monitor_driver =
       [ "callback", "struct__wiced__hal__batmon__observer.html#a94ecfda8430a546edd135b62f94d2262", null ],
       [ "next", "struct__wiced__hal__batmon__observer.html#aebbafb0567bed25ac7caa6bbed6c8d8c", null ]
     ] ],
+    [ "wiced_hal_batmon_observer_fp", "group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995", null ],
     [ "wiced_hal_batmon_add_battery_observer", "group___battery_monitor_driver.html#ga21c207ff1939336e237f4aea874ea40c", null ],
     [ "wiced_hal_batmon_config", "group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c", null ],
     [ "wiced_hal_batmon_get_battery_level", "group___battery_monitor_driver.html#ga88712921ebc48a31752bf243637826fb", null ],

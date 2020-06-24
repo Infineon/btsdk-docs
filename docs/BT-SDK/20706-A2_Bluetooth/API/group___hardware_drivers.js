@@ -1,8 +1,7 @@
 var group___hardware_drivers =
 [
-    [ "WICED Transport", "group___transport.html", "group___transport" ],
-    [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
+    [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
     [ "Clock", "group___c_p_u.html", "group___c_p_u" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
@@ -15,6 +14,7 @@ var group___hardware_drivers =
     [ "Pulse Width Modulation (PWM)", "group___pwm_driver.html", "group___pwm_driver" ],
     [ "Random Number Generator (RNG)", "group___random_number_generator.html", "group___random_number_generator" ],
     [ "Serial Flash Interface", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],
-    [ "Watchdog Interface", "group___watchdog_interface.html", "group___watchdog_interface" ],
-    [ "Timer Management Services", "group__timer.html", "group__timer" ]
+    [ "Timer Management Services", "group__timer.html", "group__timer" ],
+    [ "WICED Transport", "group___transport.html", "group___transport" ],
+    [ "Watchdog Interface", "group___watchdog_interface.html", "group___watchdog_interface" ]
 ];

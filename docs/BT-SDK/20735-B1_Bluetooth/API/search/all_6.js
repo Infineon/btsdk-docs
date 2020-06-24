@@ -19,8 +19,6 @@ var searchData=
   ['entity_5fid',['entity_id',['../structwiced__bt__ams__event__t.html#a8a6a9a23f3529b81e24d622f72af55b1',1,'wiced_bt_ams_event_t']]],
   ['erase',['erase',['../structwiced__block__device__driver__struct.html#aed00c5f70405786e3ee6663fe9a86848',1,'wiced_block_device_driver_struct']]],
   ['erase_5fblock_5fsize',['erase_block_size',['../structwiced__block__device__struct.html#a224637cad3d15847fef569b871b033f4',1,'wiced_block_device_struct']]],
-  ['err_5fcode',['err_code',['../structwiced__bt__avdt__evt__hdr__t.html#a7c7db8f8afdf36d5e42be7f485336be4',1,'wiced_bt_avdt_evt_hdr_t']]],
-  ['err_5fparam',['err_param',['../structwiced__bt__avdt__evt__hdr__t.html#aaf9a0464c401c9866d26ecde335c937e',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['established',['established',['../structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f',1,'wiced_bt_mesh_core_state_friendship_t']]],
   ['event_20flags',['Event Flags',['../group__eventflags.html',1,'']]],
   ['events',['Events',['../group__events.html',1,'']]],

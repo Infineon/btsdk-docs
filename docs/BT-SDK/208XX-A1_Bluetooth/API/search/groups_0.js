@@ -13,6 +13,7 @@ var searchData=
   ['advanced_20audio_20_28a2dp_29',['Advanced Audio (A2DP)',['../group__wicedbt__a2dp.html',1,'']]],
   ['a2dp_20sbc_20support',['A2DP SBC Support',['../group__wicedbt__a2dp__sbc.html',1,'']]],
   ['audio_20_2f_20video',['Audio / Video',['../group__wicedbt__av.html',1,'']]],
+  ['a2dp_20helper_20functions',['A2DP Helper Functions',['../group__wicedbt__av__a2d__helper.html',1,'']]],
   ['audio_20_2f_20video_20distribution_20_28avdtp_29',['Audio / Video Distribution (AVDTP)',['../group__wicedbt__avdt.html',1,'']]],
   ['audio_20_2f_20video_20remote_20control_20_28avrcp_29',['Audio / Video Remote Control (AVRCP)',['../group__wicedbt__avrc.html',1,'']]],
   ['avrcp_20common',['AVRCP Common',['../group__wicedbt__avrc__common.html',1,'']]],

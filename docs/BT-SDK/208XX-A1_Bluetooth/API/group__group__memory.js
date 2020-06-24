@@ -1,7 +1,7 @@
 var group__group__memory =
 [
-    [ "Functions", "group__group__memory__functions.html", null ],
     [ "Data Structures", "group__group__memory__data__structures.html", "group__group__memory__data__structures" ],
+    [ "Functions", "group__group__memory__functions.html", null ],
     [ "GKI", "group___g_k_i.html", "group___g_k_i" ],
     [ "wiced_bt_buffer_poolutilization", "group__group__memory.html#ga57c89f39a7c55e7292f316a13b1d3a70", null ],
     [ "wiced_bt_create_pool", "group__group__memory.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c", null ],

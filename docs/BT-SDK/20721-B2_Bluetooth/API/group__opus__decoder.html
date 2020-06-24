@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20721: Opus Decoder</title>
+<title>WICED CYW20721: Opus Decoder</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -99,11 +97,12 @@ $(document).ready(function(){initNavTree('group__opus__decoder.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#groups">Modules</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Opus Decoder</div>  </div>
+<div class="title">Opus Decoder<div class="ingroups"><a class="el" href="group___opus.html">Opus Codec</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,6 +114,11 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_stereo_width_state.html">StereoWidthState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_opus_encoder.html">OpusEncoder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__opus__decoderctls"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoderctls.html">Decoder related CTLs</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -144,11 +148,11 @@ OPUS_WARN_UNUSED_RESULT <br class="typebreak" />
 <tr class="memdesc:ga7cdfaf7c2759104577e0f3c0cc91850b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a previously allocated decoder state.  <a href="#ga7cdfaf7c2759104577e0f3c0cc91850b">More...</a><br /></td></tr>
 <tr class="separator:ga7cdfaf7c2759104577e0f3c0cc91850b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9686eecbbb5fbf4c59ba0b254677d0c0"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga9686eecbbb5fbf4c59ba0b254677d0c0">celt_opus_decode</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st, const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, opus_int16 *pcm, int frame_size, int decode_fec) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga9686eecbbb5fbf4c59ba0b254677d0c0">celt_opus_decode</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st, const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, opus_int16 *pcm, int frame_size, int decode_fec) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
 <tr class="memdesc:ga9686eecbbb5fbf4c59ba0b254677d0c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode an Opus packet.  <a href="#ga9686eecbbb5fbf4c59ba0b254677d0c0">More...</a><br /></td></tr>
 <tr class="separator:ga9686eecbbb5fbf4c59ba0b254677d0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44f7e51b4c658cedb746e075602681f1"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga44f7e51b4c658cedb746e075602681f1">opus_decode_float</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st, const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, float *pcm, int frame_size, int decode_fec) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga44f7e51b4c658cedb746e075602681f1">opus_decode_float</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st, const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, float *pcm, int frame_size, int decode_fec) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
 <tr class="memdesc:ga44f7e51b4c658cedb746e075602681f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode an Opus packet with floating point output.  <a href="#ga44f7e51b4c658cedb746e075602681f1">More...</a><br /></td></tr>
 <tr class="separator:ga44f7e51b4c658cedb746e075602681f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga633e737d963008be642b17ca427ae9c2"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga633e737d963008be642b17ca427ae9c2">celt_opus_decoder_ctl</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st, int request,...) OPUS_ARG_NONNULL(1)</td></tr>
@@ -157,7 +161,7 @@ OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:ga846e8b4f6ca24b187dfd1af44d4d0af9"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga846e8b4f6ca24b187dfd1af44d4d0af9">celt_opus_decoder_destroy</a> (<a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *st)</td></tr>
 <tr class="memdesc:ga846e8b4f6ca24b187dfd1af44d4d0af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees an <code>OpusDecoder</code> allocated by <a class="el" href="group__opus__decoder.html#ga67122ab5100c914d35ce8a5c6b808ed9" title="Allocates and initializes a decoder state. ">celt_opus_decoder_create()</a>.  <a href="#ga846e8b4f6ca24b187dfd1af44d4d0af9">More...</a><br /></td></tr>
 <tr class="separator:ga846e8b4f6ca24b187dfd1af44d4d0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3a6200b858b9e1406d700f8b72a4ace"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#gaa3a6200b858b9e1406d700f8b72a4ace">celt_opus_packet_parse</a> (const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, unsigned char *out_toc, const unsigned char *frames[48], opus_int16 size[48], int *payload_offset) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
+<tr class="memitem:gaa3a6200b858b9e1406d700f8b72a4ace"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#gaa3a6200b858b9e1406d700f8b72a4ace">celt_opus_packet_parse</a> (const unsigned char *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, unsigned char *out_toc, const unsigned char *frames[48], opus_int16 size[48], int *payload_offset) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(4)</td></tr>
 <tr class="memdesc:gaa3a6200b858b9e1406d700f8b72a4ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse an opus packet into one or more frames.  <a href="#gaa3a6200b858b9e1406d700f8b72a4ace">More...</a><br /></td></tr>
 <tr class="separator:gaa3a6200b858b9e1406d700f8b72a4ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52123da9741edace88ac69ace502ddeb"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
@@ -172,15 +176,15 @@ OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memdesc:ga49c195045f37a6d8483dd9979a9fe811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of channels from an Opus packet.  <a href="#ga49c195045f37a6d8483dd9979a9fe811">More...</a><br /></td></tr>
 <tr class="separator:ga49c195045f37a6d8483dd9979a9fe811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa48e5dc2e295fc2e276445a78ca5b0fe"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#gaa48e5dc2e295fc2e276445a78ca5b0fe">celt_opus_packet_get_nb_frames</a> (const unsigned char packet[], int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>) OPUS_ARG_NONNULL(1)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#gaa48e5dc2e295fc2e276445a78ca5b0fe">celt_opus_packet_get_nb_frames</a> (const unsigned char packet[], int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>) OPUS_ARG_NONNULL(1)</td></tr>
 <tr class="memdesc:gaa48e5dc2e295fc2e276445a78ca5b0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of frames in an Opus packet.  <a href="#gaa48e5dc2e295fc2e276445a78ca5b0fe">More...</a><br /></td></tr>
 <tr class="separator:gaa48e5dc2e295fc2e276445a78ca5b0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ff32522aecad0470031a99eca2bb344"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga2ff32522aecad0470031a99eca2bb344">celt_opus_packet_get_nb_samples</a> (const unsigned char packet[], int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, int Fs) OPUS_ARG_NONNULL(1)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga2ff32522aecad0470031a99eca2bb344">celt_opus_packet_get_nb_samples</a> (const unsigned char packet[], int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, int Fs) OPUS_ARG_NONNULL(1)</td></tr>
 <tr class="memdesc:ga2ff32522aecad0470031a99eca2bb344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of samples of an Opus packet.  <a href="#ga2ff32522aecad0470031a99eca2bb344">More...</a><br /></td></tr>
 <tr class="separator:ga2ff32522aecad0470031a99eca2bb344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d271b4817ada9ac7a094654a0ab31a4"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT <br class="typebreak" />
-OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga0d271b4817ada9ac7a094654a0ab31a4">celt_opus_decoder_get_nb_samples</a> (const <a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *dec, const unsigned char packet[], int <a class="el" href="wiced__bt__mesh__models_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2)</td></tr>
+OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga0d271b4817ada9ac7a094654a0ab31a4">celt_opus_decoder_get_nb_samples</a> (const <a class="el" href="group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6">OpusDecoder</a> *dec, const unsigned char packet[], int <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>) OPUS_ARG_NONNULL(1) OPUS_ARG_NONNULL(2)</td></tr>
 <tr class="memdesc:ga0d271b4817ada9ac7a094654a0ab31a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of samples of an Opus packet.  <a href="#ga0d271b4817ada9ac7a094654a0ab31a4">More...</a><br /></td></tr>
 <tr class="separator:ga0d271b4817ada9ac7a094654a0ab31a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97cfcb7d4577df585955d4076b1ac717"><td class="memItemLeft" align="right" valign="top">OPUS_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__opus__decoder.html#ga97cfcb7d4577df585955d4076b1ac717">opus_pcm_soft_clip</a> (float *pcm, int frame_size, int channels, float *softclip_mem)</td></tr>

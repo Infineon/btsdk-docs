@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20706: Hardware Drivers</title>
+<title>WICED CYW20706: Hardware Drivers</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -106,19 +104,17 @@ $(document).ready(function(){initNavTree('group___hardware_drivers.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html">WICED Transport</a></td></tr>
-<tr class="memdesc:group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">This section describes the API's necessary to configure WICED transport, send and receive data over the transport. <br /></td></tr>
+<tr class="memitem:group___adc_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html">Analog-to-Digital Converter (ADC)</a></td></tr>
+<tr class="memdesc:group___adc_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___aux_clk_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___aux_clk_driver.html">Auxiliary Clock (ACLK)</a></td></tr>
 <tr class="memdesc:group___aux_clk_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the auxiliary clock. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group___adc_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html">Analog-to-Digital Converter (ADC)</a></td></tr>
-<tr class="memdesc:group___adc_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___battery_monitor_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html">Battery Monitor</a></td></tr>
 <tr class="memdesc:group___battery_monitor_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Battery Monitor. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___c_p_u"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_p_u.html">Clock</a></td></tr>
+<tr class="memdesc:group___c_p_u"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the CPU clock. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___g_p_i_o_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html">GPIO</a></td></tr>
 <tr class="memdesc:group___g_p_i_o_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the GPIO pins. <br /></td></tr>
@@ -150,11 +146,14 @@ Modules</h2></td></tr>
 <tr class="memitem:group___serial_flash_interface_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___serial_flash_interface_driver.html">Serial Flash Interface</a></td></tr>
 <tr class="memdesc:group___serial_flash_interface_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the Serial Flash interface. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group___watchdog_interface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html">Watchdog Interface</a></td></tr>
-<tr class="memdesc:group___watchdog_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the watchdog interface. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__timer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html">Timer Management Services</a></td></tr>
 <tr class="memdesc:group__timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the interfaces for Timer Management Services. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html">WICED Transport</a></td></tr>
+<tr class="memdesc:group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">This section describes the API's necessary to configure WICED transport, send and receive data over the transport. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group___watchdog_interface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html">Watchdog Interface</a></td></tr>
+<tr class="memdesc:group___watchdog_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the watchdog interface. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

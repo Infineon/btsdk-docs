@@ -60,7 +60,7 @@ var searchData=
   ['event_5fdesc_5fuart_5fmax',['EVENT_DESC_UART_MAX',['../group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681acfbea09b03dd341ba87e4cbe9a69cd05',1,'wiced_power_logger.h']]],
   ['event_5fdesc_5fuart_5frx',['EVENT_DESC_UART_RX',['../group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681a4d1f51c3a48805be7f31d7c6f24ab301',1,'wiced_power_logger.h']]],
   ['event_5fdesc_5fuart_5ftx',['EVENT_DESC_UART_TX',['../group__wpl__event.html#ggab258d4bd72991292c8d0daa660a54681a1ca5148c09e79affcb5581069b4dcc27',1,'wiced_power_logger.h']]],
-  ['event_5fhandler_5ft',['event_handler_t',['../group__group__rtos__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877',1,'wiced_rtos.h']]],
+  ['event_5fhandler_5ft',['event_handler_t',['../group__group__rtos__data__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877',1,'wiced_rtos.h']]],
   ['event_5fid_5fbt_5fdata',['EVENT_ID_BT_DATA',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aa336d18e5ed28c4c744a670d48e423799',1,'wiced_power_logger.h']]],
   ['event_5fid_5fflash',['EVENT_ID_FLASH',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aab840cac471ab9d7527aa9dcb05fe4162',1,'wiced_power_logger.h']]],
   ['event_5fid_5fi2c',['EVENT_ID_I2C',['../group__wpl__event.html#ggaf7dda817dced930b804235a29067fb1aacd0e8b1bb1ca116ca358f9e3c2d5e7e9',1,'wiced_power_logger.h']]],

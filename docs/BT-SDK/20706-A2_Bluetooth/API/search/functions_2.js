@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['des3_5fcrypt_5fcbc',['des3_crypt_cbc',['../group__des.html#ga02934e46d5c559e81151f6fb996dd1f7',1,'wiced_security.h']]],
-  ['des3_5fcrypt_5fecb',['des3_crypt_ecb',['../group__des.html#gaeb90ce5f4ba334de266464b3acd541b4',1,'wiced_security.h']]],
-  ['des3_5fset2key_5fdec',['des3_set2key_dec',['../group__des.html#ga29a04fcca2236e62a119381645b65782',1,'wiced_security.h']]],
-  ['des3_5fset2key_5fenc',['des3_set2key_enc',['../group__des.html#ga8cf7aa7333feb45e083f3f4ffe32ab74',1,'wiced_security.h']]],
-  ['des3_5fset3key_5fdec',['des3_set3key_dec',['../group__des.html#gada6d7a926e262017c012a5e160b6f26e',1,'wiced_security.h']]],
-  ['des3_5fset3key_5fenc',['des3_set3key_enc',['../group__des.html#ga6aba8975626002db39adaa92a1d1ed90',1,'wiced_security.h']]],
-  ['des_5fcrypt_5fcbc',['des_crypt_cbc',['../group__des.html#ga9a8d02b113764c584b620af03975ee7b',1,'wiced_security.h']]],
-  ['des_5fcrypt_5fecb',['des_crypt_ecb',['../group__des.html#gabb21c4e55b6253d292869c4278974bd9',1,'wiced_security.h']]],
-  ['des_5fsetkey_5fdec',['des_setkey_dec',['../group__des.html#ga7dffe952ce9419e747d0a4633946eabd',1,'wiced_security.h']]],
-  ['des_5fsetkey_5fenc',['des_setkey_enc',['../group__des.html#gaee64993375c58c97b3fc965f76645232',1,'wiced_security.h']]]
+  ['sha2',['sha2',['../sha2_8h.html#a5e67ecbf0b3b71cc3d66f87e356fcb95',1,'sha2.h']]],
+  ['sha2_5ffile',['sha2_file',['../sha2_8h.html#a488a192b5a7c76a6e806910761db6d21',1,'sha2.h']]],
+  ['sha2_5ffinish',['sha2_finish',['../sha2_8h.html#a2762ab9bf6601a7ab2f2bee3eb72b22a',1,'sha2.h']]],
+  ['sha2_5fhmac',['sha2_hmac',['../sha2_8h.html#a4f4f39b5d88b842a5626d1ac4b19943b',1,'sha2.h']]],
+  ['sha2_5fhmac_5ffinish',['sha2_hmac_finish',['../sha2_8h.html#afad853fc439a23fe3595d3486649d3cf',1,'sha2.h']]],
+  ['sha2_5fhmac_5freset',['sha2_hmac_reset',['../sha2_8h.html#a7f9ced2b8aec3cdd9bc7cc3ae5892816',1,'sha2.h']]],
+  ['sha2_5fhmac_5fstarts',['sha2_hmac_starts',['../sha2_8h.html#aa85ba04d982e323dc3aa9b9bc50272e7',1,'sha2.h']]],
+  ['sha2_5fhmac_5fupdate',['sha2_hmac_update',['../sha2_8h.html#ac48e02dd0fe447f1ea15cde44f7bd123',1,'sha2.h']]],
+  ['sha2_5fself_5ftest',['sha2_self_test',['../sha2_8h.html#a8a7026f38413c81e28966631a8dbc004',1,'sha2.h']]],
+  ['sha2_5fstarts',['sha2_starts',['../sha2_8h.html#ae01444aa81c862eb74f0545b8d05371a',1,'sha2.h']]],
+  ['sha2_5fupdate',['sha2_update',['../sha2_8h.html#a27f31da489bf678f99a2170df0180838',1,'sha2.h']]]
 ];

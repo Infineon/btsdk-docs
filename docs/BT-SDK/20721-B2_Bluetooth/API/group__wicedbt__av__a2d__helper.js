@@ -1,20 +1,19 @@
 var group__wicedbt__av__a2d__helper =
 [
     [ "wiced_bt_a2d_sdp_db_params_t", "structwiced__bt__a2d__sdp__db__params__t.html", [
-      [ "db_len", "group__wicedbt__av__a2d__helper.html#gad869c77e637e74544b7da4fc883c965e", null ],
-      [ "num_attr", "group__wicedbt__av__a2d__helper.html#ga15873975ac30bb80d6e4a1a47b14ca00", null ],
-      [ "p_attrs", "group__wicedbt__av__a2d__helper.html#gaafb8710c45f74403ee3d7c12aa27f713", null ],
-      [ "p_db", "group__wicedbt__av__a2d__helper.html#ga95655154f49d7fb2ce00b3dc127631f2", null ]
+      [ "db_len", "structwiced__bt__a2d__sdp__db__params__t.html#ad869c77e637e74544b7da4fc883c965e", null ],
+      [ "num_attr", "structwiced__bt__a2d__sdp__db__params__t.html#a15873975ac30bb80d6e4a1a47b14ca00", null ],
+      [ "p_attrs", "structwiced__bt__a2d__sdp__db__params__t.html#aafb8710c45f74403ee3d7c12aa27f713", null ],
+      [ "p_db", "structwiced__bt__a2d__sdp__db__params__t.html#a95655154f49d7fb2ce00b3dc127631f2", null ]
     ] ],
     [ "wiced_bt_a2d_service_t", "structwiced__bt__a2d__service__t.html", [
-      [ "avdt_version", "group__wicedbt__av__a2d__helper.html#ga2d10e3be2b81d100443614e55b4b0c21", null ],
-      [ "features", "group__wicedbt__av__a2d__helper.html#ga05394e2501b222db77c3a39194523065", null ],
-      [ "p_provider_name", "group__wicedbt__av__a2d__helper.html#gad9460235afcc5d705ff25de7b63cfb3d", null ],
-      [ "p_service_name", "group__wicedbt__av__a2d__helper.html#gae2b770af86cc0cd81658a365df4915ea", null ],
-      [ "provider_len", "group__wicedbt__av__a2d__helper.html#ga1141e4ebcbdd40401137776441e5a17b", null ],
-      [ "service_len", "group__wicedbt__av__a2d__helper.html#ga412f90be47a00ccd253665c53b890f60", null ]
+      [ "avdt_version", "structwiced__bt__a2d__service__t.html#a2d10e3be2b81d100443614e55b4b0c21", null ],
+      [ "features", "structwiced__bt__a2d__service__t.html#a05394e2501b222db77c3a39194523065", null ],
+      [ "p_provider_name", "structwiced__bt__a2d__service__t.html#ad9460235afcc5d705ff25de7b63cfb3d", null ],
+      [ "p_service_name", "structwiced__bt__a2d__service__t.html#ae2b770af86cc0cd81658a365df4915ea", null ],
+      [ "provider_len", "structwiced__bt__a2d__service__t.html#a1141e4ebcbdd40401137776441e5a17b", null ],
+      [ "service_len", "structwiced__bt__a2d__service__t.html#a412f90be47a00ccd253665c53b890f60", null ]
     ] ],
-    [ "Advanced Audio Distribution Profile (A2DP) Sink", "group__wicedbt__a2dp.html", "group__wicedbt__a2dp" ],
     [ "A2D_BAD_ALLOC_MTHD", "group__wicedbt__av__a2d__helper.html#gad192d339d80f88f0ab96ce1d5d1be313", null ],
     [ "A2D_BAD_BIT_RATE", "group__wicedbt__av__a2d__helper.html#ga653486795f9a5c0765c51760939d9992", null ],
     [ "A2D_BAD_BLOCK_LEN", "group__wicedbt__av__a2d__helper.html#gab32a5584267f6873c2c5440985b501c4", null ],
@@ -48,15 +47,5 @@ var group__wicedbt__av__a2d__helper =
     [ "A2D_NS_VBR", "group__wicedbt__av__a2d__helper.html#ga1f7b4cc16b7087cf4f6f74460c5be62b", null ],
     [ "A2D_SUCCESS", "group__wicedbt__av__a2d__helper.html#ga235b873e3a932294d4cc304eee0a6507", null ],
     [ "A2D_WRONG_CODEC", "group__wicedbt__av__a2d__helper.html#ga37a6d7bf1b3ae2bd9dc887ec71e9a6b1", null ],
-    [ "wiced_bt_a2d_find_cback", "group__wicedbt__av__a2d__helper.html#ga6af62033c6e1aa94646eded0064777f4", null ],
-    [ "avdt_version", "group__wicedbt__av__a2d__helper.html#ga2d10e3be2b81d100443614e55b4b0c21", null ],
-    [ "db_len", "group__wicedbt__av__a2d__helper.html#gad869c77e637e74544b7da4fc883c965e", null ],
-    [ "features", "group__wicedbt__av__a2d__helper.html#ga05394e2501b222db77c3a39194523065", null ],
-    [ "num_attr", "group__wicedbt__av__a2d__helper.html#ga15873975ac30bb80d6e4a1a47b14ca00", null ],
-    [ "p_attrs", "group__wicedbt__av__a2d__helper.html#gaafb8710c45f74403ee3d7c12aa27f713", null ],
-    [ "p_db", "group__wicedbt__av__a2d__helper.html#ga95655154f49d7fb2ce00b3dc127631f2", null ],
-    [ "p_provider_name", "group__wicedbt__av__a2d__helper.html#gad9460235afcc5d705ff25de7b63cfb3d", null ],
-    [ "p_service_name", "group__wicedbt__av__a2d__helper.html#gae2b770af86cc0cd81658a365df4915ea", null ],
-    [ "provider_len", "group__wicedbt__av__a2d__helper.html#ga1141e4ebcbdd40401137776441e5a17b", null ],
-    [ "service_len", "group__wicedbt__av__a2d__helper.html#ga412f90be47a00ccd253665c53b890f60", null ]
+    [ "wiced_bt_a2d_find_cback", "group__wicedbt__av__a2d__helper.html#ga6af62033c6e1aa94646eded0064777f4", null ]
 ];

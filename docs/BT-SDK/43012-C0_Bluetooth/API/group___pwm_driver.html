@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW43012: Pulse Width Modulation (PWM)</title>
+<title>WICED CYW43012: Pulse Width Modulation (PWM)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -98,402 +96,27 @@ $(document).ready(function(){initNavTree('group___pwm_driver.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#groups">Modules</a>  </div>
   <div class="headertitle">
-<div class="title">Pulse Width Modulation (PWM)</div>  </div>
+<div class="title">Pulse Width Modulation (PWM)<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Defines a driver to facilitate interfacing with the Pulse-Width Modulation (PWM) driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__pwm__config__t.html">wiced_pwm_config_t</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group__group__pwm__functions"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__functions.html">Functions</a></td></tr>
+<tr class="memdesc:group__group__pwm__functions"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM Functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ga726ca809ffd3d67ab4b8476646f26635"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<b>PWM0</b> = 0, 
-<b>PWM1</b> = 1, 
-<b>PWM2</b> = 2, 
-<b>PWM3</b> = 3, 
-<br />
-&#160;&#160;<b>PWM4</b> = 4, 
-<b>PWM5</b> = 5, 
-<b>MAX_PWMS</b> = 6
-<br />
- }</td></tr>
-<tr class="memdesc:ga726ca809ffd3d67ab4b8476646f26635"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM HW block has 6 PWM channels each with its own 16 bit counter.  <a href="group___pwm_driver.html#ga726ca809ffd3d67ab4b8476646f26635">More...</a><br /></td></tr>
-<tr class="separator:ga726ca809ffd3d67ab4b8476646f26635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6f1f44294b67f525ab35c3205cea26f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a> { <b>LHL_CLK</b>, 
-<b>PMU_CLK</b>
- }</td></tr>
-<tr class="memdesc:gae6f1f44294b67f525ab35c3205cea26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clock used for PWM.  <a href="group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f">More...</a><br /></td></tr>
-<tr class="separator:gae6f1f44294b67f525ab35c3205cea26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga6f267bb01ce08aa77e4a98249fb296cd"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#ga6f267bb01ce08aa77e4a98249fb296cd">wiced_hal_pwm_start</a> (uint8_t channel, <a class="el" href="group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a> clk, uint32_t toggleCount, uint32_t initCount, wiced_bool_t invert)</td></tr>
-<tr class="memdesc:ga6f267bb01ce08aa77e4a98249fb296cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures, enables, and starts the PWM to be active on a preconfigured GPIO pin.  <a href="#ga6f267bb01ce08aa77e4a98249fb296cd">More...</a><br /></td></tr>
-<tr class="separator:ga6f267bb01ce08aa77e4a98249fb296cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga24178dd5f27008980d863048ebb96f74"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#ga24178dd5f27008980d863048ebb96f74">wiced_hal_pwm_change_values</a> (uint8_t channel, uint32_t toggleCount, uint32_t initCount)</td></tr>
-<tr class="memdesc:ga24178dd5f27008980d863048ebb96f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the PWM settings after the PWM HW has already been started.  <a href="#ga24178dd5f27008980d863048ebb96f74">More...</a><br /></td></tr>
-<tr class="separator:ga24178dd5f27008980d863048ebb96f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga81c505dff9285c57a41087b141641700"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#ga81c505dff9285c57a41087b141641700">wiced_hal_pwm_get_toggle_count</a> (uint8_t channel)</td></tr>
-<tr class="memdesc:ga81c505dff9285c57a41087b141641700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current toggle count setting for the corresponding PWM channel.  <a href="#ga81c505dff9285c57a41087b141641700">More...</a><br /></td></tr>
-<tr class="separator:ga81c505dff9285c57a41087b141641700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3b14ae881948bda1453be8b64655eda"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#gab3b14ae881948bda1453be8b64655eda">wiced_hal_pwm_get_init_value</a> (uint8_t channel)</td></tr>
-<tr class="memdesc:gab3b14ae881948bda1453be8b64655eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current initial count setting for the corresponding PWM channel.  <a href="#gab3b14ae881948bda1453be8b64655eda">More...</a><br /></td></tr>
-<tr class="separator:gab3b14ae881948bda1453be8b64655eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c758a6427f3e5fbe6238147594b4dff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#ga7c758a6427f3e5fbe6238147594b4dff">wiced_hal_pwm_disable</a> (uint8_t channel)</td></tr>
-<tr class="memdesc:ga7c758a6427f3e5fbe6238147594b4dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the PWM channel.  <a href="#ga7c758a6427f3e5fbe6238147594b4dff">More...</a><br /></td></tr>
-<tr class="separator:ga7c758a6427f3e5fbe6238147594b4dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea1381d8449a1d492004cc3b0e4555b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#gaea1381d8449a1d492004cc3b0e4555b5">wiced_hal_pwm_enable</a> (uint8_t channel)</td></tr>
-<tr class="memdesc:gaea1381d8449a1d492004cc3b0e4555b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the PWM channel which is already preconfigured.  <a href="#gaea1381d8449a1d492004cc3b0e4555b5">More...</a><br /></td></tr>
-<tr class="separator:gaea1381d8449a1d492004cc3b0e4555b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79dcaaca24101329ebe43f993d88a03f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#ga79dcaaca24101329ebe43f993d88a03f">wiced_hal_pwm_configure_pin</a> (uint8_t pin, uint8_t PWM)</td></tr>
-<tr class="memdesc:ga79dcaaca24101329ebe43f993d88a03f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure any GPIO as any PWM port.  <a href="#ga79dcaaca24101329ebe43f993d88a03f">More...</a><br /></td></tr>
-<tr class="separator:ga79dcaaca24101329ebe43f993d88a03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad56186be22cf1072eb17f2e404736b3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pwm_driver.html#gad56186be22cf1072eb17f2e404736b3a">wiced_hal_pwm_get_params</a> (uint32_t clock_frequency_in, uint32_t duty_cycle, uint32_t pwm_frequency_out, <a class="el" href="structwiced__pwm__config__t.html">wiced_pwm_config_t</a> *params_out)</td></tr>
-<tr class="memdesc:gad56186be22cf1072eb17f2e404736b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate PWM parameters.  <a href="#gad56186be22cf1072eb17f2e404736b3a">More...</a><br /></td></tr>
-<tr class="separator:gad56186be22cf1072eb17f2e404736b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__group__pwm__data__structures"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__data__structures.html">Structures</a></td></tr>
+<tr class="memdesc:group__group__pwm__data__structures"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM Structures. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver to facilitate interfacing with the Pulse-Width Modulation (PWM) driver. </p>
 <p>Use this driver to output a PWM signal to a GPIO pin for external use. There are six, 16-bit hardware PWM channels avaliable (0-5). Typical use-cases include fine-control over small devices such as LEDs. Please reference the Kit Guide or HW User Manual for your device for more information. </p>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="ga726ca809ffd3d67ab4b8476646f26635"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWM HW block has 6 PWM channels each with its own 16 bit counter. </p>
-<p>The first PWM channel is PWM0. </p>
-
-</div>
-</div>
-<a class="anchor" id="gae6f1f44294b67f525ab35c3205cea26f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clock used for PWM. </p>
-<p>When LHL_CLK is set, 128 KHz is used. PMU_CLK requires aclk to be configured first. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga24178dd5f27008980d863048ebb96f74"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_hal_pwm_change_values </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>toggleCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>initCount</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Changes the PWM settings after the PWM HW has already been started. </p>
-<p>(!) Note that the maximum width or period of the PWM is 0xFFFF (16-bits).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel to set [0-5]. </td></tr>
-    <tr><td class="paramname">toggleCount</td><td>- The number of ticks to wait before toggling the signal. </td></tr>
-    <tr><td class="paramname">initCount</td><td>- Initial value for the counter.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>1 if PWM was successfully changed, 0 otherwise. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga79dcaaca24101329ebe43f993d88a03f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_pwm_configure_pin </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>pin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>PWM</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configure any GPIO as any PWM port. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pin</td><td>: pin to configure as PWM </td></tr>
-    <tr><td class="paramname">PWM</td><td>which PWM channel to set the pin to (0 - 5)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>VOID </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga7c758a6427f3e5fbe6238147594b4dff"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_pwm_disable </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Disables the PWM channel. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel to stop/disable.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>VOID </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaea1381d8449a1d492004cc3b0e4555b5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_pwm_enable </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enables the PWM channel which is already preconfigured. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel to enable.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>VOID </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gab3b14ae881948bda1453be8b64655eda"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t wiced_hal_pwm_get_init_value </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the current initial count setting for the corresponding PWM channel. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel from which to obtain the initial count.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The initial count value of the PWM. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gad56186be22cf1072eb17f2e404736b3a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_pwm_get_params </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>clock_frequency_in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>duty_cycle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>pwm_frequency_out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structwiced__pwm__config__t.html">wiced_pwm_config_t</a> *&#160;</td>
-          <td class="paramname"><em>params_out</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculate PWM parameters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">clock_frequency_in</td><td>- in clock frequency </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">duty_cycle</td><td>- duty cycle in percentage (0 to 100) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pwm_frequency_out</td><td>- Desire PWM output frequency </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">params_out</td><td>- PWM params</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>VOID </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga81c505dff9285c57a41087b141641700"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t wiced_hal_pwm_get_toggle_count </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the current toggle count setting for the corresponding PWM channel. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel from which to obtain the toggle count.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The value at which the PWM is going to toggle. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6f267bb01ce08aa77e4a98249fb296cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_hal_pwm_start </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>channel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a>&#160;</td>
-          <td class="paramname"><em>clk</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>toggleCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>initCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
-          <td class="paramname"><em>invert</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configures, enables, and starts the PWM to be active on a preconfigured GPIO pin. </p>
-<p>(!) Note that the desired GPIO pin must have already been configured as output. See the HW muxing section in the Kit Guide or HW User Manual for your device for more information.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">channel</td><td>- Desired PWM channel to use [0-5]. </td></tr>
-    <tr><td class="paramname">clk</td><td>- PMU_CLK or LHL_CLK </td></tr>
-    <tr><td class="paramname">toggleCount</td><td>- The number of ticks to wait before toggling the signal. </td></tr>
-    <tr><td class="paramname">initCount</td><td>- Initial value for the counter. </td></tr>
-    <tr><td class="paramname">invert</td><td>- 1 to invert the signal.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>1 if PWM was successfully started, 0 otherwise.</dd></dl>
-<p>The following example outputs a signal on P28 using the PMU clock.</p>
-<p>(!) Note that the maximum width or period of the PWM is 0xFFFF (16-bits).</p>
-<p>(!) Note that if you use PMU_CLK instead of LHL_CLK, a call to <a class="el" href="group___aux_clk_driver.html#gaee0d5876034de94fa98f8d4a8b287815" title="Configures, enables, and starts the aclk to be active on a preconfigured GPIO pin. ">wiced_hal_aclk_enable()</a> is required. When configuring aclk, ACLK0 is not avaliable for use with PWM&ndash;only ACLK1.</p>
-<p>(!) Note that each PWM&lt;#&gt; channel corresponds to a specific GPIO pin, and said pin must be configured for output before PWM may use it. Please reference the Kit Guide or HW User Manual for your device for more information on which pins support PWM on your platform.</p>
-<pre class="fragment">/// UINT16 init_cnt = 0xFE55;
-/// UINT16 toggle_cnt = 0xFF2A;
-/// wiced_hal_gpio_configurePin(28, GPIO_OUTPUT_ENABLE, 0);
-/// wiced_hal_aclk_enable(256, ACLK1, ACLK_FREQ_24_MHZ);
-/// wiced_hal_pwm_start(PWM2, PMU_CLK, toggle_cnt, init_cnt, 0);
-/// </pre> 
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

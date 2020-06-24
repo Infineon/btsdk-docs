@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['ota_20firmware_20upgrade',['OTA Firmware Upgrade',['../group__group__ota__wiced__firmware__upgrade.html',1,'']]],
-  ['obex',['OBEX',['../group__wicedbt__obex.html',1,'']]]
+  ['peripheral_20spi',['Peripheral SPI',['../group___peripheral_spi_driver.html',1,'']]],
+  ['peripheral_20uart_20_28puart_29',['Peripheral UART (PUART)',['../group___p_u_a_r_t_driver.html',1,'']]],
+  ['pulse_20width_20modulation_20_28pwm_29',['Pulse Width Modulation (PWM)',['../group___pwm_driver.html',1,'']]]
 ];

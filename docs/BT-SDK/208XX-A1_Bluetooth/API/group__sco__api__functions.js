@@ -1,5 +1,18 @@
 var group__sco__api__functions =
 [
+    [ "wiced_bt_sco_params_t", "structwiced__bt__sco__params__t.html", [
+      [ "max_latency", "structwiced__bt__sco__params__t.html#aa1c72375adb301530685491acb4b2fdd", null ],
+      [ "packet_types", "structwiced__bt__sco__params__t.html#ae8b48a29504c067028bd34b9448083c4", null ],
+      [ "retrans_effort", "structwiced__bt__sco__params__t.html#a9ed3b26c2d665b1bf7e2807175b92d26", null ],
+      [ "use_wbs", "structwiced__bt__sco__params__t.html#a2e75ea30290a80030360f3fae2027e7c", null ]
+    ] ],
+    [ "wiced_bt_voice_path_setup_t", "structwiced__bt__voice__path__setup__t.html", [
+      [ "path", "structwiced__bt__voice__path__setup__t.html#a725085f700f7dd01e24a0d3b22b5b730", null ]
+    ] ],
+    [ "WICED_BT_SCO_DATA_CB_GET_LENGTH", "group__sco__api__functions.html#ga790bb3988e26ca2335c728a350c63736", null ],
+    [ "wiced_bt_sco_route_path_t", "group__sco__api__functions.html#ga4548402097137688617e39d9377fc8a2", [
+      [ "WICED_BT_SCO_OVER_PCM", "group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a0424732db6badc408fdb0510540a0368", null ]
+    ] ],
     [ "wiced_bt_sco_accept_connection", "group__sco__api__functions.html#ga7c8ecc9a1333c1c5b4da60f1dd07d990", null ],
     [ "wiced_bt_sco_create_as_acceptor", "group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8", null ],
     [ "wiced_bt_sco_create_as_initiator", "group__sco__api__functions.html#gad3c0ea63212a9cca3b0b668d7e392288", null ],

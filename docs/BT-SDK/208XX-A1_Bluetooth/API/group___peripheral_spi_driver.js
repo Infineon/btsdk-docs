@@ -1,7 +1,7 @@
 var group___peripheral_spi_driver =
 [
-    [ "Group_PeripheralSpiDriver_macro", "group__group___peripheral_spi_driver__macro.html", "group__group___peripheral_spi_driver__macro" ],
     [ "Group_PeripheralSpiDriver_enums", "group__group___peripheral_spi_driver__enums.html", "group__group___peripheral_spi_driver__enums" ],
+    [ "Group_PeripheralSpiDriver_macro", "group__group___peripheral_spi_driver__macro.html", "group__group___peripheral_spi_driver__macro" ],
     [ "wiced_hal_pspi_exchange_data", "group___peripheral_spi_driver.html#ga9c089d7961d0d711243791ea777c0dd1", null ],
     [ "wiced_hal_pspi_init", "group___peripheral_spi_driver.html#gaee948817fbd06ae83549fa201f1b9231", null ],
     [ "wiced_hal_pspi_reset", "group___peripheral_spi_driver.html#gaa2c7b00a6d6a55743d6744d257854419", null ],

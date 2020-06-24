@@ -30,7 +30,7 @@ var group___peripheral_spi_driver =
       [ "SPI_SS_ACTIVE_HIGH", "group___peripheral_spi_driver.html#gga257d08e39e34f30499952a3f19318f3dab0bbee1f2cdab6872b65b235afa6acac", null ]
     ] ],
     [ "wiced_hal_pspi_exchange_data", "group___peripheral_spi_driver.html#ga84ae0f64b23be6efb1dc71dcd17acbd6", null ],
-    [ "wiced_hal_pspi_init", "group___peripheral_spi_driver.html#gae4e5c7f25d237c1d4823bea10e823087", null ],
+    [ "wiced_hal_pspi_init", "group___peripheral_spi_driver.html#ga79b533fc2c2548be8b403ee9cefc0ab3", null ],
     [ "wiced_hal_pspi_reset", "group___peripheral_spi_driver.html#gaa2c7b00a6d6a55743d6744d257854419", null ],
     [ "wiced_hal_pspi_rx_data", "group___peripheral_spi_driver.html#gabaf7dc7ebf1032a0fc335309a5a1c5cd", null ],
     [ "wiced_hal_pspi_slave_disable_rx", "group___peripheral_spi_driver.html#gaea5c4f8c05fc0aa9fcc0c8857d398eb1", null ],

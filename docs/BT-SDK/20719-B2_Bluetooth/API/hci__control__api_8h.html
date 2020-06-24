@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW20719: hci_control_api.h File Reference</title>
+<title>WICED CYW20719: hci_control_api.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -214,6 +212,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a4661328be25410ecdb212b979b228905"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4661328be25410ecdb212b979b228905"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_HK</b>&#160;&#160;&#160;0x28</td></tr>
 <tr class="separator:a4661328be25410ecdb212b979b228905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9aca1b11da774fa626e833123f8c0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e9aca1b11da774fa626e833123f8c0e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_HCI_AUDIO</b>&#160;&#160;&#160;0x29</td></tr>
+<tr class="separator:a7e9aca1b11da774fa626e833123f8c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22394dde968c719d47f0d391b5c2968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa22394dde968c719d47f0d391b5c2968"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MISC</b>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="separator:aa22394dde968c719d47f0d391b5c2968"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1486,6 +1487,24 @@ Macros</h2></td></tr>
 <tr class="memitem:a5ba7b4935d9b24c811099b6dfd58fff1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ba7b4935d9b24c811099b6dfd58fff1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_COMMAND_GET_TOKEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x05 )    /* Get software authentication token */</td></tr>
 <tr class="separator:a5ba7b4935d9b24c811099b6dfd58fff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f121a7bc04a6889275d8384e30a0eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31f121a7bc04a6889275d8384e30a0eb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x00 ) /* Generic Get command */</td></tr>
+<tr class="separator:a31f121a7bc04a6889275d8384e30a0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbdb0ed6c5abb85bf088cc13785de450"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbdb0ed6c5abb85bf088cc13785de450"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x01 ) /* Generic Set command */</td></tr>
+<tr class="separator:acbdb0ed6c5abb85bf088cc13785de450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17c64dfcd23d021934f5cffc05204d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab17c64dfcd23d021934f5cffc05204d9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_MIC_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x02 ) /* Record data from MIC */</td></tr>
+<tr class="separator:ab17c64dfcd23d021934f5cffc05204d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f487aecf1f90db0bad56eeb603f0041"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f487aecf1f90db0bad56eeb603f0041"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_PUSH_NVRAM_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x03 ) /* Push NVRAM data by ID */</td></tr>
+<tr class="separator:a9f487aecf1f90db0bad56eeb603f0041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692f0ec586959fac3cc16b344bc8ec04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a692f0ec586959fac3cc16b344bc8ec04"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_BT_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x04 ) /* Start BT stack */</td></tr>
+<tr class="separator:a692f0ec586959fac3cc16b344bc8ec04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b5a02b3c13b0f0e9b4a61f79b88138"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4b5a02b3c13b0f0e9b4a61f79b88138"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_BUTTON</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x30 ) /* Button event */</td></tr>
+<tr class="separator:af4b5a02b3c13b0f0e9b4a61f79b88138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e76801a75160fe12c1bb9a8d0a333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29e76801a75160fe12c1bb9a8d0a333"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:af29e76801a75160fe12c1bb9a8d0a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2620,6 +2639,33 @@ Macros</h2></td></tr>
 <tr class="memitem:a95dbe9af726c045f80ca4d6cb895f2e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95dbe9af726c045f80ca4d6cb895f2e4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HK_EVENT_TOKEN_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HK &lt;&lt; 8 ) | 0x04 )    /* Software token data */</td></tr>
 <tr class="separator:a95dbe9af726c045f80ca4d6cb895f2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb2059e63a371a1670959ed3aa16508"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeb2059e63a371a1670959ed3aa16508"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
+<tr class="separator:adeb2059e63a371a1670959ed3aa16508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac818dec234e064a72a641c2ab24616cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac818dec234e064a72a641c2ab24616cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_SCO_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x02 )    /* SCO data from HFP */</td></tr>
+<tr class="separator:ac818dec234e064a72a641c2ab24616cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d62220f1d24ab5cd3ab80c13baeea8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d62220f1d24ab5cd3ab80c13baeea8a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_STREAM_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x03 )    /* Stream start */</td></tr>
+<tr class="separator:a1d62220f1d24ab5cd3ab80c13baeea8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2475b83e92c8473350a1a441edddd1b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2475b83e92c8473350a1a441edddd1b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_STREAM_STOP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x04 )    /* Stream stop */</td></tr>
+<tr class="separator:a2475b83e92c8473350a1a441edddd1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9257746ae362fcd0371098059378062a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9257746ae362fcd0371098059378062a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_STREAM_CONFIG</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x05 )    /* Stream configure */</td></tr>
+<tr class="separator:a9257746ae362fcd0371098059378062a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091b39b0ebda722a560cbfcb6d38fd56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a091b39b0ebda722a560cbfcb6d38fd56"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_STREAM_VOLUME</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x06 )    /* Stream volume */</td></tr>
+<tr class="separator:a091b39b0ebda722a560cbfcb6d38fd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3de4d47650a9d0bb7c0bcb0b6e635236"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3de4d47650a9d0bb7c0bcb0b6e635236"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_STREAM_MIC_GAIN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x07 )    /* Stream MIC gain */</td></tr>
+<tr class="separator:a3de4d47650a9d0bb7c0bcb0b6e635236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274a0da9017c202ed84d626e712b7bab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a274a0da9017c202ed84d626e712b7bab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_WRITE_NVRAM_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x08 )    /* Write NVRAM data */</td></tr>
+<tr class="separator:a274a0da9017c202ed84d626e712b7bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea5d4dcc65a98e5a277d44fd54e7f58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ea5d4dcc65a98e5a277d44fd54e7f58"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_EVENT_DELETE_NVRAM_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x09 )    /* Delete NVRAM data */</td></tr>
+<tr class="separator:a3ea5d4dcc65a98e5a277d44fd54e7f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2821,7 +2867,7 @@ Macros</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
-<p>Copyright 2020, Cypress Semiconductor Corporation or a subsidiary of Cypress Semiconductor Corporation. All Rights Reserved.</p>
+<p>Copyright 2016-2020, Cypress Semiconductor Corporation or a subsidiary of Cypress Semiconductor Corporation. All Rights Reserved.</p>
 <p>This software, including source code, documentation and related materials ("Software"), is owned by Cypress Semiconductor Corporation or one of its subsidiaries ("Cypress") and is protected by and subject to worldwide patent protection (United States and foreign), United States copyright laws and international treaty provisions. Therefore, you may use this Software only as provided in the license agreement accompanying the software package from which you obtained this Software ("EULA"). If no EULA applies, Cypress hereby grants you a personal, non-exclusive, non-transferable license to copy, modify, and compile the Software source code solely for use in connection with Cypress's integrated circuit products. Any reproduction, modification, translation, compilation, or representation of this Software except as specified above is prohibited without the express written permission of Cypress.</p>
 <p>Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress reserves the right to make changes to the Software without notice. Cypress does not assume any liability arising out of the application or use of the Software or any product or circuit described in the Software. Cypress does not authorize its products for use in any products where a malfunction or failure of the Cypress product may reasonably be expected to result in significant property damage, injury or death ("High Risk Product"). By including Cypress's product in a High Risk Product, the manufacturer of such system or application assumes all risk of such use and in doing so agrees to indemnify Cypress against all liability. </p><pre class="fragment">  HCI Control Protocol Definitions
 

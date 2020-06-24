@@ -1,6 +1,9 @@
 var group__wicedbt__a2dp =
 [
+    [ "A2DP Helper Functions", "group__wicedbt__av__a2d__helper.html", "group__wicedbt__av__a2d__helper" ],
     [ "A2DP SBC Support", "group__wicedbt__a2dp__sbc.html", "group__wicedbt__a2dp__sbc" ],
+    [ "Audio Insertion", "group__audio__insert.html", "group__audio__insert" ],
+    [ "Audio Record", "group__audio__record.html", "group__audio__record" ],
     [ "wiced_audio_play_status_ind_t", "group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092", null ],
     [ "wiced_audio_get_jitter_buffer_state", "group__wicedbt__a2dp.html#gaaad5d0781c1f7eb978e74db624612017", null ],
     [ "wiced_audio_register_play_status_ind_cback", "group__wicedbt__a2dp.html#ga28cd26515438f840e6e96a6cce808c5f", null ],

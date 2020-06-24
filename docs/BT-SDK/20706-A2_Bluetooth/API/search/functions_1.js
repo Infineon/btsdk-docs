@@ -1,20 +1,12 @@
 var searchData=
 [
-  ['camellia_5fcrypt_5fcbc',['camellia_crypt_cbc',['../group___camellia.html#ga313f6d7ddeadeb5766d61096f53fd799',1,'wiced_security.h']]],
-  ['camellia_5fcrypt_5fcfb128',['camellia_crypt_cfb128',['../group___camellia.html#gad7fe86e6c243fc22fc73044c58abb404',1,'wiced_security.h']]],
-  ['camellia_5fcrypt_5fecb',['camellia_crypt_ecb',['../group___camellia.html#ga26593bb4eea4ba22303a16f6f42e7a2f',1,'wiced_security.h']]],
-  ['camellia_5fsetkey_5fdec',['camellia_setkey_dec',['../group___camellia.html#gac77a1628bc5c607edac9b25d3bab0633',1,'wiced_security.h']]],
-  ['camellia_5fsetkey_5fenc',['camellia_setkey_enc',['../group___camellia.html#ga192688db34ab7bd994e24b8f28df0d48',1,'wiced_security.h']]],
-  ['chacha20_5fblock_5ffunction',['chacha20_block_function',['../group__chacha.html#gab65837a622aa9577f75b92a32d8a69ff',1,'wiced_security.h']]],
-  ['chacha20_5fblock_5fivsetup',['chacha20_block_ivsetup',['../group__chacha.html#gacc1bc28632765576792c2702d1a0cf2b',1,'wiced_security.h']]],
-  ['chacha20_5fpoly1305_5faead_5firtf_5fcfrg',['chacha20_poly1305_aead_irtf_cfrg',['../group__chacha.html#gae1f6f8bd756540a20335943366297e13',1,'wiced_security.h']]],
-  ['chacha20_5fpoly1305_5faead_5ftls_5fdecrypt',['chacha20_poly1305_aead_tls_decrypt',['../wiced__security_8h.html#a64bc96eb029a0e2557b7e45a2b0d0de3',1,'wiced_security.h']]],
-  ['chacha20_5fpoly1305_5faead_5ftls_5fencrypt',['chacha20_poly1305_aead_tls_encrypt',['../group__chacha.html#ga73899974775ccfdb991e34037ebfb128',1,'wiced_security.h']]],
-  ['chacha20_5ftls_5fivsetup',['chacha20_tls_ivsetup',['../group__chacha.html#ga6b09c2446c07d512e9223015225009e3',1,'wiced_security.h']]],
-  ['chacha_5fdecrypt_5fbytes',['chacha_decrypt_bytes',['../group__chacha.html#gae2ceb5704ed157c4d1a9a644c7d4ed5f',1,'wiced_security.h']]],
-  ['chacha_5fencrypt_5fbytes',['chacha_encrypt_bytes',['../group__chacha.html#gaffb0154164c47042b10862f0ade0e8bd',1,'wiced_security.h']]],
-  ['chacha_5fivsetup',['chacha_ivsetup',['../group__chacha.html#gaf1c956a011ee43b6a5ab27ef4f3105d8',1,'wiced_security.h']]],
-  ['chacha_5fkeysetup',['chacha_keysetup',['../group__chacha.html#gac0f29c9047262b232a78c3d3b0805f5a',1,'wiced_security.h']]],
-  ['chacha_5fkeystream_5fbytes',['chacha_keystream_bytes',['../group__chacha.html#ga4e894fd52f93b1cabfd63045edef5b40',1,'wiced_security.h']]],
-  ['curve25519',['curve25519',['../group__curve25519.html#ga0854945002ad786a5fac1de6a815ca32',1,'wiced_security.h']]]
+  ['mesh_5fapplication_5fget_5fnvram_5fid_5fapp_5fstart',['mesh_application_get_nvram_id_app_start',['../wiced__bt__mesh__app_8h.html#a76e079c3781d0cccd4d08e8471ad5efc',1,'wiced_bt_mesh_app.h']]],
+  ['mesh_5fdefault_5ftransition_5ftime_5fget',['mesh_default_transition_time_get',['../wiced__bt__mesh__model__utils_8h.html#ac43d59bff901fd760938f8643cb86c76',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fmodel_5ftransition_5fserver_5finit',['mesh_model_transition_server_init',['../wiced__bt__mesh__model__utils_8h.html#a928b715926428a06f5097667fec67eda',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fopcode_5fto_5fstream',['mesh_opcode_to_stream',['../wiced__bt__mesh__model__utils_8h.html#a39846e3b7b6a5aa6a13b03256ad8949b',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fpower_5fonoff_5fserver_5fonpowerup_5fget',['mesh_power_onoff_server_onpowerup_get',['../wiced__bt__mesh__model__utils_8h.html#aea1f2f05c1673747d95e2ea1a1fbcf9b',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fserver_5ftransition_5fabort',['mesh_server_transition_abort',['../wiced__bt__mesh__model__utils_8h.html#a7429bd94637cb855009c0226c416891a',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fserver_5ftransition_5fstart',['mesh_server_transition_start',['../wiced__bt__mesh__model__utils_8h.html#a7a7c6f5cb792aba11459de9c6d8d4028',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5fsig_5fmodel_5fhandle_5fregister',['mesh_sig_model_handle_register',['../wiced__bt__mesh__model__utils_8h.html#addc093b22e2b6331d6a133bd9c36b2b6',1,'wiced_bt_mesh_model_utils.h']]],
+  ['mesh_5ftime_5fms_5fto_5ftranstime',['mesh_time_ms_to_transtime',['../wiced__bt__mesh__model__utils_8h.html#ad647ec25874bafad8e8034c7f9bc545b',1,'wiced_bt_mesh_model_utils.h']]]
 ];

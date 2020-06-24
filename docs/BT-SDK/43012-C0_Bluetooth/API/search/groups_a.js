@@ -7,14 +7,10 @@ var searchData=
   ['mutexes',['Mutexes',['../group__mutexes.html',1,'']]],
   ['mesh_20battery_20client',['Mesh Battery Client',['../group__wiced__bt__mesh__battery__client.html',1,'']]],
   ['mesh_20battery_20server',['Mesh Battery Server',['../group__wiced__bt__mesh__battery__server.html',1,'']]],
-  ['mesh_20blob_20transfer_20client',['Mesh BLOB Transfer Client',['../group__wiced__bt__mesh__blob__transfer__client.html',1,'']]],
-  ['mesh_20blob_20transfer_20server',['Mesh BLOB Transfer Server',['../group__wiced__bt__mesh__blob__transfer__server.html',1,'']]],
   ['mesh_20client_20library_20api',['Mesh Client Library API',['../group__wiced__bt__mesh__client.html',1,'']]],
   ['mesh_20core_20library_20api',['Mesh Core Library API',['../group__wiced__bt__mesh__core.html',1,'']]],
   ['mesh_20default_20transition_20time_20client',['Mesh Default Transition Time Client',['../group__wiced__bt__mesh__default__transition__time__client.html',1,'']]],
   ['mesh_20default_20transition_20time_20server',['Mesh Default Transition Time Server',['../group__wiced__bt__mesh__default__transition__time__server.html',1,'']]],
-  ['mesh_20fw_20update_20client',['Mesh FW Update Client',['../group__wiced__bt__mesh__fw__update__client.html',1,'']]],
-  ['mesh_20firmware_20update_20server',['Mesh Firmware Update Server',['../group__wiced__bt__mesh__fw__update__server.html',1,'']]],
   ['mesh_20level_20client',['Mesh Level Client',['../group__wiced__bt__mesh__level__client.html',1,'']]],
   ['mesh_20level_20server',['Mesh Level Server',['../group__wiced__bt__mesh__level__server.html',1,'']]],
   ['mesh_20light_20ctl_20client',['Mesh Light CTL Client',['../group__wiced__bt__mesh__light__ctl__client.html',1,'']]],
@@ -44,5 +40,6 @@ var searchData=
   ['mesh_20sensor_20client',['Mesh Sensor Client',['../group__wiced__bt__mesh__sensor__client.html',1,'']]],
   ['mesh_20sensor_20server',['Mesh Sensor Server',['../group__wiced__bt__mesh__sensor__server.html',1,'']]],
   ['mesh_20time_20client',['Mesh Time Client',['../group__wiced__bt__mesh__time__client.html',1,'']]],
-  ['mesh_20time_20server',['Mesh Time Server',['../group__wiced__bt__mesh__time__server.html',1,'']]]
+  ['mesh_20time_20server',['Mesh Time Server',['../group__wiced__bt__mesh__time__server.html',1,'']]],
+  ['memory_20management',['Memory Management',['../group__wiced__mem.html',1,'']]]
 ];

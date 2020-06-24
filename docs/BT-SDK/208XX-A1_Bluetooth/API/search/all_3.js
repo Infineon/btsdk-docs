@@ -15,6 +15,7 @@ var searchData=
   ['characteristics_5fnb',['characteristics_nb',['../structwiced__bt__ble__hidh__gatt__cache__t.html#acc331d0484e7f918482880226215f29b',1,'wiced_bt_ble_hidh_gatt_cache_t']]],
   ['charging',['charging',['../structmesh__battery__event__t.html#ae8ab857fadc83af7d7931c0874e1ab96',1,'mesh_battery_event_t']]],
   ['chg_5fpath',['chg_path',['../unionwiced__bt__avrc__command__t.html#a7bdc2e1f81e6d02c8fb8ee775f2737fc',1,'wiced_bt_avrc_command_t::chg_path()'],['../unionwiced__bt__avrc__response__t.html#adfd86159cf91eecc4ecc6f3ed455edea',1,'wiced_bt_avrc_response_t::chg_path()']]],
+  ['client',['Client',['../group__client__api__functions.html',1,'']]],
   ['client_5fmax_5flinks',['client_max_links',['../structwiced__bt__cfg__gatt__settings__t.html#adaae6a4e5e00dbf89920154b8e22d449',1,'wiced_bt_cfg_gatt_settings_t']]],
   ['client_5fpdu_5fsent',['client_pdu_sent',['../structmesh__core__provision__cb__t.html#a5ea9286171ca98293d467efe5a4ab16e',1,'mesh_core_provision_cb_t']]],
   ['clk_5fsrc_5ffreq_5fsel',['CLK_SRC_FREQ_SEL',['../group__group___a_c_l_k__enum.html#gab66569008867eb09018a7e2bc0c1c154',1,'wiced_hal_aclk.h']]],
@@ -78,8 +79,6 @@ var searchData=
   ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__group__transport__cback__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__l2cap__callbacks.html',1,'']]],
-  ['config_20_2d_20default_20flash_20_28i_2ee_2e_20flash_20exists_20on_20wiced_20eval_20boards_29_20configuration_2e',['config - Default flash (i.e. flash exists on WICED eval boards) configuration.',['../group___platform.html',1,'']]],
-  ['cype',['CyPE',['../group__wpl.html',1,'']]],
   ['cype_20functions',['CyPE Functions',['../group__wpl__api.html',1,'']]],
   ['cype_20power_20event',['CyPE Power Event',['../group__wpl__event.html',1,'']]]
 ];

@@ -1,5 +1,25 @@
 var group__wicedbt__avrc__ct =
 [
+    [ "wiced_bt_avrc_ct_features_abs_vol_t", "structwiced__bt__avrc__ct__features__abs__vol__t.html", [
+      [ "handle", "structwiced__bt__avrc__ct__features__abs__vol__t.html#a1699094a55a0394ff884346e034df54c", null ],
+      [ "supported", "structwiced__bt__avrc__ct__features__abs__vol__t.html#ad34f1db284858de0038afacefa35b436", null ]
+    ] ],
+    [ "wiced_bt_avrc_ct_features_data_t", "unionwiced__bt__avrc__ct__features__data__t.html", [
+      [ "abs_vol_supported", "unionwiced__bt__avrc__ct__features__data__t.html#ad900906d2caeb63f0ab1720d446d93bc", null ]
+    ] ],
+    [ "wiced_bt_avrc_ct_cmd_cback_t", "group__wicedbt__avrc__ct.html#gaaea90a4f94e148ac2cccf9a28fa8e8cf", null ],
+    [ "wiced_bt_avrc_ct_connection_state_cback_t", "group__wicedbt__avrc__ct.html#gad858b73acd5a0f89dc31c73f511abe6a", null ],
+    [ "wiced_bt_avrc_ct_pt_rsp_cback_t", "group__wicedbt__avrc__ct.html#gadaa88ddf80ce4116a0c265b65d5d714c", null ],
+    [ "wiced_bt_avrc_ct_rsp_cback_t", "group__wicedbt__avrc__ct.html#gad29f68f0d216dac59fc5c1a67902f87f", null ],
+    [ "wiced_bt_avrc_ct_connection_state_t", "group__wicedbt__avrc__ct.html#ga34d812e2d75abcf6d30a1c5f54d4b655", [
+      [ "REMOTE_CONTROL_DISCONNECTED", "group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655acf9920a6dd21885ce33ca97be7efd582", null ],
+      [ "REMOTE_CONTROL_CONNECTED", "group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655ac2f2a7140c2d7c36a53008dd8bf32a37", null ],
+      [ "REMOTE_CONTROL_INITIALIZED", "group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655a65dafb7a7929a45d047440da69074882", null ]
+    ] ],
+    [ "wiced_bt_avrc_ct_features_t", "group__wicedbt__avrc__ct.html#ga717ee5bfe3656a58f039b26a4a00e518", [
+      [ "REMOTE_CONTROL_FEATURE_TARGET", "group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a5cb8a54c77a36132be781ef968ddedf1", null ],
+      [ "REMOTE_CONTROL_FEATURE_CONTROLLER", "group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a45e72ec728d5d3de8df245db3977085a", null ]
+    ] ],
     [ "wiced_bt_avrc_ct_add_to_now_playing_cmd", "group__wicedbt__avrc__ct.html#ga54ec8030b93000e29784e654d15ee98f", null ],
     [ "wiced_bt_avrc_ct_change_path_cmd", "group__wicedbt__avrc__ct.html#ga460dd8b65f6d48d611942bd714ef45d6", null ],
     [ "wiced_bt_avrc_ct_connect", "group__wicedbt__avrc__ct.html#gad40ece7639165beb78d3e8e72a42ddb0", null ],

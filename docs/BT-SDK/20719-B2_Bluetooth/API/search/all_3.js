@@ -29,7 +29,6 @@ var searchData=
   ['client_5fpdu_5fsent',['client_pdu_sent',['../structmesh__core__provision__cb__t.html#a5ea9286171ca98293d467efe5a4ab16e',1,'mesh_core_provision_cb_t']]],
   ['clock_5foffset',['clock_offset',['../structwiced__bt__dev__inquiry__scan__result__t.html#a6a5ea24ae1db2db37726511198e1b8ba',1,'wiced_bt_dev_inquiry_scan_result_t']]],
   ['clock_5fspeed',['clock_speed',['../wiced__transport_8h.html#a6b31cd786761f86279de4b3a2c3d839f',1,'wiced_transport.h']]],
-  ['close',['close',['../unionwiced__bt__hidh__data__t.html#a74331ef6e4ac742f6518c3b400f2d5b0',1,'wiced_bt_hidh_data_t']]],
   ['close_5fcfm',['close_cfm',['../unionwiced__bt__avdt__ctrl__t.html#acc55ff5dcf43979f1f9129cf8b194bc6',1,'wiced_bt_avdt_ctrl_t']]],
   ['cod_5fcond',['cod_cond',['../unionwiced__bt__dev__inq__filt__cond__t.html#af7b891220ce0a5039254de9522e3e1b3',1,'wiced_bt_dev_inq_filt_cond_t']]],
   ['codec_5ffunctions',['codec_functions',['../structwiced__bt__a2dp__ext__codec__info__t.html#af1e6c95518a5ea26c68b97fea8b28d51',1,'wiced_bt_a2dp_ext_codec_info_t']]],
@@ -71,16 +70,6 @@ var searchData=
   ['control',['control',['../structwiced__bt__avrc__conn__cb__t.html#ae11ecbd546ec0301d5462df23b139816',1,'wiced_bt_avrc_conn_cb_t::control()'],['../structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed',1,'wiced_bt_hrs_handles_t::control()']]],
   ['count',['count',['../wiced__bt__mesh__provision_8h.html#a20302e2c99a60d3f612dba57e3f6333b',1,'wiced_bt_mesh_provision.h']]],
   ['counter',['counter',['../wiced__bt__dev_8h.html#a8c051c6679f4694c74db5e020b9f56f0',1,'wiced_bt_dev.h']]],
-  ['cpl_5fevent_5fbt_5fpower_5fstate_5ft',['cpl_event_bt_power_state_t',['../group__wpl__event.html#gad188658f896faab5c88049e633bbeb7d',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fi2c_5fstate_5ft',['cpl_event_i2c_state_t',['../group__wpl__event.html#gae766e9fb426c1aadf363097beec1b2fa',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fid_5ft',['cpl_event_id_t',['../group__wpl__event.html#gaf7dda817dced930b804235a29067fb1a',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fpower_5fstate_5ft',['cpl_event_power_state_t',['../group__wpl__event.html#ga3842bf2f72d9720728f5c1c67067644d',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fprofiling_5fstate_5ft',['cpl_event_profiling_state_t',['../group__wpl__event.html#ga83a36894fbdd9a61da4b78210484145e',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fsdio_5fstate_5ft',['cpl_event_sdio_state_t',['../group__wpl__event.html#ga20fb23d6fbdc7f5b6a8d891fb6e171f7',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fspi_5fsflash_5fstate_5ft',['cpl_event_spi_sflash_state_t',['../group__wpl__event.html#gacfbdf923f6a16d72d5c92269a0aeabe0',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fspi_5fstate_5ft',['cpl_event_spi_state_t',['../group__wpl__event.html#gabf597cc7a68a42ad6909cd0be3f2a61b',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fuart_5fstate_5ft',['cpl_event_uart_state_t',['../group__wpl__event.html#gab258d4bd72991292c8d0daa660a54681',1,'wiced_power_logger.h']]],
-  ['cpl_5fprocid_5ft',['cpl_procid_t',['../group__wpl__event.html#gaf1c716d8b62763b0dc37aeae1d81435c',1,'wiced_power_logger.h']]],
   ['clock',['Clock',['../group___c_p_u.html',1,'']]],
   ['cpu_5fto_5fbig_5fendian_5f16',['CPU_TO_BIG_ENDIAN_16',['../brcm__fw__types_8h.html#a292afcb7f86fe0590d0f67928f162784',1,'brcm_fw_types.h']]],
   ['cpu_5fto_5fbig_5fendian_5f32',['CPU_TO_BIG_ENDIAN_32',['../brcm__fw__types_8h.html#a22ed9b8606adb32683a223d34ebf71de',1,'brcm_fw_types.h']]],
@@ -100,6 +89,5 @@ var searchData=
   ['client',['Client',['../group__gatt__client__api__functions.html',1,'']]],
   ['common',['Common',['../group__gatt__common__api__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]],
-  ['callback_20functions',['Callback Functions',['../group__l2cap__callbacks.html',1,'']]],
-  ['config_20_2d_20default_20flash_20_28i_2ee_2e_20flash_20exists_20on_20wiced_20eval_20boards_29_20configuration_2e',['config - Default flash (i.e. flash exists on WICED eval boards) configuration.',['../group___platform.html',1,'']]]
+  ['callback_20functions',['Callback Functions',['../group__l2cap__callbacks.html',1,'']]]
 ];

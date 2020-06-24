@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: Timer Management Services</title>
+<title>WICED CYW208XX: Timer Management Services</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -112,9 +110,9 @@ $(document).ready(function(){initNavTree('group__timer.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group__group__timer__enums"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__timer__enums.html">Group_timer_enums</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__group__timer__data__structures"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__timer__data__structures.html">Group_timer_data_structures</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__group__timer__enums"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__timer__enums.html">Group_timer_enums</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -136,19 +134,19 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_timer
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga90bdb51ebab16741ac176121f340bf5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga90bdb51ebab16741ac176121f340bf5a"></a>
-wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_init_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, wiced_timer_callback_t TimerCb, TIMER_PARAM_TYPE cBackparam, wiced_timer_type_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_init_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, wiced_timer_callback_t TimerCb, TIMER_PARAM_TYPE cBackparam, wiced_timer_type_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
 <tr class="separator:ga90bdb51ebab16741ac176121f340bf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88f3fefc1d119b55f4b011b80448565a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga88f3fefc1d119b55f4b011b80448565a"></a>
-wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_start_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, uint32_t timeout)</td></tr>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_start_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, uint32_t timeout)</td></tr>
 <tr class="separator:ga88f3fefc1d119b55f4b011b80448565a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7823a463dbe5ac932f1c3e73407d19ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7823a463dbe5ac932f1c3e73407d19ae"></a>
-wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_stop_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer)</td></tr>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_stop_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer)</td></tr>
 <tr class="separator:ga7823a463dbe5ac932f1c3e73407d19ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaff14cd08aabe6a5d074d50c4568a2859"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaff14cd08aabe6a5d074d50c4568a2859"></a>
 wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_is_timer_in_use</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer)</td></tr>
 <tr class="separator:gaff14cd08aabe6a5d074d50c4568a2859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad18b313d83b4c4ca57f73cee258a26fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad18b313d83b4c4ca57f73cee258a26fd"></a>
-wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_deinit_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer)</td></tr>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_deinit_timer</b> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer)</td></tr>
 <tr class="separator:gad18b313d83b4c4ca57f73cee258a26fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

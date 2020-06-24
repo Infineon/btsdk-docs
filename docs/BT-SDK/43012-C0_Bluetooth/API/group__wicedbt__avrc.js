@@ -1,5 +1,7 @@
 var group__wicedbt__avrc =
 [
+    [ "AVRCP Controller Role (CT)", "group__wicedbt__avrc__ct.html", "group__wicedbt__avrc__ct" ],
+    [ "AVRCP Target Role (TG)", "group__wicedbt__avrc__tg.html", "group__wicedbt__avrc__tg" ],
     [ "wiced_bt_avrc_bld_command", "group__wicedbt__avrc.html#gae6ba21548528d4347c9262f68f0cb6fd", null ],
     [ "wiced_bt_avrc_bld_response", "group__wicedbt__avrc.html#ga71a7c234ef5f18cac79a145d80e52b84", null ],
     [ "wiced_bt_avrc_close", "group__wicedbt__avrc.html#ga20865c922791e758eec3a77f33364b3c", null ],

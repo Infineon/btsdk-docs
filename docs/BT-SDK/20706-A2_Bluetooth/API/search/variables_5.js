@@ -16,10 +16,9 @@ var searchData=
   ['feature_5flow_5fpower',['feature_low_power',['../wiced__bt__mesh__provision_8h.html#aa034d189a082aff57c6188b0b4f6a009',1,'wiced_bt_mesh_provision.h']]],
   ['feature_5fproxy',['feature_proxy',['../wiced__bt__mesh__provision_8h.html#a7b4763a6ca5a48acdc7354e2daa526dc',1,'wiced_bt_mesh_provision.h']]],
   ['feature_5frelay',['feature_relay',['../wiced__bt__mesh__provision_8h.html#aeaf7f9ce45a39cfdc395f87ee03dd4cc',1,'wiced_bt_mesh_provision.h']]],
-  ['features',['features',['../group__wicedbt__a2dp.html#ga05394e2501b222db77c3a39194523065',1,'wiced_bt_a2d_service_t::features()'],['../structwiced__bt__avrc__item__player__t.html#af9984aee7273c45bf8ade7e71e07ddb3',1,'wiced_bt_avrc_item_player_t::features()'],['../wiced__bt__mesh__cfg_8h.html#a05394e2501b222db77c3a39194523065',1,'features():&#160;wiced_bt_mesh_cfg.h']]],
+  ['features',['features',['../structwiced__bt__a2d__service__t.html#a05394e2501b222db77c3a39194523065',1,'wiced_bt_a2d_service_t::features()'],['../structwiced__bt__avrc__item__player__t.html#af9984aee7273c45bf8ade7e71e07ddb3',1,'wiced_bt_avrc_item_player_t::features()'],['../wiced__bt__mesh__cfg_8h.html#a05394e2501b222db77c3a39194523065',1,'features():&#160;wiced_bt_mesh_cfg.h']]],
   ['filter_5fcond',['filter_cond',['../structwiced__bt__dev__inq__parms__t.html#afd1c6b501d509e08090a4b0ca1ab76de',1,'wiced_bt_dev_inq_parms_t']]],
   ['filter_5fcond_5ftype',['filter_cond_type',['../structwiced__bt__dev__inq__parms__t.html#ab599a5ae0ad35d4123fe404c73167284',1,'wiced_bt_dev_inq_parms_t']]],
-  ['firmware_5fid',['firmware_id',['../wiced__bt__mesh__provision_8h.html#a1d97922c03d90f122375b1505a0a3574',1,'wiced_bt_mesh_provision.h']]],
   ['firmwareversion',['FirmwareVersion',['../group__wiced__bt__iap2__api__functions.html#gaf17d38f064cc5a8e97d1927e6fe7641c',1,'FirmwareVersion():&#160;wiced_bt_iap2.h'],['../group__wiced__bt__iap2__api__functions.html#gaf17d38f064cc5a8e97d1927e6fe7641c',1,'FirmwareVersion():&#160;wiced_bt_iap2.h']]],
   ['fixed_5fcong_5fcback',['fixed_cong_cback',['../structwiced__bt__l2cap__fixed__chnl__reg__t.html#a96c7af861a9c86d6fbd4861c22d7729b',1,'wiced_bt_l2cap_fixed_chnl_reg_t']]],
   ['fixed_5fconn_5fcback',['fixed_conn_cback',['../structwiced__bt__l2cap__fixed__chnl__reg__t.html#a5d2b173703c2125a82e72c4ef69d2de2',1,'wiced_bt_l2cap_fixed_chnl_reg_t']]],
@@ -35,7 +34,5 @@ var searchData=
   ['frequency',['frequency',['../structwiced__bt__ble__hidh__audio__start__t.html#aea762e0e67fcafaf5b3cd61201769926',1,'wiced_bt_ble_hidh_audio_start_t']]],
   ['friend_5faddr',['friend_addr',['../structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a',1,'wiced_bt_mesh_event__t']]],
   ['friend_5fcfg',['friend_cfg',['../wiced__bt__mesh__cfg_8h.html#afdedfc25df1eb073867c1e82a3406c27',1,'wiced_bt_mesh_cfg.h']]],
-  ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]],
-  ['fw_5fid',['fw_id',['../wiced__bt__mesh__models_8h.html#a497e938c436146db4bcea782144269a8',1,'wiced_bt_mesh_models.h']]],
-  ['fw_5fid_5flen',['fw_id_len',['../wiced__bt__mesh__models_8h.html#a745d4432e611379bd49b546f2896e047',1,'wiced_bt_mesh_models.h']]]
+  ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]]
 ];

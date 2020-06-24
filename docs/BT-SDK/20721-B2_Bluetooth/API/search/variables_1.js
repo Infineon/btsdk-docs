@@ -18,7 +18,6 @@ var searchData=
   ['addr_5fresolution_5fdb_5fsize',['addr_resolution_db_size',['../structwiced__bt__cfg__settings__t.html#a6389ea96c7b42db45ac3cdd20ec74a07',1,'wiced_bt_cfg_settings_t']]],
   ['addr_5fsent_5fto',['addr_sent_to',['../structwiced__bt__smp__sc__local__oob__t.html#afa2339f38ebaa060430ea4941a99d7d1',1,'wiced_bt_smp_sc_local_oob_t']]],
   ['addr_5ftype',['addr_type',['../structwiced__bt__dev__bonded__device__info__t.html#acb7148607596ec87684d9908f27b6ea4',1,'wiced_bt_dev_bonded_device_info_t::addr_type()'],['../structwiced__bt__gatt__connection__status__t.html#acb7148607596ec87684d9908f27b6ea4',1,'wiced_bt_gatt_connection_status_t::addr_type()']]],
-  ['address',['address',['../structwiced__bt__mesh__fw__updating__node__item__t.html#a2f55ff1f6cd45ca1b6431493ab5614eb',1,'wiced_bt_mesh_fw_updating_node_item_t']]],
   ['adv_5fdata',['adv_data',['../structwiced__bt__mesh__provision__scan__extended__report__data__t.html#acc0b6760cca751d4c863135611c85bc2',1,'wiced_bt_mesh_provision_scan_extended_report_data_t']]],
   ['adv_5ffilter_5fpolicy',['adv_filter_policy',['../structwiced__bt__ble__multi__adv__params__t.html#a6b09c0b248328b5e880105ce15041edd',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmax',['adv_int_max',['../structwiced__bt__ble__multi__adv__params__t.html#a9d8eda696bc4898f8d8f8d2ed03d9322',1,'wiced_bt_ble_multi_adv_params_t']]],
@@ -68,6 +67,6 @@ var searchData=
   ['auth_5fsize',['auth_size',['../structwiced__bt__mesh__core__provision__start__t.html#ac06670b9dd0bae66ac354de86e8e6f36',1,'wiced_bt_mesh_core_provision_start_t::auth_size()'],['../structwiced__bt__mesh__provision__start__data__t.html#ac06670b9dd0bae66ac354de86e8e6f36',1,'wiced_bt_mesh_provision_start_data_t::auth_size()']]],
   ['aux1_5fcount',['aux1_count',['../wiced__bt__dev_8h.html#a74b3dcaaa7ddec8945b14136f42e8668',1,'wiced_bt_dev.h']]],
   ['avdt_5fcfg',['avdt_cfg',['../structwiced__bt__cfg__settings__t.html#a26ae8d66a7ae16ccaa5794dccffebcda',1,'wiced_bt_cfg_settings_t']]],
-  ['avdt_5fversion',['avdt_version',['../group__wicedbt__av__a2d__helper.html#ga2d10e3be2b81d100443614e55b4b0c21',1,'wiced_bt_a2d_service_t']]],
+  ['avdt_5fversion',['avdt_version',['../structwiced__bt__a2d__service__t.html#a2d10e3be2b81d100443614e55b4b0c21',1,'wiced_bt_a2d_service_t']]],
   ['avrc_5fcfg',['avrc_cfg',['../structwiced__bt__cfg__settings__t.html#af5839468f5b27ac4803d408f754803c2',1,'wiced_bt_cfg_settings_t']]]
 ];

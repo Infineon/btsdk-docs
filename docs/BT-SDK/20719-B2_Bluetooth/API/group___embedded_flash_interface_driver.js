@@ -1,5 +1,7 @@
 var group___embedded_flash_interface_driver =
 [
+    [ "APPLICATION_SPECIFIC_FLASH_RESERVATION", "group___embedded_flash_interface_driver.html#ga688c3b3c9def5d541c9f273478add2ee", null ],
+    [ "FLASH_SECTOR_SIZE", "group___embedded_flash_interface_driver.html#gae9560b79ebc5c7d96bea3c0821a0373a", null ],
     [ "wiced_hal_eflash_erase", "group___embedded_flash_interface_driver.html#ga533d1ff20d7c7b26ed14c0f26f45468e", null ],
     [ "wiced_hal_eflash_erase_whole", "group___embedded_flash_interface_driver.html#gac9b66bd7a2d8ae08f9f7d974c47e837a", null ],
     [ "wiced_hal_eflash_get_size", "group___embedded_flash_interface_driver.html#gaaa257a19cb9aba96088462ced5755f16", null ],

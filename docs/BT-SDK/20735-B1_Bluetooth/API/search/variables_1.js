@@ -17,7 +17,6 @@ var searchData=
   ['addr_5fresolution_5fdb_5fsize',['addr_resolution_db_size',['../structwiced__bt__cfg__settings__t.html#a6389ea96c7b42db45ac3cdd20ec74a07',1,'wiced_bt_cfg_settings_t']]],
   ['addr_5fsent_5fto',['addr_sent_to',['../structwiced__bt__smp__sc__local__oob__t.html#afa2339f38ebaa060430ea4941a99d7d1',1,'wiced_bt_smp_sc_local_oob_t']]],
   ['addr_5ftype',['addr_type',['../structwiced__bt__dev__bonded__device__info__t.html#acb7148607596ec87684d9908f27b6ea4',1,'wiced_bt_dev_bonded_device_info_t::addr_type()'],['../structwiced__bt__gatt__connection__status__t.html#acb7148607596ec87684d9908f27b6ea4',1,'wiced_bt_gatt_connection_status_t::addr_type()']]],
-  ['address',['address',['../structwiced__bt__mesh__fw__updating__node__item__t.html#a2f55ff1f6cd45ca1b6431493ab5614eb',1,'wiced_bt_mesh_fw_updating_node_item_t']]],
   ['adv_5fdata',['adv_data',['../structwiced__bt__mesh__provision__scan__extended__report__data__t.html#acc0b6760cca751d4c863135611c85bc2',1,'wiced_bt_mesh_provision_scan_extended_report_data_t']]],
   ['adv_5ffilter_5fpolicy',['adv_filter_policy',['../structwiced__bt__ble__multi__adv__params__t.html#a576101a1726df113eea4565e307d1b3d',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmax',['adv_int_max',['../structwiced__bt__ble__multi__adv__params__t.html#a9d8eda696bc4898f8d8f8d2ed03d9322',1,'wiced_bt_ble_multi_adv_params_t']]],

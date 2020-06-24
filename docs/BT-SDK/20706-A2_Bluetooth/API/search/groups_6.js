@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['gatt_20database',['GATT Database',['../group__gattdb__api__functions.html',1,'']]],
-  ['gki',['GKI',['../group___g_k_i.html',1,'']]],
-  ['gpio',['GPIO',['../group___g_p_i_o_driver.html',1,'']]],
-  ['group_5fota_5ffw_5fupgrade_5fstructs',['Group_ota_fw_upgrade_structs',['../group__group__ota__fw__upgrade__structs.html',1,'']]],
-  ['gatt_20multi_2dprofile_20_28gatt_5fmp_29_20library',['GATT Multi-Profile (GATT_MP) library',['../group__wiced__bt__gatt__mp__api__functions.html',1,'']]],
-  ['generic_20attribute_20_28gatt_29',['Generic Attribute (GATT)',['../group__wicedbt__gatt.html',1,'']]],
-  ['gatt_20utilities',['GATT Utilities',['../group__wicedbt__gatt__utils.html',1,'']]]
+  ['hardware_20drivers',['Hardware Drivers',['../group___hardware_drivers.html',1,'']]],
+  ['header_20operations',['Header Operations',['../group__header__api__functions.html',1,'']]],
+  ['hid_20host_20role_20_28hidh_29_20over_20ble',['HID Host Role (HIDH) over BLE',['../group__wiced__bt__ble__hidh__api__functions.html',1,'']]],
+  ['hid_20host_20over_20ble_20audio',['HID Host over BLE Audio',['../group__wiced__bt__ble__hidh__audio__api__functions.html',1,'']]],
+  ['human_20interface_20device_20_28hid_29',['Human Interface Device (HID)',['../group__wiced__bt__hid.html',1,'']]],
+  ['hrc_20library_20api',['HRC Library API',['../group__wiced__bt__hrc__api__functions.html',1,'']]],
+  ['hrs_20library_20api',['HRS Library API',['../group__wiced__bt__hrs__api__functions.html',1,'']]]
 ];

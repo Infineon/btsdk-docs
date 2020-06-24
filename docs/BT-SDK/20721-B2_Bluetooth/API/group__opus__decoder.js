@@ -39,6 +39,7 @@ var group__opus__decoder =
       [ "voice_ratio", "struct_opus_encoder.html#a7ace37125bafea7be489d3e1c4c20a80", null ],
       [ "width_mem", "struct_opus_encoder.html#afd724460795ca2fb2022202e1ba4085e", null ]
     ] ],
+    [ "Decoder related CTLs", "group__opus__decoderctls.html", "group__opus__decoderctls" ],
     [ "OpusDecoder", "group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6", null ],
     [ "celt_opus_decode", "group__opus__decoder.html#ga9686eecbbb5fbf4c59ba0b254677d0c0", null ],
     [ "celt_opus_decoder_create", "group__opus__decoder.html#ga67122ab5100c914d35ce8a5c6b808ed9", null ],

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: I2C</title>
+<title>WICED CYW208XX: I2C</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -125,8 +123,7 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of speed options.  <a href="group___i2_c_driver.html#gadf764cbdea00d65edcd07bb9953ad2b7">More...</a><br /></td></tr>
 <tr class="separator:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga99fb83031ce9923c84392b4e92f956b5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a01540758b38146ad68cf1bddfc7fa36f">I2CM_SUCCESS</a>, 
-<a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a9e628df9ccc57b1d2c539633c90bfbf7">I2CM_OP_FAILED</a>, 
-<a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a0b82f8163a4021c3f90329fd3ee56759">I2CM_BUSY</a>
+<a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a9e628df9ccc57b1d2c539633c90bfbf7">I2CM_OP_FAILED</a>
  }</td></tr>
 <tr class="memdesc:ga99fb83031ce9923c84392b4e92f956b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of I2C transaction return values.  <a href="group___i2_c_driver.html#ga99fb83031ce9923c84392b4e92f956b5">More...</a><br /></td></tr>
 <tr class="separator:ga99fb83031ce9923c84392b4e92f956b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,9 +202,6 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga99fb83031ce9923c84392b4e92f956b5a9e628df9ccc57b1d2c539633c90bfbf7"></a>I2CM_OP_FAILED&#160;</td><td class="fielddoc">
 <p>I2C transaction failed, possibly due to no ACK from slave. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga99fb83031ce9923c84392b4e92f956b5a0b82f8163a4021c3f90329fd3ee56759"></a>I2CM_BUSY&#160;</td><td class="fielddoc">
-<p>I2C HW block is busy with another transaction. </p>
 </td></tr>
 </table>
 
@@ -328,7 +322,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>none</dd></dl>
 <div class="fragment"></div><!-- fragment --><p> hal/i2c_master</p>
-<dl class="section note"><dt>Note</dt><dd>(!) Note that it is the user's responsibility to configure the desired GPIOs, since different HW platforms will have different configuration parameters. Please see the Kit Guide or HW User Manual for your device for more information. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>(!) Note that it is the user's responsibility to configure the desired GPIOs, since different HW platforms will have different configuration parameters. Please see the Kit Guide or HW User Manual for your device for more information. In case of change in I2C pins from default platform initialization, the user needs to use external pull-ups or internal GPIO pull-ups. It is recommended to use external pull-ups for a reliable design </dd></dl>
 
 </div>
 </div>

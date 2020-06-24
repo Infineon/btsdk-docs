@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: Worker Thread</title>
+<title>WICED CYW208XX: Worker Thread</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -112,10 +110,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3a5819517d83d3c1fae4e36047b2d05c"><td class="memItemLeft" align="right" valign="top">wiced_worker_thread_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__rtos__functions__worker.html#ga3a5819517d83d3c1fae4e36047b2d05c">wiced_rtos_create_worker_thread</a> (void)</td></tr>
 <tr class="memdesc:ga3a5819517d83d3c1fae4e36047b2d05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory for a new worker thread instance and returns the pointer.  <a href="#ga3a5819517d83d3c1fae4e36047b2d05c">More...</a><br /></td></tr>
 <tr class="separator:ga3a5819517d83d3c1fae4e36047b2d05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1296035bb5a41c3b65e7fd779266df1d"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__rtos__functions__worker.html#ga1296035bb5a41c3b65e7fd779266df1d">wiced_rtos_init_worker_thread</a> (wiced_worker_thread_t *worker_thread, uint8_t priority, uint32_t stack_size, uint32_t event_queue_size)</td></tr>
+<tr class="memitem:ga1296035bb5a41c3b65e7fd779266df1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__rtos__functions__worker.html#ga1296035bb5a41c3b65e7fd779266df1d">wiced_rtos_init_worker_thread</a> (wiced_worker_thread_t *worker_thread, uint8_t priority, uint32_t stack_size, uint32_t event_queue_size)</td></tr>
 <tr class="memdesc:ga1296035bb5a41c3b65e7fd779266df1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the worker thread instance that was allocated in wiced_rtos_create_worker_thread.  <a href="#ga1296035bb5a41c3b65e7fd779266df1d">More...</a><br /></td></tr>
 <tr class="separator:ga1296035bb5a41c3b65e7fd779266df1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ef76a6565d173a60637146fd073aa93"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__rtos__functions__worker.html#ga1ef76a6565d173a60637146fd073aa93">wiced_rtos_send_asynchronous_event</a> (wiced_worker_thread_t *worker_thread, <a class="el" href="group__group__rtos__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877">event_handler_t</a> function, void *arg)</td></tr>
+<tr class="memitem:ga1ef76a6565d173a60637146fd073aa93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__rtos__functions__worker.html#ga1ef76a6565d173a60637146fd073aa93">wiced_rtos_send_asynchronous_event</a> (wiced_worker_thread_t *worker_thread, <a class="el" href="group__group__rtos__data__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877">event_handler_t</a> function, void *arg)</td></tr>
 <tr class="memdesc:ga1ef76a6565d173a60637146fd073aa93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue an asynchronous event to be triggered in the given worker thread.  <a href="#ga1ef76a6565d173a60637146fd073aa93">More...</a><br /></td></tr>
 <tr class="separator:ga1ef76a6565d173a60637146fd073aa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -159,7 +157,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_rtos_init_worker_thread </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_init_worker_thread </td>
           <td>(</td>
           <td class="paramtype">wiced_worker_thread_t *&#160;</td>
           <td class="paramname"><em>worker_thread</em>, </td>
@@ -215,7 +213,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_rtos_send_asynchronous_event </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_send_asynchronous_event </td>
           <td>(</td>
           <td class="paramtype">wiced_worker_thread_t *&#160;</td>
           <td class="paramname"><em>worker_thread</em>, </td>
@@ -223,7 +221,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group__rtos__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877">event_handler_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group__rtos__data__structures.html#gaa87a046eb0d5b7ae8e5053d50ab4d877">event_handler_t</a>&#160;</td>
           <td class="paramname"><em>function</em>, </td>
         </tr>
         <tr>

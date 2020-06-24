@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['pwmclocktype',['PwmClockType',['../group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f',1,'wiced_hal_pwm.h']]]
+  ['spi_5fendian',['SPI_ENDIAN',['../group___peripheral_spi_driver.html#ga23e4236e76e30bf62f85f9e7026d6be4',1,'wiced_hal_pspi.h']]],
+  ['spi_5finterface_5ft',['spi_interface_t',['../group___peripheral_spi_driver.html#gac6144d3ea3ef78e7923c351d3b62170e',1,'wiced_hal_pspi.h']]],
+  ['spi_5fmode',['SPI_MODE',['../group___peripheral_spi_driver.html#gae506139af46f1328f631ddacd54af96d',1,'wiced_hal_pspi.h']]],
+  ['spi_5fss_5fmode',['SPI_SS_MODE',['../group___peripheral_spi_driver.html#gaae2dbe3730eb820828195d4351dce9a5',1,'wiced_hal_pspi.h']]],
+  ['spi_5fss_5fpolarity',['SPI_SS_POLARITY',['../group___peripheral_spi_driver.html#ga257d08e39e34f30499952a3f19318f3d',1,'wiced_hal_pspi.h']]]
 ];

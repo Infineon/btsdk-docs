@@ -1,5 +1,6 @@
 var group__opus__encoder =
 [
+    [ "Encoder related CTLs", "group__opus__encoderctls.html", "group__opus__encoderctls" ],
     [ "OpusEncoder", "group__opus__encoder.html#gaf461a3ef2f10c2fe8b994a176f06c9bd", null ],
     [ "opus_encode_ed", "group__opus__encoder.html#gaf96aa4fafd06a772143142da7a4adf13", null ],
     [ "opus_encode_float", "group__opus__encoder.html#ga423a34d2ed5d7d360db856ad9258a23f", null ],

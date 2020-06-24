@@ -12,12 +12,8 @@ var searchData=
   ['get_5fnum_5fof_5fitems',['get_num_of_items',['../unionwiced__bt__avrc__command__t.html#a888cd984cc03cfd3a6e1ee02cca70b1f',1,'wiced_bt_avrc_command_t::get_num_of_items()'],['../unionwiced__bt__avrc__response__t.html#aeeb6bccc80cd02d12fa2f6af782a769d',1,'wiced_bt_avrc_response_t::get_num_of_items()']]],
   ['get_5fplay_5fstatus',['get_play_status',['../unionwiced__bt__avrc__command__t.html#aea01a661534f9a4b6cd21a0603c20be8',1,'wiced_bt_avrc_command_t::get_play_status()'],['../unionwiced__bt__avrc__response__t.html#af7dc01946c0f42d7c6f3c4c9d80293ff',1,'wiced_bt_avrc_response_t::get_play_status()']]],
   ['get_5frep',['get_rep',['../unionwiced__bt__hidd__event__data__t.html#ac73fd2c92d86db8f980dadd2a5c7ef76',1,'wiced_bt_hidd_event_data_t']]],
-  ['get_5freport',['get_report',['../unionwiced__bt__hidh__data__t.html#aadbf64dd5fc203b161aa4e1cd98cb593',1,'wiced_bt_hidh_data_t']]],
-  ['getcap_5fcfm',['getcap_cfm',['../unionwiced__bt__avdt__ctrl__t.html#aa9c4406226351357813664fdb9c2ca6e',1,'wiced_bt_avdt_ctrl_t']]],
   ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
-  ['group_5faddr',['group_addr',['../wiced__bt__mesh__provision_8h.html#abafd9bffcd5412eef9458d47158b1845',1,'wiced_bt_mesh_provision.h']]],
-  ['group_5fsize',['group_size',['../wiced__bt__mesh__provision_8h.html#abb148898d98fe1f086dbc9f87f0f5c3b',1,'wiced_bt_mesh_provision.h']]],
   ['group_5fvalue',['group_value',['../unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c',1,'wiced_bt_gatt_discovery_data_t']]]
 ];

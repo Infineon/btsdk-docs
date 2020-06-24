@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: Functions</title>
+<title>WICED CYW208XX: Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -106,7 +104,7 @@ $(document).ready(function(){initNavTree('group__group__transport__functions.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gacdec4255fa64baf4937295afdd26cb7c"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gacdec4255fa64baf4937295afdd26cb7c">wiced_transport_init</a> (const <a class="el" href="group__group__transport__data__structures.html#ga5c2e061533dec3f01346b1a75a4de6ae">wiced_transport_cfg_t</a> *p_cfg)</td></tr>
+<tr class="memitem:gacdec4255fa64baf4937295afdd26cb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gacdec4255fa64baf4937295afdd26cb7c">wiced_transport_init</a> (const <a class="el" href="group__group__transport__data__structures.html#gadfe2aa2d162dc986049ff74c7b367419">wiced_transport_cfg_t</a> *p_cfg)</td></tr>
 <tr class="memdesc:gacdec4255fa64baf4937295afdd26cb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and configures the transport interface and also registers the callback handlers to be invoked when receiving data, init complete, etc.  <a href="#gacdec4255fa64baf4937295afdd26cb7c">More...</a><br /></td></tr>
 <tr class="separator:gacdec4255fa64baf4937295afdd26cb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9b8d8e0693a290ee79e26a76bf24292e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga9b8d8e0693a290ee79e26a76bf24292e">wiced_transport_create_buffer_pool</a> (uint32_t buffer_size, uint32_t buffer_count)</td></tr>
@@ -121,19 +119,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0f5f39c7f944016219f9259dbc619b57"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga0f5f39c7f944016219f9259dbc619b57">wiced_transport_get_buffer_count</a> (<a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *p_pool)</td></tr>
 <tr class="memdesc:ga0f5f39c7f944016219f9259dbc619b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of buffers available in the pool.  <a href="#ga0f5f39c7f944016219f9259dbc619b57">More...</a><br /></td></tr>
 <tr class="separator:ga0f5f39c7f944016219f9259dbc619b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e0c4dd9bf07c0e1ef695807c34e0fbc"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga0e0c4dd9bf07c0e1ef695807c34e0fbc">wiced_transport_send_buffer</a> (uint16_t code, uint8_t *p_buf, uint16_t length)</td></tr>
+<tr class="memitem:ga0e0c4dd9bf07c0e1ef695807c34e0fbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga0e0c4dd9bf07c0e1ef695807c34e0fbc">wiced_transport_send_buffer</a> (uint16_t code, uint8_t *p_buf, uint16_t length)</td></tr>
 <tr class="memdesc:ga0e0c4dd9bf07c0e1ef695807c34e0fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends the packet to the host over the transport using the buffer allocated by the application.  <a href="#ga0e0c4dd9bf07c0e1ef695807c34e0fbc">More...</a><br /></td></tr>
 <tr class="separator:ga0e0c4dd9bf07c0e1ef695807c34e0fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadaac5ec0edb31d250165df53425fbe78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gadaac5ec0edb31d250165df53425fbe78">wiced_transport_free_buffer</a> (void *p_buf)</td></tr>
 <tr class="memdesc:gadaac5ec0edb31d250165df53425fbe78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the transport buffer.  <a href="#gadaac5ec0edb31d250165df53425fbe78">More...</a><br /></td></tr>
 <tr class="separator:gadaac5ec0edb31d250165df53425fbe78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d22fe05e0462ab0a56b6878d3174d79"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga0d22fe05e0462ab0a56b6878d3174d79">wiced_transport_send_data</a> (uint16_t code, uint8_t *p_data, uint16_t length)</td></tr>
+<tr class="memitem:ga0d22fe05e0462ab0a56b6878d3174d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga0d22fe05e0462ab0a56b6878d3174d79">wiced_transport_send_data</a> (uint16_t code, uint8_t *p_data, uint16_t length)</td></tr>
 <tr class="memdesc:ga0d22fe05e0462ab0a56b6878d3174d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends the packet to the host over the transport interface.  <a href="#ga0d22fe05e0462ab0a56b6878d3174d79">More...</a><br /></td></tr>
 <tr class="separator:ga0d22fe05e0462ab0a56b6878d3174d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga593dffa16f0976ef9f813934c0147f11"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga593dffa16f0976ef9f813934c0147f11">wiced_transport_send_hci_trace</a> (<a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *hci_trans_pool, <a class="el" href="group__group__dev__enums.html#gaa76569d7be1ed9ff5262e81b3b651325">wiced_bt_hci_trace_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint16_t length, uint8_t *p_data)</td></tr>
+<tr class="memitem:ga593dffa16f0976ef9f813934c0147f11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#ga593dffa16f0976ef9f813934c0147f11">wiced_transport_send_hci_trace</a> (<a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *hci_trans_pool, <a class="el" href="group__group__dev__enums.html#gaa76569d7be1ed9ff5262e81b3b651325">wiced_bt_hci_trace_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint16_t length, uint8_t *p_data)</td></tr>
 <tr class="memdesc:ga593dffa16f0976ef9f813934c0147f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends the HCI trace data over the transport.  <a href="#ga593dffa16f0976ef9f813934c0147f11">More...</a><br /></td></tr>
 <tr class="separator:ga593dffa16f0976ef9f813934c0147f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memItemLeft" align="right" valign="top">wiced_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gac329bcaf18ad4e563bbaedeb72db949c">wiced_transport_send_raw_buffer</a> (uint8_t *p_buf, uint16_t length)</td></tr>
+<tr class="memitem:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gac329bcaf18ad4e563bbaedeb72db949c">wiced_transport_send_raw_buffer</a> (uint8_t *p_buf, uint16_t length)</td></tr>
 <tr class="memdesc:gac329bcaf18ad4e563bbaedeb72db949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used when transport mode is WICED_TRANSPORT_UART_RAW_MODE.  <a href="#gac329bcaf18ad4e563bbaedeb72db949c">More...</a><br /></td></tr>
 <tr class="separator:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -282,9 +280,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_transport_init </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_init </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__group__transport__data__structures.html#ga5c2e061533dec3f01346b1a75a4de6ae">wiced_transport_cfg_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__group__transport__data__structures.html#gadfe2aa2d162dc986049ff74c7b367419">wiced_transport_cfg_t</a> *&#160;</td>
           <td class="paramname"><em>p_cfg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -307,7 +305,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_transport_send_buffer </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_send_buffer </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>code</em>, </td>
@@ -352,7 +350,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_transport_send_data </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_send_data </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>code</em>, </td>
@@ -398,7 +396,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_transport_send_hci_trace </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_send_hci_trace </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *&#160;</td>
           <td class="paramname"><em>hci_trans_pool</em>, </td>
@@ -451,7 +449,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_result_t wiced_transport_send_raw_buffer </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_transport_send_raw_buffer </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>p_buf</em>, </td>

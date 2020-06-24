@@ -34,7 +34,7 @@ var searchData=
   ['client_5fpdu_5fsent',['client_pdu_sent',['../structmesh__core__provision__cb__t.html#a5ea9286171ca98293d467efe5a4ab16e',1,'mesh_core_provision_cb_t']]],
   ['clk_5fsrc_5fsel',['CLK_SRC_SEL',['../group___aux_clk_driver.html#ga79ee09b3c80c2eb369656e4bdd633135',1,'wiced_hal_aclk.h']]],
   ['clock_5foffset',['clock_offset',['../structwiced__bt__dev__inquiry__scan__result__t.html#a6a5ea24ae1db2db37726511198e1b8ba',1,'wiced_bt_dev_inquiry_scan_result_t']]],
-  ['close',['close',['../structstream__interface__t.html#afb133c42903a5532a21e0e03bb6763ae',1,'stream_interface_t::close()'],['../unionwiced__bt__hidh__data__t.html#a74331ef6e4ac742f6518c3b400f2d5b0',1,'wiced_bt_hidh_data_t::close()']]],
+  ['close',['close',['../structstream__interface__t.html#afb133c42903a5532a21e0e03bb6763ae',1,'stream_interface_t']]],
   ['close_5fcfm',['close_cfm',['../unionwiced__bt__avdt__ctrl__t.html#acc55ff5dcf43979f1f9129cf8b194bc6',1,'wiced_bt_avdt_ctrl_t']]],
   ['cod_5fcond',['cod_cond',['../unionwiced__bt__dev__inq__filt__cond__t.html#af7b891220ce0a5039254de9522e3e1b3',1,'wiced_bt_dev_inq_filt_cond_t']]],
   ['codec_5fconfig_5ft',['codec_config_t',['../structcodec__config__t.html',1,'']]],
@@ -73,7 +73,7 @@ var searchData=
   ['connect_5ftype_5fnet_5fid',['CONNECT_TYPE_NET_ID',['../wiced__bt__mesh__provision_8h.html#a55701ae8eeca2dca690c8309a61e1f85',1,'wiced_bt_mesh_provision.h']]],
   ['connect_5ftype_5fnode_5fid',['CONNECT_TYPE_NODE_ID',['../wiced__bt__mesh__provision_8h.html#a6da92d93815ffc606c4824a68b9adbac',1,'wiced_bt_mesh_provision.h']]],
   ['connect_5ftype_5fuuid',['CONNECT_TYPE_UUID',['../wiced__bt__mesh__provision_8h.html#a6e9418c0916f4465f49e4a725d9d4760',1,'wiced_bt_mesh_provision.h']]],
-  ['connected',['connected',['../unionwiced__bt__ble__battc__event__data__t.html#a2c81c0e1a66b39ee0818af11b8c55b00',1,'wiced_bt_ble_battc_event_data_t::connected()'],['../unionwiced__bt__ble__findmel__event__data__t.html#a5ca662f78054f11666aa2aab4387d27a',1,'wiced_bt_ble_findmel_event_data_t::connected()'],['../unionwiced__bt__ble__hidh__event__data__t.html#a8c435ce0404161ebd27b219f19af14ae',1,'wiced_bt_ble_hidh_event_data_t::connected()'],['../structwiced__bt__gatt__connection__status__t.html#a3176bbe2203ca084d3abdea0d2c21fdc',1,'wiced_bt_gatt_connection_status_t::connected()'],['../structwiced__bt__mesh__connect__status__data__t.html#a91553b72c9b4759ddb48feffd7f2ffb1',1,'wiced_bt_mesh_connect_status_data_t::connected()']]],
+  ['connected',['connected',['../unionwiced__bt__ble__findmel__event__data__t.html#a5ca662f78054f11666aa2aab4387d27a',1,'wiced_bt_ble_findmel_event_data_t::connected()'],['../unionwiced__bt__ble__hidh__event__data__t.html#a8c435ce0404161ebd27b219f19af14ae',1,'wiced_bt_ble_hidh_event_data_t::connected()'],['../structwiced__bt__gatt__connection__status__t.html#a3176bbe2203ca084d3abdea0d2c21fdc',1,'wiced_bt_gatt_connection_status_t::connected()'],['../structwiced__bt__mesh__connect__status__data__t.html#a91553b72c9b4759ddb48feffd7f2ffb1',1,'wiced_bt_mesh_connect_status_data_t::connected()']]],
   ['connected_5fcback',['connected_cback',['../structwiced__bt__l2cap__appl__information__t.html#a2b3a183f5027bc5ca9f076c6147be478',1,'wiced_bt_l2cap_appl_information_t']]],
   ['connection_5fstatus',['connection_status',['../unionwiced__bt__gatt__event__data__t.html#ad763a2a7dfb923258caa77c38e0957b9',1,'wiced_bt_gatt_event_data_t']]],
   ['continu',['continu',['../unionwiced__bt__avrc__command__t.html#ac6e181cd793d7ffc7c37868ead8d9da1',1,'wiced_bt_avrc_command_t::continu()'],['../unionwiced__bt__avrc__response__t.html#a2ecbae0c77b7ba0beca758f59d3db2c0',1,'wiced_bt_avrc_response_t::continu()']]],
@@ -100,7 +100,5 @@ var searchData=
   ['current_5fstate',['current_state',['../structbutton__manager__button__t.html#afc924021866608003a93ae7b2df52ad9',1,'button_manager_button_t']]],
   ['currentlanguage',['CurrentLanguage',['../group__wiced__bt__iap2__api__functions.html#ga93ca28a5673e57ad10614db7e438e1bf',1,'CurrentLanguage():&#160;wiced_bt_iap2.h'],['../group__wiced__bt__iap2__api__functions.html#ga93ca28a5673e57ad10614db7e438e1bf',1,'CurrentLanguage():&#160;wiced_bt_iap2.h']]],
   ['cvsd',['CVSD',['../wiced__audio__manager_8h.html#adf7aef7a7ec31e4536f3e6eef366e1f1ac2defbe3f3b311fb1a002e004c071e86',1,'wiced_audio_manager.h']]],
-  ['common_20bluetooth_20definitions',['Common Bluetooth definitions',['../group__gentypes.html',1,'']]],
-  ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]],
-  ['config_20_2d_20default_20flash_20_28i_2ee_2e_20flash_20exists_20on_20wiced_20eval_20boards_29_20configuration_2e',['config - Default flash (i.e. flash exists on WICED eval boards) configuration.',['../group___platform.html',1,'']]]
+  ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]]
 ];

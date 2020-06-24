@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Cypress WICED CYW20719", "index.html", [
+  [ "WICED CYW20719", "index.html", [
     [ "WICED API Reference", "index.html#wiced_api", null ],
     [ "WICED User Guides", "index.html#wiced_pdf_docs", null ],
     [ "WICED Hardware Reference", "index.html#wiced_hw_docs", null ],
@@ -8,34 +8,24 @@ var NAVTREE =
     [ "Bluetooth References", "index.html#bt_smart_ref", null ],
     [ "WICED Community", "index.html#wiced_forum", null ],
     [ "WICED BT SDK Licensing Information", "index.html#wiced_license", null ],
-    [ "Components", "modules.html", "modules" ],
-    [ "Globals", "globals.html", [
-      [ "All", "globals.html", "globals_dup" ],
-      [ "Functions", "globals_func.html", "globals_func" ],
-      [ "Variables", "globals_vars.html", "globals_vars" ],
-      [ "Typedefs", "globals_type.html", "globals_type" ],
-      [ "Enumerations", "globals_enum.html", null ],
-      [ "Enumerator", "globals_eval.html", "globals_eval" ],
-      [ "Macros", "globals_defs.html", "globals_defs" ]
-    ] ]
+    [ "Components", "modules.html", "modules" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"globals.html",
-"group___peripheral_spi_driver.html#ga86912724f67a7db719f7f687003e9766",
-"group__gattdb__api__functions.html#gabba2ffae8e57ab3035d2fa2b8b167223",
-"group__wiced__bt__ams__api__functions.html#ga1e5b199f4f0a4dd6cccc93f06dec2e0f",
-"group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721",
-"group__wiced__bt__mesh__light__ctl__client.html#ga40a2c9aa9bcbc96342b203438b1794df",
-"group__wiced__bt__mesh__provisioning.html#ga09b83f6240bf4427927b3b5b887d05ef",
-"group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481adf45fe82660f80ecaafc1cb9be9ee4b3",
-"group__wpl__event.html#gad188658f896faab5c88049e633bbeb7d",
-"structwiced__bt__avrc__tg__track__attr__t.html#a517f61746f45da01a7581eef2a80d746",
-"structwiced__bt__mesh__core__provision__capabilities__t.html#a120cd573c407780952f0fe08fc5ddfba",
-"structwiced__bt__mesh__light__lightness__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84",
-"structwiced__bt__mesh__sensor__config__setting__t.html#a8b0d6200bc639dd37ff68847a0adde5f"
+"group___adc_driver.html",
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310afe072b570312144d2be3a5d7adc5edb5",
+"group__l2cap__api__functions.html#gaff27f5b67e8050fe84916d3a67006a50",
+"group__wiced__bt__bac__api__functions.html#gaa8c561363e9de62261f23c4fb5fbfc51",
+"group__wiced__bt__mesh__core.html#gab29a265dd3459d528acd525fae75c21a",
+"group__wiced__bt__mesh__models.html#ga7f1c5c83f780b62c0ca3f3cae8b971d3",
+"group__wiced__bt__mesh__sensor__server.html",
+"group__wicedbt__avrc__ct.html#ga34d812e2d75abcf6d30a1c5f54d4b655",
+"structwiced__bt__avrc__tg__play__status__t.html#aef27afaad82d4181b02b11042a34861d",
+"structwiced__bt__mesh__core__state__model__app__t.html#a345b5a533872a471f810a988b331f60c",
+"structwiced__bt__mesh__light__xyl__range__set__data__t.html#ab5379478017ff6051cdd90b108dca2d8",
+"structwiced__bt__sdp__discovery__db__t.html#ae9ecdb913c8c13775462c1dc4b86c1b9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

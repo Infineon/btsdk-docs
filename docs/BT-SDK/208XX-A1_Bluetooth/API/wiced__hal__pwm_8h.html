@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: wiced_hal_pwm.h File Reference</title>
+<title>WICED CYW208XX: wiced_hal_pwm.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -107,12 +105,13 @@ $(document).ready(function(){initNavTree('wiced__hal__pwm_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>&gt;  
+<p>This file lists the API's and structs required to access the Pulse-Width Modulation (PWM) driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpwm__config__t.html">pwm_config_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced_pwm_config_t is used only in <a class="el" href="group__group__pwm__functions.html#ga87d2b66fd33f2cdf2083763244ec142f" title="This utility API can be used calculate PWM input parameters per desired PWM output. ">wiced_hal_pwm_get_params()</a> utility API .  <a href="structpwm__config__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -123,7 +122,7 @@ typedef <a class="el" href="structpwm__config__t.html">pwm_config_t</a>&#160;</t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gabed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabed82baf7f470b522273a3e37c24c600"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:ga110255581504f7511e2e4e43d06d8868"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__data__structures.html#ga110255581504f7511e2e4e43d06d8868">PwmChannels</a> { <br />
 &#160;&#160;<b>PWM0</b> = 0, 
 <b>PWM1</b> = 1, 
 <b>PWM2</b> = 2, 
@@ -134,15 +133,17 @@ Enumerations</h2></td></tr>
 <b>MAX_PWMS</b> = 6
 <br />
  }</td></tr>
-<tr class="separator:gabed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6f1f44294b67f525ab35c3205cea26f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae6f1f44294b67f525ab35c3205cea26f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>PwmClockType</b> { <b>LHL_CLK</b>, 
+<tr class="memdesc:ga110255581504f7511e2e4e43d06d8868"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM HW block has 6 PWM channels each with its own 16 bit counter.  <a href="group__group__pwm__data__structures.html#ga110255581504f7511e2e4e43d06d8868">More...</a><br /></td></tr>
+<tr class="separator:ga110255581504f7511e2e4e43d06d8868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6f1f44294b67f525ab35c3205cea26f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__data__structures.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a> { <b>LHL_CLK</b>, 
 <b>PMU_CLK</b>
  }</td></tr>
+<tr class="memdesc:gae6f1f44294b67f525ab35c3205cea26f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each PWM channel can be sourced from two clock inputs listed in PwmClockType.  <a href="group__group__pwm__data__structures.html#gae6f1f44294b67f525ab35c3205cea26f">More...</a><br /></td></tr>
 <tr class="separator:gae6f1f44294b67f525ab35c3205cea26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac70a499f9615364611d4e322ef75b0e1"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__functions.html#gac70a499f9615364611d4e322ef75b0e1">wiced_hal_pwm_start</a> (UINT8 channel, PwmClockType clk, UINT32 toggleCount, UINT32 initCount, BOOL32 invert)</td></tr>
+<tr class="memitem:gac70a499f9615364611d4e322ef75b0e1"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__functions.html#gac70a499f9615364611d4e322ef75b0e1">wiced_hal_pwm_start</a> (UINT8 channel, <a class="el" href="group__group__pwm__data__structures.html#gae6f1f44294b67f525ab35c3205cea26f">PwmClockType</a> clk, UINT32 toggleCount, UINT32 initCount, BOOL32 invert)</td></tr>
 <tr class="memdesc:gac70a499f9615364611d4e322ef75b0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures, enables, and starts the PWM to be active on a preconfigured GPIO pin.  <a href="group__group__pwm__functions.html#gac70a499f9615364611d4e322ef75b0e1">More...</a><br /></td></tr>
 <tr class="separator:gac70a499f9615364611d4e322ef75b0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaba341b56af89de7a1b8fde54b48652df"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__pwm__functions.html#gaba341b56af89de7a1b8fde54b48652df">wiced_hal_pwm_change_values</a> (UINT8 channel, UINT32 toggleCount, UINT32 initCount)</td></tr>
@@ -168,11 +169,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga87d2b66fd33f2cdf2083763244ec142f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>&gt; </p>
-<p>This file lists the API's and structs required to access the Pulse-Width Modulation (PWM) driver.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>Copyright 2020, Cypress Semiconductor Corporation or a subsidiary of Cypress Semiconductor Corporation. All Rights Reserved.</dd></dl>
-<p>This software, including source code, documentation and related materials ("Software"), is owned by Cypress Semiconductor Corporation or one of its subsidiaries ("Cypress") and is protected by and subject to worldwide patent protection (United States and foreign), United States copyright laws and international treaty provisions. Therefore, you may use this Software only as provided in the license agreement accompanying the software package from which you obtained this Software ("EULA"). If no EULA applies, Cypress hereby grants you a personal, non-exclusive, non-transferable license to copy, modify, and compile the Software source code solely for use in connection with Cypress's integrated circuit products. Any reproduction, modification, translation, compilation, or representation of this Software except as specified above is prohibited without the express written permission of Cypress.</p>
-<p>Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress reserves the right to make changes to the Software without notice. Cypress does not assume any liability arising out of the application or use of the Software or any product or circuit described in the Software. Cypress does not authorize its products for use in any products where a malfunction or failure of the Cypress product may reasonably be expected to result in significant property damage, injury or death ("High Risk Product"). By including Cypress's product in a High Risk Product, the manufacturer of such system or application assumes all risk of such use and in doing so agrees to indemnify Cypress against all liability. </p>
+<div class="textblock"><p>This file lists the API's and structs required to access the Pulse-Width Modulation (PWM) driver. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

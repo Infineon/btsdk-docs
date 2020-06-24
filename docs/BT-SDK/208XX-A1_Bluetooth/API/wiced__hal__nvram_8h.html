@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Cypress WICED CYW208XX: wiced_hal_nvram.h File Reference</title>
+<title>WICED CYW208XX: wiced_hal_nvram.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,13 +28,12 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="cy_logo.png" alt="Cypress Logo" /></td>
-        <td style="width:20px;background-image:url('cy_logo_line.png');"></td>
-        <td style="vertical-align:middle; text-align:center; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;background-image:url('cy_logo_line.png');">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.5 - Documentation
+        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:40px"></td>
+        <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
         </td>
         <td style="width:20px"></td>
-        <td style="width:1px"><img src="wiced_logo.png" alt="WICED Logo" /></td>
       </tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -46,9 +45,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Home</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
-      <li><a href="globals.html"><span>Globals</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -118,20 +116,20 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf9c57bcb3d8ba0eb609aa75c39ee3168"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#gaf9c57bcb3d8ba0eb609aa75c39ee3168">wiced_hal_write_nvram</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, wiced_result_t *p_status)</td></tr>
+<tr class="memitem:gaf9c57bcb3d8ba0eb609aa75c39ee3168"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#gaf9c57bcb3d8ba0eb609aa75c39ee3168">wiced_hal_write_nvram</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
 <tr class="memdesc:gaf9c57bcb3d8ba0eb609aa75c39ee3168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to NVRAM.  <a href="group__group__nvram__functions.html#gaf9c57bcb3d8ba0eb609aa75c39ee3168">More...</a><br /></td></tr>
 <tr class="separator:gaf9c57bcb3d8ba0eb609aa75c39ee3168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6874b19c7f870b923018829b2b63a21"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#gaf6874b19c7f870b923018829b2b63a21">wiced_hal_read_nvram</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, wiced_result_t *p_status)</td></tr>
+<tr class="memitem:gaf6874b19c7f870b923018829b2b63a21"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#gaf6874b19c7f870b923018829b2b63a21">wiced_hal_read_nvram</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
 <tr class="memdesc:gaf6874b19c7f870b923018829b2b63a21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data from NVRAM, which was previously written by the application to a specific VS_ID using <a class="el" href="group__group__nvram__functions.html#gaf9c57bcb3d8ba0eb609aa75c39ee3168">wiced_hal_write_nvram</a>.  <a href="group__group__nvram__functions.html#gaf6874b19c7f870b923018829b2b63a21">More...</a><br /></td></tr>
 <tr class="separator:gaf6874b19c7f870b923018829b2b63a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5b9d27e968363998c3e1f7f9ca1719dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#ga5b9d27e968363998c3e1f7f9ca1719dc">wiced_hal_delete_nvram</a> (uint16_t vs_id, wiced_result_t *p_status)</td></tr>
+<tr class="memitem:ga5b9d27e968363998c3e1f7f9ca1719dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__nvram__functions.html#ga5b9d27e968363998c3e1f7f9ca1719dc">wiced_hal_delete_nvram</a> (uint16_t vs_id, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
 <tr class="memdesc:ga5b9d27e968363998c3e1f7f9ca1719dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes data that exists at a specific, previously written vs_id.  <a href="group__group__nvram__functions.html#ga5b9d27e968363998c3e1f7f9ca1719dc">More...</a><br /></td></tr>
 <tr class="separator:ga5b9d27e968363998c3e1f7f9ca1719dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
 <p>Provides the API definitions for NVRAM access.</p>
-<p>\***************************************************************************** Copyright 2020, Cypress Semiconductor Corporation or a subsidiary of Cypress Semiconductor Corporation. All Rights Reserved.</p>
+<p>\***************************************************************************** Copyright 2016-2020, Cypress Semiconductor Corporation or a subsidiary of Cypress Semiconductor Corporation. All Rights Reserved.</p>
 <p>This software, including source code, documentation and related materials ("Software"), is owned by Cypress Semiconductor Corporation or one of its subsidiaries ("Cypress") and is protected by and subject to worldwide patent protection (United States and foreign), United States copyright laws and international treaty provisions. Therefore, you may use this Software only as provided in the license agreement accompanying the software package from which you obtained this Software ("EULA"). If no EULA applies, Cypress hereby grants you a personal, non-exclusive, non-transferable license to copy, modify, and compile the Software source code solely for use in connection with Cypress's integrated circuit products. Any reproduction, modification, translation, compilation, or representation of this Software except as specified above is prohibited without the express written permission of Cypress.</p>
 <p>Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress reserves the right to make changes to the Software without notice. Cypress does not assume any liability arising out of the application or use of the Software or any product or circuit described in the Software. Cypress does not authorize its products for use in any products where a malfunction or failure of the Cypress product may reasonably be expected to result in significant property damage, injury or death ("High Risk Product"). By including Cypress's product in a High Risk Product, the manufacturer of such system or application assumes all risk of such use and in doing so agrees to indemnify Cypress against all liability. </p>
 </div></div><!-- contents -->

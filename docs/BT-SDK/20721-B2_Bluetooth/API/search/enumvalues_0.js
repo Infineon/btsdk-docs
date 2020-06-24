@@ -1,7 +1,6 @@
 var searchData=
 [
   ['a2dp_5fplayback',['A2DP_PLAYBACK',['../wiced__audio__manager_8h.html#aebb40016c198e3e5e1f82c86929dc454abe00ecab454ad03d52f56ab9335ae99c',1,'wiced_audio_manager.h']]],
-  ['aac',['AAC',['../wiced__audio__manager_8h.html#adf7aef7a7ec31e4536f3e6eef366e1f1af8eb6f9e0229bbf8091cb90f315cd7b0',1,'wiced_audio_manager.h']]],
   ['am_5faudio_5fconfig',['AM_AUDIO_CONFIG',['../wiced__audio__manager_8h.html#a982d67c5d2cfe30f82830c944cfc100fa2228d66731211b37e32a9feae17cd6d2',1,'wiced_audio_manager.h']]],
   ['am_5fbits_5fper_5fsample',['AM_BITS_PER_SAMPLE',['../wiced__audio__manager_8h.html#a982d67c5d2cfe30f82830c944cfc100fa830f3d52f03d8f91d4c41c9cbd6d3446',1,'wiced_audio_manager.h']]],
   ['am_5fchannels',['AM_CHANNELS',['../wiced__audio__manager_8h.html#a982d67c5d2cfe30f82830c944cfc100fab369051f6ae3847c00ec9cc0ef2b888c',1,'wiced_audio_manager.h']]],
