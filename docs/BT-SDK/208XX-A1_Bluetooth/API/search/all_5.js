@@ -15,7 +15,6 @@ var searchData=
   ['endian',['endian',['../wiced__transport_8h.html#a7abf946fe0aa5242e9905717dbc47a47',1,'wiced_transport.h']]],
   ['energy_5fexpended',['energy_expended',['../structwiced__bt__hrc__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40',1,'wiced_bt_hrc_notification_data_t::energy_expended()'],['../structwiced__bt__hrs__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40',1,'wiced_bt_hrs_notification_data_t::energy_expended()']]],
   ['energy_5fexpended_5fpresent',['energy_expended_present',['../structwiced__bt__hrc__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43',1,'wiced_bt_hrc_notification_data_t::energy_expended_present()'],['../structwiced__bt__hrs__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43',1,'wiced_bt_hrs_notification_data_t::energy_expended_present()']]],
-  ['entity_5fid',['entity_id',['../structwiced__bt__ams__event__t.html#a8a6a9a23f3529b81e24d622f72af55b1',1,'wiced_bt_ams_event_t']]],
   ['err_5fcode',['err_code',['../structwiced__bt__avdt__evt__hdr__t.html#a7c7db8f8afdf36d5e42be7f485336be4',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['err_5fparam',['err_param',['../structwiced__bt__avdt__evt__hdr__t.html#aaf9a0464c401c9866d26ecde335c937e',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['established',['established',['../structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f',1,'wiced_bt_mesh_core_state_friendship_t']]],

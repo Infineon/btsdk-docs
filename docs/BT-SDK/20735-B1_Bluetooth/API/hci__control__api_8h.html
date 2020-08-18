@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -272,6 +272,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a4f19bb9d0a36ae7961c3773e5c9d70d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f19bb9d0a36ae7961c3773e5c9d70d4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_COMMAND_SET_LOCAL_NAME</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x12 )    /* Set the local name */</td></tr>
 <tr class="separator:a4f19bb9d0a36ae7961c3773e5c9d70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bc8c27118d830a12c478fded1ff4f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43bc8c27118d830a12c478fded1ff4f5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_COMMAND_UNBOND_DEVICE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x13 )    /* Unbond (Delete NVRAM Id) a Device (by BdAddr) */</td></tr>
+<tr class="separator:a43bc8c27118d830a12c478fded1ff4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867cffa7b6c08566bfd8500b75a5d910"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a867cffa7b6c08566bfd8500b75a5d910"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_COMMAND_GET_BONDED_DEVICES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x14 )    /* Get Bonded/Paired Device list */</td></tr>
+<tr class="separator:a867cffa7b6c08566bfd8500b75a5d910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fea8debf3b7046cdc4ef8e8e951fe9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fea8debf3b7046cdc4ef8e8e951fe9b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_COMMAND_PIN_REPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x15 )    /* PIN Code Reply */</td></tr>
+<tr class="separator:a0fea8debf3b7046cdc4ef8e8e951fe9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03471711d96d9a49aa72873daad58f0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03471711d96d9a49aa72873daad58f0d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_COMMAND_SSP_REPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x16 )    /* SSP Code Reply */</td></tr>
+<tr class="separator:a03471711d96d9a49aa72873daad58f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2ce8e99934382cfa3a027a01842390"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab2ce8e99934382cfa3a027a01842390"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_COMMAND_SCAN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE &lt;&lt; 8 ) | 0x01 )    /* Start scan */</td></tr>
 <tr class="separator:aab2ce8e99934382cfa3a027a01842390"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -671,6 +683,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ab519204fac5227cff5ace72e1b2feece"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab519204fac5227cff5ace72e1b2feece"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_COMMAND_GET_AUTH_CHIP_SIGNATURE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x06 )    /* Send get auth chip info */</td></tr>
 <tr class="separator:ab519204fac5227cff5ace72e1b2feece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d09b5dd64bc1033788eca4a201dc925"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d09b5dd64bc1033788eca4a201dc925"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_COMMAND_SEND_IDENTITY_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x07 )    /* Send identity data */</td></tr>
+<tr class="separator:a3d09b5dd64bc1033788eca4a201dc925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4340e1f736d9384a8b90d8888eee6ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4340e1f736d9384a8b90d8888eee6ae"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x01 )    /* Establish connection to HF Device */</td></tr>
 <tr class="separator:ae4340e1f736d9384a8b90d8888eee6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1556,6 +1571,12 @@ Macros</h2></td></tr>
 <tr class="memitem:aaaae856c41d05abbe952d0e3047a55c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaaae856c41d05abbe952d0e3047a55c1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_CONNECTION_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x11 )    /* Connection Status */</td></tr>
 <tr class="separator:aaaae856c41d05abbe952d0e3047a55c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f8de11912f3a56f9f995ea282f449a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0f8de11912f3a56f9f995ea282f449a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_PIN_REQUEST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x12 )    /* PIN Code Request */</td></tr>
+<tr class="separator:ae0f8de11912f3a56f9f995ea282f449a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a1474f9d849ba62269c4de00f022d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87a1474f9d849ba62269c4de00f022d6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_SSP_REQUEST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x13 )    /* SSP Code Request */</td></tr>
+<tr class="separator:a87a1474f9d849ba62269c4de00f022d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae05bc0a2f0e8aba9c7dfcdecdbdc5e8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae05bc0a2f0e8aba9c7dfcdecdbdc5e8a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HF_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HF &lt;&lt; 8 ) | 0x01 )    /* HS connection opened or connection attempt failed  */</td></tr>
 <tr class="separator:ae05bc0a2f0e8aba9c7dfcdecdbdc5e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1976,6 +1997,15 @@ Macros</h2></td></tr>
 <tr class="memitem:a16a841e0b76f9ab64ee10ffa3d5813c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16a841e0b76f9ab64ee10ffa3d5813c0"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_AUTH_CHIP_SIGNATURE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x09 )    /* IAP2 auth chip signature */</td></tr>
 <tr class="separator:a16a841e0b76f9ab64ee10ffa3d5813c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d61183da14f22b48670ffd871ce2b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3d61183da14f22b48670ffd871ce2b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_RFCOMM_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x0A )    /* IAP2 RFCOMM connected*/</td></tr>
+<tr class="separator:af3d61183da14f22b48670ffd871ce2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190b1997ebdd30bf4a78e128dd04a713"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a190b1997ebdd30bf4a78e128dd04a713"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_RFCOMM_DISCONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x0B )    /* IAP2 RFCOMM disconnected */</td></tr>
+<tr class="separator:a190b1997ebdd30bf4a78e128dd04a713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac541bac12b60ef32daeea3f7a1a7bd8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac541bac12b60ef32daeea3f7a1a7bd8b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x0C )    /* Command status event for the requested operation */</td></tr>
+<tr class="separator:ac541bac12b60ef32daeea3f7a1a7bd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb712433770c92758d1bba6c793909c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abeb712433770c92758d1bba6c793909c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:abeb712433770c92758d1bba6c793909c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2762,6 +2792,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a6019bb09cb6fa7267652b66859805e14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6019bb09cb6fa7267652b66859805e14"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_SPP_MAX_TX_BUFFER</b>&#160;&#160;&#160;700</td></tr>
 <tr class="separator:a6019bb09cb6fa7267652b66859805e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926949fb6540b3399ab2a8a53658b19f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a926949fb6540b3399ab2a8a53658b19f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_MAX_TX_BUFFER</b>&#160;&#160;&#160;700</td></tr>
+<tr class="separator:a926949fb6540b3399ab2a8a53658b19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c63771a87e68d2dff30499daa16eb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74c63771a87e68d2dff30499daa16eb3"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GATT_COMMAND_MAX_TX_BUFFER</b>&#160;&#160;&#160;100</td></tr>
 <tr class="separator:a74c63771a87e68d2dff30499daa16eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2883,7 +2916,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_381784b046463e89e192fac110641b13.html">out</a></li><li class="navelem"><a class="el" href="dir_2af11a1d75825a88b1a4e9a0516672cd.html">repos</a></li><li class="navelem"><a class="el" href="dir_70ea0f88d10842b2337e42c4b17b6f53.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
+    <li class="navelem"><a class="el" href="dir_bd0a61b65cb7d032cdb5fd48047fdd59.html">out</a></li><li class="navelem"><a class="el" href="dir_eed34f1b4c36db0a21d5db67039b1580.html">repos</a></li><li class="navelem"><a class="el" href="dir_7f51b811c0a754fddbb08e8579166f13.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

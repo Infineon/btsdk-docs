@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -104,30 +104,16 @@ $(document).ready(function(){initNavTree('structwiced__bt__audio__insert__data.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:ga535f06bd0cab37b3c54f1ffd16cdbd17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga535f06bd0cab37b3c54f1ffd16cdbd17"></a>
-int16_t *&#160;</td><td class="memItemRight" valign="bottom"><b>p_source</b></td></tr>
-<tr class="separator:ga535f06bd0cab37b3c54f1ffd16cdbd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96bbf959016e4411c9e6b9812a8be60a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga96bbf959016e4411c9e6b9812a8be60a"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>len</b></td></tr>
-<tr class="separator:ga96bbf959016e4411c9e6b9812a8be60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6178a83712a1dd1b385d27f277f27caa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6178a83712a1dd1b385d27f277f27caa"></a>
-wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>overwrite</b></td></tr>
-<tr class="separator:ga6178a83712a1dd1b385d27f277f27caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad9fa98f986713a0378b5126315fdd9fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad9fa98f986713a0378b5126315fdd9fd"></a>
-wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b></td></tr>
-<tr class="separator:gad9fa98f986713a0378b5126315fdd9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9f52938b50d42c007732a21f35049b6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9f52938b50d42c007732a21f35049b6e"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>volume_reduce_factor_insert</b></td></tr>
-<tr class="separator:ga9f52938b50d42c007732a21f35049b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb1713e076f27284b8c112ef7643f0d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaeb1713e076f27284b8c112ef7643f0d9"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>volume_reduce_factor_original</b></td></tr>
-<tr class="separator:gaeb1713e076f27284b8c112ef7643f0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac239081d4c1dd34f010587d863d45fd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac239081d4c1dd34f010587d863d45fd3"></a>
-<a class="el" href="group__audio__insert.html#gaae2cf9e5573b72a48c45f872f109b3ea">wiced_bt_audio_insert_source_data_exhausted_callback_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>p_source_data_exhausted_callback</b></td></tr>
-<tr class="separator:gac239081d4c1dd34f010587d863d45fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3ad2631533df381c2abcbe955483711e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3ad2631533df381c2abcbe955483711e"></a>
-wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>stop_insertion_when_source_exhausted</b></td></tr>
-<tr class="separator:ga3ad2631533df381c2abcbe955483711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae911a50fc6212f5aa45d97d2dfd61cc1"><td class="memItemLeft" ><a class="anchor" id="gae911a50fc6212f5aa45d97d2dfd61cc1"></a>
+union {</td></tr>
+<tr class="memitem:gaafad5af4db30a5f67d69d418dbee0cb6"><td class="memItemLeft" ><a class="anchor" id="gaafad5af4db30a5f67d69d418dbee0cb6"></a>
+&#160;&#160;&#160;<a class="el" href="structwiced__bt__audio__insert__data__sco.html">wiced_bt_audio_insert_data_sco_t</a>&#160;&#160;&#160;<b>sco</b></td></tr>
+<tr class="separator:gaafad5af4db30a5f67d69d418dbee0cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a6fe85cc762c3a061254806bf27c2ec"><td class="memItemLeft" ><a class="anchor" id="ga0a6fe85cc762c3a061254806bf27c2ec"></a>
+&#160;&#160;&#160;<a class="el" href="structwiced__bt__audio__insert__data__audio.html">wiced_bt_audio_insert_data_audio_t</a>&#160;&#160;&#160;<b>audio</b></td></tr>
+<tr class="separator:ga0a6fe85cc762c3a061254806bf27c2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae911a50fc6212f5aa45d97d2dfd61cc1"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:gae911a50fc6212f5aa45d97d2dfd61cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__audio__insert_8h.html">wiced_bt_audio_insert.h</a></li>

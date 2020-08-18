@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hci_5fcontrol_5fapi_2eh',['hci_control_api.h',['../hci__control__api_8h.html',1,'']]]
+  ['platform_5faudio_5fdevice_2eh',['platform_audio_device.h',['../platform__audio__device_8h.html',1,'']]]
 ];

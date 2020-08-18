@@ -3,7 +3,7 @@ var searchData=
   ['l2cap_5fapplication',['l2cap_application',['../structwiced__bt__cfg__settings__t.html#a82cbdc9211a31f4c1b58976a77ea8a5a',1,'wiced_bt_cfg_settings_t']]],
   ['label',['label',['../structwiced__bt__avdt__evt__hdr__t.html#a6abd170e74558ffbdb4fdfb852dbfe0c',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['last_5flevel',['last_level',['../structwiced__bt__mesh__light__lightness__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84',1,'wiced_bt_mesh_light_lightness_last_data_t::last_level()'],['../structwiced__bt__mesh__light__delta__uv__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84',1,'wiced_bt_mesh_light_delta_uv_last_data_t::last_level()']]],
-  ['latency',['latency',['../structwiced__bt__flow__spec__t.html#acd3d24a29a6e07be2bd52fcaffecc872',1,'wiced_bt_flow_spec_t']]],
+  ['latency',['latency',['../structwiced__bt__ble__rc__connection__param__req__t.html#a3c33efef6d5cbcd1ddacf7f6ec924423',1,'wiced_bt_ble_rc_connection_param_req_t::latency()'],['../structwiced__bt__flow__spec__t.html#acd3d24a29a6e07be2bd52fcaffecc872',1,'wiced_bt_flow_spec_t::latency()']]],
   ['lcid',['lcid',['../structwiced__bt__avdt__open__t.html#acb266dd40be81541c458718de4d7ced9',1,'wiced_bt_avdt_open_t']]],
   ['lcsrk',['lcsrk',['../wiced__bt__dev_8h.html#a7f3e57f56b673cca28885a6b24f0f3e7',1,'wiced_bt_dev.h']]],
   ['le_5fconnect_5fconfirm_5fcback',['le_connect_confirm_cback',['../structwiced__bt__l2cap__le__appl__information__t.html#ae7b6dde2861da41bb895679b4ba90ba1',1,'wiced_bt_l2cap_le_appl_information_t']]],

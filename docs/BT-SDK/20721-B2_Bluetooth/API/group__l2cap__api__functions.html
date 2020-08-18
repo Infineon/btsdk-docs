@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -227,6 +227,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga933b228e0a888ef7eb7671a2b3b7bccd">wiced_bt_l2cap_le_determ_secur_rsp</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t req_secur, uint8_t req_encr_key_size)</td></tr>
 <tr class="memdesc:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_determ_secur_rsp.  <a href="#ga933b228e0a888ef7eb7671a2b3b7bccd">More...</a><br /></td></tr>
 <tr class="separator:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga785d82c251d5dbab5dc1bdf63efa828b"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga785d82c251d5dbab5dc1bdf63efa828b">wiced_bt_l2cap_reply_ble_remote_conn_params_req</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t accept, uint16_t min_int, uint16_t max_int, uint16_t latency, uint16_t timeout)</td></tr>
+<tr class="memdesc:ga785d82c251d5dbab5dc1bdf63efa828b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_reply_ble_remote_conn_params_req.  <a href="#ga785d82c251d5dbab5dc1bdf63efa828b">More...</a><br /></td></tr>
+<tr class="separator:ga785d82c251d5dbab5dc1bdf63efa828b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b> API Functions </b> module for <b>L2CAP</b>. </p>
@@ -1350,6 +1353,71 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>PSM to use or zero if error. Typically, the PSM returned is the same as was passed in, but for an outgoing-only connection to a dynamic PSM, a "virtual" PSM is returned and should be used in the calls to <a class="el" href="group__l2cap__api__functions.html#gacde05b0107e2d06bc85d144100751cf3" title="Function wiced_bt_l2cap_connect_req. ">wiced_bt_l2cap_connect_req()</a> and BTM_SetSecurityLevel(). </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga785d82c251d5dbab5dc1bdf63efa828b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_l2cap_reply_ble_remote_conn_params_req </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramname"><em>accept</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>min_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>max_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>latency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_l2cap_reply_ble_remote_conn_params_req. </p>
+<p>Reply BLE remote connection parameters request. This function shall be called in BTM_BLE_REMOTE_CONNECTION_PARAM_REQ_EVT event handler. After calling this function, it shall return WICED_BT_CMD_STORED in BTM event handler to notify stack that application had handled the event.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>BD Address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">accept</td><td>flag to accept the request or not </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_int</td><td>Min interval </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_int</td><td>Max interval </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">latency</td><td>Latency value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>Timeout value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: TRUE if success </dd></dl>
 
 </div>
 </div>

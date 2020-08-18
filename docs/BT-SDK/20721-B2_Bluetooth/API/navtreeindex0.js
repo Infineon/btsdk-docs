@@ -101,7 +101,7 @@ var NAVTREEINDEX0 =
 "group___m_i_a_driver.html#gaa9e5b36703b97fc573ce111530e84878":[7,1,8,0],
 "group___m_i_a_driver.html#gae68d52432f3a3518eb87a567c8b61d80":[7,1,8,1],
 "group___m_i_a_driver.html#gafe2e43a2632adece5861d5794741d852":[7,1,8,7],
-"group___opus.html":[7,0,4,3],
+"group___opus.html":[7,0,2,3],
 "group___p_m_i_c.html":[7,1,12],
 "group___p_m_i_c.html#ga17a2e6293e11ffa9da2d4733d1750286":[7,1,12,1],
 "group___p_m_i_c.html#ga49bcfcbacbbd45cb8576c84f57d116c9":[7,1,12,0],

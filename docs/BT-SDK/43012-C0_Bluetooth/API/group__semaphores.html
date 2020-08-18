@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -110,6 +110,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga86a735aedb9979dd5e411ddb88ade867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__semaphores.html#ga86a735aedb9979dd5e411ddb88ade867">wiced_rtos_init_semaphore</a> (wiced_semaphore_t *semaphore)</td></tr>
 <tr class="memdesc:ga86a735aedb9979dd5e411ddb88ade867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a semaphore.  <a href="#ga86a735aedb9979dd5e411ddb88ade867">More...</a><br /></td></tr>
 <tr class="separator:ga86a735aedb9979dd5e411ddb88ade867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b31c98acb2d7354af9b2b158ed5b9ef"><td class="memItemLeft" align="right" valign="top">wiced_semaphore_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__semaphores.html#ga0b31c98acb2d7354af9b2b158ed5b9ef">wiced_rtos_create_semaphore</a> (void)</td></tr>
+<tr class="memdesc:ga0b31c98acb2d7354af9b2b158ed5b9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new instance of semaphore.  <a href="#ga0b31c98acb2d7354af9b2b158ed5b9ef">More...</a><br /></td></tr>
+<tr class="separator:ga0b31c98acb2d7354af9b2b158ed5b9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa97450c418dc6bab5d42a09caa0c862d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__semaphores.html#gaa97450c418dc6bab5d42a09caa0c862d">wiced_rtos_set_semaphore</a> (wiced_semaphore_t *semaphore)</td></tr>
 <tr class="memdesc:gaa97450c418dc6bab5d42a09caa0c862d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set (post/put/increment) a semaphore.  <a href="#gaa97450c418dc6bab5d42a09caa0c862d">More...</a><br /></td></tr>
 <tr class="separator:gaa97450c418dc6bab5d42a09caa0c862d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +126,28 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Semaphore management functionss. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga0b31c98acb2d7354af9b2b158ed5b9ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_semaphore_t* wiced_rtos_create_semaphore </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new instance of semaphore. </p>
+<p>Creates a new semaphore (Allocates memory for a new semaphore instance and returns the pointer)</p>
+<dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
+<dd>
+NULL : if an error occurred </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga12e5ee1736da2e2d50588abb54289a0c"></a>
 <div class="memitem">
 <div class="memproto">

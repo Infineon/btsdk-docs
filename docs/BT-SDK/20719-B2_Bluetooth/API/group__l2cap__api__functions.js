@@ -30,6 +30,7 @@ var group__l2cap__api__functions =
     [ "wiced_bt_l2cap_le_register", "group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369", null ],
     [ "wiced_bt_l2cap_le_set_user_congestion", "group__l2cap__api__functions.html#gab1458bd4cd6e5234b615d3311917bd92", null ],
     [ "wiced_bt_l2cap_register", "group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606", null ],
+    [ "wiced_bt_l2cap_reply_ble_remote_conn_params_req", "group__l2cap__api__functions.html#ga785d82c251d5dbab5dc1bdf63efa828b", null ],
     [ "wiced_bt_l2cap_set_acl_priority", "group__l2cap__api__functions.html#gac1053b5aa5412818516097c8295f90d1", null ],
     [ "wiced_bt_l2cap_set_acl_priority_ext", "group__l2cap__api__functions.html#ga3c2e5eaaa0b399dbdbebbc41a07fb8e4", null ],
     [ "wiced_bt_l2cap_set_chnl_flushability", "group__l2cap__api__functions.html#ga04cf5fd660b163ba8bbaa82d01e36871", null ],

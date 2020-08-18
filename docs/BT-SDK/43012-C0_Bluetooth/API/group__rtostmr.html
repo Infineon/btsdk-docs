@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -110,6 +110,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6ad80e7ed5680cdb8a66628c0f869e65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#ga6ad80e7ed5680cdb8a66628c0f869e65">wiced_rtos_init_timer</a> (wiced_rtos_timer_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>, uint32_t time_ms, timer_handler_t function, void *arg)</td></tr>
 <tr class="memdesc:ga6ad80e7ed5680cdb8a66628c0f869e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises a RTOS timer.  <a href="#ga6ad80e7ed5680cdb8a66628c0f869e65">More...</a><br /></td></tr>
 <tr class="separator:ga6ad80e7ed5680cdb8a66628c0f869e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e91e55ea68715457a885138be53501f"><td class="memItemLeft" align="right" valign="top">wiced_rtos_timer_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#ga6e91e55ea68715457a885138be53501f">wiced_rtos_create_timer</a> (void)</td></tr>
+<tr class="memdesc:ga6e91e55ea68715457a885138be53501f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new instance of timer.  <a href="#ga6e91e55ea68715457a885138be53501f">More...</a><br /></td></tr>
+<tr class="separator:ga6e91e55ea68715457a885138be53501f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaba2acb1c8c38203e763e0184fba97c92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#gaba2acb1c8c38203e763e0184fba97c92">wiced_rtos_start_timer</a> (wiced_rtos_timer_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>)</td></tr>
 <tr class="memdesc:gaba2acb1c8c38203e763e0184fba97c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a RTOS timer running.  <a href="#gaba2acb1c8c38203e763e0184fba97c92">More...</a><br /></td></tr>
 <tr class="separator:gaba2acb1c8c38203e763e0184fba97c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +127,28 @@ Functions</h2></td></tr>
 <p>RTOS timer management functions These timers are based on the RTOS time-slice scheduling, so are not highly accurate. </p>
 <p>They are also affected by high loading on the processor. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga6e91e55ea68715457a885138be53501f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_rtos_timer_t* wiced_rtos_create_timer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new instance of timer. </p>
+<p>Creates a new timer (Allocates memory for a new timer instance and returns the pointer)</p>
+<dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
+<dd>
+NULL : if an error occurred </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga6ad80e7ed5680cdb8a66628c0f869e65"></a>
 <div class="memitem">
 <div class="memproto">

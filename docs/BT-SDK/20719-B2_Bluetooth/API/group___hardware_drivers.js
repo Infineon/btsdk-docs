@@ -5,7 +5,6 @@ var group___hardware_drivers =
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
     [ "Clock", "group___c_p_u.html", "group___c_p_u" ],
     [ "Embedded Flash Interface", "group___embedded_flash_interface_driver.html", "group___embedded_flash_interface_driver" ],
-    [ "External Power Amplifier", "group___external_power_amplifier_driver.html", "group___external_power_amplifier_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
     [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],
     [ "Multiple Interface Adapter (MIA)", "group___m_i_a_driver.html", "group___m_i_a_driver" ],

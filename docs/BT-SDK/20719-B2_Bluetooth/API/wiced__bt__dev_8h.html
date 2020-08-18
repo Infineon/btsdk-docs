@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -210,6 +210,9 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE Physical link update event related data.  <a href="structwiced__bt__ble__phy__update__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__rc__connection__param__req__t.html">wiced_bt_ble_rc_connection_param_req_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE Remote connection parameter update request event related data.  <a href="structwiced__bt__ble__rc__connection__param__req__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__enabled__t.html">wiced_bt_dev_enabled_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device enabled (used by BTM_ENABLED_EVT)  <a href="structwiced__bt__dev__enabled__t.html#details">More...</a><br /></td></tr>
@@ -1038,7 +1041,9 @@ Enumerations</h2></td></tr>
 <a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a5830d6f002e141573b970ce70bf7a22d">BTM_SCO_CONNECTION_CHANGE_EVT</a>, 
 <a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a6e6df529fc0869b66488a4609deb4d0d">BTM_BLE_CONNECTION_PARAM_UPDATE</a>, 
 <br />
-&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65ab6f87a638df97b57c0a5a2a77a0e1b97">BTM_BLE_PHY_UPDATE_EVT</a>
+&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65ab6f87a638df97b57c0a5a2a77a0e1b97">BTM_BLE_PHY_UPDATE_EVT</a>, 
+<a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a965a79b8ed951bb08083f3072b7d8f16">BTM_LPM_STATE_LOW_POWER</a>, 
+<a class="el" href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65ac9cbd3ba1a6f33470451d753dc25fb7c">BTM_BLE_REMOTE_CONNECTION_PARAM_REQ_EVT</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a4a427fc37161f2041016d7936399be65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bluetooth Management events.  <a href="wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65">More...</a><br /></td></tr>
@@ -2149,6 +2154,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 <p>BLE Physical link update. </p>
 <p>Event data: <a class="el" href="structwiced__bt__ble__phy__update__t.html" title="BLE Physical link update event related data. ">wiced_bt_ble_phy_update_t</a> </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a965a79b8ed951bb08083f3072b7d8f16"></a>BTM_LPM_STATE_LOW_POWER&#160;</td><td class="fielddoc">
+<p>BT device wake has been deasserted. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65ac9cbd3ba1a6f33470451d753dc25fb7c"></a>BTM_BLE_REMOTE_CONNECTION_PARAM_REQ_EVT&#160;</td><td class="fielddoc">
+<p>BLE remote connection parameter request. </p>
+<p>Reply using wiced_bt_l2cap_reply_ble_remote_conn_params_req and return WICED_BT_CMD_STORED to denote this event was handled. Event data: <a class="el" href="structwiced__bt__ble__rc__connection__param__req__t.html" title="BLE Remote connection parameter update request event related data. ">wiced_bt_ble_rc_connection_param_req_t</a> </p>
+</td></tr>
 </table>
 
 </div>
@@ -3122,7 +3134,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_381784b046463e89e192fac110641b13.html">out</a></li><li class="navelem"><a class="el" href="dir_2af11a1d75825a88b1a4e9a0516672cd.html">repos</a></li><li class="navelem"><a class="el" href="dir_217230d210d94621b43387d477ca6797.html">20719B2</a></li><li class="navelem"><a class="el" href="dir_45dc3aa91c0b5345e0917ad0b886119c.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
+    <li class="navelem"><a class="el" href="dir_bd0a61b65cb7d032cdb5fd48047fdd59.html">out</a></li><li class="navelem"><a class="el" href="dir_eed34f1b4c36db0a21d5db67039b1580.html">repos</a></li><li class="navelem"><a class="el" href="dir_87d10e06f7b8583d1d9c6fbb3c4e3b7e.html">20719B2</a></li><li class="navelem"><a class="el" href="dir_d743a286e586ef4fb3423815e47ce01b.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

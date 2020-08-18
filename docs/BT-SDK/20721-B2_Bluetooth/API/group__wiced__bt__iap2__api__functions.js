@@ -1,6 +1,18 @@
 var group__wiced__bt__iap2__api__functions =
 [
+    [ "wiced_bt_iap2_event_data_rfcomm_connected_t", "structwiced__bt__iap2__event__data__rfcomm__connected__t.html", [
+      [ "bdaddr", "structwiced__bt__iap2__event__data__rfcomm__connected__t.html#a17f123b687ff9e7b1ff6f55af5fe0865", null ],
+      [ "port_handle", "structwiced__bt__iap2__event__data__rfcomm__connected__t.html#ae611b9373a8ae4f5d027c4a393290f29", null ]
+    ] ],
+    [ "wiced_bt_iap2_event_data_rfcomm_disconnected_t", "structwiced__bt__iap2__event__data__rfcomm__disconnected__t.html", [
+      [ "port_handle", "structwiced__bt__iap2__event__data__rfcomm__disconnected__t.html#ae611b9373a8ae4f5d027c4a393290f29", null ]
+    ] ],
+    [ "wiced_bt_iap2_event_data_t", "unionwiced__bt__iap2__event__data__t.html", [
+      [ "rfcomm_connected", "unionwiced__bt__iap2__event__data__t.html#a6b9dff73382cf89e136769daa082e6b4", null ],
+      [ "rfcomm_disconnected", "unionwiced__bt__iap2__event__data__t.html#aca0f9099dc187eb5caa5ed3bae6ab944", null ]
+    ] ],
     [ "wiced_bt_iap2_reg_t", "structwiced__bt__iap2__reg__t.html", [
+      [ "p_callback", "structwiced__bt__iap2__reg__t.html#a18fffa2338211201cf0206ae7d24fe47", null ],
       [ "p_connection_down_callback", "structwiced__bt__iap2__reg__t.html#a4067118d5c37f652db054202394f9d52", null ],
       [ "p_connection_failed_callback", "structwiced__bt__iap2__reg__t.html#a94cbad823e4b78d8b96c1dda757274d0", null ],
       [ "p_connection_up_callback", "structwiced__bt__iap2__reg__t.html#a934492a88446385b88c20a2d67ea19ed", null ],
@@ -11,6 +23,7 @@ var group__wiced__bt__iap2__api__functions =
     ] ],
     [ "IAP2_ACCESSORY_UUID", "group__wiced__bt__iap2__api__functions.html#ga45b0503e9ef940ba2675705f23c8751c", null ],
     [ "IAP2_DEVICE_UUID", "group__wiced__bt__iap2__api__functions.html#gaccf6dd28500eb42719b6ce07342239a6", null ],
+    [ "wiced_bt_iap2_callback_t", "group__wiced__bt__iap2__api__functions.html#ga756dbac5850ee980f5216975e2340588", null ],
     [ "wiced_bt_iap2_connection_down_callback_t", "group__wiced__bt__iap2__api__functions.html#gae34d89c126790df6f639b8e2d677ac32", null ],
     [ "wiced_bt_iap2_connection_failed_callback_t", "group__wiced__bt__iap2__api__functions.html#ga572763901b39557b64adcb848ec4bcfc", null ],
     [ "wiced_bt_iap2_connection_up_callback_t", "group__wiced__bt__iap2__api__functions.html#gac6295c867b58e1f49a4ec6df31b32c1b", null ],
@@ -22,7 +35,7 @@ var group__wiced__bt__iap2__api__functions =
     [ "wiced_bt_iap2_disconnect", "group__wiced__bt__iap2__api__functions.html#gab869d34e26353e11fdbb8dc6857a9dc0", null ],
     [ "wiced_bt_iap2_get_auth_chip_info", "group__wiced__bt__iap2__api__functions.html#ga58451ec7fe94986d945171c124ad5a9c", null ],
     [ "wiced_bt_iap2_port_purge", "group__wiced__bt__iap2__api__functions.html#ga9515d897f99940367f6f5dafcf68b0ab", null ],
-    [ "wiced_bt_iap2_rx_flow_enabled", "group__wiced__bt__iap2__api__functions.html#ga188e5f40898c670e9351e6aed720c385", null ],
+    [ "wiced_bt_iap2_rx_flow_enable", "group__wiced__bt__iap2__api__functions.html#ga38642bab4c501a155c9c960ba71dacd7", null ],
     [ "wiced_bt_iap2_send_session_data", "group__wiced__bt__iap2__api__functions.html#ga937cb784b9a9e8af0b60ef9ceee2c269", null ],
     [ "wiced_bt_iap2_startup", "group__wiced__bt__iap2__api__functions.html#ga36bdc0f6bf37670f91ce339558b91f31", null ],
     [ "AppMatchTeamId", "group__wiced__bt__iap2__api__functions.html#gaee9b3f28a7664ba180748ae3355c5989", null ],

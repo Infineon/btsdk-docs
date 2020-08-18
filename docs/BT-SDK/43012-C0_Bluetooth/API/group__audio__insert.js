@@ -1,6 +1,20 @@
 var group__audio__insert =
 [
-    [ "wiced_bt_audio_insert_data", "structwiced__bt__audio__insert__data.html", [
+    [ "wiced_bt_audio_insert_advanced_control_config_sco", "structwiced__bt__audio__insert__advanced__control__config__sco.html", [
+      [ "p_disable", "group__audio__insert.html#ga0b3588f955d5f851a8cd96b5c454b2a9", null ],
+      [ "p_enable", "group__audio__insert.html#ga33c8f134d80cccd3c179c0486ba73582", null ]
+    ] ],
+    [ "wiced_bt_audio_insert_advanced_control_config_audio", "structwiced__bt__audio__insert__advanced__control__config__audio.html", [
+      [ "p_disable", "group__audio__insert.html#ga0b3588f955d5f851a8cd96b5c454b2a9", null ],
+      [ "p_enable", "group__audio__insert.html#ga33c8f134d80cccd3c179c0486ba73582", null ]
+    ] ],
+    [ "wiced_bt_audio_insert_advanced_control_config", "structwiced__bt__audio__insert__advanced__control__config.html", [
+      [ "audio", "group__audio__insert.html#ga0ce21910a7ccee47270310b1f4eb19b2", null ],
+      [ "sco", "group__audio__insert.html#ga7ccf335693d0adab26da52e09ffc3ebc", null ]
+    ] ],
+    [ "wiced_bt_audio_insert_data_sco", "structwiced__bt__audio__insert__data__sco.html", [
+      [ "expected_sco_time_seq_num", "group__audio__insert.html#ga8e16f98472ef8e92d11b46f2851ec3a4", null ],
+      [ "insert_data_after_target_seq_num", "group__audio__insert.html#gacc1e814ffe9b9b5acdfaea6497fd5658", null ],
       [ "len", "group__audio__insert.html#ga96bbf959016e4411c9e6b9812a8be60a", null ],
       [ "loop", "group__audio__insert.html#gad9fa98f986713a0378b5126315fdd9fd", null ],
       [ "overwrite", "group__audio__insert.html#ga6178a83712a1dd1b385d27f277f27caa", null ],
@@ -10,9 +24,23 @@ var group__audio__insert =
       [ "volume_reduce_factor_insert", "group__audio__insert.html#ga9f52938b50d42c007732a21f35049b6e", null ],
       [ "volume_reduce_factor_original", "group__audio__insert.html#gaeb1713e076f27284b8c112ef7643f0d9", null ]
     ] ],
+    [ "wiced_bt_audio_insert_data_audio", "structwiced__bt__audio__insert__data__audio.html", [
+      [ "len", "group__audio__insert.html#ga96bbf959016e4411c9e6b9812a8be60a", null ],
+      [ "loop", "group__audio__insert.html#gad9fa98f986713a0378b5126315fdd9fd", null ],
+      [ "multiple", "group__audio__insert.html#ga6680df6e7cacf858da4dfce892a4b252", null ],
+      [ "overwrite", "group__audio__insert.html#ga6178a83712a1dd1b385d27f277f27caa", null ],
+      [ "p_source", "group__audio__insert.html#ga535f06bd0cab37b3c54f1ffd16cdbd17", null ],
+      [ "p_source_data_exhausted_callback", "group__audio__insert.html#gac239081d4c1dd34f010587d863d45fd3", null ],
+      [ "stop_insertion_when_source_exhausted", "group__audio__insert.html#ga3ad2631533df381c2abcbe955483711e", null ],
+      [ "volume_reduce_factor_insert", "group__audio__insert.html#ga9f52938b50d42c007732a21f35049b6e", null ],
+      [ "volume_reduce_factor_original", "group__audio__insert.html#gaeb1713e076f27284b8c112ef7643f0d9", null ]
+    ] ],
+    [ "wiced_bt_audio_insert_data", "structwiced__bt__audio__insert__data.html", [
+      [ "audio", "group__audio__insert.html#ga0a6fe85cc762c3a061254806bf27c2ec", null ],
+      [ "sco", "group__audio__insert.html#gaafad5af4db30a5f67d69d418dbee0cb6", null ]
+    ] ],
     [ "wiced_bt_audio_insert_config", "structwiced__bt__audio__insert__config.html", [
       [ "insert_data", "group__audio__insert.html#gadf6b49865eba1192a39feca61d4bc8a4", null ],
-      [ "multiple_device", "group__audio__insert.html#ga7a4448e69334b1c946e36ead56e375b4", null ],
       [ "p_sample_rate", "group__audio__insert.html#gaf8ea9695c9e9b182314866d6a20aa2aa", null ],
       [ "type", "group__audio__insert.html#ga5455a3bfe8cdaa1bb6a60749c673f997", null ]
     ] ],

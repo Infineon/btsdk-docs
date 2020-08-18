@@ -15,17 +15,17 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___adc_driver.html",
-"group__btm__ble__api__functions.html#ga25741accdeebfb7297645d5ead4197ba",
-"group__l2cap__api__functions.html#ga4d963f266263672e7a672c27a21cc711",
-"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabaea8cedc8ef3920abc8f00161a5476ee7",
-"group__wiced__bt__mesh__core.html#ga02705d568e3ee2a1d9679b98675a753f",
-"group__wiced__bt__mesh__light__lightness__client.html#gab7f2a8d86e555860e41ed604df895f5a",
-"group__wiced__bt__mesh__provisioning.html#ga8cb07d2bb19867b82a3439e5bed8a184",
-"group__wicedbt__av__a2d__helper.html#ga722b146cea0bd9be7c6e2ffa2d43c2a1",
-"structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204",
-"structwiced__bt__mesh__core__state__model__app__t.html#a345b5a533872a471f810a988b331f60c",
-"structwiced__bt__mesh__light__xyl__range__set__data__t.html#ab5379478017ff6051cdd90b108dca2d8",
-"structwiced__fw__upgrade__nv__loc__len__t.html#a1392f0ac6254aa68ef05d299abe5d7de"
+"group__audio__insert.html#gad1859b3438b8d5562f5c3c0ecbe760d4",
+"group__hidd__le__api__functions.html#ga672e1553ad37f15154a652f517532298",
+"group__wiced__bt__bac__api__functions.html",
+"group__wiced__bt__mesh__core.html#ga6647db924fefa3140520d23d3147b5da",
+"group__wiced__bt__mesh__model__light__lc__server.html",
+"group__wiced__bt__mesh__provisioning.html#gaf732c6251eb54195b4853239fa93a0ba",
+"group__wicedbt__avrc.html#ga37cf649b6af0e1e0490255a0fa381e17",
+"structwiced__bt__ble__hidh__connected__t.html#a17f123b687ff9e7b1ff6f55af5fe0865",
+"structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f",
+"structwiced__bt__mesh__power__level__status__data__t.html",
+"unionwiced__bt__mesh__core__state__t.html#ab167c3f49174df8f951ee4280df2902e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

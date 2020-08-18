@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.6 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -367,13 +367,13 @@ WICED_ERROR : queue is not full. </dd></dl>
   <table class="params">
     <tr><td class="paramname">queue</td><td>: a pointer to the queue handle </td></tr>
     <tr><td class="paramname">message</td><td>: pointer to a buffer that will receive the object being popped off the queue. Size is assumed to be the size specified in <a class="el" href="group__queues.html#ga5a1885df28aa1e146ca1e334f4997787">wiced_rtos_init_queue</a> , hence you must ensure the buffer is long enough or memory corruption will result </td></tr>
-    <tr><td class="paramname">timeout_ms</td><td>the number of milliseconds to wait before returning</td></tr>
+    <tr><td class="paramname">timeout_ms</td><td>[DEPRECATED] the number of milliseconds to wait before returning Note: timeout option is not supported and irrespective of timeout_ms value, API would be in blocking state until it receives single message in a queue.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
 <dd>
-WICED_ERROR : if an error or timeout occurred </dd></dl>
+WICED_ERROR : if an error occurred. </dd></dl>
 
 </div>
 </div>
@@ -413,13 +413,13 @@ WICED_ERROR : if an error or timeout occurred </dd></dl>
   <table class="params">
     <tr><td class="paramname">queue</td><td>: a pointer to the queue handle </td></tr>
     <tr><td class="paramname">message</td><td>: the object to be added to the queue. Size is assumed to be the size specified in <a class="el" href="group__queues.html#ga5a1885df28aa1e146ca1e334f4997787">wiced_rtos_init_queue</a> </td></tr>
-    <tr><td class="paramname">timeout_ms</td><td>the number of milliseconds to wait before returning</td></tr>
+    <tr><td class="paramname">timeout_ms</td><td>[DEPRECATED] the number of milliseconds to wait before returning Note: timeout option is not supported and the API returns immediately without waiting even when timeout_ms is non zero.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
 <dd>
-WICED_ERROR : if an error or timeout occurred </dd></dl>
+WICED_ERROR : if an error occurred. </dd></dl>
 
 </div>
 </div>

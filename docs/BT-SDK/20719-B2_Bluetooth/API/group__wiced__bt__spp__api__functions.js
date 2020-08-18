@@ -19,7 +19,7 @@ var group__wiced__bt__spp__api__functions =
     [ "wiced_bt_spp_connect", "group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42", null ],
     [ "wiced_bt_spp_disconnect", "group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6", null ],
     [ "wiced_bt_spp_port_purge", "group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3", null ],
-    [ "wiced_bt_spp_rx_flow_enabled", "group__wiced__bt__spp__api__functions.html#ga960acfc309b12fbd1304368031049cef", null ],
+    [ "wiced_bt_spp_rx_flow_enable", "group__wiced__bt__spp__api__functions.html#ga2ea0c163fb4ddfe8f56e022467bb592b", null ],
     [ "wiced_bt_spp_send_session_data", "group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12", null ],
     [ "wiced_bt_spp_startup", "group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb", null ]
 ];

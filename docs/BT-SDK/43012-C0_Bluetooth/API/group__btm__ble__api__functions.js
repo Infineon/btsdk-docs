@@ -4,6 +4,7 @@ var group__btm__ble__api__functions =
     [ "wiced_bt_ble_check_advertising_data", "group__btm__ble__api__functions.html#ga8d62204cf6ab289f977215c08d5864ca", null ],
     [ "wiced_bt_ble_clear_white_list", "group__btm__ble__api__functions.html#ga0b5e961cacea2b8efab9e9df400765c8", null ],
     [ "wiced_bt_ble_data_signature", "group__btm__ble__api__functions.html#ga1745ec7401f09c80ec5aecbacc9c0002", null ],
+    [ "wiced_bt_ble_get_connection_parameters", "group__btm__ble__api__functions.html#ga26ca4f327d2ffeff7cacdc9b3fe4f35f", null ],
     [ "wiced_bt_ble_get_current_advert_mode", "group__btm__ble__api__functions.html#ga0ba60f6bd5a99be06f8ddd879da9b248", null ],
     [ "wiced_bt_ble_get_current_scan_state", "group__btm__ble__api__functions.html#ga397017f8e317d9c93785e719d7ca07cf", null ],
     [ "wiced_bt_ble_get_security_state", "group__btm__ble__api__functions.html#gaa3a12d9312cb8bac5e7eb7033aedda8c", null ],
