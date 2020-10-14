@@ -10,7 +10,6 @@ var group__wicedbt =
     [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],
     [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
     [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
-    [ "Human Interface Device (HID)", "group__wiced__bt__hid.html", "group__wiced__bt__hid" ],
     [ "IAP2 Protocol Library API", "group__wiced__bt__iap2__api__functions.html", "group__wiced__bt__iap2__api__functions" ],
     [ "Logical Link Control and Adaptation Protocol (L2CAP)", "group__l2cap.html", "group__l2cap" ],
     [ "OBEX", "group__wicedbt__obex.html", "group__wicedbt__obex" ],

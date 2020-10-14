@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -114,6 +114,9 @@ Macros</h2></td></tr>
 <tr class="separator:gaa4118b78467aae8833bc5ec0d12cdcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gade7692929b65c1c47088453a814283f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gade7692929b65c1c47088453a814283f6">WICED_GPIO_ACTIVE_LOW</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:gade7692929b65c1c47088453a814283f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b69270dc3b5b277270ee03eecc8cec0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b69270dc3b5b277270ee03eecc8cec0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_gpio_slimboot_reenforce_outputpin_value</b>&#160;&#160;&#160;<a class="el" href="group___g_p_i_o_driver.html#ga6e7cb43b713ab53346d27378666e63f9">gpio_slimboot_reinforce_all_outputpin_value</a></td></tr>
+<tr class="separator:ga8b69270dc3b5b277270ee03eecc8cec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -387,6 +390,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae0a57647683b5ec560b3ddfe154445ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gae0a57647683b5ec560b3ddfe154445ae">wiced_hal_gpio_init</a> (void)</td></tr>
 <tr class="memdesc:gae0a57647683b5ec560b3ddfe154445ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the GPIO driver and its private values.  <a href="#gae0a57647683b5ec560b3ddfe154445ae">More...</a><br /></td></tr>
 <tr class="separator:gae0a57647683b5ec560b3ddfe154445ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88ac537705adc15e30175314d96d7221"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#ga88ac537705adc15e30175314d96d7221">wiced_hal_gpio_pin_to_port_pin</a> (uint8_t pin)</td></tr>
+<tr class="memdesc:ga88ac537705adc15e30175314d96d7221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a given schematic pin number (i.e.  <a href="#ga88ac537705adc15e30175314d96d7221">More...</a><br /></td></tr>
+<tr class="separator:ga88ac537705adc15e30175314d96d7221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf6c6ae7c641dfb88aa05ced71a44a1cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gaf6c6ae7c641dfb88aa05ced71a44a1cb">wiced_hal_gpio_configure_pin</a> (uint32_t pin, uint32_t config, uint32_t outputVal)</td></tr>
 <tr class="memdesc:gaf6c6ae7c641dfb88aa05ced71a44a1cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures a GPIO pin.  <a href="#gaf6c6ae7c641dfb88aa05ced71a44a1cb">More...</a><br /></td></tr>
 <tr class="separator:gaf6c6ae7c641dfb88aa05ced71a44a1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,6 +423,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2fd22fec677314ff891085bc7f18e176"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#ga2fd22fec677314ff891085bc7f18e176">wiced_hal_gpio_slimboot_reenforce_cfg</a> (uint8_t pin, uint16_t config)</td></tr>
 <tr class="memdesc:ga2fd22fec677314ff891085bc7f18e176"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the LHL GPIO configuration in AON memeory to reenforce in slimboot This is a must if we want to wake up in SDS by external LHL GPIO interrupts  <a href="#ga2fd22fec677314ff891085bc7f18e176">More...</a><br /></td></tr>
 <tr class="separator:ga2fd22fec677314ff891085bc7f18e176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e7cb43b713ab53346d27378666e63f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#ga6e7cb43b713ab53346d27378666e63f9">gpio_slimboot_reinforce_all_outputpin_value</a> (void)</td></tr>
+<tr class="memdesc:ga6e7cb43b713ab53346d27378666e63f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the GPIO configurations in AON memory that needs to be reenforced in slimboot, before entering uBCS mode, please call this function to save all the output pins value again in AON memory.  <a href="#ga6e7cb43b713ab53346d27378666e63f9">More...</a><br /></td></tr>
+<tr class="separator:ga6e7cb43b713ab53346d27378666e63f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb2097edf06d7e4b665f9d1bf0e3eaf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___g_p_i_o_driver.html#gacd9015ec0c0c62f90ec8f722a77089d1">wiced_bt_gpio_select_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gabb2097edf06d7e4b665f9d1bf0e3eaf7">wiced_hal_gpio_select_function</a> (wiced_bt_gpio_numbers_t pin, <a class="el" href="group___g_p_i_o_driver.html#ga5970b1e3f6e14c03e36addfa832af166">wiced_bt_gpio_function_t</a> function)</td></tr>
 <tr class="memdesc:gabb2097edf06d7e4b665f9d1bf0e3eaf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure a GPIO pin to have the chosen functionality.  <a href="#gabb2097edf06d7e4b665f9d1bf0e3eaf7">More...</a><br /></td></tr>
 <tr class="separator:gabb2097edf06d7e4b665f9d1bf0e3eaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,6 +562,31 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga6e7cb43b713ab53346d27378666e63f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_slimboot_reinforce_all_outputpin_value </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>For the GPIO configurations in AON memory that needs to be reenforced in slimboot, before entering uBCS mode, please call this function to save all the output pins value again in AON memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: none </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga040be864ca811e658e1e0be89fa8e50a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -777,6 +811,32 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga88ac537705adc15e30175314d96d7221"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t wiced_hal_gpio_pin_to_port_pin </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a given schematic pin number (i.e. </p>
+<p>P5) to the internal port/pin representation used by various other drivers such as PSPI and PUART. There could be up to 40 GPIO pins on a board so the numbering is P0 - P39.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td>- The desired pin number from the schematic. Ex: P&lt;pin&gt;</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the port and pin representation encoded into a byte. Value is 0xFF if the input parameter is out of range. </dd></dl>
 
 </div>
 </div>

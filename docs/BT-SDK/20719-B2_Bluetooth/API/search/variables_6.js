@@ -32,9 +32,7 @@ var searchData=
   ['flush_5ftimeout',['flush_timeout',['../structwiced__bt__l2cap__cfg__information__t.html#ac6d3bda95d9217e5d7eb5a8ecbf383de',1,'wiced_bt_l2cap_cfg_information_t']]],
   ['flush_5ftimeout_5fpresent',['flush_timeout_present',['../structwiced__bt__l2cap__cfg__information__t.html#a990864342c8e6cda4da298ec12692c29',1,'wiced_bt_l2cap_cfg_information_t']]],
   ['fn',['fn',['../structwiced__app__event__srzn__cb__t.html#a786bf0d6d202500c4cf06c042c76c69f',1,'wiced_app_event_srzn_cb_t']]],
-  ['format',['format',['../structwiced__bt__ble__hidh__audio__start__t.html#a387df52d7ea4bc587f01b067e559e379',1,'wiced_bt_ble_hidh_audio_start_t']]],
   ['frame_5ftype',['frame_type',['../structwiced__hal__pcm__param__t.html#a48c4145e93a30fe79ce4c1df5ad904c9',1,'wiced_hal_pcm_param_t']]],
-  ['frequency',['frequency',['../structwiced__bt__ble__hidh__audio__start__t.html#aea762e0e67fcafaf5b3cd61201769926',1,'wiced_bt_ble_hidh_audio_start_t']]],
   ['friend_5faddr',['friend_addr',['../structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a',1,'wiced_bt_mesh_event__t']]],
   ['friend_5fcfg',['friend_cfg',['../wiced__bt__mesh__cfg_8h.html#afdedfc25df1eb073867c1e82a3406c27',1,'wiced_bt_mesh_cfg.h']]],
   ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]]

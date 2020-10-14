@@ -1,5 +1,7 @@
 var group__group__dev__functions__ctrl =
 [
+    [ "BTM_SetLinkSuperTout", "group__group__dev__functions__ctrl.html#ga78de8e3d5316111ebf8405364f3214b8", null ],
+    [ "BTM_SwitchRole", "group__group__dev__functions__ctrl.html#ga782ed1a15ed7e91016ccc120f94f1898", null ],
     [ "wiced_bt_coex_disable", "group__group__dev__functions__ctrl.html#ga2a25f2513f319465608e68a02ab2c714", null ],
     [ "wiced_bt_coex_enable", "group__group__dev__functions__ctrl.html#gaa34891858f4af31cf59a8e9d34228ac1", null ],
     [ "wiced_bt_dev_get_role", "group__group__dev__functions__ctrl.html#ga8bcf7e6edc3dd8112412dc3cb4cd0837", null ],

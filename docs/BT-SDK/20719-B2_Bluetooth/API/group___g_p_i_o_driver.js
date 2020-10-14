@@ -26,6 +26,7 @@ var group___g_p_i_o_driver =
       [ "WICED_GPIO_REMAPPED", "group___g_p_i_o_driver.html#gga4aff7b75c8793fafde1650878ffe6f01a031ae953ddf9eee94cabc8f99df57ea7", null ],
       [ "WICED_GPIO_MOVED", "group___g_p_i_o_driver.html#gga4aff7b75c8793fafde1650878ffe6f01a398f594c83d4fd113095a76408d2765b", null ]
     ] ],
+    [ "gpio_slimboot_reinforce_all_outputpin_value", "group___g_p_i_o_driver.html#ga6e7cb43b713ab53346d27378666e63f9", null ],
     [ "wiced_hal_gpio_clear_pin_interrupt_status", "group___g_p_i_o_driver.html#ga040be864ca811e658e1e0be89fa8e50a", null ],
     [ "wiced_hal_gpio_configure_pin", "group___g_p_i_o_driver.html#gaf6c6ae7c641dfb88aa05ced71a44a1cb", null ],
     [ "wiced_hal_gpio_disable_all_inputs", "group___g_p_i_o_driver.html#ga6813f090a77a55b71424ed64760c4201", null ],
@@ -34,6 +35,7 @@ var group___g_p_i_o_driver =
     [ "wiced_hal_gpio_get_pin_interrupt_status", "group___g_p_i_o_driver.html#ga201365b312946b77b207b180bf8256be", null ],
     [ "wiced_hal_gpio_get_pin_output", "group___g_p_i_o_driver.html#gac400f9ed9553c67390a835538ca2e328", null ],
     [ "wiced_hal_gpio_init", "group___g_p_i_o_driver.html#gae0a57647683b5ec560b3ddfe154445ae", null ],
+    [ "wiced_hal_gpio_pin_to_port_pin", "group___g_p_i_o_driver.html#ga88ac537705adc15e30175314d96d7221", null ],
     [ "wiced_hal_gpio_register_pin_for_interrupt", "group___g_p_i_o_driver.html#gaff60482e49a42640af8e563251954472", null ],
     [ "wiced_hal_gpio_select_function", "group___g_p_i_o_driver.html#gabb2097edf06d7e4b665f9d1bf0e3eaf7", null ],
     [ "wiced_hal_gpio_set_pin_output", "group___g_p_i_o_driver.html#ga66ff4aa8bcf6726356858d1eec8ffc68", null ],

@@ -17,7 +17,6 @@ var group__l2cap__api__functions =
     [ "wiced_bt_l2cap_get_chnl_fcr_mode", "group__l2cap__api__functions.html#ga0c11cd1ed947e93099670907c5cf353d", null ],
     [ "wiced_bt_l2cap_get_current_config", "group__l2cap__api__functions.html#ga4d963f266263672e7a672c27a21cc711", null ],
     [ "wiced_bt_l2cap_get_disconnect_reason", "group__l2cap__api__functions.html#ga7cde6f0bce9273012fd1e7ceb30b83cb", null ],
-    [ "wiced_bt_l2cap_get_handleby_bdaddr", "group__l2cap__api__functions.html#ga05e979aa160f02231051e0097f374239", null ],
     [ "wiced_bt_l2cap_get_peer_features", "group__l2cap__api__functions.html#gae099861fe24b11a8f99029410190f120", null ],
     [ "wiced_bt_l2cap_le_connect_req", "group__l2cap__api__functions.html#ga9503e3b4d2f214cfa79dc6c3fec4efd9", null ],
     [ "wiced_bt_l2cap_le_connect_rsp", "group__l2cap__api__functions.html#ga99f378f0387c81d5b24923f8ac033b9c", null ],

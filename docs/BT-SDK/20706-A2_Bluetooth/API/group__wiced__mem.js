@@ -2,7 +2,7 @@ var group__wiced__mem =
 [
     [ "GKI", "group___g_k_i.html", "group___g_k_i" ],
     [ "wiced_bt_buffer_pool_t", "group__wiced__mem.html#gab2a8a7f9b47f51538d6096cf80598b56", null ],
-    [ "wiced_bt_buffer_statistics_t", "group__wiced__mem.html#ga9eb5029e9a9b14e03404b7c99de5a37d", null ],
+    [ "wiced_bt_buffer_statistics_t", "group__wiced__mem.html#ga15d68776b33f6f9fad83b052183f32a0", null ],
     [ "wiced_bt_create_pool", "group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c", null ],
     [ "wiced_bt_free_buffer", "group__wiced__mem.html#ga1339337d457a42436789ec5bdd478ac9", null ],
     [ "wiced_bt_get_buffer", "group__wiced__mem.html#ga700ea7baf2ff77e100976a7c618af06d", null ],

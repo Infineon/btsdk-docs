@@ -75,6 +75,11 @@ var group__group__dev__data__structures =
       [ "remote_bd_name", "structwiced__bt__dev__remote__name__result__t.html#a92299b194af602f6b523a1f18eb79e99", null ],
       [ "status", "structwiced__bt__dev__remote__name__result__t.html#a5393c99e246925076b1dfd69a64177ef", null ]
     ] ],
+    [ "wiced_bt_dev_switch_role_result_t", "structwiced__bt__dev__switch__role__result__t.html", [
+      [ "bd_addr", "structwiced__bt__dev__switch__role__result__t.html#a32720070bf9bf7f271fcb08f9354f4da", null ],
+      [ "role", "structwiced__bt__dev__switch__role__result__t.html#a5b9aeb2bb7989ef331f452dd9626f139", null ],
+      [ "status", "structwiced__bt__dev__switch__role__result__t.html#ade818037fd6c985038ff29656089758d", null ]
+    ] ],
     [ "wiced_bt_dev_name_and_class_t", "structwiced__bt__dev__name__and__class__t.html", [
       [ "bd_addr", "structwiced__bt__dev__name__and__class__t.html#a100410afb944ea71bffe49781045180c", null ],
       [ "bd_name", "structwiced__bt__dev__name__and__class__t.html#a6fb1f5914ec869752952fe189dbb0c06", null ],

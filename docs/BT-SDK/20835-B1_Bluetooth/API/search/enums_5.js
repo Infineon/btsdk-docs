@@ -57,7 +57,6 @@ var searchData=
   ['wiced_5fbt_5fsmp_5fstatus_5fe',['wiced_bt_smp_status_e',['../wiced__bt__dev_8h.html#a83e5618d32b7fa1fb7c17ea40555e028',1,'wiced_bt_dev.h']]],
   ['wiced_5fcpu_5fclk_5ffreq_5ft',['wiced_cpu_clk_freq_t',['../group___c_p_u.html#gaf899a22b202da8cc1ebc8907d1be58bb',1,'wiced_hal_cpu_clk.h']]],
   ['wiced_5fdebug_5fuart_5ftypes_5ft',['wiced_debug_uart_types_t',['../group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2',1,'wiced_bt_trace.h']]],
-  ['wiced_5ffilesystem_5fopen_5fmode_5ft',['wiced_filesystem_open_mode_t',['../wiced__filesystem_8h.html#ac2749d70dbb51dadf9018591697389fb',1,'wiced_filesystem.h']]],
   ['wiced_5fresult_5ft',['wiced_result_t',['../group___result.html#gacfc32ead8a827d53416f01b19eb58310',1,'wiced_result.h']]],
   ['wiced_5fsleep_5fboot_5ftype_5ft',['wiced_sleep_boot_type_t',['../group__wiced__sleep__config.html#ga46069887a0627072cdde146f6ee18e38',1,'wiced_sleep.h']]],
   ['wiced_5fsleep_5fmode_5ftype_5ft',['wiced_sleep_mode_type_t',['../group__wiced__sleep__config.html#gae7bf00dadc5785f71cffbfdfb358186f',1,'wiced_sleep.h']]],

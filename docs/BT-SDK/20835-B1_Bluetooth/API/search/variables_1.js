@@ -10,7 +10,6 @@ var searchData=
   ['adv_5ftx_5fpower',['adv_tx_power',['../structwiced__bt__ble__multi__adv__params__t.html#a05fcfaa3d2d009bccb832597a6b3670b',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5ftype',['adv_type',['../structwiced__bt__ble__multi__adv__params__t.html#a0c439c807af183641caf4d76bfbb44f1',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['advert_5ftype',['advert_type',['../structwiced__bt__ble__advert__elem__t.html#a945aab5444777ea0cc1755d29d68fde1',1,'wiced_bt_ble_advert_elem_t']]],
-  ['all_5ffilesystem_5fdevices',['all_filesystem_devices',['../wiced__filesystem_8h.html#a384ebb6f2738ccfb8433e2439526fb83',1,'wiced_filesystem.h']]],
   ['allowed_5fmodes',['allowed_modes',['../structwiced__bt__l2cap__ertm__information__t.html#ace35506a5e91a707f9ffaadf3a2152ba',1,'wiced_bt_l2cap_ertm_information_t']]],
   ['appearance',['appearance',['../structwiced__bt__cfg__gatt__settings__t.html#a9624ab9f6c7a72785f0a6233b0aec056',1,'wiced_bt_cfg_gatt_settings_t']]],
   ['asymmetricmultiplier',['asymmetricMultiplier',['../structwiced__bt__hidd__pm__pwr__state__t.html#a3b8e6208a0a790c294a062f96b1e8b93',1,'wiced_bt_hidd_pm_pwr_state_t']]],

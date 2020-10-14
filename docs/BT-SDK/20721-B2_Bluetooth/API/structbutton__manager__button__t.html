@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -140,6 +140,26 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#a735747838db0fbb00388d8fc51699347">repeat</a></td></tr>
 <tr class="memdesc:a735747838db0fbb00388d8fc51699347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button holding counter. <br /></td></tr>
 <tr class="separator:a735747838db0fbb00388d8fc51699347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af304dcc24420b99f179ef287be63f5d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af304dcc24420b99f179ef287be63f5d3"></a>
+int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#af304dcc24420b99f179ef287be63f5d3">debounce_counter</a></td></tr>
+<tr class="memdesc:af304dcc24420b99f179ef287be63f5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button debounce counter. <br /></td></tr>
+<tr class="separator:af304dcc24420b99f179ef287be63f5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46b412c35cf15fd35fd9002480b066a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac46b412c35cf15fd35fd9002480b066a"></a>
+<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#ac46b412c35cf15fd35fd9002480b066a">debounce_timer</a></td></tr>
+<tr class="memdesc:ac46b412c35cf15fd35fd9002480b066a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button debounce timer. <br /></td></tr>
+<tr class="separator:ac46b412c35cf15fd35fd9002480b066a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5960241cdc68d8a9daa4286123be756f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5960241cdc68d8a9daa4286123be756f"></a>
+wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#a5960241cdc68d8a9daa4286123be756f">debouncing</a></td></tr>
+<tr class="memdesc:a5960241cdc68d8a9daa4286123be756f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button debounce state indication. <br /></td></tr>
+<tr class="separator:a5960241cdc68d8a9daa4286123be756f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa1b3a44b9718bc80be7bc84d949c4d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa1b3a44b9718bc80be7bc84d949c4d7"></a>
+<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#afa1b3a44b9718bc80be7bc84d949c4d7">long_press_timer</a></td></tr>
+<tr class="memdesc:afa1b3a44b9718bc80be7bc84d949c4d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button long press detection timer. <br /></td></tr>
+<tr class="separator:afa1b3a44b9718bc80be7bc84d949c4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801922573f7d96dd55f118a9cbd2f576"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a801922573f7d96dd55f118a9cbd2f576"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbutton__manager__button__t.html#a801922573f7d96dd55f118a9cbd2f576">timer_timestamp</a></td></tr>
+<tr class="memdesc:a801922573f7d96dd55f118a9cbd2f576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button event time stamp (us) <br /></td></tr>
+<tr class="separator:a801922573f7d96dd55f118a9cbd2f576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Button Information. </p>

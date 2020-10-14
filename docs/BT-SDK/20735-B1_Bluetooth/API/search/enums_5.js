@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['wiced_5fbt_5facsb_5fevent_5ft',['wiced_bt_acsb_event_t',['../group__wicedbt__av__ascb.html#gabc2088ea09c16f6e2b02eac0523584e3',1,'wiced_bt_acsb.h']]],
-  ['wiced_5fbt_5facsb_5fstatus_5ft',['wiced_bt_acsb_status_t',['../group__wicedbt__av__ascb.html#ga6280fe6b224714cd4b4ff38cb9ca5705',1,'wiced_bt_acsb.h']]],
   ['wiced_5fbt_5fanc_5fevent_5ft',['wiced_bt_anc_event_t',['../group__wiced__bt__anc__api__functions.html#ga51a93e5ddf1112d81b0de5d70a315eab',1,'wiced_bt_anc.h']]],
-  ['wiced_5fbt_5favrc_5fct_5fconnection_5fstate_5ft',['wiced_bt_avrc_ct_connection_state_t',['../group__wicedbt__avrc__ct.html#ga34d812e2d75abcf6d30a1c5f54d4b655',1,'wiced_bt_avrc_ct.h']]],
-  ['wiced_5fbt_5favrc_5fct_5ffeatures_5ft',['wiced_bt_avrc_ct_features_t',['../group__wicedbt__avrc__ct.html#ga717ee5bfe3656a58f039b26a4a00e518',1,'wiced_bt_avrc_ct.h']]],
   ['wiced_5fbt_5fbac_5fevent_5ft',['wiced_bt_bac_event_t',['../group__wiced__bt__bac__api__functions.html#gad919093f4cc497b89cd581dc286e8452',1,'wiced_bt_bac.h']]],
   ['wiced_5fbt_5fble_5fadvert_5fchnl_5fmap_5fe',['wiced_bt_ble_advert_chnl_map_e',['../wiced__bt__ble_8h.html#a59d79284e51421afdfc5e9c472adb49b',1,'wiced_bt_ble.h']]],
   ['wiced_5fbt_5fble_5fadvert_5ffilter_5fpolicy_5fe',['wiced_bt_ble_advert_filter_policy_e',['../wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249',1,'wiced_bt_ble.h']]],
@@ -66,7 +62,6 @@ var searchData=
   ['wiced_5fbt_5fsmp_5fstatus_5fe',['wiced_bt_smp_status_e',['../wiced__bt__dev_8h.html#a83e5618d32b7fa1fb7c17ea40555e028',1,'wiced_bt_dev.h']]],
   ['wiced_5fcpu_5fclk_5ffreq_5ft',['wiced_cpu_clk_freq_t',['../group___c_p_u.html#gaf899a22b202da8cc1ebc8907d1be58bb',1,'wiced_hal_cpu_clk.h']]],
   ['wiced_5fdebug_5fuart_5ftypes_5ft',['wiced_debug_uart_types_t',['../group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2',1,'wiced_bt_trace.h']]],
-  ['wiced_5ffilesystem_5fopen_5fmode_5ft',['wiced_filesystem_open_mode_t',['../wiced__filesystem_8h.html#ac2749d70dbb51dadf9018591697389fb',1,'wiced_filesystem.h']]],
   ['wiced_5fresult_5ft',['wiced_result_t',['../group___result.html#gacfc32ead8a827d53416f01b19eb58310',1,'wiced_result.h']]],
   ['wiced_5fsleep_5fboot_5ftype_5ft',['wiced_sleep_boot_type_t',['../group__wiced__sleep__config.html#ga46069887a0627072cdde146f6ee18e38',1,'wiced_sleep.h']]],
   ['wiced_5fsleep_5fmode_5ftype_5ft',['wiced_sleep_mode_type_t',['../group__wiced__sleep__config.html#gae7bf00dadc5785f71cffbfdfb358186f',1,'wiced_sleep.h']]],

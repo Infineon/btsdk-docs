@@ -20,8 +20,6 @@ var group__wicedbt__avdt =
     [ "wiced_bt_avdt_security_req", "group__wicedbt__avdt.html#gafe5f559efdb92c9fd6973cc9c61997d6", null ],
     [ "wiced_bt_avdt_security_rsp", "group__wicedbt__avdt.html#gaf5191f686f163cecd7fb77f55cf880a8", null ],
     [ "wiced_bt_avdt_security_set_scms", "group__wicedbt__avdt.html#ga7a17bf8757f7de4e566d2272b2655fd0", null ],
-    [ "wiced_bt_avdt_send_report", "group__wicedbt__avdt.html#gae9792a65032a95f425b920f9db877d48", null ],
-    [ "wiced_bt_avdt_set_media_buf", "group__wicedbt__avdt.html#gaf57223fd9ba6d1d0958a031f24b16a58", null ],
     [ "wiced_bt_avdt_start_req", "group__wicedbt__avdt.html#ga6ae1a4bdead78a96980f49037d2a8246", null ],
     [ "wiced_bt_avdt_start_resp", "group__wicedbt__avdt.html#ga54cf593b90541780aadf9834635a4638", null ],
     [ "wiced_bt_avdt_suspend_req", "group__wicedbt__avdt.html#ga387bd1c1553672c8666f2b290ca6f11e", null ],

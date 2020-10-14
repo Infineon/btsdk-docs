@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -118,6 +118,9 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__conn__params__t.html">wiced_bt_ble_conn_params_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE connection parameteres.  <a href="structwiced__bt__ble__conn__params__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__phy__preferences__t.html">wiced_bt_ble_phy_preferences_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Host PHY preferences.  <a href="structwiced__bt__ble__phy__preferences__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -260,6 +263,24 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#aa9e8f1561271b00b6ae644b409c430e2">BTM_BLE_SEC_ACTION_TYPES</a></td></tr>
 <tr class="memdesc:aa9e8f1561271b00b6ae644b409c430e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE encryption method. <br /></td></tr>
 <tr class="separator:aa9e8f1561271b00b6ae644b409c430e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98eccfca59c64ff10bf5984e147f04ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98eccfca59c64ff10bf5984e147f04ea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_1M_PHY</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a98eccfca59c64ff10bf5984e147f04ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b888e340ccb28a84d032600d5e0b154"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b888e340ccb28a84d032600d5e0b154"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_2M_PHY</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a5b888e340ccb28a84d032600d5e0b154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bd881edee81df9db31b27bcf11db76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89bd881edee81df9db31b27bcf11db76"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_LELR_PHY</b>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a89bd881edee81df9db31b27bcf11db76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9fce50c1372ef1f7e039a73ebbdd05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e9fce50c1372ef1f7e039a73ebbdd05"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_NO_LELR</b>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:a1e9fce50c1372ef1f7e039a73ebbdd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5b059c70c77bd60ef818f9491bf9b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac5b059c70c77bd60ef818f9491bf9b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_LELR_125K</b>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:aac5b059c70c77bd60ef818f9491bf9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7695ce7aa2436f89c3d0f259fc8d503"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7695ce7aa2436f89c3d0f259fc8d503"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_PREFER_LELR_512K</b>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:aa7695ce7aa2436f89c3d0f259fc8d503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -301,12 +322,21 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="memitem:a063af36361f0fd1f625146102b5de0b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a063af36361f0fd1f625146102b5de0b6"></a>
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_ble_sec_action_type_t</b></td></tr>
 <tr class="separator:a063af36361f0fd1f625146102b5de0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b87886b40556f37e565ebeb61d1ab6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b87886b40556f37e565ebeb61d1ab6e"></a>
+typedef <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_ble_host_phy_preferences_t</b></td></tr>
+<tr class="separator:a2b87886b40556f37e565ebeb61d1ab6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fce0918f33cc83aaab250fe2e1b15f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89fce0918f33cc83aaab250fe2e1b15f"></a>
+typedef <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_ble_lelr_phy_preferences_t</b></td></tr>
+<tr class="separator:a89fce0918f33cc83aaab250fe2e1b15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b0d2bb3304ebaac5c68edd9a7815596"><td class="memItemLeft" align="right" valign="top">typedef wiced_bool_t(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a1b0d2bb3304ebaac5c68edd9a7815596">wiced_bt_ble_selective_conn_cback_t</a> )(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, uint8_t *p_remote_name)</td></tr>
 <tr class="memdesc:a1b0d2bb3304ebaac5c68edd9a7815596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback wiced_bt_ble_selective_conn_cback_t.  <a href="#a1b0d2bb3304ebaac5c68edd9a7815596">More...</a><br /></td></tr>
 <tr class="separator:a1b0d2bb3304ebaac5c68edd9a7815596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f404f522b16d7a20986f252f17eac1d"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a4f404f522b16d7a20986f252f17eac1d">wiced_bt_ble_scan_result_cback_t</a> )(<a class="el" href="structwiced__bt__ble__scan__results__t.html">wiced_bt_ble_scan_results_t</a> *p_scan_result, uint8_t *p_adv_data)</td></tr>
 <tr class="memdesc:a4f404f522b16d7a20986f252f17eac1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback wiced_bt_ble_scan_result_cback_t.  <a href="#a4f404f522b16d7a20986f252f17eac1d">More...</a><br /></td></tr>
 <tr class="separator:a4f404f522b16d7a20986f252f17eac1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6487b7ba889e198f8af2ad9f7a1d235d"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a6487b7ba889e198f8af2ad9f7a1d235d">wiced_bt_ble_read_phy_complete_callback_t</a> )(<a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a> *p_phy_result)</td></tr>
+<tr class="memdesc:a6487b7ba889e198f8af2ad9f7a1d235d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback wiced_bt_ble_read_phy_complete_callback_t.  <a href="#a6487b7ba889e198f8af2ad9f7a1d235d">More...</a><br /></td></tr>
+<tr class="separator:a6487b7ba889e198f8af2ad9f7a1d235d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -509,6 +539,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gaa1a08bf54c9c06015c1bbafbaab433c1">wiced_ble_private_device_address_resolution</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rpa, <a class="el" href="wiced__bt__types_8h.html#a3081047eede654f70f0bf771e34e47a8">BT_OCTET16</a> <a class="el" href="wiced__bt__dev_8h.html#a6d3e9fb072da8c4bb15467bec49032d4">irk</a>)</td></tr>
 <tr class="memdesc:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_ble_private_device_address_resolution.  <a href="group__btm__ble__api__functions.html#gaa1a08bf54c9c06015c1bbafbaab433c1">More...</a><br /></td></tr>
 <tr class="separator:gaa1a08bf54c9c06015c1bbafbaab433c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8c94df655bc4648bb1bc0e3500da013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gac8c94df655bc4648bb1bc0e3500da013">wiced_bt_ble_read_phy</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr, <a class="el" href="wiced__bt__ble_8h.html#a6487b7ba889e198f8af2ad9f7a1d235d">wiced_bt_ble_read_phy_complete_callback_t</a> *p_read_phy_complete_callback)</td></tr>
+<tr class="memdesc:gac8c94df655bc4648bb1bc0e3500da013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_read_phy.  <a href="group__btm__ble__api__functions.html#gac8c94df655bc4648bb1bc0e3500da013">More...</a><br /></td></tr>
+<tr class="separator:gac8c94df655bc4648bb1bc0e3500da013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga79c240476c81674e2c929a12b9ffceaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga79c240476c81674e2c929a12b9ffceaa">wiced_bt_ble_set_default_phy</a> (<a class="el" href="structwiced__bt__ble__phy__preferences__t.html">wiced_bt_ble_phy_preferences_t</a> *phy_preferences)</td></tr>
+<tr class="memdesc:ga79c240476c81674e2c929a12b9ffceaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_set_default_phy.  <a href="group__btm__ble__api__functions.html#ga79c240476c81674e2c929a12b9ffceaa">More...</a><br /></td></tr>
+<tr class="separator:ga79c240476c81674e2c929a12b9ffceaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad02e0949bb39b3f69a099e2ade0650ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gad02e0949bb39b3f69a099e2ade0650ca">wiced_bt_ble_set_phy</a> (<a class="el" href="structwiced__bt__ble__phy__preferences__t.html">wiced_bt_ble_phy_preferences_t</a> *phy_preferences)</td></tr>
+<tr class="memdesc:gad02e0949bb39b3f69a099e2ade0650ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_set_phy.  <a href="group__btm__ble__api__functions.html#gad02e0949bb39b3f69a099e2ade0650ca">More...</a><br /></td></tr>
+<tr class="separator:gad02e0949bb39b3f69a099e2ade0650ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>WICED Bluetooth Low Energy (BLE) Functions. </p>
@@ -557,6 +596,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a6487b7ba889e198f8af2ad9f7a1d235d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void( wiced_bt_ble_read_phy_complete_callback_t)(<a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a> *p_phy_result)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback wiced_bt_ble_read_phy_complete_callback_t. </p>
+<p>read phy complete callback (from calling <a class="el" href="group__btm__ble__api__functions.html#gac8c94df655bc4648bb1bc0e3500da013" title="Function wiced_bt_ble_read_phy. ">wiced_bt_ble_read_phy</a>)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_phy_result</td><td>: read phys result</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Nothing </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a4f404f522b16d7a20986f252f17eac1d"></a>
 <div class="memitem">
 <div class="memproto">

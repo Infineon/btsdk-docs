@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -176,9 +176,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gaebb8e6a7ac8add5164c86871af99747e"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gaebb8e6a7ac8add5164c86871af99747e">wiced_bt_l2cap_get_bdaddrby_handle</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
 <tr class="memdesc:gaebb8e6a7ac8add5164c86871af99747e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_bdaddrby_handle.  <a href="#gaebb8e6a7ac8add5164c86871af99747e">More...</a><br /></td></tr>
 <tr class="separator:gaebb8e6a7ac8add5164c86871af99747e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05e979aa160f02231051e0097f374239"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga05e979aa160f02231051e0097f374239">wiced_bt_l2cap_get_handleby_bdaddr</a> (BD_ADDR peer_bda)</td></tr>
-<tr class="memdesc:ga05e979aa160f02231051e0097f374239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_handleby_bdaddr.  <a href="#ga05e979aa160f02231051e0097f374239">More...</a><br /></td></tr>
-<tr class="separator:ga05e979aa160f02231051e0097f374239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0c11cd1ed947e93099670907c5cf353d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga0c11cd1ed947e93099670907c5cf353d">wiced_bt_l2cap_get_chnl_fcr_mode</a> (uint16_t lcid)</td></tr>
 <tr class="memdesc:ga0c11cd1ed947e93099670907c5cf353d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_chnl_fcr_mode.  <a href="#ga0c11cd1ed947e93099670907c5cf353d">More...</a><br /></td></tr>
 <tr class="separator:ga0c11cd1ed947e93099670907c5cf353d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -813,32 +810,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>disconnect reason </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga05e979aa160f02231051e0097f374239"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t wiced_bt_l2cap_get_handleby_bdaddr </td>
-          <td>(</td>
-          <td class="paramtype">BD_ADDR&#160;</td>
-          <td class="paramname"><em>peer_bda</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function wiced_bt_l2cap_get_handleby_bdaddr. </p>
-<p>Get HCI handle for the given BD address</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">peer_bda</td><td>Peer Bd Address</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>: TRUE if found lcb for the given peer_bda, FALSE otherwise </dd></dl>
 
 </div>
 </div>

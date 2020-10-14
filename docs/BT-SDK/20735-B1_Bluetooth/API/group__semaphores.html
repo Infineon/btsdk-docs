@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,9 +119,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga88c25e34eaa5e105c0f7e523324cc21b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__semaphores.html#ga88c25e34eaa5e105c0f7e523324cc21b">wiced_rtos_get_semaphore</a> (wiced_semaphore_t *semaphore, uint32_t timeout_ms)</td></tr>
 <tr class="memdesc:ga88c25e34eaa5e105c0f7e523324cc21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get (wait/decrement) a semaphore.  <a href="#ga88c25e34eaa5e105c0f7e523324cc21b">More...</a><br /></td></tr>
 <tr class="separator:ga88c25e34eaa5e105c0f7e523324cc21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12e5ee1736da2e2d50588abb54289a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__semaphores.html#ga12e5ee1736da2e2d50588abb54289a0c">wiced_rtos_deinit_semaphore</a> (wiced_semaphore_t *semaphore)</td></tr>
-<tr class="memdesc:ga12e5ee1736da2e2d50588abb54289a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialise a semaphore.  <a href="#ga12e5ee1736da2e2d50588abb54289a0c">More...</a><br /></td></tr>
-<tr class="separator:ga12e5ee1736da2e2d50588abb54289a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Semaphore management functionss. </p>
@@ -145,34 +142,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
 <dd>
 NULL : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga12e5ee1736da2e2d50588abb54289a0c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_deinit_semaphore </td>
-          <td>(</td>
-          <td class="paramtype">wiced_semaphore_t *&#160;</td>
-          <td class="paramname"><em>semaphore</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>De-initialise a semaphore. </p>
-<p>Deletes a semaphore created with <a class="el" href="group__semaphores.html#ga86a735aedb9979dd5e411ddb88ade867">wiced_rtos_init_semaphore</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">semaphore</td><td>: a pointer to the semaphore handle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
 
 </div>
 </div>

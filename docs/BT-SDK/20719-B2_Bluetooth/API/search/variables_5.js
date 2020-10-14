@@ -20,6 +20,12 @@ var searchData=
   ['err_5fcode',['err_code',['../structwiced__bt__avdt__evt__hdr__t.html#a7c7db8f8afdf36d5e42be7f485336be4',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['err_5fparam',['err_param',['../structwiced__bt__avdt__evt__hdr__t.html#aaf9a0464c401c9866d26ecde335c937e',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['established',['established',['../structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f',1,'wiced_bt_mesh_core_state_friendship_t']]],
+  ['evtq_5fbufstart',['evtq_bufStart',['../structwiced__hidd__app__event__queue__t.html#ae025b0f875e884ecd83ea6ab1cbe96f0',1,'wiced_hidd_app_event_queue_t']]],
+  ['evtq_5fcurnumelements',['evtq_curNumElements',['../structwiced__hidd__app__event__queue__t.html#a66d99222f5cd8c22a0b282fc7d08acf1',1,'wiced_hidd_app_event_queue_t']]],
+  ['evtq_5felementsize',['evtq_elementSize',['../structwiced__hidd__app__event__queue__t.html#a5db5d301dabcbe4bb5010ad18d591033',1,'wiced_hidd_app_event_queue_t']]],
+  ['evtq_5fmaxnumelements',['evtq_maxNumElements',['../structwiced__hidd__app__event__queue__t.html#afd7ac3395f6b1e7ec823bc2703e129f5',1,'wiced_hidd_app_event_queue_t']]],
+  ['evtq_5freadindex',['evtq_readIndex',['../structwiced__hidd__app__event__queue__t.html#a10ff0d5ed1d351b72c3f50f165dbb890',1,'wiced_hidd_app_event_queue_t']]],
+  ['evtq_5fwriteindex',['evtq_writeIndex',['../structwiced__hidd__app__event__queue__t.html#af47103cf534b74f5cdadfddf5fd40a5f',1,'wiced_hidd_app_event_queue_t']]],
   ['exec_5fwrite',['exec_write',['../unionwiced__bt__gatt__request__data__t.html#a51924c6528891bbd652edbc59f43fc99',1,'wiced_bt_gatt_request_data_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]]

@@ -20,6 +20,7 @@ var group__audio__insert =
       [ "overwrite", "group__audio__insert.html#ga6178a83712a1dd1b385d27f277f27caa", null ],
       [ "p_source", "group__audio__insert.html#ga535f06bd0cab37b3c54f1ffd16cdbd17", null ],
       [ "p_source_data_exhausted_callback", "group__audio__insert.html#gac239081d4c1dd34f010587d863d45fd3", null ],
+      [ "p_source_data_pre_handler", "group__audio__insert.html#gaac211f133dc6f37400290556c7c2dcad", null ],
       [ "stop_insertion_when_source_exhausted", "group__audio__insert.html#ga3ad2631533df381c2abcbe955483711e", null ],
       [ "volume_reduce_factor_insert", "group__audio__insert.html#ga9f52938b50d42c007732a21f35049b6e", null ],
       [ "volume_reduce_factor_original", "group__audio__insert.html#gaeb1713e076f27284b8c112ef7643f0d9", null ]

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -113,9 +113,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga60a2f07740eb45a18ff2bae2889353d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga60a2f07740eb45a18ff2bae2889353d0">wiced_rtos_init_thread</a> (wiced_thread_t *thread, uint8_t priority, const char *name, wiced_thread_function_t function, uint32_t stack_size, void *arg)</td></tr>
 <tr class="memdesc:ga60a2f07740eb45a18ff2bae2889353d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and starts a new thread.  <a href="#ga60a2f07740eb45a18ff2bae2889353d0">More...</a><br /></td></tr>
 <tr class="separator:ga60a2f07740eb45a18ff2bae2889353d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga23484d9c0c0b723c13eb05ff94ec0884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga23484d9c0c0b723c13eb05ff94ec0884">wiced_rtos_delete_thread</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:ga23484d9c0c0b723c13eb05ff94ec0884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a terminated thread.  <a href="#ga23484d9c0c0b723c13eb05ff94ec0884">More...</a><br /></td></tr>
-<tr class="separator:ga23484d9c0c0b723c13eb05ff94ec0884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga917a4bd4ebe941e7c48c6187c0c44049">wiced_rtos_check_for_stack_overflow</a> (void)</td></tr>
 <tr class="memdesc:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is a stackoverflow.  <a href="#ga917a4bd4ebe941e7c48c6187c0c44049">More...</a><br /></td></tr>
 <tr class="separator:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,33 +262,6 @@ WICED_ERROR : if an error occurred </dd></dl>
   <table class="params">
     <tr><td class="paramname">milliseconds</td><td>: the time to sleep in milliseconds </td></tr>
     <tr><td class="paramname">delay_type</td><td>: delay type to be used during the duration of the delay. Use the delay type as ALLOW_THREAD_TO_SLEEP to allow the current running thread to sleep or as KEEP_THREAD_ACTIVE to keep the current running thread active</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga23484d9c0c0b723c13eb05ff94ec0884"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_delete_thread </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deletes a terminated thread. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">thread</td><td>: the handle of the thread to delete</td></tr>
   </table>
   </dd>
 </dl>

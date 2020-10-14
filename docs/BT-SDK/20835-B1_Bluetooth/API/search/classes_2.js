@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filesystem_5flist_5ft',['filesystem_list_t',['../structfilesystem__list__t.html',1,'']]]
+  ['pwm_5fconfig_5ft',['pwm_config_t',['../structpwm__config__t.html',1,'']]]
 ];

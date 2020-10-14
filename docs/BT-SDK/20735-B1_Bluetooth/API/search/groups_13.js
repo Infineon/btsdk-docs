@@ -7,7 +7,6 @@ var searchData=
   ['watchdog_20interface',['Watchdog Interface',['../group___watchdog_interface.html',1,'']]],
   ['wiced_20sleep_20configuration',['WICED Sleep Configuration',['../group__wiced__sleep__config.html',1,'']]],
   ['wiced_20trace_20utilities',['WICED Trace Utilities',['../group__wiced__utils.html',1,'']]],
-  ['wiced_20audio_20connectionless_20slave_20broadcast_20_28acsb_29',['WICED Audio Connectionless Slave Broadcast (ACSB)',['../group__wicedbt__av__ascb.html',1,'']]],
   ['wiced_20system',['WICED System',['../group__wicedsys.html',1,'']]],
   ['worker_20threads',['Worker Threads',['../group__worker.html',1,'']]]
 ];

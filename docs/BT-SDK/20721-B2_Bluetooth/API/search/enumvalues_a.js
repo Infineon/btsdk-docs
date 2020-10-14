@@ -25,6 +25,8 @@ var searchData=
   ['smp_5fsuccess',['SMP_SUCCESS',['../wiced__bt__dev_8h.html#a83e5618d32b7fa1fb7c17ea40555e028a4224a5ce7d434cde8365697326e8644d',1,'wiced_bt_dev.h']]],
   ['smp_5funknown_5fio_5fcap',['SMP_UNKNOWN_IO_CAP',['../wiced__bt__dev_8h.html#a83e5618d32b7fa1fb7c17ea40555e028a4dc6036f9066dd4caacf5dac04588aee',1,'wiced_bt_dev.h']]],
   ['smp_5fxtrans_5fderive_5fnot_5fallow',['SMP_XTRANS_DERIVE_NOT_ALLOW',['../wiced__bt__dev_8h.html#a83e5618d32b7fa1fb7c17ea40555e028af10cdc318ef697e0652d9836d448213a',1,'wiced_bt_dev.h']]],
+  ['sniff_5fasymmetric',['SNIFF_ASYMMETRIC',['../wiced__hidd__lib_8h.html#a1fb9092bcdeada2d206bdc74afbbe122ace58feb89c64d0f590e7e2cfb2c1b320',1,'wiced_hidd_lib.h']]],
+  ['sniff_5fnormal',['SNIFF_NORMAL',['../wiced__hidd__lib_8h.html#a1fb9092bcdeada2d206bdc74afbbe122aaabb97f8c37711f9d9cbdb9f72021ed3',1,'wiced_hidd_lib.h']]],
   ['spi1',['SPI1',['../group___peripheral_spi_driver.html#ggac6144d3ea3ef78e7923c351d3b62170eadd83ddb396fbcb33f2d61248e5c4a185',1,'wiced_hal_pspi.h']]],
   ['spi2',['SPI2',['../group___peripheral_spi_driver.html#ggac6144d3ea3ef78e7923c351d3b62170ea382fe69d09c301ce8af3660713dfe8a2',1,'wiced_hal_pspi.h']]],
   ['spi_5flsb_5ffirst',['SPI_LSB_FIRST',['../group___peripheral_spi_driver.html#gga23e4236e76e30bf62f85f9e7026d6be4a5a6abe145caf9794d5a70e5472ee988f',1,'wiced_hal_pspi.h']]],

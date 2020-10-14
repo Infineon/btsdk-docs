@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -147,8 +147,8 @@ Functions</h2></td></tr>
 <p>If the device supports several elements with the Power Level Server, for example a power strip with several power plugs, the <a class="el" href="group__wiced__bt__mesh__power__level__server.html#gaffe3cb3dbf98e48826c58dceb86f25cf">WICED_BT_MESH_MODEL_POWER_LEVEL_SERVER</a> shall be included for each element.</p>
 <p>The Mesh Power Level Server module in the Mesh Models library maintains the On/Off and Level states and notifies the application on the state changes. The application shall call the <a class="el" href="group__wiced__bt__mesh__power__level__server.html#gaedcbfec81f7f7b3af31ecd2c9cfc3d2a">wiced_bt_mesh_model_power_level_server_level_changed</a> function when the power level of the device is changed locally.</p>
 <p>Most of the functionality of the Mesh Power Level server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#a449931d6a0986cd4d4e1cf99e67ad81d">WICED_BT_MESH_POWER_LEVEL_SET</a> event. If client requests to change power to the target value over a period of time, the library will maintain the timer and will periodically call the application with appropriate power level.</p>
-<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
-<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
+<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga1102217bc9ee7c3055bbedf0c1d769e2">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
+<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga1102217bc9ee7c3055bbedf0c1d769e2">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="gaffe3cb3dbf98e48826c58dceb86f25cf"></a>
 <div class="memitem">

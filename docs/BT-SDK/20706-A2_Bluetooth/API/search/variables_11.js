@@ -41,10 +41,7 @@ var searchData=
   ['replay_5fcache_5fsize',['replay_cache_size',['../wiced__bt__mesh__cfg_8h.html#aa6858d73668cc0a03224d86687b51377',1,'wiced_bt_mesh_cfg.h']]],
   ['reply',['reply',['../structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f',1,'wiced_bt_mesh_event__t']]],
   ['reply_5ftimeout',['reply_timeout',['../structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47',1,'wiced_bt_mesh_event__t']]],
-  ['report',['report',['../unionwiced__bt__ble__hidh__event__data__t.html#a59ab4f448fbe97da7981bf89a1c3eded',1,'wiced_bt_ble_hidh_event_data_t']]],
   ['report_5fconn',['report_conn',['../unionwiced__bt__avdt__ctrl__t.html#a6535172b3b9c55ea6509691db450b17f',1,'wiced_bt_avdt_ctrl_t']]],
-  ['report_5fdescs_5fnb',['report_descs_nb',['../structwiced__bt__ble__hidh__gatt__cache__t.html#a12811ad8206103b2cd6afd189629c130',1,'wiced_bt_ble_hidh_gatt_cache_t']]],
-  ['report_5fid',['report_id',['../structwiced__bt__ble__hidh__report__t.html#a725a13d8d43f65c0f5e8adc271f71573',1,'wiced_bt_ble_hidh_report_t']]],
   ['request_5ftype',['request_type',['../structwiced__bt__gatt__attribute__request__t.html#ab08bca2f2631f95a800515622cbdf8d6',1,'wiced_bt_gatt_attribute_request_t']]],
   ['reset_5fenergy_5fexpended',['reset_energy_expended',['../unionwiced__bt__hrs__event__data__t.html#af590140dd57c4c230070520443ab4358',1,'wiced_bt_hrs_event_data_t']]],
   ['resolved_5fbd_5faddr',['resolved_bd_addr',['../structwiced__bt__dev__ble__pairing__info__t.html#a71818c1275a203d62000fea0305e905b',1,'wiced_bt_dev_ble_pairing_info_t']]],
@@ -62,7 +59,7 @@ var searchData=
   ['rfcomm_5fcfg',['rfcomm_cfg',['../structwiced__bt__cfg__settings__t.html#a27406f1894236f3b2caa32eb8a248166',1,'wiced_bt_cfg_settings_t']]],
   ['rfcomm_5fmtu',['rfcomm_mtu',['../structwiced__bt__iap2__reg__t.html#aefa2be089fd56821b92fe080d17c8f53',1,'wiced_bt_iap2_reg_t::rfcomm_mtu()'],['../structwiced__bt__spp__reg__t.html#aefa2be089fd56821b92fe080d17c8f53',1,'wiced_bt_spp_reg_t::rfcomm_mtu()']]],
   ['rfcomm_5fscn',['rfcomm_scn',['../structwiced__bt__iap2__reg__t.html#a94f2abff10f23a3bfc9751facfe9651d',1,'wiced_bt_iap2_reg_t::rfcomm_scn()'],['../structwiced__bt__spp__reg__t.html#a94f2abff10f23a3bfc9751facfe9651d',1,'wiced_bt_spp_reg_t::rfcomm_scn()']]],
-  ['role',['role',['../structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204',1,'wiced_bt_audio_config_buffer_t::role()'],['../structwiced__bt__mesh__time__role__msg__t.html#a5b9aeb2bb7989ef331f452dd9626f139',1,'wiced_bt_mesh_time_role_msg_t::role()']]],
+  ['role',['role',['../structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204',1,'wiced_bt_audio_config_buffer_t::role()'],['../structwiced__bt__dev__switch__role__result__t.html#a5b9aeb2bb7989ef331f452dd9626f139',1,'wiced_bt_dev_switch_role_result_t::role()'],['../structwiced__bt__mesh__time__role__msg__t.html#a5b9aeb2bb7989ef331f452dd9626f139',1,'wiced_bt_mesh_time_role_msg_t::role()']]],
   ['roles',['roles',['../structwiced__bt__cfg__avrc__t.html#a1e4fc42bc8b3bbe162295e77408734bf',1,'wiced_bt_cfg_avrc_t']]],
   ['route',['route',['../structwiced__bt__a2dp__sink__route__config.html#a19bff79808709215a7054b329cf66c40',1,'wiced_bt_a2dp_sink_route_config::route()'],['../structwiced__bt__a2dp__source__route__config.html#a19bff79808709215a7054b329cf66c40',1,'wiced_bt_a2dp_source_route_config::route()']]],
   ['rpl_5fdelay',['rpl_delay',['../structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934',1,'wiced_bt_mesh_event__t']]],
@@ -73,6 +70,5 @@ var searchData=
   ['rssi_5ffactor',['rssi_factor',['../wiced__bt__mesh__cfg_8h.html#a2f6964e0e31458b18938e4e6d55e91d8',1,'wiced_bt_mesh_cfg.h']]],
   ['rtrans_5ftimeout',['rtrans_timeout',['../structwiced__bt__l2cap__fcr__options__t.html#ab354c08b88768cc329bd7f108898f83b',1,'wiced_bt_l2cap_fcr_options_t']]],
   ['rx_5fbuff_5fpool_5fcfg',['rx_buff_pool_cfg',['../wiced__transport_8h.html#a66034389972edde796e89217e2e69202',1,'wiced_transport.h']]],
-  ['rx_5fdata',['rx_data',['../unionwiced__bt__ble__hidh__audio__event__data__t.html#ad9acdb9f035dc2637fa897f879da8249',1,'wiced_bt_ble_hidh_audio_event_data_t']]],
   ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]]
 ];

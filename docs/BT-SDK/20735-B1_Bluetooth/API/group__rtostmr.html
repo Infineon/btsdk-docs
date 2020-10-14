@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,9 +119,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga576c4cbd0f4b98901d9942a6c2d03e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#ga576c4cbd0f4b98901d9942a6c2d03e58">wiced_rtos_stop_timer</a> (wiced_rtos_timer_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>) DEPRECATE_RTOS_TIMER</td></tr>
 <tr class="memdesc:ga576c4cbd0f4b98901d9942a6c2d03e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops a running RTOS timer.  <a href="#ga576c4cbd0f4b98901d9942a6c2d03e58">More...</a><br /></td></tr>
 <tr class="separator:ga576c4cbd0f4b98901d9942a6c2d03e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a9ebb9564d33e8d8f491139182fad39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#ga6a9ebb9564d33e8d8f491139182fad39">wiced_rtos_deinit_timer</a> (wiced_rtos_timer_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>) DEPRECATE_RTOS_TIMER</td></tr>
-<tr class="memdesc:ga6a9ebb9564d33e8d8f491139182fad39"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialise a RTOS timer.  <a href="#ga6a9ebb9564d33e8d8f491139182fad39">More...</a><br /></td></tr>
-<tr class="separator:ga6a9ebb9564d33e8d8f491139182fad39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf773a59a18b8d87dbff2073e0498e9db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rtostmr.html#gaf773a59a18b8d87dbff2073e0498e9db">wiced_rtos_is_timer_running</a> (wiced_rtos_timer_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>) DEPRECATE_RTOS_TIMER</td></tr>
 <tr class="memdesc:gaf773a59a18b8d87dbff2073e0498e9db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an RTOS timer is running.  <a href="#gaf773a59a18b8d87dbff2073e0498e9db">More...</a><br /></td></tr>
 <tr class="separator:gaf773a59a18b8d87dbff2073e0498e9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,34 +146,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
 <dd>
 NULL : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6a9ebb9564d33e8d8f491139182fad39"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_deinit_timer </td>
-          <td>(</td>
-          <td class="paramtype">wiced_rtos_timer_t *&#160;</td>
-          <td class="paramname"><em>timer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>De-initialise a RTOS timer. </p>
-<p>Deletes a RTOS timer created with <a class="el" href="group__rtostmr.html#ga7afa77d15090d461bd9f41b12ca99337">wiced_rtos_init_timer</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">timer</td><td>: a pointer to the RTOS timer handle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
 
 </div>
 </div>

@@ -30,8 +30,6 @@ var searchData=
   ['folder',['folder',['../structwiced__bt__avrc__item__t.html#a807070cc4c17643f3d6d8fe1c050a653',1,'wiced_bt_avrc_item_t']]],
   ['folder_5fdepth',['folder_depth',['../structwiced__bt__avrc__set__br__player__rsp__t.html#ae9f25e7bd184fc02b9e66a85ff27e6a2',1,'wiced_bt_avrc_set_br_player_rsp_t']]],
   ['folder_5fuid',['folder_uid',['../structwiced__bt__avrc__chg__path__cmd__t.html#aeee031fed54974d301bd2ddeed9b9fea',1,'wiced_bt_avrc_chg_path_cmd_t']]],
-  ['format',['format',['../structwiced__bt__ble__hidh__audio__start__t.html#a387df52d7ea4bc587f01b067e559e379',1,'wiced_bt_ble_hidh_audio_start_t']]],
-  ['frequency',['frequency',['../structwiced__bt__ble__hidh__audio__start__t.html#aea762e0e67fcafaf5b3cd61201769926',1,'wiced_bt_ble_hidh_audio_start_t']]],
   ['friend_5faddr',['friend_addr',['../structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a',1,'wiced_bt_mesh_event__t']]],
   ['friend_5fcfg',['friend_cfg',['../wiced__bt__mesh__cfg_8h.html#afdedfc25df1eb073867c1e82a3406c27',1,'wiced_bt_mesh_cfg.h']]],
   ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]]

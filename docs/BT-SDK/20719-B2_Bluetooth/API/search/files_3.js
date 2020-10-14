@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['wiced_5faudio_5fsink_2eh',['wiced_audio_sink.h',['../wiced__audio__sink_8h.html',1,'']]],
   ['wiced_5fblock_5fdevice_2eh',['wiced_block_device.h',['../wiced__block__device_8h.html',1,'']]],
   ['wiced_5fbt_5fa2d_2eh',['wiced_bt_a2d.h',['../wiced__bt__a2d_8h.html',1,'']]],
   ['wiced_5fbt_5fa2d_5fm12_2eh',['wiced_bt_a2d_m12.h',['../wiced__bt__a2d__m12_8h.html',1,'']]],
@@ -8,7 +7,6 @@ var searchData=
   ['wiced_5fbt_5fa2d_5fsbc_2eh',['wiced_bt_a2d_sbc.h',['../wiced__bt__a2d__sbc_8h.html',1,'']]],
   ['wiced_5fbt_5fa2dp_5fdefs_2eh',['wiced_bt_a2dp_defs.h',['../wiced__bt__a2dp__defs_8h.html',1,'']]],
   ['wiced_5fbt_5fa2dp_5fsink_2eh',['wiced_bt_a2dp_sink.h',['../wiced__bt__a2dp__sink_8h.html',1,'']]],
-  ['wiced_5fbt_5facsb_2eh',['wiced_bt_acsb.h',['../wiced__bt__acsb_8h.html',1,'']]],
   ['wiced_5fbt_5fanc_2eh',['wiced_bt_anc.h',['../wiced__bt__anc_8h.html',1,'']]],
   ['wiced_5fbt_5fanp_2eh',['wiced_bt_anp.h',['../wiced__bt__anp_8h.html',1,'']]],
   ['wiced_5fbt_5fans_2eh',['wiced_bt_ans.h',['../wiced__bt__ans_8h.html',1,'']]],
@@ -23,9 +21,7 @@ var searchData=
   ['wiced_5fbt_5fbac_2eh',['wiced_bt_bac.h',['../wiced__bt__bac_8h.html',1,'']]],
   ['wiced_5fbt_5fbeacon_2eh',['wiced_bt_beacon.h',['../wiced__bt__beacon_8h.html',1,'']]],
   ['wiced_5fbt_5fble_2eh',['wiced_bt_ble.h',['../wiced__bt__ble_8h.html',1,'']]],
-  ['wiced_5fbt_5fble_5fhidh_2eh',['wiced_bt_ble_hidh.h',['../wiced__bt__ble__hidh_8h.html',1,'']]],
   ['wiced_5fbt_5fcfg_2eh',['wiced_bt_cfg.h',['../wiced__bt__cfg_8h.html',1,'']]],
-  ['wiced_5fbt_5fcodec_5fak4679_2eh',['wiced_bt_codec_ak4679.h',['../wiced__bt__codec__ak4679_8h.html',1,'']]],
   ['wiced_5fbt_5fconstants_2eh',['wiced_bt_constants.h',['../wiced__bt__constants_8h.html',1,'']]],
   ['wiced_5fbt_5fdev_2eh',['wiced_bt_dev.h',['../wiced__bt__dev_8h.html',1,'']]],
   ['wiced_5fbt_5fevent_2eh',['wiced_bt_event.h',['../wiced__bt__event_8h.html',1,'']]],
@@ -72,6 +68,7 @@ var searchData=
   ['wiced_5fhal_5fgpio_2eh',['wiced_hal_gpio.h',['../wiced__hal__gpio_8h.html',1,'']]],
   ['wiced_5fhal_5fi2c_2eh',['wiced_hal_i2c.h',['../wiced__hal__i2c_8h.html',1,'']]],
   ['wiced_5fhal_5fieeprom_2eh',['wiced_hal_ieeprom.h',['../wiced__hal__ieeprom_8h.html',1,'']]],
+  ['wiced_5fhal_5fkeyscan_2eh',['wiced_hal_keyscan.h',['../wiced__hal__keyscan_8h.html',1,'']]],
   ['wiced_5fhal_5flpm_2eh',['wiced_hal_lpm.h',['../wiced__hal__lpm_8h.html',1,'']]],
   ['wiced_5fhal_5fmia_2eh',['wiced_hal_mia.h',['../wiced__hal__mia_8h.html',1,'']]],
   ['wiced_5fhal_5fnvram_2eh',['wiced_hal_nvram.h',['../wiced__hal__nvram_8h.html',1,'']]],

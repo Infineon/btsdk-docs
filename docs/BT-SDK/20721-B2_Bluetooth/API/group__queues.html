@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,9 +119,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga199073726dff5306e1344c1b92818216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga199073726dff5306e1344c1b92818216">wiced_rtos_pop_from_queue</a> (wiced_queue_t *queue, void *message, uint32_t timeout_ms)</td></tr>
 <tr class="memdesc:ga199073726dff5306e1344c1b92818216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops an object off a queue.  <a href="#ga199073726dff5306e1344c1b92818216">More...</a><br /></td></tr>
 <tr class="separator:ga199073726dff5306e1344c1b92818216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4241e95121350d26f72b8af575ad549b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga4241e95121350d26f72b8af575ad549b">wiced_rtos_deinit_queue</a> (wiced_queue_t *queue)</td></tr>
-<tr class="memdesc:ga4241e95121350d26f72b8af575ad549b"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialise a queue.  <a href="#ga4241e95121350d26f72b8af575ad549b">More...</a><br /></td></tr>
-<tr class="separator:ga4241e95121350d26f72b8af575ad549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga87d87d53ccb7276aeb43753f5419f80c"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga87d87d53ccb7276aeb43753f5419f80c">wiced_rtos_is_queue_empty</a> (wiced_queue_t *queue)</td></tr>
 <tr class="memdesc:ga87d87d53ccb7276aeb43753f5419f80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a queue is empty.  <a href="#ga87d87d53ccb7276aeb43753f5419f80c">More...</a><br /></td></tr>
 <tr class="separator:ga87d87d53ccb7276aeb43753f5419f80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,34 +151,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
 <dd>
 NULL : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga4241e95121350d26f72b8af575ad549b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_deinit_queue </td>
-          <td>(</td>
-          <td class="paramtype">wiced_queue_t *&#160;</td>
-          <td class="paramname"><em>queue</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>De-initialise a queue. </p>
-<p>Deletes a queue created with <a class="el" href="group__queues.html#ga5a1885df28aa1e146ca1e334f4997787">wiced_rtos_init_queue</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">queue</td><td>: a pointer to the queue handle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
 
 </div>
 </div>

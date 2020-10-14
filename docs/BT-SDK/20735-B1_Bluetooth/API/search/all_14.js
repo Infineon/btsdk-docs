@@ -18,7 +18,6 @@ var searchData=
   ['target_5ftemperature',['target_temperature',['../structwiced__bt__mesh__light__ctl__temperature__set__t.html#a8d635c050452c20c44ba058443ad5543',1,'wiced_bt_mesh_light_ctl_temperature_set_t']]],
   ['temperature',['temperature',['../structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e',1,'wiced_bt_mesh_light_ctl_data_t']]],
   ['test_5fid',['test_id',['../wiced__bt__mesh__core_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_core.h'],['../wiced__bt__mesh__provision_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_provision.h']]],
-  ['tester_5fblock_5fdevice_5fspecific_5fdata_5ft',['tester_block_device_specific_data_t',['../structtester__block__device__specific__data__t.html',1,'']]],
   ['tgpio_5fpin_5foutput_5fconfig',['tGPIO_PIN_OUTPUT_CONFIG',['../group___g_p_i_o_driver.html#ga438c820f04ac7149e6914a08b527c111',1,'wiced_hal_gpio.h']]],
   ['thermistor_5finit',['thermistor_init',['../wiced__thermistor_8h.html#a073379865e6595554ecc568a52956d91',1,'wiced_thermistor.h']]],
   ['thermistor_5fread',['thermistor_read',['../wiced__thermistor_8h.html#a4409429027d4e29cc90afcd33bff60f0',1,'wiced_thermistor.h']]],

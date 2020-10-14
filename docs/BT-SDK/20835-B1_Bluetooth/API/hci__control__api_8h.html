@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -464,6 +464,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a54a34a1ecd11c4eeb7692a7adb6c249a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54a34a1ecd11c4eeb7692a7adb6c249a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_SPP_COMMAND_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_SPP &lt;&lt; 8 ) | 0x03 )    /* Send data */</td></tr>
 <tr class="separator:a54a34a1ecd11c4eeb7692a7adb6c249a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd7166f74f76f006c5ce9bc15ad98ee9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd7166f74f76f006c5ce9bc15ad98ee9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_SPP_COMMAND_PEER_MTU</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_SPP &lt;&lt; 8 ) | 0x04 )    /* Get peer mtu size */</td></tr>
+<tr class="separator:acd7166f74f76f006c5ce9bc15ad98ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ca945a2d55a05e539aada53d66d6c0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ca945a2d55a05e539aada53d66d6c0a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AUDIO_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AUDIO &lt;&lt; 8 ) | 0x01 )    /* Audio connect to sink */</td></tr>
 <tr class="separator:a8ca945a2d55a05e539aada53d66d6c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -686,6 +689,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a3d09b5dd64bc1033788eca4a201dc925"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d09b5dd64bc1033788eca4a201dc925"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_COMMAND_SEND_IDENTITY_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x07 )    /* Send identity data */</td></tr>
 <tr class="separator:a3d09b5dd64bc1033788eca4a201dc925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6045f8a120f650f88d222f1ddf5d720"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6045f8a120f650f88d222f1ddf5d720"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_COMMAND_PEER_MTU</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x08 )    /* Get peer mtu size */</td></tr>
+<tr class="separator:ad6045f8a120f650f88d222f1ddf5d720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4340e1f736d9384a8b90d8888eee6ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4340e1f736d9384a8b90d8888eee6ae"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x01 )    /* Establish connection to HF Device */</td></tr>
 <tr class="separator:ae4340e1f736d9384a8b90d8888eee6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1754,6 +1760,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ae616dd731f1a8e2ea2b7f90f21e1022b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae616dd731f1a8e2ea2b7f90f21e1022b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_SPP_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_SPP &lt;&lt; 8 ) | 0x07 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:ae616dd731f1a8e2ea2b7f90f21e1022b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacac749825ef8cb1c88041735ab14096"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacac749825ef8cb1c88041735ab14096"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_SPP_EVENT_PEER_MTU</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_SPP &lt;&lt; 8 ) | 0x08 )    /* Get peer mtu size */</td></tr>
+<tr class="separator:aacac749825ef8cb1c88041735ab14096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557e4dfe8492105e1eab105b28694c2b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a557e4dfe8492105e1eab105b28694c2b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AUDIO_EVENT_COMMAND_COMPLETE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AUDIO &lt;&lt; 8 ) | 0x00 )    /* Command complete event for the requested operation */</td></tr>
 <tr class="separator:a557e4dfe8492105e1eab105b28694c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1784,6 +1793,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aecc27bc8c9b8b2010f24d2c562ca5aee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecc27bc8c9b8b2010f24d2c562ca5aee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AUDIO_EVENT_STATISTICS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AUDIO &lt;&lt; 8 ) | 0x09 )    /* Command for audio statistics */</td></tr>
 <tr class="separator:aecc27bc8c9b8b2010f24d2c562ca5aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffb383b7ca05f54d1e19c81320ea254"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ffb383b7ca05f54d1e19c81320ea254"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AUDIO_EVENT_SUPPORT_FEATURES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AUDIO &lt;&lt; 8 ) | 0x10 )    /* Device reportes the supported features of AV source */</td></tr>
+<tr class="separator:a1ffb383b7ca05f54d1e19c81320ea254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dbd01aeb338478f1f7e5135f387404e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6dbd01aeb338478f1f7e5135f387404e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AVRC_TARGET_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AVRC_TARGET &lt;&lt; 8 ) | 0x01 )    /* AVRCP Target connected */</td></tr>
 <tr class="separator:a6dbd01aeb338478f1f7e5135f387404e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2006,6 +2018,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ac541bac12b60ef32daeea3f7a1a7bd8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac541bac12b60ef32daeea3f7a1a7bd8b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x0C )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:ac541bac12b60ef32daeea3f7a1a7bd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83425ac96d2b01ee3c75d5d5d54ec39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa83425ac96d2b01ee3c75d5d5d54ec39"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IAP2_EVENT_PEER_MTU</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IAP2 &lt;&lt; 8 ) | 0x0D )    /* Get peer mtu size */</td></tr>
+<tr class="separator:aa83425ac96d2b01ee3c75d5d5d54ec39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb712433770c92758d1bba6c793909c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abeb712433770c92758d1bba6c793909c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:abeb712433770c92758d1bba6c793909c"><td class="memSeparator" colspan="2">&#160;</td></tr>

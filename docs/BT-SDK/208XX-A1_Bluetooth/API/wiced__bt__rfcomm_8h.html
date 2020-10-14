@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('wiced__bt__rfcomm_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
@@ -108,13 +109,30 @@ $(document).ready(function(){initNavTree('wiced__bt__rfcomm_8h.html','');});
 <p>Bluetooth RFCOMM Application Programming Interface.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__port__status__t.html">wiced_port_status_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a802c52c03865b1cb09af25e41363275d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_MASK_ALL</b></td></tr>
 <tr class="separator:a802c52c03865b1cb09af25e41363275d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd29a44f0303e9f2950e98f183ac216"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fd29a44f0303e9f2950e98f183ac216"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_FLAG_CTS_HOLD</b>&#160;&#160;&#160;0x01    /* Tx is waiting for CTS signal */</td></tr>
+<tr class="separator:a8fd29a44f0303e9f2950e98f183ac216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a590cb642d8f2e0bd2faba8bd857da379"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a590cb642d8f2e0bd2faba8bd857da379"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_FLAG_DSR_HOLD</b>&#160;&#160;&#160;0x02    /* Tx is waiting for DSR signal */</td></tr>
+<tr class="separator:a590cb642d8f2e0bd2faba8bd857da379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486994ba0fe46b897ed1fc57321a3dcd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a486994ba0fe46b897ed1fc57321a3dcd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_FLAG_RLSD_HOLD</b>&#160;&#160;&#160;0x04    /* Tx is waiting for RLSD signal */</td></tr>
+<tr class="separator:a486994ba0fe46b897ed1fc57321a3dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2fdabf7ca61dc4582b77496e82a11295"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rfcomm__api__functions.html#ga2fdabf7ca61dc4582b77496e82a11295">wiced_bt_rfcomm_init</a>&#160;&#160;&#160;wiced_bt_rfcomm_set_buffer_pool</td></tr>
 <tr class="memdesc:ga2fdabf7ca61dc4582b77496e82a11295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_rfcomm_set_buffer_pool.  <a href="group__rfcomm__api__functions.html#ga2fdabf7ca61dc4582b77496e82a11295">More...</a><br /></td></tr>
 <tr class="separator:ga2fdabf7ca61dc4582b77496e82a11295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a2652c49c28c5dd94e54c30c3511e26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3a2652c49c28c5dd94e54c30c3511e26"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_rfcomm_port_get_queue_status</b>&#160;&#160;&#160;PORT_GetQueueStatus</td></tr>
+<tr class="separator:ga3a2652c49c28c5dd94e54c30c3511e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -256,6 +274,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf369ef8ee13c0b2e8b652e9569b67ab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__rfcomm_8h.html#a67a77aad84c51f52a3a3283258fc620d">wiced_bt_rfcomm_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rfcomm__api__functions.html#gaf369ef8ee13c0b2e8b652e9569b67ab9">wiced_bt_rfcomm_check_connection</a> (UINT16 handle, BD_ADDR <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, UINT16 *p_lcid)</td></tr>
 <tr class="memdesc:gaf369ef8ee13c0b2e8b652e9569b67ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function checks connection referenced by handle is up and running.  <a href="group__rfcomm__api__functions.html#gaf369ef8ee13c0b2e8b652e9569b67ab9">More...</a><br /></td></tr>
 <tr class="separator:gaf369ef8ee13c0b2e8b652e9569b67ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga865e448ffc3555587b59bab1e9f14173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__rfcomm_8h.html#a67a77aad84c51f52a3a3283258fc620d">wiced_bt_rfcomm_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rfcomm__api__functions.html#ga865e448ffc3555587b59bab1e9f14173">wiced_bt_rfcomm_port_get_queue_status</a> (uint16_t handle, <a class="el" href="structwiced__port__status__t.html">wiced_port_status_t</a> *p_status)</td></tr>
+<tr class="memdesc:ga865e448ffc3555587b59bab1e9f14173"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function reports current status of a connection.  <a href="group__rfcomm__api__functions.html#ga865e448ffc3555587b59bab1e9f14173">More...</a><br /></td></tr>
+<tr class="separator:ga865e448ffc3555587b59bab1e9f14173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth RFCOMM Application Programming Interface. </p>

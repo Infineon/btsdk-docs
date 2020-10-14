@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['gpio_5fslimboot_5freinforce_5fall_5foutputpin_5fvalue',['gpio_slimboot_reinforce_all_outputpin_value',['../group___g_p_i_o_driver.html#ga6e7cb43b713ab53346d27378666e63f9',1,'wiced_hal_gpio.h']]]
+  ['debug_5ffatalerror',['debug_FatalError',['../brcm__fw__types_8h.html#a9671006300649b178ac40a25dfa2a2db',1,'brcm_fw_types.h']]],
+  ['debug_5ffatalerrormessage2',['debug_FatalErrorMessage2',['../brcm__fw__types_8h.html#a871c1e496f32058d4ac7bbbdd053f52c',1,'brcm_fw_types.h']]],
+  ['debug_5ffatalerrorvalue',['debug_FatalErrorValue',['../brcm__fw__types_8h.html#acb2b30bd99dc307ebbdc45cbe0d12649',1,'brcm_fw_types.h']]]
 ];

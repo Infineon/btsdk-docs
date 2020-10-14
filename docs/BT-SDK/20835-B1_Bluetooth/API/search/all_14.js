@@ -1,7 +1,6 @@
 var searchData=
 [
   ['takes',['TAKES',['../brcm__fw__types_8h.html#aff198e9419c2cfe4323197d961c6c336',1,'brcm_fw_types.h']]],
-  ['tester_5fblock_5fdevice_5fspecific_5fdata_5ft',['tester_block_device_specific_data_t',['../structtester__block__device__specific__data__t.html',1,'']]],
   ['tgpio_5fpin_5foutput_5fconfig',['tGPIO_PIN_OUTPUT_CONFIG',['../group___g_p_i_o_driver.html#ga438c820f04ac7149e6914a08b527c111',1,'wiced_hal_gpio.h']]],
   ['thread_5fpriority_5fmax',['THREAD_PRIORITY_MAX',['../group__eventflags.html#ga5cf3ec2df1719b7a35fbaf1ea29edd40',1,'wiced_rtos.h']]],
   ['thread_5fpriority_5fmin',['THREAD_PRIORITY_MIN',['../group__eventflags.html#ga196e3293c94df476dd1dd0007013ad14',1,'wiced_rtos.h']]],

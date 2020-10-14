@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['gatt_5fcache',['gatt_cache',['../unionwiced__bt__ble__hidh__event__data__t.html#acd13899a4ab4217cce99e44992650b96',1,'wiced_bt_ble_hidh_event_data_t']]],
   ['gatt_5fcfg',['gatt_cfg',['../structwiced__bt__cfg__settings__t.html#abd35a4c31591577ab5c834b1b2a739f4',1,'wiced_bt_cfg_settings_t']]],
   ['gatt_5fclient_5fonly',['gatt_client_only',['../wiced__bt__mesh__cfg_8h.html#a160c42cabbbdfd3b3927f39d97af6e36',1,'wiced_bt_mesh_cfg.h']]],
   ['get_5fapp_5fattr_5ftxt',['get_app_attr_txt',['../unionwiced__bt__avrc__command__t.html#a21f6949f99035709fb6d62deff7f0335',1,'wiced_bt_avrc_command_t::get_app_attr_txt()'],['../unionwiced__bt__avrc__response__t.html#ab6c345c69553a82c03a3e11c245ab520',1,'wiced_bt_avrc_response_t::get_app_attr_txt()']]],
@@ -15,7 +14,6 @@ var searchData=
   ['get_5fplay_5fstatus',['get_play_status',['../unionwiced__bt__avrc__command__t.html#aea01a661534f9a4b6cd21a0603c20be8',1,'wiced_bt_avrc_command_t::get_play_status()'],['../unionwiced__bt__avrc__response__t.html#af7dc01946c0f42d7c6f3c4c9d80293ff',1,'wiced_bt_avrc_response_t::get_play_status()']]],
   ['get_5fref_5fbuffer',['get_ref_buffer',['../structcapture__stream__interface__t.html#a3369569436600286998908dbac1153cc',1,'capture_stream_interface_t']]],
   ['get_5frep',['get_rep',['../unionwiced__bt__hidd__event__data__t.html#ac73fd2c92d86db8f980dadd2a5c7ef76',1,'wiced_bt_hidd_event_data_t']]],
-  ['get_5freport',['get_report',['../unionwiced__bt__ble__hidh__event__data__t.html#ab3a511aa16390e7c086696d35fef4372',1,'wiced_bt_ble_hidh_event_data_t']]],
   ['getcap_5fcfm',['getcap_cfm',['../unionwiced__bt__avdt__ctrl__t.html#aa9c4406226351357813664fdb9c2ca6e',1,'wiced_bt_avdt_ctrl_t']]],
   ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],

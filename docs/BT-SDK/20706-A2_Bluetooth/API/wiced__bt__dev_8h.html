@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -131,6 +131,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__tx__power__result__t.html">wiced_bt_tx_power_result_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TX Power Result (in response to <a class="el" href="group__wicedbt__bredr.html#ga48a580210a970a52c39fca816ccfd0d7" title="Function wiced_bt_dev_read_tx_power. ">wiced_bt_dev_read_tx_power</a>)  <a href="structwiced__bt__tx__power__result__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__switch__role__result__t.html">wiced_bt_dev_switch_role_result_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__bredr__io__caps__rsp__t.html">wiced_bt_dev_bredr_io_caps_rsp_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type for IO capabalities response (BTM_PAIRING_IO_CAPABILITIES_BR_EDR_RESPONSE_EVT)  <a href="structwiced__bt__dev__bredr__io__caps__rsp__t.html#details">More...</a><br /></td></tr>
@@ -237,6 +239,12 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:aec7c8e1f7b27e908786173fa1788e69c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec7c8e1f7b27e908786173fa1788e69c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_set_afh_channel_assessment</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a19a6d46fc5452a7c6f1b011968c7155e">BTM_SetAfhChannelAssessment</a></td></tr>
+<tr class="separator:aec7c8e1f7b27e908786173fa1788e69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26a854251eb1a2960950f1dda976c238"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26a854251eb1a2960950f1dda976c238"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_disable_afh_channels</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a2e6a20cf64f3c3fded8cd25c9052d535">BTM_SetAfhChannels</a></td></tr>
+<tr class="separator:a26a854251eb1a2960950f1dda976c238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a914e2fbb6a22593ab683a833fb7c6d98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a914e2fbb6a22593ab683a833fb7c6d98"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_DISCOVERABILITY_MODE</b></td></tr>
 <tr class="separator:a914e2fbb6a22593ab683a833fb7c6d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,6 +372,15 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a308266bd5dcabfd34768883df3e29d48">BTM_BLE_CONN_MODE</a></td></tr>
 <tr class="memdesc:a308266bd5dcabfd34768883df3e29d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">scan mode used in initiating <br /></td></tr>
 <tr class="separator:a308266bd5dcabfd34768883df3e29d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad455336f27642426ac5bdf417297a97f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad455336f27642426ac5bdf417297a97f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_switch_role</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a></td></tr>
+<tr class="separator:ad455336f27642426ac5bdf417297a97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ed21cf83f2a529c06f82acdbb5dcf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8ed21cf83f2a529c06f82acdbb5dcf8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_link_supervision_timeout</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#a78de8e3d5316111ebf8405364f3214b8">BTM_SetLinkSuperTout</a></td></tr>
+<tr class="separator:ab8ed21cf83f2a529c06f82acdbb5dcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8b8b0e1637eab9f503f0917f552783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1e8b8b0e1637eab9f503f0917f552783"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_link_policy</b>&#160;&#160;&#160;BTM_SetLinkPolicy</td></tr>
+<tr class="separator:a1e8b8b0e1637eab9f503f0917f552783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -466,7 +483,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="wiced__bt__dev_8h.html#af5328800ab7d3bcbd90775901a052b86ad1f63d5509236d679263cbe2447e554e">BTM_FILTER_COND_BD_ADDR</a> = HCI_FILTER_COND_BD_ADDR
  }</td></tr>
 <tr class="separator:af5328800ab7d3bcbd90775901a052b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc6126af1d45847bc59afa0aa3216b04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac36f475ca5b446f4fde4c9b90bec77c8"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>BTM_EIR_UUID_SERVCLASS_SERVICE_DISCOVERY_SERVER</b>, 
 <b>BTM_EIR_UUID_SERVCLASS_SERIAL_PORT</b>, 
 <b>BTM_EIR_UUID_SERVCLASS_LAN_ACCESS_USING_PPP</b>, 
@@ -527,7 +544,7 @@ Enumerations</h2></td></tr>
 <b>BTM_EIR_MAX_SERVICES</b>
 <br />
  }</td></tr>
-<tr class="separator:abc6126af1d45847bc59afa0aa3216b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9b4dbc8e43ce6442971e2804d1aca5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#abc9b4dbc8e43ce6442971e2804d1aca5">wiced_bt_sec_level_e</a> { <br />
 &#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#abc9b4dbc8e43ce6442971e2804d1aca5a0e9685e4326c3ad4af03a17f1a063f73">BTM_SEC_NONE</a> = 0x0000, 
 <a class="el" href="wiced__bt__dev_8h.html#abc9b4dbc8e43ce6442971e2804d1aca5a0dc906b1a99ae1cf62157b52008343a8">BTM_SEC_IN_AUTHENTICATE</a> = 0x0002, 
@@ -737,10 +754,10 @@ Enumerations</h2></td></tr>
 <a class="el" href="wiced__bt__dev_8h.html#ad1c94560ecd0c13e11d7ca0026931a82aa8537704238134d84901e17876ec6844">BLE_CONN_MODE_HIGH_DUTY</a>
  }</td></tr>
 <tr class="separator:ad1c94560ecd0c13e11d7ca0026931a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc29c2ff13d900c2f185ee95427fb06c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc29c2ff13d900c2f185ee95427fb06c"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>WICED_TRANS_CUSTOM_HCI_MODE</b>, 
+<tr class="memitem:a05589fbab0657f08285ebdfe93f5ec9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05589fbab0657f08285ebdfe93f5ec9e"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>WICED_TRANS_CUSTOM_HCI_MODE</b>, 
 <b>WICED_TRANS_RAW_MODE</b>
  }</td></tr>
-<tr class="separator:adc29c2ff13d900c2f185ee95427fb06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a05589fbab0657f08285ebdfe93f5ec9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa76569d7be1ed9ff5262e81b3b651325"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325">wiced_bt_hci_trace_type_t</a> { <a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325ad4b1a9774a21f599e68e2a32730880f2">HCI_TRACE_EVENT</a>, 
 <a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325a5bb2ec2cf78b2319a2580cc57af49c6b">HCI_TRACE_COMMAND</a>, 
 <a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325a5a9e9d392ad933c7a1892d4cf2060e3b">HCI_TRACE_INCOMING_ACL_DATA</a>, 
@@ -751,6 +768,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a19a6d46fc5452a7c6f1b011968c7155e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a19a6d46fc5452a7c6f1b011968c7155e">BTM_SetAfhChannelAssessment</a> (wiced_bool_t enable)</td></tr>
+<tr class="memdesc:a19a6d46fc5452a7c6f1b011968c7155e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_afh_channel_assessment.  <a href="#a19a6d46fc5452a7c6f1b011968c7155e">More...</a><br /></td></tr>
+<tr class="separator:a19a6d46fc5452a7c6f1b011968c7155e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e6a20cf64f3c3fded8cd25c9052d535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a2e6a20cf64f3c3fded8cd25c9052d535">BTM_SetAfhChannels</a> (uint8_t first, uint8_t last)</td></tr>
+<tr class="memdesc:a2e6a20cf64f3c3fded8cd25c9052d535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_disable_afh_channels.  <a href="#a2e6a20cf64f3c3fded8cd25c9052d535">More...</a><br /></td></tr>
+<tr class="separator:a2e6a20cf64f3c3fded8cd25c9052d535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2c8467b8c65ef23d30ea28649b13094f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga2c8467b8c65ef23d30ea28649b13094f">wiced_bt_start_inquiry</a> (<a class="el" href="structwiced__bt__dev__inq__parms__t.html">wiced_bt_dev_inq_parms_t</a> *p_inqparms, <a class="el" href="wiced__bt__dev_8h.html#a81029e82aefce8f23d7ad9bcdee15cf8">wiced_bt_inquiry_result_cback_t</a> *p_inquiry_result_cback)</td></tr>
 <tr class="memdesc:ga2c8467b8c65ef23d30ea28649b13094f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_start_inquiry.  <a href="group__wicedbt__bredr.html#ga2c8467b8c65ef23d30ea28649b13094f">More...</a><br /></td></tr>
 <tr class="separator:ga2c8467b8c65ef23d30ea28649b13094f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -877,15 +900,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c8336c8df5e584bc76bf98fe65d5c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a6c8336c8df5e584bc76bf98fe65d5c8d">wiced_bt_set_local_bdaddr</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bda, <a class="el" href="wiced__bt__types_8h.html#a97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> addr_type)</td></tr>
 <tr class="memdesc:a6c8336c8df5e584bc76bf98fe65d5c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_set_local_bdaddr.  <a href="#a6c8336c8df5e584bc76bf98fe65d5c8d">More...</a><br /></td></tr>
 <tr class="separator:a6c8336c8df5e584bc76bf98fe65d5c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a8bcf7e6edc3dd8112412dc3cb4cd0837">wiced_bt_dev_get_role</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr, UINT8 *p_role, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
-<tr class="memdesc:a8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_get_role.  <a href="#a8bcf7e6edc3dd8112412dc3cb4cd0837">More...</a><br /></td></tr>
-<tr class="separator:a8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea415ed132f86dbf21dcd6bc729c9ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aea415ed132f86dbf21dcd6bc729c9ef1">wiced_bt_dev_get_role</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr, uint8_t *p_role, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
+<tr class="memdesc:aea415ed132f86dbf21dcd6bc729c9ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_get_role.  <a href="#aea415ed132f86dbf21dcd6bc729c9ef1">More...</a><br /></td></tr>
+<tr class="separator:aea415ed132f86dbf21dcd6bc729c9ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782ed1a15ed7e91016ccc120f94f1898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr, uint8_t new_role, <a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cb)</td></tr>
+<tr class="memdesc:a782ed1a15ed7e91016ccc120f94f1898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_switch_role.  <a href="#a782ed1a15ed7e91016ccc120f94f1898">More...</a><br /></td></tr>
+<tr class="separator:a782ed1a15ed7e91016ccc120f94f1898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78de8e3d5316111ebf8405364f3214b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a78de8e3d5316111ebf8405364f3214b8">BTM_SetLinkSuperTout</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr, uint16_t timeout)</td></tr>
+<tr class="memdesc:a78de8e3d5316111ebf8405364f3214b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_supervision_timeout.  <a href="#a78de8e3d5316111ebf8405364f3214b8">More...</a><br /></td></tr>
+<tr class="separator:a78de8e3d5316111ebf8405364f3214b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c925c9deb5746fc2844d111846e93ef"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a6c925c9deb5746fc2844d111846e93ef">wiced_bt_dev_get_security_state</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint8_t *p_sec_flags)</td></tr>
 <tr class="memdesc:a6c925c9deb5746fc2844d111846e93ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_get_security_state.  <a href="#a6c925c9deb5746fc2844d111846e93ef">More...</a><br /></td></tr>
 <tr class="separator:a6c925c9deb5746fc2844d111846e93ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b32f26ff97dc7087af5b62d874d830"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#ad6b32f26ff97dc7087af5b62d874d830">wiced_delete_key_info_from_ram</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr)</td></tr>
 <tr class="memdesc:ad6b32f26ff97dc7087af5b62d874d830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_delete_key_info_from_ram.  <a href="#ad6b32f26ff97dc7087af5b62d874d830">More...</a><br /></td></tr>
 <tr class="separator:ad6b32f26ff97dc7087af5b62d874d830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aa33eda752b4873cb9f19b0ef2634d9a4">wiced_bt_dev_set_link_policy</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, uint16_t *settings)</td></tr>
+<tr class="memdesc:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_policy.  <a href="#aa33eda752b4873cb9f19b0ef2634d9a4">More...</a><br /></td></tr>
+<tr class="separator:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -1857,6 +1889,150 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a19a6d46fc5452a7c6f1b011968c7155e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a> BTM_SetAfhChannelAssessment </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_set_afh_channel_assessment. </p>
+<p>This function is called to set the channel assessment mode on or off</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">enable</td><td>: enable or disable</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if successful </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2e6a20cf64f3c3fded8cd25c9052d535"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a> BTM_SetAfhChannels </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_disable_afh_channels. </p>
+<p>This function is called to disable channels for adaptive frequency hopping</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">first</td><td>: first channel to disable </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">last</td><td>: last channel to disable</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>TRUE if successful </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a78de8e3d5316111ebf8405364f3214b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> BTM_SetLinkSuperTout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>remote_bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_link_supervision_timeout. </p>
+<p>set Link Supervision Timeout</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>: BD address of remote device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>:</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_BT_PENDING if successfully initiated, otherwise error. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a782ed1a15ed7e91016ccc120f94f1898"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> BTM_SwitchRole </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>remote_bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>new_role</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
+          <td class="paramname"><em>p_cb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_switch_role. </p>
+<p>This function is called to switch the role between master and slave. If role is already set it will do nothing. If the command was initiated, the callback function is called upon completion.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>: BD address of remote device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">new_role</td><td>: New role (BTM_ROLE_MASTER or BTM_ROLE_SLAVE) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Result callback (<a class="el" href="structwiced__bt__dev__switch__role__result__t.html">wiced_bt_dev_switch_role_result_t</a> will be passed to the callback)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_BT_SUCCESS if already in specified role. WICED_BT_CMD_STARTED if command issued to controller. WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified WICED_BT_MODE_UNSUPPORTED if local device doesn't support role switching </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a982cb484eef70b5201335d64f0611a36"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1996,7 +2172,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8bcf7e6edc3dd8112412dc3cb4cd0837"></a>
+<a class="anchor" id="aea415ed132f86dbf21dcd6bc729c9ef1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2009,7 +2185,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT8 *&#160;</td>
+          <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>p_role</em>, </td>
         </tr>
         <tr>
@@ -2124,6 +2300,43 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_link_keys</td><td>: link keys information stored in application side</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa33eda752b4873cb9f19b0ef2634d9a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_link_policy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>remote_bda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>settings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_link_policy. </p>
+<p>This function is called to set the Link Policy for remote device</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: remote device's address </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in/out]</td><td>settings : pointer to the settings value. the policy setting is defined in hcidefs.h if the input setting consists of unsupport feature for local device, it will be cleared</td></tr>
   </table>
   </dd>
 </dl>

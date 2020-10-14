@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -146,8 +146,8 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gab46a6e1291039c51d88297844b769170"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__audio__insert.html#gab46a6e1291039c51d88297844b769170">WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO</a>&#160;&#160;&#160;128</td></tr>
-<tr class="memdesc:gab46a6e1291039c51d88297844b769170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of PCM Samples for Audio Insertion in Audio Stream.  <a href="#gab46a6e1291039c51d88297844b769170">More...</a><br /></td></tr>
+<tr class="memitem:gab46a6e1291039c51d88297844b769170"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__audio__insert.html#gab46a6e1291039c51d88297844b769170">WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO</a>&#160;&#160;&#160;1024</td></tr>
+<tr class="memdesc:gab46a6e1291039c51d88297844b769170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of Max Required PCM Samples for Audio Insertion in Audio Stream.  <a href="#gab46a6e1291039c51d88297844b769170">More...</a><br /></td></tr>
 <tr class="separator:gab46a6e1291039c51d88297844b769170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf2b293a4ef64b4b3534aeb1e4742e21f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__audio__insert.html#gaf2b293a4ef64b4b3534aeb1e4742e21f">WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_SCO</a>&#160;&#160;&#160;120</td></tr>
 <tr class="memdesc:gaf2b293a4ef64b4b3534aeb1e4742e21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of PCM Samples for Audio Insertion in Voice Stream.  <a href="#gaf2b293a4ef64b4b3534aeb1e4742e21f">More...</a><br /></td></tr>
@@ -158,6 +158,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gaae2cf9e5573b72a48c45f872f109b3ea"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__audio__insert.html#gaae2cf9e5573b72a48c45f872f109b3ea">wiced_bt_audio_insert_source_data_exhausted_callback_t</a> )(<a class="el" href="group__audio__insert.html#ga287dd2442acf933df422368595309420">wiced_bt_audio_insert_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
 <tr class="memdesc:gaae2cf9e5573b72a48c45f872f109b3ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback when the insertion data is exhausted.  <a href="#gaae2cf9e5573b72a48c45f872f109b3ea">More...</a><br /></td></tr>
 <tr class="separator:gaae2cf9e5573b72a48c45f872f109b3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga876d14b461d95fd029d82ab762da4eae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga876d14b461d95fd029d82ab762da4eae"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_audio_insert_source_data_pre_handler_t</b> )(<a class="el" href="unionwiced__bt__sco__hook__event__data__t.html">wiced_bt_sco_hook_event_data_t</a> *p_data)</td></tr>
+<tr class="separator:ga876d14b461d95fd029d82ab762da4eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga683034d9e4cd3fe15deea787f3f90a34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga683034d9e4cd3fe15deea787f3f90a34"></a>
 typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_audio_insert_advanced_control_enable_t</b> )(void)</td></tr>
 <tr class="separator:ga683034d9e4cd3fe15deea787f3f90a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,6 +265,9 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>insert_data_a
 <tr class="memitem:ga8e16f98472ef8e92d11b46f2851ec3a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8e16f98472ef8e92d11b46f2851ec3a4"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>expected_sco_time_seq_num</b></td></tr>
 <tr class="separator:ga8e16f98472ef8e92d11b46f2851ec3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac211f133dc6f37400290556c7c2dcad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaac211f133dc6f37400290556c7c2dcad"></a>
+wiced_bt_audio_insert_source_data_pre_handler_t *&#160;</td><td class="memItemRight" valign="bottom"><b>p_source_data_pre_handler</b></td></tr>
+<tr class="separator:gaac211f133dc6f37400290556c7c2dcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga535f06bd0cab37b3c54f1ffd16cdbd17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga535f06bd0cab37b3c54f1ffd16cdbd17"></a>
 int16_t *&#160;</td><td class="memItemRight" valign="bottom"><b>p_source</b></td></tr>
 <tr class="separator:ga535f06bd0cab37b3c54f1ffd16cdbd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,13 +354,13 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>nb_samples</b></t
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO&#160;&#160;&#160;128</td>
+          <td class="memname">#define WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO&#160;&#160;&#160;1024</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Number of PCM Samples for Audio Insertion in Audio Stream. </p>
-<p>The user application shall provide (WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO * 2) samples (each sample is 16-bit) in each audio insertion. </p>
+<p>Number of Max Required PCM Samples for Audio Insertion in Audio Stream. </p>
+<p>The user application shall provide number of samples * 2 * 2 bytes(each sample is 16-bit and stereo) The number of samples is based on I2S_AUD_INJECT_EVT_AUDIO_INFO information reported by i2s aud inject. The max value will be WICED_BT_AUDIO_INSERT_PCM_SAMPLE_NB_AUDIO samples(1024 * 2 * 2 bytes for AAC case) </p>
 
 </div>
 </div>

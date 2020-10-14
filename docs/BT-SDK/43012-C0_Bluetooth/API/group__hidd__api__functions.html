@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__hidd__api__functions.html','');
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HIDD over BR/EDR<div class="ingroups"><a class="el" href="group__wiced__bt__hid.html">Human Interface Device (HID)</a></div></div>  </div>
+<div class="title">HIDD over BR/EDR</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -128,9 +128,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga120f4c0d6b5da8d9362f99706304bd18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#ga120f4c0d6b5da8d9362f99706304bd18">wiced_bt_hidd_send_data</a> (wiced_bool_t control_ch, uint8_t rep_type, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
 <tr class="memdesc:ga120f4c0d6b5da8d9362f99706304bd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_send_data.  <a href="#ga120f4c0d6b5da8d9362f99706304bd18">More...</a><br /></td></tr>
 <tr class="separator:ga120f4c0d6b5da8d9362f99706304bd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa661ba2c182a0a092af56377577d3ac1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#gaa661ba2c182a0a092af56377577d3ac1">wiced_bt_hidd_set_power_mgmt_params</a> (uint8_t conn_substate, <a class="el" href="wiced__bt__hidd_8h.html#a24aa6c2deee3c3d7a81d3a5ffee6a3ea">wiced_bt_hidd_pm_pwr_md_t</a> pm_params)</td></tr>
-<tr class="memdesc:gaa661ba2c182a0a092af56377577d3ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_set_power_mgmt_params.  <a href="#gaa661ba2c182a0a092af56377577d3ac1">More...</a><br /></td></tr>
-<tr class="separator:gaa661ba2c182a0a092af56377577d3ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>HIDD Functions. </p>
@@ -314,44 +311,6 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rep_type</td><td>: Report type </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>: Report data </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data_len</td><td>: Data length</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaa661ba2c182a0a092af56377577d3ac1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_set_power_mgmt_params </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>conn_substate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="wiced__bt__hidd_8h.html#a24aa6c2deee3c3d7a81d3a5ffee6a3ea">wiced_bt_hidd_pm_pwr_md_t</a>&#160;</td>
-          <td class="paramname"><em>pm_params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function wiced_bt_hidd_set_power_mgmt_params. </p>
-<p>Changes power mgmt parameters.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">conn_substate</td><td>: Connection substate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pm_params</td><td>: Power management paramters </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
   </table>
   </dd>
 </dl>

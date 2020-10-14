@@ -5,5 +5,6 @@ var searchData=
   ['_5f2_5fdh5_5fcount',['_2_dh5_count',['../wiced__bt__dev_8h.html#abb2da28d94da6881f392fa17dbe788fc',1,'wiced_bt_dev.h']]],
   ['_5f3_5fdh1_5fcount',['_3_dh1_count',['../wiced__bt__dev_8h.html#a6e236e3d1c8fee232ebfea78d79a4efd',1,'wiced_bt_dev.h']]],
   ['_5f3_5fdh3_5fcount',['_3_dh3_count',['../wiced__bt__dev_8h.html#ac67b59900f3fa2e543e9777d8f3e2104',1,'wiced_bt_dev.h']]],
-  ['_5f3_5fdh5_5fcount',['_3_dh5_count',['../wiced__bt__dev_8h.html#a96c06b25fecc185bf93f5fbc258a9623',1,'wiced_bt_dev.h']]]
+  ['_5f3_5fdh5_5fcount',['_3_dh5_count',['../wiced__bt__dev_8h.html#a96c06b25fecc185bf93f5fbc258a9623',1,'wiced_bt_dev.h']]],
+  ['_5fwiced_5fhal_5fbatmon_5fobserver',['_wiced_hal_batmon_observer',['../struct__wiced__hal__batmon__observer.html',1,'']]]
 ];

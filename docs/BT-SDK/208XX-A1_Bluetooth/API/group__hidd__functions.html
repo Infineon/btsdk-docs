@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('group__hidd__functions.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HIDD Library API<div class="ingroups"><a class="el" href="group__wiced__bt__hid.html">Human Interface Device (HID)</a></div></div>  </div>
+<div class="title">HIDD Library API</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -182,18 +182,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gaeb5b40597fba02091bf70aa3c8c02d2f">wiced_blehidd_write_handler</a> (void *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>)</td></tr>
 <tr class="memdesc:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle GATT write cmd/req for HID reports.  <a href="#gaeb5b40597fba02091bf70aa3c8c02d2f">More...</a><br /></td></tr>
 <tr class="separator:gaeb5b40597fba02091bf70aa3c8c02d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad086c02399d249f94c0076bb406d7b94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad086c02399d249f94c0076bb406d7b94">wiced_blehidd_pwm_buz_init</a> (uint8_t gpio, uint8_t offVal)</td></tr>
-<tr class="memdesc:gad086c02399d249f94c0076bb406d7b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">set PWM BUZ gpio pin  <a href="#gad086c02399d249f94c0076bb406d7b94">More...</a><br /></td></tr>
-<tr class="separator:gad086c02399d249f94c0076bb406d7b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e527a7d22d550aa726515af1a973fbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga5e527a7d22d550aa726515af1a973fbe">wiced_blehidd_pwm_buz_freq</a> (uint8_t preset, uint16_t init_value, uint16_t toggle_val)</td></tr>
-<tr class="memdesc:ga5e527a7d22d550aa726515af1a973fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">set PWM frequency setting for BUZ  <a href="#ga5e527a7d22d550aa726515af1a973fbe">More...</a><br /></td></tr>
-<tr class="separator:ga5e527a7d22d550aa726515af1a973fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f39185d30668bdd8df89fc5e0c44390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga5f39185d30668bdd8df89fc5e0c44390">wiced_blehidd_pwm_buz_on</a> (uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>)</td></tr>
-<tr class="memdesc:ga5f39185d30668bdd8df89fc5e0c44390"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM BUZ on.  <a href="#ga5f39185d30668bdd8df89fc5e0c44390">More...</a><br /></td></tr>
-<tr class="separator:ga5f39185d30668bdd8df89fc5e0c44390"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2b76b6cde6685bf526e9c6d22c8549ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga2b76b6cde6685bf526e9c6d22c8549ba">wiced_blehidd_pwm_buz_off</a> (uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>)</td></tr>
-<tr class="memdesc:ga2b76b6cde6685bf526e9c6d22c8549ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">PWM BUZ off.  <a href="#ga2b76b6cde6685bf526e9c6d22c8549ba">More...</a><br /></td></tr>
-<tr class="separator:ga2b76b6cde6685bf526e9c6d22c8549ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac2f7b0105608557915f6200dcda0be07"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gac2f7b0105608557915f6200dcda0be07">wiced_blehidd_get_att_mtu_size</a> (BD_ADDR bda)</td></tr>
 <tr class="separator:gac2f7b0105608557915f6200dcda0be07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga24fdd54f5ebc55bc67f338952b73abc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga24fdd54f5ebc55bc67f338952b73abc0">wiced_blehidd_allow_slave_latency</a> (wiced_bool_t allow)</td></tr>
@@ -208,18 +196,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2baad6d3d560496f48675077b8dd0109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga2baad6d3d560496f48675077b8dd0109">wiced_bthidd_setDefaultLinkSupervisionTimeout</a> (UINT16 slots)</td></tr>
 <tr class="memdesc:ga2baad6d3d560496f48675077b8dd0109"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the default Link Supervision Timeout value  <a href="#ga2baad6d3d560496f48675077b8dd0109">More...</a><br /></td></tr>
 <tr class="separator:ga2baad6d3d560496f48675077b8dd0109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf4a7dcfe5ee92204b4fa54fcd2c17b63"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gaf4a7dcfe5ee92204b4fa54fcd2c17b63">wiced_bt_hidd_configure_power_management_params</a> (const <a class="el" href="structwiced__bt__hidd__pm__pwr__state__t.html">wiced_bt_hidd_pm_pwr_state_t</a> *params, uint8_t numParams, const <a class="el" href="structwiced__bt__hidd__pm__pwr__state__t.html">wiced_bt_hidd_pm_pwr_state_t</a> *ssrParams, uint8_t numSSRParams)</td></tr>
-<tr class="memdesc:gaf4a7dcfe5ee92204b4fa54fcd2c17b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure power mgmt (active/sniff/sniff subrate) parameters.  <a href="#gaf4a7dcfe5ee92204b4fa54fcd2c17b63">More...</a><br /></td></tr>
-<tr class="separator:gaf4a7dcfe5ee92204b4fa54fcd2c17b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad274b461b46dd46f3201d777d39e48f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gad274b461b46dd46f3201d777d39e48f1">wiced_bt_hidd_power_management_pause</a> (void)</td></tr>
-<tr class="memdesc:gad274b461b46dd46f3201d777d39e48f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request to stop actively managing this link's power transition between active, sniff and sniff subrate.  <a href="#gad274b461b46dd46f3201d777d39e48f1">More...</a><br /></td></tr>
-<tr class="separator:gad274b461b46dd46f3201d777d39e48f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3f70fc3079d6cca9a01559f151ad8619"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga3f70fc3079d6cca9a01559f151ad8619">wiced_bt_hidd_power_management_unpause</a> (void)</td></tr>
-<tr class="memdesc:ga3f70fc3079d6cca9a01559f151ad8619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request to resume actively managing this link's power transiton between active, sniff and sniff subrate Since we don't know what state we are currently in, we will always go back to max power state and start from there using the current list of params.  <a href="#ga3f70fc3079d6cca9a01559f151ad8619">More...</a><br /></td></tr>
-<tr class="separator:ga3f70fc3079d6cca9a01559f151ad8619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab4929651b83d25015efbe9769bc25520"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gab4929651b83d25015efbe9769bc25520">wiced_bt_hidd_power_management_switch_active_high_state</a> (uint8_t index, wiced_bool_t exitSSR)</td></tr>
-<tr class="memdesc:gab4929651b83d25015efbe9769bc25520"><td class="mdescLeft">&#160;</td><td class="mdescRight">switch between active POWER_MODE_HIGH states  <a href="#gab4929651b83d25015efbe9769bc25520">More...</a><br /></td></tr>
-<tr class="separator:gab4929651b83d25015efbe9769bc25520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>HIDD Functions. </p>
@@ -498,135 +474,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga5e527a7d22d550aa726515af1a973fbe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_blehidd_pwm_buz_freq </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>preset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>init_value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>toggle_val</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set PWM frequency setting for BUZ </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">preset</td><td>- PWM frequency, enum defined as wiced_hidd_pwmbuz_freq_e enum wiced_hidd_pwmbuz_freq_e { WICED_PWMBUZ_125 = 0, WICED_PWMBUZ_250 = 1, WICED_PWMBUZ_500 = 2, WICED_PWMBUZ_1000 = 3, WICED_PWMBUZ_2000 = 4, WICED_PWMBUZ_4000 = 5, WICED_PWMBUZ_8000 = 6, WICED_PWMBUZ_FREQ_MAX = 7, WICED_PWMBUZ_FREQ_MANUAL = 0xFF, }; </td></tr>
-    <tr><td class="paramname">init_value</td><td>- PWM initial value for the counter </td></tr>
-    <tr><td class="paramname">toggle_val</td><td>- PWM value when a toggle happens</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gad086c02399d249f94c0076bb406d7b94"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_blehidd_pwm_buz_init </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>gpio</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>offVal</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set PWM BUZ gpio pin </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">gpio</td><td>- LHL GPIO pin </td></tr>
-    <tr><td class="paramname">offVal</td><td>- the GPIO output val when buz is off</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga2b76b6cde6685bf526e9c6d22c8549ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_blehidd_pwm_buz_off </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWM BUZ off. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">id</td><td>- PWM ID PWM HW block has 6 PWM channels each with its own 10 bit counter. The first PWM id is PWM0; enum { PWM0 = 0, PWM1 = 1, PWM2 = 2, PWM3 = 3, PWM4 = 4, PWM5 = 5, MAX_PWMS = 6 };</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga5f39185d30668bdd8df89fc5e0c44390"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_blehidd_pwm_buz_on </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PWM BUZ on. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">id</td><td>- PWM ID PWM HW block has 6 PWM channels each with its own 10 bit counter. The first PWM id is PWM0; enum { PWM0 = 0, PWM1 = 1, PWM2 = 2, PWM3 = 3, PWM4 = 4, PWM5 = 5, MAX_PWMS = 6 };</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="ga8e927247ea56012e9043ce05689ca96c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -829,142 +676,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 - successful others - failed </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaf4a7dcfe5ee92204b4fa54fcd2c17b63"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_bt_hidd_configure_power_management_params </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structwiced__bt__hidd__pm__pwr__state__t.html">wiced_bt_hidd_pm_pwr_state_t</a> *&#160;</td>
-          <td class="paramname"><em>params</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>numParams</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structwiced__bt__hidd__pm__pwr__state__t.html">wiced_bt_hidd_pm_pwr_state_t</a> *&#160;</td>
-          <td class="paramname"><em>ssrParams</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>numSSRParams</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configure power mgmt (active/sniff/sniff subrate) parameters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">params</td><td>: paramters for Power management states </td></tr>
-    <tr><td class="paramname">numParams</td><td>: number of Power management states. Maximum is 8 </td></tr>
-    <tr><td class="paramname">params</td><td>: paramters for Sniff Subrate (SSR) Power management states </td></tr>
-    <tr><td class="paramname">numParams</td><td>: number of Sniff Subrate (SSR) Power management states. Maximum is 3</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE if successful, otherwise WICED_FALSE </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gad274b461b46dd46f3201d777d39e48f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_hidd_power_management_pause </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Request to stop actively managing this link's power transition between active, sniff and sniff subrate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gab4929651b83d25015efbe9769bc25520"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_hidd_power_management_switch_active_high_state </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
-          <td class="paramname"><em>exitSSR</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>switch between active POWER_MODE_HIGH states </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>: the index of the new activated POWER_MODE_HIGH state </td></tr>
-    <tr><td class="paramname">exitSSR</td><td>if currently in SSR, the value of exitSSR will decide if it needs to unsniff and re-negotiate new sniff intervals or not.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga3f70fc3079d6cca9a01559f151ad8619"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_hidd_power_management_unpause </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Request to resume actively managing this link's power transiton between active, sniff and sniff subrate Since we don't know what state we are currently in, we will always go back to max power state and start from there using the current list of params. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>

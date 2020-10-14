@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -157,6 +157,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9f936b55910974c17394ddc91eed6db3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3">wiced_bt_spp_port_purge</a> (uint16_t handle, uint8_t purge_flags)</td></tr>
 <tr class="memdesc:ga9f936b55910974c17394ddc91eed6db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to discard all the data from the output or input queues of the specified connection.  <a href="#ga9f936b55910974c17394ddc91eed6db3">More...</a><br /></td></tr>
 <tr class="separator:ga9f936b55910974c17394ddc91eed6db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac27bbd3e59da11bc092cb950333aba39"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#gac27bbd3e59da11bc092cb950333aba39">wiced_bt_spp_rfcomm_get_peer_mtu</a> (uint16_t handle)</td></tr>
+<tr class="memdesc:gac27bbd3e59da11bc092cb950333aba39"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to read the peer_mtu size when rfcomm connection made.  <a href="#gac27bbd3e59da11bc092cb950333aba39">More...</a><br /></td></tr>
+<tr class="separator:gac27bbd3e59da11bc092cb950333aba39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>SPP library of the WICED SDK provide a simple method for an application to integrate SPP functionality. </p>
@@ -391,6 +394,25 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>rfcomm port return code </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac27bbd3e59da11bc092cb950333aba39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_bt_spp_rfcomm_get_peer_mtu </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SPP application may use this function to read the peer_mtu size when rfcomm connection made. </p>
+<dl class="section return"><dt>Returns</dt><dd>rfcomm port peer mtu size </dd></dl>
 
 </div>
 </div>

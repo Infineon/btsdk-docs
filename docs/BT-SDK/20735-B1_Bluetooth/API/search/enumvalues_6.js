@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['remote_5fcontrol_5fconnected',['REMOTE_CONTROL_CONNECTED',['../group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655ac2f2a7140c2d7c36a53008dd8bf32a37',1,'wiced_bt_avrc_ct.h']]],
-  ['remote_5fcontrol_5fdisconnected',['REMOTE_CONTROL_DISCONNECTED',['../group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655acf9920a6dd21885ce33ca97be7efd582',1,'wiced_bt_avrc_ct.h']]],
-  ['remote_5fcontrol_5ffeature_5fcontroller',['REMOTE_CONTROL_FEATURE_CONTROLLER',['../group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a45e72ec728d5d3de8df245db3977085a',1,'wiced_bt_avrc_ct.h']]],
-  ['remote_5fcontrol_5ffeature_5ftarget',['REMOTE_CONTROL_FEATURE_TARGET',['../group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a5cb8a54c77a36132be781ef968ddedf1',1,'wiced_bt_avrc_ct.h']]],
-  ['remote_5fcontrol_5finitialized',['REMOTE_CONTROL_INITIALIZED',['../group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655a65dafb7a7929a45d047440da69074882',1,'wiced_bt_avrc_ct.h']]],
   ['reserved_5f1',['RESERVED_1',['../group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166af428eaa5b11ce9e4813c0dc3eb105ba0',1,'wiced_hal_gpio.h']]],
   ['reserved_5f10',['RESERVED_10',['../group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166aa1b94d69987dc9a2c2d6a4b26ae9df9e',1,'wiced_hal_gpio.h']]],
   ['reserved_5f11',['RESERVED_11',['../group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a728916e28e00577067f919bc9234b6a7',1,'wiced_hal_gpio.h']]],

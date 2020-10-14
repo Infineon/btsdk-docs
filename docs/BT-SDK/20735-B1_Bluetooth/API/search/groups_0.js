@@ -9,7 +9,5 @@ var searchData=
   ['ans_20library_20api',['ANS Library API',['../group__wiced__bt__ans__api__functions.html',1,'']]],
   ['audio_20_2f_20video',['Audio / Video',['../group__wicedbt__av.html',1,'']]],
   ['audio_20_2f_20video_20remote_20control_20_28avrcp_29',['Audio / Video Remote Control (AVRCP)',['../group__wicedbt__avrc.html',1,'']]],
-  ['avrcp_20common',['AVRCP Common',['../group__wicedbt__avrc__common.html',1,'']]],
-  ['avrcp_20controller_20role_20_28ct_29',['AVRCP Controller Role (CT)',['../group__wicedbt__avrc__ct.html',1,'']]],
-  ['avrcp_20target_20role_20_28tg_29',['AVRCP Target Role (TG)',['../group__wicedbt__avrc__tg.html',1,'']]]
+  ['avrcp_20common',['AVRCP Common',['../group__wicedbt__avrc__common.html',1,'']]]
 ];

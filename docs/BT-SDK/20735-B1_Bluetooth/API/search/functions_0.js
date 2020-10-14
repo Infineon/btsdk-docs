@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['debug_5ffatalerror',['debug_FatalError',['../brcm__fw__types_8h.html#a9671006300649b178ac40a25dfa2a2db',1,'brcm_fw_types.h']]],
-  ['debug_5ffatalerrormessage2',['debug_FatalErrorMessage2',['../brcm__fw__types_8h.html#a871c1e496f32058d4ac7bbbdd053f52c',1,'brcm_fw_types.h']]],
-  ['debug_5ffatalerrorvalue',['debug_FatalErrorValue',['../brcm__fw__types_8h.html#acb2b30bd99dc307ebbdc45cbe0d12649',1,'brcm_fw_types.h']]]
+  ['btm_5fsetlinksupertout',['BTM_SetLinkSuperTout',['../wiced__bt__dev_8h.html#a78de8e3d5316111ebf8405364f3214b8',1,'wiced_bt_dev.h']]],
+  ['btm_5fswitchrole',['BTM_SwitchRole',['../wiced__bt__dev_8h.html#a782ed1a15ed7e91016ccc120f94f1898',1,'wiced_bt_dev.h']]]
 ];

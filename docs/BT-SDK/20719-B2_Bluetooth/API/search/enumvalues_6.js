@@ -25,5 +25,10 @@ var searchData=
   ['port_5fev_5ftxempty',['PORT_EV_TXEMPTY',['../wiced__bt__rfcomm_8h.html#a167e3d9b581bf1b6c30c4008a9859d23ad63e02b7e64c356efcde1a698dde128f',1,'wiced_bt_rfcomm.h']]],
   ['port_5fset_5fctsrts',['PORT_SET_CTSRTS',['../wiced__bt__rfcomm_8h.html#adc2b731e552fdb229490b5640e29714dac3d657875811506d148b0c0eeb640b45',1,'wiced_bt_rfcomm.h']]],
   ['port_5fset_5fdcd',['PORT_SET_DCD',['../wiced__bt__rfcomm_8h.html#adc2b731e552fdb229490b5640e29714da52d12db3884e5e67c4aebe743ebc08b4',1,'wiced_bt_rfcomm.h']]],
-  ['port_5fset_5fri',['PORT_SET_RI',['../wiced__bt__rfcomm_8h.html#adc2b731e552fdb229490b5640e29714da461f64d59a7ad02bef1d444733ea8943',1,'wiced_bt_rfcomm.h']]]
+  ['port_5fset_5fri',['PORT_SET_RI',['../wiced__bt__rfcomm_8h.html#adc2b731e552fdb229490b5640e29714da461f64d59a7ad02bef1d444733ea8943',1,'wiced_bt_rfcomm.h']]],
+  ['power_5fmode_5fbfc_5fsuspend',['POWER_MODE_BFC_SUSPEND',['../wiced__hidd__lib_8h.html#a16685eea158879e41b101ca3634de462a4a715626f037284861429b5d39e09762',1,'wiced_hidd_lib.h']]],
+  ['power_5fmode_5fdisconnect',['POWER_MODE_DISCONNECT',['../wiced__hidd__lib_8h.html#a16685eea158879e41b101ca3634de462a869a2b45d9e71e2a979a04c79b2117c1',1,'wiced_hidd_lib.h']]],
+  ['power_5fmode_5fhigh',['POWER_MODE_HIGH',['../wiced__hidd__lib_8h.html#a16685eea158879e41b101ca3634de462a34e6d338d648dc46bcd84c78c18bcdd4',1,'wiced_hidd_lib.h']]],
+  ['power_5fmode_5fidle',['POWER_MODE_IDLE',['../wiced__hidd__lib_8h.html#a16685eea158879e41b101ca3634de462ad17dbd45cf82f38b689dc3b4d6525d9a',1,'wiced_hidd_lib.h']]],
+  ['power_5fmode_5flow',['POWER_MODE_LOW',['../wiced__hidd__lib_8h.html#a16685eea158879e41b101ca3634de462a4320eb12b7fdebee0a21c20e69fee81f',1,'wiced_hidd_lib.h']]]
 ];

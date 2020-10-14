@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,12 +96,22 @@ $(document).ready(function(){initNavTree('group__group__dev__functions__ctrl.htm
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Device Control<div class="ingroups"><a class="el" href="group__group__dev__functions.html">Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gad455336f27642426ac5bdf417297a97f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad455336f27642426ac5bdf417297a97f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_switch_role</b>&#160;&#160;&#160;<a class="el" href="group__group__dev__functions__ctrl.html#ga782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a></td></tr>
+<tr class="separator:gad455336f27642426ac5bdf417297a97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8ed21cf83f2a529c06f82acdbb5dcf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab8ed21cf83f2a529c06f82acdbb5dcf8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_link_supervision_timeout</b>&#160;&#160;&#160;<a class="el" href="group__group__dev__functions__ctrl.html#ga78de8e3d5316111ebf8405364f3214b8">BTM_SetLinkSuperTout</a></td></tr>
+<tr class="separator:gab8ed21cf83f2a529c06f82acdbb5dcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gab6a09117d2fa6f4b31d8bfb9aa4d382c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gab6a09117d2fa6f4b31d8bfb9aa4d382c">wiced_bt_dev_read_local_addr</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
@@ -128,6 +138,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga8bcf7e6edc3dd8112412dc3cb4cd0837">wiced_bt_dev_get_role</a> (wiced_bt_device_address_t remote_bd_addr, UINT8 *p_role, wiced_bt_transport_t transport)</td></tr>
 <tr class="memdesc:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the role of the local device for the ACL connection with the specified remote device.  <a href="#ga8bcf7e6edc3dd8112412dc3cb4cd0837">More...</a><br /></td></tr>
 <tr class="separator:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga782ed1a15ed7e91016ccc120f94f1898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a> (wiced_bt_device_address_t remote_bd_addr, uint8_t new_role, <a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cb)</td></tr>
+<tr class="memdesc:ga782ed1a15ed7e91016ccc120f94f1898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_switch_role.  <a href="#ga782ed1a15ed7e91016ccc120f94f1898">More...</a><br /></td></tr>
+<tr class="separator:ga782ed1a15ed7e91016ccc120f94f1898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78de8e3d5316111ebf8405364f3214b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga78de8e3d5316111ebf8405364f3214b8">BTM_SetLinkSuperTout</a> (wiced_bt_device_address_t remote_bd_addr, uint16_t timeout)</td></tr>
+<tr class="memdesc:ga78de8e3d5316111ebf8405364f3214b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_supervision_timeout.  <a href="#ga78de8e3d5316111ebf8405364f3214b8">More...</a><br /></td></tr>
+<tr class="separator:ga78de8e3d5316111ebf8405364f3214b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga6b6f27c420d41335cc3fc326e2bb787b">wiced_bt_set_tx_power</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, INT8 power)</td></tr>
 <tr class="memdesc:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commands to set the TX power on link.  <a href="#ga6b6f27c420d41335cc3fc326e2bb787b">More...</a><br /></td></tr>
 <tr class="separator:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +162,87 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga78de8e3d5316111ebf8405364f3214b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> BTM_SetLinkSuperTout </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
+          <td class="paramname"><em>remote_bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_link_supervision_timeout. </p>
+<p>set Link Supervision Timeout</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>: BD address of remote device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>:</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_BT_PENDING if successfully initiated, otherwise error. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga782ed1a15ed7e91016ccc120f94f1898"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> BTM_SwitchRole </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
+          <td class="paramname"><em>remote_bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>new_role</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
+          <td class="paramname"><em>p_cb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_switch_role. </p>
+<p>This function is called to switch the role between master and slave. If role is already set it will do nothing. If the command was initiated, the callback function is called upon completion.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>: BD address of remote device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">new_role</td><td>: New role (BTM_ROLE_MASTER or BTM_ROLE_SLAVE) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Result callback (<a class="el" href="structwiced__bt__dev__switch__role__result__t.html">wiced_bt_dev_switch_role_result_t</a> will be passed to the callback)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_BT_SUCCESS if already in specified role. WICED_BT_CMD_STARTED if command issued to controller. WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified WICED_BT_MODE_UNSUPPORTED if local device doesn't support role switching </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga2a25f2513f319465608e68a02ab2c714"></a>
 <div class="memitem">
 <div class="memproto">

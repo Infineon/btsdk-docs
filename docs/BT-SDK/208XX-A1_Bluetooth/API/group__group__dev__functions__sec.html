@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,12 +96,19 @@ $(document).ready(function(){initNavTree('group__group__dev__functions__sec.html
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Security<div class="ingroups"><a class="el" href="group__group__dev__functions.html">Functions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga1e8b8b0e1637eab9f503f0917f552783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1e8b8b0e1637eab9f503f0917f552783"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_link_policy</b>&#160;&#160;&#160;BTM_SetLinkPolicy</td></tr>
+<tr class="separator:ga1e8b8b0e1637eab9f503f0917f552783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga25d190c6dec75838e2ae09d5db385ad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__sec.html#ga25d190c6dec75838e2ae09d5db385ad7">wiced_bt_dev_pin_code_reply</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> res, uint8_t pin_len, uint8_t *p_pin)</td></tr>
@@ -167,6 +174,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1623435bfdbefbf12a2fd1c64dbb71e1"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__sec.html#ga1623435bfdbefbf12a2fd1c64dbb71e1">wiced_bt_get_identity_address</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bt_device_address_t identity_address)</td></tr>
 <tr class="memdesc:ga1623435bfdbefbf12a2fd1c64dbb71e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the identity address of the given device.  <a href="#ga1623435bfdbefbf12a2fd1c64dbb71e1">More...</a><br /></td></tr>
 <tr class="separator:ga1623435bfdbefbf12a2fd1c64dbb71e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__sec.html#gaa33eda752b4873cb9f19b0ef2634d9a4">wiced_bt_dev_set_link_policy</a> (wiced_bt_device_address_t remote_bda, uint16_t *settings)</td></tr>
+<tr class="memdesc:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_policy.  <a href="#gaa33eda752b4873cb9f19b0ef2634d9a4">More...</a><br /></td></tr>
+<tr class="separator:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -827,6 +837,43 @@ Functions</h2></td></tr>
 <li>WICED_BT_BUSY security procedures are currently active </li>
 </ul>
 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa33eda752b4873cb9f19b0ef2634d9a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_link_policy </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
+          <td class="paramname"><em>remote_bda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>settings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_link_policy. </p>
+<p>This function is called to set the Link Policy for remote device</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: remote device's address </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">in/out]</td><td>settings : pointer to the settings value. the policy setting is defined in hcidefs.h if the input setting consists of unsupport feature for local device, it will be cleared</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>
 </div>

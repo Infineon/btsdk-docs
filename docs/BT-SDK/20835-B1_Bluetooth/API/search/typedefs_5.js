@@ -88,10 +88,6 @@ var searchData=
   ['wiced_5fbt_5fsmp_5fstatus_5ft',['wiced_bt_smp_status_t',['../wiced__bt__dev_8h.html#aed9ea4328615e51aae386ffa2db1b6bc',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5ftransport_5ft',['wiced_bt_transport_t',['../wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0',1,'wiced_bt_types.h']]],
   ['wiced_5fdev_5fble_5fsignature_5ft',['wiced_dev_ble_signature_t',['../wiced__bt__ble_8h.html#a39b3b50eac531691f2bc87291526bb73',1,'wiced_bt_ble.h']]],
-  ['wiced_5fdir_5ft',['wiced_dir_t',['../wiced__filesystem_8h.html#a173e85093bd2f382e5147aef815ccbb1',1,'wiced_filesystem.h']]],
-  ['wiced_5ffile_5ft',['wiced_file_t',['../wiced__filesystem_8h.html#aee79a54c41a99ec695614b4e6113cab3',1,'wiced_filesystem.h']]],
-  ['wiced_5ffilesystem_5fmounted_5fdevice_5ft',['wiced_filesystem_mounted_device_t',['../wiced__filesystem_8h.html#ac0ec541c184b3909307e75b59b67d040',1,'wiced_filesystem.h']]],
-  ['wiced_5ffilesystem_5ft',['wiced_filesystem_t',['../wiced__filesystem_8h.html#ac2b146c3defbc3171c48b60909955dd2',1,'wiced_filesystem.h']]],
   ['wiced_5fgattdb_5fentry_5ft',['wiced_gattdb_entry_t',['../wiced__bt__gatt_8h.html#a3166857600c815a19ac2d47cfa755f62',1,'wiced_bt_gatt.h']]],
   ['wiced_5fhal_5fbatmon_5fobserver_5ffp',['wiced_hal_batmon_observer_fp',['../group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995',1,'wiced_hal_batmon.h']]],
   ['wiced_5fota_5ffirmware_5fevent_5fcallback_5ft',['wiced_ota_firmware_event_callback_t',['../group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7',1,'wiced_bt_ota_firmware_upgrade.h']]],
@@ -99,7 +95,6 @@ var searchData=
   ['wiced_5fota_5ffirmware_5fupgrade_5fstatus_5fcallback_5ft',['wiced_ota_firmware_upgrade_status_callback_t',['../group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c',1,'wiced_bt_ota_firmware_upgrade.h']]],
   ['wiced_5fsleep_5fallow_5fcheck_5fcallback',['wiced_sleep_allow_check_callback',['../group__wiced__sleep__config.html#ga3e452b8636fb1cbd0c16b8eb720faf7f',1,'wiced_sleep.h']]],
   ['wiced_5fspi_5ftransport_5fcfg_5ft',['wiced_spi_transport_cfg_t',['../group___transport.html#ga19008098c6feb1ef93c48629d4f7529d',1,'wiced_transport.h']]],
-  ['wiced_5ftime_5ft',['wiced_time_t',['../wiced__filesystem_8h.html#ab72826466036544afd26cb80ab51d286',1,'wiced_filesystem.h']]],
   ['wiced_5ftranport_5fdata_5fhandler_5ft',['wiced_tranport_data_handler_t',['../group___transport.html#gac18db9b6503a1f1fd4ff237c5d4fccca',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5fbuffer_5fpool_5ft',['wiced_transport_buffer_pool_t',['../group___transport.html#ga4c42181f8444932c1076e589e4c7feef',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5fcfg_5ft',['wiced_transport_cfg_t',['../group___transport.html#ga2b1c4c2de2b7f9eb992217dd2fe9a5b2',1,'wiced_transport.h']]],
@@ -107,7 +102,5 @@ var searchData=
   ['wiced_5ftransport_5frx_5fbuff_5fpool_5fcfg_5ft',['wiced_transport_rx_buff_pool_cfg_t',['../group___transport.html#ga719719e248c27499ef5a2641324fd72f',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5fstatus_5fhandler_5ft',['wiced_transport_status_handler_t',['../group___transport.html#ga7b9d02d5fdbf9d3dd635d92be25d3372',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5ftx_5fcomplete_5ft',['wiced_transport_tx_complete_t',['../group___transport.html#gaa346b15f3bee3902b565a13ab0f82815',1,'wiced_transport.h']]],
-  ['wiced_5fuart_5ftransport_5fcfg_5ft',['wiced_uart_transport_cfg_t',['../group___transport.html#ga6d488874191d2e04f2904009b19dab01',1,'wiced_transport.h']]],
-  ['wiced_5futc_5ftime_5fms_5ft',['wiced_utc_time_ms_t',['../wiced__filesystem_8h.html#ab0bcc35a765c4a13de3f89234ad1f997',1,'wiced_filesystem.h']]],
-  ['wiced_5futc_5ftime_5ft',['wiced_utc_time_t',['../wiced__filesystem_8h.html#aeed617e56e7e89bb5dbb7a17964706d0',1,'wiced_filesystem.h']]]
+  ['wiced_5fuart_5ftransport_5fcfg_5ft',['wiced_uart_transport_cfg_t',['../group___transport.html#ga6d488874191d2e04f2904009b19dab01',1,'wiced_transport.h']]]
 ];

@@ -24,7 +24,6 @@ var group__wicedbt__avrc__ct =
     [ "wiced_bt_avrc_ct_add_to_now_playing_cmd", "group__wicedbt__avrc__ct.html#ga54ec8030b93000e29784e654d15ee98f", null ],
     [ "wiced_bt_avrc_ct_change_path_cmd", "group__wicedbt__avrc__ct.html#ga460dd8b65f6d48d611942bd714ef45d6", null ],
     [ "wiced_bt_avrc_ct_connect", "group__wicedbt__avrc__ct.html#gad40ece7639165beb78d3e8e72a42ddb0", null ],
-    [ "wiced_bt_avrc_ct_deinit", "group__wicedbt__avrc__ct.html#ga9320731852e15f365b220a3b24d660ef", null ],
     [ "wiced_bt_avrc_ct_disconnect", "group__wicedbt__avrc__ct.html#gaaaed1dabc37fbf4ee464b2268ad462b1", null ],
     [ "wiced_bt_avrc_ct_features_register", "group__wicedbt__avrc__ct.html#ga04feecaa580e016eb188cff0c2cc74d4", null ],
     [ "wiced_bt_avrc_ct_get_element_attr_cmd", "group__wicedbt__avrc__ct.html#ga4c0e9918900e835504052bc995bd5b76", null ],

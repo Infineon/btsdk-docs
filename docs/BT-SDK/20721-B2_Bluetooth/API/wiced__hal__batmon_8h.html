@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.7 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,8 @@ $(document).ready(function(){initNavTree('wiced__hal__batmon_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_hal_batmon.h File Reference</div>  </div>
@@ -105,17 +107,50 @@ $(document).ready(function(){initNavTree('wiced__hal__batmon_8h.html','');});
 <p>List of parameters and defined functions needed to access the Battery Monitor.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__hal__batmon__observer.html">_wiced_hal_batmon_observer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga21315e3f4b95bc712189bbcbbd6c7995"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995">wiced_hal_batmon_observer_fp</a> )(uint32_t)</td></tr>
+<tr class="memdesc:ga21315e3f4b95bc712189bbcbbd6c7995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported ADC input channel selection for battery connection.  <a href="group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995">More...</a><br /></td></tr>
+<tr class="separator:ga21315e3f4b95bc712189bbcbbd6c7995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace6df421679baa3873d1a1470ca0c261"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gace6df421679baa3873d1a1470ca0c261"></a>
+typedef struct <br class="typebreak" />
+<a class="el" href="struct__wiced__hal__batmon__observer.html">_wiced_hal_batmon_observer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_batmon_observer_t</b></td></tr>
+<tr class="separator:gace6df421679baa3873d1a1470ca0c261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c">wiced_hal_batmon_config</a> (uint8_t adcInputConnected, uint32_t measurementInterval, uint8_t numMeasurementsToAvg, uint16_t fullVoltage, uint16_t emptyVoltage, uint16_t shutdownVoltage, uint8_t maxLevel, uint8_t reportID, uint8_t reportLength, uint8_t reportOnConnect)</td></tr>
-<tr class="memdesc:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported ADC input channel selection for battery connection.  <a href="group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c">More...</a><br /></td></tr>
+<tr class="memdesc:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the configuration parameters of the Battery Monitor.  <a href="group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c">More...</a><br /></td></tr>
 <tr class="separator:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga77be52a45b4921946843d954426d563f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga77be52a45b4921946843d954426d563f">wiced_hal_batmon_init</a> (void)</td></tr>
 <tr class="memdesc:ga77be52a45b4921946843d954426d563f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and then start the Battery Monitor.  <a href="group___battery_monitor_driver.html#ga77be52a45b4921946843d954426d563f">More...</a><br /></td></tr>
 <tr class="separator:ga77be52a45b4921946843d954426d563f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88712921ebc48a31752bf243637826fb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga88712921ebc48a31752bf243637826fb">wiced_hal_batmon_get_battery_level</a> (void)</td></tr>
+<tr class="memdesc:ga88712921ebc48a31752bf243637826fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get battery level (0-max level).  <a href="group___battery_monitor_driver.html#ga88712921ebc48a31752bf243637826fb">More...</a><br /></td></tr>
+<tr class="separator:ga88712921ebc48a31752bf243637826fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa95d258fa9e7a6c14bbb734c6793e6af"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#gaa95d258fa9e7a6c14bbb734c6793e6af">wiced_hal_batmon_get_battery_raw_vol</a> (void)</td></tr>
+<tr class="memdesc:gaa95d258fa9e7a6c14bbb734c6793e6af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current running average raw voltage.  <a href="group___battery_monitor_driver.html#gaa95d258fa9e7a6c14bbb734c6793e6af">More...</a><br /></td></tr>
+<tr class="separator:gaa95d258fa9e7a6c14bbb734c6793e6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21c207ff1939336e237f4aea874ea40c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga21c207ff1939336e237f4aea874ea40c">wiced_hal_batmon_add_battery_observer</a> (<a class="el" href="group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995">wiced_hal_batmon_observer_fp</a> *observer)</td></tr>
+<tr class="memdesc:ga21c207ff1939336e237f4aea874ea40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">add observer for battery level changed  <a href="group___battery_monitor_driver.html#ga21c207ff1939336e237f4aea874ea40c">More...</a><br /></td></tr>
+<tr class="separator:ga21c207ff1939336e237f4aea874ea40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcd3e4f0551a3d66b3b862f99a6260dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#gafcd3e4f0551a3d66b3b862f99a6260dd">wiced_hal_batmon_register_low_battery_shutdown_cb</a> (void(*func_CB)(void))</td></tr>
+<tr class="memdesc:gafcd3e4f0551a3d66b3b862f99a6260dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">register application callback handler for low battery shut down  <a href="group___battery_monitor_driver.html#gafcd3e4f0551a3d66b3b862f99a6260dd">More...</a><br /></td></tr>
+<tr class="separator:gafcd3e4f0551a3d66b3b862f99a6260dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6301e1fb4bdefab36e7bb4aecf5500e"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#gaa6301e1fb4bdefab36e7bb4aecf5500e">wiced_hal_batmon_is_low_battery_shutdown</a> (void)</td></tr>
+<tr class="memdesc:gaa6301e1fb4bdefab36e7bb4aecf5500e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if low battery shutdown is on-going.  <a href="group___battery_monitor_driver.html#gaa6301e1fb4bdefab36e7bb4aecf5500e">More...</a><br /></td></tr>
+<tr class="separator:gaa6301e1fb4bdefab36e7bb4aecf5500e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e717093e7492edf291fa2a35d461463"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga8e717093e7492edf291fa2a35d461463">wiced_hal_batmon_poll_monitor</a> (void)</td></tr>
 <tr class="memdesc:ga8e717093e7492edf291fa2a35d461463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls the battery by monitoring the voltage via the ADC.  <a href="group___battery_monitor_driver.html#ga8e717093e7492edf291fa2a35d461463">More...</a><br /></td></tr>
 <tr class="separator:ga8e717093e7492edf291fa2a35d461463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab3256b4cef40904e4f47910e86638c0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#gab3256b4cef40904e4f47910e86638c0c">wiced_hal_batmon_set_battery_report_sent_flag</a> (wiced_bool_t flag)</td></tr>
+<tr class="memdesc:gab3256b4cef40904e4f47910e86638c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set flag to indicate if battery report is ever sent out once  <a href="group___battery_monitor_driver.html#gab3256b4cef40904e4f47910e86638c0c">More...</a><br /></td></tr>
+<tr class="separator:gab3256b4cef40904e4f47910e86638c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of parameters and defined functions needed to access the Battery Monitor. </p>

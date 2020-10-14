@@ -8,6 +8,7 @@ var group___hardware_drivers =
     [ "External Power Amplifier", "group___external_power_amplifier_driver.html", "group___external_power_amplifier_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
     [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],
+    [ "Keyscan", "group__keyscan.html", "group__keyscan" ],
     [ "Multiple Interface Adapter (MIA)", "group___m_i_a_driver.html", "group___m_i_a_driver" ],
     [ "NVRAM", "group__nvram.html", "group__nvram" ],
     [ "Peripheral SPI", "group___peripheral_spi_driver.html", "group___peripheral_spi_driver" ],

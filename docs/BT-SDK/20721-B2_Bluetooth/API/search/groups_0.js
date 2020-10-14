@@ -7,6 +7,7 @@ var searchData=
   ['audio_20record',['Audio Record',['../group__audio__record.html',1,'']]],
   ['api_20functions',['API Functions',['../group__audio__record__api__functions.html',1,'']]],
   ['auxiliary_20clock_20_28aclk_29',['Auxiliary Clock (ACLK)',['../group___aux_clk_driver.html',1,'']]],
+  ['audio_20codec_20interface',['Audio Codec Interface',['../group__interfaces.html',1,'']]],
   ['api_20functions',['API Functions',['../group__l2cap__api__functions.html',1,'']]],
   ['api_20functions',['API Functions',['../group__sco__hook__api__functions.html',1,'']]],
   ['anc_20library_20api',['ANC Library API',['../group__wiced__bt__anc__api__functions.html',1,'']]],
