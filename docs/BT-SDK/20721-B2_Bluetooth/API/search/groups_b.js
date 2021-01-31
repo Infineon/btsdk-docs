@@ -1,6 +1,8 @@
 var searchData=
 [
+  ['macros',['Macros',['../group__group__hci__fw__upgrade__macros.html',1,'']]],
   ['macros',['Macros',['../group__group__ota__fw__upgrade__macros.html',1,'']]],
+  ['matrix_20functions',['Matrix Functions',['../group__group_matrix.html',1,'']]],
   ['multiple_20interface_20adapter_20_28mia_29',['Multiple Interface Adapter (MIA)',['../group___m_i_a_driver.html',1,'']]],
   ['mutexes',['Mutexes',['../group__mutexes.html',1,'']]],
   ['mesh_20battery_20client',['Mesh Battery Client',['../group__wiced__bt__mesh__battery__client.html',1,'']]],

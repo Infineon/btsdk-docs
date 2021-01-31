@@ -75,6 +75,8 @@ var searchData=
   ['wiced_5fdebug_5fuart_5ftypes_5ft',['wiced_debug_uart_types_t',['../group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2',1,'wiced_bt_trace.h']]],
   ['wiced_5fdevice_5frole_5ft',['wiced_device_role_t',['../group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d',1,'wiced_bt_audio.h']]],
   ['wiced_5fgpio_5fstatus_5fe',['WICED_GPIO_STATUS_e',['../group___g_p_i_o_driver.html#ga4aff7b75c8793fafde1650878ffe6f01',1,'wiced_hal_gpio.h']]],
+  ['wiced_5fhal_5fmic_5fevent_5ft',['wiced_hal_mic_event_t',['../wiced__hal__mic_8h.html#a968d5beea651e8a44c9332c673a60321',1,'wiced_hal_mic.h']]],
+  ['wiced_5fhal_5fmic_5ftype_5ft',['wiced_hal_mic_type_t',['../wiced__hal__mic_8h.html#a94e358038665f31fd9026765eaedf8ae',1,'wiced_hal_mic.h']]],
   ['wiced_5fhal_5fpcm_5fclk_5ft',['wiced_hal_pcm_clk_t',['../wiced__hal__pcm_8h.html#a689bebdb5fe842d0c0c3d743bbd0eee8',1,'wiced_hal_pcm.h']]],
   ['wiced_5fhal_5fpcm_5fdata_5forder_5ft',['wiced_hal_pcm_data_order_t',['../wiced__hal__pcm_8h.html#a0518b300ef35869a4af7f3c1e1ef9f4d',1,'wiced_hal_pcm.h']]],
   ['wiced_5fhal_5fpcm_5ffill_5fdata_5ft',['wiced_hal_pcm_fill_data_t',['../wiced__hal__pcm_8h.html#a1e2bfdefa36a445d5d8a35a6ec61124d',1,'wiced_hal_pcm.h']]],

@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['desc_5finfo',['desc_info',['../structdesc__info.html',1,'']]]
+  ['wiced_5fbt_5fanc_5fcontrol_5falerts_5fresult_5ft',['wiced_bt_anc_control_alerts_result_t',['../structwiced__bt__anc__control__alerts__result__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fdiscovery_5fresult_5ft',['wiced_bt_anc_discovery_result_t',['../structwiced__bt__anc__discovery__result__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fenable_5fdisable_5falerts_5fresult_5ft',['wiced_bt_anc_enable_disable_alerts_result_t',['../structwiced__bt__anc__enable__disable__alerts__result__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fevent_5fdata_5ft',['wiced_bt_anc_event_data_t',['../unionwiced__bt__anc__event__data__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fnew_5falert_5fnotification_5ft',['wiced_bt_anc_new_alert_notification_t',['../structwiced__bt__anc__new__alert__notification__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fsupported_5fnew_5falerts_5fresult_5ft',['wiced_bt_anc_supported_new_alerts_result_t',['../structwiced__bt__anc__supported__new__alerts__result__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5fsupported_5funread_5falerts_5fresult_5ft',['wiced_bt_anc_supported_unread_alerts_result_t',['../structwiced__bt__anc__supported__unread__alerts__result__t.html',1,'']]],
+  ['wiced_5fbt_5fanc_5funread_5falert_5fnotification_5ft',['wiced_bt_anc_unread_alert_notification_t',['../structwiced__bt__anc__unread__alert__notification__t.html',1,'']]],
+  ['wiced_5fbt_5fans_5fgatt_5falert_5fhandles_5ft',['wiced_bt_ans_gatt_alert_handles_t',['../structwiced__bt__ans__gatt__alert__handles__t.html',1,'']]],
+  ['wiced_5fbt_5fans_5fgatt_5fhandles_5ft',['wiced_bt_ans_gatt_handles_t',['../structwiced__bt__ans__gatt__handles__t.html',1,'']]],
+  ['wiced_5fbt_5fbac_5fbattery_5flevel_5fnotification_5ft',['wiced_bt_bac_battery_level_notification_t',['../structwiced__bt__bac__battery__level__notification__t.html',1,'']]],
+  ['wiced_5fbt_5fbac_5fbattery_5flevel_5frsp_5ft',['wiced_bt_bac_battery_level_rsp_t',['../structwiced__bt__bac__battery__level__rsp__t.html',1,'']]],
+  ['wiced_5fbt_5fbac_5fdiscovery_5fcomplete_5ft',['wiced_bt_bac_discovery_complete_t',['../structwiced__bt__bac__discovery__complete__t.html',1,'']]],
+  ['wiced_5fbt_5fbac_5fevent_5fdata_5ft',['wiced_bt_bac_event_data_t',['../unionwiced__bt__bac__event__data__t.html',1,'']]],
+  ['wiced_5fbt_5fbeacon_5fble_5fadvert_5felem_5ft',['wiced_bt_beacon_ble_advert_elem_t',['../structwiced__bt__beacon__ble__advert__elem__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5fdiscovery_5ft',['wiced_bt_hrc_discovery_t',['../structwiced__bt__hrc__discovery__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5fevent_5fdata_5ft',['wiced_bt_hrc_event_data_t',['../unionwiced__bt__hrc__event__data__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5fnotification_5fdata_5ft',['wiced_bt_hrc_notification_data_t',['../structwiced__bt__hrc__notification__data__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5freset_5fenergy_5fexpended_5ft',['wiced_bt_hrc_reset_energy_expended_t',['../structwiced__bt__hrc__reset__energy__expended__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5fstart_5ft',['wiced_bt_hrc_start_t',['../structwiced__bt__hrc__start__t.html',1,'']]],
+  ['wiced_5fbt_5fhrc_5fstop_5ft',['wiced_bt_hrc_stop_t',['../structwiced__bt__hrc__stop__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5fevent_5fdata_5ft',['wiced_bt_hrs_event_data_t',['../unionwiced__bt__hrs__event__data__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5fhandles_5ft',['wiced_bt_hrs_handles_t',['../structwiced__bt__hrs__handles__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5fnotification_5fdata_5ft',['wiced_bt_hrs_notification_data_t',['../structwiced__bt__hrs__notification__data__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5fnotification_5fdisabled_5ft',['wiced_bt_hrs_notification_disabled_t',['../structwiced__bt__hrs__notification__disabled__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5fnotification_5fenabled_5ft',['wiced_bt_hrs_notification_enabled_t',['../structwiced__bt__hrs__notification__enabled__t.html',1,'']]],
+  ['wiced_5fbt_5fhrs_5freset_5fenergy_5fexpended_5ft',['wiced_bt_hrs_reset_energy_expended_t',['../structwiced__bt__hrs__reset__energy__expended__t.html',1,'']]],
+  ['wiced_5fbt_5fota_5ffw_5fupgrad_5fevent_5fdata_5ft',['wiced_bt_ota_fw_upgrad_event_data_t',['../structwiced__bt__ota__fw__upgrad__event__data__t.html',1,'']]],
+  ['wiced_5ffw_5fupgrade_5fnv_5floc_5flen_5ft',['wiced_fw_upgrade_nv_loc_len_t',['../structwiced__fw__upgrade__nv__loc__len__t.html',1,'']]]
 ];

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20721: SDP API Functions</title>
+<title>WICED CYW20721: API Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -96,17 +97,120 @@ $(document).ready(function(){initNavTree('group__sdp__api__functions.html','');}
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">SDP API Functions<div class="ingroups"><a class="el" href="group__sdp.html">Service Discovery Protocol (SDP)</a></div></div>  </div>
+<div class="title">API Functions<div class="ingroups"><a class="el" href="group__sdp.html">Service Discovery Protocol (SDP)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Service Discovery (SDP) Functions.  
+<p><b> API Functions </b> module for <b>SDP</b>.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga6a0edf62c77469d52d9e08ec3a8975c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6a0edf62c77469d52d9e08ec3a8975c7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_ServiceSearchRequest</b>&#160;&#160;&#160;SDP_ServiceSearchAttributeRequest</td></tr>
+<tr class="separator:ga6a0edf62c77469d52d9e08ec3a8975c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga5ca62b6bf1f82935c21bd53ea50f32aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5ca62b6bf1f82935c21bd53ea50f32aa"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_InitDiscoveryDb</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_uuid, tSDP_UUID *p_uuid_list, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_attr, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *p_attr_list)</td></tr>
+<tr class="separator:ga5ca62b6bf1f82935c21bd53ea50f32aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96f14128beb8ebc4df984a0fe2664817"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga96f14128beb8ebc4df984a0fe2664817"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_CancelServiceSearch</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db)</td></tr>
+<tr class="separator:ga96f14128beb8ebc4df984a0fe2664817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb466d3d50faa56423a60d6d37a33cbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafb466d3d50faa56423a60d6d37a33cbc"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_ServiceSearchAttributeRequest</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *p_bd_addr, <a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, tSDP_DISC_CMPL_CB *p_cb)</td></tr>
+<tr class="separator:gafb466d3d50faa56423a60d6d37a33cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5533943487d01ff6e7be8f39eb0f9002"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5533943487d01ff6e7be8f39eb0f9002"></a>
+SDP_API <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindAttributeInDb</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id, <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_start_rec)</td></tr>
+<tr class="separator:ga5533943487d01ff6e7be8f39eb0f9002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga889fb7871430c3d218e52a2f12a9b5b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga889fb7871430c3d218e52a2f12a9b5b9"></a>
+SDP_API <a class="el" href="structt__sdp__disc__attr.html">tSDP_DISC_ATTR</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindAttributeInRec</b> (<a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_rec, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id)</td></tr>
+<tr class="separator:ga889fb7871430c3d218e52a2f12a9b5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26bdc08b6532eb70f0dd18f627f7a38f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga26bdc08b6532eb70f0dd18f627f7a38f"></a>
+SDP_API <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindServiceInDb</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> service_uuid, <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_start_rec)</td></tr>
+<tr class="separator:ga26bdc08b6532eb70f0dd18f627f7a38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f93084fa0891e586aa195178f5baea8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1f93084fa0891e586aa195178f5baea8"></a>
+SDP_API <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindServiceUUIDInDb</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, <a class="el" href="structt_b_t___u_u_i_d.html">tBT_UUID</a> *p_uuid, <a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_start_rec)</td></tr>
+<tr class="separator:ga1f93084fa0891e586aa195178f5baea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1583c689c486a03736498e7737a38e54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1583c689c486a03736498e7737a38e54"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindProtocolListElemInRec</b> (<a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_rec, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> layer_uuid, <a class="el" href="structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html">tSDP_PROTOCOL_ELEM</a> *p_elem)</td></tr>
+<tr class="separator:ga1583c689c486a03736498e7737a38e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4bede4894656ae82e37d7dce6844c41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab4bede4894656ae82e37d7dce6844c41"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindAddProtoListsElemInRec</b> (<a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_rec, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> layer_uuid, <a class="el" href="structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html">tSDP_PROTOCOL_ELEM</a> *p_elem)</td></tr>
+<tr class="separator:gab4bede4894656ae82e37d7dce6844c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac73f2d406dedbcf24e42d9afe5ca363c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac73f2d406dedbcf24e42d9afe5ca363c"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindProfileVersionInRec</b> (<a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_rec, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> profile_uuid, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *p_version)</td></tr>
+<tr class="separator:gac73f2d406dedbcf24e42d9afe5ca363c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb26dc3ea36c99597899b0e2f45fd99e"><td class="memItemLeft" align="right" valign="top">SDP_API <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#gadb26dc3ea36c99597899b0e2f45fd99e">SDP_CreateRecord</a> (void)</td></tr>
+<tr class="memdesc:gadb26dc3ea36c99597899b0e2f45fd99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function SDP_CreateRecord.  <a href="#gadb26dc3ea36c99597899b0e2f45fd99e">More...</a><br /></td></tr>
+<tr class="separator:gadb26dc3ea36c99597899b0e2f45fd99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf5a3711f2331b2e34cb07eb746b29e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaf5a3711f2331b2e34cb07eb746b29e9"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_DeleteRecord</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
+<tr class="separator:gaaf5a3711f2331b2e34cb07eb746b29e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0ba3fe74dbe2cfcd4581d005ce66ec9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0ba3fe74dbe2cfcd4581d005ce66ec9"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#a1137216524060afd426c34677fed058b">INT32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_ReadRecord</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *p_data, <a class="el" href="brcm__fw__types_8h.html#a1137216524060afd426c34677fed058b">INT32</a> *p_data_len)</td></tr>
+<tr class="separator:gaa0ba3fe74dbe2cfcd4581d005ce66ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4134414a34d2634e1cec62e30b7f1bc0"><td class="memItemLeft" align="right" valign="top">SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#ga4134414a34d2634e1cec62e30b7f1bc0">SDP_AddAttribute</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> attr_type, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> attr_len, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *p_val)</td></tr>
+<tr class="memdesc:ga4134414a34d2634e1cec62e30b7f1bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function SDP_AddAttribute.  <a href="#ga4134414a34d2634e1cec62e30b7f1bc0">More...</a><br /></td></tr>
+<tr class="separator:ga4134414a34d2634e1cec62e30b7f1bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d8eeb647ca623e4d28207d20908c93d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3d8eeb647ca623e4d28207d20908c93d"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_AddSequence</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_elem, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>[], <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>[], <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *p_val[])</td></tr>
+<tr class="separator:ga3d8eeb647ca623e4d28207d20908c93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30b70a5be84e1216c8a0dce5472ab01b"><td class="memItemLeft" align="right" valign="top">SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#ga30b70a5be84e1216c8a0dce5472ab01b">SDP_AddUuidSequence</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_uuids, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *p_uuids)</td></tr>
+<tr class="memdesc:ga30b70a5be84e1216c8a0dce5472ab01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function SDP_AddUuidSequence.  <a href="#ga30b70a5be84e1216c8a0dce5472ab01b">More...</a><br /></td></tr>
+<tr class="separator:ga30b70a5be84e1216c8a0dce5472ab01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa50689584cebb5a3d65fbc3ce0eeaac6"><td class="memItemLeft" align="right" valign="top">SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#gaa50689584cebb5a3d65fbc3ce0eeaac6">SDP_AddProtocolList</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_elem, <a class="el" href="structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html">tSDP_PROTOCOL_ELEM</a> *p_elem_list)</td></tr>
+<tr class="memdesc:gaa50689584cebb5a3d65fbc3ce0eeaac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function SDP_AddProtocolList.  <a href="#gaa50689584cebb5a3d65fbc3ce0eeaac6">More...</a><br /></td></tr>
+<tr class="separator:gaa50689584cebb5a3d65fbc3ce0eeaac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45c21b5bd84daf668a0e20ddea0e8c16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga45c21b5bd84daf668a0e20ddea0e8c16"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_AddAdditionProtoLists</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_elem, <a class="el" href="structt_s_d_p___p_r_o_t_o___l_i_s_t___e_l_e_m.html">tSDP_PROTO_LIST_ELEM</a> *p_proto_list)</td></tr>
+<tr class="separator:ga45c21b5bd84daf668a0e20ddea0e8c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8acc848b61f5a657bf5f89bc6e2f6a1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8acc848b61f5a657bf5f89bc6e2f6a1f"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_AddProfileDescriptorList</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> profile_uuid, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> version)</td></tr>
+<tr class="separator:ga8acc848b61f5a657bf5f89bc6e2f6a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1488b0f56cab423153a4635495ce59b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1488b0f56cab423153a4635495ce59b5"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_AddLanguageBaseAttrIDList</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> lang, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> char_enc, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> base_id)</td></tr>
+<tr class="separator:ga1488b0f56cab423153a4635495ce59b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa990c937f93fa185a7c67ad7d2e1ad7f"><td class="memItemLeft" align="right" valign="top">SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#gaa990c937f93fa185a7c67ad7d2e1ad7f">SDP_AddServiceClassIdList</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> num_services, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *p_service_uuids)</td></tr>
+<tr class="memdesc:gaa990c937f93fa185a7c67ad7d2e1ad7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function SDP_AddServiceClassIdList.  <a href="#gaa990c937f93fa185a7c67ad7d2e1ad7f">More...</a><br /></td></tr>
+<tr class="separator:gaa990c937f93fa185a7c67ad7d2e1ad7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga47f3d25d863654419c59a16a302e6374"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga47f3d25d863654419c59a16a302e6374"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_DeleteAttribute</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> attr_id)</td></tr>
+<tr class="separator:ga47f3d25d863654419c59a16a302e6374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c243f81f7405df3e7d87f12ede58a6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2c243f81f7405df3e7d87f12ede58a6b"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_SetLocalDiRecord</b> (<a class="el" href="structt__sdp__di__record.html">tSDP_DI_RECORD</a> *device_info, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> *p_handle)</td></tr>
+<tr class="separator:ga2c243f81f7405df3e7d87f12ede58a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35659eaa041e63e15a0b026d824e9f0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga35659eaa041e63e15a0b026d824e9f0f"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_GetLocalDiRecord</b> (<a class="el" href="structt__sdp__di__get__record.html">tSDP_DI_GET_RECORD</a> *p_device_info, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> *p_handle)</td></tr>
+<tr class="separator:ga35659eaa041e63e15a0b026d824e9f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52fe255aa1aedeae964c17820255fc51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga52fe255aa1aedeae964c17820255fc51"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_DiDiscover</b> (BD_ADDR remote_device, <a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, tSDP_DISC_CMPL_CB *p_cb)</td></tr>
+<tr class="separator:ga52fe255aa1aedeae964c17820255fc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddd7694a60b6ed8478e6d725e0268bdc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaddd7694a60b6ed8478e6d725e0268bdc"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_GetNumDiRecords</b> (<a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db)</td></tr>
+<tr class="separator:gaddd7694a60b6ed8478e6d725e0268bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7926fbc1520c07daf04d7cebe39f2d11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7926fbc1520c07daf04d7cebe39f2d11"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_GetDiRecord</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> getRecordIndex, <a class="el" href="structt__sdp__di__get__record.html">tSDP_DI_GET_RECORD</a> *device_info, <a class="el" href="structt_s_d_p___d_i_s_c_o_v_e_r_y___d_b.html">tSDP_DISCOVERY_DB</a> *p_db)</td></tr>
+<tr class="separator:ga7926fbc1520c07daf04d7cebe39f2d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ad3af94ee6a4f5669f24d8404a74fd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2ad3af94ee6a4f5669f24d8404a74fd6"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_SetTraceLevel</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> new_level)</td></tr>
+<tr class="separator:ga2ad3af94ee6a4f5669f24d8404a74fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32c78bf4c8e3fd3d4d76f7c929a8e3d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga32c78bf4c8e3fd3d4d76f7c929a8e3d0"></a>
+SDP_API <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_ConnOpen</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *p_bd_addr, tSDP_DISC_RES_CB *p_rcb, tSDP_DISC_CMPL_CB *p_cb)</td></tr>
+<tr class="separator:ga32c78bf4c8e3fd3d4d76f7c929a8e3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70dbff789f3551d6bc640bbaa8d335b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga70dbff789f3551d6bc640bbaa8d335b6"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_WriteData</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> *p_msg)</td></tr>
+<tr class="separator:ga70dbff789f3551d6bc640bbaa8d335b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc468c8ba7f6df9d8658f8d9925ea3b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacc468c8ba7f6df9d8658f8d9925ea3b1"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_ConnClose</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
+<tr class="separator:gacc468c8ba7f6df9d8658f8d9925ea3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadde4c0515f8ed191c30c8c176a7ddb61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadde4c0515f8ed191c30c8c176a7ddb61"></a>
+SDP_API BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><b>SDP_FindServiceUUIDInRec</b> (<a class="el" href="structt__sdp__disc__rec.html">tSDP_DISC_REC</a> *p_rec, <a class="el" href="structt_b_t___u_u_i_d.html">tBT_UUID</a> *p_uuid)</td></tr>
+<tr class="separator:gadde4c0515f8ed191c30c8c176a7ddb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9ff957528a6a267cd6f86b34207aad48"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sdp__api__functions.html#ga9ff957528a6a267cd6f86b34207aad48">wiced_bt_sdp_db_init</a> (uint8_t *p_sdp_db, uint16_t size)</td></tr>
 <tr class="memdesc:ga9ff957528a6a267cd6f86b34207aad48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sdp_db_init.  <a href="#ga9ff957528a6a267cd6f86b34207aad48">More...</a><br /></td></tr>
 <tr class="separator:ga9ff957528a6a267cd6f86b34207aad48"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,8 +252,264 @@ Functions</h2></td></tr>
 <tr class="separator:ga60aea2ea871cd226c6f24c575d06d5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Service Discovery (SDP) Functions. </p>
+<p><b> API Functions </b> module for <b>SDP</b>. </p>
+<p>Service Discovery (SDP) Functions.</p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga4134414a34d2634e1cec62e30b7f1bc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDP_API BOOLEAN SDP_AddAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>attr_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td>
+          <td class="paramname"><em>attr_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>attr_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *&#160;</td>
+          <td class="paramname"><em>p_val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function SDP_AddAttribute. </p>
+<p>Description This function is called to add an attribute to a record. This would be through the SDP database maintenance API. If the attribute already exists in the record, it is replaced with the new value.</p>
+<dl class="section note"><dt>Note</dt><dd>Attribute values must be passed as a Big Endian stream.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: The identifier of the record to be added </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr_id</td><td>: Identifies the attribute being added to the record (UUID) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr_type</td><td>: Identifies the data element type of the attribute</td></tr>
+  </table>
+  </dd>
+</dl>
+<table class="doxtable">
+<tr>
+<th><b> </b> </th><th>SDP_AddAtribute Types  </th></tr>
+<tr>
+<td><b>Value</b> </td><td><b> Description</b> </td></tr>
+<tr>
+<td>0 </td><td>Nil, the null type </td></tr>
+<tr>
+<td>1 </td><td>Unsigned Integer </td></tr>
+<tr>
+<td>2 </td><td>Signed twos-complement integer </td></tr>
+<tr>
+<td>3 </td><td>UUID, a universally unique identifier </td></tr>
+<tr>
+<td>4 </td><td>Text string </td></tr>
+<tr>
+<td>5 </td><td>Boolean </td></tr>
+<tr>
+<td>6 </td><td>Data element sequence, a data element whose data field </td></tr>
+<tr>
+<td><b> </b> </td><td>is a sequence of data elements. </td></tr>
+<tr>
+<td>7 </td><td>Data element alternative, data element whose data field </td></tr>
+<tr>
+<td><b> </b> </td><td>is a sequence of data elements from which one data element </td></tr>
+<tr>
+<td><b> </b> </td><td>is to be selected. </td></tr>
+<tr>
+<td>8 </td><td>URL, a uniform resource locator </td></tr>
+<tr>
+<td>9-31 </td><td>Reserved </td></tr>
+</table>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr_len</td><td>: The length of the attribute, in bytes. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_val</td><td>: A pointer to the attribute value to be stored in the record.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> TRUE </b> : If added OK <b> FALSE </b> : Else </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa50689584cebb5a3d65fbc3ce0eeaac6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDP_API BOOLEAN SDP_AddProtocolList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>num_elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structt_s_d_p___p_r_o_t_o_c_o_l___e_l_e_m.html">tSDP_PROTOCOL_ELEM</a> *&#160;</td>
+          <td class="paramname"><em>p_elem_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function SDP_AddProtocolList. </p>
+<p>Description This function is called to add a protocol descriptor list to a record. This would be through the SDP database maintenance API. If the protocol list already exists in the record, it is replaced with the new list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: The identifier of the record to be added </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_elem</td><td>: The number of elements in the list </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_elem_list</td><td>: A pointer to the first protocol element structure in the array to be stored in the record.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> TRUE </b> : If added OK <b> FALSE </b> : Else </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa990c937f93fa185a7c67ad7d2e1ad7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDP_API BOOLEAN SDP_AddServiceClassIdList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>num_services</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *&#160;</td>
+          <td class="paramname"><em>p_service_uuids</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function SDP_AddServiceClassIdList. </p>
+<p>Description This function is called to add a service list to a record. This would be through the SDP database maintenance API. If the service list already exists in the record, it is replaced with the new list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: The identifier of the record to be added </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_services</td><td>: The number of service class IDs in the list </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_service_uuids</td><td>: A pointer to the first service class id UUID in the array</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> TRUE </b> : If added OK <b> FALSE </b> : Else </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga30b70a5be84e1216c8a0dce5472ab01b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDP_API BOOLEAN SDP_AddUuidSequence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>attr_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>num_uuids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> *&#160;</td>
+          <td class="paramname"><em>p_uuids</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function SDP_AddUuidSequence. </p>
+<p>Description This function is called to add a UUID sequence to a record. This would be through the SDP database maintenance API. If the sequence already exists in the record, it is replaced with the new sequence.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: The identifier of the record to be added </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">attr_id</td><td>: Identifies the attribute being added (UUID) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_uuids</td><td>: The number of UUIDs being added </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_uuids</td><td>: A pointer to the first UUID in the array to be stored in the record</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> TRUE </b> : If added OK <b> FALSE </b> : Else </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gadb26dc3ea36c99597899b0e2f45fd99e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDP_API <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> SDP_CreateRecord </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function SDP_CreateRecord. </p>
+<p>Description This function is called to create a record in the database. This would be through the SDP database maintenance API. The record is created empty, the application should then call "add_attribute" to add the record's attributes.</p>
+<dl class="section return"><dt>Returns</dt><dd><b> Record handle </b> : If OK <b> 0 </b> : Else </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga38a40844fb093f62e15b575fc2ee9d79"></a>
 <div class="memitem">
 <div class="memproto">

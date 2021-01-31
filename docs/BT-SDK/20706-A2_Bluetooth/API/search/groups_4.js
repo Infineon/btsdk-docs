@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['functions',['Functions',['../group__group__ota__fw__upgrade__functions.html',1,'']]],
-  ['functions',['Functions',['../group__group__pwm__functions.html',1,'']]],
-  ['factory_20config_20library_20api',['Factory Config Library API',['../group__wiced__bt__factory__config__api__functions.html',1,'']]],
-  ['framework',['Framework',['../group__wicedbt___framework.html',1,'']]]
+  ['hrc_20library_20api',['HRC Library API',['../group__wiced__bt__hrc__api__functions.html',1,'']]],
+  ['hrs_20library_20api',['HRS Library API',['../group__wiced__bt__hrs__api__functions.html',1,'']]]
 ];

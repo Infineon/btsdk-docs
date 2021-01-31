@@ -7,5 +7,8 @@ var searchData=
   ['celt_5fplc_5flcplc_5fconfig',['celt_plc_LCPLC_config',['../structcelt__plc___l_c_p_l_c__config.html',1,'']]],
   ['celt_5fplc_5flcplc_5fstate',['celt_plc_LCPLC_State',['../structcelt__plc___l_c_p_l_c___state.html',1,'']]],
   ['celt_5fsmd_5fstruct',['CELT_SMD_STRUCT',['../struct_c_e_l_t___s_m_d___s_t_r_u_c_t.html',1,'']]],
-  ['codec_5fconfig_5ft',['codec_config_t',['../structcodec__config__t.html',1,'']]]
+  ['codec_5fconfig_5ft',['codec_config_t',['../structcodec__config__t.html',1,'']]],
+  ['codecstate_5ft',['CodecState_t',['../struct_codec_state__t.html',1,'']]],
+  ['control_5ftype',['CONTROL_Type',['../union_c_o_n_t_r_o_l___type.html',1,'']]],
+  ['coredebug_5ftype',['CoreDebug_Type',['../struct_core_debug___type.html',1,'']]]
 ];

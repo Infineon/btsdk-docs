@@ -4,6 +4,7 @@ var group___g_p_i_o_driver =
     [ "WICED_GPIO_ACTIVE_LOW", "group___g_p_i_o_driver.html#gade7692929b65c1c47088453a814283f6", null ],
     [ "WICED_HAL_GPIO_PIN_UNUSED", "group___g_p_i_o_driver.html#ga253640ee40163e3f8c5c709de56d9302", null ],
     [ "WICED_PCM_IN_I2S_DI", "group___g_p_i_o_driver.html#gacf126b8abf6e6dacfd18d60aa2b90dbb", null ],
+    [ "WICED_PDM_DATA", "group___g_p_i_o_driver.html#ga7e2aa5af76c6a1718bfcf4c91fcebf82", null ],
     [ "wiced_bt_gpio_select_status_t", "group___g_p_i_o_driver.html#ga149213c92d089fe16bcb890ffaf7a1af", [
       [ "GPIO_EDGE_TRIGGER_MASK", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba83b4ed5524dc27c6152919705119df48", null ],
       [ "GPIO_EDGE_TRIGGER", "group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba942a3ede93975969afeb18fb8615d2b2", null ],

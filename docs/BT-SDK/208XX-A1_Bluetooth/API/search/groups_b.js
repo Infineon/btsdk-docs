@@ -3,6 +3,7 @@ var searchData=
   ['multi_20advertising',['Multi Advertising',['../group__group__ble__functions__multi.html',1,'']]],
   ['macro',['Macro',['../group__group__ble__macro.html',1,'']]],
   ['macro',['Macro',['../group__group__classic__macro.html',1,'']]],
+  ['macros',['Macros',['../group__group__hci__fw__upgrade__macros.html',1,'']]],
   ['memory_20management',['Memory Management',['../group__group__memory.html',1,'']]],
   ['macros',['Macros',['../group__group__ota__fw__upgrade__macros.html',1,'']]],
   ['mutex',['Mutex',['../group__group__rtos__functions__mutex.html',1,'']]],

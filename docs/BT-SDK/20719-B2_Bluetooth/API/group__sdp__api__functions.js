@@ -1,5 +1,10 @@
 var group__sdp__api__functions =
 [
+    [ "SDP_AddAttribute", "group__sdp__api__functions.html#ga4134414a34d2634e1cec62e30b7f1bc0", null ],
+    [ "SDP_AddProtocolList", "group__sdp__api__functions.html#gaa50689584cebb5a3d65fbc3ce0eeaac6", null ],
+    [ "SDP_AddServiceClassIdList", "group__sdp__api__functions.html#gaa990c937f93fa185a7c67ad7d2e1ad7f", null ],
+    [ "SDP_AddUuidSequence", "group__sdp__api__functions.html#ga30b70a5be84e1216c8a0dce5472ab01b", null ],
+    [ "SDP_CreateRecord", "group__sdp__api__functions.html#gadb26dc3ea36c99597899b0e2f45fd99e", null ],
     [ "wiced_bt_sdp_cancel_service_search", "group__sdp__api__functions.html#ga38a40844fb093f62e15b575fc2ee9d79", null ],
     [ "wiced_bt_sdp_db_init", "group__sdp__api__functions.html#ga9ff957528a6a267cd6f86b34207aad48", null ],
     [ "wiced_bt_sdp_find_attribute_in_db", "group__sdp__api__functions.html#ga93ef8423d650b07ecff3436c9a6661c5", null ],

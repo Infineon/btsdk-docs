@@ -11,6 +11,7 @@ var group___hardware_drivers =
     [ "PUARTDriver", "group___p_u_a_r_t_driver.html", "group___p_u_a_r_t_driver" ],
     [ "PeripheralSpiDriver", "group___peripheral_spi_driver.html", "group___peripheral_spi_driver" ],
     [ "Pulse Width Modulation (PWM)", "group___pwm_driver.html", "group___pwm_driver" ],
+    [ "RTCDriver", "group___r_t_c_driver.html", "group___r_t_c_driver" ],
     [ "RandomNumberGenerator", "group___random_number_generator.html", "group___random_number_generator" ],
     [ "SerialFlashInterfaceDriver", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],
     [ "WLAN_Interface", "group___w_l_a_n___interface.html", "group___w_l_a_n___interface" ],

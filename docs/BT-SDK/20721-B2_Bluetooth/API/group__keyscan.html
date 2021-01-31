@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -96,17 +97,105 @@ $(document).ready(function(){initNavTree('group__keyscan.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#groups">Modules</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Keyscan<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_keyscan_registration.html">KeyscanRegistration</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_keyscan_state.html">KeyscanState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
 <tr class="memitem:group__keyscan_queue"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__keyscan_queue.html">KeyscanQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gaa30393a73c1bc897fd15d895a94770f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa30393a73c1bc897fd15d895a94770f7"></a>
+typedef struct <a class="el" href="struct_keyscan_registration.html">KeyscanRegistration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>KeyscanRegistration</b></td></tr>
+<tr class="separator:gaa30393a73c1bc897fd15d895a94770f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaecd12a18eeb0ee701fc7b0efd5068266"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group__keyscan.html#ggaecd12a18eeb0ee701fc7b0efd5068266a939a6cc6d749a232a23ff324dca6d48c">EVENT_NONE</a> = 0xfd
+ }</td></tr>
+<tr class="memdesc:gaecd12a18eeb0ee701fc7b0efd5068266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the BCM standard keyscan driver.  <a href="group__keyscan.html#gaecd12a18eeb0ee701fc7b0efd5068266">More...</a><br /></td></tr>
+<tr class="separator:gaecd12a18eeb0ee701fc7b0efd5068266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8420dba71b9cc240cf981b0bef892004"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8420dba71b9cc240cf981b0bef892004"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<b>HW_CTRL_SCAN_CTRL_MASK</b> = 0x00001, 
+<b>HW_CTRL_GHOST_DETECT_MASK</b> = 0x00004, 
+<b>HW_CTRL_INTERRUPT_CTRL_MASK</b> = 0x00008, 
+<b>HW_CTRL_RESET_MASK</b> = 0x00010, 
+<br />
+&#160;&#160;<b>HW_CTRL_RC_EXT_MASK</b> = 0x000C0, 
+<b>HW_CTRL_ROW_MASK</b> = 0x00700, 
+<b>HW_CTRL_COL_MASK</b> = 0x0F800, 
+<b>HW_CTRL_COL_DRIVE_CTRL_MASK</b> = 0x10000, 
+<br />
+&#160;&#160;<b>HW_CTRL_ROW_DRIVE_CTRL_MASK</b> = 0x20000, 
+<b>HW_CTRL_SCAN_ENABLE</b> = 0x00001, 
+<b>HW_CTRL_GHOST_ENABLE</b> = 0x00004, 
+<b>HW_CTRL_KS_INTERRUPT_ENABLE</b> = 0x00008, 
+<br />
+&#160;&#160;<b>HW_CTRL_RESET_ENABLE</b> = 0x00010, 
+<b>HW_CTRL_CLK_ALWAYS_ON</b> = 0x40000, 
+<b>HW_CTRL_RC_DEFAULT</b> = 0x000C0, 
+<b>HW_CTRL_ROW_SHIFT</b> = 8, 
+<br />
+&#160;&#160;<b>HW_CTRL_COL_SHIFT</b> = 11, 
+<b>HW_CTRL_COL_ACTIVE_DRIVE</b> = 0x10000, 
+<b>HW_CTRL_ROW_ACTIVE_DRIVE</b> = 0x20000, 
+<b>HW_CTRL_SCAN_DISABLE</b> = 0x00000, 
+<br />
+&#160;&#160;<b>HW_CTRL_GHOST_DISABLE</b> = 0x00000, 
+<b>HW_CTRL_INTERRUPT_DISABLE</b> = 0x00000, 
+<b>HW_CTRL_RESET_DISABLE</b> = 0x00000, 
+<b>HW_CTRL_CLK_AUTO_CTRL</b> = 0x00000, 
+<br />
+&#160;&#160;<b>HW_CTRL_COLUMN_PASSIVE_DRIVE</b> = 0x00000, 
+<b>HW_CTRL_ROW_PASSIVE_DRIVE</b> = 0x00000
+<br />
+ }</td></tr>
+<tr class="separator:ga8420dba71b9cc240cf981b0bef892004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb24d298ddd4bc4ff61aa333f07a574a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafb24d298ddd4bc4ff61aa333f07a574a"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>HW_MIA_STATUS_KEYSCAN_INT_SET_MASK</b> = 0x00040
+ }</td></tr>
+<tr class="separator:gafb24d298ddd4bc4ff61aa333f07a574a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39b4e25c4e8f5fed29720be17a532fa8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga39b4e25c4e8f5fed29720be17a532fa8"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>HW_LHL_CTRL_CLR_KEYS</b> = 0x0002, 
+<b>HW_LHL_STATUS_GHOST</b> = 0x0008, 
+<b>HW_LHL_STATUS_KEY_FIFO_OVERFLOW</b> = 0x0004, 
+<b>HW_LHL_STATUS_KEYCODE</b> = 0x0002
+ }</td></tr>
+<tr class="separator:ga39b4e25c4e8f5fed29720be17a532fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4efaf4e07364d6302f598569aa7e55dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4efaf4e07364d6302f598569aa7e55dc"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<b>HW_KEYCODE_MASK</b> = 0x000000ff, 
+<b>HW_SCAN_CYCLE_MASK</b> = 0x40000000, 
+<b>HW_KEY_UP_DOWN_MASK</b> = (int)0x80000000, 
+<b>HW_KEYCODE_SHIFT_COUNT</b> = 0, 
+<br />
+&#160;&#160;<b>HW_SCAN_CYCLE_SHIFT_COUNT</b> = 30, 
+<b>HW_KEY_UP_DOWN_SHIFT_COUNT</b> = 31, 
+<b>HW_KEYCODE_GHOST</b> = 0xf5, 
+<b>HW_KEYCODE_INIT</b> = 0xff, 
+<br />
+&#160;&#160;<b>HW_KEY_UP</b> = (int)0x80000000, 
+<b>HW_KEY_DOWN</b> = 0x00000000
+<br />
+ }</td></tr>
+<tr class="separator:ga4efaf4e07364d6302f598569aa7e55dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34df7cc7f69a8ec535eec8a524dcbaf9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga34df7cc7f69a8ec535eec8a524dcbaf9"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>CH_SEL_KEYSCAN_ROW_INPUT_50_57</b> = 0x0000, 
+<b>CH_SEL_KEYSCAN_ROW_INPUT_16_23</b> = 0x0001
+ }</td></tr>
+<tr class="separator:ga34df7cc7f69a8ec535eec8a524dcbaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -136,6 +225,27 @@ Functions</h2></td></tr>
 <tr class="separator:ga76b1f9336c5e31cf01906937228beb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="gaecd12a18eeb0ee701fc7b0efd5068266"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines the BCM standard keyscan driver. </p>
+<p>The BCM standard keyscan driver provides the status and control for the keyscan driver. It provides the keyEvents to the interface, maintains the queue behind it. It also supports keyscanning turning on or off. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggaecd12a18eeb0ee701fc7b0efd5068266a939a6cc6d749a232a23ff324dca6d48c"></a>EVENT_NONE&#160;</td><td class="fielddoc">
+<p>Keycode value if no key is pressed. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga2d049bb622878f77a709a3351012b332"></a>
 <div class="memitem">

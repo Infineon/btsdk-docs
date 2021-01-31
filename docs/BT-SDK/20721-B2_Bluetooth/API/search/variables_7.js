@@ -2,6 +2,7 @@ var searchData=
 [
   ['gatt_5fcfg',['gatt_cfg',['../structwiced__bt__cfg__settings__t.html#abd35a4c31591577ab5c834b1b2a739f4',1,'wiced_bt_cfg_settings_t']]],
   ['gatt_5fclient_5fonly',['gatt_client_only',['../wiced__bt__mesh__cfg_8h.html#a160c42cabbbdfd3b3927f39d97af6e36',1,'wiced_bt_mesh_cfg.h']]],
+  ['ge',['GE',['../union_a_p_s_r___type.html#aa91800ec6e90e457c7a1acd1f2e17099',1,'APSR_Type::GE()'],['../unionx_p_s_r___type.html#aa91800ec6e90e457c7a1acd1f2e17099',1,'xPSR_Type::GE()']]],
   ['get_5fapp_5fattr_5ftxt',['get_app_attr_txt',['../unionwiced__bt__avrc__command__t.html#a21f6949f99035709fb6d62deff7f0335',1,'wiced_bt_avrc_command_t::get_app_attr_txt()'],['../unionwiced__bt__avrc__response__t.html#ab6c345c69553a82c03a3e11c245ab520',1,'wiced_bt_avrc_response_t::get_app_attr_txt()']]],
   ['get_5fapp_5fval_5ftxt',['get_app_val_txt',['../unionwiced__bt__avrc__command__t.html#a59cb57f370244f187518664b4c06f41b',1,'wiced_bt_avrc_command_t::get_app_val_txt()'],['../unionwiced__bt__avrc__response__t.html#abcece68423fe7556e3aa74c520bd839d',1,'wiced_bt_avrc_response_t::get_app_val_txt()']]],
   ['get_5fattrs',['get_attrs',['../unionwiced__bt__avrc__command__t.html#a6944c03d39b443d72ee35cf7e9041ff2',1,'wiced_bt_avrc_command_t::get_attrs()'],['../unionwiced__bt__avrc__response__t.html#a6966e89ff136f9211ac14e34dc46f8f4',1,'wiced_bt_avrc_response_t::get_attrs()']]],
@@ -18,5 +19,6 @@ var searchData=
   ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
+  ['gndreading',['gndReading',['../struct_adc_state.html#a8b65f0682ea489420f58953026bdded6',1,'AdcState']]],
   ['group_5fvalue',['group_value',['../unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c',1,'wiced_bt_gatt_discovery_data_t']]]
 ];

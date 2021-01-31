@@ -340,17 +340,6 @@ var group__wiced__bt__mesh__models =
       [ "len", "structwiced__bt__mesh__light__lc__property__status__data__t.html#a8aed22e2c7b283705ec82e0120515618", null ],
       [ "value", "structwiced__bt__mesh__light__lc__property__status__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44", null ]
     ] ],
-    [ "wiced_bt_mesh_blob_transfer_start_t", "structwiced__bt__mesh__blob__transfer__start__t.html", [
-      [ "blob_size", "structwiced__bt__mesh__blob__transfer__start__t.html#a32143551b70893faef60f6e35f88ed50", null ]
-    ] ],
-    [ "wiced_bt_mesh_blob_transfer_block_data_t", "structwiced__bt__mesh__blob__transfer__block__data__t.html", [
-      [ "data_len", "structwiced__bt__mesh__blob__transfer__block__data__t.html#a231d88a2076c53df88d8ffd7eb1c50ec", null ],
-      [ "offset", "structwiced__bt__mesh__blob__transfer__block__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23", null ],
-      [ "p_data", "structwiced__bt__mesh__blob__transfer__block__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6", null ]
-    ] ],
-    [ "wiced_bt_mesh_blob_transfer_finish_t", "structwiced__bt__mesh__blob__transfer__finish__t.html", [
-      [ "blob_transfer_result", "structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d", null ]
-    ] ],
     [ "Mesh Battery Client", "group__wiced__bt__mesh__battery__client.html", "group__wiced__bt__mesh__battery__client" ],
     [ "Mesh Battery Server", "group__wiced__bt__mesh__battery__server.html", "group__wiced__bt__mesh__battery__server" ],
     [ "Mesh Default Transition Time Client", "group__wiced__bt__mesh__default__transition__time__client.html", "group__wiced__bt__mesh__default__transition__time__client" ],

@@ -89,6 +89,7 @@ var searchData=
   ['rsp',['rsp',['../unionwiced__bt__avrc__response__t.html#afd478d613ad1a8c515e3b5b8a8c2601a',1,'wiced_bt_avrc_response_t']]],
   ['rssi',['rssi',['../structwiced__bt__ble__scan__results__t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_ble_scan_results_t::rssi()'],['../structwiced__bt__dev__inquiry__scan__result__t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_dev_inquiry_scan_result_t::rssi()'],['../structwiced__bt__dev__rssi__result__t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_dev_rssi_result_t::rssi()'],['../structwiced__bt__mesh__event____t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_mesh_event__t::rssi()'],['../structwiced__bt__mesh__proxy__device__network__data__t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_mesh_proxy_device_network_data_t::rssi()'],['../structwiced__bt__mesh__provision__scan__report__data__t.html#a3b962e67ba74725bd60ca3c29f785abe',1,'wiced_bt_mesh_provision_scan_report_data_t::rssi()']]],
   ['rssi_5ffactor',['rssi_factor',['../wiced__bt__mesh__cfg_8h.html#a2f6964e0e31458b18938e4e6d55e91d8',1,'wiced_bt_mesh_cfg.h']]],
+  ['rtcdriver',['RTCDriver',['../group___r_t_c_driver.html',1,'']]],
   ['rtos',['RTOS',['../group__rtos.html',1,'']]],
   ['rtos_20timers',['RTOS timers',['../group__rtostmr.html',1,'']]],
   ['rtrans_5ftimeout',['rtrans_timeout',['../structwiced__bt__l2cap__fcr__options__t.html#ab354c08b88768cc329bd7f108898f83b',1,'wiced_bt_l2cap_fcr_options_t']]],

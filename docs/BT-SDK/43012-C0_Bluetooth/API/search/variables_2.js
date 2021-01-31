@@ -21,8 +21,6 @@ var searchData=
   ['ble_5fscan_5fcfg',['ble_scan_cfg',['../structwiced__bt__cfg__settings__t.html#ab1002285cad88b712c2ef26ab847b820',1,'wiced_bt_cfg_settings_t']]],
   ['ble_5fscan_5fstate_5fchanged',['ble_scan_state_changed',['../unionwiced__bt__management__evt__data__t.html#ab16e83d0d0912e9414feb213d87f2682',1,'wiced_bt_management_evt_data_t']]],
   ['ble_5fwhite_5flist_5fsize',['ble_white_list_size',['../structwiced__bt__cfg__settings__t.html#ab04be52f05cd9c8efd9b7d24b703e8ce',1,'wiced_bt_cfg_settings_t']]],
-  ['blob_5fsize',['blob_size',['../structwiced__bt__mesh__blob__transfer__start__t.html#a32143551b70893faef60f6e35f88ed50',1,'wiced_bt_mesh_blob_transfer_start_t']]],
-  ['blob_5ftransfer_5fresult',['blob_transfer_result',['../structwiced__bt__mesh__blob__transfer__finish__t.html#a272a47fbcb82e29310c166ff8004835d',1,'wiced_bt_mesh_blob_transfer_finish_t']]],
   ['block_5flength',['block_length',['../structwiced__codec__param__sbc__t.html#a791f6401da49ac50a2dfd406829806b2',1,'wiced_codec_param_sbc_t']]],
   ['br_5fedr',['br_edr',['../unionwiced__bt__dev__pairing__info__t.html#a3e011d90c76bc44132bdb3b53a6d73d9',1,'wiced_bt_dev_pairing_info_t']]],
   ['br_5fedr_5fkey',['br_edr_key',['../wiced__bt__dev_8h.html#af308fd59dda3de336653f2656b6bc40b',1,'wiced_bt_dev.h']]],

@@ -34,6 +34,7 @@ var group__wiced__sleep__config =
       [ "WICED_SLEEP_WAKE_ACTIVE_LOW", "group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481ae30e895dab3082ac21e565fd1126a6a7", null ],
       [ "WICED_SLEEP_WAKE_ACTIVE_HIGH", "group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481adf45fe82660f80ecaafc1cb9be9ee4b3", null ]
     ] ],
+    [ "wiced_hal_set_external_lpo_oscillator_bias", "group__wiced__sleep__config.html#ga6aa5fd88904f414cf7a4ab40a2d456e1", null ],
     [ "wiced_sleep_configure", "group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517", null ],
     [ "wiced_sleep_get_boot_mode", "group__wiced__sleep__config.html#ga7a0afec9e88e0688a90aba2eee780857", null ]
 ];

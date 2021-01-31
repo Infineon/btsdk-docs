@@ -8,6 +8,7 @@ var group__wicedbt =
     [ "Device Management", "group__wiced__bt__dev.html", "group__wiced__bt__dev" ],
     [ "Framework", "group__wicedbt___framework.html", "group__wicedbt___framework" ],
     [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],
+    [ "HID Events", "group___hid_events.html", "group___hid_events" ],
     [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
     [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
     [ "IAP2 Protocol Library API", "group__wiced__bt__iap2__api__functions.html", "group__wiced__bt__iap2__api__functions" ],

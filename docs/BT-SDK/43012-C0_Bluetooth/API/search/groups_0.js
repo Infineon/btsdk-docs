@@ -8,6 +8,7 @@ var searchData=
   ['advertising',['Advertising',['../group__group__ble__functions__adv.html',1,'']]],
   ['api_20functions',['API Functions',['../group__l2cap__api__functions.html',1,'']]],
   ['api_20functions',['API Functions',['../group__sco__hook__api__functions.html',1,'']]],
+  ['api_20functions',['API Functions',['../group__sdp__api__functions.html',1,'']]],
   ['anc_20library_20api',['ANC Library API',['../group__wiced__bt__anc__api__functions.html',1,'']]],
   ['ans_20library_20api',['ANS Library API',['../group__wiced__bt__ans__api__functions.html',1,'']]],
   ['advanced_20audio_20distribution_20profile_20_28a2dp_29_20sink',['Advanced Audio Distribution Profile (A2DP) Sink',['../group__wicedbt__a2dp.html',1,'']]],

@@ -6,5 +6,7 @@ var group___c_p_u =
       [ "WICED_CPU_CLK_48MHZ", "group___c_p_u.html#ggaf899a22b202da8cc1ebc8907d1be58bba637c5189779e93c92b0cf68164b4fa88", null ],
       [ "WICED_CPU_CLK_96MHZ", "group___c_p_u.html#ggaf899a22b202da8cc1ebc8907d1be58bbaeb697ff91199187984b2beb0811a11f1", null ]
     ] ],
+    [ "wiced_hal_cpu_clk_ldo_voltage_force_high", "group___c_p_u.html#ga644890e445b28acdba650adcb704c084", null ],
+    [ "wiced_hal_cpu_clk_ldo_voltage_release", "group___c_p_u.html#ga493da36463cde4ddce7c6ee2a18a159e", null ],
     [ "wiced_update_cpu_clock", "group___c_p_u.html#gaff8290deaf8af30ddd523fcf820caab7", null ]
 ];

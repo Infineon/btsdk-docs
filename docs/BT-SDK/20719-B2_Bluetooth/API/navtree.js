@@ -8,20 +8,24 @@ var NAVTREE =
     [ "Bluetooth References", "index.html#bt_smart_ref", null ],
     [ "WICED Community", "index.html#wiced_forum", null ],
     [ "WICED BT SDK Licensing Information", "index.html#wiced_license", null ],
+    [ "MISRA-C:2004 Compliance Exceptions", "_c_m_s_i_s__m_i_s_r_a__exceptions.html", null ],
     [ "Components", "modules.html", "modules" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"group___adc_driver.html",
-"group___result.html#ggacfc32ead8a827d53416f01b19eb58310ae37b80a0243aee39591d1b6302e35162",
-"group__interfaces.html#ga154b569956d0ce4e9529bbd55ce7c304",
-"group__wiced__bt__ans__api__functions.html#ga802d804757e7e64e9d4be6b7e144b894",
-"group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503ba64c7f42475f6d57780070fe87dc8385f",
-"group__wiced__bt__mesh__onoff__server.html#gae8407b3533ba16b322606715ecc95421",
-"group__wiced__mem.html#ga362e499624bcc944e2acf270c3247682",
-"structmesh__core__provision__cb__t.html#a016fd9c61717c1b3e29052fc78c9f40d",
+"_c_m_s_i_s__m_i_s_r_a__exceptions.html",
+"group___c_m_s_i_s___s_c_b.html#ga677c23749c4d348f30fb471d1223e783",
+"group___g_p_i_o_driver.html#gga61dadd085c1777f559549e05962b2c9ea4111531c8681de23e196f4aba8612da1",
+"group___transport.html#ga380d645dcc489d47a7c65f284e861f57",
+"group__hidd__functions.html#gab35f9e28f773fe204fd8bf11c591fc8f",
+"group__wiced__bt__anc__api__functions.html#ga033a8cee2013b019eff415763e2f3c81",
+"group__wiced__bt__mesh__core.html#gab90145fa8dc52b75f2f74f2cafaa26f0",
+"group__wiced__bt__mesh__models.html#gaa67243af9f7a0d1ee2413f0a60ee66a8",
+"group__wiced__bt__mesh__sensor__server.html#gadc856e45a2e98c17342907e40393ea91",
+"group__wicedbt__bredr.html#ga2c8467b8c65ef23d30ea28649b13094f",
+"structt__sdp__disc__rec.html#a60b8c120bd2b5b5be54808fd290bcaac",
 "structwiced__bt__mesh__connect__status__data__t.html#a41a6aad09727eb120338c35535a652a6",
 "structwiced__bt__mesh__light__lc__property__set__data__t.html#a8aed22e2c7b283705ec82e0120515618",
 "structwiced__bt__mesh__sensor__config__column__data__t.html"

@@ -14,6 +14,7 @@ var searchData=
   ['target_5fsaturation',['target_saturation',['../structwiced__bt__mesh__light__hsl__saturation__status__data__t.html#a3d7e351ac623a0fa5bee7455d7ae85f4',1,'wiced_bt_mesh_light_hsl_saturation_status_data_t']]],
   ['target_5fscene',['target_scene',['../structwiced__bt__mesh__scene__status__data__t.html#a47016015204320ce2d093661c2d8391b',1,'wiced_bt_mesh_scene_status_data_t']]],
   ['target_5ftemperature',['target_temperature',['../structwiced__bt__mesh__light__ctl__temperature__set__t.html#a8d635c050452c20c44ba058443ad5543',1,'wiced_bt_mesh_light_ctl_temperature_set_t']]],
+  ['tclatencycnt',['tcLatencyCnt',['../union_i_n_t_f___c_t_l___r_e_g.html#ad8191cefa5179fe4595126483e7e4a75',1,'INTF_CTL_REG']]],
   ['temperature',['temperature',['../structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e',1,'wiced_bt_mesh_light_ctl_data_t']]],
   ['test_5fid',['test_id',['../wiced__bt__mesh__core_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_core.h'],['../wiced__bt__mesh__provision_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_provision.h']]],
   ['time',['time',['../structwiced__bt__mesh__default__transition__time__data__t.html#ae73654f333e4363463ad8c594eca1905',1,'wiced_bt_mesh_default_transition_time_data_t']]],

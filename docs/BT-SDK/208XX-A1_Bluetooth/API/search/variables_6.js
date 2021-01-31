@@ -6,6 +6,8 @@ var searchData=
   ['fault_5farray',['fault_array',['../wiced__bt__mesh__provision_8h.html#a0ca457289efd9569638be2041063b47e',1,'wiced_bt_mesh_provision.h']]],
   ['fault_5ftest_5fcb',['fault_test_cb',['../structwiced__bt__mesh__core__init__t.html#a7aa993e243fff7b4dfcf85561eecdd62',1,'wiced_bt_mesh_core_init_t']]],
   ['faults',['faults',['../wiced__bt__mesh__core_8h.html#a4e690eeafcb8b8e62b36a292b795a0c0',1,'wiced_bt_mesh_core.h']]],
+  ['fclklastgatedoff',['fclkLastGatedOff',['../union_a_p_i___c_t_l4___r_e_g.html#a1f9ff036450d202ece5b9ac7e1b1298c',1,'API_CTL4_REG']]],
+  ['fclkphasesel',['fclkPhaseSel',['../union_a_p_i___c_t_l4___r_e_g.html#aa4a36f1110c849b1cbd9b75e22cb8f38',1,'API_CTL4_REG']]],
   ['feature_5ffriend',['feature_friend',['../wiced__bt__mesh__provision_8h.html#a31eb33ff6faad021bab6ab02dc459247',1,'wiced_bt_mesh_provision.h']]],
   ['feature_5flow_5fpower',['feature_low_power',['../wiced__bt__mesh__provision_8h.html#aa034d189a082aff57c6188b0b4f6a009',1,'wiced_bt_mesh_provision.h']]],
   ['feature_5fproxy',['feature_proxy',['../wiced__bt__mesh__provision_8h.html#a7b4763a6ca5a48acdc7354e2daa526dc',1,'wiced_bt_mesh_provision.h']]],
@@ -17,6 +19,8 @@ var searchData=
   ['flags',['flags',['../wiced__bt__mesh__cfg_8h.html#aa2585d779da0ab21273a8d92de9a0ebe',1,'wiced_bt_mesh_cfg.h']]],
   ['floor_5fnumber',['floor_number',['../structwiced__bt__mesh__location__local__data__t.html#a83005d78b4bf9436ff02d5b937ad6b2a',1,'wiced_bt_mesh_location_local_data_t']]],
   ['fn',['fn',['../structwiced__app__event__srzn__cb__t.html#a786bf0d6d202500c4cf06c042c76c69f',1,'wiced_app_event_srzn_cb_t']]],
+  ['fp_5fdoneinterrupt',['fp_DoneInterrupt',['../struct_d_m_a___t_r_a_n_s_f_e_r___r_e_q_u_e_s_t.html#a1c02b004ab1bc31e7da166ec1c78395e',1,'DMA_TRANSFER_REQUEST']]],
+  ['fp_5fdoneinterrupt_5farg',['fp_DoneInterrupt_arg',['../struct_d_m_a___t_r_a_n_s_f_e_r___r_e_q_u_e_s_t.html#ab2f546abe2aefc4143b383beee7f9369',1,'DMA_TRANSFER_REQUEST']]],
   ['friend_5faddr',['friend_addr',['../structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a',1,'wiced_bt_mesh_event__t']]],
   ['friend_5fcfg',['friend_cfg',['../wiced__bt__mesh__cfg_8h.html#afdedfc25df1eb073867c1e82a3406c27',1,'wiced_bt_mesh_cfg.h']]],
   ['frnd',['frnd',['../unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f',1,'wiced_bt_mesh_core_state_t']]]

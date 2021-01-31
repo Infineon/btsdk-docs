@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['val',['val',['../structwiced__bt__mesh__sensor__config__setting__t.html#a11e750dbec691489a3e323cb8c61704a',1,'wiced_bt_mesh_sensor_config_setting_t::val()'],['../structwiced__bt__mesh__sensor__setting__t.html#aaf05f4ec0c027f722e4b1a56df97f013',1,'wiced_bt_mesh_sensor_setting_t::val()']]],
+  ['v',['V',['../union_a_p_s_r___type.html#acd4a2b64faee91e4a9eef300667fa222',1,'APSR_Type::V()'],['../unionx_p_s_r___type.html#acd4a2b64faee91e4a9eef300667fa222',1,'xPSR_Type::V()']]],
+  ['val',['val',['../structwiced__bt__mesh__sensor__config__setting__t.html#a11e750dbec691489a3e323cb8c61704a',1,'wiced_bt_mesh_sensor_config_setting_t::val()'],['../structwiced__bt__mesh__sensor__setting__t.html#aaf05f4ec0c027f722e4b1a56df97f013',1,'wiced_bt_mesh_sensor_setting_t::val()'],['../struct_sys_tick___type.html#a26fb318c3b0a0ec7f45daafd5f8799a3',1,'SysTick_Type::VAL()']]],
   ['val_5fhandle',['val_handle',['../structwiced__bt__gatt__char__declaration__t.html#a13d14e316098f34a69b6e4f3c29b9b3c',1,'wiced_bt_gatt_char_declaration_t']]],
   ['val_5flen',['val_len',['../structwiced__bt__gatt__write__t.html#ad078959e82badb1a5b5492437adc440f',1,'wiced_bt_gatt_write_t']]],
   ['value',['value',['../structwiced__bt__power__mgmt__notification__t.html#a900b69af7d674b8db3bceae754b4955a',1,'wiced_bt_power_mgmt_notification_t::value()'],['../structwiced__bt__gatt__value__t.html#a1ed5b151a90f7e99af8cca2e6875ddf4',1,'wiced_bt_gatt_value_t::value()'],['../structwiced__bt__ans__gatt__alert__handles__t.html#a900b69af7d674b8db3bceae754b4955a',1,'wiced_bt_ans_gatt_alert_handles_t::value()'],['../structwiced__bt__hrs__handles__t.html#a900b69af7d674b8db3bceae754b4955a',1,'wiced_bt_hrs_handles_t::value()'],['../structwiced__bt__mesh__property__set__data__t.html#a2c18aaad4bff3be18292e343c3b28dc8',1,'wiced_bt_mesh_property_set_data_t::value()'],['../structwiced__bt__mesh__property__status__data__t.html#a1ed5b151a90f7e99af8cca2e6875ddf4',1,'wiced_bt_mesh_property_status_data_t::value()'],['../structwiced__bt__mesh__light__lc__property__set__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44',1,'wiced_bt_mesh_light_lc_property_set_data_t::value()'],['../structwiced__bt__mesh__light__lc__property__status__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44',1,'wiced_bt_mesh_light_lc_property_status_data_t::value()'],['../wiced__bt__mesh__cfg_8h.html#a952181be57dba7891e7b2da65a061e25',1,'value():&#160;wiced_bt_mesh_cfg.h']]],
@@ -14,5 +15,6 @@ var searchData=
   ['vs1_5floc',['vs1_loc',['../structwiced__fw__upgrade__nv__loc__len__t.html#a06637dbd0c2500392a394611f9311195',1,'wiced_fw_upgrade_nv_loc_len_t']]],
   ['vs2_5flen',['vs2_len',['../structwiced__fw__upgrade__nv__loc__len__t.html#a21f47f1d2b19a9939e8a995cb2223fc5',1,'wiced_fw_upgrade_nv_loc_len_t']]],
   ['vs2_5floc',['vs2_loc',['../structwiced__fw__upgrade__nv__loc__len__t.html#a1392f0ac6254aa68ef05d299abe5d7de',1,'wiced_fw_upgrade_nv_loc_len_t']]],
-  ['vsp',['vsp',['../structwiced__bt__a2dp__codec__info__t.html#a3b5e3b5cde23a5dc157e0b8ddb35ab0b',1,'wiced_bt_a2dp_codec_info_t']]]
+  ['vsp',['vsp',['../structwiced__bt__a2dp__codec__info__t.html#a3b5e3b5cde23a5dc157e0b8ddb35ab0b',1,'wiced_bt_a2dp_codec_info_t']]],
+  ['vtor',['VTOR',['../struct_s_c_b___type.html#aaf388a921a016cae590cfcf1e43b1cdf',1,'SCB_Type']]]
 ];

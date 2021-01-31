@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.8 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -252,7 +252,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">public_key</td><td>The pointer to the public key. </td></tr>
-    <tr><td class="paramname">p_pre_reboot_callback</td><td>The callback to issue at the end of an upgrade procedure before a chip reboot.</td></tr>
+    <tr><td class="paramname">p_status_callback</td><td>Optional callback to be executed when the Firmware Upgrade state changes. NULL if not used. </td></tr>
+    <tr><td class="paramname">p_send_data_callback</td><td>Optional callback to be executed to before sending data over the air. NULL if not used.</td></tr>
   </table>
   </dd>
 </dl>

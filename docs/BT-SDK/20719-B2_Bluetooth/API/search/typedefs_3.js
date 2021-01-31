@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['spi_5fendian',['SPI_ENDIAN',['../group___peripheral_spi_driver.html#ga4f8f02d20e544054d34867cf97b15efa',1,'wiced_hal_pspi.h']]],
-  ['spi_5fmode',['SPI_MODE',['../group___peripheral_spi_driver.html#ga848ed5ab7a42135cb196c2632b894434',1,'wiced_hal_pspi.h']]],
-  ['spi_5fss_5fmode',['SPI_SS_MODE',['../group___peripheral_spi_driver.html#ga5cced8cf504cb549ebcbc306c72a1beb',1,'wiced_hal_pspi.h']]],
-  ['spi_5fss_5fpolarity',['SPI_SS_POLARITY',['../group___peripheral_spi_driver.html#gaa9ed9dd57bd1b7fe53a719068656fe58',1,'wiced_hal_pspi.h']]]
+  ['fp_5fdoneinterrupt_5ft',['fp_DoneInterrupt_t',['../arm__pl081_8h.html#ab84af6967822ab48cc3c0bfabd215532',1,'arm_pl081.h']]]
 ];

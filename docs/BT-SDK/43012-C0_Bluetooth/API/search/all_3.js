@@ -95,5 +95,6 @@ var searchData=
   ['current_5fstate',['current_state',['../structbutton__manager__button__t.html#afc924021866608003a93ae7b2df52ad9',1,'button_manager_button_t']]],
   ['currentlanguage',['CurrentLanguage',['../group__wiced__bt__iap2__api__functions.html#ga93ca28a5673e57ad10614db7e438e1bf',1,'wiced_bt_iap2.h']]],
   ['cvsd',['CVSD',['../wiced__audio__manager_8h.html#adf7aef7a7ec31e4536f3e6eef366e1f1ac2defbe3f3b311fb1a002e004c071e86',1,'wiced_audio_manager.h']]],
+  ['callback_20functions',['Callback Functions',['../group__group__hci__fw__upgrade__cback__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]]
 ];

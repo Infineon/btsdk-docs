@@ -1,5 +1,6 @@
 var group___hardware_drivers =
 [
+    [ "ADC", "group___a_d_c.html", null ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
     [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
@@ -14,6 +15,8 @@ var group___hardware_drivers =
     [ "Peripheral UART (PUART)", "group___p_u_a_r_t_driver.html", "group___p_u_a_r_t_driver" ],
     [ "Power Management Integrated Circuit", "group___p_m_i_c.html", "group___p_m_i_c" ],
     [ "Pulse Width Modulation (PWM)", "group___pwm_driver.html", "group___pwm_driver" ],
+    [ "RTC", "group___r_t_c.html", "group___r_t_c" ],
+    [ "RTCDriver", "group___r_t_c_driver.html", "group___r_t_c_driver" ],
     [ "Random Number Generator (RNG)", "group___random_number_generator.html", "group___random_number_generator" ],
     [ "Serial Flash Interface", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],
     [ "Timer Management Services", "group__timer.html", "group__timer" ],

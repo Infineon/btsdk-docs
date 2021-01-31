@@ -3,6 +3,7 @@ var searchData=
   ['functions',['Functions',['../group__group__adc__functions.html',1,'']]],
   ['functions',['Functions',['../group__group__ble__functions.html',1,'']]],
   ['functions',['Functions',['../group__group__dev__functions.html',1,'']]],
+  ['functions',['Functions',['../group__group__hci__fw__upgrade__functions.html',1,'']]],
   ['functions',['Functions',['../group__group__memory__functions.html',1,'']]],
   ['functions',['Functions',['../group__group__nvram__functions.html',1,'']]],
   ['functions',['Functions',['../group__group__ota__fw__upgrade__functions.html',1,'']]],

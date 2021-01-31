@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['wiced_20hci_20firmware_20upgrade',['WICED HCI Firmware Upgrade',['../group__group__hci__wiced__firmware__upgrade.html',1,'']]],
   ['wiced_20ota_20firmware_20upgrade',['WICED OTA Firmware Upgrade',['../group__group__ota__wiced__firmware__upgrade.html',1,'']]],
   ['worker_20thread',['Worker Thread',['../group__group__rtos__functions__worker.html',1,'']]],
   ['wiced_20transport',['WICED Transport',['../group__group___transport.html',1,'']]],

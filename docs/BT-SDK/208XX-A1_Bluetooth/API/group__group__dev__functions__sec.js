@@ -18,6 +18,7 @@ var group__group__dev__functions__sec =
     [ "wiced_bt_dev_set_encryption", "group__group__dev__functions__sec.html#ga828fe3d842b9923e408a10b87ae8fb69", null ],
     [ "wiced_bt_dev_set_link_policy", "group__group__dev__functions__sec.html#gaa33eda752b4873cb9f19b0ef2634d9a4", null ],
     [ "wiced_bt_get_identity_address", "group__group__dev__functions__sec.html#ga1623435bfdbefbf12a2fd1c64dbb71e1", null ],
+    [ "wiced_bt_set_device_class", "group__group__dev__functions__sec.html#gaf4fa19e58b2db7ff38f8b83028865980", null ],
     [ "wiced_bt_set_pairable_mode", "group__group__dev__functions__sec.html#gae95344797140c44aa120d34957a576b3", null ],
     [ "wiced_bt_smp_create_local_sc_oob_data", "group__group__dev__functions__sec.html#gafce580b6606202828f9dfb1893cc30f4", null ],
     [ "wiced_bt_smp_oob_data_reply", "group__group__dev__functions__sec.html#gac3d5f8d286b23c21b9cff9e71aa6a83c", null ],

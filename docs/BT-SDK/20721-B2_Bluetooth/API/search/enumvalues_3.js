@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['file_5fplayback',['FILE_PLAYBACK',['../wiced__audio__manager_8h.html#aebb40016c198e3e5e1f82c86929dc454ab8e90a426952242dd8e08de7bbd211ef',1,'wiced_audio_manager.h']]]
+  ['end_5fof_5fscan_5fcycle',['END_OF_SCAN_CYCLE',['../group__keyscan_queue.html#ggaa94c5fdcac6a4b26211b612c3edc04ffad8ba23ff4d3c25d36207e0da40355a22',1,'keyscan.h']]],
+  ['event_5fnone',['EVENT_NONE',['../group__keyscan.html#ggaecd12a18eeb0ee701fc7b0efd5068266a939a6cc6d749a232a23ff324dca6d48c',1,'keyscan.h']]]
 ];

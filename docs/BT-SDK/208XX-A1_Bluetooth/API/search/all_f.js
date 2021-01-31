@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['offset',['offset',['../structwiced__bt__mesh__blob__transfer__block__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_mesh_blob_transfer_block_data_t::offset()'],['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t::offset()']]],
+  ['offset',['offset',['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t']]],
   ['on_5fpower_5fup',['on_power_up',['../structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6',1,'wiced_bt_mesh_power_onoff_data_t']]],
   ['onoff',['onoff',['../structwiced__bt__mesh__onoff__set__data__t.html#ab846f82707d4c23e43f5208dab504c77',1,'wiced_bt_mesh_onoff_set_data_t']]],
   ['onpowerup_5fstate',['onpowerup_state',['../wiced__bt__mesh__cfg_8h.html#ac86843b7a21bf25e410cd048df734105',1,'wiced_bt_mesh_cfg.h']]],
@@ -22,6 +22,9 @@ var searchData=
   ['operation_5foverwrite',['OPERATION_OVERWRITE',['../group__wiced__bt__mesh__provisioning.html#gab31f9359f2a7ae944e1d2436273840c1',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5funbind',['OPERATION_UNBIND',['../wiced__bt__mesh__provision_8h.html#ada57d38587de2a5dafeb111a72a195e7',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fupdate',['OPERATION_UPDATE',['../group__wiced__bt__mesh__provisioning.html#ga6653182fcafe90c7685479f77478919b',1,'wiced_bt_mesh_provision.h']]],
+  ['osapi_5ftimer_5fstruct',['OSAPI_TIMER_STRUCT',['../struct_o_s_a_p_i___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]],
+  ['ota_5ffw_5fupgrade_5fhandle_5fcommand',['ota_fw_upgrade_handle_command',['../group__group__hci__fw__upgrade__functions.html#ga0da05a94b0dc6ca6dbf66b8aa7f674a9',1,'wiced_bt_hci_firmware_upgrade.h']]],
+  ['ota_5ffw_5fupgrade_5fhandle_5fdata',['ota_fw_upgrade_handle_data',['../group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f',1,'wiced_bt_hci_firmware_upgrade.h']]],
   ['ota_5ffw_5fupgrade_5fstatus_5fverification_5fstart',['OTA_FW_UPGRADE_STATUS_VERIFICATION_START',['../group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32',1,'wiced_bt_ota_firmware_upgrade.h']]],
   ['outbound_5fpdu_5fnumber',['outbound_pdu_number',['../structwiced__bt__mesh__provision__outbound__pdu__report__data__t.html#ada12258386fd57ad72c3ccc8ea729f37',1,'wiced_bt_mesh_provision_outbound_pdu_report_data_t']]],
   ['output_5foob_5faction',['output_oob_action',['../structwiced__bt__mesh__core__provision__capabilities__t.html#a2765cfa7a7d328eaf1d71cec2d2f15e9',1,'wiced_bt_mesh_core_provision_capabilities_t::output_oob_action()'],['../structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e',1,'wiced_bt_mesh_provision_capabilities_data_t::output_oob_action()'],['../structwiced__bt__mesh__provision__device__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e',1,'wiced_bt_mesh_provision_device_capabilities_data_t::output_oob_action()']]],

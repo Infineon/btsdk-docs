@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['aclk',['ACLK',['../group___a_c_l_k.html',1,'']]],
+  ['adc',['ADC',['../group___a_d_c.html',1,'']]],
   ['analog_2dto_2ddigital_20converter_20_28adc_29',['Analog-to-Digital Converter (ADC)',['../group___adc_driver.html',1,'']]],
   ['application_20thread_20serialization',['Application Thread Serialization',['../group__appthread.html',1,'']]],
   ['auxiliary_20clock_20_28aclk_29',['Auxiliary Clock (ACLK)',['../group___aux_clk_driver.html',1,'']]],

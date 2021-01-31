@@ -14,11 +14,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"group___adc_driver.html",
-"group___peripheral_spi_driver.html#gga23e4236e76e30bf62f85f9e7026d6be4a5a6abe145caf9794d5a70e5472ee988f",
-"group__group__pwm__functions.html#ga6829f4a0e8839fbebd183fbd94b5c9b8",
-"group__wiced__bt__hrc__api__functions.html#ga1af8284babcfc252f4bdbfc083670679",
-"structwiced__bt__l2cap__fcr__options__t.html#add797ddd90631faa8bfab7f2a2d64feb"
+"group__group__hci__fw__upgrade__cback__functions.html",
+"unionwiced__bt__hrc__event__data__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
