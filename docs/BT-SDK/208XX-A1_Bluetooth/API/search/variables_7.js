@@ -15,6 +15,5 @@ var searchData=
   ['getcap_5fcfm',['getcap_cfm',['../unionwiced__bt__avdt__ctrl__t.html#aa9c4406226351357813664fdb9c2ca6e',1,'wiced_bt_avdt_ctrl_t']]],
   ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
-  ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
-  ['gndreading',['gndReading',['../struct_adc_state.html#a8b65f0682ea489420f58953026bdded6',1,'AdcState']]]
+  ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]]
 ];

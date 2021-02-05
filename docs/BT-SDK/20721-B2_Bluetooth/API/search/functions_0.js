@@ -1,25 +1,4 @@
 var searchData=
 [
-  ['arm_5fbilinear_5finterp_5ff32',['arm_bilinear_interp_f32',['../group___bilinear_interpolate.html#gabfd6cfec7f05c5bb6af645b7d62f46d2',1,'arm_math.h']]],
-  ['arm_5fbilinear_5finterp_5fq15',['arm_bilinear_interp_q15',['../group___bilinear_interpolate.html#ga8619980af3916bef36ba906bd6170da0',1,'arm_math.h']]],
-  ['arm_5fbilinear_5finterp_5fq31',['arm_bilinear_interp_q31',['../group___bilinear_interpolate.html#gac96f580756af38d7a2e17e4baeec551d',1,'arm_math.h']]],
-  ['arm_5fbilinear_5finterp_5fq7',['arm_bilinear_interp_q7',['../group___bilinear_interpolate.html#ga71d69acab8ce8cfe7b83710619304ca8',1,'arm_math.h']]],
-  ['arm_5fclarke_5ff32',['arm_clarke_f32',['../group__clarke.html#ga011c5e6820d26514d28bc3cbb9d3ab15',1,'arm_math.h']]],
-  ['arm_5fclarke_5fq31',['arm_clarke_q31',['../group__clarke.html#gae2f77fac21539c21a01dedc5c42b3863',1,'arm_math.h']]],
-  ['arm_5finv_5fclarke_5ff32',['arm_inv_clarke_f32',['../group__inv__clarke.html#gaafd9fc091f9d8eb8ff6d699029dedd2b',1,'arm_math.h']]],
-  ['arm_5finv_5fclarke_5fq31',['arm_inv_clarke_q31',['../group__inv__clarke.html#ga3748c30bd43701d14933735d7faf900e',1,'arm_math.h']]],
-  ['arm_5finv_5fpark_5ff32',['arm_inv_park_f32',['../group__inv__park.html#ga1fc972ce0ab27c9cb0d8ab792d646a40',1,'arm_math.h']]],
-  ['arm_5finv_5fpark_5fq31',['arm_inv_park_q31',['../group__inv__park.html#ga3c231629a6ab9afc9b2eb1dd81dad8c4',1,'arm_math.h']]],
-  ['arm_5flinear_5finterp_5ff32',['arm_linear_interp_f32',['../group___linear_interpolate.html#gafd29f33d19cb1b3e1b5ddb9dddffd87b',1,'arm_math.h']]],
-  ['arm_5flinear_5finterp_5fq15',['arm_linear_interp_q15',['../group___linear_interpolate.html#gad756229ce722b3a2f107a82878768b71',1,'arm_math.h']]],
-  ['arm_5flinear_5finterp_5fq31',['arm_linear_interp_q31',['../group___linear_interpolate.html#gac3594139f4f1fe548164bb39461f72c8',1,'arm_math.h']]],
-  ['arm_5flinear_5finterp_5fq7',['arm_linear_interp_q7',['../group___linear_interpolate.html#ga40267c9835983a9631d933f55814ba47',1,'arm_math.h']]],
-  ['arm_5fpark_5ff32',['arm_park_f32',['../group__park.html#ga35b912a9cbf55e226cf2e5d98ba96bc1',1,'arm_math.h']]],
-  ['arm_5fpark_5fq31',['arm_park_q31',['../group__park.html#gacf9cfc380b76e508fb5dfc1154887c1b',1,'arm_math.h']]],
-  ['arm_5fpid_5ff32',['arm_pid_f32',['../group___p_i_d.html#ga0966be6524a009a64c7db4b4fe212fba',1,'arm_math.h']]],
-  ['arm_5fpid_5fq15',['arm_pid_q15',['../group___p_i_d.html#gac82bd6ccb2b4395ead06ddefe481a244',1,'arm_math.h']]],
-  ['arm_5fpid_5fq31',['arm_pid_q31',['../group___p_i_d.html#ga1206601b7f7f5c045ded56c8c7deabee',1,'arm_math.h']]],
-  ['arm_5fsqrt_5ff32',['arm_sqrt_f32',['../group___s_q_r_t.html#gad8d530e02516dcf4bc724c7f7e173eb9',1,'arm_math.h']]],
-  ['arm_5fsqrt_5fq15',['arm_sqrt_q15',['../group___s_q_r_t.html#ga5abe5ca724f3e15849662b03752c1238',1,'arm_math.h']]],
-  ['arm_5fsqrt_5fq31',['arm_sqrt_q31',['../group___s_q_r_t.html#ga119e25831e141d734d7ef10636670058',1,'arm_math.h']]]
+  ['btm_5fsetlinksupertout',['BTM_SetLinkSuperTout',['../wiced__bt__dev_8h.html#a78de8e3d5316111ebf8405364f3214b8',1,'wiced_bt_dev.h']]]
 ];

@@ -2,7 +2,6 @@ var searchData=
 [
   ['offset',['offset',['../structwiced__bt__gatt__value__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_value_t::offset()'],['../structwiced__bt__gatt__read__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_read_t::offset()'],['../structwiced__bt__gatt__write__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_write_t::offset()'],['../structwiced__bt__gatt__read__partial__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_read_partial_t::offset()'],['../structwiced__bt__gatt__data__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_data_t::offset()'],['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t::offset()']]],
   ['on_5fpower_5fup',['on_power_up',['../structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6',1,'wiced_bt_mesh_power_onoff_data_t']]],
-  ['onebyfftlen',['onebyfftLen',['../structarm__cfft__radix4__instance__f32.html#acf295a7b97b7d48a9cae4d1ab5ed00f6',1,'arm_cfft_radix4_instance_f32::onebyfftLen()'],['../structarm__cfft__radix2__instance__f32.html#acf295a7b97b7d48a9cae4d1ab5ed00f6',1,'arm_cfft_radix2_instance_f32::onebyfftLen()']]],
   ['onoff',['onoff',['../structwiced__bt__mesh__onoff__set__data__t.html#ab846f82707d4c23e43f5208dab504c77',1,'wiced_bt_mesh_onoff_set_data_t']]],
   ['onpowerup_5fstate',['onpowerup_state',['../wiced__bt__mesh__cfg_8h.html#ac86843b7a21bf25e410cd048df734105',1,'wiced_bt_mesh_cfg.h']]],
   ['oob',['oob',['../structwiced__bt__mesh__provision__scan__report__data__t.html#ac9cf527e900f59c4194623e6201ab3e4',1,'wiced_bt_mesh_provision_scan_report_data_t::oob()'],['../structwiced__bt__mesh__provision__scan__extended__report__data__t.html#ac9cf527e900f59c4194623e6201ab3e4',1,'wiced_bt_mesh_provision_scan_extended_report_data_t::oob()'],['../wiced__bt__mesh__cfg_8h.html#ac9cf527e900f59c4194623e6201ab3e4',1,'oob():&#160;wiced_bt_mesh_cfg.h']]],
@@ -120,8 +119,6 @@ var searchData=
   ['opus_5funimplemented',['OPUS_UNIMPLEMENTED',['../group__opus__errorcodes.html#ga3b8d73b0f44b8b925ff40fd7c02b14a0',1,'opus_defines.h']]],
   ['opusdecoder',['OpusDecoder',['../group__opus__decoder.html#ga401d8579958d36094715a6b90cd159a6',1,'opus.h']]],
   ['opusencoder',['OpusEncoder',['../struct_opus_encoder.html',1,'OpusEncoder'],['../group__opus__encoder.html#gaf461a3ef2f10c2fe8b994a176f06c9bd',1,'OpusEncoder():&#160;opus.h']]],
-  ['osapi_5ftimer_5fstruct',['OSAPI_TIMER_STRUCT',['../struct_o_s_a_p_i___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]],
-  ['oscillatorfrequencykhz',['oscillatorFrequencykHz',['../struct____attribute____.html#ababa18153a4dc2e3cc1fb8db26c34010',1,'__attribute__']]],
   ['ota_5ffw_5fupgrade_5fhandle_5fcommand',['ota_fw_upgrade_handle_command',['../group__group__hci__fw__upgrade__functions.html#ga0da05a94b0dc6ca6dbf66b8aa7f674a9',1,'wiced_bt_hci_firmware_upgrade.h']]],
   ['ota_5ffw_5fupgrade_5fhandle_5fdata',['ota_fw_upgrade_handle_data',['../group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f',1,'wiced_bt_hci_firmware_upgrade.h']]],
   ['ota_5ffw_5fupgrade_5fstatus_5fverification_5fstart',['OTA_FW_UPGRADE_STATUS_VERIFICATION_START',['../group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32',1,'wiced_bt_ota_firmware_upgrade.h']]],

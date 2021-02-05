@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -659,7 +658,7 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>p_array</b></td>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_obex_header_init. </p>
-<p>This function is called to initialize an OBEX packet. This function takes a GKI buffer and sets the offset in <a class="el" href="struct_b_t___h_d_r.html">BT_HDR</a> as OBEX_HDR_OFFSET, the len as 0. The layer_specific is set to the length still available. This function compares the given (pkt_size - sizeof(uint8_t)) with the peer MTU to get the lesser of the two and set the layer_specific to (lesser_size - OBEX_HDR_OFFSET). If composing a header for the CONNECT request (there is no client handle yet), use OBEX_HANDLE_NULL as the handle.</p>
+<p>This function is called to initialize an OBEX packet. This function takes a GKI buffer and sets the offset in BT_HDR as OBEX_HDR_OFFSET, the len as 0. The layer_specific is set to the length still available. This function compares the given (pkt_size - sizeof(uint8_t)) with the peer MTU to get the lesser of the two and set the layer_specific to (lesser_size - OBEX_HDR_OFFSET). If composing a header for the CONNECT request (there is no client handle yet), use OBEX_HANDLE_NULL as the handle.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: OBEX handle </td></tr>

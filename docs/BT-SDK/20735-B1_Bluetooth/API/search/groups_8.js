@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['wiced_20hci_20firmware_20upgrade',['WICED HCI Firmware Upgrade',['../group__group__hci__wiced__firmware__upgrade.html',1,'']]],
-  ['wiced_20ota_20firmware_20upgrade',['WICED OTA Firmware Upgrade',['../group__group__ota__wiced__firmware__upgrade.html',1,'']]],
-  ['wiced_20firmware_20upgrade',['WICED Firmware Upgrade',['../group__group__wiced__firmware__upgrade.html',1,'']]],
-  ['wiced_20system',['WICED System',['../group__wicedsys.html',1,'']]]
+  ['i2c',['I2C',['../group___i2_c_driver.html',1,'']]],
+  ['i2c_20eeprom_20interface',['I2C EEPROM Interface',['../group___i2_c_e_e_p_r_o_m_interface_driver.html',1,'']]],
+  ['iap2_20protocol_20library_20api',['IAP2 Protocol Library API',['../group__wiced__bt__iap2__api__functions.html',1,'']]]
 ];

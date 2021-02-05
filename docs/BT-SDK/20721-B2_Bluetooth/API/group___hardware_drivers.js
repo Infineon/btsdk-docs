@@ -1,6 +1,5 @@
 var group___hardware_drivers =
 [
-    [ "ADC", "group___a_d_c.html", null ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
     [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
@@ -9,14 +8,13 @@ var group___hardware_drivers =
     [ "External Power Amplifier", "group___external_power_amplifier_driver.html", "group___external_power_amplifier_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
     [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],
-    [ "Keyscan", "group__keyscan.html", "group__keyscan" ],
+    [ "Keyscan Interface", "group__keyscan.html", "group__keyscan" ],
     [ "Multiple Interface Adapter (MIA)", "group___m_i_a_driver.html", "group___m_i_a_driver" ],
     [ "NVRAM", "group__nvram.html", "group__nvram" ],
     [ "Peripheral SPI", "group___peripheral_spi_driver.html", "group___peripheral_spi_driver" ],
     [ "Peripheral UART (PUART)", "group___p_u_a_r_t_driver.html", "group___p_u_a_r_t_driver" ],
     [ "Power Management Integrated Circuit", "group___p_m_i_c.html", "group___p_m_i_c" ],
     [ "Pulse Width Modulation (PWM)", "group___pwm_driver.html", "group___pwm_driver" ],
-    [ "RTC", "group___r_t_c.html", "group___r_t_c" ],
     [ "RTCDriver", "group___r_t_c_driver.html", "group___r_t_c_driver" ],
     [ "Random Number Generator (RNG)", "group___random_number_generator.html", "group___random_number_generator" ],
     [ "Serial Flash Interface", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],

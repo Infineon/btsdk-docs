@@ -22,7 +22,6 @@ var searchData=
   ['operation_5foverwrite',['OPERATION_OVERWRITE',['../group__wiced__bt__mesh__provisioning.html#gab31f9359f2a7ae944e1d2436273840c1',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5funbind',['OPERATION_UNBIND',['../wiced__bt__mesh__provision_8h.html#ada57d38587de2a5dafeb111a72a195e7',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fupdate',['OPERATION_UPDATE',['../group__wiced__bt__mesh__provisioning.html#ga6653182fcafe90c7685479f77478919b',1,'wiced_bt_mesh_provision.h']]],
-  ['osapi_5ftimer_5fstruct',['OSAPI_TIMER_STRUCT',['../struct_o_s_a_p_i___t_i_m_e_r___s_t_r_u_c_t.html',1,'']]],
   ['ota_5ffw_5fupgrade_5fhandle_5fcommand',['ota_fw_upgrade_handle_command',['../group__group__hci__fw__upgrade__functions.html#ga0da05a94b0dc6ca6dbf66b8aa7f674a9',1,'wiced_bt_hci_firmware_upgrade.h']]],
   ['ota_5ffw_5fupgrade_5fhandle_5fdata',['ota_fw_upgrade_handle_data',['../group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f',1,'wiced_bt_hci_firmware_upgrade.h']]],
   ['ota_5ffw_5fupgrade_5fstatus_5fverification_5fstart',['OTA_FW_UPGRADE_STATUS_VERIFICATION_START',['../group__group__ota__fw__upgrade__macros.html#ga3a0fbd9c3c66798702d400a37676bb32',1,'wiced_bt_ota_firmware_upgrade.h']]],

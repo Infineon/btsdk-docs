@@ -31,7 +31,6 @@ var searchData=
   ['flags',['flags',['../structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f',1,'wiced_bt_l2cap_cfg_information_t::flags()'],['../wiced__bt__mesh__cfg_8h.html#aa2585d779da0ab21273a8d92de9a0ebe',1,'flags():&#160;wiced_bt_mesh_cfg.h']]],
   ['flash_5fsector_5fsize',['FLASH_SECTOR_SIZE',['../group___embedded_flash_interface_driver.html#gae9560b79ebc5c7d96bea3c0821a0373a',1,'wiced_hal_eflash.h']]],
   ['floor_5fnumber',['floor_number',['../structwiced__bt__mesh__location__local__data__t.html#a83005d78b4bf9436ff02d5b937ad6b2a',1,'wiced_bt_mesh_location_local_data_t']]],
-  ['flow_5fspec',['FLOW_SPEC',['../struct_f_l_o_w___s_p_e_c.html',1,'']]],
   ['flush',['flush',['../structwiced__block__device__driver__struct.html#aa748d7de07563c29f482c391dc93ad8d',1,'wiced_block_device_driver_struct']]],
   ['flush_5ftimeout',['flush_timeout',['../structwiced__bt__l2cap__cfg__information__t.html#ac6d3bda95d9217e5d7eb5a8ecbf383de',1,'wiced_bt_l2cap_cfg_information_t']]],
   ['flush_5ftimeout_5fpresent',['flush_timeout_present',['../structwiced__bt__l2cap__cfg__information__t.html#a990864342c8e6cda4da298ec12692c29',1,'wiced_bt_l2cap_cfg_information_t']]],

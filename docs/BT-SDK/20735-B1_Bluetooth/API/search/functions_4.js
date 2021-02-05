@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['thermistor_5finit',['thermistor_init',['../wiced__thermistor_8h.html#a073379865e6595554ecc568a52956d91',1,'wiced_thermistor.h']]],
-  ['thermistor_5fread',['thermistor_read',['../wiced__thermistor_8h.html#a4409429027d4e29cc90afcd33bff60f0',1,'wiced_thermistor.h']]]
+  ['ota_5ffw_5fupgrade_5fhandle_5fcommand',['ota_fw_upgrade_handle_command',['../group__group__hci__fw__upgrade__functions.html#ga0da05a94b0dc6ca6dbf66b8aa7f674a9',1,'wiced_bt_hci_firmware_upgrade.h']]],
+  ['ota_5ffw_5fupgrade_5fhandle_5fdata',['ota_fw_upgrade_handle_data',['../group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f',1,'wiced_bt_hci_firmware_upgrade.h']]]
 ];

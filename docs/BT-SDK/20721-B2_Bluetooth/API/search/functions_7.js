@@ -1,26 +1,5 @@
 var searchData=
 [
-  ['opus_5fdecode_5ffloat',['opus_decode_float',['../group__opus__decoder.html#ga44f7e51b4c658cedb746e075602681f1',1,'opus.h']]],
-  ['opus_5fencode_5fed',['opus_encode_ed',['../group__opus__encoder.html#gaf96aa4fafd06a772143142da7a4adf13',1,'opus.h']]],
-  ['opus_5fencode_5ffloat',['opus_encode_float',['../group__opus__encoder.html#ga423a34d2ed5d7d360db856ad9258a23f',1,'opus.h']]],
-  ['opus_5fencoder_5fcreate',['opus_encoder_create',['../group__opus__encoder.html#ga08239d8c5021309d4a2e8d3097b73731',1,'opus.h']]],
-  ['opus_5fencoder_5fctl',['opus_encoder_ctl',['../group__opus__encoder.html#ga88cb327d8f7d6a96c7d2d0b8461512e6',1,'opus.h']]],
-  ['opus_5fencoder_5fdestroy',['opus_encoder_destroy',['../group__opus__encoder.html#ga899c69582a1cad2a168aedc99cab7be0',1,'opus.h']]],
-  ['opus_5fencoder_5fget_5fsize',['opus_encoder_get_size',['../group__opus__encoder.html#ga9ac72d062eca0c77711f5b04b9dcc645',1,'opus.h']]],
-  ['opus_5fencoder_5finit',['opus_encoder_init',['../group__opus__encoder.html#ga8701cc5741eed9947160faf43be0af22',1,'opus.h']]],
-  ['opus_5fmultistream_5fpacket_5fpad',['opus_multistream_packet_pad',['../group__opus__repacketizer.html#gab21f50e7b0106cc06f769294a3a0d507',1,'opus.h']]],
-  ['opus_5fmultistream_5fpacket_5funpad',['opus_multistream_packet_unpad',['../group__opus__repacketizer.html#ga9cac898597900315b31dff669468cbb5',1,'opus.h']]],
-  ['opus_5fpacket_5fpad',['opus_packet_pad',['../group__opus__repacketizer.html#ga4eaa6aa0b46f9ce8443d8f0bfed5b3b3',1,'opus.h']]],
-  ['opus_5fpacket_5funpad',['opus_packet_unpad',['../group__opus__repacketizer.html#ga988d5d2dc66dbe57ea42fd9f67ece1ba',1,'opus.h']]],
-  ['opus_5fpcm_5fsoft_5fclip',['opus_pcm_soft_clip',['../group__opus__decoder.html#ga97cfcb7d4577df585955d4076b1ac717',1,'opus.h']]],
-  ['opus_5frepacketizer_5fcat',['opus_repacketizer_cat',['../group__opus__repacketizer.html#gabbb133a5fd263bb43fc62b7e3da84abe',1,'opus.h']]],
-  ['opus_5frepacketizer_5fcreate',['opus_repacketizer_create',['../group__opus__repacketizer.html#gaa70e9708619188f673b5dc3f494c46ea',1,'opus.h']]],
-  ['opus_5frepacketizer_5fdestroy',['opus_repacketizer_destroy',['../group__opus__repacketizer.html#gab03f22d1139a42e450761ad99ca3d882',1,'opus.h']]],
-  ['opus_5frepacketizer_5fget_5fnb_5fframes',['opus_repacketizer_get_nb_frames',['../group__opus__repacketizer.html#ga0abed93ad18e8b2bd8b5bd10189c3e97',1,'opus.h']]],
-  ['opus_5frepacketizer_5fget_5fsize',['opus_repacketizer_get_size',['../group__opus__repacketizer.html#ga833b745bf92317e9ac26797a56eba6fd',1,'opus.h']]],
-  ['opus_5frepacketizer_5finit',['opus_repacketizer_init',['../group__opus__repacketizer.html#gadef533688e80dcc96a32b955657aaf28',1,'opus.h']]],
-  ['opus_5frepacketizer_5fout',['opus_repacketizer_out',['../group__opus__repacketizer.html#ga993965b2f62e43b580b9c42ad2054668',1,'opus.h']]],
-  ['opus_5frepacketizer_5fout_5frange',['opus_repacketizer_out_range',['../group__opus__repacketizer.html#ga15d327737f162b2a16a2370c33184de6',1,'opus.h']]],
-  ['ota_5ffw_5fupgrade_5fhandle_5fcommand',['ota_fw_upgrade_handle_command',['../group__group__hci__fw__upgrade__functions.html#ga0da05a94b0dc6ca6dbf66b8aa7f674a9',1,'wiced_bt_hci_firmware_upgrade.h']]],
-  ['ota_5ffw_5fupgrade_5fhandle_5fdata',['ota_fw_upgrade_handle_data',['../group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f',1,'wiced_bt_hci_firmware_upgrade.h']]]
+  ['thermistor_5finit',['thermistor_init',['../wiced__thermistor_8h.html#a073379865e6595554ecc568a52956d91',1,'wiced_thermistor.h']]],
+  ['thermistor_5fread',['thermistor_read',['../wiced__thermistor_8h.html#a4409429027d4e29cc90afcd33bff60f0',1,'wiced_thermistor.h']]]
 ];

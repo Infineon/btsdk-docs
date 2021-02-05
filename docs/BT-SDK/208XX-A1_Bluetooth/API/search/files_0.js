@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['arm_5fpl081_2eh',['arm_pl081.h',['../arm__pl081_8h.html',1,'']]]
+  ['hci_5fcontrol_5fapi_2eh',['hci_control_api.h',['../hci__control__api_8h.html',1,'']]]
 ];

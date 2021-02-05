@@ -14,13 +14,16 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"group__group__hci__fw__upgrade__cback__functions.html",
-"group__wiced__bt__mesh__core.html#ga6c8ae95412bf0d67e9e518cdefa95b0d",
-"group__wiced__bt__mesh__model__light__lc__server.html#gab17ba324d6882bb65068b3ffa05e4ace",
-"group__wiced__bt__mesh__scene__client.html#ga58a34a9e9106bac983ca8b4d19b662d8",
-"structwiced__bt__mesh__core__provision__capabilities__t.html#aa2bab113df363b1c56d14939ca6856ac",
-"structwiced__bt__mesh__light__lightness__status__data__t.html",
-"structwiced__bt__spp__reg__t.html#aefa2be089fd56821b92fe080d17c8f53"
+"group___adc_driver.html",
+"group___serial_flash_interface_driver.html",
+"group__l2cap__api__functions.html#ga9b246f3663cee7a53e788c47172413d9",
+"group__wiced__bt__mesh__battery__client.html#ga6b7e1bcc36f0ebad5745743445a34758",
+"group__wiced__bt__mesh__light__hsl__server.html#ga3bc33dafd57f3d1f0f907e0234374dc5",
+"group__wiced__bt__mesh__provisioning.html#ga530a7b7a33ad0dda31288df908248cae",
+"group__wicedbt__av__a2d__helper.html#gacb050bae5f1841338bc9a5a96a552457",
+"structwiced__bt__bac__battery__level__rsp__t.html",
+"structwiced__bt__mesh__level__set__delta__t.html#a682a609ad7209580739aa2589f49dc04",
+"structwiced__bt__mesh__properties__status__data__t.html#aacce74ab4e266853217783b13acad523"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

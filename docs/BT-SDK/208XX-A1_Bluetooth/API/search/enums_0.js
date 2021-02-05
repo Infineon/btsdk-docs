@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['clk_5fsrc_5ffreq_5fsel',['CLK_SRC_FREQ_SEL',['../group__group___a_c_l_k__enum.html#gab66569008867eb09018a7e2bc0c1c154',1,'CLK_SRC_FREQ_SEL():&#160;wiced_hal_aclk.h'],['../group___a_c_l_k.html#gab66569008867eb09018a7e2bc0c1c154',1,'CLK_SRC_FREQ_SEL():&#160;aclk.h']]],
+  ['clk_5fsrc_5ffreq_5fsel',['CLK_SRC_FREQ_SEL',['../group__group___a_c_l_k__enum.html#gab66569008867eb09018a7e2bc0c1c154',1,'wiced_hal_aclk.h']]],
   ['clk_5fsrc_5fsel',['CLK_SRC_SEL',['../group__group___a_c_l_k__enum.html#ga79ee09b3c80c2eb369656e4bdd633135',1,'wiced_hal_aclk.h']]],
   ['cpl_5fevent_5fbt_5fpower_5fstate_5ft',['cpl_event_bt_power_state_t',['../group__wpl__event.html#gad188658f896faab5c88049e633bbeb7d',1,'wiced_power_logger.h']]],
   ['cpl_5fevent_5fi2c_5fstate_5ft',['cpl_event_i2c_state_t',['../group__wpl__event.html#gae766e9fb426c1aadf363097beec1b2fa',1,'wiced_power_logger.h']]],

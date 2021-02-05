@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['hidevent',['HidEvent',['../group___hid_events.html#ga819c2565e9d5f38c0858804fff7adde6',1,'hidevent.h']]],
-  ['hideventany',['HidEventAny',['../group___hid_events.html#ga67f1c15db265740afb93c4a4b2a02779',1,'hidevent.h']]],
-  ['hideventbuttonstatechange',['HidEventButtonStateChange',['../group___hid_events.html#ga899716bf8216e40ef7bf18376071ad36',1,'hidevent.h']]],
-  ['hideventkey',['HidEventKey',['../group___hid_events.html#ga0232e8272df6a15f781352e7c3dcb030',1,'hidevent.h']]],
-  ['hideventmotionab',['HidEventMotionAB',['../group___hid_events.html#ga406c2facb4a0d6ede1d17ff3491b19fb',1,'hidevent.h']]],
-  ['hideventmotionsingleaxis',['HidEventMotionSingleAxis',['../group___hid_events.html#ga19beaf8d93ab3b1d84de3410d1a6e442',1,'hidevent.h']]],
-  ['hideventmotionxy',['HidEventMotionXY',['../group___hid_events.html#ga41831ed7c7f58ad56c1d1ca5b1685d1e',1,'hidevent.h']]]
+  ['spi_5fendian',['SPI_ENDIAN',['../group___peripheral_spi_driver.html#ga4f8f02d20e544054d34867cf97b15efa',1,'wiced_hal_pspi.h']]],
+  ['spi_5fmode',['SPI_MODE',['../group___peripheral_spi_driver.html#ga848ed5ab7a42135cb196c2632b894434',1,'wiced_hal_pspi.h']]],
+  ['spi_5fss_5fmode',['SPI_SS_MODE',['../group___peripheral_spi_driver.html#ga5cced8cf504cb549ebcbc306c72a1beb',1,'wiced_hal_pspi.h']]],
+  ['spi_5fss_5fpolarity',['SPI_SS_POLARITY',['../group___peripheral_spi_driver.html#gaa9ed9dd57bd1b7fe53a719068656fe58',1,'wiced_hal_pspi.h']]]
 ];

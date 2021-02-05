@@ -153,7 +153,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a99abd871d0591bfb3faf827e635d833f"><td class="memItemLeft" ><a class="anchor" id="a99abd871d0591bfb3faf827e635d833f"></a>
+<tr class="memitem:ab95ebbcdb9384a34d27c1bce89755cc4"><td class="memItemLeft" ><a class="anchor" id="ab95ebbcdb9384a34d27c1bce89755cc4"></a>
 struct {</td></tr>
 <tr class="memitem:ac87170cf133e48fc4c61ea4b90bfb515"><td class="memItemLeft" ><a class="anchor" id="ac87170cf133e48fc4c61ea4b90bfb515"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<b>src</b></td></tr>
@@ -182,15 +182,15 @@ struct {</td></tr>
 <tr class="memitem:aa86e1085c6a16f60258f29c9d5fc2144"><td class="memItemLeft" ><a class="anchor" id="aa86e1085c6a16f60258f29c9d5fc2144"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>data</b> [1]</td></tr>
 <tr class="separator:aa86e1085c6a16f60258f29c9d5fc2144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99abd871d0591bfb3faf827e635d833f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_hci_event_t</b></td></tr>
-<tr class="separator:a99abd871d0591bfb3faf827e635d833f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95ebbcdb9384a34d27c1bce89755cc4"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_hci_event_t</b></td></tr>
+<tr class="separator:ab95ebbcdb9384a34d27c1bce89755cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e857c24768f94af02bf133ff08ed914"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a9e857c24768f94af02bf133ff08ed914">wiced_bt_mesh_app_init_t</a> )(wiced_bool_t is_provisioned)</td></tr>
 <tr class="memdesc:a9e857c24768f94af02bf133ff08ed914"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callback function to perform application startup initialization.  <a href="#a9e857c24768f94af02bf133ff08ed914">More...</a><br /></td></tr>
 <tr class="separator:a9e857c24768f94af02bf133ff08ed914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4accc70ddf688d866d53ba0e04055d13"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a4accc70ddf688d866d53ba0e04055d13">wiced_bt_mesh_app_hardware_init_t</a> )(void)</td></tr>
 <tr class="memdesc:a4accc70ddf688d866d53ba0e04055d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callback function to perform application hardware initialization.  <a href="#a4accc70ddf688d866d53ba0e04055d13">More...</a><br /></td></tr>
 <tr class="separator:a4accc70ddf688d866d53ba0e04055d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34a5fc60b202c1858bd5d59de40ed881"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a34a5fc60b202c1858bd5d59de40ed881">wiced_bt_mesh_app_gatt_conn_status_t</a> )(wiced_bt_gatt_connection_status_t *p_status)</td></tr>
+<tr class="memitem:a34a5fc60b202c1858bd5d59de40ed881"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a34a5fc60b202c1858bd5d59de40ed881">wiced_bt_mesh_app_gatt_conn_status_t</a> )(<a class="el" href="structwiced__bt__gatt__connection__status__t.html">wiced_bt_gatt_connection_status_t</a> *p_status)</td></tr>
 <tr class="separator:a34a5fc60b202c1858bd5d59de40ed881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7139255494d11e46ae7a1f975e6de2b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#ae7139255494d11e46ae7a1f975e6de2b">wiced_bt_mesh_app_attention_t</a> )(uint8_t element, uint8_t time)</td></tr>
 <tr class="memdesc:ae7139255494d11e46ae7a1f975e6de2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callback function to attract human attention by LED blinks or other.  <a href="#ae7139255494d11e46ae7a1f975e6de2b">More...</a><br /></td></tr>
@@ -285,7 +285,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* wiced_bt_mesh_app_gatt_conn_status_t)(wiced_bt_gatt_connection_status_t *p_status)</td>
+          <td class="memname">typedef void(* wiced_bt_mesh_app_gatt_conn_status_t)(<a class="el" href="structwiced__bt__gatt__connection__status__t.html">wiced_bt_gatt_connection_status_t</a> *p_status)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -433,7 +433,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_bd0a61b65cb7d032cdb5fd48047fdd59.html">out</a></li><li class="navelem"><a class="el" href="dir_eed34f1b4c36db0a21d5db67039b1580.html">repos</a></li><li class="navelem"><a class="el" href="dir_7f51b811c0a754fddbb08e8579166f13.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__app_8h.html">wiced_bt_mesh_app.h</a></li>
+    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_c6f8dc558a50b7602f8e1602a7bcbf05.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__app_8h.html">wiced_bt_mesh_app.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

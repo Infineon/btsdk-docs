@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['lcplc_5fconfig',['LCPLC_config',['../struct_l_c_p_l_c__config.html',1,'']]],
-  ['lcplc_5fconfig1',['LCPLC_config1',['../struct_l_c_p_l_c__config1.html',1,'']]],
-  ['lcplc_5fconfig2',['LCPLC_config2',['../struct_l_c_p_l_c__config2.html',1,'']]],
-  ['lcplc_5fstate',['LCPLC_State',['../struct_l_c_p_l_c___state.html',1,'']]],
-  ['lhl_5fadc_5fctl_5freg',['LHL_ADC_CTL_REG',['../union_l_h_l___a_d_c___c_t_l___r_e_g.html',1,'']]]
+  ['sdp_5fdiscovery_5frecord_5ft',['sdp_discovery_record_t',['../structsdp__discovery__record__t.html',1,'']]],
+  ['sdp_5finfo',['sdp_info',['../structsdp__info.html',1,'']]],
+  ['sha2_5fcontext',['sha2_context',['../structsha2__context.html',1,'']]],
+  ['stereowidthstate',['StereoWidthState',['../struct_stereo_width_state.html',1,'']]],
+  ['stream_5finterface_5ft',['stream_interface_t',['../structstream__interface__t.html',1,'']]]
 ];

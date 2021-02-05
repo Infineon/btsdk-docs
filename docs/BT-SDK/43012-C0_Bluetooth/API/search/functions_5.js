@@ -1,11 +1,6 @@
 var searchData=
 [
   ['sco_5faud_5finit',['sco_aud_init',['../group__sco__hook__data__types.html#ga831eb09164d3fb67b110af9ad1d8666b',1,'wiced_bt_sco_hook.h']]],
-  ['sdp_5faddattribute',['SDP_AddAttribute',['../group__sdp__api__functions.html#gaf16ae7a3d818c9c2c72257832c08ca43',1,'sdp_api.h']]],
-  ['sdp_5faddprotocollist',['SDP_AddProtocolList',['../group__sdp__api__functions.html#gaaa7cc8ff0940752ff34cb64303bc9dcb',1,'sdp_api.h']]],
-  ['sdp_5faddserviceclassidlist',['SDP_AddServiceClassIdList',['../group__sdp__api__functions.html#gadba07b79e8e3457cd501639209d957ca',1,'sdp_api.h']]],
-  ['sdp_5fadduuidsequence',['SDP_AddUuidSequence',['../group__sdp__api__functions.html#gaef26968d70b3b26030e164f43408b340',1,'sdp_api.h']]],
-  ['sdp_5fcreaterecord',['SDP_CreateRecord',['../group__sdp__api__functions.html#ga15b5421ee45892eea768bc0314da0e36',1,'sdp_api.h']]],
   ['sha2',['sha2',['../sha2_8h.html#a5e67ecbf0b3b71cc3d66f87e356fcb95',1,'sha2.h']]],
   ['sha2_5ffile',['sha2_file',['../sha2_8h.html#a488a192b5a7c76a6e806910761db6d21',1,'sha2.h']]],
   ['sha2_5ffinish',['sha2_finish',['../sha2_8h.html#a2762ab9bf6601a7ab2f2bee3eb72b22a',1,'sha2.h']]],

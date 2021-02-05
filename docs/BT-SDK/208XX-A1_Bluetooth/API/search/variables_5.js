@@ -8,7 +8,6 @@ var searchData=
   ['element_5fidx',['element_idx',['../structwiced__bt__mesh__event____t.html#a3e88ad60a04f11afc4d739c9fbd490af',1,'wiced_bt_mesh_event__t']]],
   ['elements',['elements',['../wiced__bt__mesh__cfg_8h.html#ab110e39c0888dedc33191c64d04a77b5',1,'wiced_bt_mesh_cfg.h']]],
   ['elements_5fnum',['elements_num',['../structwiced__bt__mesh__core__provision__capabilities__t.html#ab102a393bd02e7c8c723aca4f3d0bbef',1,'wiced_bt_mesh_core_provision_capabilities_t::elements_num()'],['../structwiced__bt__mesh__provision__device__capabilities__data__t.html#ab102a393bd02e7c8c723aca4f3d0bbef',1,'wiced_bt_mesh_provision_device_capabilities_data_t::elements_num()'],['../wiced__bt__mesh__cfg_8h.html#ab102a393bd02e7c8c723aca4f3d0bbef',1,'elements_num():&#160;wiced_bt_mesh_cfg.h']]],
-  ['elementsize',['elementSize',['../struct_keyscan_queue_state.html#aae929fff50bb45d722ffef5e98b88e0a',1,'KeyscanQueueState']]],
   ['enabled',['enabled',['../unionwiced__bt__management__evt__data__t.html#aa611804a1de3172987b0f0995658153e',1,'wiced_bt_management_evt_data_t']]],
   ['encryption_5fstatus',['encryption_status',['../unionwiced__bt__management__evt__data__t.html#aec8fb4af1319f261d54c593019d86964',1,'wiced_bt_management_evt_data_t']]],
   ['end_5findex',['end_index',['../structwiced__bt__mesh__sensor__series__get__data__t.html#a884c52b970c72b85d33b1a0b860b5356',1,'wiced_bt_mesh_sensor_series_get_data_t']]],

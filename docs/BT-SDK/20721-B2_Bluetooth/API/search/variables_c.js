@@ -1,15 +1,11 @@
 var searchData=
 [
-  ['l',['L',['../structarm__fir__interpolate__instance__q15.html#aee73cc056696e504430c53eaa9c58cf0',1,'arm_fir_interpolate_instance_q15::L()'],['../structarm__fir__interpolate__instance__q31.html#aee73cc056696e504430c53eaa9c58cf0',1,'arm_fir_interpolate_instance_q31::L()'],['../structarm__fir__interpolate__instance__f32.html#aee73cc056696e504430c53eaa9c58cf0',1,'arm_fir_interpolate_instance_f32::L()']]],
   ['l2cap_5fapplication',['l2cap_application',['../structwiced__bt__cfg__settings__t.html#a82cbdc9211a31f4c1b58976a77ea8a5a',1,'wiced_bt_cfg_settings_t']]],
   ['label',['label',['../structwiced__bt__avdt__evt__hdr__t.html#a6abd170e74558ffbdb4fdfb852dbfe0c',1,'wiced_bt_avdt_evt_hdr_t']]],
-  ['lar',['LAR',['../struct_i_t_m___type.html#aa2c0f411bbcc7b7c7a558a964996dc11',1,'ITM_Type']]],
   ['last_5flevel',['last_level',['../structwiced__bt__mesh__light__lightness__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84',1,'wiced_bt_mesh_light_lightness_last_data_t::last_level()'],['../structwiced__bt__mesh__light__delta__uv__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84',1,'wiced_bt_mesh_light_delta_uv_last_data_t::last_level()']]],
   ['last_5freleased_5ftimestamp',['last_released_timestamp',['../structbutton__manager__button__t.html#a6b716f58393ecf926f1e596e127d153c',1,'button_manager_button_t']]],
   ['last_5fsent_5fevent',['last_sent_event',['../structbutton__manager__button__t.html#af0504658257f7d8329ddf4efdd937d44',1,'button_manager_button_t']]],
   ['latency',['latency',['../structwiced__bt__ble__rc__connection__param__req__t.html#a3c33efef6d5cbcd1ddacf7f6ec924423',1,'wiced_bt_ble_rc_connection_param_req_t::latency()'],['../structwiced__bt__flow__spec__t.html#acd3d24a29a6e07be2bd52fcaffecc872',1,'wiced_bt_flow_spec_t::latency()']]],
-  ['latencycnt2en',['latencyCnt2En',['../union_f_i_l_t_e_r___c_t_l_d___r_e_g.html#a15052bdefd8899b327ff7aa12ddbf1c3',1,'FILTER_CTLD_REG']]],
-  ['latencycnt2set',['latencyCnt2Set',['../union_f_i_l_t_e_r___c_t_l_d___r_e_g.html#ae5558b5a89ed17d12be65de22f5046df',1,'FILTER_CTLD_REG']]],
   ['lcid',['lcid',['../structwiced__bt__avdt__open__t.html#acb266dd40be81541c458718de4d7ced9',1,'wiced_bt_avdt_open_t']]],
   ['lcsrk',['lcsrk',['../wiced__bt__dev_8h.html#a7f3e57f56b673cca28885a6b24f0f3e7',1,'wiced_bt_dev.h']]],
   ['le_5fconnect_5fconfirm_5fcback',['le_connect_confirm_cback',['../structwiced__bt__l2cap__le__appl__information__t.html#ae7b6dde2861da41bb895679b4ba90ba1',1,'wiced_bt_l2cap_le_appl_information_t']]],
@@ -23,7 +19,6 @@ var searchData=
   ['length',['length',['../structwiced__hal__mic__rx__pcm__t.html#ae6409de572790b092f0a7579eb393d93',1,'wiced_hal_mic_rx_pcm_t::length()'],['../structwiced__bt__dev__remote__name__result__t.html#a1892eba2086d12ac2b09005aeb09ea3b',1,'wiced_bt_dev_remote_name_result_t::length()']]],
   ['level',['level',['../structwiced__bt__mesh__level__set__level__t.html#a2da91f0a0f8a8cd77e01c7617dfe58e3',1,'wiced_bt_mesh_level_set_level_t::level()'],['../structwiced__bt__mesh__power__level__set__level__t.html#a864fde14aaec72616f08a10c4a3a07ad',1,'wiced_bt_mesh_power_level_set_level_t::level()'],['../structwiced__bt__mesh__light__delta__uv__set__level__t.html#a864fde14aaec72616f08a10c4a3a07ad',1,'wiced_bt_mesh_light_delta_uv_set_level_t::level()'],['../structwiced__bt__mesh__light__hsl__hue__set__t.html#a864fde14aaec72616f08a10c4a3a07ad',1,'wiced_bt_mesh_light_hsl_hue_set_t::level()'],['../structwiced__bt__mesh__light__hsl__saturation__set__t.html#a864fde14aaec72616f08a10c4a3a07ad',1,'wiced_bt_mesh_light_hsl_saturation_set_t::level()']]],
   ['level_5finidicator',['level_inidicator',['../structmesh__battery__event__t.html#a3e901fd985daa36b7813eefdc5499018',1,'mesh_battery_event_t']]],
-  ['lhl_5fctl_5freg',['lhl_ctl_reg',['../union_l_h_l___a_d_c___c_t_l___r_e_g.html#a4fdaed625d15c29ecbf3509ece502062',1,'LHL_ADC_CTL_REG']]],
   ['light_5fonoff',['light_onoff',['../structwiced__bt__mesh__light__lc__light__onoff__set__data__t.html#afd6fcc3eda9937182c8881e6fbf7ff8f',1,'wiced_bt_mesh_light_lc_light_onoff_set_data_t']]],
   ['lightness',['lightness',['../structwiced__bt__mesh__light__ctl__data__t.html#a968eb4438426da63f07e28bfa3578bda',1,'wiced_bt_mesh_light_ctl_data_t::lightness()'],['../structwiced__bt__mesh__light__hsl__data__t.html#a968eb4438426da63f07e28bfa3578bda',1,'wiced_bt_mesh_light_hsl_data_t::lightness()'],['../structwiced__bt__mesh__light__xyl__data__t.html#a968eb4438426da63f07e28bfa3578bda',1,'wiced_bt_mesh_light_xyl_data_t::lightness()']]],
   ['lightness_5factual',['lightness_actual',['../structwiced__bt__mesh__light__lightness__set__t.html#a17312bb6480549142f7cfbcc728a75b9',1,'wiced_bt_mesh_light_lightness_set_t::lightness_actual()'],['../structwiced__bt__mesh__light__lightness__actual__set__t.html#a17312bb6480549142f7cfbcc728a75b9',1,'wiced_bt_mesh_light_lightness_actual_set_t::lightness_actual()']]],
@@ -40,7 +35,6 @@ var searchData=
   ['list_5fapp_5fvalues',['list_app_values',['../unionwiced__bt__avrc__command__t.html#a11f1f1fb0f5badefc8fd21e1c03b9671',1,'wiced_bt_avrc_command_t::list_app_values()'],['../unionwiced__bt__avrc__response__t.html#a947c1efb426ac4bcc1159a7ca62a32c2',1,'wiced_bt_avrc_response_t::list_app_values()']]],
   ['list_5fsize',['list_size',['../wiced__bt__mesh__provision_8h.html#ae1b377cad5fd3498c1921a034b9f7c61',1,'wiced_bt_mesh_provision.h']]],
   ['lltk',['lltk',['../wiced__bt__dev_8h.html#a911661df6c2b304dabc25e1e19ead423',1,'wiced_bt_dev.h']]],
-  ['load',['LOAD',['../struct_sys_tick___type.html#aad9adf4efc940cddb8161b69cfbe19d3',1,'SysTick_Type']]],
   ['local_5faltitude',['local_altitude',['../structwiced__bt__mesh__location__local__data__t.html#ab0b5777419c58cfdde04a14721e3e49e',1,'wiced_bt_mesh_location_local_data_t']]],
   ['local_5fauthentication_5frequirements',['local_authentication_requirements',['../structwiced__bt__dev__user__cfm__req__t.html#a7faacee0473cb2f4465b80e2d736109c',1,'wiced_bt_dev_user_cfm_req_t']]],
   ['local_5fcounter',['local_counter',['../wiced__bt__dev_8h.html#a2947b60006cd043bc674a54637b00d84',1,'wiced_bt_dev.h']]],
@@ -75,7 +69,5 @@ var searchData=
   ['lpn_5faddr',['lpn_addr',['../wiced__bt__mesh__provision_8h.html#ab3371dec7376470768bacb36c432e7be',1,'wiced_bt_mesh_provision.h']]],
   ['lpn_5fscan',['lpn_scan',['../unionwiced__bt__mesh__core__state__t.html#ac57fc576c40e62f4fc023416440b0fa3',1,'wiced_bt_mesh_core_state_t']]],
   ['lpn_5fsleep',['lpn_sleep',['../unionwiced__bt__mesh__core__state__t.html#a90d72a7eaec388bf7b534f43e959ab96',1,'wiced_bt_mesh_core_state_t']]],
-  ['lsbfirst',['lsbFirst',['../structwiced__hal__pcm__param__t.html#abf2b89bc68855cf70a9addc39ee3f752',1,'wiced_hal_pcm_param_t']]],
-  ['lsr',['LSR',['../struct_i_t_m___type.html#a8387dc0dc9f45c8a81cfc98bfff7ae32',1,'ITM_Type']]],
-  ['lsucnt',['LSUCNT',['../struct_d_w_t___type.html#ab1d62b8e1a69bead9717d5a02f741811',1,'DWT_Type']]]
+  ['lsbfirst',['lsbFirst',['../structwiced__hal__pcm__param__t.html#abf2b89bc68855cf70a9addc39ee3f752',1,'wiced_hal_pcm_param_t']]]
 ];

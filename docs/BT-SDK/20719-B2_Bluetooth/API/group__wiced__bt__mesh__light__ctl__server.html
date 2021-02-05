@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Components</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -156,8 +155,8 @@ Functions</h2></td></tr>
 <p>In addition to the definition, the application shall initialize the CTL Server module by calling <a class="el" href="group__wiced__bt__mesh__light__ctl__server.html#gaf97da5c28f67d67cb59febbbc09e5798">wiced_bt_mesh_model_light_ctl_server_init</a> function for each primary element where the CTL functionality is required providing the <a class="el" href="group__wiced__bt__mesh__light__ctl__server.html#gafd52e17efae93150add9349084e86af7">wiced_bt_mesh_light_ctl_server_callback_t</a> callback that will be executed when the brightness level or the color temperature of the device needs to be changed.</p>
 <p>If the brightness or color temperature of the device is changed locally the application should call the wiced_bt_mesh_model_light_ctl_status_changed so that the library can maintain correct state and send an appropriate status message if it is configured to do so.</p>
 <p>Most of the functionality of the Light CTL server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#acf16dd58bb3c3cb074f9762bc72b6aeb">WICED_BT_MESH_LIGHT_CTL_SET</a> event. If client requests to change the brightness or the color temperature to the target value over a period of time, the library will maintain the timer and will periodically call the application with appropriate values.</p>
-<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga0303131a88715dd4dce298be54651518">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
-<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga0303131a88715dd4dce298be54651518">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
+<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
+<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga31d00ceb59ef7db4fc28879b20509808"></a>
 <div class="memitem">

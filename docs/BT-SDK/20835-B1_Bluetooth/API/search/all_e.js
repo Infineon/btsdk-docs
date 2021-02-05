@@ -1,20 +1,13 @@
 var searchData=
 [
-  ['structs',['Structs',['../group__group__ota__fw__upgrade__structs.html',1,'']]],
-  ['sha2',['sha2',['../sha2_8h.html#a5e67ecbf0b3b71cc3d66f87e356fcb95',1,'sha2.h']]],
-  ['sha2_2eh',['sha2.h',['../sha2_8h.html',1,'']]],
-  ['sha2_5fcontext',['sha2_context',['../structsha2__context.html',1,'']]],
-  ['sha2_5ffile',['sha2_file',['../sha2_8h.html#a488a192b5a7c76a6e806910761db6d21',1,'sha2.h']]],
-  ['sha2_5ffinish',['sha2_finish',['../sha2_8h.html#a2762ab9bf6601a7ab2f2bee3eb72b22a',1,'sha2.h']]],
-  ['sha2_5fhmac',['sha2_hmac',['../sha2_8h.html#a4f4f39b5d88b842a5626d1ac4b19943b',1,'sha2.h']]],
-  ['sha2_5fhmac_5ffinish',['sha2_hmac_finish',['../sha2_8h.html#afad853fc439a23fe3595d3486649d3cf',1,'sha2.h']]],
-  ['sha2_5fhmac_5freset',['sha2_hmac_reset',['../sha2_8h.html#a7f9ced2b8aec3cdd9bc7cc3ae5892816',1,'sha2.h']]],
-  ['sha2_5fhmac_5fstarts',['sha2_hmac_starts',['../sha2_8h.html#aa85ba04d982e323dc3aa9b9bc50272e7',1,'sha2.h']]],
-  ['sha2_5fhmac_5fupdate',['sha2_hmac_update',['../sha2_8h.html#ac48e02dd0fe447f1ea15cde44f7bd123',1,'sha2.h']]],
-  ['sha2_5fself_5ftest',['sha2_self_test',['../sha2_8h.html#a8a7026f38413c81e28966631a8dbc004',1,'sha2.h']]],
-  ['sha2_5fstarts',['sha2_starts',['../sha2_8h.html#ae01444aa81c862eb74f0545b8d05371a',1,'sha2.h']]],
-  ['sha2_5fupdate',['sha2_update',['../sha2_8h.html#a27f31da489bf678f99a2170df0180838',1,'sha2.h']]],
-  ['state',['state',['../structsha2__context.html#a4fa4736999802119df1b6d6152c65323',1,'sha2_context']]],
-  ['status',['status',['../structwiced__bt__bac__discovery__complete__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47',1,'wiced_bt_bac_discovery_complete_t']]],
-  ['supported_5fcategory',['supported_category',['../structwiced__bt__ans__gatt__alert__handles__t.html#a868e5de3f6abb23bb815bad3cf6ad6f6',1,'wiced_bt_ans_gatt_alert_handles_t']]]
+  ['new_5falert',['new_alert',['../structwiced__bt__ans__gatt__handles__t.html#a087b928809f7184de8a6d11072f1d3d4',1,'wiced_bt_ans_gatt_handles_t']]],
+  ['not_5fused',['not_used',['../unionwiced__bt__br__edr__pkt__type__stats.html#ac15d912fe6f5f721a47c6f322a53cb8a',1,'wiced_bt_br_edr_pkt_type_stats']]],
+  ['notification_5fcontrol',['notification_control',['../structwiced__bt__ans__gatt__handles__t.html#a1763bdebd7dc131326e33b06cfcc5ddc',1,'wiced_bt_ans_gatt_handles_t']]],
+  ['notification_5fdisabled',['notification_disabled',['../unionwiced__bt__hrs__event__data__t.html#af6c9624f12e4859352ff97c96d7d63a7',1,'wiced_bt_hrs_event_data_t']]],
+  ['notification_5fenabled',['notification_enabled',['../unionwiced__bt__hrs__event__data__t.html#a5a9b76bb3856ef616fca7478284d4d54',1,'wiced_bt_hrs_event_data_t']]],
+  ['notification_5fsupported',['notification_supported',['../structwiced__bt__bac__discovery__complete__t.html#a20cc34004d8d3d4c296b085093b8e1fb',1,'wiced_bt_bac_discovery_complete_t']]],
+  ['null_5fcount',['null_count',['../unionwiced__bt__br__edr__pkt__type__stats.html#aff6710227dd48fd74334456315a0871f',1,'wiced_bt_br_edr_pkt_type_stats']]],
+  ['num_5fhandles',['num_handles',['../structwiced__bt__gatt__read__multi__t.html#a3b21afb7c6efdc8acbcfd858b66722c7',1,'wiced_bt_gatt_read_multi_t']]],
+  ['numeric_5fvalue',['numeric_value',['../structwiced__bt__dev__user__cfm__req__t.html#ae32112d7faa0affc3cbea258602cb1bf',1,'wiced_bt_dev_user_cfm_req_t']]],
+  ['nvram',['NVRAM',['../group__nvram.html',1,'']]]
 ];

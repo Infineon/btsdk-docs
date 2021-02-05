@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sha2_5fcontext',['sha2_context',['../structsha2__context.html',1,'']]]
+  ['_5fwiced_5fhal_5fbatmon_5fobserver',['_wiced_hal_batmon_observer',['../struct__wiced__hal__batmon__observer.html',1,'']]]
 ];

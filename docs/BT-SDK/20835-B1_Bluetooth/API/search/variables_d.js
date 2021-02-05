@@ -1,4 +1,31 @@
 var searchData=
 [
-  ['unread_5falert',['unread_alert',['../structwiced__bt__ans__gatt__handles__t.html#a91df7573e222f7da08fffa007478f7db',1,'wiced_bt_ans_gatt_handles_t']]]
+  ['max',['max',['../structwiced__bt__hidd__pwr__md.html#ac66b569507cc273bbf83ce5dd5f70e84',1,'wiced_bt_hidd_pwr_md']]],
+  ['max_5fallocated_5fcount',['max_allocated_count',['../wiced__memory_8h.html#a727f123845ff9d483c6d9b0da0467203',1,'wiced_memory.h']]],
+  ['max_5fattr_5flen',['max_attr_len',['../structwiced__bt__cfg__gatt__settings__t.html#a771119b85029acff00078a09d9aefd03',1,'wiced_bt_cfg_gatt_settings_t']]],
+  ['max_5fchannels',['max_channels',['../structwiced__bt__cfg__l2cap__application__t.html#a6830b17d84d71f10b71b4c427e94c52a',1,'wiced_bt_cfg_l2cap_application_t']]],
+  ['max_5fkey_5fsize',['max_key_size',['../structwiced__bt__dev__ble__io__caps__req__t.html#a43d814618fbf7f63a318966dd84746c2',1,'wiced_bt_dev_ble_io_caps_req_t']]],
+  ['max_5fle_5fchannels',['max_le_channels',['../structwiced__bt__cfg__l2cap__application__t.html#a76a1591916c74d928d3c1746a7d6c419',1,'wiced_bt_cfg_l2cap_application_t']]],
+  ['max_5fle_5fl2cap_5ffixed_5fchannels',['max_le_l2cap_fixed_channels',['../structwiced__bt__cfg__l2cap__application__t.html#a7222de8469e1ad5443d62f5162252ce0',1,'wiced_bt_cfg_l2cap_application_t']]],
+  ['max_5fle_5fpsm',['max_le_psm',['../structwiced__bt__cfg__l2cap__application__t.html#a7128aee3a6400a5468aafabb641aff29',1,'wiced_bt_cfg_l2cap_application_t']]],
+  ['max_5flinks',['max_links',['../structwiced__bt__cfg__l2cap__application__t.html#a8dff7b91f9382566714cca7ab58553fb',1,'wiced_bt_cfg_l2cap_application_t::max_links()'],['../structwiced__bt__cfg__avdt__t.html#a8dff7b91f9382566714cca7ab58553fb',1,'wiced_bt_cfg_avdt_t::max_links()'],['../structwiced__bt__cfg__avrc__t.html#a8dff7b91f9382566714cca7ab58553fb',1,'wiced_bt_cfg_avrc_t::max_links()'],['../structwiced__bt__cfg__rfcomm__t.html#a8dff7b91f9382566714cca7ab58553fb',1,'wiced_bt_cfg_rfcomm_t::max_links()']]],
+  ['max_5fmtu_5fsize',['max_mtu_size',['../structwiced__bt__cfg__gatt__settings__t.html#affabc2fd67508261eb91fdde86c6cb1e',1,'wiced_bt_cfg_gatt_settings_t']]],
+  ['max_5fnumber_5fof_5fbuffer_5fpools',['max_number_of_buffer_pools',['../structwiced__bt__cfg__settings__t.html#aebf20b03bc99ed8208100cdf410df5b7',1,'wiced_bt_cfg_settings_t']]],
+  ['max_5fpdu_5fsize',['max_pdu_size',['../structwiced__bt__l2cap__fcr__options__t.html#add797ddd90631faa8bfab7f2a2d64feb',1,'wiced_bt_l2cap_fcr_options_t']]],
+  ['max_5fports',['max_ports',['../structwiced__bt__cfg__rfcomm__t.html#aa632327ddee8b932e8bc2e1a37322432',1,'wiced_bt_cfg_rfcomm_t']]],
+  ['max_5fpsm',['max_psm',['../structwiced__bt__cfg__l2cap__application__t.html#aefed07f7ebff97b454a1a7512a2e51bb',1,'wiced_bt_cfg_l2cap_application_t']]],
+  ['max_5fseps',['max_seps',['../structwiced__bt__cfg__avdt__t.html#ab651a7d3fda31628ab3ccd76de30e26b',1,'wiced_bt_cfg_avdt_t']]],
+  ['max_5fsimultaneous_5flinks',['max_simultaneous_links',['../structwiced__bt__cfg__settings__t.html#a7624d6382cb4ed38093a7e906789fbd7',1,'wiced_bt_cfg_settings_t']]],
+  ['max_5ftransmit',['max_transmit',['../structwiced__bt__l2cap__fcr__options__t.html#a20e2f30d3a43119c202b846b59857fed',1,'wiced_bt_l2cap_fcr_options_t']]],
+  ['maximum_5fsize',['maximum_size',['../structwiced__block__device__init__data__t.html#ae960b547cb805ad2db2a5edc75eb6729',1,'wiced_block_device_init_data_t']]],
+  ['maxinterval',['maxInterval',['../structwiced__bt__hidd__pm__sniff__params.html#a89235de9c269d610bef35ae79e0abf40',1,'wiced_bt_hidd_pm_sniff_params']]],
+  ['maxnegotiationattempts',['maxNegotiationAttempts',['../structwiced__bt__hidd__pm__pwr__state__t.html#a1b233542e72dd901805dba18d8e9d88d',1,'wiced_bt_hidd_pm_pwr_state_t']]],
+  ['min',['min',['../structwiced__bt__hidd__pwr__md.html#a1a1f4624f66ab0b2eb0b98316514c369',1,'wiced_bt_hidd_pwr_md']]],
+  ['mininterval',['minInterval',['../structwiced__bt__hidd__pm__sniff__params.html#a35627ce16ba0c8f93919ece469c2e1cb',1,'wiced_bt_hidd_pm_sniff_params']]],
+  ['minute',['minute',['../structwiced__rtc__time__t.html#aa9bb52078cb5c647a0dfef243db183d6',1,'wiced_rtc_time_t']]],
+  ['mode',['mode',['../structwiced__bt__dev__inq__parms__t.html#a37e90f5e3bd99fac2021fb3a326607d4',1,'wiced_bt_dev_inq_parms_t::mode()'],['../structwiced__bt__hidd__pwr__md.html#a37e90f5e3bd99fac2021fb3a326607d4',1,'wiced_bt_hidd_pwr_md::mode()'],['../structwiced__bt__l2cap__fcr__options__t.html#a37e90f5e3bd99fac2021fb3a326607d4',1,'wiced_bt_l2cap_fcr_options_t::mode()'],['../structwiced__bt__hidd__pm__pwr__state__t.html#a37e90f5e3bd99fac2021fb3a326607d4',1,'wiced_bt_hidd_pm_pwr_state_t::mode()'],['../wiced__transport_8h.html#a5cb22c5a78ab07810c47792053f7bad9',1,'mode():&#160;wiced_transport.h']]],
+  ['monitor_5ftimeout',['monitor_timeout',['../structwiced__bt__l2cap__fcr__options__t.html#a7d5bbcc5df03f910a06308ffd17ce9dd',1,'wiced_bt_l2cap_fcr_options_t']]],
+  ['month',['month',['../structwiced__rtc__time__t.html#a2b35975dfac711962b75b6eed01a8b76',1,'wiced_rtc_time_t']]],
+  ['mtu',['mtu',['../unionwiced__bt__gatt__request__data__t.html#a2997a8aa5758871f81608a28ce97b796',1,'wiced_bt_gatt_request_data_t::mtu()'],['../unionwiced__bt__gatt__operation__complete__rsp__t.html#a2997a8aa5758871f81608a28ce97b796',1,'wiced_bt_gatt_operation_complete_rsp_t::mtu()'],['../structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796',1,'wiced_bt_l2cap_cfg_information_t::mtu()']]],
+  ['mtu_5fpresent',['mtu_present',['../structwiced__bt__l2cap__cfg__information__t.html#abbaeeb5c73c83f1848345548b8391cc7',1,'wiced_bt_l2cap_cfg_information_t']]]
 ];

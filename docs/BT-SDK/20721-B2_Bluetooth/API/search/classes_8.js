@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['keyscanqueuestate',['KeyscanQueueState',['../struct_keyscan_queue_state.html',1,'']]],
-  ['keyscanregistration',['KeyscanRegistration',['../struct_keyscan_registration.html',1,'']]],
-  ['keyscanstate',['KeyscanState',['../struct_keyscan_state.html',1,'']]]
+  ['render_5fstream_5finterface_5ft',['render_stream_interface_t',['../structrender__stream__interface__t.html',1,'']]]
 ];

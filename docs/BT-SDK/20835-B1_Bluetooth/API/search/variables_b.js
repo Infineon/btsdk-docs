@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['state',['state',['../structsha2__context.html#a4fa4736999802119df1b6d6152c65323',1,'sha2_context']]],
-  ['status',['status',['../structwiced__bt__bac__discovery__complete__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47',1,'wiced_bt_bac_discovery_complete_t']]],
-  ['supported_5fcategory',['supported_category',['../structwiced__bt__ans__gatt__alert__handles__t.html#a868e5de3f6abb23bb815bad3cf6ad6f6',1,'wiced_bt_ans_gatt_alert_handles_t']]]
+  ['key_5fdata',['key_data',['../wiced__bt__dev_8h.html#ac71c9fe95b3642b1eb564b46acffbde2',1,'wiced_bt_dev.h']]],
+  ['key_5fsize',['key_size',['../wiced__bt__dev_8h.html#af3a98d356308b40e81d30c28ed11c6b0',1,'wiced_bt_dev.h']]],
+  ['keypress_5ftype',['keypress_type',['../structwiced__bt__dev__user__keypress__t.html#adce56cc0c8552008f9eddfd918862151',1,'wiced_bt_dev_user_keypress_t']]]
 ];

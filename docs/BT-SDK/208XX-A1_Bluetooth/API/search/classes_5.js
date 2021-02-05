@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['emconinfo_5fdevinfo',['EMCONINFO_DEVINFO',['../struct_e_m_c_o_n_i_n_f_o___d_e_v_i_n_f_o.html',1,'']]]
+  ['t_5fsdp_5fdiscovery_5fattr',['t_sdp_discovery_attr',['../structt__sdp__discovery__attr.html',1,'']]],
+  ['tag_5fmem_5fpre_5finit_5fcontrol',['tag_mem_pre_init_control',['../structtag__mem__pre__init__control.html',1,'']]]
 ];
