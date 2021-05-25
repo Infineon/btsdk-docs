@@ -47,6 +47,7 @@ var group__wiced__bt__iap2__api__functions =
     [ "LocalName", "group__wiced__bt__iap2__api__functions.html#ga8edc338af5a0bfc05dc3f6d252d4b9b2", null ],
     [ "Manufacturer", "group__wiced__bt__iap2__api__functions.html#ga5935ece69906fb9ff71dbc0a402629a7", null ],
     [ "ModelIdentifier", "group__wiced__bt__iap2__api__functions.html#ga01d0d189989c254a70dedfd40f86f9d3", null ],
+    [ "ProductPlanUID", "group__wiced__bt__iap2__api__functions.html#gad84119349ceff609e17b0ab6f5bfd19a", null ],
     [ "SerialNumber", "group__wiced__bt__iap2__api__functions.html#ga7289b41c53cffefc3c174bc0d9ff02da", null ],
     [ "SupportedLanguage", "group__wiced__bt__iap2__api__functions.html#ga4003d01746490d440ae5d50d07d3af88", null ]
 ];

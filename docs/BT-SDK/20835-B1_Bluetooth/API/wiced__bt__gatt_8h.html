@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('wiced__bt__gatt_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -376,7 +376,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:a7c729a90adaa46427f2731d07f1d2a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max attributes allowed in one GATT_READ_MULTIPLE request. <br /></td></tr>
 <tr class="separator:a7c729a90adaa46427f2731d07f1d2a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8845e755affe308eed69e2c62f9b9dca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8845e755affe308eed69e2c62f9b9dca"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATT_LINK_IDLE_TIMEOUT_WHEN_NO_APP</b>&#160;&#160;&#160;0 /* start a idle timer for this duration when no application need to use the link */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATT_LINK_IDLE_TIMEOUT_WHEN_NO_APP</b>&#160;&#160;&#160;0 /* start a idle <a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a> for this duration when no application need to use the link */</td></tr>
 <tr class="separator:a8845e755affe308eed69e2c62f9b9dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bfe0d60105fd6491eea846b4c3216e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bfe0d60105fd6491eea846b4c3216e8"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>GATT_LINK_NO_IDLE_TIMEOUT</b>&#160;&#160;&#160;0xFFFF</td></tr>
@@ -387,72 +387,135 @@ Macros</h2></td></tr>
 <tr class="memitem:aaa5d7fe84975e86d0a8a7d084a127fe4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa5d7fe84975e86d0a8a7d084a127fe4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>GATT_HANDLE_IS_VALID</b>(x)&#160;&#160;&#160;((x) != 0)</td></tr>
 <tr class="separator:aaa5d7fe84975e86d0a8a7d084a127fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1df05e54bce166b20bbd768b6881aaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1df05e54bce166b20bbd768b6881aaf"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_NONE</b>&#160;&#160;&#160;(0x00)</td></tr>
-<tr class="separator:ac1df05e54bce166b20bbd768b6881aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2926551345864002835e4fe2b8336abc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2926551345864002835e4fe2b8336abc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_VARIABLE_LENGTH</b>&#160;&#160;&#160;(0x1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a2926551345864002835e4fe2b8336abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a69bf2bc7ee8ce732b070b38c3363a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a69bf2bc7ee8ce732b070b38c3363a1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_READABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 1)</td></tr>
-<tr class="separator:a3a69bf2bc7ee8ce732b070b38c3363a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a257970734283d997bb03ad324873b115"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a257970734283d997bb03ad324873b115"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITE_CMD</b>&#160;&#160;&#160;(0x1 &lt;&lt; 2)</td></tr>
-<tr class="separator:a257970734283d997bb03ad324873b115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c1b85bd77f4850bfd16cbac001554d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89c1b85bd77f4850bfd16cbac001554d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITE_REQ</b>&#160;&#160;&#160;(0x1 &lt;&lt; 3)</td></tr>
-<tr class="separator:a89c1b85bd77f4850bfd16cbac001554d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4db05c6335a9692cfc1ff226f5122e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4db05c6335a9692cfc1ff226f5122e4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_AUTH_READABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 4)</td></tr>
-<tr class="separator:ab4db05c6335a9692cfc1ff226f5122e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a121d0eed767dc29ad414729f2b2cbfab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a121d0eed767dc29ad414729f2b2cbfab"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_RELIABLE_WRITE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 5)</td></tr>
-<tr class="separator:a121d0eed767dc29ad414729f2b2cbfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae23f826db8989ea37ce2cdde5c9ecc9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae23f826db8989ea37ce2cdde5c9ecc9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_AUTH_WRITABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td></tr>
-<tr class="separator:aae23f826db8989ea37ce2cdde5c9ecc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a757b6087f4018760a9437b0d42d21806"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a757b6087f4018760a9437b0d42d21806"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITABLE</b>&#160;&#160;&#160;(LEGATTDB_PERM_WRITE_CMD | LEGATTDB_PERM_WRITE_REQ| LEGATTDB_PERM_AUTH_WRITABLE)</td></tr>
-<tr class="separator:a757b6087f4018760a9437b0d42d21806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a206293356f9eb39cd20c3efe799a7f93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a206293356f9eb39cd20c3efe799a7f93"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_MASK</b>&#160;&#160;&#160;(0x7f)   /* All the permission bits. */</td></tr>
-<tr class="separator:a206293356f9eb39cd20c3efe799a7f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09db4f05683a8df26a7c48c67b9ef16d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09db4f05683a8df26a7c48c67b9ef16d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_SERVICE_UUID_128</b>&#160;&#160;&#160;(0x1 &lt;&lt; 7)</td></tr>
-<tr class="separator:a09db4f05683a8df26a7c48c67b9ef16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c062bfdb22acd5cd407f8ac7ece060"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66c062bfdb22acd5cd407f8ac7ece060"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_BROADCAST</b>&#160;&#160;&#160;(0x1 &lt;&lt; 0)</td></tr>
-<tr class="separator:a66c062bfdb22acd5cd407f8ac7ece060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8289ee01e54a028cf482728d9a1c142b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8289ee01e54a028cf482728d9a1c142b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_READ</b>&#160;&#160;&#160;(0x1 &lt;&lt; 1)</td></tr>
-<tr class="separator:a8289ee01e54a028cf482728d9a1c142b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa233e21f580481dc33fc465c9e794c66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa233e21f580481dc33fc465c9e794c66"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_WRITE_NO_RESPONSE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 2)</td></tr>
-<tr class="separator:aa233e21f580481dc33fc465c9e794c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af128915ac863c1d94198331baa80d7e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af128915ac863c1d94198331baa80d7e1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_WRITE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 3)</td></tr>
-<tr class="separator:af128915ac863c1d94198331baa80d7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b2fc61cd2072566a766f528ddab9ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3b2fc61cd2072566a766f528ddab9ae"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_NOTIFY</b>&#160;&#160;&#160;(0x1 &lt;&lt; 4)</td></tr>
-<tr class="separator:ac3b2fc61cd2072566a766f528ddab9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab636f83839569ae381448e05b19b1cc8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab636f83839569ae381448e05b19b1cc8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_INDICATE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 5)</td></tr>
-<tr class="separator:ab636f83839569ae381448e05b19b1cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae62c73e6855d199e2b82898e06537c7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae62c73e6855d199e2b82898e06537c7b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_AUTHD_WRITES</b>&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td></tr>
-<tr class="separator:ae62c73e6855d199e2b82898e06537c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe84f53399508f0414d9bbf0ae18a4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafe84f53399508f0414d9bbf0ae18a4e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_EXTENDED</b>&#160;&#160;&#160;(0x1 &lt;&lt; 7)</td></tr>
-<tr class="separator:aafe84f53399508f0414d9bbf0ae18a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6221e16adffa7ee37025a7d3d7bb8700"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6221e16adffa7ee37025a7d3d7bb8700"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_NONE</b>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="separator:a6221e16adffa7ee37025a7d3d7bb8700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b99f4fe859d77eb8ea67cee666a5143"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b99f4fe859d77eb8ea67cee666a5143"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_VARIABLE_LENGTH</b>&#160;&#160;&#160;(0x1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a6b99f4fe859d77eb8ea67cee666a5143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38354ffdf7194b42d5d78069a14568d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38354ffdf7194b42d5d78069a14568d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_READABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a38354ffdf7194b42d5d78069a14568d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de9b0a3f50fc93f1e4ab9d731aa014c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6de9b0a3f50fc93f1e4ab9d731aa014c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_WRITE_CMD</b>&#160;&#160;&#160;(0x1 &lt;&lt; 2)</td></tr>
+<tr class="separator:a6de9b0a3f50fc93f1e4ab9d731aa014c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa8ca0f2b0155154210eb6067ca34ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2aa8ca0f2b0155154210eb6067ca34ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_WRITE_REQ</b>&#160;&#160;&#160;(0x1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a2aa8ca0f2b0155154210eb6067ca34ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af35356bd37477cdb6e6d9ac4dbf69762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af35356bd37477cdb6e6d9ac4dbf69762"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_AUTH_READABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 4)</td></tr>
+<tr class="separator:af35356bd37477cdb6e6d9ac4dbf69762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ad84c1e0460264f3706875ac8792ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5ad84c1e0460264f3706875ac8792ee"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_RELIABLE_WRITE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 5)</td></tr>
+<tr class="separator:af5ad84c1e0460264f3706875ac8792ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb057f59e9b65654e93fc106a6f3c77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1eb057f59e9b65654e93fc106a6f3c77"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_AUTH_WRITABLE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td></tr>
+<tr class="separator:a1eb057f59e9b65654e93fc106a6f3c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6025f6cc5dd0b90ce746ef671028bd58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6025f6cc5dd0b90ce746ef671028bd58"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_WRITABLE</b>&#160;&#160;&#160;(GATTDB_PERM_WRITE_CMD | GATTDB_PERM_WRITE_REQ| GATTDB_PERM_AUTH_WRITABLE)</td></tr>
+<tr class="separator:a6025f6cc5dd0b90ce746ef671028bd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee57afb45b7c88a1cf3690efd44e8219"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee57afb45b7c88a1cf3690efd44e8219"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_MASK</b>&#160;&#160;&#160;(0x7f)   /* All the permission bits. */</td></tr>
+<tr class="separator:aee57afb45b7c88a1cf3690efd44e8219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6f106f82541c47480d2a162e267030c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6f106f82541c47480d2a162e267030c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_PERM_SERVICE_UUID_128</b>&#160;&#160;&#160;(0x1 &lt;&lt; 7)</td></tr>
+<tr class="separator:ad6f106f82541c47480d2a162e267030c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f0e454eb4b1dbf9f95779f4bd2ee75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58f0e454eb4b1dbf9f95779f4bd2ee75"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_BROADCAST</b>&#160;&#160;&#160;(0x1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a58f0e454eb4b1dbf9f95779f4bd2ee75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7862d31b94aef4fe32cc158d8e88008"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7862d31b94aef4fe32cc158d8e88008"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_READ</b>&#160;&#160;&#160;(0x1 &lt;&lt; 1)</td></tr>
+<tr class="separator:aa7862d31b94aef4fe32cc158d8e88008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c8f3047532c2b3ac16f1c4fe44f005"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72c8f3047532c2b3ac16f1c4fe44f005"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_WRITE_NO_RESPONSE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 2)</td></tr>
+<tr class="separator:a72c8f3047532c2b3ac16f1c4fe44f005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834b07cadd07e81544f0358c5aa52f5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a834b07cadd07e81544f0358c5aa52f5a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_WRITE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a834b07cadd07e81544f0358c5aa52f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56509bfc8babb79b4543be997b6a8ded"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56509bfc8babb79b4543be997b6a8ded"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_NOTIFY</b>&#160;&#160;&#160;(0x1 &lt;&lt; 4)</td></tr>
+<tr class="separator:a56509bfc8babb79b4543be997b6a8ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77030f7874025d3037d93aa7327ac3bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77030f7874025d3037d93aa7327ac3bc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_INDICATE</b>&#160;&#160;&#160;(0x1 &lt;&lt; 5)</td></tr>
+<tr class="separator:a77030f7874025d3037d93aa7327ac3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ca3e06fbe747dc07137c13769b9408"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22ca3e06fbe747dc07137c13769b9408"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_AUTHD_WRITES</b>&#160;&#160;&#160;(0x1 &lt;&lt; 6)</td></tr>
+<tr class="separator:a22ca3e06fbe747dc07137c13769b9408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a4adc9318dffcf1206e6c830ecda7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66a4adc9318dffcf1206e6c830ecda7d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_CHAR_PROP_EXTENDED</b>&#160;&#160;&#160;(0x1 &lt;&lt; 7)</td></tr>
+<tr class="separator:a66a4adc9318dffcf1206e6c830ecda7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41c1417450d3265f5f3fd404ca8d4cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>BIT16_TO_8</b>(val)</td></tr>
 <tr class="separator:ad41c1417450d3265f5f3fd404ca8d4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13dfabe4e2cc2b544bc34faf84fb9783"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13dfabe4e2cc2b544bc34faf84fb9783"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_UUID16_SIZE</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a13dfabe4e2cc2b544bc34faf84fb9783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9eea72e4087535001e967b961b742b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac9eea72e4087535001e967b961b742b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>GATTDB_UUID128_SIZE</b>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:aac9eea72e4087535001e967b961b742b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1df05e54bce166b20bbd768b6881aaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1df05e54bce166b20bbd768b6881aaf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_NONE</b>&#160;&#160;&#160;GATTDB_PERM_NONE</td></tr>
+<tr class="separator:ac1df05e54bce166b20bbd768b6881aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2926551345864002835e4fe2b8336abc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2926551345864002835e4fe2b8336abc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_VARIABLE_LENGTH</b>&#160;&#160;&#160;GATTDB_PERM_VARIABLE_LENGTH</td></tr>
+<tr class="separator:a2926551345864002835e4fe2b8336abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a69bf2bc7ee8ce732b070b38c3363a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a69bf2bc7ee8ce732b070b38c3363a1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_READABLE</b>&#160;&#160;&#160;GATTDB_PERM_READABLE</td></tr>
+<tr class="separator:a3a69bf2bc7ee8ce732b070b38c3363a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257970734283d997bb03ad324873b115"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a257970734283d997bb03ad324873b115"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITE_CMD</b>&#160;&#160;&#160;GATTDB_PERM_WRITE_CMD</td></tr>
+<tr class="separator:a257970734283d997bb03ad324873b115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c1b85bd77f4850bfd16cbac001554d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89c1b85bd77f4850bfd16cbac001554d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITE_REQ</b>&#160;&#160;&#160;GATTDB_PERM_WRITE_REQ</td></tr>
+<tr class="separator:a89c1b85bd77f4850bfd16cbac001554d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4db05c6335a9692cfc1ff226f5122e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4db05c6335a9692cfc1ff226f5122e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_AUTH_READABLE</b>&#160;&#160;&#160;GATTDB_PERM_AUTH_READABLE</td></tr>
+<tr class="separator:ab4db05c6335a9692cfc1ff226f5122e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121d0eed767dc29ad414729f2b2cbfab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a121d0eed767dc29ad414729f2b2cbfab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_RELIABLE_WRITE</b>&#160;&#160;&#160;GATTDB_PERM_RELIABLE_WRITE</td></tr>
+<tr class="separator:a121d0eed767dc29ad414729f2b2cbfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae23f826db8989ea37ce2cdde5c9ecc9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae23f826db8989ea37ce2cdde5c9ecc9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_AUTH_WRITABLE</b>&#160;&#160;&#160;GATTDB_PERM_AUTH_WRITABLE</td></tr>
+<tr class="separator:aae23f826db8989ea37ce2cdde5c9ecc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757b6087f4018760a9437b0d42d21806"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a757b6087f4018760a9437b0d42d21806"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_WRITABLE</b>&#160;&#160;&#160;GATTDB_PERM_WRITABLE</td></tr>
+<tr class="separator:a757b6087f4018760a9437b0d42d21806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206293356f9eb39cd20c3efe799a7f93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a206293356f9eb39cd20c3efe799a7f93"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_MASK</b>&#160;&#160;&#160;GATTDB_PERM_MASK</td></tr>
+<tr class="separator:a206293356f9eb39cd20c3efe799a7f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09db4f05683a8df26a7c48c67b9ef16d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09db4f05683a8df26a7c48c67b9ef16d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_PERM_SERVICE_UUID_128</b>&#160;&#160;&#160;GATTDB_PERM_SERVICE_UUID_128</td></tr>
+<tr class="separator:a09db4f05683a8df26a7c48c67b9ef16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c062bfdb22acd5cd407f8ac7ece060"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66c062bfdb22acd5cd407f8ac7ece060"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_BROADCAST</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_BROADCAST</td></tr>
+<tr class="separator:a66c062bfdb22acd5cd407f8ac7ece060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8289ee01e54a028cf482728d9a1c142b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8289ee01e54a028cf482728d9a1c142b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_READ</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_READ</td></tr>
+<tr class="separator:a8289ee01e54a028cf482728d9a1c142b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa233e21f580481dc33fc465c9e794c66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa233e21f580481dc33fc465c9e794c66"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_WRITE_NO_RESPONSE</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_WRITE_NO_RESPONSE</td></tr>
+<tr class="separator:aa233e21f580481dc33fc465c9e794c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af128915ac863c1d94198331baa80d7e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af128915ac863c1d94198331baa80d7e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_WRITE</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_WRITE</td></tr>
+<tr class="separator:af128915ac863c1d94198331baa80d7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b2fc61cd2072566a766f528ddab9ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3b2fc61cd2072566a766f528ddab9ae"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_NOTIFY</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_NOTIFY</td></tr>
+<tr class="separator:ac3b2fc61cd2072566a766f528ddab9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab636f83839569ae381448e05b19b1cc8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab636f83839569ae381448e05b19b1cc8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_INDICATE</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_INDICATE</td></tr>
+<tr class="separator:ab636f83839569ae381448e05b19b1cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62c73e6855d199e2b82898e06537c7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae62c73e6855d199e2b82898e06537c7b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_AUTHD_WRITES</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_AUTHD_WRITES</td></tr>
+<tr class="separator:ae62c73e6855d199e2b82898e06537c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe84f53399508f0414d9bbf0ae18a4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafe84f53399508f0414d9bbf0ae18a4e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_CHAR_PROP_EXTENDED</b>&#160;&#160;&#160;GATTDB_CHAR_PROP_EXTENDED</td></tr>
+<tr class="separator:aafe84f53399508f0414d9bbf0ae18a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a159afc50e1b55261a8afe77ddfa3d7b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a159afc50e1b55261a8afe77ddfa3d7b4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_UUID16_SIZE</b>&#160;&#160;&#160;2</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_UUID16_SIZE</b>&#160;&#160;&#160;GATTDB_UUID16_SIZE</td></tr>
 <tr class="separator:a159afc50e1b55261a8afe77ddfa3d7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1dfe4f4ef0d17eb8e53d03461fa68b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e1dfe4f4ef0d17eb8e53d03461fa68b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_UUID128_SIZE</b>&#160;&#160;&#160;16</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LEGATTDB_UUID128_SIZE</b>&#160;&#160;&#160;GATTDB_UUID128_SIZE</td></tr>
 <tr class="separator:a3e1dfe4f4ef0d17eb8e53d03461fa68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd9d42f2c6bb4636c6d462c469ef09b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>ATTRIBUTE16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, permission, datalen, uuid)</td></tr>
+<tr class="memitem:afd9d42f2c6bb4636c6d462c469ef09b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>ATTRIBUTE16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, permission, datalen, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</td></tr>
 <tr class="separator:afd9d42f2c6bb4636c6d462c469ef09b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7abbb02c2cd5f0a289da0e527cb23fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>PRIMARY_SERVICE_UUID16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, service)</td></tr>
 <tr class="separator:ab7abbb02c2cd5f0a289da0e527cb23fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -466,24 +529,24 @@ Macros</h2></td></tr>
 <tr class="separator:aef58572ebee8cf06205d768d520b2c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a701776dae7f04f55d385ef6220a0a16f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>INCLUDE_SERVICE_UUID128</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, service_handle, end_group_handle)</td></tr>
 <tr class="separator:a701776dae7f04f55d385ef6220a0a16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37d397a7fc24e4391a5741acc3029fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, uuid, properties, permission)</td></tr>
+<tr class="memitem:a37d397a7fc24e4391a5741acc3029fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
 <tr class="separator:a37d397a7fc24e4391a5741acc3029fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a511b4fcc444e38aa416d71e16981e48c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID128</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, uuid, properties, permission)</td></tr>
+<tr class="memitem:a511b4fcc444e38aa416d71e16981e48c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID128</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
 <tr class="separator:a511b4fcc444e38aa416d71e16981e48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28ec90f525cc293fdf0e0423048bc7b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID16_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, uuid, properties, permission)</td></tr>
+<tr class="memitem:a28ec90f525cc293fdf0e0423048bc7b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID16_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
 <tr class="separator:a28ec90f525cc293fdf0e0423048bc7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401c1e4feca51776cf572f4c5efce274"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID128_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, uuid, properties, permission)</td></tr>
+<tr class="memitem:a401c1e4feca51776cf572f4c5efce274"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHARACTERISTIC_UUID128_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
 <tr class="separator:a401c1e4feca51776cf572f4c5efce274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715c8bd037ec698eb84cba0f1ddd1540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID16_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uuid, permission)</td></tr>
+<tr class="memitem:a715c8bd037ec698eb84cba0f1ddd1540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID16_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
 <tr class="separator:a715c8bd037ec698eb84cba0f1ddd1540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uuid, permission)</td></tr>
+<tr class="memitem:a6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID16</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
 <tr class="separator:a6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a824858a2e84f93bc407d02bfd909466a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID128_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uuid, permission)</td></tr>
+<tr class="memitem:a824858a2e84f93bc407d02bfd909466a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID128_WRITABLE</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
 <tr class="separator:a824858a2e84f93bc407d02bfd909466a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af33176e06fbd8c26118646723c522973"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID128</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uuid, permission)</td></tr>
+<tr class="memitem:af33176e06fbd8c26118646723c522973"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>CHAR_DESCRIPTOR_UUID128</b>(<a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
 <tr class="separator:af33176e06fbd8c26118646723c522973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1723de0a2dbe725c8fee6621bd068c43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1723de0a2dbe725c8fee6621bd068c43"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_gatt_legattdb_regWriteHandleCb</b>(cb)&#160;&#160;&#160;legattdb_regWriteHandleCb(cb);</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_gatt_legattdb_regWriteHandleCb</b>(cb)&#160;&#160;&#160;legattdb_regWriteHandleCb(cb)</td></tr>
 <tr class="separator:ga1723de0a2dbe725c8fee6621bd068c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -558,9 +621,9 @@ struct {</td></tr>
 <tr class="memitem:adbd8d4050904926a80fb5c2faa3f2a15"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#adbd8d4050904926a80fb5c2faa3f2a15">wiced_gattdb_entry_t</a></td></tr>
 <tr class="memdesc:adbd8d4050904926a80fb5c2faa3f2a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used by wiced_bt_gattdb APIS, to parse GATTDB. <br /></td></tr>
 <tr class="separator:adbd8d4050904926a80fb5c2faa3f2a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga233908407d29b07e29cb91d615c54ad8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga233908407d29b07e29cb91d615c54ad8"></a>
-typedef int32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_gatt_LEGATTDB_WRITE_CB</b> )(void *)</td></tr>
-<tr class="separator:ga233908407d29b07e29cb91d615c54ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74318449666ad5aa5275db955793be76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga74318449666ad5aa5275db955793be76"></a>
+typedef int32_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_gatt_GATTDB_WRITE_CB</b> )(void *)</td></tr>
+<tr class="separator:ga74318449666ad5aa5275db955793be76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -741,31 +804,31 @@ Functions</h2></td></tr>
 <tr class="memitem:ga59b17644aead98f94a2cab805107cb90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#ga59b17644aead98f94a2cab805107cb90">wiced_bt_gatt_db_init</a> (const uint8_t *p_gatt_db, uint16_t gatt_db_size)</td></tr>
 <tr class="memdesc:ga59b17644aead98f94a2cab805107cb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_db_init.  <a href="group__gatt__server__api__functions.html#ga59b17644aead98f94a2cab805107cb90">More...</a><br /></td></tr>
 <tr class="separator:ga59b17644aead98f94a2cab805107cb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c1293b04258393f7e8e5201ca215c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#ga9c1293b04258393f7e8e5201ca215c21">wiced_bt_gatt_send_indication</a> (uint16_t conn_id, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
+<tr class="memitem:ga9c1293b04258393f7e8e5201ca215c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#ga9c1293b04258393f7e8e5201ca215c21">wiced_bt_gatt_send_indication</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
 <tr class="memdesc:ga9c1293b04258393f7e8e5201ca215c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_indication.  <a href="group__gatt__server__api__functions.html#ga9c1293b04258393f7e8e5201ca215c21">More...</a><br /></td></tr>
 <tr class="separator:ga9c1293b04258393f7e8e5201ca215c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#gabe6e79a8df2dd04b926d2316b79fdc42">wiced_bt_gatt_send_notification</a> (uint16_t conn_id, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
+<tr class="memitem:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#gabe6e79a8df2dd04b926d2316b79fdc42">wiced_bt_gatt_send_notification</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
 <tr class="memdesc:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_notification.  <a href="group__gatt__server__api__functions.html#gabe6e79a8df2dd04b926d2316b79fdc42">More...</a><br /></td></tr>
 <tr class="separator:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#ga9e6f8d1b4d1d89d728355687991e8a49">wiced_bt_gatt_send_response</a> (<a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a> <a class="el" href="wiced__bt__dev_8h.html#ade818037fd6c985038ff29656089758d">status</a>, uint16_t conn_id, uint16_t attr_handle, uint16_t attr_len, uint16_t offset, uint8_t *p_attr)</td></tr>
+<tr class="memitem:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html#ga9e6f8d1b4d1d89d728355687991e8a49">wiced_bt_gatt_send_response</a> (<a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>, uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t attr_len, uint16_t offset, uint8_t *p_attr)</td></tr>
 <tr class="memdesc:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_response.  <a href="group__gatt__server__api__functions.html#ga9e6f8d1b4d1d89d728355687991e8a49">More...</a><br /></td></tr>
 <tr class="separator:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga863866fde2dd782ac75e6e2a8d9e1b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga863866fde2dd782ac75e6e2a8d9e1b54">wiced_bt_gatt_configure_mtu</a> (uint16_t conn_id, uint16_t mtu)</td></tr>
+<tr class="memitem:ga863866fde2dd782ac75e6e2a8d9e1b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga863866fde2dd782ac75e6e2a8d9e1b54">wiced_bt_gatt_configure_mtu</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t mtu)</td></tr>
 <tr class="memdesc:ga863866fde2dd782ac75e6e2a8d9e1b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_configure_mtu.  <a href="group__gatt__client__api__functions.html#ga863866fde2dd782ac75e6e2a8d9e1b54">More...</a><br /></td></tr>
 <tr class="separator:ga863866fde2dd782ac75e6e2a8d9e1b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8722b77f04059ec175a7c7d0ad9c4267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga8722b77f04059ec175a7c7d0ad9c4267">wiced_bt_gatt_send_discover</a> (uint16_t conn_id, <a class="el" href="wiced__bt__gatt_8h.html#a9ce8b7b2a10d8e1f851d62aa931b0e18">wiced_bt_gatt_discovery_type_t</a> discovery_type, <a class="el" href="structwiced__bt__gatt__discovery__param__t.html">wiced_bt_gatt_discovery_param_t</a> *p_discovery_param)</td></tr>
+<tr class="memitem:ga8722b77f04059ec175a7c7d0ad9c4267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga8722b77f04059ec175a7c7d0ad9c4267">wiced_bt_gatt_send_discover</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="wiced__bt__gatt_8h.html#a9ce8b7b2a10d8e1f851d62aa931b0e18">wiced_bt_gatt_discovery_type_t</a> discovery_type, <a class="el" href="structwiced__bt__gatt__discovery__param__t.html">wiced_bt_gatt_discovery_param_t</a> *p_discovery_param)</td></tr>
 <tr class="memdesc:ga8722b77f04059ec175a7c7d0ad9c4267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_discover.  <a href="group__gatt__client__api__functions.html#ga8722b77f04059ec175a7c7d0ad9c4267">More...</a><br /></td></tr>
 <tr class="separator:ga8722b77f04059ec175a7c7d0ad9c4267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae9f461e84e9cfd188d0dcf31982cf940"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#gae9f461e84e9cfd188d0dcf31982cf940">wiced_bt_gatt_send_read</a> (uint16_t conn_id, <a class="el" href="wiced__bt__gatt_8h.html#a63e3ef4f882ff8c941fc025b70f82065">wiced_bt_gatt_read_type_t</a> <a class="el" href="wiced__transport_8h.html#a49307c2e0d12e473147282efe6494a25">type</a>, <a class="el" href="unionwiced__bt__gatt__read__param__t.html">wiced_bt_gatt_read_param_t</a> *p_read)</td></tr>
+<tr class="memitem:gae9f461e84e9cfd188d0dcf31982cf940"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#gae9f461e84e9cfd188d0dcf31982cf940">wiced_bt_gatt_send_read</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="wiced__bt__gatt_8h.html#a63e3ef4f882ff8c941fc025b70f82065">wiced_bt_gatt_read_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, <a class="el" href="unionwiced__bt__gatt__read__param__t.html">wiced_bt_gatt_read_param_t</a> *p_read)</td></tr>
 <tr class="memdesc:gae9f461e84e9cfd188d0dcf31982cf940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_read.  <a href="group__gatt__client__api__functions.html#gae9f461e84e9cfd188d0dcf31982cf940">More...</a><br /></td></tr>
 <tr class="separator:gae9f461e84e9cfd188d0dcf31982cf940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1e8c83cd289240692f4610a1012688b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga1e8c83cd289240692f4610a1012688b3">wiced_bt_gatt_send_write</a> (uint16_t conn_id, <a class="el" href="wiced__bt__gatt_8h.html#a99c2319e46851bf501937515be54418d">wiced_bt_gatt_write_type_t</a> <a class="el" href="wiced__transport_8h.html#a49307c2e0d12e473147282efe6494a25">type</a>, <a class="el" href="structwiced__bt__gatt__value__t.html">wiced_bt_gatt_value_t</a> *p_write)</td></tr>
+<tr class="memitem:ga1e8c83cd289240692f4610a1012688b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga1e8c83cd289240692f4610a1012688b3">wiced_bt_gatt_send_write</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="wiced__bt__gatt_8h.html#a99c2319e46851bf501937515be54418d">wiced_bt_gatt_write_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, <a class="el" href="structwiced__bt__gatt__value__t.html">wiced_bt_gatt_value_t</a> *p_write)</td></tr>
 <tr class="memdesc:ga1e8c83cd289240692f4610a1012688b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_write.  <a href="group__gatt__client__api__functions.html#ga1e8c83cd289240692f4610a1012688b3">More...</a><br /></td></tr>
 <tr class="separator:ga1e8c83cd289240692f4610a1012688b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga36c050144ea12b23a47127728885044d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga36c050144ea12b23a47127728885044d">wiced_bt_gatt_send_execute_write</a> (uint16_t conn_id, wiced_bool_t is_execute)</td></tr>
+<tr class="memitem:ga36c050144ea12b23a47127728885044d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga36c050144ea12b23a47127728885044d">wiced_bt_gatt_send_execute_write</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, wiced_bool_t is_execute)</td></tr>
 <tr class="memdesc:ga36c050144ea12b23a47127728885044d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_execute_write.  <a href="group__gatt__client__api__functions.html#ga36c050144ea12b23a47127728885044d">More...</a><br /></td></tr>
 <tr class="separator:ga36c050144ea12b23a47127728885044d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga94264be7ef5db78240986fa702e6eefe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga94264be7ef5db78240986fa702e6eefe">wiced_bt_gatt_send_indication_confirm</a> (uint16_t conn_id, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
+<tr class="memitem:ga94264be7ef5db78240986fa702e6eefe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga94264be7ef5db78240986fa702e6eefe">wiced_bt_gatt_send_indication_confirm</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:ga94264be7ef5db78240986fa702e6eefe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_send_indication_confirm.  <a href="group__gatt__client__api__functions.html#ga94264be7ef5db78240986fa702e6eefe">More...</a><br /></td></tr>
 <tr class="separator:ga94264be7ef5db78240986fa702e6eefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4957d5c9ddc93abbcaac2c3bded135c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api__functions.html#ga4957d5c9ddc93abbcaac2c3bded135c9">wiced_bt_gatt_register</a> (<a class="el" href="wiced__bt__gatt_8h.html#a826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> *p_gatt_cback)</td></tr>
@@ -780,7 +843,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gac384524f7e61172da9eb0beb764ed46d"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api__functions.html#gac384524f7e61172da9eb0beb764ed46d">wiced_bt_gatt_cancel_connect</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t is_direct)</td></tr>
 <tr class="memdesc:gac384524f7e61172da9eb0beb764ed46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_cancel_connect.  <a href="group__gatt__common__api__functions.html#gac384524f7e61172da9eb0beb764ed46d">More...</a><br /></td></tr>
 <tr class="separator:gac384524f7e61172da9eb0beb764ed46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15d5aff42e22c934fbbde1a7a2680ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api__functions.html#ga15d5aff42e22c934fbbde1a7a2680ff6">wiced_bt_gatt_disconnect</a> (uint16_t conn_id)</td></tr>
+<tr class="memitem:ga15d5aff42e22c934fbbde1a7a2680ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api__functions.html#ga15d5aff42e22c934fbbde1a7a2680ff6">wiced_bt_gatt_disconnect</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>)</td></tr>
 <tr class="memdesc:ga15d5aff42e22c934fbbde1a7a2680ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gatt_disconnect.  <a href="group__gatt__common__api__functions.html#ga15d5aff42e22c934fbbde1a7a2680ff6">More...</a><br /></td></tr>
 <tr class="separator:ga15d5aff42e22c934fbbde1a7a2680ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7aee6dd1256d097cc5a006fc02532263"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api__functions.html#ga7aee6dd1256d097cc5a006fc02532263">wiced_bt_gatt_listen</a> (wiced_bool_t start, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
@@ -801,9 +864,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gab67ee0bb9c35b004296031b7edb0209d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d">wiced_bt_gattdb_get_charcteristic_descriptor_handle</a> (uint16_t char_handle, uint16_t descriptor_uuid)</td></tr>
 <tr class="memdesc:gab67ee0bb9c35b004296031b7edb0209d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gattdb_get_charcteristic_descriptor_handle.  <a href="group__gattdb__api__functions.html#gab67ee0bb9c35b004296031b7edb0209d">More...</a><br /></td></tr>
 <tr class="separator:gab67ee0bb9c35b004296031b7edb0209d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga228c6fbdfe376606f819b9c7a4724474"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga228c6fbdfe376606f819b9c7a4724474"></a>
-<a class="el" href="brcm__fw__types_8h.html#afaf1a5695cbcf260776fe64134890c27">BOOL32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>legattdb_regWriteHandleCb</b> (wiced_bt_gatt_LEGATTDB_WRITE_CB cb)</td></tr>
-<tr class="separator:ga228c6fbdfe376606f819b9c7a4724474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7dcc19880b418e6a9ec3daabc36848ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7dcc19880b418e6a9ec3daabc36848ae"></a>
+<a class="el" href="brcm__fw__types_8h.html#afaf1a5695cbcf260776fe64134890c27">BOOL32</a>&#160;</td><td class="memItemRight" valign="bottom"><b>legattdb_regWriteHandleCb</b> (wiced_bt_gatt_GATTDB_WRITE_CB cb)</td></tr>
+<tr class="separator:ga7dcc19880b418e6a9ec3daabc36848ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>WICED Generic Attribute (GATT) Application Programming Interface. </p>
@@ -834,7 +897,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid&#160;</td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -846,8 +909,9 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
 <div class="line">    (uint8_t)(datalen + 2), \</div>
-<div class="line">    BIT16_TO_8(uuid)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -883,7 +947,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -899,10 +963,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    (uint8_t)(permission | LEGATTDB_PERM_SERVICE_UUID_128), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID128_SIZE), \</div>
-<div class="line">    uuid</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(permission | GATTDB_PERM_SERVICE_UUID_128), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID128_SIZE), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -920,7 +985,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -936,11 +1001,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    (uint8_t)(permission | LEGATTDB_PERM_SERVICE_UUID_128), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID128_SIZE), \</div>
-<div class="line">    (uint8_t)(0), \</div>
-<div class="line">    uuid</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(permission | GATTDB_PERM_SERVICE_UUID_128), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID128_SIZE), \</div>
+<div class="line">    (uint8_t)(0), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -958,7 +1024,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -975,9 +1041,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID16_SIZE), \</div>
-<div class="line">    BIT16_TO_8(uuid)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(GATTDB_UUID16_SIZE), \</div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -995,7 +1062,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1012,10 +1079,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID16_SIZE), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID16_SIZE), \</div>
 <div class="line">    (uint8_t)(0), \</div>
-<div class="line">    BIT16_TO_8(uuid)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1039,13 +1107,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">properties, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1061,17 +1129,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    21, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(properties), \</div>
+<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), \</div>
+<div class="line">    BIT16_TO_8((uint16_t)(handle_value)), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a>, \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    uuid, \</div>
-<div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    (uint8_t)(permission | LEGATTDB_PERM_SERVICE_UUID_128), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID128_SIZE), \</div>
-<div class="line">    uuid</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(permission | GATTDB_PERM_SERVICE_UUID_128), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID128_SIZE), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:208</div></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1095,13 +1165,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">properties, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1117,18 +1187,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    21, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(properties), \</div>
+<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), \</div>
+<div class="line">    BIT16_TO_8((uint16_t)(handle_value)), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a>, \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    uuid, \</div>
-<div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    (uint8_t)(permission | LEGATTDB_PERM_SERVICE_UUID_128), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID128_SIZE), \</div>
-<div class="line">    (uint8_t)(0), \</div>
-<div class="line">    uuid</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(permission | GATTDB_PERM_SERVICE_UUID_128), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID128_SIZE), \</div>
+<div class="line">    (uint8_t)(0), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:208</div></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1152,13 +1224,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">properties, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1174,17 +1246,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    0x07, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(properties), \</div>
+<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    BIT16_TO_8(uuid), \</div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>), \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID16_SIZE), \</div>
-<div class="line">    BIT16_TO_8(uuid)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    (uint8_t)(GATTDB_UUID16_SIZE), \</div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:208</div></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1208,13 +1282,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">uuid, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">properties, </td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1230,18 +1304,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    0x07, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(properties), \</div>
+<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
-<div class="line">    BIT16_TO_8(uuid), \</div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>), \</div>
 <div class="line">    BIT16_TO_8((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
-<div class="line">    (uint8_t)(LEGATTDB_UUID16_SIZE), \</div>
+<div class="line">    (uint8_t)(GATTDB_UUID16_SIZE), \</div>
 <div class="line">    (uint8_t)(0), \</div>
-<div class="line">    BIT16_TO_8(uuid)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="line">    BIT16_TO_8(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:208</div></div>
+<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:133</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1305,12 +1381,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    6, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_INCLUDE_SERVICE), \</div>
 <div class="line">    BIT16_TO_8(service_handle), \</div>
 <div class="line">    BIT16_TO_8(end_group_handle)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1350,13 +1426,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    8, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_INCLUDE_SERVICE), \</div>
 <div class="line">    BIT16_TO_8(service_handle), \</div>
 <div class="line">    BIT16_TO_8(end_group_handle), \</div>
 <div class="line">    BIT16_TO_8(service)</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1384,11 +1460,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    18, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_PRI_SERVICE), \</div>
 <div class="line">    service</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1416,11 +1492,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    4, \</div>
 <div class="line">    BIT16_TO_8((GATT_UUID_PRI_SERVICE)), \</div>
 <div class="line">    BIT16_TO_8((service))</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1448,11 +1524,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    18, \</div>
 <div class="line">    BIT16_TO_8(GATT_UUID_SEC_SERVICE), \</div>
 <div class="line">    service</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1480,11 +1556,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">BIT16_TO_8((uint16_t)(<a class="code" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)), \</div>
-<div class="line">    LEGATTDB_PERM_READABLE, \</div>
+<div class="line">    GATTDB_PERM_READABLE, \</div>
 <div class="line">    4, \</div>
 <div class="line">    BIT16_TO_8((GATT_UUID_SEC_SERVICE)), \</div>
 <div class="line">    BIT16_TO_8((service))</div>
-<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:735</div></div>
+<div class="ttc" id="wiced__bt__gatt_8h_html_af242d6e3b6108ea75e1eb236e94c8240"><div class="ttname"><a href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></div><div class="ttdeci">uint16_t handle</div><div class="ttdoc">atribute Handle </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:760</div></div>
 </div><!-- fragment -->
 </div>
 </div>

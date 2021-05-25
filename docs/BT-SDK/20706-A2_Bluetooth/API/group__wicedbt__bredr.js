@@ -4,7 +4,6 @@ var group__wicedbt__bredr =
     [ "wiced_bt_dev_cancel_sniff_mode", "group__wicedbt__bredr.html#ga092191cdfade11d9ba5d97a9810a540d", null ],
     [ "wiced_bt_dev_read_local_addr", "group__wicedbt__bredr.html#gab6a09117d2fa6f4b31d8bfb9aa4d382c", null ],
     [ "wiced_bt_dev_read_rssi", "group__wicedbt__bredr.html#gafea954a02935ce3dfa5409ff40e25ae3", null ],
-    [ "wiced_bt_dev_read_tx_power", "group__wicedbt__bredr.html#ga48a580210a970a52c39fca816ccfd0d7", null ],
     [ "wiced_bt_dev_register_connection_status_change", "group__wicedbt__bredr.html#ga06312613214e2e1b01da2e837f4f6d05", null ],
     [ "wiced_bt_dev_set_advanced_connection_params", "group__wicedbt__bredr.html#gaab8ab36f338fdadd7405f28fe6d03d7c", null ],
     [ "wiced_bt_dev_set_connectability", "group__wicedbt__bredr.html#gaf555928b7af1c2ed27adf10289f3999c", null ],

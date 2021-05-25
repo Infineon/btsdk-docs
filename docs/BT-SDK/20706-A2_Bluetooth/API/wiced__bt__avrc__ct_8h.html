@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -146,6 +146,10 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memitem:gac6afc1575f5a86d3f62888a752f31217"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac6afc1575f5a86d3f62888a752f31217"></a>
 typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_avrc_ct_features_cback_t</b> )(wiced_bt_avrc_ct_features_event_t event, <a class="el" href="unionwiced__bt__avrc__ct__features__data__t.html">wiced_bt_avrc_ct_features_data_t</a> *p_data)</td></tr>
 <tr class="separator:gac6afc1575f5a86d3f62888a752f31217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25d43e994bb2ef0ca99407b7878baf1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga25d43e994bb2ef0ca99407b7878baf1e"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__ct.html#ga25d43e994bb2ef0ca99407b7878baf1e">wiced_bt_avrc_ct_pt_evt_cback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t op_id)</td></tr>
+<tr class="memdesc:ga25d43e994bb2ef0ca99407b7878baf1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback when peer device sends AVRCP passthrough commands op code. <br /></td></tr>
+<tr class="separator:ga25d43e994bb2ef0ca99407b7878baf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -181,6 +185,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf75a0130ac02a34b540004c9871df441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__ct.html#gaf75a0130ac02a34b540004c9871df441">wiced_bt_avrc_ct_send_pass_through_cmd</a> (uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t cmd, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a>, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>)</td></tr>
 <tr class="memdesc:gaf75a0130ac02a34b540004c9871df441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_send_pass_through_cmd.  <a href="group__wicedbt__avrc__ct.html#gaf75a0130ac02a34b540004c9871df441">More...</a><br /></td></tr>
 <tr class="separator:gaf75a0130ac02a34b540004c9871df441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8a257ae900cbaa1f2b11b92ac24c8e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__ct.html#gaa8a257ae900cbaa1f2b11b92ac24c8e7">wiced_bt_avrc_ct_send_unit_info_cmd</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
+<tr class="memdesc:gaa8a257ae900cbaa1f2b11b92ac24c8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_send_unit_info_cmd.  <a href="group__wicedbt__avrc__ct.html#gaa8a257ae900cbaa1f2b11b92ac24c8e7">More...</a><br /></td></tr>
+<tr class="separator:gaa8a257ae900cbaa1f2b11b92ac24c8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac278915591415548bf88bf0cd545a9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__ct.html#gaac278915591415548bf88bf0cd545a9a">wiced_bt_avrc_ct_send_sub_unit_info_cmd</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
+<tr class="memdesc:gaac278915591415548bf88bf0cd545a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_send_sub_unit_info_cmd.  <a href="group__wicedbt__avrc__ct.html#gaac278915591415548bf88bf0cd545a9a">More...</a><br /></td></tr>
+<tr class="separator:gaac278915591415548bf88bf0cd545a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4c0e9918900e835504052bc995bd5b76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__avrc__ct.html#ga4c0e9918900e835504052bc995bd5b76">wiced_bt_avrc_ct_get_element_attr_cmd</a> (uint8_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, wiced_bt_avrc_uid_t element_id, uint8_t num_attr, uint8_t *p_attrs)</td></tr>
 <tr class="memdesc:ga4c0e9918900e835504052bc995bd5b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_avrc_ct_get_element_attr_cmd.  <a href="group__wicedbt__avrc__ct.html#ga4c0e9918900e835504052bc995bd5b76">More...</a><br /></td></tr>
 <tr class="separator:ga4c0e9918900e835504052bc995bd5b76"><td class="memSeparator" colspan="2">&#160;</td></tr>

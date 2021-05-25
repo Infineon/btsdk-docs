@@ -6,7 +6,7 @@ var group__wiced__bt__mesh__light__ctl__server =
     [ "wiced_bt_mesh_model_light_ctl_server_message_handler", "group__wiced__bt__mesh__light__ctl__server.html#gaa07a3542b22992e82fc92c23a0b98f16", null ],
     [ "wiced_bt_mesh_model_light_ctl_server_scene_recall_handler", "group__wiced__bt__mesh__light__ctl__server.html#ga8437891fae790177dffdcbe22b0e0224", null ],
     [ "wiced_bt_mesh_model_light_ctl_server_scene_store_handler", "group__wiced__bt__mesh__light__ctl__server.html#ga7c86ca7a890ae4fe7f1a97305dfe9b2a", null ],
-    [ "wiced_bt_mesh_model_light_ctl_server_set_startup_master", "group__wiced__bt__mesh__light__ctl__server.html#ga700ffc98d68face65a5dfda2ffce2d16", null ],
+    [ "wiced_bt_mesh_model_light_ctl_server_set_startup_controller", "group__wiced__bt__mesh__light__ctl__server.html#gaaf07b7c8c6fc6a7298fe5a24e0a59516", null ],
     [ "wiced_bt_mesh_model_light_ctl_server_state_changed", "group__wiced__bt__mesh__light__ctl__server.html#ga794cb5d5a4e341379bb70536b8ce41a3", null ],
     [ "wiced_bt_mesh_model_light_ctl_setup_server_message_handler", "group__wiced__bt__mesh__light__ctl__server.html#gaf2924e0c30122408e3bab73c57c9fb4d", null ],
     [ "wiced_bt_mesh_model_light_ctl_temperature_server_message_handler", "group__wiced__bt__mesh__light__ctl__server.html#ga6a3c44332d8149a9ee922d8007ea8f94", null ]

@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__mesh__power__range__status__data__t.html#ade818037fd6c985038ff29656089758d":[7,0,4,2,15,2],
+"structwiced__bt__mesh__power__range__status__data__t.html#af56c44a29742765d2d6bab9c8fcd8b01":[7,0,4,2,15,1],
+"structwiced__bt__mesh__properties__get__data__t.html":[7,0,4,2,26],
+"structwiced__bt__mesh__properties__get__data__t.html#a18d3664574ad7a6267b78de27043d5d7":[7,0,4,2,26,0],
+"structwiced__bt__mesh__properties__get__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,0,4,2,26,1],
+"structwiced__bt__mesh__properties__status__data__t.html":[7,0,4,2,28],
+"structwiced__bt__mesh__properties__status__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,0,4,2,28,2],
+"structwiced__bt__mesh__properties__status__data__t.html#a33bd439954516567235fc257725b42f3":[7,0,4,2,28,1],
 "structwiced__bt__mesh__properties__status__data__t.html#aacce74ab4e266853217783b13acad523":[7,0,4,2,28,0],
 "structwiced__bt__mesh__property__get__data__t.html":[7,0,4,2,27],
 "structwiced__bt__mesh__property__get__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,0,4,2,27,1],

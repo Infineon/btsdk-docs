@@ -8,7 +8,7 @@ var group__wiced__bt__mesh__light__hsl__server =
     [ "wiced_bt_mesh_model_light_hsl_server_message_handler", "group__wiced__bt__mesh__light__hsl__server.html#ga19db1c617fb306d53924f58356b8a993", null ],
     [ "wiced_bt_mesh_model_light_hsl_server_scene_recall_handler", "group__wiced__bt__mesh__light__hsl__server.html#ga6eeb45f539f1673ed8aee1acc8a62f12", null ],
     [ "wiced_bt_mesh_model_light_hsl_server_scene_store_handler", "group__wiced__bt__mesh__light__hsl__server.html#ga71257c7ff7e767d04e6e6566aca39153", null ],
-    [ "wiced_bt_mesh_model_light_hsl_server_set_startup_master", "group__wiced__bt__mesh__light__hsl__server.html#gad0afa867c0f33529c833182bc37d6855", null ],
+    [ "wiced_bt_mesh_model_light_hsl_server_set_startup_controller", "group__wiced__bt__mesh__light__hsl__server.html#ga5861bbeb29fa4fb2985d60baab45dbe2", null ],
     [ "wiced_bt_mesh_model_light_hsl_server_state_changed", "group__wiced__bt__mesh__light__hsl__server.html#ga06d138ec4545f36a901e4ab57e0363a1", null ],
     [ "wiced_bt_mesh_model_light_hsl_setup_server_message_handler", "group__wiced__bt__mesh__light__hsl__server.html#ga2b70faf51861e68075fdb528270c90aa", null ]
 ];

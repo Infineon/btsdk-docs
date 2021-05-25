@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('group__group__ble__functions__scan.htm
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gac2aa0e611a70b09bfc6c4c48b99abb95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a> (<a class="el" href="group__group__dev__enums.html#gafaba53a20aad0fb7a2536d9c2df7c96e">wiced_bt_ble_scan_type_t</a> scan_type, wiced_bool_t duplicate_filter_enable, <a class="el" href="group__group__ble__data__structures.html#ga4f404f522b16d7a20986f252f17eac1d">wiced_bt_ble_scan_result_cback_t</a> *p_scan_result_cback)</td></tr>
-<tr class="memdesc:gac2aa0e611a70b09bfc6c4c48b99abb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API allows the device to register a callback to receive <em>connectable</em> ADV packets from slave devices.  <a href="#gac2aa0e611a70b09bfc6c4c48b99abb95">More...</a><br /></td></tr>
+<tr class="memdesc:gac2aa0e611a70b09bfc6c4c48b99abb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API allows the device to register a callback to receive <em>connectable</em> ADV packets from peripheral devices.  <a href="#gac2aa0e611a70b09bfc6c4c48b99abb95">More...</a><br /></td></tr>
 <tr class="separator:gac2aa0e611a70b09bfc6c4c48b99abb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaead34268d19ff7ea316c687d15714ee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a> (wiced_bool_t start, uint8_t duration, <a class="el" href="group__group__ble__data__structures.html#ga4f404f522b16d7a20986f252f17eac1d">wiced_bt_ble_scan_result_cback_t</a> *p_scan_result_cback)</td></tr>
 <tr class="memdesc:gaead34268d19ff7ea316c687d15714ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API allows the device to register a callback to receive both connectable and non-connectable ADV packets.  <a href="#gaead34268d19ff7ea316c687d15714ee9">More...</a><br /></td></tr>
@@ -116,11 +116,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8d62204cf6ab289f977215c08d5864ca"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#ga8d62204cf6ab289f977215c08d5864ca">wiced_bt_ble_check_advertising_data</a> (uint8_t *p_adv, <a class="el" href="group__group__ble__enums.html#ga3764eb118b409b406eedbb158262a91f">wiced_bt_ble_advert_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint8_t *p_length)</td></tr>
 <tr class="memdesc:ga8d62204cf6ab289f977215c08d5864ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">After receiving ADV data from another device using <a class="el" href="group__group__ble__functions__scan.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a> or <a class="el" href="group__group__ble__functions__scan.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a>, this API can optionally be used to parse the received ADV data.  <a href="#ga8d62204cf6ab289f977215c08d5864ca">More...</a><br /></td></tr>
 <tr class="separator:ga8d62204cf6ab289f977215c08d5864ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#gabdb60d361b6a6527e0f02bfb4cd61138">wiced_bt_ble_update_scanner_white_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, wiced_bt_device_address_t remote_bda, wiced_bt_ble_address_type_t addr_type)</td></tr>
-<tr class="memdesc:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add or remove a device from the scanner white list.  <a href="#gabdb60d361b6a6527e0f02bfb4cd61138">More...</a><br /></td></tr>
-<tr class="separator:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#ga6f411c8f304ca02f2ad9bad45ed5d7a5">wiced_bt_ble_update_scanner_filter_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, wiced_bt_device_address_t remote_bda, wiced_bt_ble_address_type_t addr_type)</td></tr>
+<tr class="memdesc:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add or remove a device from the scanner Filter Accept List.  <a href="#ga6f411c8f304ca02f2ad9bad45ed5d7a5">More...</a><br /></td></tr>
+<tr class="separator:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga524efdcf8f398f3bdfe71081d3882d06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__scan.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a> (<a class="el" href="group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a> scanner_policy)</td></tr>
-<tr class="memdesc:ga524efdcf8f398f3bdfe71081d3882d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls the use of the scanner white list.  <a href="#ga524efdcf8f398f3bdfe71081d3882d06">More...</a><br /></td></tr>
+<tr class="memdesc:ga524efdcf8f398f3bdfe71081d3882d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls the use of the scanner Filter Accept List.  <a href="#ga524efdcf8f398f3bdfe71081d3882d06">More...</a><br /></td></tr>
 <tr class="separator:ga524efdcf8f398f3bdfe71081d3882d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This API allows the device to register a callback to receive <em>connectable</em> ADV packets from slave devices. </p>
+<p>This API allows the device to register a callback to receive <em>connectable</em> ADV packets from peripheral devices. </p>
 <p>It is fundamentally the same as the API <a class="el" href="group__group__ble__functions__scan.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a>, except that the scan results are filtered to only allow connectable packets. The scan interval, window, duration, and type (active or passive), are initialized in <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a> upon calling the stack initialization API (<a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>). The packets received in the callback can be limited to a small, known set of devices using <a class="el" href="group__group__ble__functions__scan.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a>.</p>
 <p>Below is an example of how to start receiving scan results in a callback and print the name of the advertised device if found in the received packet:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> scan_cback( <a class="code" href="structwiced__bt__ble__scan__results__t.html">wiced_bt_ble_scan_results_t</a> *scan_res, uint8_t *adv_data )</div>
@@ -343,45 +343,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga524efdcf8f398f3bdfe71081d3882d06"></a>
+<a class="anchor" id="ga6f411c8f304ca02f2ad9bad45ed5d7a5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void wiced_bt_ble_update_scanner_filter_policy </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a>&#160;</td>
-          <td class="paramname"><em>scanner_policy</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Controls the use of the scanner white list. </p>
-<p>Using <a class="el" href="group__group__ble__functions__scan.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a> and <a class="el" href="group__group__ble__functions__scan.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a> will by default allow any device's advertising packets to be received (dropping directed ADV packets whose target address does not match our local address). Enabling the whitelist allows the callback to only be triggered in the event that an ADV packet is scanned from a small list of devices.</p>
-<p>Directed packets using an RPA are optionally included in the search results. The default behavior is that directed ADV will always be dropped if the target address does not match the local address. When RPA (rotating address) is in use, we must then add the option of allowing directed packets to an RPA through the filter so that the host can resolve the address (if the address resolution is occurring on the host side).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">scanner_policy</td><td><a class="el" href="group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a><ul>
-<li>BTM_BLE_SCANNER_FILTER_ALL_ADV_RSP: (default) WL OFF, drops dir to RPA</li>
-<li>BTM_BLE_SCANNER_FILTER_WHITELIST_ADV_RSP: WL ON, drops dir to RPA</li>
-<li>BTM_BLE_SCANNER_FILTER_ALL_RPA_DIR_ADV_RSP: WL OFF, passes dir to RPA</li>
-<li>BTM_BLE_SCANNER_FILTER_WHITELIST_RPA_DIR_ADV_RSP: WL ON, passes dir to RPA</li>
-</ul>
-</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gabdb60d361b6a6527e0f02bfb4cd61138"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_bt_ble_update_scanner_white_list </td>
+          <td class="memname">wiced_bool_t wiced_bt_ble_update_scanner_filter_list </td>
           <td>(</td>
           <td class="paramtype">wiced_bool_t&#160;</td>
           <td class="paramname"><em>add</em>, </td>
@@ -406,8 +373,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add or remove a device from the scanner white list. </p>
-<p>Behavior of white list is controlled by <a class="el" href="group__group__ble__functions__scan.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a>.</p>
+<p>Add or remove a device from the scanner Filter Accept List. </p>
+<p>Behavior of Filter Accept List is controlled by <a class="el" href="group__group__ble__functions__scan.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">add</td><td>WICED_TRUE==add, WICED_FALSE==remove </td></tr>
@@ -427,7 +394,40 @@ Functions</h2></td></tr>
 <li>WICED_FALSE error, transport buffer allocation failure</li>
 </ul>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This API cannot be used while the white list is in use. If the device is currently scanning using the white list, disable it before using this API. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This API cannot be used while the Filter Accept List is in use. If the device is currently scanning using the Filter Accept List, disable it before using this API. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga524efdcf8f398f3bdfe71081d3882d06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_ble_update_scanner_filter_policy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a>&#160;</td>
+          <td class="paramname"><em>scanner_policy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Controls the use of the scanner Filter Accept List. </p>
+<p>Using <a class="el" href="group__group__ble__functions__scan.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a> and <a class="el" href="group__group__ble__functions__scan.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a> will by default allow any device's advertising packets to be received (dropping directed ADV packets whose target address does not match our local address). Enabling the Filter Accept List allows the callback to only be triggered in the event that an ADV packet is scanned from a small list of devices.</p>
+<p>Directed packets using an RPA are optionally included in the search results. The default behavior is that directed ADV will always be dropped if the target address does not match the local address. When RPA (rotating address) is in use, we must then add the option of allowing directed packets to an RPA through the filter so that the host can resolve the address (if the address resolution is occurring on the host side).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">scanner_policy</td><td><a class="el" href="group__group__ble__enums.html#ga6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a><ul>
+<li>BTM_BLE_SCAN_POLICY_ACCEPT_ADV_RSP: (default) WL OFF, drops dir to RPA</li>
+<li>BTM_BLE_SCAN_POLICY_FILTER_ADV_RSP: WL ON, drops dir to RPA</li>
+<li>BTM_BLE_SCAN_POLICY_ACCEPT_RPA_DIR_ADV_RSP: WL OFF, passes dir to RPA</li>
+<li>BTM_BLE_SCAN_POLICY_FILTER_RPA_DIR_ADV_RSP: WL ON, passes dir to RPA</li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>

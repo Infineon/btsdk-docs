@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"structmesh__battery__event__t.html#ae72554ff008ab0fdded369df877657b5":[7,0,4,2,0,4],
+"structmesh__battery__event__t.html#ae8ab857fadc83af7d7931c0874e1ab96":[7,0,4,2,0,1],
 "structmesh__core__provision__cb__t.html":[7,0,4,1,16],
 "structmesh__core__provision__cb__t.html#a016fd9c61717c1b3e29052fc78c9f40d":[7,0,4,1,16,2],
 "structmesh__core__provision__cb__t.html#a0584f759ae77e5516e6a392044f0ebb5":[7,0,4,1,16,0],
@@ -73,6 +75,10 @@ var NAVTREEINDEX7 =
 "structwiced__bt__ans__gatt__handles__t.html#a087b928809f7184de8a6d11072f1d3d4":[7,0,1,1,0],
 "structwiced__bt__ans__gatt__handles__t.html#a1763bdebd7dc131326e33b06cfcc5ddc":[7,0,1,1,1],
 "structwiced__bt__ans__gatt__handles__t.html#a91df7573e222f7da08fffa007478f7db":[7,0,1,1,2],
+"structwiced__bt__application__id__t.html":[7,3,3,1],
+"structwiced__bt__application__id__t.html#a215e5feaef08c77d8e9f17ab421e8a66":[7,3,3,1,2],
+"structwiced__bt__application__id__t.html#a5bd4e4c943762926c8f653b6224cced2":[7,3,3,1,0],
+"structwiced__bt__application__id__t.html#ae2f416b0a34b7beb4ed3873d791ac393":[7,3,3,1,1],
 "structwiced__bt__audio__config__buffer__t.html":[7,0,2,4,0],
 "structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204":[7,0,2,4,0,2],
 "structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae":[7,0,2,4,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__core__provision__start__t.html#a8cb4db6f4ecce642fbf8de14a0858738":[7,0,4,1,15,1],
 "structwiced__bt__mesh__core__provision__start__t.html#ac06670b9dd0bae66ac354de86e8e6f36":[7,0,4,1,15,3],
 "structwiced__bt__mesh__core__provision__start__t.html#acf71546f50219c2b2c44bc261264ec70":[7,0,4,1,15,2],
-"structwiced__bt__mesh__core__state__app__key__t.html":[7,0,4,1,8],
-"structwiced__bt__mesh__core__state__app__key__t.html#a22f3b78c54405482a77f0c82141b779f":[7,0,4,1,8,2],
-"structwiced__bt__mesh__core__state__app__key__t.html#a852b86a2eaee9852ada7a43e61e311a2":[7,0,4,1,8,0],
-"structwiced__bt__mesh__core__state__app__key__t.html#aa60a0c39d29c4a6fdaac5bfc05f1dbec":[7,0,4,1,8,1],
-"structwiced__bt__mesh__core__state__friendship__t.html":[7,0,4,1,11],
-"structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f":[7,0,4,1,11,1],
-"structwiced__bt__mesh__core__state__friendship__t.html#a41a6aad09727eb120338c35535a652a6":[7,0,4,1,11,0]
+"structwiced__bt__mesh__core__state__app__key__t.html":[7,0,4,1,8]
 };

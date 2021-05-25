@@ -1,5 +1,13 @@
 var NAVTREEINDEX7 =
 {
+"structwiced__bt__avrc__tg__track__attr__t.html#a51f8e5d494f30807eab1cb2d29e2015a":[7,0,2,2,2,0,2],
+"structwiced__bt__avrc__tg__track__attr__t.html#a5c72768eca6a2977b7618577de76a430":[7,0,2,2,2,0,1],
+"structwiced__bt__avrc__tg__track__info__t.html":[7,0,2,2,2,1],
+"structwiced__bt__avrc__tg__track__info__t.html#a4786638e41d0504fec04dbfca8ddbf6f":[7,0,2,2,2,1,0],
+"structwiced__bt__avrc__tg__track__info__t.html#a7855b7c6524bcdea0e793bd249855cd9":[7,0,2,2,2,1,1],
+"structwiced__bt__bac__battery__level__notification__t.html":[7,0,3,2],
+"structwiced__bt__bac__battery__level__notification__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86":[7,0,3,2,0],
+"structwiced__bt__bac__battery__level__notification__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,0,3,2,1],
 "structwiced__bt__bac__battery__level__rsp__t.html":[7,0,3,1],
 "structwiced__bt__bac__battery__level__rsp__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86":[7,0,3,1,0],
 "structwiced__bt__bac__battery__level__rsp__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,0,3,1,1],
@@ -232,7 +240,6 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__event____t.html#a4d402503271315376ddf4e47674d4965":[7,0,4,1,19,22],
 "structwiced__bt__mesh__event____t.html#a587204366aaf7cffe58beb028b7e1d86":[7,0,4,1,19,11],
 "structwiced__bt__mesh__event____t.html#a603634f617f16fe8155ef931ce0a392f":[7,0,4,1,19,8],
-"structwiced__bt__mesh__event____t.html#a606c8f034448975f31601fe19cc36aca":[7,0,4,1,19,20],
 "structwiced__bt__mesh__event____t.html#a65ecdf93f477372c38b29a69e896d6ba":[7,0,4,1,19,0],
 "structwiced__bt__mesh__event____t.html#a685ae33c442d30cc507fa5415f536e74":[7,0,4,1,19,1],
 "structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f":[7,0,4,1,19,12],
@@ -242,12 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,0,4,1,19,23],
 "structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49":[7,0,4,1,19,14],
 "structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a":[7,0,4,1,19,7],
-"structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934":[7,0,4,1,19,16],
-"structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,0,4,1,19,19],
-"structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf":[7,0,4,1,19,4],
-"structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88":[7,0,4,1,19,3],
-"structwiced__bt__mesh__event____t.html#ae7a9dd8f2d9e6fe6485b0ba80fdf4533":[7,0,4,1,19,18],
-"structwiced__bt__mesh__event____t.html#aeb39438c0aa5ad494c96060b00351545":[7,0,4,1,19,10],
-"structwiced__bt__mesh__level__set__delta__t.html":[7,0,4,2,6],
-"structwiced__bt__mesh__level__set__delta__t.html#a284a81478e29d96532d13ebd737d6b82":[7,0,4,2,6,3]
+"structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934":[7,0,4,1,19,16]
 };

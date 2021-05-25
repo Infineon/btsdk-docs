@@ -51,16 +51,6 @@ var searchData=
   ['control',['control',['../structwiced__bt__avrc__conn__cb__t.html#ae11ecbd546ec0301d5462df23b139816',1,'wiced_bt_avrc_conn_cb_t::control()'],['../structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed',1,'wiced_bt_hrs_handles_t::control()']]],
   ['count',['count',['../wiced__bt__mesh__provision_8h.html#a20302e2c99a60d3f612dba57e3f6333b',1,'wiced_bt_mesh_provision.h']]],
   ['counter',['counter',['../wiced__bt__dev_8h.html#a8c051c6679f4694c74db5e020b9f56f0',1,'wiced_bt_dev.h']]],
-  ['cpl_5fevent_5fbt_5fpower_5fstate_5ft',['cpl_event_bt_power_state_t',['../group__wpl__event.html#gad188658f896faab5c88049e633bbeb7d',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fi2c_5fstate_5ft',['cpl_event_i2c_state_t',['../group__wpl__event.html#gae766e9fb426c1aadf363097beec1b2fa',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fid_5ft',['cpl_event_id_t',['../group__wpl__event.html#gaf7dda817dced930b804235a29067fb1a',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fpower_5fstate_5ft',['cpl_event_power_state_t',['../group__wpl__event.html#ga3842bf2f72d9720728f5c1c67067644d',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fprofiling_5fstate_5ft',['cpl_event_profiling_state_t',['../group__wpl__event.html#ga83a36894fbdd9a61da4b78210484145e',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fsdio_5fstate_5ft',['cpl_event_sdio_state_t',['../group__wpl__event.html#ga20fb23d6fbdc7f5b6a8d891fb6e171f7',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fspi_5fsflash_5fstate_5ft',['cpl_event_spi_sflash_state_t',['../group__wpl__event.html#gacfbdf923f6a16d72d5c92269a0aeabe0',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fspi_5fstate_5ft',['cpl_event_spi_state_t',['../group__wpl__event.html#gabf597cc7a68a42ad6909cd0be3f2a61b',1,'wiced_power_logger.h']]],
-  ['cpl_5fevent_5fuart_5fstate_5ft',['cpl_event_uart_state_t',['../group__wpl__event.html#gab258d4bd72991292c8d0daa660a54681',1,'wiced_power_logger.h']]],
-  ['cpl_5fprocid_5ft',['cpl_procid_t',['../group__wpl__event.html#gaf1c716d8b62763b0dc37aeae1d81435c',1,'wiced_power_logger.h']]],
   ['crcerrs',['crcErrs',['../wiced__bt__dev_8h.html#a5a80b0350848e351cfe0738c44c28897',1,'wiced_bt_dev.h']]],
   ['credential_5fflag',['credential_flag',['../structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88',1,'wiced_bt_mesh_event__t::credential_flag()'],['../wiced__bt__mesh__provision_8h.html#ae4118fec267d4ea4f8fe035cd8e02d88',1,'credential_flag():&#160;wiced_bt_mesh_provision.h']]],
   ['cs_5fpin',['cs_pin',['../wiced__transport_8h.html#aed65b23a4e5c39c4267c5730833e70db',1,'wiced_transport.h']]],
@@ -74,7 +64,5 @@ var searchData=
   ['callback_20functions',['Callback Functions',['../group__group__hci__fw__upgrade__cback__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__group__ota__fw__upgrade__cback__functions.html',1,'']]],
   ['callback_20functions',['Callback Functions',['../group__group__transport__cback__functions.html',1,'']]],
-  ['callback_20functions',['Callback Functions',['../group__l2cap__callbacks.html',1,'']]],
-  ['cype_20functions',['CyPE Functions',['../group__wpl__api.html',1,'']]],
-  ['cype_20power_20event',['CyPE Power Event',['../group__wpl__event.html',1,'']]]
+  ['callback_20functions',['Callback Functions',['../group__l2cap__callbacks.html',1,'']]]
 ];

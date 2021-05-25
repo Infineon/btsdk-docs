@@ -237,6 +237,7 @@ var searchData=
   ['avrc_5frev_5f1_5f3',['AVRC_REV_1_3',['../wiced__bt__avrc__defs_8h.html#aac704951ce5a591365ad76382b4dff86',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5frev_5f1_5f4',['AVRC_REV_1_4',['../wiced__bt__avrc__defs_8h.html#a51b9d2801460cd024152d08a1be24149',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5frev_5f1_5f5',['AVRC_REV_1_5',['../wiced__bt__avrc__defs_8h.html#a398a5bdd642ac793d3d341cf2d4aca7c',1,'wiced_bt_avrc_defs.h']]],
+  ['avrc_5frev_5f1_5f6',['AVRC_REV_1_6',['../wiced__bt__avrc__defs_8h.html#a4a022c64a58bfd7fd1ef85e5f8758202',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5frsp_5faccept',['AVRC_RSP_ACCEPT',['../wiced__bt__avrc__defs_8h.html#afebf8c70b4cc80ef8f40978aacc80bb1',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5frsp_5fchanged',['AVRC_RSP_CHANGED',['../wiced__bt__avrc__defs_8h.html#a1b77242e3ba4f52e6f31b441715f4c31',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5frsp_5fimpl_5fstbl',['AVRC_RSP_IMPL_STBL',['../wiced__bt__avrc__defs_8h.html#af82fc3b83bc432770802b2dd976b5a95',1,'wiced_bt_avrc_defs.h']]],

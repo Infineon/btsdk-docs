@@ -69,10 +69,10 @@ var group__l2cap__data__types =
     [ "L2CAP_PRIORITY_HIGH", "group__l2cap__data__types.html#gaa8f483be39d6531300918dc58f067be2", null ],
     [ "L2CAP_PRIORITY_NORMAL", "group__l2cap__data__types.html#ga9c3380c72b9ed68837e360435744eab3", null ],
     [ "L2CAP_ROLE_ALLOW_SWITCH", "group__l2cap__data__types.html#gaabfdc8c8aaca18681f322353b098a611", null ],
+    [ "L2CAP_ROLE_CENTRAL", "group__l2cap__data__types.html#ga1c9ea3880806b7c5f06a04c2e7d86227", null ],
     [ "L2CAP_ROLE_CHECK_SWITCH", "group__l2cap__data__types.html#gaf9b005022e90c08493bb23d13755c6f8", null ],
     [ "L2CAP_ROLE_DISALLOW_SWITCH", "group__l2cap__data__types.html#ga5f0bc551ede392bc1d6fe42361d94c84", null ],
-    [ "L2CAP_ROLE_MASTER", "group__l2cap__data__types.html#ga3c7080e318877c40c17c7c94b60f06b1", null ],
-    [ "L2CAP_ROLE_SLAVE", "group__l2cap__data__types.html#gae552fb2592a3026e38d98e92cd8fec10", null ],
+    [ "L2CAP_ROLE_PERIPHERAL", "group__l2cap__data__types.html#ga972f5c4387bd41dcfaf6cd30bd3d4f5e", null ],
     [ "MAXIMUM_LE_PSM", "group__l2cap__data__types.html#ga1f03cf0e89ea3ac0472e7e0177e5d699", null ],
     [ "MINIMIUM_DYNAMIC_LE_PSM", "group__l2cap__data__types.html#ga09d2c46b10a813c41302e5389e314bbe", null ]
 ];

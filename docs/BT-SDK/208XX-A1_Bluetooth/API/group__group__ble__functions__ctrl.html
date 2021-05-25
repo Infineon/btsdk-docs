@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -153,7 +153,7 @@ Functions</h2></td></tr>
 <div class="line"></div>
 <div class="line">    <a class="code" href="group__group__ble__functions__ctrl.html#ga26ca4f327d2ffeff7cacdc9b3fe4f35f">wiced_bt_ble_get_connection_parameters</a>(peer_bda, &amp;conn_params);</div>
 <div class="line"></div>
-<div class="line">    WICED_BT_TRACE(<span class="stringliteral">&quot;Role: %s &quot;</span>, (conn_params.<a class="code" href="structwiced__bt__ble__conn__params__t.html#a5b9aeb2bb7989ef331f452dd9626f139">role</a>) ? (<span class="stringliteral">&quot;Master&quot;</span>) : (<span class="stringliteral">&quot;Slave&quot;</span>));</div>
+<div class="line">    WICED_BT_TRACE(<span class="stringliteral">&quot;Role: %s &quot;</span>, (conn_params.<a class="code" href="structwiced__bt__ble__conn__params__t.html#a5b9aeb2bb7989ef331f452dd9626f139">role</a>) ? (<span class="stringliteral">&quot;Central&quot;</span>) : (<span class="stringliteral">&quot;Peripheral&quot;</span>));</div>
 <div class="line">    WICED_BT_TRACE(<span class="stringliteral">&quot;Interval: 0x%04x &quot;</span>, conn_params.<a class="code" href="structwiced__bt__ble__conn__params__t.html#ac6af0821db9e8b3c896614f619e85243">conn_interval</a>);</div>
 <div class="line">    WICED_BT_TRACE(<span class="stringliteral">&quot;Latency: 0x%04x &quot;</span>, conn_params.<a class="code" href="structwiced__bt__ble__conn__params__t.html#a1981f631548663fa86eb12cabcce2167">conn_latency</a>);</div>
 <div class="line">    WICED_BT_TRACE(<span class="stringliteral">&quot;Timeout: 0x%04x\r\n&quot;</span>, conn_params.<a class="code" href="structwiced__bt__ble__conn__params__t.html#ab9a2dab79f1bab2d97d672571c060bbc">supervision_timeout</a>);</div>

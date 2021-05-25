@@ -17,8 +17,13 @@ var NAVTREEINDEX =
 "group___adc_driver.html",
 "group___peripheral_spi_driver.html#gga23e4236e76e30bf62f85f9e7026d6be4a5a6abe145caf9794d5a70e5472ee988f",
 "group__group__hci__fw__upgrade__macros.html",
-"group__wiced__bt__ans__api__functions.html#ga6433c3fedcb45540bb0675d6ac421b96",
-"structwiced__bt__l2cap__appl__information__t.html#abc6d8eeb116ac57ad2456d1fcaa942ba"
+"group__wiced__bt__ans__api__functions.html#ga0b0cb5b58e9c52546ec5c92fcb0715ad",
+"group__wiced__bt__mesh__default__transition__time__server.html#ga989a9568ae8d235eff6e214895c40b42",
+"group__wiced__bt__mesh__power__level__server.html#gaffe3cb3dbf98e48826c58dceb86f25cf",
+"group__wiced__utils.html#ga063e7e69efdca1f449e8b2f6bf731808",
+"structwiced__bt__mesh__core__config__sensor__t.html#a1de712f3f2c4cde536c391ea1575b443",
+"structwiced__bt__mesh__light__lc__property__status__data__t.html#a9f1e5c8d8323a21cd866ba859b1d7a44",
+"structwiced__bt__mesh__sensor__config__descriptor__t.html#a512e7fc3d4ac2fb160f6481ba3b2cca6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1458,7 +1458,7 @@ Functions</h2></td></tr>
 
 <p>Function wiced_bt_l2cap_set_desire_role. </p>
 <p>This function sets the desire role for L2CAP. If the new role is L2CAP_ROLE_ALLOW_SWITCH, allow switch on HciCreateConnection. If the new role is L2CAP_ROLE_DISALLOW_SWITCH, do not allow switch on HciCreateConnection.</p>
-<p>If the new role is a valid role (HCI_ROLE_MASTER or HCI_ROLE_SLAVE), the desire role is set to the new value. Otherwise, it is not changed.</p>
+<p>If the new role is a valid role (HCI_ROLE_CENTRAL or HCI_ROLE_PERIPHERAL), the desire role is set to the new value. Otherwise, it is not changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">new_role</td><td>New role value</td></tr>

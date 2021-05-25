@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -221,6 +221,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a863c72ff97eddbe94c6dc13c3a7970af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a863c72ff97eddbe94c6dc13c3a7970af"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_AUDIO_DUAL_A2DP</b>&#160;&#160;&#160;0x2b</td></tr>
 <tr class="separator:a863c72ff97eddbe94c6dc13c3a7970af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a538837c5b0ea999e3ab30af3e3b49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88a538837c5b0ea999e3ab30af3e3b49"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_HCITEST</b>&#160;&#160;&#160;0x2c</td></tr>
+<tr class="separator:a88a538837c5b0ea999e3ab30af3e3b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22394dde968c719d47f0d391b5c2968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa22394dde968c719d47f0d391b5c2968"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MISC</b>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="separator:aa22394dde968c719d47f0d391b5c2968"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -716,6 +719,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a4992448cf062053cf18db63c86eee7de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4992448cf062053cf18db63c86eee7de"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_COMMAND_CLOSE_AUDIO</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x04 )    /* Disconnect audio */</td></tr>
 <tr class="separator:a4992448cf062053cf18db63c86eee7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91ddadd05cfd87a83e2aea23439c731"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae91ddadd05cfd87a83e2aea23439c731"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_COMMAND_SET_CIND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x05 )    /* Set CIND */</td></tr>
+<tr class="separator:ae91ddadd05cfd87a83e2aea23439c731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29957cc56918f744e396830275f89a16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29957cc56918f744e396830275f89a16"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_COMMAND_STR</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x06 )    /* Send AT Command */</td></tr>
+<tr class="separator:a29957cc56918f744e396830275f89a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef7915265167b06f2562f2182ab8626a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef7915265167b06f2562f2182ab8626a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BSG_COMMAND_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BSG &lt;&lt; 8 ) | 0x03 )    /* Send data */</td></tr>
 <tr class="separator:aef7915265167b06f2562f2182ab8626a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1547,6 +1556,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a5a9b1d51264e26f42f9048414aa0e04e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a9b1d51264e26f42f9048414aa0e04e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_DFU_COMMAND_WRITE_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DFU &lt;&lt; 8 ) | 0x02 ) /* DFU Data Transfer Packet */</td></tr>
 <tr class="separator:a5a9b1d51264e26f42f9048414aa0e04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229b925944ff59b5502877568dc56a3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a229b925944ff59b5502877568dc56a3b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_COMMAND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x0 ) /* Test start request */</td></tr>
+<tr class="separator:a229b925944ff59b5502877568dc56a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814d71d3cfa4bd36206f63b1fc8e4e82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a814d71d3cfa4bd36206f63b1fc8e4e82"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_CONFIGURE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x1 ) /* Test configure request */</td></tr>
+<tr class="separator:a814d71d3cfa4bd36206f63b1fc8e4e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e76801a75160fe12c1bb9a8d0a333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29e76801a75160fe12c1bb9a8d0a333"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:af29e76801a75160fe12c1bb9a8d0a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2057,6 +2072,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a1551699bce6b51b758c5a3a75078b249"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1551699bce6b51b758c5a3a75078b249"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_EVENT_AUDIO_CLOSE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x05 )</td></tr>
 <tr class="separator:a1551699bce6b51b758c5a3a75078b249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5abf0d568b89f49c073964653a38eda5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5abf0d568b89f49c073964653a38eda5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_EVENT_AT_CMD</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x06 )</td></tr>
+<tr class="separator:a5abf0d568b89f49c073964653a38eda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8dd8e9fa7c0eb59372f57360914b8f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8dd8e9fa7c0eb59372f57360914b8f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_AG_EVENT_CLCC_REQ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_AG &lt;&lt; 8 ) | 0x07 )</td></tr>
+<tr class="separator:ad8dd8e9fa7c0eb59372f57360914b8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a015544af3a7c2f0ef52e0af84672d212"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a015544af3a7c2f0ef52e0af84672d212"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BSG_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BSG &lt;&lt; 8 ) | 0x01 )    /* BSG Connected */</td></tr>
 <tr class="separator:a015544af3a7c2f0ef52e0af84672d212"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2750,6 +2771,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a38e76706726955650c21f46c9899229a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38e76706726955650c21f46c9899229a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_DFU_EVENT_ABORTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DFU &lt;&lt; 8 ) | 0x06 ) /* aborted */</td></tr>
 <tr class="separator:a38e76706726955650c21f46c9899229a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfb376124d9d38c953905aac39a5816"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbfb376124d9d38c953905aac39a5816"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_EVENT_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x01 ) /* test status */</td></tr>
+<tr class="separator:acbfb376124d9d38c953905aac39a5816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab0208ace2409bac9261127303c2e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ab0208ace2409bac9261127303c2e51"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_EVENT_PACKET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x02 ) /* test packet (for loopback) */</td></tr>
+<tr class="separator:a8ab0208ace2409bac9261127303c2e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>

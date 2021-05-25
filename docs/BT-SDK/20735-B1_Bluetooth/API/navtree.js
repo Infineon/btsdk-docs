@@ -17,14 +17,14 @@ var NAVTREEINDEX =
 "group___adc_driver.html",
 "group___peripheral_spi_driver.html#gga23e4236e76e30bf62f85f9e7026d6be4a5a6abe145caf9794d5a70e5472ee988f",
 "group__group__hci__fw__upgrade__functions.html#ga22636b41eb648bf81550810561c9dfeb",
-"group__rfcomm__api__functions.html#ga2fdabf7ca61dc4582b77496e82a11295",
-"group__wiced__bt__mesh__core.html#ga1bd0d715179b13a0ccd5700a1bc67f55",
-"group__wiced__bt__mesh__light__lightness__server.html#ga4239007109ce36d64ff99bd73f5e37f0",
-"group__wiced__bt__mesh__provisioning.html#ga9c785530e5119af2f9e19f3395a781e6",
-"structmesh__core__provision__cb__t.html",
-"structwiced__bt__mesh__core__state__friendship__t.html#a41a6aad09727eb120338c35535a652a6",
-"structwiced__bt__mesh__light__xyl__default__status__data__t.html#ab5bae9353df67146de6a493d0569bdd0",
-"structwiced__bt__sdp__discovery__db__t.html#a8ec595ae7017a68b48e4e24bbc3ac7da"
+"group__rfcomm__api__functions.html",
+"group__wiced__bt__mesh__core.html#ga1102217bc9ee7c3055bbedf0c1d769e2",
+"group__wiced__bt__mesh__light__lightness__client.html#gae2a2cf924b44ac9cff3e149d8da01e27",
+"group__wiced__bt__mesh__provisioning.html#ga9366e77c599dbef0e726e54c2da38440",
+"structmesh__battery__event__t.html#a4033d2d4da842718b4f4abb7f3a6f5d5",
+"structwiced__bt__mesh__core__provision__start__t.html#ac06670b9dd0bae66ac354de86e8e6f36",
+"structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
+"structwiced__bt__sdp__discovery__attribute__value__t.html#a1234f83efa812e259523c91799614a3c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

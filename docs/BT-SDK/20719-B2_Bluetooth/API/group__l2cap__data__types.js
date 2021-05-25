@@ -51,7 +51,7 @@ var group__l2cap__data__types =
     [ "L2CAP_PRIORITY_NORMAL", "group__l2cap__data__types.html#ga9c3380c72b9ed68837e360435744eab3", null ],
     [ "L2CAP_ROLE_ALLOW_SWITCH", "group__l2cap__data__types.html#gaabfdc8c8aaca18681f322353b098a611", null ],
     [ "L2CAP_ROLE_DISALLOW_SWITCH", "group__l2cap__data__types.html#ga5f0bc551ede392bc1d6fe42361d94c84", null ],
+    [ "L2CAP_ROLE_PERIPHERAL", "group__l2cap__data__types.html#ga972f5c4387bd41dcfaf6cd30bd3d4f5e", null ],
     [ "L2CAP_ROLE_SCATTERNET_ALLOWED", "group__l2cap__data__types.html#ga48e2f51a7931eeba4e4d5dff16b00a00", null ],
-    [ "L2CAP_ROLE_SLAVE", "group__l2cap__data__types.html#gae552fb2592a3026e38d98e92cd8fec10", null ],
     [ "MINIMIUM_DYNAMIC_LE_PSM", "group__l2cap__data__types.html#ga09d2c46b10a813c41302e5389e314bbe", null ]
 ];

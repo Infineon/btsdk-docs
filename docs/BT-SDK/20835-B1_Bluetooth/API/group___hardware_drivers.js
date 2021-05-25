@@ -7,6 +7,7 @@ var group___hardware_drivers =
     [ "Embedded Flash Interface", "group___embedded_flash_interface_driver.html", "group___embedded_flash_interface_driver" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
     [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],
+    [ "IrTx", "group__ir_tx.html", "group__ir_tx" ],
     [ "Keyscan Interface", "group__keyscan.html", "group__keyscan" ],
     [ "Multiple Interface Adapter (MIA)", "group___m_i_a_driver.html", "group___m_i_a_driver" ],
     [ "NVRAM", "group__nvram.html", "group__nvram" ],

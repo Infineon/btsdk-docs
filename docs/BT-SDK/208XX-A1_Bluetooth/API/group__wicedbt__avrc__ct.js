@@ -9,6 +9,7 @@ var group__wicedbt__avrc__ct =
     ] ],
     [ "wiced_bt_avrc_ct_cmd_cback_t", "group__wicedbt__avrc__ct.html#gaaea90a4f94e148ac2cccf9a28fa8e8cf", null ],
     [ "wiced_bt_avrc_ct_connection_state_cback_t", "group__wicedbt__avrc__ct.html#gad858b73acd5a0f89dc31c73f511abe6a", null ],
+    [ "wiced_bt_avrc_ct_pt_evt_cback_t", "group__wicedbt__avrc__ct.html#ga25d43e994bb2ef0ca99407b7878baf1e", null ],
     [ "wiced_bt_avrc_ct_pt_rsp_cback_t", "group__wicedbt__avrc__ct.html#gadaa88ddf80ce4116a0c265b65d5d714c", null ],
     [ "wiced_bt_avrc_ct_rsp_cback_t", "group__wicedbt__avrc__ct.html#gad29f68f0d216dac59fc5c1a67902f87f", null ],
     [ "wiced_bt_avrc_ct_connection_state_t", "group__wicedbt__avrc__ct.html#ga34d812e2d75abcf6d30a1c5f54d4b655", [
@@ -38,6 +39,8 @@ var group__wicedbt__avrc__ct =
     [ "wiced_bt_avrc_ct_play_item_cmd", "group__wicedbt__avrc__ct.html#ga432acbc421eadc433d6137d8b85ee41e", null ],
     [ "wiced_bt_avrc_ct_search_cmd", "group__wicedbt__avrc__ct.html#ga53748556a7fea2ee3df84ba019aa0a7d", null ],
     [ "wiced_bt_avrc_ct_send_pass_through_cmd", "group__wicedbt__avrc__ct.html#gaf75a0130ac02a34b540004c9871df441", null ],
+    [ "wiced_bt_avrc_ct_send_sub_unit_info_cmd", "group__wicedbt__avrc__ct.html#gaac278915591415548bf88bf0cd545a9a", null ],
+    [ "wiced_bt_avrc_ct_send_unit_info_cmd", "group__wicedbt__avrc__ct.html#gaa8a257ae900cbaa1f2b11b92ac24c8e7", null ],
     [ "wiced_bt_avrc_ct_set_addressed_player_cmd", "group__wicedbt__avrc__ct.html#ga750dc60f71a0a6590a11f473666fee2a", null ],
     [ "wiced_bt_avrc_ct_set_browsed_player_cmd", "group__wicedbt__avrc__ct.html#gaaac546a10741206b452f1b5f102e3fe4", null ],
     [ "wiced_bt_avrc_ct_set_player_value_cmd", "group__wicedbt__avrc__ct.html#gaf9b8b9e92b718a27ac9c12074f16f7bc", null ],

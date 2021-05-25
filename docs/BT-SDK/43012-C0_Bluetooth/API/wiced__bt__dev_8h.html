@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -483,7 +483,7 @@ struct {</td></tr>
 <tr class="separator:aa36285a4e1a932d092c3f584a2dbff59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced7ac80397d2549e5ecbb13de235936"><td class="memItemLeft" ><a class="anchor" id="aced7ac80397d2549e5ecbb13de235936"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#aced7ac80397d2549e5ecbb13de235936">ediv</a></td></tr>
-<tr class="memdesc:aced7ac80397d2549e5ecbb13de235936"><td class="mdescLeft">&#160;</td><td class="mdescRight">LTK diversifier of this slave device. <br /></td></tr>
+<tr class="memdesc:aced7ac80397d2549e5ecbb13de235936"><td class="mdescLeft">&#160;</td><td class="mdescRight">LTK diversifier of this peripheral device. <br /></td></tr>
 <tr class="separator:aced7ac80397d2549e5ecbb13de235936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1147a1ab6ff4c36934461ca71d73bef"><td class="memItemLeft" ><a class="anchor" id="aa1147a1ab6ff4c36934461ca71d73bef"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__dev_8h.html#aa1147a1ab6ff4c36934461ca71d73bef">div</a></td></tr>
@@ -1625,10 +1625,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 <p>peer SRK </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a28e206c3cbbf749ddb7a17850e4680dca2cdf73b5dc57183d58512c87b56b0de2"></a>BTM_LE_KEY_LENC&#160;</td><td class="fielddoc">
-<p>master role security information:div </p>
+<p>Central Role security information:div. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a28e206c3cbbf749ddb7a17850e4680dca0845bba18d830dee7446f5ddef7e2810"></a>BTM_LE_KEY_LID&#160;</td><td class="fielddoc">
-<p>master device ID key </p>
+<p>Central device ID key. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a28e206c3cbbf749ddb7a17850e4680dcaec6dff50095a0eb91b60ecd8332363ce"></a>BTM_LE_KEY_LCSRK&#160;</td><td class="fielddoc">
 <p>local CSRK has been deliver to peer </p>
@@ -1908,7 +1908,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65af8f48bfceb6ce2d2b0f411c03e9aa249"></a>BTM_PAIRING_IO_CAPABILITIES_BLE_REQUEST_EVT&#160;</td><td class="fielddoc">
 <p>Requesting IO capabilities for BLE pairing. </p>
-<p>Slave can check peer io capabilities in event data before updating with local io capabilities. Event data: <a class="el" href="structwiced__bt__dev__ble__io__caps__req__t.html" title="BLE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_BLE_...">wiced_bt_dev_ble_io_caps_req_t</a> </p>
+<p>Peripheral can check peer io capabilities in event data before updating with local io capabilities. Event data: <a class="el" href="structwiced__bt__dev__ble__io__caps__req__t.html" title="BLE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_BLE_...">wiced_bt_dev_ble_io_caps_req_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a7e861203d374f29d924eca282b7e257b"></a>BTM_PAIRING_COMPLETE_EVT&#160;</td><td class="fielddoc">
 <p>received SIMPLE_PAIRING_COMPLETE event. </p>
@@ -2739,11 +2739,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 </div><div class="memdoc">
 
 <p>Function wiced_bt_dev_switch_role. </p>
-<p>This function is called to switch the role between master and slave. If role is already set it will do nothing. If the command was initiated, the callback function is called upon completion.</p>
+<p>This function is called to switch the role between central and peripheral. If role is already set it will do nothing. If the command was initiated, the callback function is called upon completion.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>: BD address of remote device </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">new_role</td><td>: New role (BTM_ROLE_MASTER or BTM_ROLE_SLAVE) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">new_role</td><td>: New role (BTM_ROLE_CENTRAL or BTM_ROLE_PERIPHERAL) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Result callback (<a class="el" href="structwiced__bt__dev__switch__role__result__t.html">wiced_bt_dev_switch_role_result_t</a> will be passed to the callback)</td></tr>
   </table>
   </dd>

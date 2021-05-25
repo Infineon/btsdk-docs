@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"group__wiced__bt__mesh__time__client.html#gaa307574cf2dba5cfad6814e67001e90b":[7,0,4,2,101,6],
+"group__wiced__bt__mesh__time__client.html#gad57b2a6f9bcaeddf7c23416f5b9a8a3d":[7,0,4,2,101,9],
 "group__wiced__bt__mesh__time__client.html#gaf1fe46876cffbe1989672b13d659923a":[7,0,4,2,101,5],
 "group__wiced__bt__mesh__time__server.html":[7,0,4,2,102],
 "group__wiced__bt__mesh__time__server.html#ga04641ad0ab9bd3b29603037895f9a34a":[7,0,4,2,102,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655ac2f2a7140c2d7c36a53008dd8bf32a37":[7,0,2,2,1,7,1],
 "group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655acf9920a6dd21885ce33ca97be7efd582":[7,0,2,2,1,7,0],
 "group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a45e72ec728d5d3de8df245db3977085a":[7,0,2,2,1,8,1],
-"group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a5cb8a54c77a36132be781ef968ddedf1":[7,0,2,2,1,8,0],
-"group__wicedbt__avrc__tg.html":[7,0,2,2,2],
-"group__wicedbt__bredr.html":[7,0,5,1]
+"group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a5cb8a54c77a36132be781ef968ddedf1":[7,0,2,2,1,8,0]
 };

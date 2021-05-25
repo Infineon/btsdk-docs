@@ -136,6 +136,7 @@ var searchData=
   ['previous_5fiv_5fidx',['previous_iv_idx',['../structwiced__bt__mesh__core__state__seq__t.html#aba7f7d2a080917a5958dc8dd70a68eef',1,'wiced_bt_mesh_core_state_seq_t']]],
   ['private_5fkey_5fused',['private_key_used',['../structwiced__bt__smp__sc__local__oob__t.html#af699f03a5bd7c51f26ab1a01dad6dee7',1,'wiced_bt_smp_sc_local_oob_t']]],
   ['product_5fid',['product_id',['../wiced__bt__mesh__cfg_8h.html#a215e5feaef08c77d8e9f17ab421e8a66',1,'wiced_bt_mesh_cfg.h']]],
+  ['productplanuid',['ProductPlanUID',['../group__wiced__bt__iap2__api__functions.html#gad84119349ceff609e17b0ab6f5bfd19a',1,'wiced_bt_iap2.h']]],
   ['prop_5fvalue_5flen',['prop_value_len',['../structwiced__bt__mesh__core__config__sensor__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_core_config_sensor_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__status__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_status_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__column__get__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_column_get_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__column__status__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_column_status_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__series__get__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_series_get_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__series__status__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_series_status_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__setting__set__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_setting_set_data_t::prop_value_len()'],['../structwiced__bt__mesh__sensor__cadence__set__data__t.html#af818d207fdadd1d42b3f6e34f43609bd',1,'wiced_bt_mesh_sensor_cadence_set_data_t::prop_value_len()']]],
   ['properties',['properties',['../wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3',1,'wiced_bt_mesh_cfg.h']]],
   ['properties_5fnum',['properties_num',['../structwiced__bt__mesh__properties__status__data__t.html#a33bd439954516567235fc257725b42f3',1,'wiced_bt_mesh_properties_status_data_t::properties_num()'],['../wiced__bt__mesh__cfg_8h.html#a33bd439954516567235fc257725b42f3',1,'properties_num():&#160;wiced_bt_mesh_cfg.h']]],
@@ -165,6 +166,5 @@ var searchData=
   ['pwm_5fconfig_5ft',['pwm_config_t',['../structpwm__config__t.html',1,'']]],
   ['pwmchannels',['PwmChannels',['../group__group__pwm__data__structures.html#ga110255581504f7511e2e4e43d06d8868',1,'wiced_hal_pwm.h']]],
   ['pwmclocktype',['PwmClockType',['../group__group__pwm__data__structures.html#gae6f1f44294b67f525ab35c3205cea26f',1,'wiced_hal_pwm.h']]],
-  ['pulse_20width_20modulation_20_28pwm_29',['Pulse Width Modulation (PWM)',['../group___pwm_driver.html',1,'']]],
-  ['power_20estimator_20_28cype_29',['Power Estimator (CyPE)',['../group__wpl.html',1,'']]]
+  ['pulse_20width_20modulation_20_28pwm_29',['Pulse Width Modulation (PWM)',['../group___pwm_driver.html',1,'']]]
 ];

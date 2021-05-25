@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group__wiced__bt__mesh__time__server.html#gae8f8ae85d110535c3d0b5278fca8df45":[7,0,4,2,102,3],
+"group__wiced__bt__spp__api__functions.html":[7,0,17],
 "group__wiced__bt__spp__api__functions.html#ga02b58d1fc649c861de5d05260f848b12":[7,0,17,13],
 "group__wiced__bt__spp__api__functions.html#ga254b2410dbd3d8c9037649489e6b8203":[7,0,17,2],
 "group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6":[7,0,17,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "structmesh__battery__event__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86":[7,0,4,2,0,0],
 "structmesh__battery__event__t.html#a3e901fd985daa36b7813eefdc5499018":[7,0,4,2,0,2],
 "structmesh__battery__event__t.html#a4033d2d4da842718b4f4abb7f3a6f5d5":[7,0,4,2,0,5],
-"structmesh__battery__event__t.html#a53b528b3e7b9e50a7af8b8880bcfa032":[7,0,4,2,0,6],
-"structmesh__battery__event__t.html#ae72554ff008ab0fdded369df877657b5":[7,0,4,2,0,4],
-"structmesh__battery__event__t.html#ae8ab857fadc83af7d7931c0874e1ab96":[7,0,4,2,0,1]
+"structmesh__battery__event__t.html#a53b528b3e7b9e50a7af8b8880bcfa032":[7,0,4,2,0,6]
 };

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -116,9 +116,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga575e3d625d0ae6ddae781a855ba538a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__adv.html#ga575e3d625d0ae6ddae781a855ba538a2">wiced_bt_ble_set_raw_scan_response_data</a> (uint8_t num_elem, <a class="el" href="structwiced__bt__ble__advert__elem__t.html">wiced_bt_ble_advert_elem_t</a> *p_data)</td></tr>
 <tr class="memdesc:ga575e3d625d0ae6ddae781a855ba538a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set raw scan response data.  <a href="#ga575e3d625d0ae6ddae781a855ba538a2">More...</a><br /></td></tr>
 <tr class="separator:ga575e3d625d0ae6ddae781a855ba538a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__adv.html#ga5edbbefb348b6ac757c7b98c5c7461ea">wiced_bt_ble_update_advertising_white_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, wiced_bt_device_address_t remote_bda)</td></tr>
-<tr class="memdesc:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add or remove a device to/from the advertising white list.  <a href="#ga5edbbefb348b6ac757c7b98c5c7461ea">More...</a><br /></td></tr>
-<tr class="separator:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga917ac9bd2a74a891802221c64292f107"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__adv.html#ga917ac9bd2a74a891802221c64292f107">wiced_bt_ble_update_advertising_filter_accept_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, wiced_bt_device_address_t remote_bda)</td></tr>
+<tr class="memdesc:ga917ac9bd2a74a891802221c64292f107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add or remove a device to/from the advertising Filter Accept List.  <a href="#ga917ac9bd2a74a891802221c64292f107">More...</a><br /></td></tr>
+<tr class="separator:ga917ac9bd2a74a891802221c64292f107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed7a2250e3d40e66a23167febfbbebd4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__adv.html#gaed7a2250e3d40e66a23167febfbbebd4">wiced_btm_ble_update_advertisement_filter_policy</a> (<a class="el" href="group__group__ble__enums.html#ga9f721100e521471e5a9cc5f9adcd92d4">wiced_bt_ble_advert_filter_policy_t</a> advertising_policy)</td></tr>
 <tr class="memdesc:gaed7a2250e3d40e66a23167febfbbebd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the filter policy when the local device is the advertiser.  <a href="#gaed7a2250e3d40e66a23167febfbbebd4">More...</a><br /></td></tr>
 <tr class="separator:gaed7a2250e3d40e66a23167febfbbebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,12 +337,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga5edbbefb348b6ac757c7b98c5c7461ea"></a>
+<a class="anchor" id="ga917ac9bd2a74a891802221c64292f107"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_bt_ble_update_advertising_white_list </td>
+          <td class="memname">wiced_bool_t wiced_bt_ble_update_advertising_filter_accept_list </td>
           <td>(</td>
           <td class="paramtype">wiced_bool_t&#160;</td>
           <td class="paramname"><em>add</em>, </td>
@@ -361,21 +361,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add or remove a device to/from the advertising white list. </p>
-<p>The purpose of this advertisement whitelist is to filter out connection requests and scan requests from other devices before bubbling them up to the application layer. After adding devices to the white list, the filter policy must be set using <a class="el" href="group__group__ble__functions__adv.html#gaed7a2250e3d40e66a23167febfbbebd4">wiced_btm_ble_update_advertisement_filter_policy</a>.</p>
+<p>Add or remove a device to/from the advertising Filter Accept List. </p>
+<p>The purpose of this advertisement Filter Accept List is to filter out connection requests and scan requests from other devices before bubbling them up to the application layer. After adding devices to the Filter Accept List, the filter policy must be set using <a class="el" href="group__group__ble__functions__adv.html#gaed7a2250e3d40e66a23167febfbbebd4">wiced_btm_ble_update_advertisement_filter_policy</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">add</td><td>WICED_TRUE==add, WICED_FALSE==remove </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>address of device to add/remove from white list</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>address of device to add/remove from Filter Accept List</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><ul>
 <li>WICED_TRUE indicates success</li>
-<li>WICED_FALSE indicates white list full or wrong ADV mode</li>
+<li>WICED_FALSE indicates Filter Accept List full or wrong ADV mode</li>
 </ul>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This API cannot be used while the white list is in use. If the device is currently advertising using the white list, disable it before using this API. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This API cannot be used while the Filter Accept List is in use. If the device is currently advertising using the Filter Accept List, disable it before using this API. </dd></dl>
 
 </div>
 </div>
@@ -457,14 +457,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates the filter policy when the local device is the advertiser. </p>
-<p>The purpose of this advertisement white list is to filter out connection requests and scan requests from other devices before bubbling them up to the application layer. Before enabling the advertisement white list, the white list must be populated using <a class="el" href="group__group__ble__functions__adv.html#ga5edbbefb348b6ac757c7b98c5c7461ea">wiced_bt_ble_update_advertising_white_list</a>.</p>
+<p>The purpose of this advertisement Filter Accept List is to filter out connection requests and scan requests from other devices before bubbling them up to the application layer. Before enabling the advertisement Filter Accept List, the Filter Accept List must be populated using <a class="el" href="group__group__ble__functions__adv.html#ga917ac9bd2a74a891802221c64292f107">wiced_bt_ble_update_advertising_filter_accept_list</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">clientCallback</td><td><a class="el" href="group__group__ble__enums.html#ga9f721100e521471e5a9cc5f9adcd92d4">wiced_bt_ble_advert_filter_policy_t</a><ul>
-<li>BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_ALL_SCAN_REQ</li>
-<li>BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_WHITELIST_SCAN_REQ</li>
-<li>BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_ALL_SCAN_REQ</li>
-<li>BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_WHITELIST_SCAN_REQ</li>
+<li>BTM_BLE_ADV_POLICY_ACCEPT_CONN_AND_SCAN</li>
+<li>BTM_BLE_ADV_POLICY_ACCEPT_CONN_FILTER_SCAN</li>
+<li>BTM_BLE_ADV_POLICY_FILTER_CONN_ACCEPT_SCAN</li>
+<li>BTM_BLE_ADV_POLICY_FILTER_CONN_FILTER_SCAN</li>
 </ul>
 </td></tr>
   </table>
@@ -475,7 +475,7 @@ Functions</h2></td></tr>
 <li>WICED_FALSE indicates feature not supported or wrong ADV mode</li>
 </ul>
 </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The element ble_white_list_size of the struct <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a> must be set to a positive value in order for this API to function. This config struct is to be passed at stack init (<a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>). </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The element ble_filter_accept_list_size of the struct <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a> must be set to a positive value in order for this API to function. This config struct is to be passed at stack init (<a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>). </dd></dl>
 
 </div>
 </div>

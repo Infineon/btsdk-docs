@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -149,9 +149,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6eeb45f539f1673ed8aee1acc8a62f12"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#ga6eeb45f539f1673ed8aee1acc8a62f12">wiced_bt_mesh_model_light_hsl_server_scene_recall_handler</a> (uint8_t element_idx, uint8_t *p_buffer, uint16_t buffer_len, uint32_t transition_time, uint32_t delay)</td></tr>
 <tr class="memdesc:ga6eeb45f539f1673ed8aee1acc8a62f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Light HSL Server Scene Recall Handler.  <a href="#ga6eeb45f539f1673ed8aee1acc8a62f12">More...</a><br /></td></tr>
 <tr class="separator:ga6eeb45f539f1673ed8aee1acc8a62f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad0afa867c0f33529c833182bc37d6855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gad0afa867c0f33529c833182bc37d6855">wiced_bt_mesh_model_light_hsl_server_set_startup_master</a> (uint8_t element_idx, wiced_bool_t startup_master)</td></tr>
-<tr class="memdesc:gad0afa867c0f33529c833182bc37d6855"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Light HSL Model as a startup master.  <a href="#gad0afa867c0f33529c833182bc37d6855">More...</a><br /></td></tr>
-<tr class="separator:gad0afa867c0f33529c833182bc37d6855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5861bbeb29fa4fb2985d60baab45dbe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#ga5861bbeb29fa4fb2985d60baab45dbe2">wiced_bt_mesh_model_light_hsl_server_set_startup_controller</a> (uint8_t element_idx, wiced_bool_t startup_controller)</td></tr>
+<tr class="memdesc:ga5861bbeb29fa4fb2985d60baab45dbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Light HSL Model as a startup controller.  <a href="#ga5861bbeb29fa4fb2985d60baab45dbe2">More...</a><br /></td></tr>
+<tr class="separator:ga5861bbeb29fa4fb2985d60baab45dbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>The WICED Mesh Hue Saturation Lightness (HSL) Server module provides a way for an application to implement a dimmable light device with hue/saturation support. </p>
@@ -160,8 +160,8 @@ Functions</h2></td></tr>
 <p>In addition to the definition, the application shall initialize the HSL Server module by calling <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#ga3bc33dafd57f3d1f0f907e0234374dc5">wiced_bt_mesh_model_light_hsl_server_init</a> function for each primary element where the HSL functionality is required providing the <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gaca62061f62c0221672b88d0f8e065da2">wiced_bt_mesh_light_hsl_server_callback_t</a> callback that will be executed when the brightness level, the hue or the saturation of the device needs to be changed.</p>
 <p>If device supports local control, for example, when the brightness of the device can be changed locally, the application should call the wiced_bt_mesh_model_light_hsl_status_changed function so that the library can maintain correct state and send an appropriate status message if it is configured to do so.</p>
 <p>Most of the functionality of the Light HSL server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#ab5606452893f6bbf4bb891630369cb25">WICED_BT_MESH_LIGHT_HSL_SET</a> event. If a client requests to change the brightness or the color to the target values over a period of time, the library will maintain the timer and will periodically call the application with appropriate values.</p>
-<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
-<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga8e8e1b808adc7a77b90b172b2643799f">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
+<p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
+<p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga9886cc05eab91cf96e4b4d542b4aa45c"></a>
 <div class="memitem">
@@ -548,12 +548,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gad0afa867c0f33529c833182bc37d6855"></a>
+<a class="anchor" id="ga5861bbeb29fa4fb2985d60baab45dbe2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void wiced_bt_mesh_model_light_hsl_server_set_startup_master </td>
+          <td class="memname">void wiced_bt_mesh_model_light_hsl_server_set_startup_controller </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>element_idx</em>, </td>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">wiced_bool_t&#160;</td>
-          <td class="paramname"><em>startup_master</em>&#160;</td>
+          <td class="paramname"><em>startup_controller</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -572,12 +572,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set Light HSL Model as a startup master. </p>
-<p>This is an internal Mesh Models library function and does not need to be implemented or called by the application, unless application wants to replace the library functionality. For multi-model applications, for example the ones that support both HSL and CTL controls, only one can be setup as a startup master. If the master mode is set, the library will execute the power on requirements, for example it can set the lightness/hue/saturation based on the last state before the power off. If the model is not set as a master, it will not execute on power up state.</p>
+<p>Set Light HSL Model as a startup controller. </p>
+<p>This is an internal Mesh Models library function and does not need to be implemented or called by the application, unless application wants to replace the library functionality. For multi-model applications, for example the ones that support both HSL and CTL controls, only one can be setup as a startup controller. If the controller mode is set, the library will execute the power on requirements, for example it can set the lightness/hue/saturation based on the last state before the power off. If the model is not set as a controller, it will not execute on power up state.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">element_idx</td><td>The element index of the top level model </td></tr>
-    <tr><td class="paramname">startup_master</td><td>If set to WICED_TRUE, the model will execute on power up operation</td></tr>
+    <tr><td class="paramname">startup_controller</td><td>If set to WICED_TRUE, the model will execute on power up operation</td></tr>
   </table>
   </dd>
 </dl>

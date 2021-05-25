@@ -1,5 +1,11 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__hrs__handles__t.html#a30cfcf503497984749cd11c38f56ae8a":[7,0,9,0,0],
+"structwiced__bt__hrs__handles__t.html#a39cce0358f4f4988ac97b1e9f078cfc7":[7,0,9,0,2],
+"structwiced__bt__hrs__handles__t.html#a900b69af7d674b8db3bceae754b4955a":[7,0,9,0,3],
+"structwiced__bt__hrs__notification__data__t.html":[7,0,9,4],
+"structwiced__bt__hrs__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43":[7,0,9,4,1],
+"structwiced__bt__hrs__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4":[7,0,9,4,2],
 "structwiced__bt__hrs__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40":[7,0,9,4,0],
 "structwiced__bt__hrs__notification__disabled__t.html":[7,0,9,2],
 "structwiced__bt__hrs__notification__disabled__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,0,9,2,0],
@@ -209,7 +215,7 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f":[7,0,4,1,19,12],
 "structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47":[7,0,4,1,19,13],
 "structwiced__bt__mesh__event____t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e":[7,0,4,1,19,5],
-"structwiced__bt__mesh__event____t.html#a78a2f6d43ce0639168275d5bac8cac9b":[7,0,4,1,19,20],
+"structwiced__bt__mesh__event____t.html#a767c480c0db6bcbe287c6042be3d356b":[7,0,4,1,19,20],
 "structwiced__bt__mesh__event____t.html#a890a5f699e1821d80b4cd8a10ae45a2d":[7,0,4,1,19,15],
 "structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,0,4,1,19,23],
 "structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49":[7,0,4,1,19,14],
@@ -243,11 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__light__ctl__data__t.html#a968eb4438426da63f07e28bfa3578bda":[7,0,4,2,31,1],
 "structwiced__bt__mesh__light__ctl__data__t.html#aa89cdf6c8632f721c3033cc5904e8087":[7,0,4,2,31,0],
 "structwiced__bt__mesh__light__ctl__default__data__t.html":[7,0,4,2,35],
-"structwiced__bt__mesh__light__ctl__default__data__t.html#a025b245a42d698d3b5a0bbb01f6dd2a1":[7,0,4,2,35,0],
-"structwiced__bt__mesh__light__ctl__set__t.html":[7,0,4,2,33],
-"structwiced__bt__mesh__light__ctl__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,0,4,2,33,2],
-"structwiced__bt__mesh__light__ctl__set__t.html#a70cca36b6f723c28e65089bff78138a2":[7,0,4,2,33,1],
-"structwiced__bt__mesh__light__ctl__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,0,4,2,33,0],
-"structwiced__bt__mesh__light__ctl__status__data__t.html":[7,0,4,2,32],
-"structwiced__bt__mesh__light__ctl__status__data__t.html#a70cca36b6f723c28e65089bff78138a2":[7,0,4,2,32,2]
+"structwiced__bt__mesh__light__ctl__default__data__t.html#a025b245a42d698d3b5a0bbb01f6dd2a1":[7,0,4,2,35,0]
 };

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -108,6 +108,8 @@ $(document).ready(function(){initNavTree('group__group__wiced__firmware__upgrade
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__fw__upgrade__nv__loc__len__t.html">wiced_fw_upgrade_nv_loc_len_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__application__id__t.html">wiced_bt_application_id_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -132,6 +134,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0503e75b0d97d7b7b00940cfa472861a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__wiced__firmware__upgrade.html#ga0503e75b0d97d7b7b00940cfa472861a">wiced_firmware_upgrade_finish</a> (void)</td></tr>
 <tr class="memdesc:ga0503e75b0d97d7b7b00940cfa472861a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a memory chunk from memory.  <a href="#ga0503e75b0d97d7b7b00940cfa472861a">More...</a><br /></td></tr>
 <tr class="separator:ga0503e75b0d97d7b7b00940cfa472861a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga727cb6e7242599b5958a1840b63ceb44"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__wiced__firmware__upgrade.html#ga727cb6e7242599b5958a1840b63ceb44">wiced_get_current_app_id_and_version</a> (<a class="el" href="structwiced__bt__application__id__t.html">wiced_bt_application_id_t</a> *app_id_and_version)</td></tr>
+<tr class="memdesc:ga727cb6e7242599b5958a1840b63ceb44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves application version information from nvram.  <a href="#ga727cb6e7242599b5958a1840b63ceb44">More...</a><br /></td></tr>
+<tr class="separator:ga727cb6e7242599b5958a1840b63ceb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -292,6 +297,25 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ga727cb6e7242599b5958a1840b63ceb44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_get_current_app_id_and_version </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structwiced__bt__application__id__t.html">wiced_bt_application_id_t</a> *&#160;</td>
+          <td class="paramname"><em>app_id_and_version</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves application version information from nvram. </p>
+<p>The application calls this function to retrieve the appplication id and version to compare with the downloaded image. </p>
 
 </div>
 </div>

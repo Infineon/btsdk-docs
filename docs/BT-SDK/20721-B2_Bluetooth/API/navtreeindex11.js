@@ -1,5 +1,11 @@
 var NAVTREEINDEX11 =
 {
+"structwiced__bt__mesh__provision__capabilities__data__t.html#ac9c087c55abf46b46ece74370ca39d42":[7,0,4,3,18,4],
+"structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e":[7,0,4,3,18,2],
+"structwiced__bt__mesh__provision__connect__data__t.html":[7,0,4,3,14],
+"structwiced__bt__mesh__provision__connect__data__t.html#a55fdff5eb435c150ffdb70a5c95edeb3":[7,0,4,3,14,2],
+"structwiced__bt__mesh__provision__connect__data__t.html#a9e9f508693ebfeac11721621b59a5620":[7,0,4,3,14,0],
+"structwiced__bt__mesh__provision__connect__data__t.html#abcf631596d63fef2dd8d6710a57601a9":[7,0,4,3,14,1],
 "structwiced__bt__mesh__provision__device__capabilities__data__t.html":[7,0,4,3,20],
 "structwiced__bt__mesh__provision__device__capabilities__data__t.html#a120cd573c407780952f0fe08fc5ddfba":[7,0,4,3,20,3],
 "structwiced__bt__mesh__provision__device__capabilities__data__t.html#a95f298b809c97e2d93d2b1900a01b3cc":[7,0,4,3,20,5],

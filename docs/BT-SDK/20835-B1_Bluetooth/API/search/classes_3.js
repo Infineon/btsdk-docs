@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sdp_5finfo',['sdp_info',['../structsdp__info.html',1,'']]],
-  ['sha2_5fcontext',['sha2_context',['../structsha2__context.html',1,'']]]
+  ['pwm_5fconfig_5ft',['pwm_config_t',['../structpwm__config__t.html',1,'']]]
 ];

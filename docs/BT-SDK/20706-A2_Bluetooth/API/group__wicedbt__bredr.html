@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -167,9 +167,6 @@ Functions</h2></td></tr>
 <tr class="memitem:gafea954a02935ce3dfa5409ff40e25ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#gafea954a02935ce3dfa5409ff40e25ae3">wiced_bt_dev_read_rssi</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, <a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
 <tr class="memdesc:gafea954a02935ce3dfa5409ff40e25ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_read_rssi.  <a href="#gafea954a02935ce3dfa5409ff40e25ae3">More...</a><br /></td></tr>
 <tr class="separator:gafea954a02935ce3dfa5409ff40e25ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga48a580210a970a52c39fca816ccfd0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga48a580210a970a52c39fca816ccfd0d7">wiced_bt_dev_read_tx_power</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, <a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:ga48a580210a970a52c39fca816ccfd0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_read_tx_power.  <a href="#ga48a580210a970a52c39fca816ccfd0d7">More...</a><br /></td></tr>
-<tr class="separator:ga48a580210a970a52c39fca816ccfd0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga08b1a111be46bb1341db8329a98ba2c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga08b1a111be46bb1341db8329a98ba2c2">wiced_bt_dev_write_eir</a> (uint8_t *p_buff, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga08b1a111be46bb1341db8329a98ba2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_write_eir.  <a href="#ga08b1a111be46bb1341db8329a98ba2c2">More...</a><br /></td></tr>
 <tr class="separator:ga08b1a111be46bb1341db8329a98ba2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,53 +280,6 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: BD address of connection to read rssi </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>: Transport type </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Result callback (<a class="el" href="structwiced__bt__dev__rssi__result__t.html" title="RSSI Result (in response to wiced_bt_dev_read_rssi) ">wiced_bt_dev_rssi_result_t</a> will be passed to the callback)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><pre class="fragment">             WICED_BT_PENDING if command issued to controller.
-             WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command
-             WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified
-             WICED_BT_BUSY if command is already in progress</pre> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga48a580210a970a52c39fca816ccfd0d7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_read_tx_power </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
-          <td class="paramname"><em>remote_bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a>&#160;</td>
-          <td class="paramname"><em>transport</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function wiced_bt_dev_read_tx_power. </p>
-<p>Read the transmit power for the requested link</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: BD address of connection to read tx power </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>: Transport type </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Result callback (<a class="el" href="structwiced__bt__tx__power__result__t.html" title="TX Power Result (in response to wiced_bt_dev_read_tx_power) ">wiced_bt_tx_power_result_t</a> will be passed to the callback)</td></tr>
   </table>
   </dd>
 </dl>

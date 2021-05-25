@@ -31,10 +31,10 @@ var group__group__ble__enums =
       [ "BTM_BLE_ADVERT_CHNL_39", "group__group__ble__enums.html#gga59d79284e51421afdfc5e9c472adb49ba10bc047ce18009fdbfa65af43646757e", null ]
     ] ],
     [ "wiced_bt_ble_advert_filter_policy_e", "group__group__ble__enums.html#gae169c3a016dc0a8d0df604dda69c3249", [
-      [ "BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_ALL_SCAN_REQ", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249a68507601a1554b3a54ded1243b23dab4", null ],
-      [ "BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_WHITELIST_SCAN_REQ", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249ac8b8938ce2d7791caa7fa8723d190362", null ],
-      [ "BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_ALL_SCAN_REQ", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249aa0cbe7b66090ec34a34b61ff24546ba8", null ],
-      [ "BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_WHITELIST_SCAN_REQ", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249a33abfc543d1750b61aff6eb8b56791ff", null ]
+      [ "BTM_BLE_ADV_POLICY_ACCEPT_CONN_AND_SCAN", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249add3f372f36bceae2e1ed91477cc3ab26", null ],
+      [ "BTM_BLE_ADV_POLICY_ACCEPT_CONN_FILTER_SCAN", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249ac0e52ecefb1c278fb1f3593372f7d856", null ],
+      [ "BTM_BLE_ADV_POLICY_FILTER_CONN_ACCEPT_SCAN", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249a578c2b2899548a93be78affbc103381c", null ],
+      [ "BTM_BLE_ADV_POLICY_FILTER_CONN_FILTER_SCAN", "group__group__ble__enums.html#ggae169c3a016dc0a8d0df604dda69c3249a76163ce8b16f5e4701377735e4cff1b0", null ]
     ] ],
     [ "wiced_bt_ble_advert_type_e", "group__group__ble__enums.html#ga4e721fb996eccc386b0311f022675eb2", [
       [ "BTM_BLE_ADVERT_TYPE_FLAG", "group__group__ble__enums.html#gga4e721fb996eccc386b0311f022675eb2a491857f3bcd066df873f69d706b18dd1", null ],
@@ -96,9 +96,9 @@ var group__group__ble__enums =
       [ "BTM_BLE_PREFER_CODED_512K", "group__group__ble__enums.html#ggae468b0b3519748c44fb20c3c7c6a61fca9daa86a5e89fcb4305e5c8463b5f2a57", null ]
     ] ],
     [ "wiced_bt_ble_multi_advert_filtering_policy_e", "group__group__ble__enums.html#ga1ec420c6d0f772c040c47950fe990751", [
-      [ "MULTI_ADVERT_FILTER_POLICY_WHITE_LIST_NOT_USED", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751a93eaa4b0e79802c53cbda56ae22dbaee", null ],
-      [ "MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751a387f4724f47aa445ecbbf84783ab7556", null ],
-      [ "MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751a9c0d539ec6bfdb4a5208752b15f59650", null ]
+      [ "MULTI_ADVERT_FILTER_POLICY_FILTER_ACCEPT_LIST_NOT_USED", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751a2236f3dd81bb4b74f40b8e03f5e6045c", null ],
+      [ "MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751a129a6e35e9435a832f0e687b1b9bcee6", null ],
+      [ "MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING", "group__group__ble__enums.html#gga1ec420c6d0f772c040c47950fe990751ab85f7bb397411106a68c1aabfb221bd8", null ]
     ] ],
     [ "wiced_bt_ble_multi_advert_start_e", "group__group__ble__enums.html#ga34b1a331548bbc1c737be17e96c862a6", [
       [ "MULTI_ADVERT_STOP", "group__group__ble__enums.html#gga34b1a331548bbc1c737be17e96c862a6aa628e6c0561dc9d890f0570047dcb64c", null ],
@@ -121,10 +121,10 @@ var group__group__ble__enums =
       [ "BTM_BLE_SCAN_MODE_NONE", "group__group__ble__enums.html#gga363c245dbaa273d5d2a3df18f7f24c64a985d759e30d319e92097e77dacc7d4fb", null ]
     ] ],
     [ "wiced_bt_ble_scanner_filter_policy_e", "group__group__ble__enums.html#gab38fa8e6fee21aa2f6f1aa9dd1194516", [
-      [ "BTM_BLE_SCANNER_FILTER_ALL_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516aab484a0e2506ee020d4ffe5a7461f1b9", null ],
-      [ "BTM_BLE_SCANNER_FILTER_WHITELIST_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516a946802bef47260c652bebe6dda5ef6c2", null ],
-      [ "BTM_BLE_SCANNER_FILTER_ALL_RPA_DIR_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516a0b539d34476da7ae11693e54ba6a40ce", null ],
-      [ "BTM_BLE_SCANNER_FILTER_WHITELIST_RPA_DIR_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516ad512719a9b467797d7630c19155d4725", null ]
+      [ "BTM_BLE_SCAN_POLICY_ACCEPT_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516abb80bf34eb7dbc5843e3a063fa13ce95", null ],
+      [ "BTM_BLE_SCAN_POLICY_FILTER_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516aaaa07f1c9e02a01a404735aa7e3dc323", null ],
+      [ "BTM_BLE_SCAN_POLICY_ACCEPT_RPA_DIR_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516aa037daa4cbd1e13dd3c02a1681409eeb", null ],
+      [ "BTM_BLE_SCAN_POLICY_FILTER_RPA_DIR_ADV_RSP", "group__group__ble__enums.html#ggab38fa8e6fee21aa2f6f1aa9dd1194516a88f79a07e8743245b76157d562c83b2e", null ]
     ] ],
     [ "wiced_bt_ble_sec_flags_e", "group__group__ble__enums.html#ga43bc963a74ea1613ba9951538a059838", [
       [ "BTM_SEC_LE_LINK_ENCRYPTED", "group__group__ble__enums.html#gga43bc963a74ea1613ba9951538a059838a0af547277a7a845c7087a87d77880801", null ],

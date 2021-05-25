@@ -1,7 +1,6 @@
 var searchData=
 [
   ['wiced_5fblock_5fdevice_2eh',['wiced_block_device.h',['../wiced__block__device_8h.html',1,'']]],
-  ['wiced_5fbt_5fa2dp_5fsink_2eh',['wiced_bt_a2dp_sink.h',['../wiced__bt__a2dp__sink_8h.html',1,'']]],
   ['wiced_5fbt_5fanc_2eh',['wiced_bt_anc.h',['../wiced__bt__anc_8h.html',1,'']]],
   ['wiced_5fbt_5fanp_2eh',['wiced_bt_anp.h',['../wiced__bt__anp_8h.html',1,'']]],
   ['wiced_5fbt_5fans_2eh',['wiced_bt_ans.h',['../wiced__bt__ans_8h.html',1,'']]],
@@ -19,8 +18,6 @@ var searchData=
   ['wiced_5fbt_5fgatt_2eh',['wiced_bt_gatt.h',['../wiced__bt__gatt_8h.html',1,'']]],
   ['wiced_5fbt_5fgatt_5futil_2eh',['wiced_bt_gatt_util.h',['../wiced__bt__gatt__util_8h.html',1,'']]],
   ['wiced_5fbt_5fhci_5ffirmware_5fupgrade_2eh',['wiced_bt_hci_firmware_upgrade.h',['../wiced__bt__hci__firmware__upgrade_8h.html',1,'']]],
-  ['wiced_5fbt_5fhfp_5fhf_2eh',['wiced_bt_hfp_hf.h',['../wiced__bt__hfp__hf_8h.html',1,'']]],
-  ['wiced_5fbt_5fhfp_5fhf_5fint_2eh',['wiced_bt_hfp_hf_int.h',['../wiced__bt__hfp__hf__int_8h.html',1,'']]],
   ['wiced_5fbt_5fhidd_2eh',['wiced_bt_hidd.h',['../wiced__bt__hidd_8h.html',1,'']]],
   ['wiced_5fbt_5fhrc_2eh',['wiced_bt_hrc.h',['../wiced__bt__hrc_8h.html',1,'']]],
   ['wiced_5fbt_5fhrp_2eh',['wiced_bt_hrp.h',['../wiced__bt__hrp_8h.html',1,'']]],

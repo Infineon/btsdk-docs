@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v2.9 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -138,7 +138,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_DEFAULT_ADVERT_CHNL_MAP</b>&#160;&#160;&#160;(<a class="el" href="wiced__bt__ble_8h.html#a59d79284e51421afdfc5e9c472adb49baf0b671f9a97f2bc6b7f29c2ddf923241">BTM_BLE_ADVERT_CHNL_37</a>| <a class="el" href="wiced__bt__ble_8h.html#a59d79284e51421afdfc5e9c472adb49ba1dbf5bed2da5097c1336d2ace2613d82">BTM_BLE_ADVERT_CHNL_38</a>| <a class="el" href="wiced__bt__ble_8h.html#a59d79284e51421afdfc5e9c472adb49ba10bc047ce18009fdbfa65af43646757e">BTM_BLE_ADVERT_CHNL_39</a>)</td></tr>
 <tr class="separator:a502320b4a85ebeee1cd6d37d6b6d1048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04092369c221d51efca136b1e5fcaa54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04092369c221d51efca136b1e5fcaa54"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_ADVERT_FILTER_DEFAULT</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249a68507601a1554b3a54ded1243b23dab4">BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_ALL_SCAN_REQ</a></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_ADVERT_FILTER_DEFAULT</b>&#160;&#160;&#160;<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249add3f372f36bceae2e1ed91477cc3ab26">BTM_BLE_ADV_POLICY_ACCEPT_CONN_AND_SCAN</a></td></tr>
 <tr class="separator:a04092369c221d51efca136b1e5fcaa54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a895ddc113bdc88d9936c727e28094d38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a895ddc113bdc88d9936c727e28094d38"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_ADVERT_INTERVAL_MIN</b>&#160;&#160;&#160;0x0020</td></tr>
@@ -203,9 +203,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aea1a6b8149b4944c13b9dc9817a087f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1a6b8149b4944c13b9dc9817a087f5"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_CONN_INTERVAL_MAX_DEF</b>&#160;&#160;&#160;40      /* recommended max: 50 ms = 56 * 1.25 */</td></tr>
 <tr class="separator:aea1a6b8149b4944c13b9dc9817a087f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e78f5f942bdf12b4bbfcc26dbde2c45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e78f5f942bdf12b4bbfcc26dbde2c45"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_CONN_SLAVE_LATENCY_DEF</b>&#160;&#160;&#160;0      /* 0 */</td></tr>
-<tr class="separator:a6e78f5f942bdf12b4bbfcc26dbde2c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01724e6a7493c8ea5fd268cf9a3e5de1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01724e6a7493c8ea5fd268cf9a3e5de1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_CONN_PERIPHERAL_LATENCY_DEF</b>&#160;&#160;&#160;0      /* 0 */</td></tr>
+<tr class="separator:a01724e6a7493c8ea5fd268cf9a3e5de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a795beb1024b87fe34c272e7d20311c1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a795beb1024b87fe34c272e7d20311c1e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_CONN_TIMEOUT_DEF</b>&#160;&#160;&#160;2000</td></tr>
 <tr class="separator:a795beb1024b87fe34c272e7d20311c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,18 +221,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a649e36b7823dc944550a5a2341d27878"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a649e36b7823dc944550a5a2341d27878">BTM_BLE_AUTH_SIGNATURE_SIZE</a>&#160;&#160;&#160;12</td></tr>
 <tr class="memdesc:a649e36b7823dc944550a5a2341d27878"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE Signature.  <a href="#a649e36b7823dc944550a5a2341d27878">More...</a><br /></td></tr>
 <tr class="separator:a649e36b7823dc944550a5a2341d27878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a622a65b544c811f806eac51dcb58c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a622a65b544c811f806eac51dcb58c9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_BLACK_ALL</b>&#160;&#160;&#160;0x00    /* relevant to both */</td></tr>
-<tr class="separator:a9a622a65b544c811f806eac51dcb58c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3661370533c7a2b08cc95626084bb5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3661370533c7a2b08cc95626084bb5a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_REJECT_ALL</b>&#160;&#160;&#160;0x00    /* relevant to both */</td></tr>
+<tr class="separator:aa3661370533c7a2b08cc95626084bb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ec34d67a059441e4d6c5410346d47f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2ec34d67a059441e4d6c5410346d47f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_ALLOW_SCAN</b>&#160;&#160;&#160;0x01    /* relevant to advertiser */</td></tr>
 <tr class="separator:ad2ec34d67a059441e4d6c5410346d47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74afed208bbe3506c1f0f0e668c4050b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74afed208bbe3506c1f0f0e668c4050b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_ALLOW_CONN</b>&#160;&#160;&#160;0x02    /* relevant to advertiser */</td></tr>
 <tr class="separator:a74afed208bbe3506c1f0f0e668c4050b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac074b90e2c284eced630e3414a700565"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac074b90e2c284eced630e3414a700565"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_WHITE_ALL</b>&#160;&#160;&#160;0x03    /* relevant to both */</td></tr>
-<tr class="separator:ac074b90e2c284eced630e3414a700565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23acf9340b586b9538a64acace85c2b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23acf9340b586b9538a64acace85c2b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_POLICY_ALLOW_ALL</b>&#160;&#160;&#160;0x03    /* relevant to both */</td></tr>
+<tr class="separator:a23acf9340b586b9538a64acace85c2b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab20d056f3428f5778449830c448fb342"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab20d056f3428f5778449830c448fb342"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_BLE_LIMITED_DISCOVERABLE_FLAG</b>&#160;&#160;&#160;(0x01 &lt;&lt; 0)</td></tr>
 <tr class="separator:ab20d056f3428f5778449830c448fb342"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,12 +375,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a363c245dbaa273d5d2a3df18f7f24c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab38fa8e6fee21aa2f6f1aa9dd1194516"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab38fa8e6fee21aa2f6f1aa9dd1194516"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#ab38fa8e6fee21aa2f6f1aa9dd1194516">wiced_bt_ble_scanner_filter_policy_e</a> { <br />
-&#160;&#160;<b>BTM_BLE_SCANNER_FILTER_ALL_ADV_RSP</b>, 
-<b>BTM_BLE_SCANNER_FILTER_WHITELIST_ADV_RSP</b>, 
-<b>BTM_BLE_SCANNER_FILTER_ALL_RPA_DIR_ADV_RSP</b>, 
-<b>BTM_BLE_SCANNER_FILTER_WHITELIST_RPA_DIR_ADV_RSP</b>, 
+&#160;&#160;<b>BTM_BLE_SCAN_POLICY_ACCEPT_ADV_RSP</b>, 
+<b>BTM_BLE_SCAN_POLICY_FILTER_ADV_RSP</b>, 
+<b>BTM_BLE_SCAN_POLICY_ACCEPT_RPA_DIR_ADV_RSP</b>, 
+<b>BTM_BLE_SCAN_POLICY_FILTER_RPA_DIR_ADV_RSP</b>, 
 <br />
-&#160;&#160;<b>BTM_BLE_SCANNER_FILTER_MAX</b>
+&#160;&#160;<b>BTM_BLE_SCAN_POLICY_MAX</b>
 <br />
  }</td></tr>
 <tr class="memdesc:ab38fa8e6fee21aa2f6f1aa9dd1194516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scanner filter policy. <br /></td></tr>
@@ -396,12 +396,12 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:a59d79284e51421afdfc5e9c472adb49b"><td class="mdescLeft">&#160;</td><td class="mdescRight">advertising channel map  <a href="wiced__bt__ble_8h.html#a59d79284e51421afdfc5e9c472adb49b">More...</a><br /></td></tr>
 <tr class="separator:a59d79284e51421afdfc5e9c472adb49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae169c3a016dc0a8d0df604dda69c3249"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249">wiced_bt_ble_advert_filter_policy_e</a> { <br />
-&#160;&#160;<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249a68507601a1554b3a54ded1243b23dab4">BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_ALL_SCAN_REQ</a> = 0x00, 
-<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249ac8b8938ce2d7791caa7fa8723d190362">BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_WHITELIST_SCAN_REQ</a> = 0x01, 
-<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249aa0cbe7b66090ec34a34b61ff24546ba8">BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_ALL_SCAN_REQ</a> = 0x02, 
-<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249a33abfc543d1750b61aff6eb8b56791ff">BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_WHITELIST_SCAN_REQ</a> = 0x03, 
+&#160;&#160;<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249add3f372f36bceae2e1ed91477cc3ab26">BTM_BLE_ADV_POLICY_ACCEPT_CONN_AND_SCAN</a> = 0x00, 
+<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249ac0e52ecefb1c278fb1f3593372f7d856">BTM_BLE_ADV_POLICY_ACCEPT_CONN_FILTER_SCAN</a> = 0x01, 
+<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249a578c2b2899548a93be78affbc103381c">BTM_BLE_ADV_POLICY_FILTER_CONN_ACCEPT_SCAN</a> = 0x02, 
+<a class="el" href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249a76163ce8b16f5e4701377735e4cff1b0">BTM_BLE_ADV_POLICY_FILTER_CONN_FILTER_SCAN</a> = 0x03, 
 <br />
-&#160;&#160;<b>BTM_BLE_ADVERT_FILTER_MAX</b>
+&#160;&#160;<b>BTM_BLE_ADV_POLICY_MAX</b>
 <br />
  }</td></tr>
 <tr class="memdesc:ae169c3a016dc0a8d0df604dda69c3249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advertising filter policy.  <a href="wiced__bt__ble_8h.html#ae169c3a016dc0a8d0df604dda69c3249">More...</a><br /></td></tr>
@@ -506,10 +506,10 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a4f8d298fc8c52ee7b5c7153a4d73ac80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-advertisement type. <br /></td></tr>
 <tr class="separator:a4f8d298fc8c52ee7b5c7153a4d73ac80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec420c6d0f772c040c47950fe990751"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751">wiced_bt_ble_multi_advert_filtering_policy_e</a> { <a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751a93eaa4b0e79802c53cbda56ae22dbaee">MULTI_ADVERT_FILTER_POLICY_WHITE_LIST_NOT_USED</a> = 0x00, 
-<a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751a387f4724f47aa445ecbbf84783ab7556">MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION</a> = 0x01, 
-<a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751a9c0d539ec6bfdb4a5208752b15f59650">MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING</a> = 0x02, 
-<b>MULTI_ADVERT_FILTER_POLICY_WHITE_LIST_USED_FOR_ALL</b> = 0x03
+<tr class="memitem:a1ec420c6d0f772c040c47950fe990751"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751">wiced_bt_ble_multi_advert_filtering_policy_e</a> { <a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751a2236f3dd81bb4b74f40b8e03f5e6045c">MULTI_ADVERT_FILTER_POLICY_FILTER_ACCEPT_LIST_NOT_USED</a> = 0x00, 
+<a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751a129a6e35e9435a832f0e687b1b9bcee6">MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION</a> = 0x01, 
+<a class="el" href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751ab85f7bb397411106a68c1aabfb221bd8">MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING</a> = 0x02, 
+<b>MULTI_ADVERT_FILTER_POLICY_FILTER_ACCEPT_LIST_USED_FOR_ALL</b> = 0x03
  }</td></tr>
 <tr class="memdesc:a1ec420c6d0f772c040c47950fe990751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-advertisement Filtering policy.  <a href="wiced__bt__ble_8h.html#a1ec420c6d0f772c040c47950fe990751">More...</a><br /></td></tr>
 <tr class="separator:a1ec420c6d0f772c040c47950fe990751"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -562,24 +562,24 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa3a12d9312cb8bac5e7eb7033aedda8c"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gaa3a12d9312cb8bac5e7eb7033aedda8c">wiced_bt_ble_get_security_state</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t *p_le_sec_flags, uint8_t *p_le_key_size)</td></tr>
 <tr class="memdesc:gaa3a12d9312cb8bac5e7eb7033aedda8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_get_security_state.  <a href="group__btm__ble__api__functions.html#gaa3a12d9312cb8bac5e7eb7033aedda8c">More...</a><br /></td></tr>
 <tr class="separator:gaa3a12d9312cb8bac5e7eb7033aedda8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga5edbbefb348b6ac757c7b98c5c7461ea">wiced_bt_ble_update_advertising_white_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda)</td></tr>
-<tr class="memdesc:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_update_advertising_white_list.  <a href="group__btm__ble__api__functions.html#ga5edbbefb348b6ac757c7b98c5c7461ea">More...</a><br /></td></tr>
-<tr class="separator:ga5edbbefb348b6ac757c7b98c5c7461ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga917ac9bd2a74a891802221c64292f107"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga917ac9bd2a74a891802221c64292f107">wiced_bt_ble_update_advertising_filter_accept_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda)</td></tr>
+<tr class="memdesc:ga917ac9bd2a74a891802221c64292f107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_update_advertising_filter_accept_list.  <a href="group__btm__ble__api__functions.html#ga917ac9bd2a74a891802221c64292f107">More...</a><br /></td></tr>
+<tr class="separator:ga917ac9bd2a74a891802221c64292f107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed7a2250e3d40e66a23167febfbbebd4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4">wiced_btm_ble_update_advertisement_filter_policy</a> (<a class="el" href="wiced__bt__ble_8h.html#a9f721100e521471e5a9cc5f9adcd92d4">wiced_bt_ble_advert_filter_policy_t</a> advertising_policy)</td></tr>
 <tr class="memdesc:gaed7a2250e3d40e66a23167febfbbebd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_btm_ble_update_advertisement_filter_policy.  <a href="group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4">More...</a><br /></td></tr>
 <tr class="separator:gaed7a2250e3d40e66a23167febfbbebd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gabdb60d361b6a6527e0f02bfb4cd61138">wiced_bt_ble_update_scanner_white_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#a97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> addr_type)</td></tr>
-<tr class="memdesc:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_update_scanner_white_list.  <a href="group__btm__ble__api__functions.html#gabdb60d361b6a6527e0f02bfb4cd61138">More...</a><br /></td></tr>
-<tr class="separator:gabdb60d361b6a6527e0f02bfb4cd61138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga6f411c8f304ca02f2ad9bad45ed5d7a5">wiced_bt_ble_update_scanner_filter_list</a> (wiced_bool_t <a class="el" href="wiced__bt__mesh__core_8h.html#a8cd82571c461a092b7e41ef838c6082c">add</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#a97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> addr_type)</td></tr>
+<tr class="memdesc:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_update_scanner_filter_list.  <a href="group__btm__ble__api__functions.html#ga6f411c8f304ca02f2ad9bad45ed5d7a5">More...</a><br /></td></tr>
+<tr class="separator:ga6f411c8f304ca02f2ad9bad45ed5d7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga524efdcf8f398f3bdfe71081d3882d06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a> (<a class="el" href="wiced__bt__ble_8h.html#a6d09736846bcb960a4fd36934d24bfef">wiced_bt_ble_scanner_filter_policy_t</a> scanner_policy)</td></tr>
 <tr class="memdesc:ga524efdcf8f398f3bdfe71081d3882d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_update_scanner_filter_policy.  <a href="group__btm__ble__api__functions.html#ga524efdcf8f398f3bdfe71081d3882d06">More...</a><br /></td></tr>
 <tr class="separator:ga524efdcf8f398f3bdfe71081d3882d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b5e961cacea2b8efab9e9df400765c8"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga0b5e961cacea2b8efab9e9df400765c8">wiced_bt_ble_clear_white_list</a> (void)</td></tr>
-<tr class="memdesc:ga0b5e961cacea2b8efab9e9df400765c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_clear_white_list.  <a href="group__btm__ble__api__functions.html#ga0b5e961cacea2b8efab9e9df400765c8">More...</a><br /></td></tr>
-<tr class="separator:ga0b5e961cacea2b8efab9e9df400765c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae8aa6c1c586d20f60f2723970edbebdf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gae8aa6c1c586d20f60f2723970edbebdf">wiced_bt_ble_get_white_list_size</a> (void)</td></tr>
-<tr class="memdesc:gae8aa6c1c586d20f60f2723970edbebdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_get_white_list_size.  <a href="group__btm__ble__api__functions.html#gae8aa6c1c586d20f60f2723970edbebdf">More...</a><br /></td></tr>
-<tr class="separator:gae8aa6c1c586d20f60f2723970edbebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e8e35f3b362c07a9c329b06579be3f1"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga3e8e35f3b362c07a9c329b06579be3f1">wiced_bt_ble_clear_filter_accept_list</a> (void)</td></tr>
+<tr class="memdesc:ga3e8e35f3b362c07a9c329b06579be3f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_clear_filter_accept_list.  <a href="group__btm__ble__api__functions.html#ga3e8e35f3b362c07a9c329b06579be3f1">More...</a><br /></td></tr>
+<tr class="separator:ga3e8e35f3b362c07a9c329b06579be3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61de01c2a86f811176a40625785ed1e6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga61de01c2a86f811176a40625785ed1e6">wiced_bt_ble_get_filter_accept_list_size</a> (void)</td></tr>
+<tr class="memdesc:ga61de01c2a86f811176a40625785ed1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_get_filter_accept_list_size.  <a href="group__btm__ble__api__functions.html#ga61de01c2a86f811176a40625785ed1e6">More...</a><br /></td></tr>
+<tr class="separator:ga61de01c2a86f811176a40625785ed1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9a543cb4bd5b6718ebb37d102c36e18f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga9a543cb4bd5b6718ebb37d102c36e18f">wiced_bt_ble_set_adv_tx_power</a> (<a class="el" href="brcm__fw__types_8h.html#a7ebe70ceca856797319175e30bcf003d">INT8</a> power, <a class="el" href="wiced__bt__dev_8h.html#a16af26f84329c4d5ee716691f46e3faf">wiced_bt_dev_vendor_specific_command_complete_cback_t</a> *p_cb)</td></tr>
 <tr class="memdesc:ga9a543cb4bd5b6718ebb37d102c36e18f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_set_adv_tx_power.  <a href="group__btm__ble__api__functions.html#ga9a543cb4bd5b6718ebb37d102c36e18f">More...</a><br /></td></tr>
 <tr class="separator:ga9a543cb4bd5b6718ebb37d102c36e18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -855,17 +855,17 @@ Functions</h2></td></tr>
 
 <p>Advertising filter policy. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249a68507601a1554b3a54ded1243b23dab4"></a>BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_ALL_SCAN_REQ&#160;</td><td class="fielddoc">
-<p>Process scan and connection requests from all devices (i.e., the White List is not in use) (default) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249add3f372f36bceae2e1ed91477cc3ab26"></a>BTM_BLE_ADV_POLICY_ACCEPT_CONN_AND_SCAN&#160;</td><td class="fielddoc">
+<p>Process scan and connection requests from all devices (i.e., the Filter Accept List is not in use) (default) </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249ac8b8938ce2d7791caa7fa8723d190362"></a>BTM_BLE_ADVERT_FILTER_ALL_CONNECTION_REQ_WHITELIST_SCAN_REQ&#160;</td><td class="fielddoc">
-<p>Process connection requests from all devices and only scan requests from devices that are in the White List. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249ac0e52ecefb1c278fb1f3593372f7d856"></a>BTM_BLE_ADV_POLICY_ACCEPT_CONN_FILTER_SCAN&#160;</td><td class="fielddoc">
+<p>Process connection requests from all devices and only scan requests from devices that are in the Filter Accept List. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249aa0cbe7b66090ec34a34b61ff24546ba8"></a>BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_ALL_SCAN_REQ&#160;</td><td class="fielddoc">
-<p>Process scan requests from all devices and only connection requests from devices that are in the White List. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249a578c2b2899548a93be78affbc103381c"></a>BTM_BLE_ADV_POLICY_FILTER_CONN_ACCEPT_SCAN&#160;</td><td class="fielddoc">
+<p>Process scan requests from all devices and only connection requests from devices that are in the Filter Accept List. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249a33abfc543d1750b61aff6eb8b56791ff"></a>BTM_BLE_ADVERT_FILTER_WHITELIST_CONNECTION_REQ_WHITELIST_SCAN_REQ&#160;</td><td class="fielddoc">
-<p>Process scan and connection requests only from devices in the White List. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae169c3a016dc0a8d0df604dda69c3249a76163ce8b16f5e4701377735e4cff1b0"></a>BTM_BLE_ADV_POLICY_FILTER_CONN_FILTER_SCAN&#160;</td><td class="fielddoc">
+<p>Process scan and connection requests only from devices in the Filter Accept List. </p>
 </td></tr>
 </table>
 
@@ -929,7 +929,7 @@ Functions</h2></td></tr>
 <p>Security manager Out-of-Band data. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4e721fb996eccc386b0311f022675eb2a9341faa0d5828913df02fa80afb0b8fd"></a>BTM_BLE_ADVERT_TYPE_INTERVAL_RANGE&#160;</td><td class="fielddoc">
-<p>Slave connection interval range. </p>
+<p>Peripheral connection interval range. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4e721fb996eccc386b0311f022675eb2a40503229ff5a75fc2667c624a3afd486"></a>BTM_BLE_ADVERT_TYPE_SOLICITATION_SRV_UUID&#160;</td><td class="fielddoc">
 <p>List of solicitated services - 16 bit UUIDs. </p>
@@ -1048,14 +1048,14 @@ Functions</h2></td></tr>
 
 <p>Multi-advertisement Filtering policy. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751a93eaa4b0e79802c53cbda56ae22dbaee"></a>MULTI_ADVERT_FILTER_POLICY_WHITE_LIST_NOT_USED&#160;</td><td class="fielddoc">
-<p>white list not used </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751a2236f3dd81bb4b74f40b8e03f5e6045c"></a>MULTI_ADVERT_FILTER_POLICY_FILTER_ACCEPT_LIST_NOT_USED&#160;</td><td class="fielddoc">
+<p>Filter Accept List not used. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751a387f4724f47aa445ecbbf84783ab7556"></a>MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION&#160;</td><td class="fielddoc">
-<p>white list for scan request </p>
+<tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751a129a6e35e9435a832f0e687b1b9bcee6"></a>MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_CONNECTION&#160;</td><td class="fielddoc">
+<p>Filter Accept List for scan request. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751a9c0d539ec6bfdb4a5208752b15f59650"></a>MULTI_ADVERT_WHITE_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING&#160;</td><td class="fielddoc">
-<p>white list for connection request </p>
+<tr><td class="fieldname"><a class="anchor" id="a1ec420c6d0f772c040c47950fe990751ab85f7bb397411106a68c1aabfb221bd8"></a>MULTI_ADVERT_FILTER_ACCEPT_LIST_POLICY_ADV_ALLOW_UNKNOWN_SCANNING&#160;</td><td class="fielddoc">
+<p>Filter Accept List for connection request. </p>
 </td></tr>
 </table>
 

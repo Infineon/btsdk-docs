@@ -1,5 +1,13 @@
 var NAVTREEINDEX8 =
 {
+"structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,0,4,1,19,19],
+"structwiced__bt__mesh__event____t.html#acc27b0aae670d811b37e4422117d08b0":[7,0,4,1,19,20],
+"structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf":[7,0,4,1,19,4],
+"structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88":[7,0,4,1,19,3],
+"structwiced__bt__mesh__event____t.html#ae7a9dd8f2d9e6fe6485b0ba80fdf4533":[7,0,4,1,19,18],
+"structwiced__bt__mesh__event____t.html#aeb39438c0aa5ad494c96060b00351545":[7,0,4,1,19,10],
+"structwiced__bt__mesh__level__set__delta__t.html":[7,0,4,2,6],
+"structwiced__bt__mesh__level__set__delta__t.html#a284a81478e29d96532d13ebd737d6b82":[7,0,4,2,6,3],
 "structwiced__bt__mesh__level__set__delta__t.html#a682a609ad7209580739aa2589f49dc04":[7,0,4,2,6,2],
 "structwiced__bt__mesh__level__set__delta__t.html#ac822e6d5f7ae5e33ce0ee0deb060e040":[7,0,4,2,6,0],
 "structwiced__bt__mesh__level__set__delta__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,0,4,2,6,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__mesh__power__onoff__data__t.html":[7,0,4,2,10],
 "structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6":[7,0,4,2,10,0],
 "structwiced__bt__mesh__power__range__status__data__t.html":[7,0,4,2,15],
-"structwiced__bt__mesh__power__range__status__data__t.html#a6c0997d77cd914eb8fa53f54d0d1343b":[7,0,4,2,15,0],
-"structwiced__bt__mesh__power__range__status__data__t.html#ade818037fd6c985038ff29656089758d":[7,0,4,2,15,2],
-"structwiced__bt__mesh__power__range__status__data__t.html#af56c44a29742765d2d6bab9c8fcd8b01":[7,0,4,2,15,1],
-"structwiced__bt__mesh__properties__get__data__t.html":[7,0,4,2,26],
-"structwiced__bt__mesh__properties__get__data__t.html#a18d3664574ad7a6267b78de27043d5d7":[7,0,4,2,26,0],
-"structwiced__bt__mesh__properties__get__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,0,4,2,26,1],
-"structwiced__bt__mesh__properties__status__data__t.html":[7,0,4,2,28],
-"structwiced__bt__mesh__properties__status__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,0,4,2,28,2],
-"structwiced__bt__mesh__properties__status__data__t.html#a33bd439954516567235fc257725b42f3":[7,0,4,2,28,1]
+"structwiced__bt__mesh__power__range__status__data__t.html#a6c0997d77cd914eb8fa53f54d0d1343b":[7,0,4,2,15,0]
 };

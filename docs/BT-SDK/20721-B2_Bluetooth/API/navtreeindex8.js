@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"group__wicedbt__avrc__tg.html":[7,0,2,2,2],
+"group__wicedbt__bredr.html":[7,0,5,1],
 "group__wicedbt__bredr.html#ga06312613214e2e1b01da2e837f4f6d05":[7,0,5,1,5],
 "group__wicedbt__bredr.html#ga08b1a111be46bb1341db8329a98ba2c2":[7,0,5,1,12],
 "group__wicedbt__bredr.html#ga092191cdfade11d9ba5d97a9810a540d":[7,0,5,1,1],
@@ -173,6 +175,10 @@ var NAVTREEINDEX8 =
 "structwiced__bt__ans__gatt__handles__t.html#a087b928809f7184de8a6d11072f1d3d4":[7,0,1,1,0],
 "structwiced__bt__ans__gatt__handles__t.html#a1763bdebd7dc131326e33b06cfcc5ddc":[7,0,1,1,1],
 "structwiced__bt__ans__gatt__handles__t.html#a91df7573e222f7da08fffa007478f7db":[7,0,1,1,2],
+"structwiced__bt__application__id__t.html":[7,3,3,1],
+"structwiced__bt__application__id__t.html#a215e5feaef08c77d8e9f17ab421e8a66":[7,3,3,1,2],
+"structwiced__bt__application__id__t.html#a5bd4e4c943762926c8f653b6224cced2":[7,3,3,1,0],
+"structwiced__bt__application__id__t.html#ae2f416b0a34b7beb4ed3873d791ac393":[7,3,3,1,1],
 "structwiced__bt__audio__config__buffer__t.html":[7,0,2,6,0],
 "structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204":[7,0,2,6,0,3],
 "structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae":[7,0,2,6,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__hrc__stop__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,0,8,2,0],
 "structwiced__bt__hrc__stop__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,0,8,2,1],
 "structwiced__bt__hrs__handles__t.html":[7,0,9,0],
-"structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed":[7,0,9,0,1],
-"structwiced__bt__hrs__handles__t.html#a30cfcf503497984749cd11c38f56ae8a":[7,0,9,0,0],
-"structwiced__bt__hrs__handles__t.html#a39cce0358f4f4988ac97b1e9f078cfc7":[7,0,9,0,2],
-"structwiced__bt__hrs__handles__t.html#a900b69af7d674b8db3bceae754b4955a":[7,0,9,0,3],
-"structwiced__bt__hrs__notification__data__t.html":[7,0,9,4],
-"structwiced__bt__hrs__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43":[7,0,9,4,1],
-"structwiced__bt__hrs__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4":[7,0,9,4,2]
+"structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed":[7,0,9,0,1]
 };

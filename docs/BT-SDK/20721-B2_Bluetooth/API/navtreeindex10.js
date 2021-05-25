@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__mesh__light__ctl__set__t.html":[7,0,4,2,33],
+"structwiced__bt__mesh__light__ctl__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,0,4,2,33,2],
+"structwiced__bt__mesh__light__ctl__set__t.html#a70cca36b6f723c28e65089bff78138a2":[7,0,4,2,33,1],
+"structwiced__bt__mesh__light__ctl__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,0,4,2,33,0],
+"structwiced__bt__mesh__light__ctl__status__data__t.html":[7,0,4,2,32],
+"structwiced__bt__mesh__light__ctl__status__data__t.html#a70cca36b6f723c28e65089bff78138a2":[7,0,4,2,32,2],
 "structwiced__bt__mesh__light__ctl__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,0,4,2,32,1],
 "structwiced__bt__mesh__light__ctl__status__data__t.html#ac9f524d68a7ad8c9bebe6e4f77b5f299":[7,0,4,2,32,0],
 "structwiced__bt__mesh__light__ctl__temperature__range__data__t.html":[7,0,4,2,37],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__provision__capabilities__data__t.html#a1e40486383afb52cf25151991493d0c5":[7,0,4,3,18,5],
 "structwiced__bt__mesh__provision__capabilities__data__t.html#a95f298b809c97e2d93d2b1900a01b3cc":[7,0,4,3,18,3],
 "structwiced__bt__mesh__provision__capabilities__data__t.html#a9cb06c1e3341c4f6b19fb2d0f2b1b396":[7,0,4,3,18,0],
-"structwiced__bt__mesh__provision__capabilities__data__t.html#aa2bab113df363b1c56d14939ca6856ac":[7,0,4,3,18,6],
-"structwiced__bt__mesh__provision__capabilities__data__t.html#ac9c087c55abf46b46ece74370ca39d42":[7,0,4,3,18,4],
-"structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e":[7,0,4,3,18,2],
-"structwiced__bt__mesh__provision__connect__data__t.html":[7,0,4,3,14],
-"structwiced__bt__mesh__provision__connect__data__t.html#a55fdff5eb435c150ffdb70a5c95edeb3":[7,0,4,3,14,2],
-"structwiced__bt__mesh__provision__connect__data__t.html#a9e9f508693ebfeac11721621b59a5620":[7,0,4,3,14,0],
-"structwiced__bt__mesh__provision__connect__data__t.html#abcf631596d63fef2dd8d6710a57601a9":[7,0,4,3,14,1]
+"structwiced__bt__mesh__provision__capabilities__data__t.html#aa2bab113df363b1c56d14939ca6856ac":[7,0,4,3,18,6]
 };

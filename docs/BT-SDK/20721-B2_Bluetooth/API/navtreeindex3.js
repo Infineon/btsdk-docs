@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group__opus__ctlvalues.html#gab2e88add9d69a0828ca23efc7bbb41be":[7,0,2,4,5,14],
 "group__opus__ctlvalues.html#gac698e5d1281a3632251d2a4ead48afb9":[7,0,2,4,5,8],
 "group__opus__ctlvalues.html#gac8178be7f02dc908c022cc3bb5c6c252":[7,0,2,4,5,15],
 "group__opus__ctlvalues.html#gacfce47959bdaa8581fdc68cec3be2bfb":[7,0,2,4,5,11],
@@ -145,8 +146,8 @@ var NAVTREEINDEX3 =
 "group__sco__hook.html#ga6a90f3dc9ccf0edd65d345afb4a43620":[7,0,15,1,1,2],
 "group__sco__hook.html#ga7166f66ce8ac6a09cb5be6e2bd6637cf":[7,0,15,1,0,4],
 "group__sco__hook.html#ga879c3b77f3f26cd337e95c7b3c16d5ab":[7,0,15,1,0,1],
-"group__sco__hook.html#ga8809c5ed01e330b560e6047b304c2e91":[7,0,15,1,0,5],
 "group__sco__hook.html#ga8809c5ed01e330b560e6047b304c2e91":[7,0,15,7],
+"group__sco__hook.html#ga8809c5ed01e330b560e6047b304c2e91":[7,0,15,1,0,5],
 "group__sco__hook.html#ga97e3bb97951482c8cf4d55a2d0bfcb62":[7,0,15,1,0,7],
 "group__sco__hook.html#ga9989c2b6526dc507b6f5dc26fc4ff037":[7,0,15,1,0,10],
 "group__sco__hook.html#ga9f3ae889d31c877524ed971a0b04b78f":[7,0,15,1,0,13],
@@ -154,8 +155,8 @@ var NAVTREEINDEX3 =
 "group__sco__hook.html#gaaad5f81a5c51695dd85fde4ec6861fa4":[7,0,15,1,0,12],
 "group__sco__hook.html#gac4cd5ac490ac59da7ffa8a124a967f0c":[7,0,15,1,0,0],
 "group__sco__hook.html#gae7f66047e6e39ba2bb6af8b95f00d1dd":[7,0,15,1,0,14],
-"group__sco__hook__api__functions.html":[7,0,15,0],
 "group__sco__hook__api__functions.html":[7,0,15,1,2],
+"group__sco__hook__api__functions.html":[7,0,15,0],
 "group__sco__hook__api__functions.html#ga2443223235ab6aa76cbf308f7f3d9871":[7,0,15,0,0],
 "group__sco__hook__api__functions.html#ga2443223235ab6aa76cbf308f7f3d9871":[7,0,15,1,2,0],
 "group__sco__hook__data__types.html":[7,0,15,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "group__wiced__bt__anc__api__functions.html#ga612796ca5f55f340adf7a681526e5471":[7,0,0,26],
 "group__wiced__bt__anc__api__functions.html#ga7a8b5c3e556d1937c349a7470489c9bd":[7,0,0,12],
 "group__wiced__bt__anc__api__functions.html#ga815ed4fd8f83bd2a767b32fa1e7442dc":[7,0,0,22],
-"group__wiced__bt__anc__api__functions.html#ga8b35f4a22811859ae58055e7c74f13dd":[7,0,0,13],
-"group__wiced__bt__anc__api__functions.html#ga9b2a520b26ff5164b55042891f13946d":[7,0,0,8]
+"group__wiced__bt__anc__api__functions.html#ga8b35f4a22811859ae58055e7c74f13dd":[7,0,0,13]
 };

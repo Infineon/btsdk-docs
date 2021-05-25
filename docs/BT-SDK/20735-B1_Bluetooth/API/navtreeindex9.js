@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,0,4,2,18,4],
+"structwiced__bt__mesh__light__xyl__data__t.html":[7,0,4,2,54],
+"structwiced__bt__mesh__light__xyl__data__t.html#a4dde988b1b2adba65ae3efa69f65d960":[7,0,4,2,54,1],
+"structwiced__bt__mesh__light__xyl__data__t.html#a968eb4438426da63f07e28bfa3578bda":[7,0,4,2,54,0],
+"structwiced__bt__mesh__light__xyl__data__t.html#ab0580f504a7428539be299fa71565f30":[7,0,4,2,54,2],
+"structwiced__bt__mesh__light__xyl__default__data__t.html":[7,0,4,2,59],
+"structwiced__bt__mesh__light__xyl__default__data__t.html#ab5bae9353df67146de6a493d0569bdd0":[7,0,4,2,59,0],
+"structwiced__bt__mesh__light__xyl__default__status__data__t.html":[7,0,4,2,62],
 "structwiced__bt__mesh__light__xyl__default__status__data__t.html#ab5bae9353df67146de6a493d0569bdd0":[7,0,4,2,62,0],
 "structwiced__bt__mesh__light__xyl__range__set__data__t.html":[7,0,4,2,60],
 "structwiced__bt__mesh__light__xyl__range__set__data__t.html#a6c2ea0e2f3ad699f6b5bb36f4ada9abc":[7,0,4,2,60,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__sco__params__t.html#ae8b48a29504c067028bd34b9448083c4":[7,0,2,2,0,1],
 "structwiced__bt__sdp__discovery__attribute__value__t.html":[7,0,16,1,0],
 "structwiced__bt__sdp__discovery__attribute__value__t.html#a0084c9e8c5778849f41d9de5df9c0f85":[7,0,16,1,0,4],
-"structwiced__bt__sdp__discovery__attribute__value__t.html#a10b6eb1bc5c7c2c1de54343aa6deb829":[7,0,16,1,0,5],
-"structwiced__bt__sdp__discovery__attribute__value__t.html#a1234f83efa812e259523c91799614a3c":[7,0,16,1,0,2],
-"structwiced__bt__sdp__discovery__attribute__value__t.html#a628da10559e27d94342974716ad41f9b":[7,0,16,1,0,1],
-"structwiced__bt__sdp__discovery__attribute__value__t.html#a698e7a1cc91c377532b021018e74eac8":[7,0,16,1,0,0],
-"structwiced__bt__sdp__discovery__attribute__value__t.html#ae65af0c4a8ee050043fe4b575f0a26a0":[7,0,16,1,0,3],
-"structwiced__bt__sdp__discovery__db__t.html":[7,0,16,1,3],
-"structwiced__bt__sdp__discovery__db__t.html#a018ca54b4009ff9bf2dce3333d3d2b56":[7,0,16,1,3,1],
-"structwiced__bt__sdp__discovery__db__t.html#a384e3670164bc5c5e13fbf01595bddc4":[7,0,16,1,3,4],
-"structwiced__bt__sdp__discovery__db__t.html#a3f6a3b0b58cbdacf4ce9a0c9b3d64794":[7,0,16,1,3,2]
+"structwiced__bt__sdp__discovery__attribute__value__t.html#a10b6eb1bc5c7c2c1de54343aa6deb829":[7,0,16,1,0,5]
 };
