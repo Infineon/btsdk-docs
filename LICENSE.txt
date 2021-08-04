@@ -208,3 +208,4 @@ replacing any and all prior agreements, communications, and understandings
 will be deemed effective when actually received and must be sent to Cypress
 Semiconductor Corporation, ATTN: Chief Legal Officer, 198 Champion Court, San
 Jose, CA 95134 USA.
+
