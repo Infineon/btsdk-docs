@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['thermistor_5fcfg_5ft',['thermistor_cfg_t',['../structthermistor__cfg__t.html',1,'']]]
+  ['sdp_5finfo',['sdp_info',['../structsdp__info.html',1,'']]],
+  ['sha2_5fcontext',['sha2_context',['../structsha2__context.html',1,'']]]
 ];

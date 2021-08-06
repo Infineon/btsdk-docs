@@ -18,6 +18,7 @@ var group__wiced__bt__spp__api__functions =
     [ "wiced_bt_spp_can_send_more_data", "group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a", null ],
     [ "wiced_bt_spp_connect", "group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42", null ],
     [ "wiced_bt_spp_disconnect", "group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6", null ],
+    [ "wiced_bt_spp_get_connection_state", "group__wiced__bt__spp__api__functions.html#ga576dc790256226c7979bd9095228ab2f", null ],
     [ "wiced_bt_spp_port_purge", "group__wiced__bt__spp__api__functions.html#ga9f936b55910974c17394ddc91eed6db3", null ],
     [ "wiced_bt_spp_rfcomm_get_peer_mtu", "group__wiced__bt__spp__api__functions.html#gac27bbd3e59da11bc092cb950333aba39", null ],
     [ "wiced_bt_spp_rx_flow_enable", "group__wiced__bt__spp__api__functions.html#ga2ea0c163fb4ddfe8f56e022467bb592b", null ],

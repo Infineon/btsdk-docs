@@ -1,12 +1,12 @@
 var group__hidd__functions =
 [
-    [ "wiced_blehidd_get_peripheral_latency", "group__hidd__functions.html#gabaa6a34a332fcd8aacda64cf6ca51cb3", null ],
     [ "wiced_blehidd_allow_peripheral_latency", "group__hidd__functions.html#ga6ce6477ef843d599f106150f1c7adbc2", null ],
     [ "wiced_blehidd_get_att_mtu_size", "group__hidd__functions.html#gac2f7b0105608557915f6200dcda0be07", null ],
     [ "wiced_blehidd_get_connection_handle", "group__hidd__functions.html#gab7543a30ee7d0f520f963b9f03471846", null ],
     [ "wiced_blehidd_get_connection_interval", "group__hidd__functions.html#gaa2a4af0ca7cc29f419280f9f39f0250b", null ],
     [ "wiced_blehidd_get_peer_addr", "group__hidd__functions.html#gafdce39869e908fb16d17d5f0bcae2bc2", null ],
     [ "wiced_blehidd_get_peer_addr_type", "group__hidd__functions.html#ga66d9e005993dad22366f58621e60a2e6", null ],
+    [ "wiced_blehidd_get_peripheral_latency", "group__hidd__functions.html#gabaa6a34a332fcd8aacda64cf6ca51cb3", null ],
     [ "wiced_blehidd_get_supervision_timeout", "group__hidd__functions.html#ga5276fe6f92236313e10dfa0b55bda71a", null ],
     [ "wiced_blehidd_is_device_bonded", "group__hidd__functions.html#gac10e0e74350a472ac995b46023fee157", null ],
     [ "wiced_blehidd_is_link_encrypted", "group__hidd__functions.html#ga9f06baae439ca5a34fbbc91c129c9bba", null ],

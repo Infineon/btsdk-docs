@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['bd_5faddr_5flen',['BD_ADDR_LEN',['../wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe',1,'wiced_bt_types.h']]],
   ['big_5fto_5fcpu_5fendian_5f16',['BIG_TO_CPU_ENDIAN_16',['../brcm__fw__types_8h.html#a8026f833c2610fa119cef290da1a67ca',1,'brcm_fw_types.h']]],
   ['big_5fto_5fcpu_5fendian_5f32',['BIG_TO_CPU_ENDIAN_32',['../brcm__fw__types_8h.html#aae0691e650b93b8e06e343698f16df48',1,'brcm_fw_types.h']]],
   ['big_5fto_5fcpu_5fendian_5f64',['BIG_TO_CPU_ENDIAN_64',['../brcm__fw__types_8h.html#a7c025e66ea19b65046d5a2ffae25a6c1',1,'brcm_fw_types.h']]],

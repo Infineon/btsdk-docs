@@ -34,6 +34,7 @@ var group__wiced__bt__iap2__api__functions =
     [ "wiced_bt_iap2_connect", "group__wiced__bt__iap2__api__functions.html#gae9ff9af806c575f4a4f7dc917ff5b22d", null ],
     [ "wiced_bt_iap2_disconnect", "group__wiced__bt__iap2__api__functions.html#gab869d34e26353e11fdbb8dc6857a9dc0", null ],
     [ "wiced_bt_iap2_get_auth_chip_info", "group__wiced__bt__iap2__api__functions.html#ga58451ec7fe94986d945171c124ad5a9c", null ],
+    [ "wiced_bt_iap2_get_connection_state", "group__wiced__bt__iap2__api__functions.html#ga5224d698c53f34d9092b322e18e7b8eb", null ],
     [ "wiced_bt_iap2_port_purge", "group__wiced__bt__iap2__api__functions.html#ga9515d897f99940367f6f5dafcf68b0ab", null ],
     [ "wiced_bt_iap2_rfcomm_get_peer_mtu", "group__wiced__bt__iap2__api__functions.html#ga8a0838d7e270723b31cfb01e972656ce", null ],
     [ "wiced_bt_iap2_rx_flow_enable", "group__wiced__bt__iap2__api__functions.html#ga38642bab4c501a155c9c960ba71dacd7", null ],

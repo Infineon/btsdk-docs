@@ -26,6 +26,9 @@ var group__btm__ble__api__functions =
     [ "wiced_bt_ble_update_scanner_filter_list", "group__btm__ble__api__functions.html#ga6f411c8f304ca02f2ad9bad45ed5d7a5", null ],
     [ "wiced_bt_ble_update_scanner_filter_policy", "group__btm__ble__api__functions.html#ga524efdcf8f398f3bdfe71081d3882d06", null ],
     [ "wiced_bt_ble_verify_signature", "group__btm__ble__api__functions.html#ga771629322c842c541611d928ad128a40", null ],
+    [ "wiced_bt_dev_add_device_to_address_resolution_db", "group__btm__ble__api__functions.html#ga806119ffc38aa9ec12a03f9f2c8c8d43", null ],
+    [ "wiced_bt_dev_get_ble_keys", "group__btm__ble__api__functions.html#gac39c9efdd1042d3f8855d854237dc3d6", null ],
+    [ "wiced_bt_dev_remove_device_from_address_resolution_db", "group__btm__ble__api__functions.html#ga91b6c2557800b5d63f8c94c17af05183", null ],
     [ "wiced_bt_start_advertisements", "group__btm__ble__api__functions.html#ga90a7b45015280a2dcef73a5be07cd561", null ],
     [ "wiced_btm_ble_update_advertisement_filter_policy", "group__btm__ble__api__functions.html#gaed7a2250e3d40e66a23167febfbbebd4", null ],
     [ "wiced_btm_get_private_bda", "group__btm__ble__api__functions.html#ga25741accdeebfb7297645d5ead4197ba", null ]

@@ -1,5 +1,6 @@
 var group__threads =
 [
+    [ "wiced_bt_rtos_max_stack_use", "group__threads.html#ga2e6eaef23b15fe10fb66aaf5642eb596", null ],
     [ "wiced_rtos_check_for_stack_overflow", "group__threads.html#ga917a4bd4ebe941e7c48c6187c0c44049", null ],
     [ "wiced_rtos_check_stack", "group__threads.html#ga62323073bab8a346f505b92f31c1c031", null ],
     [ "wiced_rtos_create_event_flags", "group__threads.html#ga308a518efb15c5b6935986f1ce5dbbcc", null ],

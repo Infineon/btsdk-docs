@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -116,6 +116,15 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ac72ed29e9d61b250316f3b6870ca2745"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac72ed29e9d61b250316f3b6870ca2745"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CREDENTIAL_FLAG_FLOODING</b>&#160;&#160;&#160;0x00    /*&lt; Flooding Credentials  */</td></tr>
+<tr class="separator:ac72ed29e9d61b250316f3b6870ca2745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a7aa705cc4be1b676c9c70d1d7403b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5a7aa705cc4be1b676c9c70d1d7403b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CREDENTIAL_FLAG_FRENDSHIP</b>&#160;&#160;&#160;0x01    /*&lt; Friendship Credentials  */</td></tr>
+<tr class="separator:ac5a7aa705cc4be1b676c9c70d1d7403b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4610e9e139c824b77c81e24ed83f5203"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4610e9e139c824b77c81e24ed83f5203"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CREDENTIAL_FLAG_DIRECTED</b>&#160;&#160;&#160;0x02    /*&lt; Directed Forwarding Credentials  */</td></tr>
+<tr class="separator:a4610e9e139c824b77c81e24ed83f5203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe46201a835b3b2e98cf0cbe981b59be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe46201a835b3b2e98cf0cbe981b59be"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RETRANSMIT_TIMER_TICK</b>&#160;&#160;&#160;50</td></tr>
 <tr class="separator:abe46201a835b3b2e98cf0cbe981b59be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +146,12 @@ Macros</h2></td></tr>
 <tr class="memitem:af53ef804bc2279ea0446390ea50f471f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af53ef804bc2279ea0446390ea50f471f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>RPL_DELAY_DONT_SAVE</b>&#160;&#160;&#160;0xff</td></tr>
 <tr class="separator:af53ef804bc2279ea0446390ea50f471f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e9cfcf45b509a85c8f6dbf1da02af7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1e9cfcf45b509a85c8f6dbf1da02af7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TAG_USE_DIRECTED</b>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:aa1e9cfcf45b509a85c8f6dbf1da02af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec051fd153b183097019f24d51156b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ec051fd153b183097019f24d51156b2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TAG_IMMUTABLE_CREDENTIALS</b>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a9ec051fd153b183097019f24d51156b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Bits of the wiced_bt_mesh_event_t::app_key_idx</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="WICED_BT_MESH_EVENT_KEY_IDX"></a></p>
 <p>The following is the bits meaning of the field app_key_idx in the structure wiced_bt_mesh_event_t. </p>
@@ -147,6 +162,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a0a5502c4082c8354132761bca51a29cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__event_8h.html#a0a5502c4082c8354132761bca51a29cb">WICED_BT_MESH_EVENT_KEY_IDX_FLAG_DEVKEY</a>&#160;&#160;&#160;0x8000</td></tr>
 <tr class="memdesc:a0a5502c4082c8354132761bca51a29cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">1 means it is protected by device key and remaining part contains net_key_idx.  <a href="#a0a5502c4082c8354132761bca51a29cb">More...</a><br /></td></tr>
 <tr class="separator:a0a5502c4082c8354132761bca51a29cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39000c7f3940b7903be4a2485f0f68a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__event_8h.html#ab39000c7f3940b7903be4a2485f0f68a">WICED_BT_MESH_EVENT_KEY_IDX_FLAG_INT_IDX</a>&#160;&#160;&#160;0x4000</td></tr>
+<tr class="memdesc:ab39000c7f3940b7903be4a2485f0f68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">1 means it is internal key index in the same order as added.  <a href="#ab39000c7f3940b7903be4a2485f0f68a">More...</a><br /></td></tr>
+<tr class="separator:ab39000c7f3940b7903be4a2485f0f68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad458d5bfc758fb4d737d919ecb6f2019"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad458d5bfc758fb4d737d919ecb6f2019"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__event_8h.html#ad458d5bfc758fb4d737d919ecb6f2019">WICED_BT_MESH_EVENT_KEY_IDX_MSK_KEYIDX</a>&#160;&#160;&#160;0x0fff</td></tr>
 <tr class="memdesc:ad458d5bfc758fb4d737d919ecb6f2019"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask of the app_key_index/net_key_index depending on value 0/1 of the bit WICED_BT_MESH_EVENT_KEY_IDX_FLAG_DEVKEY. <br /></td></tr>
@@ -209,12 +227,27 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab39000c7f3940b7903be4a2485f0f68a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WICED_BT_MESH_EVENT_KEY_IDX_FLAG_INT_IDX&#160;&#160;&#160;0x4000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>1 means it is internal key index in the same order as added. </p>
+<p>0 means it is global key index. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_48f26a323eb1313a4a1808a747858e36.html">out</a></li><li class="navelem"><a class="el" href="dir_621ae14786a3b80e57000dda6fe18438.html">repos</a></li><li class="navelem"><a class="el" href="dir_c6f8dc558a50b7602f8e1602a7bcbf05.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__event_8h.html">wiced_bt_mesh_event.h</a></li>
+    <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__event_8h.html">wiced_bt_mesh_event.h</a></li>
     <li class="footer">Copyright Cypress Semiconductor.</li>
   </ul>
 </div>

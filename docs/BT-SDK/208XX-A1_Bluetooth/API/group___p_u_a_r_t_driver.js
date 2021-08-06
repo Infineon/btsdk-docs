@@ -1,6 +1,8 @@
 var group___p_u_a_r_t_driver =
 [
     [ "wiced_hal_puart_configuration", "group___p_u_a_r_t_driver.html#gaf6ab59e49318a3f6c80a6208fa9683fa", null ],
+    [ "wiced_hal_puart_deregister_interrupt", "group___p_u_a_r_t_driver.html#ga830bca5949b78d47c2123711e93d23be", null ],
+    [ "wiced_hal_puart_disable_interrupt", "group___p_u_a_r_t_driver.html#ga330873cd1d7974a7649150916103f8ea", null ],
     [ "wiced_hal_puart_disable_tx", "group___p_u_a_r_t_driver.html#ga0345acfe70d2bb2e1894031f0ad442f8", null ],
     [ "wiced_hal_puart_enable_rx", "group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c", null ],
     [ "wiced_hal_puart_enable_tx", "group___p_u_a_r_t_driver.html#gaa9aa92b462b4a3374910416dbb7b51c7", null ],

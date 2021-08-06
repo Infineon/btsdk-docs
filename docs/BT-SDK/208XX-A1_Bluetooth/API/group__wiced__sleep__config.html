@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -139,6 +139,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8a9297d408f3a58cf3c476e9e6d924d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group__sleep__enums.html#ga00880bca9f065d09a259eab6b4f98deb">wiced_sleep_wake_reason_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga8a9297d408f3a58cf3c476e9e6d924d3">wiced_sleep_hid_off_wake_reason</a> (void)</td></tr>
 <tr class="memdesc:ga8a9297d408f3a58cf3c476e9e6d924d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to get reset reason.  <a href="#ga8a9297d408f3a58cf3c476e9e6d924d3">More...</a><br /></td></tr>
 <tr class="separator:ga8a9297d408f3a58cf3c476e9e6d924d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2271b46ab25cfc48563212e260e5a9c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga2271b46ab25cfc48563212e260e5a9c0">wiced_disable_non_wakeup_interrupt_before_entering_sleep_mode</a> (void)</td></tr>
+<tr class="memdesc:ga2271b46ab25cfc48563212e260e5a9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_disable_non_wakeup_interrupt_before_entering_sleep_mode.  <a href="#ga2271b46ab25cfc48563212e260e5a9c0">More...</a><br /></td></tr>
+<tr class="separator:ga2271b46ab25cfc48563212e260e5a9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36e9f3139305aab97be5bced579ecc47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga36e9f3139305aab97be5bced579ecc47">wiced_restore_non_wakeup_interrupt_after_exiting_sleep_mode</a> (void)</td></tr>
+<tr class="memdesc:ga36e9f3139305aab97be5bced579ecc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_restore_non_wakeup_interrupt_after_exiting_sleep_mode.  <a href="#ga36e9f3139305aab97be5bced579ecc47">More...</a><br /></td></tr>
+<tr class="separator:ga36e9f3139305aab97be5bced579ecc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This driver provides simplified access to the WICED sleep framework on the CYW20819 device. </p>
@@ -190,6 +196,58 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga2271b46ab25cfc48563212e260e5a9c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_disable_non_wakeup_interrupt_before_entering_sleep_mode </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_disable_non_wakeup_interrupt_before_entering_sleep_mode. </p>
+<p>Disable all non wake up interrupt before entering sleep mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga36e9f3139305aab97be5bced579ecc47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_restore_non_wakeup_interrupt_after_exiting_sleep_mode </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_restore_non_wakeup_interrupt_after_exiting_sleep_mode. </p>
+<p>Restore all non wake up interrupt after exiting sleep mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gae16b5586250539a0026a9fef4d71a517"></a>
 <div class="memitem">
 <div class="memproto">

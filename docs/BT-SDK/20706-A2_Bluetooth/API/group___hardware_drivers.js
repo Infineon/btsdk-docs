@@ -1,5 +1,6 @@
 var group___hardware_drivers =
 [
+    [ "AesCalculation", "group___aes_calculation.html", "group___aes_calculation" ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
     [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],

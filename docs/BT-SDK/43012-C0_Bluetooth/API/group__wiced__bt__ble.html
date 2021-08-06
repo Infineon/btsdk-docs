@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -285,8 +285,8 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 <div class="line">        .own_addr_type = <a class="code" href="wiced__bt__types_8h.html#a9e3dbc812e83ed3d950980bf5f09d332">BLE_ADDR_RANDOM</a></div>
 <div class="line">    };</div>
 <div class="line"></div>
-<div class="line">    uint8_t local_bda[BD_ADDR_LEN] = { 0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF };</div>
-<div class="line">    memcpy(params.own_bd_addr, local_bda, BD_ADDR_LEN);</div>
+<div class="line">    uint8_t local_bda[<a class="code" href="wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe">BD_ADDR_LEN</a>] = { 0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF };</div>
+<div class="line">    memcpy(params.own_bd_addr, local_bda, <a class="code" href="wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe">BD_ADDR_LEN</a>);</div>
 <div class="line"></div>
 <div class="line">    <a class="code" href="group__wiced__bt__ble.html#ga2ac69bd579866c78c7bf8045cb7a7cd5">wiced_set_multi_advertisement_params</a>(adv_instance, &amp;params);</div>
 <div class="line">}</div>

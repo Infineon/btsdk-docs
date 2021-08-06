@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -188,6 +188,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf8438d1f39d544832f3b595b71a2b3af"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gaf8438d1f39d544832f3b595b71a2b3af">wiced_audio_samples_set</a> (uint8_t *p_in, uint32_t size)</td></tr>
 <tr class="memdesc:gaf8438d1f39d544832f3b595b71a2b3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_samples_set.  <a href="#gaf8438d1f39d544832f3b595b71a2b3af">More...</a><br /></td></tr>
 <tr class="separator:gaf8438d1f39d544832f3b595b71a2b3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7471281d5237a9948e385f0af85cc13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gab7471281d5237a9948e385f0af85cc13">wiced_audio_set_packet_types</a> (BD_ADDR peer_bda, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> packet_types)</td></tr>
+<tr class="memdesc:gab7471281d5237a9948e385f0af85cc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name wiced_audio_set_packet_types.  <a href="#gab7471281d5237a9948e385f0af85cc13">More...</a><br /></td></tr>
+<tr class="separator:gab7471281d5237a9948e385f0af85cc13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad7a2060ea24e7fc012bf1a181c0c7bd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gad7a2060ea24e7fc012bf1a181c0c7bd0">wiced_audio_set_max_bitpool</a> (uint8_t max_value)</td></tr>
+<tr class="memdesc:gad7a2060ea24e7fc012bf1a181c0c7bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_set_max_bitpool.  <a href="#gad7a2060ea24e7fc012bf1a181c0c7bd0">More...</a><br /></td></tr>
+<tr class="separator:gad7a2060ea24e7fc012bf1a181c0c7bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f102196ca0ab40d660b4c897fd5284f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga5f102196ca0ab40d660b4c897fd5284f">wiced_audio_read_max_bitpool</a> (void)</td></tr>
+<tr class="memdesc:ga5f102196ca0ab40d660b4c897fd5284f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_read_max_bitpool.  <a href="#ga5f102196ca0ab40d660b4c897fd5284f">More...</a><br /></td></tr>
+<tr class="separator:ga5f102196ca0ab40d660b4c897fd5284f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a7acd35745d0b7e7ff39daab4a6f353"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga3a7acd35745d0b7e7ff39daab4a6f353">wiced_mp3_codec_dec_init</a> (void *p_mem)</td></tr>
 <tr class="memdesc:ga3a7acd35745d0b7e7ff39daab4a6f353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the MP3 decoder.  <a href="#ga3a7acd35745d0b7e7ff39daab4a6f353">More...</a><br /></td></tr>
 <tr class="separator:ga3a7acd35745d0b7e7ff39daab4a6f353"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -397,6 +406,26 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga5f102196ca0ab40d660b4c897fd5284f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t wiced_audio_read_max_bitpool </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_read_max_bitpool. </p>
+<p>This function is called to read max_audio_bitpool</p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t max_value </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gacf9916bcba7d4b5b94b194f9d8a01643"></a>
 <div class="memitem">
 <div class="memproto">
@@ -509,6 +538,69 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_TRUE : Success WICED_FALSE : Fail </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gad7a2060ea24e7fc012bf1a181c0c7bd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_audio_set_max_bitpool </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>max_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_set_max_bitpool. </p>
+<p>This function is called to set max_audio_bitpool</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_value</td><td>: value to set max_audio_bitpool. Needs to be within WICED_MIN_AUDIO_BITPOOL and WICED_MAX_AUDIO_BITPOOL </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab7471281d5237a9948e385f0af85cc13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_audio_set_packet_types </td>
+          <td>(</td>
+          <td class="paramtype">BD_ADDR&#160;</td>
+          <td class="paramname"><em>peer_bda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>packet_types</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name wiced_audio_set_packet_types. </p>
+<p>Sets the packet types used for a specific ACL connection and also sets the max_audio_mtu that the audio processing unit uses, based on the provided packet types, to format the SBC frames. By setting the max_audio_mtu according to the packet type, it helps to ensure no fragmentation across SBC frames occur.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">peer_bda</td><td>Peer address of the desired ACL connection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">packet_types</td><td>Packet type bitmask. See hcidef.h for definitions for packet type masks (BT1.2 and BT2.0 definitions).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result WICED_BT_PENDING is command has started successfully else wiced result error code. </dd></dl>
 
 </div>
 </div>

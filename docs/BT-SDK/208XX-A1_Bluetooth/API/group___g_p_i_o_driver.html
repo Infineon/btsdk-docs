@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -447,6 +447,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga65e72c7f96634c0909a3615aac2e3cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#ga65e72c7f96634c0909a3615aac2e3cc2">wiced_hal_unassign_gpio_function</a> (uint32_t pin, uint32_t function)</td></tr>
 <tr class="memdesc:ga65e72c7f96634c0909a3615aac2e3cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unassign a GPIO pin functionality.  <a href="#ga65e72c7f96634c0909a3615aac2e3cc2">More...</a><br /></td></tr>
 <tr class="separator:ga65e72c7f96634c0909a3615aac2e3cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe2f5f2146c12f047067023afa58685d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gafe2f5f2146c12f047067023afa58685d">wiced_hal_gpio_disable_interrupt</a> (<a class="el" href="group___g_p_i_o_driver.html#ga6668f4196eba895096ea26bdfbcd4125">wiced_bt_gpio_numbers_t</a> gpio)</td></tr>
+<tr class="memdesc:gafe2f5f2146c12f047067023afa58685d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_hal_gpio_disable_interrupt.  <a href="#gafe2f5f2146c12f047067023afa58685d">More...</a><br /></td></tr>
+<tr class="separator:gafe2f5f2146c12f047067023afa58685d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff007eedf7c4680f7ae41ab17af576b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o_driver.html#gaff007eedf7c4680f7ae41ab17af576b4">wiced_hal_gpio_deregister_interrupt</a> (<a class="el" href="group___g_p_i_o_driver.html#ga6668f4196eba895096ea26bdfbcd4125">wiced_bt_gpio_numbers_t</a> gpio)</td></tr>
+<tr class="memdesc:gaff007eedf7c4680f7ae41ab17af576b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_hal_gpio_deregister_interrupt.  <a href="#gaff007eedf7c4680f7ae41ab17af576b4">More...</a><br /></td></tr>
+<tr class="separator:gaff007eedf7c4680f7ae41ab17af576b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver to facilitate interfacing with the GPIO pins. </p>
@@ -1181,6 +1187,32 @@ Enabling interrupts here isn't sufficient; you also need to register the interru
 
 </div>
 </div>
+<a class="anchor" id="gaff007eedf7c4680f7ae41ab17af576b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_hal_gpio_deregister_interrupt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___g_p_i_o_driver.html#ga6668f4196eba895096ea26bdfbcd4125">wiced_bt_gpio_numbers_t</a>&#160;</td>
+          <td class="paramname"><em>gpio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_hal_gpio_deregister_interrupt. </p>
+<p>Deregister Interrupt handler with GPIO.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gpio</td><td>GPIO number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga6813f090a77a55b71424ed64760c4201"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1199,6 +1231,32 @@ Enabling interrupts here isn't sufficient; you also need to register the interru
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gafe2f5f2146c12f047067023afa58685d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_hal_gpio_disable_interrupt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___g_p_i_o_driver.html#ga6668f4196eba895096ea26bdfbcd4125">wiced_bt_gpio_numbers_t</a>&#160;</td>
+          <td class="paramname"><em>gpio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_hal_gpio_disable_interrupt. </p>
+<p>Disable GPIO interrupt.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gpio</td><td>GPIO number</td></tr>
   </table>
   </dd>
 </dl>

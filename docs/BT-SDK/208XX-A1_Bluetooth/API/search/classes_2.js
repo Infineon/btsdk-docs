@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['mesh_5fbattery_5fevent_5ft',['mesh_battery_event_t',['../structmesh__battery__event__t.html',1,'']]],
-  ['mesh_5fcore_5fprovision_5fcb_5ft',['mesh_core_provision_cb_t',['../structmesh__core__provision__cb__t.html',1,'']]]
+  ['bmsg_5fcontent_5fstruct',['BMSG_CONTENT_struct',['../struct_b_m_s_g___c_o_n_t_e_n_t__struct.html',1,'']]],
+  ['bmsg_5fenvelope_5fstruct',['BMSG_ENVELOPE_struct',['../struct_b_m_s_g___e_n_v_e_l_o_p_e__struct.html',1,'']]],
+  ['bmsg_5fmessage_5fstruct',['BMSG_MESSAGE_struct',['../struct_b_m_s_g___m_e_s_s_a_g_e__struct.html',1,'']]]
 ];

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -158,6 +158,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga39cc03039dd5a80c1ea388a1a22afc94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga39cc03039dd5a80c1ea388a1a22afc94">wiced_hal_puart_set_watermark_level</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> watermark_level)</td></tr>
 <tr class="memdesc:ga39cc03039dd5a80c1ea388a1a22afc94"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the watermark level to the received value  <a href="#ga39cc03039dd5a80c1ea388a1a22afc94">More...</a><br /></td></tr>
 <tr class="separator:ga39cc03039dd5a80c1ea388a1a22afc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="brcm__fw__types_8h.html#afaf1a5695cbcf260776fe64134890c27">BOOL32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gaf6ab59e49318a3f6c80a6208fa9683fa">wiced_hal_puart_configuration</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
+<tr class="memdesc:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the baudrate, parity and stop bits as per received value  <a href="#gaf6ab59e49318a3f6c80a6208fa9683fa">More...</a><br /></td></tr>
+<tr class="separator:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. </p>
@@ -205,6 +208,49 @@ Functions</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gaf6ab59e49318a3f6c80a6208fa9683fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="brcm__fw__types_8h.html#afaf1a5695cbcf260776fe64134890c27">BOOL32</a> wiced_hal_puart_configuration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>baudrate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">parity_t&#160;</td>
+          <td class="paramname"><em>parity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stop_bit_t&#160;</td>
+          <td class="paramname"><em>stop_bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the baudrate, parity and stop bits as per received value </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">baudrate</td><td>- Desired rate in symbols/sec ex. 9600 </td></tr>
+    <tr><td class="paramname">parity</td><td>- PARITY_ODD for odd parity, PARITY_EVEN for even parity, PARITY_NONE for no parity. </td></tr>
+    <tr><td class="paramname">stop_bit</td><td>- STOP_BIT_1 for 1 stop bit, STOP_BIT_2 for 2 stop bits.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>BOOL32 - TRUE if the configuration was successfully set, FALSE otherwise.NOTE: For baudrate greater than 2.727272 Mb/sec use of 2 stop bits is mandatory due to hardware limitation. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga0345acfe70d2bb2e1894031f0ad442f8"></a>
 <div class="memitem">
 <div class="memproto">

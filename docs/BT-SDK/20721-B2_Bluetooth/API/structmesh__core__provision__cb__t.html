@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -156,21 +156,21 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__core__provision__cb__t.html#a539eec1cb1d60c1cfe783b1dcd725b5a">peer_public_key_or_ecdh_secret</a> [WICED_BT_MESH_PROVISION_PUBLIC_KEY_LEN]</td></tr>
 <tr class="memdesc:a539eec1cb1d60c1cfe783b1dcd725b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">we will use it for ECDH secret too <br /></td></tr>
 <tr class="separator:a539eec1cb1d60c1cfe783b1dcd725b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a016fd9c61717c1b3e29052fc78c9f40d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a016fd9c61717c1b3e29052fc78c9f40d"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>conf_key_or_dev_key</b> [<a class="el" href="group__wiced__bt__mesh__core.html#ga042faf26c6c7b6a50bc20b8a123b0ffb">WICED_BT_MESH_KEY_LEN</a>]</td></tr>
-<tr class="separator:a016fd9c61717c1b3e29052fc78c9f40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80af59c7280f9431131dbc3258219cd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80af59c7280f9431131dbc3258219cd6"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>confirmation</b> [WICED_BT_MESH_PROVISION_CONFIRMATION_LEN]</td></tr>
-<tr class="separator:a80af59c7280f9431131dbc3258219cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed976fca7461cfc034cbd7970accc2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ed976fca7461cfc034cbd7970accc2a"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>prov_salt</b> [<a class="el" href="group__wiced__bt__mesh__core.html#ga042faf26c6c7b6a50bc20b8a123b0ffb">WICED_BT_MESH_KEY_LEN</a>]</td></tr>
-<tr class="separator:a7ed976fca7461cfc034cbd7970accc2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfb6468332eb7af5ff2fb77dbdd9c849"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfb6468332eb7af5ff2fb77dbdd9c849"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>conf_key_or_dev_key</b> [<a class="el" href="group__wiced__bt__mesh__core.html#ga042faf26c6c7b6a50bc20b8a123b0ffb">WICED_BT_MESH_KEY_LEN</a> *2]</td></tr>
+<tr class="separator:acfb6468332eb7af5ff2fb77dbdd9c849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0b089dea26a3174ebeb927a72ce432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e0b089dea26a3174ebeb927a72ce432"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>confirmation</b> [<a class="el" href="wiced__bt__mesh__model__defs_8h.html#a65e08a0cdbf6a21c43cda6c51d02389f">WICED_BT_MESH_PROVISION_CONFIRMATION_LEN</a> *2]</td></tr>
+<tr class="separator:a8e0b089dea26a3174ebeb927a72ce432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2e84802b1b2438ac442dbf97f64c50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba2e84802b1b2438ac442dbf97f64c50"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>prov_salt</b> [<a class="el" href="group__wiced__bt__mesh__core.html#ga042faf26c6c7b6a50bc20b8a123b0ffb">WICED_BT_MESH_KEY_LEN</a> *2]</td></tr>
+<tr class="separator:aba2e84802b1b2438ac442dbf97f64c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abffe66975a00553d5a2f674873dbbefc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abffe66975a00553d5a2f674873dbbefc"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>session_key</b> [<a class="el" href="group__wiced__bt__mesh__core.html#ga042faf26c6c7b6a50bc20b8a123b0ffb">WICED_BT_MESH_KEY_LEN</a>]</td></tr>
 <tr class="separator:abffe66975a00553d5a2f674873dbbefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1124575d73ffc56a7494bbd87a17f1f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1124575d73ffc56a7494bbd87a17f1f9"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>random</b> [WICED_BT_MESH_PROVISION_RANDOM_LEN]</td></tr>
-<tr class="separator:a1124575d73ffc56a7494bbd87a17f1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcdac0dc790fe56007d1fed60f3cb600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcdac0dc790fe56007d1fed60f3cb600"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>random</b> [<a class="el" href="wiced__bt__mesh__model__defs_8h.html#aaacde22503bfd288426bce0fd611f3f4">WICED_BT_MESH_PROVISION_RANDOM_LEN</a> *2]</td></tr>
+<tr class="separator:abcdac0dc790fe56007d1fed60f3cb600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c97bc17553545d29e87a527682d6575"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__core__provision__cb__t.html#a8c97bc17553545d29e87a527682d6575">oob_value</a> [16]</td></tr>
 <tr class="memdesc:a8c97bc17553545d29e87a527682d6575"><td class="mdescLeft">&#160;</td><td class="mdescRight">max static OOB value len is 256 bits(16bytes).  <a href="#a8c97bc17553545d29e87a527682d6575">More...</a><br /></td></tr>
 <tr class="separator:a8c97bc17553545d29e87a527682d6575"><td class="memSeparator" colspan="2">&#160;</td></tr>

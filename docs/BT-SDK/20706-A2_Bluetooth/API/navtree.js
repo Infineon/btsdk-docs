@@ -15,15 +15,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___adc_driver.html",
-"group___serial_flash_interface_driver.html",
-"group__l2cap__api__functions.html#ga99f378f0387c81d5b24923f8ac033b9c",
-"group__wiced__bt__mesh__battery__client.html",
-"group__wiced__bt__mesh__light__hsl__server.html#ga2b70faf51861e68075fdb528270c90aa",
-"group__wiced__bt__mesh__provisioning.html#ga51a9dd9a4576c7532a2460c29659e5de",
-"group__wicedbt__av__a2d__helper.html#gab32a5584267f6873c2c5440985b501c4",
-"structwiced__bt__avrc__tg__track__attr__t.html#a51f8e5d494f30807eab1cb2d29e2015a",
-"structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515",
-"structwiced__bt__mesh__power__range__status__data__t.html#ade818037fd6c985038ff29656089758d"
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310afe4fa63c511e94f710079ffc5e24ebf7",
+"group__l2cap__api__functions.html#ga84c66f4df107063ddb0adc482b5491ae",
+"group__wiced__bt__iap2__api__functions.html#gae9ff9af806c575f4a4f7dc917ff5b22d",
+"group__wiced__bt__mesh__light__hsl__client.html#ga626c6b8c6e122bbe954797c5d528adbc",
+"group__wiced__bt__mesh__provisioning.html#ga37ff2b3934cf1e04c329f290e42c4f32",
+"group__wicedbt__av__a2d__helper.html#ga09f90c5988806e80d82cb42ca1b3d3ad",
+"structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae",
+"structwiced__bt__mesh__core__transport__statistics__t.html#a41bc14e41bc5258b85e05ace6086c35c",
+"structwiced__bt__mesh__onoff__set__data__t.html",
+"unionwiced__bt__mesh__core__state__t.html#a856a8d63401a48e9fe78ee1600d6ee7c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

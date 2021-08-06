@@ -67,6 +67,7 @@ var searchData=
   ['wiced_5fgki_2eh',['wiced_gki.h',['../wiced__gki_8h.html',1,'']]],
   ['wiced_5fhal_5faclk_2eh',['wiced_hal_aclk.h',['../wiced__hal__aclk_8h.html',1,'']]],
   ['wiced_5fhal_5fadc_2eh',['wiced_hal_adc.h',['../wiced__hal__adc_8h.html',1,'']]],
+  ['wiced_5fhal_5faes_2eh',['wiced_hal_aes.h',['../wiced__hal__aes_8h.html',1,'']]],
   ['wiced_5fhal_5fbatmon_2eh',['wiced_hal_batmon.h',['../wiced__hal__batmon_8h.html',1,'']]],
   ['wiced_5fhal_5feflash_2eh',['wiced_hal_eflash.h',['../wiced__hal__eflash_8h.html',1,'']]],
   ['wiced_5fhal_5fgpio_2eh',['wiced_hal_gpio.h',['../wiced__hal__gpio_8h.html',1,'']]],

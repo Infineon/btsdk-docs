@@ -1,5 +1,6 @@
 var group__group__transport__functions =
 [
+    [ "wiced_set_hci_uart_cts_rts_flow_control", "group__group__transport__functions.html#gac30365f6e30bc8f0c92e5cf3c6aa1bea", null ],
     [ "wiced_transport_allocate_buffer", "group__group__transport__functions.html#gaae7d6f384840fc9f8cd8f875a91b5387", null ],
     [ "wiced_transport_create_buffer_pool", "group__group__transport__functions.html#ga9b8d8e0693a290ee79e26a76bf24292e", null ],
     [ "wiced_transport_free_buffer", "group__group__transport__functions.html#gadaac5ec0edb31d250165df53425fbe78", null ],

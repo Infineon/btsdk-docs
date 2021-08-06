@@ -11,6 +11,7 @@ var group___transport =
     [ "wiced_uart_transport_cfg_t", "group___transport.html#gad0efd79ddb918319a7cd70eb31d04151", null ],
     [ "wiced_transport_type_t", "group___transport.html#gaa3204840aade2c90bfa311c48beabcb3", null ],
     [ "wiced_transport_uart_mode_t", "group___transport.html#ga6d833ecd8b1499a47a89c49dfe8d60f1", null ],
+    [ "wiced_set_hci_uart_cts_rts_flow_control", "group___transport.html#gac30365f6e30bc8f0c92e5cf3c6aa1bea", null ],
     [ "wiced_transport_allocate_buffer", "group___transport.html#gaae7d6f384840fc9f8cd8f875a91b5387", null ],
     [ "wiced_transport_create_buffer_pool", "group___transport.html#ga9b8d8e0693a290ee79e26a76bf24292e", null ],
     [ "wiced_transport_free_buffer", "group___transport.html#gadaac5ec0edb31d250165df53425fbe78", null ],

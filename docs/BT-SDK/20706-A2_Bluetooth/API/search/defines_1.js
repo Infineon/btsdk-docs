@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['bd_5faddr_5flen',['BD_ADDR_LEN',['../wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5fpublic',['BLE_ADDR_PUBLIC',['../wiced__bt__types_8h.html#a409fbb547f9650620650b5301df0e2ff',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5fpublic_5fid',['BLE_ADDR_PUBLIC_ID',['../wiced__bt__types_8h.html#a5ac125aff51458f57329826c93ca922a',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5frandom',['BLE_ADDR_RANDOM',['../wiced__bt__types_8h.html#a9e3dbc812e83ed3d950980bf5f09d332',1,'wiced_bt_types.h']]],

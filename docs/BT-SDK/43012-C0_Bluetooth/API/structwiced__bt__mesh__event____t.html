@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -155,9 +155,8 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a></td></tr>
 <tr class="memdesc:ad1a572736a10ff6b282c5f43c4ea1ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of data corresponding to the event. <br /></td></tr>
 <tr class="separator:ad1a572736a10ff6b282c5f43c4ea1ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4118fec267d4ea4f8fe035cd8e02d88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4118fec267d4ea4f8fe035cd8e02d88"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88">credential_flag</a></td></tr>
-<tr class="memdesc:ae4118fec267d4ea4f8fe035cd8e02d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Friendship Credential Flag. <br /></td></tr>
+<tr class="memitem:ae4118fec267d4ea4f8fe035cd8e02d88"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88">credential_flag</a></td></tr>
+<tr class="memdesc:ae4118fec267d4ea4f8fe035cd8e02d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of the CREDENTIAL_FLAG_XXX value.  <a href="#ae4118fec267d4ea4f8fe035cd8e02d88">More...</a><br /></td></tr>
 <tr class="separator:ae4118fec267d4ea4f8fe035cd8e02d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e817b5279fd147d7a5b53ec556bfe49"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49">retrans_cnt</a></td></tr>
 <tr class="memdesc:a9e817b5279fd147d7a5b53ec556bfe49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of retransmissions for each message.  <a href="#a9e817b5279fd147d7a5b53ec556bfe49">More...</a><br /></td></tr>
@@ -184,6 +183,9 @@ union {</td></tr>
 <tr class="separator:ab49728107d19a75a401215330b469934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac71c8e5aa3872ef50bff47a8e5a5f48d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
 <tr class="separator:ac71c8e5aa3872ef50bff47a8e5a5f48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2585d779da0ab21273a8d92de9a0ebe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2585d779da0ab21273a8d92de9a0ebe"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b></td></tr>
+<tr class="separator:aa2585d779da0ab21273a8d92de9a0ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6161ae10c48014f8d738ee16a4de74a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a">friend_addr</a></td></tr>
 <tr class="memdesc:aa6161ae10c48014f8d738ee16a4de74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">core sets it to friend address when calls complete_callback if segmented message has been sent and acked by the friend OnBehalfOf LPN.  <a href="#aa6161ae10c48014f8d738ee16a4de74a">More...</a><br /></td></tr>
 <tr class="separator:aa6161ae10c48014f8d738ee16a4de74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +203,21 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Mesh event structure is exchanged between the app and the mesh models library. </p>
 </div><h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="ae4118fec267d4ea4f8fe035cd8e02d88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t credential_flag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One of the CREDENTIAL_FLAG_XXX value. </p>
+<p>It comes from publication or credentials of the received message </p>
+
+</div>
+</div>
 <a class="anchor" id="aa6161ae10c48014f8d738ee16a4de74a"></a>
 <div class="memitem">
 <div class="memproto">

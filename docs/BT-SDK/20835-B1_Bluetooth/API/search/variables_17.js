@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['wanted_5frssi',['wanted_rssi',['../wiced__bt__mesh__cfg_8h.html#a5e1f77d241db18c50a3cbb337add54cb',1,'wiced_bt_mesh_cfg.h']]],
   ['wiced_5fbt_5fcfg_5fbr_5fedr_5fscan_5fsettings',['wiced_bt_cfg_br_edr_scan_settings',['../wiced__bt__cfg_8h.html#a300044f81d337e30fd1ebad8cf2b66c4',1,'wiced_bt_cfg.h']]],
   ['wiced_5fbt_5fcore_5fboost_5fcpu_5fon_5fcrypt_5fop',['wiced_bt_core_boost_cpu_on_crypt_op',['../group__wiced__bt__mesh__core.html#gab29a265dd3459d528acd525fae75c21a',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fcore_5fiv_5fupdate_5ftest_5fmode',['wiced_bt_core_iv_update_test_mode',['../group__wiced__bt__mesh__core.html#gae94d91477d3820045a68253ca07ad044',1,'wiced_bt_mesh_core.h']]],
@@ -14,7 +13,6 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fcore_5fprovisioning_5fsrv_5fadv_5finterval',['wiced_bt_mesh_core_provisioning_srv_adv_interval',['../group__wiced__bt__mesh__core.html#ga313ce4b3dd41b04450a0cc5ff30ec0bf',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fmesh_5fcore_5fprovisioning_5furl_5fadv_5finterval',['wiced_bt_mesh_core_provisioning_url_adv_interval',['../group__wiced__bt__mesh__core.html#ga56ccaf452f6865b7487897210d77cc22',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fmesh_5fcore_5fproxy_5fadv_5finterval',['wiced_bt_mesh_core_proxy_adv_interval',['../group__wiced__bt__mesh__core.html#ga89a11dca5efe4e307efba3cab7843823',1,'wiced_bt_mesh_core.h']]],
-  ['wiced_5fbt_5fmesh_5fcore_5fproxy_5fon_5fdemand_5fadvert_5fto',['wiced_bt_mesh_core_proxy_on_demand_advert_to',['../group__wiced__bt__mesh__core.html#gab3700a0fa535db54eb22acdb36256dfc',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fmesh_5fcore_5funprovisioned_5fbeacon_5finterval',['wiced_bt_mesh_core_unprovisioned_beacon_interval',['../group__wiced__bt__mesh__core.html#ga8a80d7f9d8040e2773ad0abe7040b9fa',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fmesh_5fscene_5fregister_5fnvram_5fid',['wiced_bt_mesh_scene_register_nvram_id',['../wiced__bt__mesh__models_8h.html#ac70521a808d2249341d0fc3d3398dabc',1,'wiced_bt_mesh_models.h']]],
   ['write',['write',['../structwiced__block__device__driver__struct.html#a98d74db75839c4ef1a0ed38e073ebb63',1,'wiced_block_device_driver_struct']]],

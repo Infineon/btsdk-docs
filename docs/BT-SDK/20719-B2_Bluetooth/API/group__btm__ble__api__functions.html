@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -209,6 +209,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf323b84ee2aa5f894cb69117bfaaa159"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf323b84ee2aa5f894cb69117bfaaa159"></a>
 <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_ble_set_privacy_mode</b> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, wiced_bt_ble_privacy_mode_t privacy_mode)</td></tr>
 <tr class="separator:gaf323b84ee2aa5f894cb69117bfaaa159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga806119ffc38aa9ec12a03f9f2c8c8d43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga806119ffc38aa9ec12a03f9f2c8c8d43">wiced_bt_dev_add_device_to_address_resolution_db</a> (<a class="el" href="wiced__bt__dev_8h.html#ac0b3df0527130aad67cd71af9bd860e2">wiced_bt_device_link_keys_t</a> *p_link_keys)</td></tr>
+<tr class="memdesc:ga806119ffc38aa9ec12a03f9f2c8c8d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_add_device_to_address_resolution_db.  <a href="#ga806119ffc38aa9ec12a03f9f2c8c8d43">More...</a><br /></td></tr>
+<tr class="separator:ga806119ffc38aa9ec12a03f9f2c8c8d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91b6c2557800b5d63f8c94c17af05183"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#ga91b6c2557800b5d63f8c94c17af05183">wiced_bt_dev_remove_device_from_address_resolution_db</a> (<a class="el" href="wiced__bt__dev_8h.html#ac0b3df0527130aad67cd71af9bd860e2">wiced_bt_device_link_keys_t</a> *p_link_keys)</td></tr>
+<tr class="memdesc:ga91b6c2557800b5d63f8c94c17af05183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_remove_device_from_address_resolution_db.  <a href="#ga91b6c2557800b5d63f8c94c17af05183">More...</a><br /></td></tr>
+<tr class="separator:ga91b6c2557800b5d63f8c94c17af05183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__ble__api__functions.html#gac39c9efdd1042d3f8855d854237dc3d6">wiced_bt_dev_get_ble_keys</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="wiced__bt__dev_8h.html#ae2140187208ce279eae8d9248a2e8a0e">wiced_bt_dev_le_key_type_t</a> *p_key_mask)</td></tr>
+<tr class="memdesc:gac39c9efdd1042d3f8855d854237dc3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_get_ble_keys.  <a href="#gac39c9efdd1042d3f8855d854237dc3d6">More...</a><br /></td></tr>
+<tr class="separator:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>BLE (Bluetooth Low Energy) Functions. </p>
@@ -1109,6 +1118,95 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>TRUE if signature verified correctly; otherwise FALSE. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga806119ffc38aa9ec12a03f9f2c8c8d43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_add_device_to_address_resolution_db </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#ac0b3df0527130aad67cd71af9bd860e2">wiced_bt_device_link_keys_t</a> *&#160;</td>
+          <td class="paramname"><em>p_link_keys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_add_device_to_address_resolution_db. </p>
+<p>add link key information to internal address resolution db</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_link_keys</td><td>: link keys information stored in application side</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gac39c9efdd1042d3f8855d854237dc3d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_get_ble_keys </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#ae2140187208ce279eae8d9248a2e8a0e">wiced_bt_dev_le_key_type_t</a> *&#160;</td>
+          <td class="paramname"><em>p_key_mask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_get_ble_keys. </p>
+<p>get le key mask from stored key information of nv ram</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: remote bd address </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_key_mask</td><td>: ble key mask stored</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga91b6c2557800b5d63f8c94c17af05183"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_remove_device_from_address_resolution_db </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#ac0b3df0527130aad67cd71af9bd860e2">wiced_bt_device_link_keys_t</a> *&#160;</td>
+          <td class="paramname"><em>p_link_keys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_remove_device_from_address_resolution_db. </p>
+<p>remove link key information from internal address resolution db</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_link_keys</td><td>: link keys information stored in application side</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>
 </div>

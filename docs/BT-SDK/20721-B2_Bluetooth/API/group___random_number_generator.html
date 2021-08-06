@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -113,11 +113,39 @@ Functions</h2></td></tr>
 <tr class="memitem:gaadb9e47796c3b1b8378eef1e8bc3cf4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___random_number_generator.html#gaadb9e47796c3b1b8378eef1e8bc3cf4d">wiced_hal_rand_gen_num_array</a> (uint32_t *randNumberArrayPtr, uint32_t length)</td></tr>
 <tr class="memdesc:gaadb9e47796c3b1b8378eef1e8bc3cf4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a given array with randomly generated 32-bit integers.  <a href="#gaadb9e47796c3b1b8378eef1e8bc3cf4d">More...</a><br /></td></tr>
 <tr class="separator:gaadb9e47796c3b1b8378eef1e8bc3cf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61a62e6f1c3ee6d1a4d7ffbe350d5184"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___random_number_generator.html#ga61a62e6f1c3ee6d1a4d7ffbe350d5184">wiced_hal_get_pseudo_rand_number</a> (void)</td></tr>
+<tr class="memdesc:ga61a62e6f1c3ee6d1a4d7ffbe350d5184"><td class="mdescLeft">&#160;</td><td class="mdescRight">This functin returns a pseudo random number.  <a href="#ga61a62e6f1c3ee6d1a4d7ffbe350d5184">More...</a><br /></td></tr>
+<tr class="separator:ga61a62e6f1c3ee6d1a4d7ffbe350d5184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver for the Random Number Generator (RNG). </p>
 <p>The RNG uses a special hardware module to generate either a single 32-bit random number or fill a given array with 32-bit random numbers. These are useful for applications such as authentication. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga61a62e6f1c3ee6d1a4d7ffbe350d5184"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t wiced_hal_get_pseudo_rand_number </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This functin returns a pseudo random number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A randomly generated 32-bit integer. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga28ec0005902aa3c72e8f378e10cc8888"></a>
 <div class="memitem">
 <div class="memproto">

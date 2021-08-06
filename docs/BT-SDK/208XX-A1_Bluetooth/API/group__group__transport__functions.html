@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -134,9 +134,39 @@ Functions</h2></td></tr>
 <tr class="memitem:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gac329bcaf18ad4e563bbaedeb72db949c">wiced_transport_send_raw_buffer</a> (uint8_t *p_buf, uint16_t length)</td></tr>
 <tr class="memdesc:gac329bcaf18ad4e563bbaedeb72db949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used when transport mode is WICED_TRANSPORT_UART_RAW_MODE.  <a href="#gac329bcaf18ad4e563bbaedeb72db949c">More...</a><br /></td></tr>
 <tr class="separator:gac329bcaf18ad4e563bbaedeb72db949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__functions.html#gac30365f6e30bc8f0c92e5cf3c6aa1bea">wiced_set_hci_uart_cts_rts_flow_control</a> (BOOL32 on)</td></tr>
+<tr class="memdesc:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_hci_uart_cts_rts_flow_control.  <a href="#gac30365f6e30bc8f0c92e5cf3c6aa1bea">More...</a><br /></td></tr>
+<tr class="separator:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gac30365f6e30bc8f0c92e5cf3c6aa1bea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_set_hci_uart_cts_rts_flow_control </td>
+          <td>(</td>
+          <td class="paramtype">BOOL32&#160;</td>
+          <td class="paramname"><em>on</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_set_hci_uart_cts_rts_flow_control. </p>
+<p>Enable the CTS RTS Flow Control on or off</p>
+<p>Note: If user would like to turn off HCI UART flow control, then this function must be called in APPLICATION_START()</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">on</td><td>- true, enalbe CTS RTS Flow Control false, disable CTS RTS Flow Control</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gaae7d6f384840fc9f8cd8f875a91b5387"></a>
 <div class="memitem">
 <div class="memproto">

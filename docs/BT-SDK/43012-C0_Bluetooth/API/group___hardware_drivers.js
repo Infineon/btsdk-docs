@@ -1,6 +1,7 @@
 var group___hardware_drivers =
 [
     [ "AdcDriver", "group___adc_driver.html", "group___adc_driver" ],
+    [ "AesCalculation", "group___aes_calculation.html", "group___aes_calculation" ],
     [ "AuxClkDriver", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
     [ "Battery Monitor", "group___battery_monitor_driver.html", "group___battery_monitor_driver" ],
     [ "Embedded Flash Interface", "group___embedded_flash_interface_driver.html", "group___embedded_flash_interface_driver" ],

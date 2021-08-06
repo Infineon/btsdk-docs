@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['quad_5fconfigureportpins',['quad_configurePortPins',['../group___quadrature.html#ga758976fc5d0051f1648908c3a12770f7',1,'quadraturedriver.h']]],
+  ['quad_5fdisable',['quad_disable',['../group___quadrature.html#ga24ddacb293468d0c8a118395c6784a5f',1,'quadraturedriver.h']]],
+  ['quad_5fdisableinterrupt',['quad_disableInterrupt',['../group___quadrature.html#ga0c3ba85214cdca6317821d5ade6fcd5c',1,'quadraturedriver.h']]],
+  ['quad_5fenableeventdetection',['quad_enableEventDetection',['../group___quadrature.html#gafe749b865cea82f2538e40dead2eb614',1,'quadraturedriver.h']]],
+  ['quad_5fenableinterrupt',['quad_enableInterrupt',['../group___quadrature.html#ga055313b78d460cd1e69ca5b241666863',1,'quadraturedriver.h']]],
+  ['quad_5fflushhwevents',['quad_flushHwEvents',['../group___quadrature.html#ga351785590a8eacc67bf0f53b461c3061',1,'quadraturedriver.h']]],
+  ['quad_5fgetxmotion',['quad_getXMotion',['../group___quadrature.html#ga2bb74d9bb384c64e5a7de409c320d5b5',1,'quadraturedriver.h']]],
+  ['quad_5fgetxymotion',['quad_getXYMotion',['../group___quadrature.html#ga3a2b8f434421c7fed94f310ee48379dd',1,'quadraturedriver.h']]],
+  ['quad_5fgetymotion',['quad_getYMotion',['../group___quadrature.html#ga082b9d742e7b97ded806e3d6403eec6b',1,'quadraturedriver.h']]],
+  ['quad_5fgetzmotion',['quad_getZMotion',['../group___quadrature.html#gaac6218178a87a948c009338c7cf75ece',1,'quadraturedriver.h']]],
+  ['quad_5fhwinit',['quad_hwInit',['../group___quadrature.html#ga94c0a50eef7755751820985270f18ce1',1,'quadraturedriver.h']]],
+  ['quad_5finit',['quad_init',['../group___quadrature.html#gaf62be5d06a086df3816e5c3268f9c5d7',1,'quadraturedriver.h']]],
+  ['quad_5fmiafreezecallback',['quad_miaFreezeCallBack',['../group___quadrature.html#ga55b76d509187d44390c0ca8d7adbcebc',1,'quadraturedriver.h']]],
+  ['quad_5fmiaunfreezecallback',['quad_miaUnfreezeCallBack',['../group___quadrature.html#gac3b73ebfae9c7cd5e0ce8d0e01e85968',1,'quadraturedriver.h']]],
+  ['quad_5fquadinterrupt',['quad_quadInterrupt',['../group___quadrature.html#ga8afa15afec8407ba29d6735f68bab6f3',1,'quadraturedriver.h']]],
+  ['quad_5fregisterforeventnotification',['quad_registerForEventNotification',['../group___quadrature.html#ga1e82a2cbe911973773c15e70feafdf20',1,'quadraturedriver.h']]],
+  ['quad_5frestoreactivity',['quad_restoreActivity',['../group___quadrature.html#ga63ffbec4d45872a682779d99b6f07869',1,'quadraturedriver.h']]]
+];

@@ -42,6 +42,7 @@ var searchData=
   ['mesh_5fauth_5fvalue_5fmax_5flen',['MESH_AUTH_VALUE_MAX_LEN',['../wiced__bt__mesh__model__defs_8h.html#a6921b1df577334d18eb39ebc2cb3a8ae',1,'wiced_bt_mesh_model_defs.h']]],
   ['mesh_5fbattery_5fevent_5ft',['mesh_battery_event_t',['../structmesh__battery__event__t.html',1,'']]],
   ['mesh_5fcore_5fprovision_5fcb_5ft',['mesh_core_provision_cb_t',['../structmesh__core__provision__cb__t.html',1,'']]],
+  ['mesh_5fcore_5freport_5fevents_5fnode_5faddr',['mesh_core_report_events_node_addr',['../group__wiced__bt__mesh__core.html#gaa736dd7fa55e875325e7a38a61641192',1,'wiced_bt_mesh_core.h']]],
   ['mesh_5fdefault_5ftransition_5ftime_5fget',['mesh_default_transition_time_get',['../wiced__bt__mesh__model__utils_8h.html#ac43d59bff901fd760938f8643cb86c76',1,'wiced_bt_mesh_model_utils.h']]],
   ['mesh_5fdefault_5ftransition_5ftime_5fin_5fms',['MESH_DEFAULT_TRANSITION_TIME_IN_MS',['../wiced__bt__mesh__model__defs_8h.html#aba17b2cf242f9eb6d8068efef20b0e9b',1,'wiced_bt_mesh_model_defs.h']]],
   ['mesh_5fmax_5flight_5flc_5fproperty_5fvalue_5flen',['MESH_MAX_LIGHT_LC_PROPERTY_VALUE_LEN',['../wiced__bt__mesh__models_8h.html#a39a0c26a899393f6f6413dfde946acfc',1,'wiced_bt_mesh_models.h']]],

@@ -10,7 +10,7 @@ var group__l2cap__data__types =
     ] ],
     [ "wiced_bt_l2cap_cfg_information_t", "structwiced__bt__l2cap__cfg__information__t.html", [
       [ "fcr", "structwiced__bt__l2cap__cfg__information__t.html#a79260bc462661a6777bfb56c589aa39f", null ],
-      [ "fcr_present", "structwiced__bt__l2cap__cfg__information__t.html#a60affc11fe43fcba461a70fd7998c0e4", null ],
+      [ "fcr_present", "structwiced__bt__l2cap__cfg__information__t.html#a25c65286ca863b3db6aa5905ce2a1320", null ],
       [ "fcs", "structwiced__bt__l2cap__cfg__information__t.html#a551cefcd48f2a929589e54d67f029107", null ],
       [ "fcs_present", "structwiced__bt__l2cap__cfg__information__t.html#af120110b06f7e8e2881a049aec7d9606", null ],
       [ "flags", "structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f", null ],

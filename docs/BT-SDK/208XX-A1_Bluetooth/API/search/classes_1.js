@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['bmsg_5fcontent_5fstruct',['BMSG_CONTENT_struct',['../struct_b_m_s_g___c_o_n_t_e_n_t__struct.html',1,'']]],
-  ['bmsg_5fenvelope_5fstruct',['BMSG_ENVELOPE_struct',['../struct_b_m_s_g___e_n_v_e_l_o_p_e__struct.html',1,'']]],
-  ['bmsg_5fmessage_5fstruct',['BMSG_MESSAGE_struct',['../struct_b_m_s_g___m_e_s_s_a_g_e__struct.html',1,'']]]
+  ['arm_5fcm3_5fregs_5ft',['arm_cm3_regs_t',['../structarm__cm3__regs__t.html',1,'']]]
 ];

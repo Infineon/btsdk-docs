@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.0 - Documentation
+        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -158,6 +158,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gaf6ab59e49318a3f6c80a6208fa9683fa">wiced_hal_puart_configuration</a> (UINT32 baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
 <tr class="memdesc:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the baudrate, parity and stop bits as per received value  <a href="#gaf6ab59e49318a3f6c80a6208fa9683fa">More...</a><br /></td></tr>
 <tr class="separator:gaf6ab59e49318a3f6c80a6208fa9683fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga330873cd1d7974a7649150916103f8ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga330873cd1d7974a7649150916103f8ea">wiced_hal_puart_disable_interrupt</a> (void)</td></tr>
+<tr class="memdesc:ga330873cd1d7974a7649150916103f8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_hal_puart_disable_interrupt.  <a href="#ga330873cd1d7974a7649150916103f8ea">More...</a><br /></td></tr>
+<tr class="separator:ga330873cd1d7974a7649150916103f8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga830bca5949b78d47c2123711e93d23be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga830bca5949b78d47c2123711e93d23be">wiced_hal_puart_deregister_interrupt</a> (void)</td></tr>
+<tr class="memdesc:ga830bca5949b78d47c2123711e93d23be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function Name: wiced_hal_puart_deregister_interrupt.  <a href="#ga830bca5949b78d47c2123711e93d23be">More...</a><br /></td></tr>
+<tr class="separator:ga830bca5949b78d47c2123711e93d23be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -201,6 +207,58 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>BOOL32 - TRUE if the configuration was successfully set, FALSE otherwise.NOTE: For baudrate greater than 2.727272 Mb/sec use of 2 stop bits is mandatory due to hardware limitation. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga830bca5949b78d47c2123711e93d23be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_hal_puart_deregister_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_hal_puart_deregister_interrupt. </p>
+<p>Deregister Interrupt handler with Peripheral UART.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga330873cd1d7974a7649150916103f8ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_hal_puart_disable_interrupt </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function Name: wiced_hal_puart_disable_interrupt. </p>
+<p>Disable Peripheral UART interrupt.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
 </div>

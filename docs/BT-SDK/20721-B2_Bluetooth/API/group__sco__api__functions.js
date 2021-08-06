@@ -13,7 +13,8 @@ var group__sco__api__functions =
     [ "WICED_BT_SCO_DATA_CB_GET_LENGTH", "group__sco__api__functions.html#ga790bb3988e26ca2335c728a350c63736", null ],
     [ "wiced_bt_sco_data_cb_t", "group__sco__api__functions.html#ga33fcdeba6efc998d5d98ebc88e524a56", null ],
     [ "wiced_bt_sco_route_path_t", "group__sco__api__functions.html#ga4548402097137688617e39d9377fc8a2", [
-      [ "WICED_BT_SCO_OVER_PCM", "group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a0424732db6badc408fdb0510540a0368", null ]
+      [ "WICED_BT_SCO_OVER_PCM", "group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a0424732db6badc408fdb0510540a0368", null ],
+      [ "WICED_BT_SCO_OVER_APP_CB", "group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a5e43c4fea19852c300019b6817539dfd", null ]
     ] ],
     [ "wiced_bt_sco_accept_connection", "group__sco__api__functions.html#ga7c8ecc9a1333c1c5b4da60f1dd07d990", null ],
     [ "wiced_bt_sco_create_as_acceptor", "group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8", null ],
