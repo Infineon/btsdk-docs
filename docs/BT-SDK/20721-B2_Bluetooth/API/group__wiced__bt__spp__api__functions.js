@@ -14,7 +14,6 @@ var group__wiced__bt__spp__api__functions =
     [ "wiced_bt_spp_connection_up_callback_t", "group__wiced__bt__spp__api__functions.html#ga5c5c70bb21b99504927f619833b091f5", null ],
     [ "wiced_bt_spp_rx_data_callback_t", "group__wiced__bt__spp__api__functions.html#ga842fc79d956a41f5cbdaada0f1753690", null ],
     [ "wiced_bt_spp_service_not_found_callback_t", "group__wiced__bt__spp__api__functions.html#ga85c984a551ff8f1e0bd0d0f3a641620b", null ],
-    [ "wiced_bt_spp_tx_complete_callback_t", "group__wiced__bt__spp__api__functions.html#ga991d89c51fd6d6e5ac2dd40f2441ba53", null ],
     [ "wiced_bt_spp_can_send_more_data", "group__wiced__bt__spp__api__functions.html#ga8f42a8e2ce6fe84024dbe27c8a6ef76a", null ],
     [ "wiced_bt_spp_connect", "group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42", null ],
     [ "wiced_bt_spp_disconnect", "group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6", null ],

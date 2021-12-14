@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20721: wiced_bt_dev.h File Reference</title>
+<title>AIROC&trade; CYW20721: wiced_bt_dev.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -138,6 +138,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__remote__name__result__t.html">wiced_bt_dev_remote_name_result_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__switch__role__result__t.html">wiced_bt_dev_switch_role_result_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__power__table__params__t.html">wiced_bt_power_table_params_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure returned with wiced_read_power_table_value complete callback.  <a href="structwiced__bt__power__table__params__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__bredr__io__caps__rsp__t.html">wiced_bt_dev_bredr_io_caps_rsp_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data type for IO capabalities response (BTM_PAIRING_IO_CAPABILITIES_BR_EDR_RESPONSE_EVT)  <a href="structwiced__bt__dev__bredr__io__caps__rsp__t.html#details">More...</a><br /></td></tr>
@@ -311,6 +314,9 @@ Macros</h2></td></tr>
 <tr class="separator:ae53b2fe0a0176b1cf50697d7e2b6402b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbd9d724f27ce392b39a8ea285324ada"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_EIR_SERVICE_ARRAY_SIZE</b></td></tr>
 <tr class="separator:afbd9d724f27ce392b39a8ea285324ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f0edfc37d3ef13c99ac6dbd925a57f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18f0edfc37d3ef13c99ac6dbd925a57f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>POWER_LEVELS_CNT_MAX</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a18f0edfc37d3ef13c99ac6dbd925a57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a7b4c022c2274756a17ed41cd0c2722"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a0a7b4c022c2274756a17ed41cd0c2722">BTM_SEC_LEVEL</a></td></tr>
 <tr class="memdesc:a0a7b4c022c2274756a17ed41cd0c2722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Security Service Levels [bit mask].  <a href="#a0a7b4c022c2274756a17ed41cd0c2722">More...</a><br /></td></tr>
 <tr class="separator:a0a7b4c022c2274756a17ed41cd0c2722"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -764,6 +770,9 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="memitem:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a2e878a83923b8c96e8c37c82c9c96dbf">wiced_bt_dev_vse_callback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p)</td></tr>
 <tr class="memdesc:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vendor event handler callback.  <a href="#a2e878a83923b8c96e8c37c82c9c96dbf">More...</a><br /></td></tr>
 <tr class="separator:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6996444d26c4bf5d088a4fcd5c319cac"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a6996444d26c4bf5d088a4fcd5c319cac">wiced_bt_read_power_table_value_cback_t</a> )(<a class="el" href="structwiced__bt__power__table__params__t.html">wiced_bt_power_table_params_t</a> *p_power_table_params)</td></tr>
+<tr class="memdesc:a6996444d26c4bf5d088a4fcd5c319cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read power table value callback.  <a href="#a6996444d26c4bf5d088a4fcd5c319cac">More...</a><br /></td></tr>
+<tr class="separator:a6996444d26c4bf5d088a4fcd5c319cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97953398baa0fc214c8af02444b2b9e"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#ae97953398baa0fc214c8af02444b2b9e">wiced_bt_hci_trace_cback_t</a> )(<a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325">wiced_bt_hci_trace_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint16_t length, uint8_t *p_data)</td></tr>
 <tr class="memdesc:ae97953398baa0fc214c8af02444b2b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HCI trace callback.  <a href="#ae97953398baa0fc214c8af02444b2b9e">More...</a><br /></td></tr>
 <tr class="separator:ae97953398baa0fc214c8af02444b2b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1207,6 +1216,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 <tr class="memitem:ac20b42b7ab8c99d2a3ea85ac68a44e35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#ac20b42b7ab8c99d2a3ea85ac68a44e35">wiced_bt_set_tx_power</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="brcm__fw__types_8h.html#a7ebe70ceca856797319175e30bcf003d">INT8</a> power, <a class="el" href="wiced__bt__dev_8h.html#a16af26f84329c4d5ee716691f46e3faf">wiced_bt_dev_vendor_specific_command_complete_cback_t</a> *p_cb)</td></tr>
 <tr class="memdesc:ac20b42b7ab8c99d2a3ea85ac68a44e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_set_tx_power.  <a href="#ac20b42b7ab8c99d2a3ea85ac68a44e35">More...</a><br /></td></tr>
 <tr class="separator:ac20b42b7ab8c99d2a3ea85ac68a44e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4ec7f04db5b683abd7821f60806941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a9d4ec7f04db5b683abd7821f60806941">wiced_bt_dev_set_tx_power_table</a> (wiced_bt_tx_power_table_offset_mode_t <a class="el" href="wiced__transport_8h.html#a5cb22c5a78ab07810c47792053f7bad9">mode</a>, uint8_t *p_values)</td></tr>
+<tr class="memdesc:a9d4ec7f04db5b683abd7821f60806941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_tx_power_table.  <a href="#a9d4ec7f04db5b683abd7821f60806941">More...</a><br /></td></tr>
+<tr class="separator:a9d4ec7f04db5b683abd7821f60806941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e1523d23462614fe1e23920f140859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a02e1523d23462614fe1e23920f140859">wiced_bt_dev_force_update_tx_power_table</a> (void)</td></tr>
+<tr class="memdesc:a02e1523d23462614fe1e23920f140859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_force_update_tx_power_table.  <a href="#a02e1523d23462614fe1e23920f140859">More...</a><br /></td></tr>
+<tr class="separator:a02e1523d23462614fe1e23920f140859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d10f2ac71411fe624c58c5eb986c64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#af4d10f2ac71411fe624c58c5eb986c64">wiced_bt_read_power_table_values</a> (uint8_t index, <a class="el" href="wiced__bt__dev_8h.html#a6996444d26c4bf5d088a4fcd5c319cac">wiced_bt_read_power_table_value_cback_t</a> *f)</td></tr>
+<tr class="memdesc:af4d10f2ac71411fe624c58c5eb986c64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_read_power_table_values.  <a href="#af4d10f2ac71411fe624c58c5eb986c64">More...</a><br /></td></tr>
+<tr class="separator:af4d10f2ac71411fe624c58c5eb986c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcc841b65ce78e3653a06af3a0d4b66d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#afcc841b65ce78e3653a06af3a0d4b66d">wiced_bt_dev_set_tx_power_table_offset</a> (wiced_bt_tx_power_table_offset_mode_t <a class="el" href="wiced__transport_8h.html#a5cb22c5a78ab07810c47792053f7bad9">mode</a>, uint8_t ticks)</td></tr>
 <tr class="memdesc:afcc841b65ce78e3653a06af3a0d4b66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_tx_power_table_offset.  <a href="#afcc841b65ce78e3653a06af3a0d4b66d">More...</a><br /></td></tr>
 <tr class="separator:afcc841b65ce78e3653a06af3a0d4b66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1264,6 +1282,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 <tr class="memitem:af4fa19e58b2db7ff38f8b83028865980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#af4fa19e58b2db7ff38f8b83028865980">wiced_bt_set_device_class</a> (<a class="el" href="wiced__bt__types_8h.html#a7f67c2d3420bda8e18183f3ac932521d">wiced_bt_dev_class_t</a> dev_class)</td></tr>
 <tr class="memdesc:af4fa19e58b2db7ff38f8b83028865980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_set_device_class.  <a href="#af4fa19e58b2db7ff38f8b83028865980">More...</a><br /></td></tr>
 <tr class="separator:af4fa19e58b2db7ff38f8b83028865980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#afbbc974e447c9455ebe07c8c3d69d7d2">wiced_bt_dev_set_local_name</a> (char *p_name)</td></tr>
+<tr class="memdesc:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_local_name.  <a href="#afbbc974e447c9455ebe07c8c3d69d7d2">More...</a><br /></td></tr>
+<tr class="separator:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -1507,6 +1528,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Status of event handling </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6996444d26c4bf5d088a4fcd5c319cac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void( wiced_bt_read_power_table_value_cback_t)(<a class="el" href="structwiced__bt__power__table__params__t.html">wiced_bt_power_table_params_t</a> *p_power_table_params)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read power table value callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_power_table_params</td><td>: power table value </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2482,6 +2523,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 
 </div>
 </div>
+<a class="anchor" id="a02e1523d23462614fe1e23920f140859"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_dev_force_update_tx_power_table </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_force_update_tx_power_table. </p>
+<p>Description Application can invoke this function to force update tx power table, it only can be called after wiced_bt_dev_set_tx_power_table.</p>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a4bbf570f3c73cbfa33ee41d7d0c09a99"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2853,6 +2914,71 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 
 </div>
 </div>
+<a class="anchor" id="afbbc974e447c9455ebe07c8c3d69d7d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_local_name </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>p_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_local_name. </p>
+<p>Set the device local name</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_name</td><td>: Local device name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t <pre class="fragment">             WICED_BT_PENDING        command initiated successfully
+             WICED_BT_DEV_RESET      device not in the right state to execute the command
+             WICED_BT_NO_RESOURCES   no resources to issue command</pre> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9d4ec7f04db5b683abd7821f60806941"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_tx_power_table </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_tx_power_table_offset_mode_t&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_tx_power_table. </p>
+<p>Description Application can invoke this function to configure a custom BT tx power table to be used for the provided mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>: Phy mode (BR, EDR, LE, or LE2) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_values</td><td>: tx power table (must be uint8_t array with 8 steps, indexes 0 - 7)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_BT_BADARG if bad arguments passed WICED_BT_SUCCESS if successful </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="afcc841b65ce78e3653a06af3a0d4b66d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2997,6 +3123,43 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 
 </div>
 </div>
+<a class="anchor" id="af4d10f2ac71411fe624c58c5eb986c64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_read_power_table_values </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#a6996444d26c4bf5d088a4fcd5c319cac">wiced_bt_read_power_table_value_cback_t</a> *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_read_power_table_values. </p>
+<p>Description Application can invoke this function to read a BR/EDR tx power table value</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>: power table index (0 - 7) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>: callback function to be called when value is received</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="af4fa19e58b2db7ff38f8b83028865980"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3094,7 +3257,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 <p>Command to set the tx power on link</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: peer address To set Adv Tx power keep bd_addr NULL </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: peer address </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">power</td><td>: power value in db </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_cb</td><td>: Result callback (<a class="el" href="structwiced__bt__set__tx__power__result__t.html" title="TX Power Result (in response to wiced_bt_ble_set_adv_tx_power) ">wiced_bt_set_tx_power_result_t</a> will be passed to the callback)</td></tr>
   </table>
@@ -3110,7 +3273,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_dis
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_4f116764ec8c2b0986c859dd54fdb618.html">20721B2</a></li><li class="navelem"><a class="el" href="dir_fb19b40886f034504af6d09b933143ad.html">COMPONENT_20721B2</a></li><li class="navelem"><a class="el" href="dir_af876ddbd9949ca94008e886c50f2239.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

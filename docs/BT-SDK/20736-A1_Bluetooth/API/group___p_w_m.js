@@ -1,14 +1,14 @@
 var group___p_w_m =
 [
     [ "pwmIdToMask", "group___p_w_m.html#gae11aa4c13f8caa2fdcdf42bcd7368bfe", [
-      [ "PWM_CHANNEL_MASK", "group___p_w_m.html#gga92c4bd66c8074c3d126a069275a0a80ca6a813d0222bcdce38fea5ede34a6fb46", null ],
-      [ "PWM0_OUTPUT_ENABLE_P26", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfa1b2ea151aa74561c8f16b88f98f8e7be", null ],
-      [ "PWM1_OUTPUT_ENABLE_P27", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfae1a2b50ba850ae38497ffc80b4892ae1", null ],
-      [ "PWM2_OUTPUT_ENABLE_P28", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfa108f09d667cf3813099e8df5b0e36120", null ],
-      [ "PWM2_OUTPUT_ENABLE_P6", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfaaac65b3ab4b984342267c1fa0589639c", null ],
-      [ "PWM2_OUTPUT_ENABLE_P14", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfa7ebf326a29b4ad1eafbbdad1ff73b59f", null ],
-      [ "PWM3_OUTPUT_ENABLE_P29", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfa3d9871bae595581aa690a24b0f8ff323", null ],
-      [ "PWM3_OUTPUT_ENABLE_P13", "group___p_w_m.html#gga2ee507fea44084259042ff7bb45ecabfa7e05926ed5b11d31246a7b692043c098", null ]
+      [ "PWM_CHANNEL_MASK", "group___p_w_m.html#gga15b3bbe041870ee299f7e042b0305e3ca6a813d0222bcdce38fea5ede34a6fb46", null ],
+      [ "PWM0_OUTPUT_ENABLE_P26", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aea1b2ea151aa74561c8f16b88f98f8e7be", null ],
+      [ "PWM1_OUTPUT_ENABLE_P27", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aeae1a2b50ba850ae38497ffc80b4892ae1", null ],
+      [ "PWM2_OUTPUT_ENABLE_P28", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aea108f09d667cf3813099e8df5b0e36120", null ],
+      [ "PWM2_OUTPUT_ENABLE_P6", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aeaaac65b3ab4b984342267c1fa0589639c", null ],
+      [ "PWM2_OUTPUT_ENABLE_P14", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aea7ebf326a29b4ad1eafbbdad1ff73b59f", null ],
+      [ "PWM3_OUTPUT_ENABLE_P29", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aea3d9871bae595581aa690a24b0f8ff323", null ],
+      [ "PWM3_OUTPUT_ENABLE_P13", "group___p_w_m.html#ggae62fccd8cea8f216b24ba625d404c4aea7e05926ed5b11d31246a7b692043c098", null ]
     ] ],
     [ "PwmClockType", "group___p_w_m.html#gae6f1f44294b67f525ab35c3205cea26f", [
       [ "LHL_CLK", "group___p_w_m.html#ggae6f1f44294b67f525ab35c3205cea26fad2e9420147ce9d556b4e15d50dff15f5", null ],

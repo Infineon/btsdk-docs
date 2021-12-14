@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: wiced_transport.h File Reference</title>
+<title>AIROC&trade; CYW208XX: wiced_transport.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -112,16 +112,16 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga4c42181f8444932c1076e589e4c7feef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4c42181f8444932c1076e589e4c7feef"></a>
 typedef struct <br class="typebreak" />
 _wiced_trans_buffer_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a></td></tr>
-<tr class="memdesc:ga4c42181f8444932c1076e589e4c7feef"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Internal Buffer Pool structure. <br /></td></tr>
+<tr class="memdesc:ga4c42181f8444932c1076e589e4c7feef"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Internal Buffer Pool structure. <br /></td></tr>
 <tr class="separator:ga4c42181f8444932c1076e589e4c7feef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__cback__functions.html#ga7b9d02d5fdbf9d3dd635d92be25d3372">wiced_transport_status_handler_t</a> )(<a class="el" href="group__group__transport__enums.html#gaa3204840aade2c90bfa311c48beabcb3">wiced_transport_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
-<tr class="memdesc:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Status Handler.  <a href="group__group__transport__cback__functions.html#ga7b9d02d5fdbf9d3dd635d92be25d3372">More...</a><br /></td></tr>
+<tr class="memdesc:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Status Handler.  <a href="group__group__transport__cback__functions.html#ga7b9d02d5fdbf9d3dd635d92be25d3372">More...</a><br /></td></tr>
 <tr class="separator:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="memItemLeft" align="right" valign="top">typedef uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__cback__functions.html#gac18db9b6503a1f1fd4ff237c5d4fccca">wiced_tranport_data_handler_t</a> )(uint8_t *p_data, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
-<tr class="memdesc:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Data Handler.  <a href="group__group__transport__cback__functions.html#gac18db9b6503a1f1fd4ff237c5d4fccca">More...</a><br /></td></tr>
+<tr class="memdesc:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Data Handler.  <a href="group__group__transport__cback__functions.html#gac18db9b6503a1f1fd4ff237c5d4fccca">More...</a><br /></td></tr>
 <tr class="separator:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa346b15f3bee3902b565a13ab0f82815"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__cback__functions.html#gaa346b15f3bee3902b565a13ab0f82815">wiced_transport_tx_complete_t</a> )(<a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *p_pool)</td></tr>
-<tr class="memdesc:gaa346b15f3bee3902b565a13ab0f82815"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Transmit complete indication.  <a href="group__group__transport__cback__functions.html#gaa346b15f3bee3902b565a13ab0f82815">More...</a><br /></td></tr>
+<tr class="memdesc:gaa346b15f3bee3902b565a13ab0f82815"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Transmit complete indication.  <a href="group__group__transport__cback__functions.html#gaa346b15f3bee3902b565a13ab0f82815">More...</a><br /></td></tr>
 <tr class="separator:gaa346b15f3bee3902b565a13ab0f82815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaef699c789add200b23cd080eae36c4e0"><td class="memItemLeft" ><a class="anchor" id="gaef699c789add200b23cd080eae36c4e0"></a>
 struct {</td></tr>
@@ -164,7 +164,7 @@ struct {</td></tr>
 <tr class="memdesc:a0baa70d2024bb06f784c72676e3a4473"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GPIO pin to be used as the slave is ready.  <a href="#a0baa70d2024bb06f784c72676e3a4473">More...</a><br /></td></tr>
 <tr class="separator:a0baa70d2024bb06f784c72676e3a4473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03c53df53ec36f89dbddd919d26448b8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__data__structures.html#ga03c53df53ec36f89dbddd919d26448b8">wiced_spi_transport_cfg_t</a></td></tr>
-<tr class="memdesc:ga03c53df53ec36f89dbddd919d26448b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED SPI Transport Configuration. <br /></td></tr>
+<tr class="memdesc:ga03c53df53ec36f89dbddd919d26448b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC SPI Transport Configuration. <br /></td></tr>
 <tr class="separator:ga03c53df53ec36f89dbddd919d26448b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4646e1421dea24f6e64cbdc337886844"><td class="memItemLeft" ><a class="anchor" id="ga4646e1421dea24f6e64cbdc337886844"></a>
 union {</td></tr>
@@ -175,7 +175,7 @@ union {</td></tr>
 &#160;&#160;&#160;<a class="el" href="group__group__transport__data__structures.html#ga03c53df53ec36f89dbddd919d26448b8">wiced_spi_transport_cfg_t</a>&#160;&#160;&#160;<b>spi_cfg</b></td></tr>
 <tr class="separator:ac3d96a02ad41b70a6daadb323cda82bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4646e1421dea24f6e64cbdc337886844"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__data__structures.html#ga4646e1421dea24f6e64cbdc337886844">wiced_transport_interface_cfg_t</a></td></tr>
-<tr class="memdesc:ga4646e1421dea24f6e64cbdc337886844"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Interface Configuration. <br /></td></tr>
+<tr class="memdesc:ga4646e1421dea24f6e64cbdc337886844"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Interface Configuration. <br /></td></tr>
 <tr class="separator:ga4646e1421dea24f6e64cbdc337886844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad897b6694113a954548fcbbbbd609d65"><td class="memItemLeft" >struct {</td></tr>
 <tr class="memitem:ab4bab919e0d995ad7249474cd9028105"><td class="memItemLeft" ><a class="anchor" id="ab4bab919e0d995ad7249474cd9028105"></a>
@@ -185,30 +185,30 @@ union {</td></tr>
 &#160;&#160;&#160;uint32_t&#160;&#160;&#160;<b>buffer_count</b></td></tr>
 <tr class="separator:a5ec37a5e4e59d8812e3c8013d001df58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad897b6694113a954548fcbbbbd609d65"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__data__structures.html#gad897b6694113a954548fcbbbbd609d65">wiced_transport_rx_buff_pool_cfg_t</a></td></tr>
-<tr class="memdesc:gad897b6694113a954548fcbbbbd609d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport receive buffer pool configuration.  <a href="group__group__transport__data__structures.html#gad897b6694113a954548fcbbbbd609d65">More...</a><br /></td></tr>
+<tr class="memdesc:gad897b6694113a954548fcbbbbd609d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport receive buffer pool configuration.  <a href="group__group__transport__data__structures.html#gad897b6694113a954548fcbbbbd609d65">More...</a><br /></td></tr>
 <tr class="separator:gad897b6694113a954548fcbbbbd609d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadfe2aa2d162dc986049ff74c7b367419"><td class="memItemLeft" ><a class="anchor" id="gadfe2aa2d162dc986049ff74c7b367419"></a>
 struct {</td></tr>
 <tr class="memitem:a49307c2e0d12e473147282efe6494a25"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__enums.html#gaa3204840aade2c90bfa311c48beabcb3">wiced_transport_type_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#a49307c2e0d12e473147282efe6494a25">type</a></td></tr>
-<tr class="memdesc:a49307c2e0d12e473147282efe6494a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED transport type.  <a href="#a49307c2e0d12e473147282efe6494a25">More...</a><br /></td></tr>
+<tr class="memdesc:a49307c2e0d12e473147282efe6494a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC transport type.  <a href="#a49307c2e0d12e473147282efe6494a25">More...</a><br /></td></tr>
 <tr class="separator:a49307c2e0d12e473147282efe6494a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cfbd2e61d8ce735774f5737ac50a31e"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__data__structures.html#ga4646e1421dea24f6e64cbdc337886844">wiced_transport_interface_cfg_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#a8cfbd2e61d8ce735774f5737ac50a31e">cfg</a></td></tr>
-<tr class="memdesc:a8cfbd2e61d8ce735774f5737ac50a31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED transport interface config.  <a href="#a8cfbd2e61d8ce735774f5737ac50a31e">More...</a><br /></td></tr>
+<tr class="memdesc:a8cfbd2e61d8ce735774f5737ac50a31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC transport interface config.  <a href="#a8cfbd2e61d8ce735774f5737ac50a31e">More...</a><br /></td></tr>
 <tr class="separator:a8cfbd2e61d8ce735774f5737ac50a31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66034389972edde796e89217e2e69202"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__data__structures.html#gad897b6694113a954548fcbbbbd609d65">wiced_transport_rx_buff_pool_cfg_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#a66034389972edde796e89217e2e69202">rx_buff_pool_cfg</a></td></tr>
-<tr class="memdesc:a66034389972edde796e89217e2e69202"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED RX buffer pool config.  <a href="#a66034389972edde796e89217e2e69202">More...</a><br /></td></tr>
+<tr class="memdesc:a66034389972edde796e89217e2e69202"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC RX buffer pool config.  <a href="#a66034389972edde796e89217e2e69202">More...</a><br /></td></tr>
 <tr class="separator:a66034389972edde796e89217e2e69202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8228e264bf4e196ad6f5f54493c0a53a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__cback__functions.html#ga7b9d02d5fdbf9d3dd635d92be25d3372">wiced_transport_status_handler_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#a8228e264bf4e196ad6f5f54493c0a53a">p_status_handler</a></td></tr>
-<tr class="memdesc:a8228e264bf4e196ad6f5f54493c0a53a"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED transport status handler.  <a href="#a8228e264bf4e196ad6f5f54493c0a53a">More...</a><br /></td></tr>
+<tr class="memdesc:a8228e264bf4e196ad6f5f54493c0a53a"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC transport status handler.  <a href="#a8228e264bf4e196ad6f5f54493c0a53a">More...</a><br /></td></tr>
 <tr class="separator:a8228e264bf4e196ad6f5f54493c0a53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b991e01a317cfdbf93c98133f070fe"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__cback__functions.html#gac18db9b6503a1f1fd4ff237c5d4fccca">wiced_tranport_data_handler_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#a78b991e01a317cfdbf93c98133f070fe">p_data_handler</a></td></tr>
-<tr class="memdesc:a78b991e01a317cfdbf93c98133f070fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED transport receive data handler.  <a href="#a78b991e01a317cfdbf93c98133f070fe">More...</a><br /></td></tr>
+<tr class="memdesc:a78b991e01a317cfdbf93c98133f070fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC transport receive data handler.  <a href="#a78b991e01a317cfdbf93c98133f070fe">More...</a><br /></td></tr>
 <tr class="separator:a78b991e01a317cfdbf93c98133f070fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0ce35f4843295127ffc667c811daed4"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="group__group__transport__cback__functions.html#gaa346b15f3bee3902b565a13ab0f82815">wiced_transport_tx_complete_t</a>&#160;&#160;&#160;<a class="el" href="wiced__transport_8h.html#ac0ce35f4843295127ffc667c811daed4">p_tx_complete_cback</a></td></tr>
-<tr class="memdesc:ac0ce35f4843295127ffc667c811daed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED transport TX complete callback.  <a href="#ac0ce35f4843295127ffc667c811daed4">More...</a><br /></td></tr>
+<tr class="memdesc:ac0ce35f4843295127ffc667c811daed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC transport TX complete callback.  <a href="#ac0ce35f4843295127ffc667c811daed4">More...</a><br /></td></tr>
 <tr class="separator:ac0ce35f4843295127ffc667c811daed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadfe2aa2d162dc986049ff74c7b367419"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__data__structures.html#gadfe2aa2d162dc986049ff74c7b367419">wiced_transport_cfg_t</a></td></tr>
-<tr class="memdesc:gadfe2aa2d162dc986049ff74c7b367419"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Configuration. <br /></td></tr>
+<tr class="memdesc:gadfe2aa2d162dc986049ff74c7b367419"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Configuration. <br /></td></tr>
 <tr class="separator:gadfe2aa2d162dc986049ff74c7b367419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -217,12 +217,12 @@ Enumerations</h2></td></tr>
 <b>WICED_TRANSPORT_SPI</b>, 
 <b>WICED_TRANSPORT_UNDEFINED</b>
  }</td></tr>
-<tr class="memdesc:gaa3204840aade2c90bfa311c48beabcb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Types. <br /></td></tr>
+<tr class="memdesc:gaa3204840aade2c90bfa311c48beabcb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Types. <br /></td></tr>
 <tr class="separator:gaa3204840aade2c90bfa311c48beabcb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6d833ecd8b1499a47a89c49dfe8d60f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6d833ecd8b1499a47a89c49dfe8d60f1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__transport__enums.html#ga6d833ecd8b1499a47a89c49dfe8d60f1">wiced_transport_uart_mode_t</a> { <b>WICED_TRANSPORT_UART_HCI_MODE</b>, 
 <b>WICED_TRANSPORT_UART_RAW_MODE</b>
  }</td></tr>
-<tr class="memdesc:ga6d833ecd8b1499a47a89c49dfe8d60f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED UART Transport Mode. <br /></td></tr>
+<tr class="memdesc:ga6d833ecd8b1499a47a89c49dfe8d60f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC UART Transport Mode. <br /></td></tr>
 <tr class="separator:ga6d833ecd8b1499a47a89c49dfe8d60f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -263,7 +263,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
-<p>This file provides the API declarations for the WICED Transport driver </p>
+<p>This file provides the API declarations for the AIROC Transport driver </p>
 </div><h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a148f33bbcda8087a77d8ba30f7e3c502"></a>
 <div class="memitem">
@@ -289,7 +289,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED transport interface config. </p>
+<p>AIROC transport interface config. </p>
 
 </div>
 </div>
@@ -374,7 +374,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED transport receive data handler. </p>
+<p>AIROC transport receive data handler. </p>
 
 </div>
 </div>
@@ -388,7 +388,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED transport status handler. </p>
+<p>AIROC transport status handler. </p>
 
 </div>
 </div>
@@ -402,7 +402,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED transport TX complete callback. </p>
+<p>AIROC transport TX complete callback. </p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED RX buffer pool config. </p>
+<p>AIROC RX buffer pool config. </p>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>WICED transport type. </p>
+<p>AIROC transport type. </p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_f37f15e1d13918d9774352e13808261b.html">20819A1</a></li><li class="navelem"><a class="el" href="dir_91762f9eda66ecca79d3fbd71e0ce71c.html">COMPONENT_20819A1</a></li><li class="navelem"><a class="el" href="dir_acd086564a5767510c692797f452e46a.html">include</a></li><li class="navelem"><a class="el" href="dir_e11082aeffecb92777bd2f351e7f5c7c.html">hal</a></li><li class="navelem"><a class="el" href="wiced__transport_8h.html">wiced_transport.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

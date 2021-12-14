@@ -1,13 +1,13 @@
 var NAVTREE =
 [
-  [ "WICED CYW208XX", "index.html", [
-    [ "WICED API Reference", "index.html#wiced_api", null ],
-    [ "WICED User Guides", "index.html#wiced_pdf_docs", null ],
-    [ "WICED Hardware Reference", "index.html#wiced_hw_docs", null ],
-    [ "WICED Website", "index.html#wiced_web", null ],
-    [ "Bluetooth References", "index.html#bt_smart_ref", null ],
-    [ "WICED Community", "index.html#wiced_forum", null ],
-    [ "WICED BT SDK Licensing Information", "index.html#wiced_license", null ],
+  [ "AIROC™ CYW208XX", "index.html", [
+    [ "AIROC™ API Reference", "index.html#wiced_api", null ],
+    [ "AIROC™ User Guides", "index.html#wiced_pdf_docs", null ],
+    [ "AIROC™ Hardware Reference", "index.html#wiced_hw_docs", null ],
+    [ "AIROC™ Website", "index.html#wiced_web", null ],
+    [ "Bluetooth® References", "index.html#bt_smart_ref", null ],
+    [ "AIROC™ Community", "index.html#wiced_forum", null ],
+    [ "AIROC™ BTSDK Licensing Information", "index.html#wiced_license", null ],
     [ "Components", "modules.html", "modules" ]
   ] ]
 ];
@@ -15,20 +15,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___adc_driver.html",
-"group___g_p_i_o_driver.html#gga6668f4196eba895096ea26bdfbcd4125afff9af40803e77ba0698a4eff2b204be",
-"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2da5b57596881e19937c0e74bb3e5664d8c",
-"group__group__dev__enums.html#ga5cbb7a9f3547f9bc9f3bedc184bc5587",
-"group__group__memory__functions.html",
-"group__keyscan_button.html#ga0dc00da3e9117937bf88f6495cbca6dd",
+"group___g_p_i_o_driver.html#ggad7d1303531c7ce234d810b8ced530e29a50028856a4a636866bce471eac24ecfe",
+"group__group___peripheral_spi_driver__enums.html#gga257d08e39e34f30499952a3f19318f3dab0bbee1f2cdab6872b65b235afa6acac",
+"group__group__dev__enums.html#ga8a46ed3147b4b1dc48b67a34b75c8bab",
+"group__group__nvram__functions.html#ga5b9d27e968363998c3e1f7f9ca1719dc",
+"group__keyscan_button.html#ga8263ddb2b3aba661db4e717386265d95",
 "group__wiced__bt__iap2__api__functions.html#gaeafb8b8d5103247396628d38c3d92ea4",
-"group__wiced__bt__mesh__light__hsl__client.html#ga771fbc828b62810aa822ce279d556e8b",
-"group__wiced__bt__mesh__provisioning.html#ga3b3ca9d63273eced236e9f2ecb8766e6",
-"group__wicedbt__av__a2d__helper.html#ga1817eb31fc3570f8b3620d2469645bda",
-"structwiced__bt__avrc__ct__features__abs__vol__t.html#a1699094a55a0394ff884346e034df54c",
-"structwiced__bt__l2cap__appl__information__t.html#aaacfd21f77ad47b9445b89bd1e9faa95",
-"structwiced__bt__mesh__light__hsl__hue__set__t.html#a284a81478e29d96532d13ebd737d6b82",
-"structwiced__bt__mesh__provision__scan__extended__report__data__t.html#ade818037fd6c985038ff29656089758d",
-"unionwiced__bt__management__evt__data__t.html#aa8c7360276380cda32ca91fbef58845d"
+"group__wiced__bt__mesh__light__ctl__server.html#ga794cb5d5a4e341379bb70536b8ce41a3",
+"group__wiced__bt__mesh__provisioning.html#ga2121837c8954002743d6f0e61ba59463",
+"group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a8e73675db42a0d6d30ed7558f20625a8",
+"structwiced__bt__ans__gatt__handles__t.html#a1763bdebd7dc131326e33b06cfcc5ddc",
+"structwiced__bt__iap2__reg__t.html#aa9e1a22489f50fa207371e0da4931a03",
+"structwiced__bt__mesh__light__ctl__temperature__set__t.html#adc4674f6ea53803d98fa2ec36759e77d",
+"structwiced__bt__mesh__provision__device__oob__request__data__t.html#a10f0de7b325aba5299cdc4fa6c6189c9",
+"unionwiced__bt__hrc__event__data__t.html#ad4c6c87ef10d25e782690659b98db6b2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

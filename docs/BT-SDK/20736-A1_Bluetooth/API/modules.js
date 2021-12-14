@@ -1,7 +1,6 @@
 var modules =
 [
-    [ "Application", "group__application.html", "group__application" ],
-    [ "Application Management", "group__bleapp.html", null ],
+    [ "Application Management", "group__devlpm.html", "group__devlpm" ],
     [ "Connection Information", "group__emconinfo.html", "group__emconinfo" ],
     [ "Controller Manager", "group__blecm.html", "group__blecm" ],
     [ "GATT Profiles", "group__bleprofile.html", "group__bleprofile" ],

@@ -1,20 +1,20 @@
 var group__mia =
 [
-    [ "MiaState", "group__mia.html#gadd3767ce990b4c9fcb4477807eb95fbc", [
-      [ "MIA_P2_OPSR_SEL_PORT_2_6_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a9f29e24eb90b57dc86e51abb6c920444", null ],
-      [ "MIA_P2_OPSR_SEL_PORT_2_6_IS_KSO14", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8ad769ccc148f7a99d0d2056178eefff8b", null ],
-      [ "MIA_OPSR_SEL0_PORT_2_7_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a3592c1026b345c9df515d7e5b61028f9", null ],
-      [ "MIA_OPSR_SEL0_PORT_2_7_IS_KSO15", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a66d342506dda0916e6fe0b2730991e5b", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_0_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a34887fbc597140b13e2c354a5c8637c7", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_0_IS_KSO16", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a02485a1a3a05775d005aa381c9349bc8", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_1_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8aba847959fd1d0a1fccc27468d9b10172", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_1_IS_KSO17", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8ac8e5a13cc251f5af60a946dad8ffb37b", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_2_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a206e1d9a29d3acccb3c34072b6830e61", null ],
-      [ "MIA_OPSR_SEL0_PORT_3_2_IS_KSO18", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a8688df997db658460879251ae84b279a", null ],
-      [ "MIA_OPSR_SEL1_PORT_3_3_BIT_MASK", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8a176ecf26168bdbbede08f9a5f9f8d22e", null ],
-      [ "MIA_OPSR_SEL1_PORT_3_3_IS_KSO19", "group__mia.html#gga84fe57ba52f8e237004a413b27ea4db8ac3dddfac15b3edbc61609b305261d868", null ],
-      [ "HW_LHL_STATUS_HID_OFF_WAKEUP", "group__mia.html#gga78372742882dccd1c13323dbd66c25c5af3f502943b5305d1372589631c232c14", null ],
-      [ "HW_LHL_STATUS_GPIO_ASYNC_WAKEUP", "group__mia.html#gga78372742882dccd1c13323dbd66c25c5a3a4b2fb674f3e3fafa476f2cd7860afd", null ]
+    [ "MiaState", "group__mia.html#ga09d1ebaed9a79df532951cfde5643e09", [
+      [ "MIA_P2_OPSR_SEL_PORT_2_6_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a9f29e24eb90b57dc86e51abb6c920444", null ],
+      [ "MIA_P2_OPSR_SEL_PORT_2_6_IS_KSO14", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469ad769ccc148f7a99d0d2056178eefff8b", null ],
+      [ "MIA_OPSR_SEL0_PORT_2_7_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a3592c1026b345c9df515d7e5b61028f9", null ],
+      [ "MIA_OPSR_SEL0_PORT_2_7_IS_KSO15", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a66d342506dda0916e6fe0b2730991e5b", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_0_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a34887fbc597140b13e2c354a5c8637c7", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_0_IS_KSO16", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a02485a1a3a05775d005aa381c9349bc8", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_1_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469aba847959fd1d0a1fccc27468d9b10172", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_1_IS_KSO17", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469ac8e5a13cc251f5af60a946dad8ffb37b", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_2_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a206e1d9a29d3acccb3c34072b6830e61", null ],
+      [ "MIA_OPSR_SEL0_PORT_3_2_IS_KSO18", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a8688df997db658460879251ae84b279a", null ],
+      [ "MIA_OPSR_SEL1_PORT_3_3_BIT_MASK", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469a176ecf26168bdbbede08f9a5f9f8d22e", null ],
+      [ "MIA_OPSR_SEL1_PORT_3_3_IS_KSO19", "group__mia.html#gga10e74d65d7876276a8f6061c71dcf469ac3dddfac15b3edbc61609b305261d868", null ],
+      [ "HW_LHL_STATUS_HID_OFF_WAKEUP", "group__mia.html#gga1f3b6c692395e5007ff47ce5d9304c1caf3f502943b5305d1372589631c232c14", null ],
+      [ "HW_LHL_STATUS_GPIO_ASYNC_WAKEUP", "group__mia.html#gga1f3b6c692395e5007ff47ce5d9304c1ca3a4b2fb674f3e3fafa476f2cd7860afd", null ]
     ] ],
     [ "MiaTimedWakeRefClock", "group__mia.html#ga6e445cc16bbca701c40ef6b4f633b69e", [
       [ "HID_OFF_TIMED_WAKE_CLK_SRC_32KHZ", "group__mia.html#gga6e445cc16bbca701c40ef6b4f633b69ea8a58056de32894f1fdf57f52652b9997", null ],

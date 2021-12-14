@@ -14,7 +14,7 @@ var group___spiffy_driver =
     [ "SPI_SS_MODE", "group___spiffy_driver.html#ga866d155052a4914a22454921c97f86a3", null ],
     [ "SPI_SS_POLARITY", "group___spiffy_driver.html#ga25dc10b8838e4732c8075bff11c32ce1", null ],
     [ "SpiffyInstance", "group___spiffy_driver.html#ga9f59a07a79cb3ebda98155b6531daa11", [
-      [ "CR_PAD_FCN_CTL2_RXD_MASK", "group___spiffy_driver.html#ggaf59064efe753e6928fd91539a27503d1a7812acdcec3e82f0ce4ebfb19fc48d13", null ]
+      [ "CR_PAD_FCN_CTL2_RXD_MASK", "group___spiffy_driver.html#gga52864abcf6ebd8d120995b36fe6ce06ea7812acdcec3e82f0ce4ebfb19fc48d13", null ]
     ] ],
     [ "Spi1MasterGpioConfigType", "group___spiffy_driver.html#ga2dea552e621da1f5e8f0d71f4df88013", null ],
     [ "Spi2MasterGpioConfigType", "group___spiffy_driver.html#ga356c4068f257b632ddf17feb9c468806", null ],

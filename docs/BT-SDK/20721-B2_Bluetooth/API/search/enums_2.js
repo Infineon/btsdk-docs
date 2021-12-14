@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['gpio_5fpin_5foutput_5fconfig',['GPIO_PIN_OUTPUT_CONFIG',['../group___g_p_i_o_driver.html#ga40a6db60a2aa985a2ce0a6561df1d9bf',1,'wiced_hal_gpio.h']]]
+  ['param_5ftype_5ft',['param_type_t',['../wiced__audio__manager_8h.html#a982d67c5d2cfe30f82830c944cfc100f',1,'wiced_audio_manager.h']]],
+  ['pwmchannels',['PwmChannels',['../group__group__pwm__data__structures.html#ga110255581504f7511e2e4e43d06d8868',1,'wiced_hal_pwm.h']]],
+  ['pwmclocktype',['PwmClockType',['../group__group__pwm__data__structures.html#gae6f1f44294b67f525ab35c3205cea26f',1,'wiced_hal_pwm.h']]]
 ];

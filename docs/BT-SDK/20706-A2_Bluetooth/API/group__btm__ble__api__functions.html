@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20706: BLE (Bluetooth Low Energy)</title>
+<title>AIROC&trade; CYW20706: Bluetooth Low Energy</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,11 +98,11 @@ $(document).ready(function(){initNavTree('group__btm__ble__api__functions.html',
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">BLE (Bluetooth Low Energy)<div class="ingroups"><a class="el" href="group__wicedbt___device_management.html">Device Management</a></div></div>  </div>
+<div class="title">Bluetooth Low Energy<div class="ingroups"><a class="el" href="group__wicedbt___device_management.html">Device Management</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This section talks about the various API's required to integrate BLE functionality to an application.  
+<p>This section talks about the various API's required to integrate LE functionality to an application.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -196,8 +196,8 @@ Functions</h2></td></tr>
 <tr class="separator:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>This section talks about the various API's required to integrate BLE functionality to an application. </p>
-<p>Please refer to the bluetooth specification for details regarding BLE functionality. </p>
+<p>This section talks about the various API's required to integrate LE functionality to an application. </p>
+<p>Please refer to the bluetooth specification for details regarding LE functionality. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga8d62204cf6ab289f977215c08d5864ca"></a>
 <div class="memitem">
@@ -350,7 +350,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>remote device address. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="structwiced__bt__ble__conn__params__t.html" title="BLE connection parameteres. ">wiced_bt_ble_conn_params_t</a></td><td>- Connection Parameters</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="structwiced__bt__ble__conn__params__t.html" title="LE connection parameteres. ">wiced_bt_ble_conn_params_t</a></td><td>- Connection Parameters</td></tr>
   </table>
   </dd>
 </dl>
@@ -604,7 +604,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_ble_set_background_connection_type. </p>
-<p>Set BLE background connection procedure type.</p>
+<p>Set LE background connection procedure type.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">conn_type</td><td>BTM_BLE_CONN_NONE, BTM_BLE_CONN_AUTO, or BTM_BLE_CONN_SELECTIVE </td></tr>
@@ -988,7 +988,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: remote bd address </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_key_mask</td><td>: ble key mask stored</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_key_mask</td><td>: le key mask stored</td></tr>
   </table>
   </dd>
 </dl>
@@ -1273,7 +1273,7 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">own_address</td><td>: 6 byte own advertisement address </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">peer_address_type</td><td>: see <a class="el" href="wiced__bt__types_8h.html#a97897f7408c23723933e9d21815c7294" title="BLE device address type (see BT Address Types) ">wiced_bt_ble_address_type_t</a> ( As per spec ) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">peer_address</td><td>: 6 byte Public/Random/Public ID/ Random ID address according to peer_address_type ( As per spec ) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_channel_map</td><td>: Advertising channel map ( see <a class="el" href="wiced__bt__ble_8h.html#a9d58795bb527ae681bfa8135cc4b67e3" title="BLE advertisement channel map (see wiced_bt_ble_advert_chnl_map_e) ">wiced_bt_ble_advert_chnl_map_t</a>, As per spec ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_channel_map</td><td>: Advertising channel map ( see <a class="el" href="wiced__bt__ble_8h.html#a9d58795bb527ae681bfa8135cc4b67e3" title="LE advertisement channel map (see wiced_bt_ble_advert_chnl_map_e) ">wiced_bt_ble_advert_chnl_map_t</a>, As per spec ) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">advertising_filter_policy</td><td>: see <a class="el" href="wiced__bt__ble_8h.html#a9f721100e521471e5a9cc5f9adcd92d4" title="Advertising filter policy (see wiced_bt_ble_advert_filter_policy_e) ">wiced_bt_ble_advert_filter_policy_t</a> ( As per spec ) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adv_instance</td><td>: 1 to MULTI_ADV_MAX_NUM_INSTANCES </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">transmit_power</td><td>: Transmit Power in dBm ( MULTI_ADV_TX_POWER_MIN to MULTI_ADV_TX_POWER_MAX )</td></tr>
@@ -1370,7 +1370,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

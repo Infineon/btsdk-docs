@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: Mesh OnOff Client</title>
+<title>AIROC&trade; CYW208XX: Mesh OnOff Client</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__onoff__client.
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information.  
+<p>The AIROC Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga1e7739e0b5f369e9f5c236be43a7e71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information. </p>
+<p>The AIROC Mesh On/Off Client module of the Mesh Models library provides a way for an application to send OnOff commands to the server and optionally receive status information. </p>
 <p>To include On/Off functionality, the device description shall contain <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga891ae2d88c30f0ebd1ba36fc327ffec4">WICED_BT_MESH_MODEL_ONOFF_CLIENT</a>. To implement a device which supports multiple switches, the <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga891ae2d88c30f0ebd1ba36fc327ffec4">WICED_BT_MESH_MODEL_ONOFF_CLIENT</a> shall be included in multiple elements. Based on this information, the device that performs configuration will be able to specify different destination for every switch.</p>
 <p>In a simplest form, an application needs to initialize using the <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga05dc5ec90d2ad8a1e9ce1d64c4fc85fa">wiced_bt_mesh_model_onoff_client_init</a> function and then call <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga3d456b1f9a9c0b2ff58361ecc99520ad">wiced_bt_mesh_model_onoff_client_set</a> to tell the Mesh Library to send a command. The configuration of the destination address and security credential is done during the provisioning/configuration process and the application does not need to worry about it.</p>
 <p>If an application needs more control of how messages are sent out, it can use <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga4ce52a7d57bd8cba120ad2925962b60d">wiced_bt_mesh_model_onoff_client_send_get</a> and <a class="el" href="group__wiced__bt__mesh__onoff__client.html#ga1e7739e0b5f369e9f5c236be43a7e71e">wiced_bt_mesh_model_onoff_client_send_set</a> functions. These functions require to use the p_event parameter which include among others address of the desgination, application key index, retrnansmission parameters, TTL, and various others. After creating the event, the application can adjust the paramters as needed.</p>
@@ -406,7 +406,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

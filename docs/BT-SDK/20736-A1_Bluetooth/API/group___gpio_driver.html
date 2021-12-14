@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20736: GpioDriver</title>
+<title>AIROC&trade; CYW20736: GpioDriver</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -118,13 +118,13 @@ typedef struct <a class="el" href="struct_gpio_registration.html">GpioRegistrati
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga1be3860693af99a6c1da72580097294c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>GPIO_NUM_PORTS</b> = GPIO_NUMBER_OF_PORTS, 
+<tr class="memitem:ga2f80701c36e79c0640d91c788feee0b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>GPIO_NUM_PORTS</b> = GPIO_NUMBER_OF_PORTS, 
 <b>GPIO_MAX_NUM_PINS_PER_PORT</b> = GPIO_MAX_PINS_PER_PORT, 
 <b>GPIO_NUM_PINS</b> = GPIO_NUMBER_OF_PINS
  }</td></tr>
-<tr class="memdesc:ga1be3860693af99a6c1da72580097294c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a GPIO driver class.  <a href="group___gpio_driver.html#ga1be3860693af99a6c1da72580097294c">More...</a><br /></td></tr>
-<tr class="separator:ga1be3860693af99a6c1da72580097294c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac9420823bfeba78fce625fc105e3b01d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac9420823bfeba78fce625fc105e3b01d"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memdesc:ga2f80701c36e79c0640d91c788feee0b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a GPIO driver class.  <a href="group___gpio_driver.html#ga2f80701c36e79c0640d91c788feee0b3">More...</a><br /></td></tr>
+<tr class="separator:ga2f80701c36e79c0640d91c788feee0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga531c35e38ede3ea4e5ba5afb24b29493"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga531c35e38ede3ea4e5ba5afb24b29493"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>GPIO_PIN_P0</b> = 0, 
 <b>GPIO_PIN_P1</b>, 
 <b>GPIO_PIN_P2</b>, 
@@ -176,23 +176,23 @@ Enumerations</h2></td></tr>
 <b>GPIO_PIN_P39</b>
 <br />
  }</td></tr>
-<tr class="memdesc:gac9420823bfeba78fce625fc105e3b01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO Logical pin numbers. <br /></td></tr>
-<tr class="separator:gac9420823bfeba78fce625fc105e3b01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafa9be5679ab03d785820f2474c5ccc6e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea83b4ed5524dc27c6152919705119df48">GPIO_EDGE_TRIGGER_MASK</a> = 0x0001, 
+<tr class="memdesc:ga531c35e38ede3ea4e5ba5afb24b29493"><td class="mdescLeft">&#160;</td><td class="mdescRight">GPIO Logical pin numbers. <br /></td></tr>
+<tr class="separator:ga531c35e38ede3ea4e5ba5afb24b29493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9334a5b9057f32da96db9b5c6a045d67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a83b4ed5524dc27c6152919705119df48">GPIO_EDGE_TRIGGER_MASK</a> = 0x0001, 
 <b>GPIO_EDGE_TRIGGER</b> = 0x0001, 
 <b>GPIO_LEVEL_TRIGGER</b> = 0x0000, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea26e29e56c5d5de8b6347a1ecb1ff8d80">GPIO_TRIGGER_POLARITY_MASK</a> = 0x0002, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a26e29e56c5d5de8b6347a1ecb1ff8d80">GPIO_TRIGGER_POLARITY_MASK</a> = 0x0002, 
 <br />
 &#160;&#160;<b>GPIO_TRIGGER_NEG</b> = 0x0002, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6eafb319b3451ea86949c1abaa47ba9c89b">GPIO_DUAL_EDGE_TRIGGER_MASK</a> = 0x0004, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67afb319b3451ea86949c1abaa47ba9c89b">GPIO_DUAL_EDGE_TRIGGER_MASK</a> = 0x0004, 
 <b>GPIO_EDGE_TRIGGER_BOTH</b> = 0x0004, 
 <b>GPIO_EDGE_TRIGGER_SINGLE</b> = 0x0000, 
 <br />
-&#160;&#160;<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6eaf4308306d2240e90954eee6766367155">GPIO_INTERRUPT_ENABLE_MASK</a> = 0x0008, 
+&#160;&#160;<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67af4308306d2240e90954eee6766367155">GPIO_INTERRUPT_ENABLE_MASK</a> = 0x0008, 
 <b>GPIO_INTERRUPT_ENABLE</b> = 0x0008, 
 <b>GPIO_INTERRUPT_DISABLE</b> = 0x0000, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea139f26b8d3313940c8f3aac5536dc922">GPIO_EN_INT_MASK</a> = GPIO_EDGE_TRIGGER_MASK | GPIO_TRIGGER_POLARITY_MASK | GPIO_DUAL_EDGE_TRIGGER_MASK | GPIO_INTERRUPT_ENABLE_MASK, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a139f26b8d3313940c8f3aac5536dc922">GPIO_EN_INT_MASK</a> = GPIO_EDGE_TRIGGER_MASK | GPIO_TRIGGER_POLARITY_MASK | GPIO_DUAL_EDGE_TRIGGER_MASK | GPIO_INTERRUPT_ENABLE_MASK, 
 <br />
 &#160;&#160;<b>GPIO_EN_INT_LEVEL_HIGH</b> = GPIO_INTERRUPT_ENABLE | GPIO_LEVEL_TRIGGER, 
 <b>GPIO_EN_INT_LEVEL_LOW</b> = GPIO_INTERRUPT_ENABLE | GPIO_LEVEL_TRIGGER | GPIO_TRIGGER_NEG, 
@@ -200,35 +200,35 @@ Enumerations</h2></td></tr>
 <b>GPIO_EN_INT_FALLING_EDGE</b> = GPIO_INTERRUPT_ENABLE | GPIO_EDGE_TRIGGER | GPIO_TRIGGER_NEG, 
 <br />
 &#160;&#160;<b>GPIO_EN_INT_BOTH_EDGE</b> = GPIO_INTERRUPT_ENABLE | GPIO_EDGE_TRIGGER | GPIO_EDGE_TRIGGER_BOTH, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea4111531c8681de23e196f4aba8612da1">GPIO_INPUT_ENABLE</a> = 0x0000, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a4111531c8681de23e196f4aba8612da1">GPIO_INPUT_ENABLE</a> = 0x0000, 
 <b>GPIO_OUTPUT_DISABLE</b> = 0x0000, 
 <b>GPIO_OUTPUT_ENABLE</b> = 0x4000, 
 <br />
 &#160;&#160;<b>GPIO_KS_OUTPUT_ENABLE</b> = 0x0010, 
 <b>GPIO_OUTPUT_FN_SEL_MASK</b> = 0x0030, 
 <b>GPIO_OUTPUT_FN_SEL_SHIFT</b> = 4, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea3e892d32c8b3a38f4c20d7652c877740">GPIO_GLOBAL_INPUT_ENABLE</a> = 0x0000, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a3e892d32c8b3a38f4c20d7652c877740">GPIO_GLOBAL_INPUT_ENABLE</a> = 0x0000, 
 <br />
 &#160;&#160;<b>GPIO_GLOBAL_INPUT_DISABLE</b> = 0x0040, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea6bf73d95a8c14336915192a7697ad188">GPIO_PULL_UP_DOWN_NONE</a> = 0x0000, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a6bf73d95a8c14336915192a7697ad188">GPIO_PULL_UP_DOWN_NONE</a> = 0x0000, 
 <b>GPIO_PULL_UP</b> = 0x0400, 
 <b>GPIO_PULL_DOWN</b> = 0x0200, 
 <br />
 &#160;&#160;<b>GPIO_INPUT_DISABLE</b> = 0x0600, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6eafaaf0f0e28ca18ea71124e793c11d4e8">GPIO_DRIVE_SEL_MASK</a> = 0x0800, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67afaaf0f0e28ca18ea71124e793c11d4e8">GPIO_DRIVE_SEL_MASK</a> = 0x0800, 
 <b>GPIO_DRIVE_SEL_LOWEST</b> = 0x0000, 
 <b>GPIO_DRIVE_SEL_MIDDLE_0</b> = 0x0000, 
 <br />
 &#160;&#160;<b>GPIO_DRIVE_SEL_MIDDLE_1</b> = 0x0800, 
 <b>GPIO_DRIVE_SEL_HIGHEST</b> = 0x0800, 
-<a class="el" href="group___gpio_driver.html#ggafa9be5679ab03d785820f2474c5ccc6ea0ea30f9f30b101dbf42180b9d68ca2ae">GPIO_HYSTERESIS_MASK</a> = 0x2000, 
+<a class="el" href="group___gpio_driver.html#gga9334a5b9057f32da96db9b5c6a045d67a0ea30f9f30b101dbf42180b9d68ca2ae">GPIO_HYSTERESIS_MASK</a> = 0x2000, 
 <b>GPIO_HYSTERESIS_ON</b> = 0x2000, 
 <br />
 &#160;&#160;<b>GPIO_HYSTERESIS_OFF</b> = 0x0000
 <br />
  }</td></tr>
-<tr class="memdesc:gafa9be5679ab03d785820f2474c5ccc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following enum defines the constant values for the GPIO driver.  <a href="group___gpio_driver.html#gafa9be5679ab03d785820f2474c5ccc6e">More...</a><br /></td></tr>
-<tr class="separator:gafa9be5679ab03d785820f2474c5ccc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga9334a5b9057f32da96db9b5c6a045d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following enum defines the constant values for the GPIO driver.  <a href="group___gpio_driver.html#ga9334a5b9057f32da96db9b5c6a045d67">More...</a><br /></td></tr>
+<tr class="separator:ga9334a5b9057f32da96db9b5c6a045d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga438c820f04ac7149e6914a08b527c111"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga438c820f04ac7149e6914a08b527c111"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gpio_driver.html#ga438c820f04ac7149e6914a08b527c111">tGPIO_PIN_OUTPUT_CONFIG</a> { <b>GPIO_PIN_OUTPUT_LOW</b>, 
 <b>GPIO_PIN_OUTPUT_HIGH</b>
  }</td></tr>
@@ -311,7 +311,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_inputDisableAll<
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="ga1be3860693af99a6c1da72580097294c"></a>
+<a class="anchor" id="ga2f80701c36e79c0640d91c788feee0b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -326,7 +326,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_inputDisableAll<
 
 </div>
 </div>
-<a class="anchor" id="gafa9be5679ab03d785820f2474c5ccc6e"></a>
+<a class="anchor" id="ga9334a5b9057f32da96db9b5c6a045d67"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -339,38 +339,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_inputDisableAll<
 <p>The following enum defines the constant values for the GPIO driver. </p>
 <p>The first twelve entries are the configuration masks for GPIO. A combination of them might be used together; for example a value INPUT_DISABLE_MASK|OUTPUT_ENABLE_MASK can be used to set a pin. The "configValue" of the struct "GpioConfigEntry" can be set using that value (the logical or of configuration options). Each of the pin can be configured in a specific way [using the value]. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea83b4ed5524dc27c6152919705119df48"></a>GPIO_EDGE_TRIGGER_MASK&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a83b4ed5524dc27c6152919705119df48"></a>GPIO_EDGE_TRIGGER_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr ; </p><h1>= [0,1,2....37,38,39]</h1>
 <p>Each GPIO has a set of configuration signals in one register ; </p>
 <p>iocfg_p::_adr[0] = "edge_trigger" GPIO configuration bit 0, Interrupt type defines Comments from User Guide: none </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea26e29e56c5d5de8b6347a1ecb1ff8d80"></a>GPIO_TRIGGER_POLARITY_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a26e29e56c5d5de8b6347a1ecb1ff8d80"></a>GPIO_TRIGGER_POLARITY_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[1] = "neg_edge" GPIO configuration bit 1, Interrupt polarity defines Comments from User Guide: none </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6eafb319b3451ea86949c1abaa47ba9c89b"></a>GPIO_DUAL_EDGE_TRIGGER_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67afb319b3451ea86949c1abaa47ba9c89b"></a>GPIO_DUAL_EDGE_TRIGGER_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[2] = "dual_edge" GPIO configuration bit 2, single/dual edge defines Comments from User Guide: none </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6eaf4308306d2240e90954eee6766367155"></a>GPIO_INTERRUPT_ENABLE_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67af4308306d2240e90954eee6766367155"></a>GPIO_INTERRUPT_ENABLE_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[3] = "interrupt_en" GPIO configuration bit 3, interrupt enable/disable defines Comments from User Guide: This bit is used to mask GPIO asynch wake up (to Baseband PMU) and synchronous interrupt status - gpio_int_st_px </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea139f26b8d3313940c8f3aac5536dc922"></a>GPIO_EN_INT_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a139f26b8d3313940c8f3aac5536dc922"></a>GPIO_EN_INT_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[0:3] GPIO configuration bit 0:3, Summary of Interrupt enabling type </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea4111531c8681de23e196f4aba8612da1"></a>GPIO_INPUT_ENABLE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a4111531c8681de23e196f4aba8612da1"></a>GPIO_INPUT_ENABLE&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[4:5] = "GPIO o/p buffer control" AND iocfg_p::_adr[14] = "o/p value multiplexing control" GPIO configuration bit 4:5,and 14 output enable control and muxing control Comments from the User Guide : none </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea3e892d32c8b3a38f4c20d7652c877740"></a>GPIO_GLOBAL_INPUT_ENABLE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a3e892d32c8b3a38f4c20d7652c877740"></a>GPIO_GLOBAL_INPUT_ENABLE&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[6] GPIO configuration bit 6, "Global_input_disable" Disable bit This bit when set to "1" , P0 input_disable signal will control ALL GPIOs. </p>
 <p>Default value (after power up or a reset event) is "0". </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea6bf73d95a8c14336915192a7697ad188"></a>GPIO_PULL_UP_DOWN_NONE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a6bf73d95a8c14336915192a7697ad188"></a>GPIO_PULL_UP_DOWN_NONE&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[7] GPIO configruation bit 7, reserved </p>
 <p>iocfg_p::_adr[8] GPIO configruation bit 8, reserved iocfg_p::_adr[10:9] = "pullup/pulldown" GPIO configuration bit 9 and bit 10, pull- up and pull-down enable Comments from the User Guide: default value is [0,0] , means no pull resistor. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6eafaaf0f0e28ca18ea71124e793c11d4e8"></a>GPIO_DRIVE_SEL_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67afaaf0f0e28ca18ea71124e793c11d4e8"></a>GPIO_DRIVE_SEL_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[11] = GPIO configuration bit 11, iocfg_p0[11] controls the drive strength of the following GPIOs p[0:25], p[30:39]; iocfg_p26[11] controls the drive strength of the GPIOs p[26:29] </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggafa9be5679ab03d785820f2474c5ccc6ea0ea30f9f30b101dbf42180b9d68ca2ae"></a>GPIO_HYSTERESIS_MASK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga9334a5b9057f32da96db9b5c6a045d67a0ea30f9f30b101dbf42180b9d68ca2ae"></a>GPIO_HYSTERESIS_MASK&#160;</td><td class="fielddoc">
 <p>iocfg_p::_adr[12] GPIO configruation bit 12, reserved </p>
 <p>iocfg_p::_adr[13] = "Input Hystersis" GPIO configuration bit 13, hysteresis control iocfg_p0[13] controls the hysteresis of the following GPIOs p[0:25], p[30:39]; iocfg_p26[13] controls the hysteresis of the GPIOs p[26:29] </p>
 </td></tr>
@@ -587,7 +587,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_inputDisableAll<
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

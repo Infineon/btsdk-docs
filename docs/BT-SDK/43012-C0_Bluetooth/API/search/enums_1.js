@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['button_5fmanager_5fbutton_5fstate_5ft',['button_manager_button_state_t',['../wiced__button__manager_8h.html#adf2820c9f0098b9f47ad1bf154ae4af7',1,'wiced_button_manager.h']]],
-  ['button_5fmanager_5fevent_5ft',['button_manager_event_t',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627ac',1,'wiced_button_manager.h']]]
+  ['clk_5fsrc_5fsel',['CLK_SRC_SEL',['../group___aux_clk_driver.html#ga79ee09b3c80c2eb369656e4bdd633135',1,'wiced_hal_aclk.h']]],
+  ['codec_5ftype_5ft',['codec_type_t',['../wiced__audio__manager_8h.html#adf7aef7a7ec31e4536f3e6eef366e1f1',1,'wiced_audio_manager.h']]]
 ];

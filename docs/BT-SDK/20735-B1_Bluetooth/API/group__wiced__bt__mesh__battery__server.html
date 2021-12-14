@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20735: Mesh Battery Server</title>
+<title>AIROC&trade; CYW20735: Mesh Battery Server</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__battery__serve
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device.  
+<p>The AIROC Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <tr class="separator:gaf8305491af7a945d77439e1e4cfd1a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device. </p>
+<p>The AIROC Mesh Battery Server module provides a way for a client to retrieve the Battery status of this device. </p>
 <p>The Server Model can also be configured by a Provisioner to allow sending the Status message to a specific node or group of nodes.</p>
 <p>On startup the application should call wiced_bt_mesh_model_battery_server_init function providing the callback that will be called when a request for the battery status is received. The application should call the wiced_bt_mesh_battery_server_send_status function in response to a get request, or when application logic requires battery status to be sent out. In the latter case the message will be sent out only if device is configured remotely with the destination address where the battery status should be sent to and the application key to be used to secure the message. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -299,7 +299,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

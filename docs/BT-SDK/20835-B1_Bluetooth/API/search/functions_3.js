@@ -1,6 +1,7 @@
 var searchData=
 [
   ['mesh_5fapplication_5fget_5fnvram_5fid_5fapp_5fstart',['mesh_application_get_nvram_id_app_start',['../wiced__bt__mesh__app_8h.html#a76e079c3781d0cccd4d08e8471ad5efc',1,'wiced_bt_mesh_app.h']]],
+  ['mesh_5fapplication_5freg_5fnon_5fconn_5fadv_5fhandler',['mesh_application_reg_non_conn_adv_handler',['../wiced__bt__mesh__app_8h.html#a389b20cf9a38ec164ade375438aaa82b',1,'wiced_bt_mesh_app.h']]],
   ['mesh_5fdefault_5ftransition_5ftime_5fget',['mesh_default_transition_time_get',['../wiced__bt__mesh__model__utils_8h.html#ac43d59bff901fd760938f8643cb86c76',1,'wiced_bt_mesh_model_utils.h']]],
   ['mesh_5fmodel_5ftransition_5fserver_5finit',['mesh_model_transition_server_init',['../wiced__bt__mesh__model__utils_8h.html#a928b715926428a06f5097667fec67eda',1,'wiced_bt_mesh_model_utils.h']]],
   ['mesh_5fopcode_5fto_5fstream',['mesh_opcode_to_stream',['../wiced__bt__mesh__model__utils_8h.html#a39846e3b7b6a5aa6a13b03256ad8949b',1,'wiced_bt_mesh_model_utils.h']]],

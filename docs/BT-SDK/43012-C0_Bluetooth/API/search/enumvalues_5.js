@@ -63,10 +63,14 @@ var searchData=
   ['gpio_5fdual_5fedge_5ftrigger_5fmask',['GPIO_DUAL_EDGE_TRIGGER_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55bafb319b3451ea86949c1abaa47ba9c89b',1,'wiced_hal_gpio.h']]],
   ['gpio_5fedge_5ftrigger_5fmask',['GPIO_EDGE_TRIGGER_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba83b4ed5524dc27c6152919705119df48',1,'wiced_hal_gpio.h']]],
   ['gpio_5fen_5fint_5fmask',['GPIO_EN_INT_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba139f26b8d3313940c8f3aac5536dc922',1,'wiced_hal_gpio.h']]],
+  ['gpio_5ffailure',['GPIO_FAILURE',['../group___g_p_i_o_driver.html#ggad7d1303531c7ce234d810b8ced530e29a50028856a4a636866bce471eac24ecfe',1,'wiced_hal_gpio.h']]],
   ['gpio_5fglobal_5finput_5fenable',['GPIO_GLOBAL_INPUT_ENABLE',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba3e892d32c8b3a38f4c20d7652c877740',1,'wiced_hal_gpio.h']]],
   ['gpio_5fhysteresis_5fmask',['GPIO_HYSTERESIS_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba0ea30f9f30b101dbf42180b9d68ca2ae',1,'wiced_hal_gpio.h']]],
   ['gpio_5finput_5fenable',['GPIO_INPUT_ENABLE',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba4111531c8681de23e196f4aba8612da1',1,'wiced_hal_gpio.h']]],
   ['gpio_5finterrupt_5fenable_5fmask',['GPIO_INTERRUPT_ENABLE_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55baf4308306d2240e90954eee6766367155',1,'wiced_hal_gpio.h']]],
+  ['gpio_5fmoved',['GPIO_MOVED',['../group___g_p_i_o_driver.html#ggad7d1303531c7ce234d810b8ced530e29af75500e8c3e98baa41c004d6a61d8174',1,'wiced_hal_gpio.h']]],
   ['gpio_5fpull_5fup_5fdown_5fnone',['GPIO_PULL_UP_DOWN_NONE',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba6bf73d95a8c14336915192a7697ad188',1,'wiced_hal_gpio.h']]],
+  ['gpio_5fremapped',['GPIO_REMAPPED',['../group___g_p_i_o_driver.html#ggad7d1303531c7ce234d810b8ced530e29a498465acfa51fd9d91561a6cfed41602',1,'wiced_hal_gpio.h']]],
+  ['gpio_5fsuccess',['GPIO_SUCCESS',['../group___g_p_i_o_driver.html#ggad7d1303531c7ce234d810b8ced530e29ac600669d7dff707f9b211cee2bb19111',1,'wiced_hal_gpio.h']]],
   ['gpio_5ftrigger_5fpolarity_5fmask',['GPIO_TRIGGER_POLARITY_MASK',['../group___g_p_i_o_driver.html#gga06fc87d81c62e9abb8790b6e5713c55ba26e29e56c5d5de8b6347a1ecb1ff8d80',1,'wiced_hal_gpio.h']]]
 ];

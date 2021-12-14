@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['handle',['handle',['../structwiced__bt__battery__client__data__t.html#af242d6e3b6108ea75e1eb236e94c8240',1,'wiced_bt_battery_client_data_t']]],
   ['hardware_20drivers',['Hardware Drivers',['../group___hardware_drivers.html',1,'']]],
   ['hardwareversion',['HardwareVersion',['../group__wiced__bt__iap2__api__functions.html#gaa45faaf3bbffd5e3cb7340aa1a21ae02',1,'wiced_bt_iap2.h']]],
   ['hci',['hci',['../structwiced__bt__hidd__qos__info__t.html#a739de1630f917c36e46755e41e5f7102',1,'wiced_bt_hidd_qos_info_t']]],

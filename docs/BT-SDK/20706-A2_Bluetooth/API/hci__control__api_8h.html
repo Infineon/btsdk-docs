@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20706: hci_control_api.h File Reference</title>
+<title>AIROC&trade; CYW20706: hci_control_api.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -230,6 +230,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ad36d395e9c67cf6f18e44bd4da0d4223"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad36d395e9c67cf6f18e44bd4da0d4223"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_CONN_MESH</b>&#160;&#160;&#160;0x2e</td></tr>
 <tr class="separator:ad36d395e9c67cf6f18e44bd4da0d4223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae717b201a72d0531b9e0acbeeb6fafeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae717b201a72d0531b9e0acbeeb6fafeb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_PANU</b>&#160;&#160;&#160;0x2f</td></tr>
+<tr class="separator:ae717b201a72d0531b9e0acbeeb6fafeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22394dde968c719d47f0d391b5c2968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa22394dde968c719d47f0d391b5c2968"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MISC</b>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="separator:aa22394dde968c719d47f0d391b5c2968"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1757,6 +1760,15 @@ Macros</h2></td></tr>
 <tr class="memitem:aa1bd0ab8d8b91f94d89396a9d3efa8fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1bd0ab8d8b91f94d89396a9d3efa8fb"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_IDENTIFY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0B )  /* Identify node */</td></tr>
 <tr class="separator:aa1bd0ab8d8b91f94d89396a9d3efa8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49ad873bfbf26cee8ab85c17d1e5208a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_RSSI</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0C )  /* Collect RSSI values */</td></tr>
+<tr class="separator:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a9e283121aadd2608628a5d98e0fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a9e283121aadd2608628a5d98e0fe1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
+<tr class="separator:a32a9e283121aadd2608628a5d98e0fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3859542cb1297c29780bc4f4f0d089e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3859542cb1297c29780bc4f4f0d089e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_COMMAND_DISCONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x02 )</td></tr>
+<tr class="separator:aa3859542cb1297c29780bc4f4f0d089e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e76801a75160fe12c1bb9a8d0a333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29e76801a75160fe12c1bb9a8d0a333"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:af29e76801a75160fe12c1bb9a8d0a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2669,9 +2681,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a8befecbb5a17137227e99046d1b8a4a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8befecbb5a17137227e99046d1b8a4a3"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROVISION_END</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x07 )  /* Provision end event */</td></tr>
 <tr class="separator:a8befecbb5a17137227e99046d1b8a4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fd4db704cf76cc7f0ed6d534a57db26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fd4db704cf76cc7f0ed6d534a57db26"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROVISION_DEVICE_CAPABITIES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x08 )  /* Provisioning device capabilities */</td></tr>
-<tr class="separator:a3fd4db704cf76cc7f0ed6d534a57db26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77275d3f184528b893f6ff820f740866"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77275d3f184528b893f6ff820f740866"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROVISION_DEVICE_CAPABILITIES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x08 )  /* Provisioning device capabilities */</td></tr>
+<tr class="separator:a77275d3f184528b893f6ff820f740866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeefd53a09c739bfe23e0fe7f7769160"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeefd53a09c739bfe23e0fe7f7769160"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROVISION_OOB_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x09 )  /* Provisioning OOB data request */</td></tr>
 <tr class="separator:adeefd53a09c739bfe23e0fe7f7769160"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3089,6 +3101,27 @@ Macros</h2></td></tr>
 <tr class="memitem:ab8ac330f4f7aaf907020b24a043ac0b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8ac330f4f7aaf907020b24a043ac0b9"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_RESET_COMPLETE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0b )  /* Node addr */</td></tr>
 <tr class="separator:ab8ac330f4f7aaf907020b24a043ac0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa43cfb907c320931562683f490b844"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa43cfb907c320931562683f490b844"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_RSSI_VALUES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0c )  /* [Src Node] [Peer addr][RSSI] ... */</td></tr>
+<tr class="separator:aafa43cfb907c320931562683f490b844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e07a61a92465d36d8ee059bab0a6742"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e07a61a92465d36d8ee059bab0a6742"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
+<tr class="separator:a9e07a61a92465d36d8ee059bab0a6742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93534aafe7443ba0ea31ce1301d25841"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93534aafe7443ba0ea31ce1301d25841"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_CLOSE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x02 )</td></tr>
+<tr class="separator:a93534aafe7443ba0ea31ce1301d25841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83410fd8ac9ed7e676098806978051a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83410fd8ac9ed7e676098806978051a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x03 )</td></tr>
+<tr class="separator:a83410fd8ac9ed7e676098806978051a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab76c2205a45839b96dbf64760aa3e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ab76c2205a45839b96dbf64760aa3e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_SERVICE_NOT_FOUND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x04 )</td></tr>
+<tr class="separator:a3ab76c2205a45839b96dbf64760aa3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d3f9a6b33f9f524f21cd83dd48ab2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28d3f9a6b33f9f524f21cd83dd48ab2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_CONNECTION_FAILED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x05 )</td></tr>
+<tr class="separator:a28d3f9a6b33f9f524f21cd83dd48ab2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6239b5a0c7a2ffa8a594a57af715dbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6239b5a0c7a2ffa8a594a57af715dbb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_DISCONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x06 )</td></tr>
+<tr class="separator:ae6239b5a0c7a2ffa8a594a57af715dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3293,6 +3326,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a9b0bbe1e097e170ef27fc8334cfb2c14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b0bbe1e097e170ef27fc8334cfb2c14"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_TOKEN_DATA_FLAG_UUID</b>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:a9b0bbe1e097e170ef27fc8334cfb2c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cef519fe2f4767e834c8280178b609a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0cef519fe2f4767e834c8280178b609a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_STATUS_SUCCESS</b>&#160;&#160;&#160;0   /* Connection successfully opened */</td></tr>
+<tr class="separator:a0cef519fe2f4767e834c8280178b609a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02150efc116b5640520572f357cb6754"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02150efc116b5640520572f357cb6754"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_STATUS_FAIL_SDP</b>&#160;&#160;&#160;1   /* Open failed due to SDP */</td></tr>
+<tr class="separator:a02150efc116b5640520572f357cb6754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f7cd29956514397fda6263ba0ae4c40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f7cd29956514397fda6263ba0ae4c40"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_STATUS_FAIL_RFCOMM</b>&#160;&#160;&#160;2   /* Open failed due to RFCOMM */</td></tr>
+<tr class="separator:a3f7cd29956514397fda6263ba0ae4c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cefb777d841025ea92ed36039e63038"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cefb777d841025ea92ed36039e63038"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_STATUS_FAIL_CONN_TOUT</b>&#160;&#160;&#160;3   /* Link loss occured due to connection timeout */</td></tr>
+<tr class="separator:a1cefb777d841025ea92ed36039e63038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
@@ -3301,8 +3346,8 @@ Macros</h2></td></tr>
 <p>Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress reserves the right to make changes to the Software without notice. Cypress does not assume any liability arising out of the application or use of the Software or any product or circuit described in the Software. Cypress does not authorize its products for use in any products where a malfunction or failure of the Cypress product may reasonably be expected to result in significant property damage, injury or death ("High Risk Product"). By including Cypress's product in a High Risk Product, the manufacturer of such system or application assumes all risk of such use and in doing so agrees to indemnify Cypress against all liability. </p><pre class="fragment">  HCI Control Protocol Definitions
 
 
-    This file provides definitions for the WICED HCI Control Interface between an MCU
-    and an embedded application running on a Cypress BT SoC. Please refer to the WICED
+    This file provides definitions for the AIROC HCI Control Interface between an MCU
+    and an embedded application running on an Infineon Bluetooth SoC. Please refer to the AIROC
     HCI Control Protocol Software User Manual (002-16618) for additional details.
 </pre><h2>Packets exchanged over the UART between MCU and hci_control applications contain a 5-byte header. </h2>
 <h2>| Packet Type | Command Code | Group Code | Packet Length | </h2>
@@ -3313,7 +3358,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

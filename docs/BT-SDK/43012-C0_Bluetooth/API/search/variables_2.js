@@ -29,7 +29,6 @@ var searchData=
   ['br_5fedr_5fscan_5fcfg',['br_edr_scan_cfg',['../structwiced__bt__cfg__settings__t.html#a5a9c5d52cfb61a49d7504b06fd1c7ddf',1,'wiced_bt_cfg_settings_t']]],
   ['br_5fedr_5fstats',['br_edr_stats',['../wiced__bt__dev_8h.html#aa119fd57c77c8462441d6ec144f55ac0',1,'wiced_bt_dev.h']]],
   ['br_5fplayer',['br_player',['../unionwiced__bt__avrc__command__t.html#a886db699559991876f4acaaab69dd45e',1,'wiced_bt_avrc_command_t::br_player()'],['../unionwiced__bt__avrc__response__t.html#a168ceec9fb6ec03a903936a249f2498a',1,'wiced_bt_avrc_response_t::br_player()']]],
-  ['bright',['bright',['../structwiced__led__config__t.html#ab0e1f68ccca88812df7a64e25c491519',1,'wiced_led_config_t']]],
   ['browse',['browse',['../unionwiced__bt__avrc__msg__t.html#ac93e0c84e2711fe88a6d23a5880172f2',1,'wiced_bt_avrc_msg_t']]],
   ['browse_5flen',['browse_len',['../structwiced__bt__avrc__msg__browse__t.html#ac45abc13384e441d6539a8cb7e9c0b40',1,'wiced_bt_avrc_msg_browse_t']]],
   ['buf_5fcount',['buf_count',['../structwiced__bt__cfg__buf__pool__t.html#ada18e4f4edff8bef253cad5e729ddf20',1,'wiced_bt_cfg_buf_pool_t']]],
@@ -37,9 +36,5 @@ var searchData=
   ['buffer',['buffer',['../structsha2__context.html#a59e96eea04541ecd67c3faca41b13feb',1,'sha2_context']]],
   ['buffer_5fend',['buffer_end',['../structwiced__audio__buffer__info__t.html#a66d710e0093872b26ee80118c1a85d99',1,'wiced_audio_buffer_info_t']]],
   ['buffer_5fstart',['buffer_start',['../structwiced__audio__buffer__info__t.html#a85973b335814248c05f63543876b348e',1,'wiced_audio_buffer_info_t']]],
-  ['button',['button',['../structwiced__button__configuration__t.html#a30a5c8dadd7665c394abb9f5edacb755',1,'wiced_button_configuration_t']]],
-  ['button_5fcallback',['button_callback',['../structbutton__manager__t.html#adcb6a585c889f5f927c153bbb0605fc9',1,'button_manager_t']]],
-  ['button_5fevent_5fmask',['button_event_mask',['../structwiced__button__configuration__t.html#ab7decea367eb64d8f442df73459b52b8',1,'wiced_button_configuration_t']]],
-  ['buttons',['buttons',['../structbutton__manager__t.html#a6663f08f4692ee8887da42dbb814b0ee',1,'button_manager_t']]],
   ['by_5fhandle',['by_handle',['../unionwiced__bt__gatt__read__param__t.html#a15b45ef6e94393600ca77d93f634ce50',1,'wiced_bt_gatt_read_param_t']]]
 ];

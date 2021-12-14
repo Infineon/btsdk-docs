@@ -98,6 +98,7 @@ var group__wiced__bt__mesh__core =
       [ "seq", "unionwiced__bt__mesh__core__state__t.html#acaa6edef98b614cef817f565e14ff7e6", null ]
     ] ],
     [ "wiced_bt_mesh_core_init_t", "structwiced__bt__mesh__core__init__t.html", [
+      [ "adv_send_callback", "structwiced__bt__mesh__core__init__t.html#aa79b3952af85e4e8c4f645dad458e42d", null ],
       [ "attention_cb", "structwiced__bt__mesh__core__init__t.html#a10309cc19429b316cca1cfc69977d428", null ],
       [ "callback", "structwiced__bt__mesh__core__init__t.html#a459b9645d9c02149885940fc030ca555", null ],
       [ "device_uuid", "structwiced__bt__mesh__core__init__t.html#a346b9cc4007d2524e25497954b59338b", null ],
@@ -110,6 +111,15 @@ var group__wiced__bt__mesh__core =
       [ "pub_callback", "structwiced__bt__mesh__core__init__t.html#ae0c6674cc6f0fe034d143fe2bd7c3533", null ],
       [ "scan_callback", "structwiced__bt__mesh__core__init__t.html#a8d5780677b26bfbf2e488184de354e22", null ],
       [ "state_changed_cb", "structwiced__bt__mesh__core__init__t.html#aa39b84a5396cad5f9f41790120109061", null ]
+    ] ],
+    [ "wiced_bt_mesh_core_hal_api_t", "structwiced__bt__mesh__core__hal__api__t.html", [
+      [ "delete_nvram", "structwiced__bt__mesh__core__hal__api__t.html#a72e139eaa6753b26d2546dc611c75f26", null ],
+      [ "get_pseudo_rand_number", "structwiced__bt__mesh__core__hal__api__t.html#a809e5d3c7b94165b6498808fccdeb416", null ],
+      [ "rand_gen_num", "structwiced__bt__mesh__core__hal__api__t.html#a0e42e4524a06aea1a426c74826c2ec11", null ],
+      [ "rand_gen_num_array", "structwiced__bt__mesh__core__hal__api__t.html#a5a536a9962c16735338158eeea942a42", null ],
+      [ "read_nvram", "structwiced__bt__mesh__core__hal__api__t.html#a7ca7d145853ba8bc561ca760322eaa36", null ],
+      [ "wdog_reset_system", "structwiced__bt__mesh__core__hal__api__t.html#adf99638ada6e93a3e6f8a80de01ac94a", null ],
+      [ "write_nvram", "structwiced__bt__mesh__core__hal__api__t.html#a4f2c2dcecacd4c2152054393341a9d58", null ]
     ] ],
     [ "wiced_bt_mesh_core_provision_capabilities_t", "structwiced__bt__mesh__core__provision__capabilities__t.html", [
       [ "algorithms", "structwiced__bt__mesh__core__provision__capabilities__t.html#acdcf58d8bce4a46df7ae49a600743561", null ],
@@ -150,6 +160,18 @@ var group__wiced__bt__mesh__core =
       [ "state", "structmesh__core__provision__cb__t.html#a0b57aa10271a66f3dc936bba1d2f3830", null ],
       [ "timeout", "structmesh__core__provision__cb__t.html#ab5627d8d8b095c198e2523c44ca380ac", null ],
       [ "type", "structmesh__core__provision__cb__t.html#a1d127017fb298b889f4ba24752d08b8e", null ]
+    ] ],
+    [ "wiced_bt_mesh_provisioning_record_request_t", "structwiced__bt__mesh__provisioning__record__request__t.html", [
+      [ "fragment_max_size", "structwiced__bt__mesh__provisioning__record__request__t.html#ab029bf1b64fb91ed6374cb7c6a139604", null ],
+      [ "fragment_offset", "structwiced__bt__mesh__provisioning__record__request__t.html#a75278024711ff08769881124167908e9", null ],
+      [ "record_id", "structwiced__bt__mesh__provisioning__record__request__t.html#aa89eb0d49c1d820927aea7d5a9c6ea01", null ]
+    ] ],
+    [ "wiced_bt_mesh_provisioning_record_response_t", "structwiced__bt__mesh__provisioning__record__response__t.html", [
+      [ "data", "structwiced__bt__mesh__provisioning__record__response__t.html#aa86e1085c6a16f60258f29c9d5fc2144", null ],
+      [ "fragment_offset", "structwiced__bt__mesh__provisioning__record__response__t.html#a75278024711ff08769881124167908e9", null ],
+      [ "record_id", "structwiced__bt__mesh__provisioning__record__response__t.html#aa89eb0d49c1d820927aea7d5a9c6ea01", null ],
+      [ "status", "structwiced__bt__mesh__provisioning__record__response__t.html#ade818037fd6c985038ff29656089758d", null ],
+      [ "total_length", "structwiced__bt__mesh__provisioning__record__response__t.html#aa53a2c2e07244a5407c5be87522db80c", null ]
     ] ],
     [ "wiced_bt_mesh_core_statistics_t", "structwiced__bt__mesh__core__statistics__t.html", [
       [ "accepted_group_msg_cnt", "structwiced__bt__mesh__core__statistics__t.html#a6bea0dc4ae7ffba9c81897a3c90bb658", null ],
@@ -227,6 +249,7 @@ var group__wiced__bt__mesh__core =
     [ "WICED_BT_MESH_CORE_FEATURE_BIT_RELAY", "group__wiced__bt__mesh__core.html#ga835762c5ffaaf4bc6d752ff2a4df81e8", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_2D_CODE", "group__wiced__bt__mesh__core.html#ga2fbc2e295ceb626ab75b7369603562c4", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_BAR_CODE", "group__wiced__bt__mesh__core.html#gac1adc63b299795e996346a28f950fe89", null ],
+    [ "WICED_BT_MESH_CORE_OOB_BIT_CERTIFICATE", "group__wiced__bt__mesh__core.html#ga5597d9eebdffd2433d98301c3e9dc096", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_ELECTRONIC_URI", "group__wiced__bt__mesh__core.html#gad4202d2a24fcd3f20b102726ca0fde89", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_INSIDE_BOX", "group__wiced__bt__mesh__core.html#ga17a67eeebede3ee18a6c3b5fc3f2e45f", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_INSIDE_MANUAL", "group__wiced__bt__mesh__core.html#ga21d7025eb8539b16f0f9d55910d99fd6", null ],
@@ -236,8 +259,7 @@ var group__wiced__bt__mesh__core =
     [ "WICED_BT_MESH_CORE_OOB_BIT_ON_DEVICE", "group__wiced__bt__mesh__core.html#ga45720a1052c1fae80db8aa0d05d04103", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_ON_PIECE_OF_PAPER", "group__wiced__bt__mesh__core.html#ga90b2a89c96b449f6f6e37c6a004bc678", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_OTHER", "group__wiced__bt__mesh__core.html#gaeda7c69b91deb5c7f475880d2d4d3237", null ],
-    [ "WICED_BT_MESH_CORE_OOB_BIT_RFU1", "group__wiced__bt__mesh__core.html#ga55c562e993a9185373a419319f2893f4", null ],
-    [ "WICED_BT_MESH_CORE_OOB_BIT_RFU2", "group__wiced__bt__mesh__core.html#ga80cda3bf2d8fb2f0ff616d154488ec4d", null ],
+    [ "WICED_BT_MESH_CORE_OOB_BIT_RECORD", "group__wiced__bt__mesh__core.html#gadde828ac793f0cff720391e30f1df38d", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_RFU3", "group__wiced__bt__mesh__core.html#ga8afcd8a33eafa3e10645083e1f2d0af3", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_RFU4", "group__wiced__bt__mesh__core.html#ga58cd80e362d89173cf7c05cec1ef0172", null ],
     [ "WICED_BT_MESH_CORE_OOB_BIT_STRING", "group__wiced__bt__mesh__core.html#ga6649340d0d6ea29b5a1854c1740fe4d1", null ],
@@ -270,6 +292,7 @@ var group__wiced__bt__mesh__core =
     [ "WICED_BT_MESH_PROVISION_RESULT_SUCCESS", "group__wiced__bt__mesh__core.html#gabba81101bc4bf53f2bb34b850e0f34c8", null ],
     [ "WICED_BT_MESH_PROVISION_RESULT_TIMEOUT", "group__wiced__bt__mesh__core.html#gaba4038f5f6e4c256e72d415ebb5040e0", null ],
     [ "wiced_bt_core_nvram_access_t", "group__wiced__bt__mesh__core.html#ga7c1b0cf49caf409ca5ae3d1b6e89163f", null ],
+    [ "wiced_bt_mesh_core_adv_send_cb_t", "group__wiced__bt__mesh__core.html#ga0e99688ca0fb66c47fa927f91b02d3e7", null ],
     [ "wiced_bt_mesh_core_attention_cb_t", "group__wiced__bt__mesh__core.html#gaf683e2e337ff9cc9f0ea78dacc1bcb29", null ],
     [ "wiced_bt_mesh_core_config_element_t", "group__wiced__bt__mesh__core.html#ga7745425067bae63fcf6edb934a993542", null ],
     [ "wiced_bt_mesh_core_config_friend_t", "group__wiced__bt__mesh__core.html#gae3d60c7e354eaebb88f7a22ce745f67b", null ],
@@ -279,6 +302,13 @@ var group__wiced__bt__mesh__core =
     [ "wiced_bt_mesh_core_config_t", "group__wiced__bt__mesh__core.html#gae6948a74522aca08a268c0dadea8300b", null ],
     [ "wiced_bt_mesh_core_get_dev_key_callback_t", "group__wiced__bt__mesh__core.html#gaf2dce674a35994927cc0981140134443", null ],
     [ "wiced_bt_mesh_core_get_msg_handler_callback_t", "group__wiced__bt__mesh__core.html#gac99e24baa2d5989a923566a6ff989793", null ],
+    [ "wiced_bt_mesh_core_hal_delete_nvram_t", "group__wiced__bt__mesh__core.html#gad1ffcaba3539d2ddbc3cf04abe1ebef7", null ],
+    [ "wiced_bt_mesh_core_hal_get_pseudo_rand_number_t", "group__wiced__bt__mesh__core.html#gae54c5f80dea807c73412b934ac3b0474", null ],
+    [ "wiced_bt_mesh_core_hal_rand_gen_num_array_t", "group__wiced__bt__mesh__core.html#ga9572b8ae6c85c586cb2262bb45b6a484", null ],
+    [ "wiced_bt_mesh_core_hal_rand_gen_num_t", "group__wiced__bt__mesh__core.html#ga8f0b951cf240160bbe932874f957a615", null ],
+    [ "wiced_bt_mesh_core_hal_read_nvram_t", "group__wiced__bt__mesh__core.html#gaccabcb052539dfe46362490723af80d2", null ],
+    [ "wiced_bt_mesh_core_hal_wdog_reset_system_t", "group__wiced__bt__mesh__core.html#gaa51805230f7c0a29f97b6a0f44018090", null ],
+    [ "wiced_bt_mesh_core_hal_write_nvram_t", "group__wiced__bt__mesh__core.html#ga880c966376d145373a12598ae98c09ca", null ],
     [ "wiced_bt_mesh_core_health_fault_test_cb_t", "group__wiced__bt__mesh__core.html#gac9ba8ee50d06be74ff010964c8f31ea5", null ],
     [ "wiced_bt_mesh_core_lpn_sleep_callback_t", "group__wiced__bt__mesh__core.html#ga1b9d295163cd53637fb039d60688eee2", null ],
     [ "wiced_bt_mesh_core_provision_end_cb_t", "group__wiced__bt__mesh__core.html#gaedd5040b8dc57cb82cb716a847b95f31", null ],
@@ -317,6 +347,7 @@ var group__wiced__bt__mesh__core =
       [ "WICED_BT_MESH_CORE_STATE_PROXY_SERVICE_ADV", "group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503ba3b37a44d4d4151436f4d71bfa21ff619", null ]
     ] ],
     [ "wiced_bt_mesh_copy_event", "group__wiced__bt__mesh__core.html#gad429c40f45f13693d7e64894a7402f69", null ],
+    [ "wiced_bt_mesh_core_adv_end", "group__wiced__bt__mesh__core.html#ga06764c4d3bde30e471ad4d37dbaad61b", null ],
     [ "wiced_bt_mesh_core_adv_packet", "group__wiced__bt__mesh__core.html#gaaedd919871b0fe4282d77a6da8041131", null ],
     [ "wiced_bt_mesh_core_cancel_send", "group__wiced__bt__mesh__core.html#gacd1c03db7717de7094a5d7834c8df0c0", null ],
     [ "wiced_bt_mesh_core_check_node_identity", "group__wiced__bt__mesh__core.html#ga6647db924fefa3140520d23d3147b5da", null ],
@@ -324,10 +355,11 @@ var group__wiced__bt__mesh__core =
     [ "wiced_bt_mesh_core_check_private_node_identity", "group__wiced__bt__mesh__core.html#ga572c46269937c8251db4035f50056207", null ],
     [ "wiced_bt_mesh_core_connection_status", "group__wiced__bt__mesh__core.html#ga2e60448142c768ca7311907f68a38ed8", null ],
     [ "wiced_bt_mesh_core_crypt", "group__wiced__bt__mesh__core.html#ga9580d0f3619961a4013a546684fae1d7", null ],
-    [ "wiced_bt_mesh_core_deinit", "group__wiced__bt__mesh__core.html#ga8d293a403925663b8b62400793ceba7f", null ],
+    [ "wiced_bt_mesh_core_deinit", "group__wiced__bt__mesh__core.html#ga6d1080ad7b0fab9ed96731674cb595b4", null ],
     [ "wiced_bt_mesh_core_del_last_element", "group__wiced__bt__mesh__core.html#gaaedb278521314ff08d00126ac573515d", null ],
     [ "wiced_bt_mesh_core_del_seq", "group__wiced__bt__mesh__core.html#ga7e86f4756b92b621d1202fbecd7e8f00", null ],
     [ "wiced_bt_mesh_core_get_app_key", "group__wiced__bt__mesh__core.html#ga8108b7a7f857f821b57c6469559db321", null ],
+    [ "wiced_bt_mesh_core_get_hal_api", "group__wiced__bt__mesh__core.html#ga146e1f12905b85e28eaf54a11f74736d", null ],
     [ "wiced_bt_mesh_core_get_local_addr", "group__wiced__bt__mesh__core.html#ga805081de134c401145172e96490488a4", null ],
     [ "wiced_bt_mesh_core_get_network_id", "group__wiced__bt__mesh__core.html#gafca0c177ae3dc8f57c806a04a24e2370", null ],
     [ "wiced_bt_mesh_core_health_set_faults", "group__wiced__bt__mesh__core.html#ga919094b490285759f279ff88a8d230f1", null ],
@@ -345,10 +377,12 @@ var group__wiced__bt__mesh__core =
     [ "wiced_bt_mesh_core_provision_set_capabilities", "group__wiced__bt__mesh__core.html#ga8d1337074a5577a657298c024abb27ff", null ],
     [ "wiced_bt_mesh_core_provision_set_oob", "group__wiced__bt__mesh__core.html#gaf86b79fd4adb5961c8b1091a8dc00a55", null ],
     [ "wiced_bt_mesh_core_proxy_packet", "group__wiced__bt__mesh__core.html#gae9a9b66d80e9c010f75ebc7d4789a1ab", null ],
+    [ "wiced_bt_mesh_core_reset", "group__wiced__bt__mesh__core.html#ga9984cd943cbef8ebc470165f6d33764a", null ],
     [ "wiced_bt_mesh_core_send", "group__wiced__bt__mesh__core.html#ga7696232e84e5bc2ea948cc954eb9117a", null ],
     [ "wiced_bt_mesh_core_set_beacon", "group__wiced__bt__mesh__core.html#ga3fedf3f1b395dc5ea99a813ef1b611bd", null ],
     [ "wiced_bt_mesh_core_set_dev_key_callback", "group__wiced__bt__mesh__core.html#gabaa91eff853f498177b460270fbc8edb", null ],
     [ "wiced_bt_mesh_core_set_gatt_mtu", "group__wiced__bt__mesh__core.html#ga30b33daf106c09a327d8126a7976c9ad", null ],
+    [ "wiced_bt_mesh_core_set_hal_api", "group__wiced__bt__mesh__core.html#ga614041f855c21e8a06110b88d8b6a8b3", null ],
     [ "wiced_bt_mesh_core_set_node_identity", "group__wiced__bt__mesh__core.html#gadfd604b4d68c1d52a2f03a0f886335e9", null ],
     [ "wiced_bt_mesh_core_set_seq", "group__wiced__bt__mesh__core.html#ga95cc9efc94af6685ac4b0f7d3860b34d", null ],
     [ "wiced_bt_mesh_core_set_test_events_report", "group__wiced__bt__mesh__core.html#ga33d502d849006ac4e5d252c987c35230", null ],

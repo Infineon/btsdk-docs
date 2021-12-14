@@ -177,14 +177,5 @@ var searchData=
   ['btm_5fsmp_5fremote_5foob_5fdata_5frequest_5fevt',['BTM_SMP_REMOTE_OOB_DATA_REQUEST_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65adab633d8b20b3bdae03abdca5e38a58e',1,'wiced_bt_dev.h']]],
   ['btm_5fsmp_5fsc_5flocal_5foob_5fdata_5fnotification_5fevt',['BTM_SMP_SC_LOCAL_OOB_DATA_NOTIFICATION_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a9cb82502be00a366c3427b7c6ba29556',1,'wiced_bt_dev.h']]],
   ['btm_5fsmp_5fsc_5fremote_5foob_5fdata_5frequest_5fevt',['BTM_SMP_SC_REMOTE_OOB_DATA_REQUEST_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a79e2658300e5048effb5dce5abd8e7f7',1,'wiced_bt_dev.h']]],
-  ['btm_5fuser_5fconfirmation_5frequest_5fevt',['BTM_USER_CONFIRMATION_REQUEST_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a4317d26bc146308c938678438de96cab',1,'wiced_bt_dev.h']]],
-  ['button_5fclick_5fevent',['BUTTON_CLICK_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca4fafbf6c309fb3681fc804d5cda0104d',1,'wiced_button_manager.h']]],
-  ['button_5fdouble_5fclick_5fevent',['BUTTON_DOUBLE_CLICK_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca07d0cd063db0331af64c354b13bcfadf',1,'wiced_button_manager.h']]],
-  ['button_5fholding_5fevent',['BUTTON_HOLDING_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca1b84b2cd67ddaee0ba6e3f7ffd286ed3',1,'wiced_button_manager.h']]],
-  ['button_5flong_5fduration_5fevent',['BUTTON_LONG_DURATION_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca728edb127f0e080b016b2f3cc768d9fc',1,'wiced_button_manager.h']]],
-  ['button_5fmedium_5fduration_5fevent',['BUTTON_MEDIUM_DURATION_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627acad576f3ed61b8b3166e132f83f2bc7fe5',1,'wiced_button_manager.h']]],
-  ['button_5fshort_5fduration_5fevent',['BUTTON_SHORT_DURATION_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca90056ea68f1ceaa62b0d465139210a76',1,'wiced_button_manager.h']]],
-  ['button_5fstate_5fheld',['BUTTON_STATE_HELD',['../wiced__button__manager_8h.html#adf2820c9f0098b9f47ad1bf154ae4af7a98ef61c88fa5c2871d491405f938f5fd',1,'wiced_button_manager.h']]],
-  ['button_5fstate_5freleased',['BUTTON_STATE_RELEASED',['../wiced__button__manager_8h.html#adf2820c9f0098b9f47ad1bf154ae4af7a8f5bbf972d22254839750e5e0c52e92a',1,'wiced_button_manager.h']]],
-  ['button_5fvery_5flong_5fduration_5fevent',['BUTTON_VERY_LONG_DURATION_EVENT',['../wiced__button__manager_8h.html#aca267fbeb082c99f66b7cb9002b627aca8b9ce29113cd377c96589a54a6f0f458',1,'wiced_button_manager.h']]]
+  ['btm_5fuser_5fconfirmation_5frequest_5fevt',['BTM_USER_CONFIRMATION_REQUEST_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65a4317d26bc146308c938678438de96cab',1,'wiced_bt_dev.h']]]
 ];

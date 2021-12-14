@@ -1,13 +1,13 @@
 var NAVTREE =
 [
-  [ "WICED CYW20736", "index.html", [
-    [ "WICED API Reference", "index.html#wiced_api", null ],
-    [ "WICED User Guides", "index.html#wiced_pdf_docs", null ],
-    [ "WICED Hardware Reference", "index.html#wiced_hw_docs", null ],
-    [ "WICED Website", "index.html#wiced_web", null ],
-    [ "Bluetooth References", "index.html#bt_smart_ref", null ],
-    [ "WICED Community", "index.html#wiced_forum", null ],
-    [ "WICED BT SDK Licensing Information", "index.html#wiced_license", null ],
+  [ "AIROC™ CYW20736", "index.html", [
+    [ "AIROC™ API Reference", "index.html#wiced_api", null ],
+    [ "AIROC™ User Guides", "index.html#wiced_pdf_docs", null ],
+    [ "AIROC™ Hardware Reference", "index.html#wiced_hw_docs", null ],
+    [ "AIROC™ Website", "index.html#wiced_web", null ],
+    [ "Bluetooth® References", "index.html#bt_smart_ref", null ],
+    [ "AIROC™ Community", "index.html#wiced_forum", null ],
+    [ "AIROC™ BTSDK Licensing Information", "index.html#wiced_license", null ],
     [ "Components", "modules.html", "modules" ]
   ] ]
 ];
@@ -15,8 +15,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___a_c_l_k.html",
-"group__application.html#ga6d3f49b0ec93d737b5bfe856c2a9d00b",
-"pages.html"
+"group__blecm.html#ga385607c2cecd3b40f66212de89411fe9",
+"struct_ble_fwu_state__.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

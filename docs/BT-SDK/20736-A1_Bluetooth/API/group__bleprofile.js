@@ -1,8 +1,8 @@
 var group__bleprofile =
 [
-    [ "BLE_PROFILE_CFG", "group__bleprofile.html#ga6a0e6a5c7655b637d379e3cb8f13daf3", null ],
-    [ "BLE_PROFILE_GPIO_CFG", "group__bleprofile.html#ga4c6d057c9a49c9c0a9ce510dda6819fc", null ],
-    [ "BLE_PROFILE_PUART_CFG", "group__bleprofile.html#gae1afea7883fd346c9de0b77d32bac72a", null ],
+    [ "BLE_PROFILE_CFG", "group__bleprofile.html#gaf3a313eed015b712d6fd65dfae2cd3b5", null ],
+    [ "BLE_PROFILE_GPIO_CFG", "group__bleprofile.html#gab1595b1e9731c9c3a57cdb7e2fd0d6c1", null ],
+    [ "BLE_PROFILE_PUART_CFG", "group__bleprofile.html#ga145cdff7f4a787b891808638917b86e2", null ],
     [ "bleprofile_appTimerCb", "group__bleprofile.html#gaf9e8fd3133c6b21f4630ffe3993b15f9", null ],
     [ "bleprofile_BatOff", "group__bleprofile.html#gae4684b64e1fff8566db9455a02f69254", null ],
     [ "bleprofile_BatOn", "group__bleprofile.html#gad4ca37c031031d8e1f4c23ee2f9633fe", null ],

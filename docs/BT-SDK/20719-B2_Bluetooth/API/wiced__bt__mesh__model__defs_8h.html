@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20719: wiced_bt_mesh_model_defs.h File Reference</title>
+<title>AIROC&trade; CYW20719: wiced_bt_mesh_model_defs.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -163,7 +163,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_VALID_TRANSITION_TIME</b>(x)&#160;&#160;&#160;(((x) &amp; 0x3f) != 0x3f)</td></tr>
 <tr class="separator:a7a948cb0cd129d07fb7f2d0794769e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3d35db4b4027735ffd2f7448b906b1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3d35db4b4027735ffd2f7448b906b1f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>LIGHT_LIGHTNESS_LINEAR_FROM_ACTUAL</b>(x)&#160;&#160;&#160;(((uint32_t)(x) * (x) + 32767) / 65535)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LIGHT_LIGHTNESS_LINEAR_FROM_ACTUAL</b>(x)&#160;&#160;&#160;(((uint32_t)(x) * (x) + 65534) / 65535)</td></tr>
 <tr class="separator:af3d35db4b4027735ffd2f7448b906b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56a334e645c3f0df799beff270802669"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56a334e645c3f0df799beff270802669"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>LIGHT_LIGHTNESS_ACTUAL_FROM_LINEAR</b>(x)&#160;&#160;&#160;(utl_sqrt((uint32_t)65535 * (x)))</td></tr>
@@ -1950,8 +1950,203 @@ Macros</h2></td></tr>
 <tr class="memitem:a60cb6bcf7cb83a8d1c115b2015b37d9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60cb6bcf7cb83a8d1c115b2015b37d9a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_TOTAL_LUMINOUS_ENERGY</b>&#160;&#160;&#160;0x0070</td></tr>
 <tr class="separator:a60cb6bcf7cb83a8d1c115b2015b37d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3d81f58260960b7755fe5320bf7caf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d3d81f58260960b7755fe5320bf7caf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_DESIRED_AMBIENT_TEMPERATURE</b>&#160;&#160;&#160;0x0071</td></tr>
+<tr class="separator:a4d3d81f58260960b7755fe5320bf7caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd74300d22b9b8b072a2af07460633fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd74300d22b9b8b072a2af07460633fa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRECISE_TOTAL_DEVICE_ENERGY_USE</b>&#160;&#160;&#160;0x0072</td></tr>
+<tr class="separator:acd74300d22b9b8b072a2af07460633fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357a2e824f33c068f58ef5125400d9ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a357a2e824f33c068f58ef5125400d9ef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_POWER_FACTOR</b>&#160;&#160;&#160;0x0073</td></tr>
+<tr class="separator:a357a2e824f33c068f58ef5125400d9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48538bcb30967f328f38110875d6f70f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48538bcb30967f328f38110875d6f70f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_SENSOR_GAIN</b>&#160;&#160;&#160;0x0074</td></tr>
+<tr class="separator:a48538bcb30967f328f38110875d6f70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9d72f6d2ed787fae4f23632b71ffab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d9d72f6d2ed787fae4f23632b71ffab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRECISE_PRESENT_AMBIENT_TEMPERATURE</b>&#160;&#160;&#160;0x0075</td></tr>
+<tr class="separator:a6d9d72f6d2ed787fae4f23632b71ffab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1f0c204890049ad911042143217750"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b1f0c204890049ad911042143217750"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_AMBIENT_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0x0076</td></tr>
+<tr class="separator:a9b1f0c204890049ad911042143217750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5b1d4cfb16ff73af95eada6aa6df8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa5b1d4cfb16ff73af95eada6aa6df8f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_AMBIENT_CO2_CONCENTRAION</b>&#160;&#160;&#160;0x0077</td></tr>
+<tr class="separator:afa5b1d4cfb16ff73af95eada6aa6df8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabcaa796fe7b78159743d2ac6676be5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aabcaa796fe7b78159743d2ac6676be5c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_AMBIENT_ORGRANIC_COMPOUNDS_CONCENTRATION</b>&#160;&#160;&#160;0x0078</td></tr>
+<tr class="separator:aabcaa796fe7b78159743d2ac6676be5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46fa862f2ad8869a7b620bc0a607711"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af46fa862f2ad8869a7b620bc0a607711"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_AMBIENT_NOISE</b>&#160;&#160;&#160;0x0079</td></tr>
+<tr class="separator:af46fa862f2ad8869a7b620bc0a607711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad204d486e34cf5e2224b534d9bbe34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ad204d486e34cf5e2224b534d9bbe34"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_ACTIVE_ENERGY_LOADSIDE</b>&#160;&#160;&#160;0x0080</td></tr>
+<tr class="separator:a7ad204d486e34cf5e2224b534d9bbe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af253e2b731920538b058040a40ee4430"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af253e2b731920538b058040a40ee4430"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_ACTOVE_POWER_LOADSIDE</b>&#160;&#160;&#160;0x0081</td></tr>
+<tr class="separator:af253e2b731920538b058040a40ee4430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea80e002eb0c849cc64c6c9fb9c05d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ea80e002eb0c849cc64c6c9fb9c05d8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_ACTOVE_AIR_PRESSURE</b>&#160;&#160;&#160;0x0082</td></tr>
+<tr class="separator:a0ea80e002eb0c849cc64c6c9fb9c05d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4141537f807eadb2456d9bbac42910"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef4141537f807eadb2456d9bbac42910"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_APPARENT_ENERGY</b>&#160;&#160;&#160;0x0083</td></tr>
+<tr class="separator:aef4141537f807eadb2456d9bbac42910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eff1bf7ccbc4461cf56cf1c2f08dc1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eff1bf7ccbc4461cf56cf1c2f08dc1c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_APPARENT_POWER</b>&#160;&#160;&#160;0x0084</td></tr>
+<tr class="separator:a7eff1bf7ccbc4461cf56cf1c2f08dc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada31e3120e363df97aee9653c64f27aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada31e3120e363df97aee9653c64f27aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_APPARENT_WIND_DIRECTION</b>&#160;&#160;&#160;0x0085</td></tr>
+<tr class="separator:ada31e3120e363df97aee9653c64f27aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9b06dec4071dd2122a18d08630c7f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e9b06dec4071dd2122a18d08630c7f5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_APPARENT_WIND_SPEED</b>&#160;&#160;&#160;0x0086</td></tr>
+<tr class="separator:a3e9b06dec4071dd2122a18d08630c7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a7177caeff4e382cf26a8a032dde79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27a7177caeff4e382cf26a8a032dde79"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_DEW_POINT</b>&#160;&#160;&#160;0x0087</td></tr>
+<tr class="separator:a27a7177caeff4e382cf26a8a032dde79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc68f329ceed90b1c670cd795fc39f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8cc68f329ceed90b1c670cd795fc39f7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_EXTERNAL_SUPPLY_VOLTAGE</b>&#160;&#160;&#160;0x0088</td></tr>
+<tr class="separator:a8cc68f329ceed90b1c670cd795fc39f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e7a59653faf010a83914f4075875dbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e7a59653faf010a83914f4075875dbd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_EXTERNAL_SUPPLY_VOLTAGE_FREQUENCY</b>&#160;&#160;&#160;0x0089</td></tr>
+<tr class="separator:a0e7a59653faf010a83914f4075875dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bd5818358efce99667e147d0fbbb10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00bd5818358efce99667e147d0fbbb10"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_GUST_FACTOR</b>&#160;&#160;&#160;0x008A</td></tr>
+<tr class="separator:a00bd5818358efce99667e147d0fbbb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a353e4389edc2a97ad87899fe89aec354"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a353e4389edc2a97ad87899fe89aec354"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_HEAT_INDEX</b>&#160;&#160;&#160;0x008B</td></tr>
+<tr class="separator:a353e4389edc2a97ad87899fe89aec354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c6cc81f00ffdcd99e5dad5a22bf49f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51c6cc81f00ffdcd99e5dad5a22bf49f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_DISTRIBUTION</b>&#160;&#160;&#160;0x008C</td></tr>
+<tr class="separator:a51c6cc81f00ffdcd99e5dad5a22bf49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34151a3b76506c798e07ee91b4d4ef08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34151a3b76506c798e07ee91b4d4ef08"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_CURRENT</b>&#160;&#160;&#160;0x008D</td></tr>
+<tr class="separator:a34151a3b76506c798e07ee91b4d4ef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7be37131b42c086e9358f63f877bcb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb7be37131b42c086e9358f63f877bcb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_ON_TIME_NOT_RESETTABLE</b>&#160;&#160;&#160;0x008E</td></tr>
+<tr class="separator:aeb7be37131b42c086e9358f63f877bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8827a97baf143c68d9f802fb15f57b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b8827a97baf143c68d9f802fb15f57b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_ON_TIME_RESETTABLE</b>&#160;&#160;&#160;0x008F</td></tr>
+<tr class="separator:a8b8827a97baf143c68d9f802fb15f57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa4021d745c4aa3d3bdde952d47f08f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5fa4021d745c4aa3d3bdde952d47f08f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_OPEN_CIRCUIT_STATISTICS</b>&#160;&#160;&#160;0x0090</td></tr>
+<tr class="separator:a5fa4021d745c4aa3d3bdde952d47f08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbe085856361f6561197d1df18fd43d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbbe085856361f6561197d1df18fd43d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_OVERALL_FAILURE_STATISTICS</b>&#160;&#160;&#160;0x0091</td></tr>
+<tr class="separator:afbbe085856361f6561197d1df18fd43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa4fa088bf77371f7d50a8823600136"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aa4fa088bf77371f7d50a8823600136"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_SHORT_CIRCUIT_STATISTICS</b>&#160;&#160;&#160;0x0092</td></tr>
+<tr class="separator:a0aa4fa088bf77371f7d50a8823600136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f351c590692d693502aee0b4d216220"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f351c590692d693502aee0b4d216220"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_START_COUNTER_RESETTABLE</b>&#160;&#160;&#160;0x0093</td></tr>
+<tr class="separator:a7f351c590692d693502aee0b4d216220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c6ddccb6d445285c0cd4fac453178f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81c6ddccb6d445285c0cd4fac453178f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_TEMPERATURE</b>&#160;&#160;&#160;0x0094</td></tr>
+<tr class="separator:a81c6ddccb6d445285c0cd4fac453178f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae529f476d309354f79e3514cdeb3c231"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae529f476d309354f79e3514cdeb3c231"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_THERMAL_DERATING_STATISTICS</b>&#160;&#160;&#160;0x0095</td></tr>
+<tr class="separator:ae529f476d309354f79e3514cdeb3c231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800b3f69aef1a5e284b78c9623d1291b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a800b3f69aef1a5e284b78c9623d1291b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_THERMAL_DERATING_SHUTDOWN_STATISTICS</b>&#160;&#160;&#160;0x0096</td></tr>
+<tr class="separator:a800b3f69aef1a5e284b78c9623d1291b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bad79d0f7c3945603c88a8f8f3ed550"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bad79d0f7c3945603c88a8f8f3ed550"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_TOTAL_POWER_ON_CYCLES</b>&#160;&#160;&#160;0x0097</td></tr>
+<tr class="separator:a2bad79d0f7c3945603c88a8f8f3ed550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acbc64a51ebd299eee5207fcc0f0efe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0acbc64a51ebd299eee5207fcc0f0efe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_VOLTAGE</b>&#160;&#160;&#160;0x0098</td></tr>
+<tr class="separator:a0acbc64a51ebd299eee5207fcc0f0efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42295d527ffe983b304b5d6feb17dd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad42295d527ffe983b304b5d6feb17dd3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_COLOR</b>&#160;&#160;&#160;0x0099</td></tr>
+<tr class="separator:ad42295d527ffe983b304b5d6feb17dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac4fc1f8fc868176e7557039efcd343"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaac4fc1f8fc868176e7557039efcd343"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_IDENTIFICATION_NUMBER</b>&#160;&#160;&#160;0x009A</td></tr>
+<tr class="separator:aaac4fc1f8fc868176e7557039efcd343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c88b08ec5bdaa5fab2b12ecc103126c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c88b08ec5bdaa5fab2b12ecc103126c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_MANUFACTURER_GTIN</b>&#160;&#160;&#160;0x009B</td></tr>
+<tr class="separator:a1c88b08ec5bdaa5fab2b12ecc103126c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea60864f6904428370b46a6476d5c030"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea60864f6904428370b46a6476d5c030"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_NOMINAL_INPUT_POWER</b>&#160;&#160;&#160;0x009C</td></tr>
+<tr class="separator:aea60864f6904428370b46a6476d5c030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55119d612786c8c09e183fad9e42ace"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af55119d612786c8c09e183fad9e42ace"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_NOMINAL_MAXIMUM_AC_MAINS_VOLTAGE</b>&#160;&#160;&#160;0x009D</td></tr>
+<tr class="separator:af55119d612786c8c09e183fad9e42ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659ded1631463b2d5f5a2fb53841c2be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a659ded1631463b2d5f5a2fb53841c2be"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_NOMINAL_MINIMUM_AC_MAINS_VOLTAGE</b>&#160;&#160;&#160;0x009E</td></tr>
+<tr class="separator:a659ded1631463b2d5f5a2fb53841c2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fb3dc4da4967c1d5bd7ffc709171e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44fb3dc4da4967c1d5bd7ffc709171e7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_POWER_AT_MINIMUM_DIM_LEVEL</b>&#160;&#160;&#160;0x009F</td></tr>
+<tr class="separator:a44fb3dc4da4967c1d5bd7ffc709171e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90106f157518948e2a2a0e863f8013f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90106f157518948e2a2a0e863f8013f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_TIME_OF_MANUFACTURE</b>&#160;&#160;&#160;0x00A0</td></tr>
+<tr class="separator:a90106f157518948e2a2a0e863f8013f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79073605d44a79f2b64154efe854d5f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79073605d44a79f2b64154efe854d5f6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_MAGNETIC_DECLINATION</b>&#160;&#160;&#160;0x00A1</td></tr>
+<tr class="separator:a79073605d44a79f2b64154efe854d5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbc346fe760cd18c5c11feb9a94a3bd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbc346fe760cd18c5c11feb9a94a3bd5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_MAGNETIC_FLUX_DENSITY_2D</b>&#160;&#160;&#160;0x00A2</td></tr>
+<tr class="separator:adbc346fe760cd18c5c11feb9a94a3bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12299dc1cc8488a3146c0f677a76d58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad12299dc1cc8488a3146c0f677a76d58"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_MAGNETIC_FLUX_DENSITY_3D</b>&#160;&#160;&#160;0x00A3</td></tr>
+<tr class="separator:ad12299dc1cc8488a3146c0f677a76d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9857b141bd4673b89e6daac58ac1902f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9857b141bd4673b89e6daac58ac1902f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_NOMINAL_LIGHT_OUTPUT</b>&#160;&#160;&#160;0x00A4</td></tr>
+<tr class="separator:a9857b141bd4673b89e6daac58ac1902f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a694a3fa1891beb24e1ac2bbf2215ae6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a694a3fa1891beb24e1ac2bbf2215ae6d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_OVERALL_FAILURE_CONDITION</b>&#160;&#160;&#160;0x00A5</td></tr>
+<tr class="separator:a694a3fa1891beb24e1ac2bbf2215ae6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170b8c194ccdad16d6afe7b88f29855a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a170b8c194ccdad16d6afe7b88f29855a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_POLLEN_CONCENTRATION</b>&#160;&#160;&#160;0x00A6</td></tr>
+<tr class="separator:a170b8c194ccdad16d6afe7b88f29855a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00696e9b2341301794014b3ef9d5184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab00696e9b2341301794014b3ef9d5184"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_INDOOR_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0x00A7</td></tr>
+<tr class="separator:ab00696e9b2341301794014b3ef9d5184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8774ea1e9ebfb768164a2f0caf3a4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb8774ea1e9ebfb768164a2f0caf3a4d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESENT_OUTDOOR_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0x00A8</td></tr>
+<tr class="separator:afb8774ea1e9ebfb768164a2f0caf3a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2feff08a28126a98329f98631314f61f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2feff08a28126a98329f98631314f61f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_PRESSURE</b>&#160;&#160;&#160;0x00A9</td></tr>
+<tr class="separator:a2feff08a28126a98329f98631314f61f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a6879f15ca32a187bc98ba220e0b34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59a6879f15ca32a187bc98ba220e0b34"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_RAINFALL</b>&#160;&#160;&#160;0x00AA</td></tr>
+<tr class="separator:a59a6879f15ca32a187bc98ba220e0b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac08ab86bfc3095bf12004c79d94609"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ac08ab86bfc3095bf12004c79d94609"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_RATED_MEDIAN_USEFUL_LIFE_OF_LUMINAIRE</b>&#160;&#160;&#160;0x00AB</td></tr>
+<tr class="separator:a3ac08ab86bfc3095bf12004c79d94609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7bca57dc9db9e5f38a8ed5d92e3821"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b7bca57dc9db9e5f38a8ed5d92e3821"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_RATED_MEDIAN_USEFUL_LIGHT_SOURCE_STARTS</b>&#160;&#160;&#160;0x00AC</td></tr>
+<tr class="separator:a5b7bca57dc9db9e5f38a8ed5d92e3821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab69302fee49cca0b7931477409f2c48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab69302fee49cca0b7931477409f2c48"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_REFERENCE_TEMPERATURE</b>&#160;&#160;&#160;0x00AD</td></tr>
+<tr class="separator:aab69302fee49cca0b7931477409f2c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bf55a5c7339e24a353fcf73570ef33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29bf55a5c7339e24a353fcf73570ef33"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_TOTAL_DEVICE_STARTS</b>&#160;&#160;&#160;0x00AE</td></tr>
+<tr class="separator:a29bf55a5c7339e24a353fcf73570ef33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08cf1dddb6ac07b9bdf7bcb06780a111"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08cf1dddb6ac07b9bdf7bcb06780a111"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_TRUE_WIND_DIRECTION</b>&#160;&#160;&#160;0x00AF</td></tr>
+<tr class="separator:a08cf1dddb6ac07b9bdf7bcb06780a111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e2f31eff7662e790d688bd63e1ea67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29e2f31eff7662e790d688bd63e1ea67"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_TRUE_WIND_SPEED</b>&#160;&#160;&#160;0x00B0</td></tr>
+<tr class="separator:a29e2f31eff7662e790d688bd63e1ea67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffcce259d318e724854ed29ea07bcf7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adffcce259d318e724854ed29ea07bcf7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_UV_INDEX</b>&#160;&#160;&#160;0x00B1</td></tr>
+<tr class="separator:adffcce259d318e724854ed29ea07bcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e33e17f1e24dd2761d9bca3810fed6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e33e17f1e24dd2761d9bca3810fed6b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_WIND_CHILL</b>&#160;&#160;&#160;0x00B2</td></tr>
+<tr class="separator:a6e33e17f1e24dd2761d9bca3810fed6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fe113a935dffc7b6750f738bc10549"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42fe113a935dffc7b6750f738bc10549"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LIGHT_SOURCE_TYPE</b>&#160;&#160;&#160;0x00B3</td></tr>
+<tr class="separator:a42fe113a935dffc7b6750f738bc10549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69a70e7da542155f3168ea32662b6ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae69a70e7da542155f3168ea32662b6ba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LUMINAIRE_IDENTIFICATION_STRING</b>&#160;&#160;&#160;0x00B4</td></tr>
+<tr class="separator:ae69a70e7da542155f3168ea32662b6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320fe4ca2716c72ebacce09f4081e1ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a320fe4ca2716c72ebacce09f4081e1ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_OUTPUT_POWER_LIMITATION</b>&#160;&#160;&#160;0x00B5</td></tr>
+<tr class="separator:a320fe4ca2716c72ebacce09f4081e1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764cccaed702c207379d0b8a62a60409"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a764cccaed702c207379d0b8a62a60409"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_THERMAL_DERATING</b>&#160;&#160;&#160;0x00B6</td></tr>
+<tr class="separator:a764cccaed702c207379d0b8a62a60409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cd125112a9cdc0b0a93730d6fc6bb4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cd125112a9cdc0b0a93730d6fc6bb4f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_OUTPUT_CURRENT_PERCENT</b>&#160;&#160;&#160;0x00B7</td></tr>
+<tr class="separator:a7cd125112a9cdc0b0a93730d6fc6bb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a988f0019c16201860b95de44c5e8a3c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a988f0019c16201860b95de44c5e8a3c6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MAX_PROPERTY_ID</b>&#160;&#160;&#160;WICED_BT_MESH_PROPERTY_TOTAL_LUMINOUS_ENERGY</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MAX_PROPERTY_ID</b>&#160;&#160;&#160;WICED_BT_MESH_PROPERTY_OUTPUT_CURRENT_PERCENT</td></tr>
 <tr class="separator:a988f0019c16201860b95de44c5e8a3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a83e0d181c64f06fb5dc8812300642f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a83e0d181c64f06fb5dc8812300642f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_UNKNOWN</b>&#160;&#160;&#160;0</td></tr>
@@ -2200,7 +2395,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_CORRELATED_COLOR_TEMPERATURE</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a4bbc9e52e2d2c00bb7865d929695752a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8793a826c87b1e2e33ea07e06914c2b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8793a826c87b1e2e33ea07e06914c2b3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_DEVICE_INPUT_POWER</b>&#160;&#160;&#160;0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_DEVICE_INPUT_POWER</b>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a8793a826c87b1e2e33ea07e06914c2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f8a5dd8cae49377224d4881f93425be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f8a5dd8cae49377224d4881f93425be"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_DEVICE_OPERATING_EFFICIENCY</b>&#160;&#160;&#160;0</td></tr>
@@ -2292,6 +2487,201 @@ Macros</h2></td></tr>
 <tr class="memitem:a51a9b43e121f6ac840b20718f6a8c969"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51a9b43e121f6ac840b20718f6a8c969"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_TOTAL_LUMINOUS_ENERGY</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a51a9b43e121f6ac840b20718f6a8c969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa190d1958a907d23e09dd515e0edfdeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa190d1958a907d23e09dd515e0edfdeb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_DESIRED_AMBIENT_TEMPERATURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa190d1958a907d23e09dd515e0edfdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b05a641e57e9b798594cbdad4d7b994"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b05a641e57e9b798594cbdad4d7b994"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRECISE_TOTAL_DEVICE_ENERGY_USE</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a3b05a641e57e9b798594cbdad4d7b994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d1a32ec03d93e0933328ded2e92ab8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3d1a32ec03d93e0933328ded2e92ab8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_POWER_FACTOR</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad3d1a32ec03d93e0933328ded2e92ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f85613366873e9902c874101bd58285"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f85613366873e9902c874101bd58285"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_SENSOR_GAIN</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a5f85613366873e9902c874101bd58285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071832fffc926645678615da9c75f99a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a071832fffc926645678615da9c75f99a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRECISE_PRESENT_AMBIENT_TEMPERATURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a071832fffc926645678615da9c75f99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b7e74b38d0e901b811edb9cdbac3ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75b7e74b38d0e901b811edb9cdbac3ed"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_AMBIENT_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a75b7e74b38d0e901b811edb9cdbac3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a8ca607b631340e4ec1dd5915e8d29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2a8ca607b631340e4ec1dd5915e8d29"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_AMBIENT_CO2_CONCENTRAION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ae2a8ca607b631340e4ec1dd5915e8d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d3c2216a4dc8b9382f16d945dfc8cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8d3c2216a4dc8b9382f16d945dfc8cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_AMBIENT_ORGRANIC_COMPOUNDS_CONCENTRATION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:af8d3c2216a4dc8b9382f16d945dfc8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f66ba9c8c5fcf5d68dda104d2d19262"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f66ba9c8c5fcf5d68dda104d2d19262"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_AMBIENT_NOISE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a7f66ba9c8c5fcf5d68dda104d2d19262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efac3b6131ca5f8d8bf3f9621181403"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8efac3b6131ca5f8d8bf3f9621181403"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_ACTIVE_ENERGY_LOADSIDE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8efac3b6131ca5f8d8bf3f9621181403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7866e8174e6770ca1e9226a16d286c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe7866e8174e6770ca1e9226a16d286c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_ACTOVE_POWER_LOADSIDE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:afe7866e8174e6770ca1e9226a16d286c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726394f35d56e40273c5c7461ba7dab9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a726394f35d56e40273c5c7461ba7dab9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_ACTOVE_AIR_PRESSURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a726394f35d56e40273c5c7461ba7dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b53a0a18841e57330bbc5473f163ec8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b53a0a18841e57330bbc5473f163ec8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_APPARENT_ENERGY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a2b53a0a18841e57330bbc5473f163ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e19aa18b7fa3931d9be932632053fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37e19aa18b7fa3931d9be932632053fb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_APPARENT_POWER</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a37e19aa18b7fa3931d9be932632053fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cabe29d185b1105dd81addd0803375c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cabe29d185b1105dd81addd0803375c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_APPARENT_WIND_DIRECTION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a6cabe29d185b1105dd81addd0803375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29bfbb21b6ae4ef5e71c7bd2fb131ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac29bfbb21b6ae4ef5e71c7bd2fb131ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_APPARENT_WIND_SPEED</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ac29bfbb21b6ae4ef5e71c7bd2fb131ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ee649d5a623cfaa8b8dcca747412e15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ee649d5a623cfaa8b8dcca747412e15"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_DEW_POINT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a5ee649d5a623cfaa8b8dcca747412e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0aa87b8035e9a3b38aa487ad0364062"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0aa87b8035e9a3b38aa487ad0364062"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_EXTERNAL_SUPPLY_VOLTAGE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ae0aa87b8035e9a3b38aa487ad0364062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b2adf2c15eaca1e6aa55f3554f9dab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68b2adf2c15eaca1e6aa55f3554f9dab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_EXTERNAL_SUPPLY_VOLTAGE_FREQUENCY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a68b2adf2c15eaca1e6aa55f3554f9dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864e7c130118062da9767b55fea0113a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a864e7c130118062da9767b55fea0113a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_GUST_FACTOR</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a864e7c130118062da9767b55fea0113a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85ad9fe1f1783cb38b77a2af17ddef3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad85ad9fe1f1783cb38b77a2af17ddef3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_HEAT_INDEX</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad85ad9fe1f1783cb38b77a2af17ddef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e86bea3bdb3a90e3d1d02a1f00c9ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4e86bea3bdb3a90e3d1d02a1f00c9ba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_DISTRIBUTION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ab4e86bea3bdb3a90e3d1d02a1f00c9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3f11574e7b9db01b69399122eef27a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d3f11574e7b9db01b69399122eef27a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_CURRENT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a4d3f11574e7b9db01b69399122eef27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90136befcbd9a591735d1b57a81ba9a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90136befcbd9a591735d1b57a81ba9a5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_ON_TIME_NOT_RESETTABLE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a90136befcbd9a591735d1b57a81ba9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8b4e6e4d5ed73884a429aca9edff2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a8b4e6e4d5ed73884a429aca9edff2d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_ON_TIME_RESETTABLE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a2a8b4e6e4d5ed73884a429aca9edff2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd84966565a3f7ef2875a963cec762a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8cd84966565a3f7ef2875a963cec762a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_OPEN_CIRCUIT_STATISTICS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8cd84966565a3f7ef2875a963cec762a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eadbdc49ac82c5c882e78c8988826ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6eadbdc49ac82c5c882e78c8988826ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_OVERALL_FAILURE_STATISTICS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a6eadbdc49ac82c5c882e78c8988826ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f3e8b668fd1fb3c08b777aa5e93234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62f3e8b668fd1fb3c08b777aa5e93234"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_SHORT_CIRCUIT_STATISTICS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a62f3e8b668fd1fb3c08b777aa5e93234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aae382ed0dd72dbdeafd85a4d032690"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aae382ed0dd72dbdeafd85a4d032690"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_START_COUNTER_RESETTABLE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a0aae382ed0dd72dbdeafd85a4d032690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97286e01417ed4df81061361f533faec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a97286e01417ed4df81061361f533faec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_TEMPERATURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a97286e01417ed4df81061361f533faec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cb74e62c2b4e954ad60f34dec99f6c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cb74e62c2b4e954ad60f34dec99f6c1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_THERMAL_DERATING_STATISTICS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a1cb74e62c2b4e954ad60f34dec99f6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3df6a1adde0a26d71556e3dd14fa2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade3df6a1adde0a26d71556e3dd14fa2c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_THERMAL_DERATING_SHUTDOWN_STATISTICS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ade3df6a1adde0a26d71556e3dd14fa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de61bbe2fa197044f6bdab1da954ecc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4de61bbe2fa197044f6bdab1da954ecc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_TOTAL_POWER_ON_CYCLES</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a4de61bbe2fa197044f6bdab1da954ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa195c03503cb9aae1e8d68bddb6feea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa195c03503cb9aae1e8d68bddb6feea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_VOLTAGE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aaa195c03503cb9aae1e8d68bddb6feea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a825494ff9bab80885af3e522136fc1de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a825494ff9bab80885af3e522136fc1de"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_COLOR</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a825494ff9bab80885af3e522136fc1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9a3702421bd6a8883aa7df4765d12c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c9a3702421bd6a8883aa7df4765d12c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_IDENTIFICATION_NUMBER</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a5c9a3702421bd6a8883aa7df4765d12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8199171cfd0a2c0c5e937857521abd9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8199171cfd0a2c0c5e937857521abd9d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_MANUFACTURER_GTIN</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8199171cfd0a2c0c5e937857521abd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80fdcb7eceda21dbeca050bd84918c87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80fdcb7eceda21dbeca050bd84918c87"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_NOMINAL_INPUT_POWER</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a80fdcb7eceda21dbeca050bd84918c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0c01632b36763513c4adb6d91589d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fb0c01632b36763513c4adb6d91589d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_NOMINAL_MAXIMUM_AC_MAINS_VOLTAGE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a9fb0c01632b36763513c4adb6d91589d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9eeeddd2830a23e782a121ec8c0b27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f9eeeddd2830a23e782a121ec8c0b27"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_NOMINAL_MINIMUM_AC_MAINS_VOLTAGE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a9f9eeeddd2830a23e782a121ec8c0b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6af43573a6e411531c4e3c42014c24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c6af43573a6e411531c4e3c42014c24"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_POWER_AT_MINIMUM_DIM_LEVEL</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a0c6af43573a6e411531c4e3c42014c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4549c501ce0a3edf9a44b02b0f48a895"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4549c501ce0a3edf9a44b02b0f48a895"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_TIME_OF_MANUFACTURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a4549c501ce0a3edf9a44b02b0f48a895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5554d96d117faa7d20e4885ab24683"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab5554d96d117faa7d20e4885ab24683"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_MAGNETIC_DECLINATION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aab5554d96d117faa7d20e4885ab24683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ee8ea7c836c5567c8371e97a6c1ce7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5ee8ea7c836c5567c8371e97a6c1ce7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_MAGNETIC_FLUX_DENSITY_2D</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa5ee8ea7c836c5567c8371e97a6c1ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52fb1a53bb6ead005371630bac8eb448"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52fb1a53bb6ead005371630bac8eb448"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_MAGNETIC_FLUX_DENSITY_3D</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a52fb1a53bb6ead005371630bac8eb448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46af403427f762db4c05e95d2705260f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46af403427f762db4c05e95d2705260f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_NOMINAL_LIGHT_OUTPUT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a46af403427f762db4c05e95d2705260f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552e2a9c5eff5a31a8faa6bf7bb4b619"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a552e2a9c5eff5a31a8faa6bf7bb4b619"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_OVERALL_FAILURE_CONDITION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a552e2a9c5eff5a31a8faa6bf7bb4b619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3400336950ca8de816d8dbe2e525783c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3400336950ca8de816d8dbe2e525783c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_POLLEN_CONCENTRATION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a3400336950ca8de816d8dbe2e525783c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45bfad24cd6a7b815d7f5398b8b50dd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45bfad24cd6a7b815d7f5398b8b50dd6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_INDOOR_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a45bfad24cd6a7b815d7f5398b8b50dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e461ee4770c88d05f126cfa368a136"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9e461ee4770c88d05f126cfa368a136"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESENT_OUTDOOR_RELATIVE_HUMIDITY</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:af9e461ee4770c88d05f126cfa368a136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd64940a1c69847fcc3296d05e5ec80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accd64940a1c69847fcc3296d05e5ec80"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_PRESSURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:accd64940a1c69847fcc3296d05e5ec80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8344d002de18a26d854160a0c8ffc34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8344d002de18a26d854160a0c8ffc34"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_RAINFALL</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa8344d002de18a26d854160a0c8ffc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c2b67a186a3cea0ccfaef76058940f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23c2b67a186a3cea0ccfaef76058940f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_RATED_MEDIAN_USEFUL_LIFE_OF_LUMINAIRE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a23c2b67a186a3cea0ccfaef76058940f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d765b7e4e264baa534d56912afac517"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d765b7e4e264baa534d56912afac517"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_RATED_MEDIAN_USEFUL_LIGHT_SOURCE_STARTS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a6d765b7e4e264baa534d56912afac517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03a71f3b4c0f095236683898beeaf8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa03a71f3b4c0f095236683898beeaf8f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_REFERENCE_TEMPERATURE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa03a71f3b4c0f095236683898beeaf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ec80a6d43f9c5bce685900c4f55722"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5ec80a6d43f9c5bce685900c4f55722"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_TOTAL_DEVICE_STARTS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad5ec80a6d43f9c5bce685900c4f55722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8e10892b94aa579cb35f5b986b5f24b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8e10892b94aa579cb35f5b986b5f24b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_TRUE_WIND_DIRECTION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa8e10892b94aa579cb35f5b986b5f24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9aa15fb247b22934f1b209c51adf79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a9aa15fb247b22934f1b209c51adf79"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_TRUE_WIND_SPEED</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8a9aa15fb247b22934f1b209c51adf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac330039baf9a2090dfe1f18d6be591a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac330039baf9a2090dfe1f18d6be591a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_UV_INDEX</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ac330039baf9a2090dfe1f18d6be591a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1f6b1d20a7eacf557e713e2451c265"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f1f6b1d20a7eacf557e713e2451c265"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_WIND_CHILL</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a6f1f6b1d20a7eacf557e713e2451c265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8515d3ad0943cb60fb467dfa331bf6ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8515d3ad0943cb60fb467dfa331bf6ae"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LIGHT_SOURCE_TYPE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8515d3ad0943cb60fb467dfa331bf6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f489a726dbd4575b7b32d83987cc47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34f489a726dbd4575b7b32d83987cc47"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_LUMINAIRE_IDENTIFICATION_STRING</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a34f489a726dbd4575b7b32d83987cc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74dde11dbc0b4649749b681606ec3b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad74dde11dbc0b4649749b681606ec3b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_OUTPUT_POWER_LIMITATION</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad74dde11dbc0b4649749b681606ec3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d18e62228ce7eea29a8c9eda78481b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8d18e62228ce7eea29a8c9eda78481b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_THERMAL_DERATING</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ab8d18e62228ce7eea29a8c9eda78481b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b271e870a85475c10362a702c87668a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b271e870a85475c10362a702c87668a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROPERTY_LEN_OUTPUT_CURRENT_PERCENT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8b271e870a85475c10362a702c87668a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Mesh Beacon States</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_BEACON_STATES"></a></p>
 </div></td></tr>
@@ -2394,35 +2784,47 @@ Macros</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_PROVISIONING_PDUS"></a></p>
 </div></td></tr>
 <tr class="memitem:ae954a3bd4feb1e032ed4af6478cfd077"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae954a3bd4feb1e032ed4af6478cfd077"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_INVITE</b>&#160;&#160;&#160;0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_INVITE</b>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:ae954a3bd4feb1e032ed4af6478cfd077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4406c4e5b466d443ada5e3088204c7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4406c4e5b466d443ada5e3088204c7c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_CAPABILITIES</b>&#160;&#160;&#160;1</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_CAPABILITIES</b>&#160;&#160;&#160;0x01</td></tr>
 <tr class="separator:aa4406c4e5b466d443ada5e3088204c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6459b7cf2014e8fd81f628d3f6fe82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c6459b7cf2014e8fd81f628d3f6fe82"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_START</b>&#160;&#160;&#160;2</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_START</b>&#160;&#160;&#160;0x02</td></tr>
 <tr class="separator:a6c6459b7cf2014e8fd81f628d3f6fe82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a551167e627ce6163f8a30cb2a75b38d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a551167e627ce6163f8a30cb2a75b38d9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_PUBLIC_KEY</b>&#160;&#160;&#160;3</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_PUBLIC_KEY</b>&#160;&#160;&#160;0x03</td></tr>
 <tr class="separator:a551167e627ce6163f8a30cb2a75b38d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76d07aeea2818720fd96df4f63761ae7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76d07aeea2818720fd96df4f63761ae7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_INPUT_COMPLETE</b>&#160;&#160;&#160;4</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_INPUT_COMPLETE</b>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:a76d07aeea2818720fd96df4f63761ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abea8983d5fedf233efef6f78b9cb7568"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abea8983d5fedf233efef6f78b9cb7568"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_CONFIRMATION</b>&#160;&#160;&#160;5</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_CONFIRMATION</b>&#160;&#160;&#160;0x05</td></tr>
 <tr class="separator:abea8983d5fedf233efef6f78b9cb7568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f05e2cb6b2dc7677b9922522ef11a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0f05e2cb6b2dc7677b9922522ef11a3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RANDOM</b>&#160;&#160;&#160;6</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RANDOM</b>&#160;&#160;&#160;0x06</td></tr>
 <tr class="separator:af0f05e2cb6b2dc7677b9922522ef11a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f569599a9992532d99d18695788b6b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f569599a9992532d99d18695788b6b3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_DATA</b>&#160;&#160;&#160;7</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_DATA</b>&#160;&#160;&#160;0x07</td></tr>
 <tr class="separator:a6f569599a9992532d99d18695788b6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc4f6673149f3fe1ce4834bbea7724b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc4f6673149f3fe1ce4834bbea7724b6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_COMPLETE</b>&#160;&#160;&#160;8</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_COMPLETE</b>&#160;&#160;&#160;0x08</td></tr>
 <tr class="separator:afc4f6673149f3fe1ce4834bbea7724b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606bd5e22b871407f127a87f4ddfd7ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a606bd5e22b871407f127a87f4ddfd7ae"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_FAILED</b>&#160;&#160;&#160;9</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_FAILED</b>&#160;&#160;&#160;0x09</td></tr>
 <tr class="separator:a606bd5e22b871407f127a87f4ddfd7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f016b1539aed0c57c756f4de95f5ea8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f016b1539aed0c57c756f4de95f5ea8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RECORD_REQUEST</b>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="separator:a7f016b1539aed0c57c756f4de95f5ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd94fa2e29c88ac21e18f3b3f6f5077"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5fd94fa2e29c88ac21e18f3b3f6f5077"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RECORD_RESPONSE</b>&#160;&#160;&#160;0x0B</td></tr>
+<tr class="separator:a5fd94fa2e29c88ac21e18f3b3f6f5077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad0d28ae8f2788e7e673b2fec4a2c01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ad0d28ae8f2788e7e673b2fec4a2c01"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RECORDS_GET</b>&#160;&#160;&#160;0x0C</td></tr>
+<tr class="separator:a2ad0d28ae8f2788e7e673b2fec4a2c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad027f7b542059cdd081182d8ec76e275"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad027f7b542059cdd081182d8ec76e275"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PDU_TYPE_RECORDS_LIST</b>&#160;&#160;&#160;0x0D</td></tr>
+<tr class="separator:ad027f7b542059cdd081182d8ec76e275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
@@ -2538,7 +2940,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__model__defs_8h.html">wiced_bt_mesh_model_defs.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

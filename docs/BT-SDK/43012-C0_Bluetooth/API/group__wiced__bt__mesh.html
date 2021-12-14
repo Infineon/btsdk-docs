@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW43012: BLE Mesh</title>
+<title>AIROC&trade; CYW43012: LE Mesh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,11 +98,11 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh.html','');});
   <div class="summary">
 <a href="#groups">Modules</a>  </div>
   <div class="headertitle">
-<div class="title">BLE Mesh<div class="ingroups"><a class="el" href="group__wicedbt.html">Bluetooth</a></div></div>  </div>
+<div class="title">LE Mesh<div class="ingroups"><a class="el" href="group__wicedbt.html">Bluetooth</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Mesh API provides a developer a simple way to incorporate BLE mesh functionality in a WICED application.  
+<p>Mesh API provides a developer a simple way to incorporate LE mesh functionality in an AIROC application.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
@@ -111,26 +111,26 @@ Modules</h2></td></tr>
 <tr class="memdesc:group__wiced__bt__mesh__client"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mesh client API. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__wiced__bt__mesh__core"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__core.html">Mesh Core Library API</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__core"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Core library of the WICED SDK provide a simple method for an application to integrate Bluetooth Mesh functionality. <br /></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__core"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Core library of the AIROC BTSDK provide a simple method for an application to integrate Bluetooth Mesh functionality. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__wiced__bt__mesh__models"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html">Mesh Models Library API</a></td></tr>
-<tr class="memdesc:group__wiced__bt__mesh__models"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Models library of the WICED SDK provide a simple method for an application to use various Mesh models defined in the Bluetooth Mesh Model specification. <br /></td></tr>
+<tr class="memdesc:group__wiced__bt__mesh__models"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Models library of the AIROC BTSDK provide a simple method for an application to use various Mesh models defined in the Bluetooth Mesh Model specification. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__wiced__bt__mesh__provisioning"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html">Mesh Provisioning Library API</a></td></tr>
 <tr class="memdesc:group__wiced__bt__mesh__provisioning"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh provisioning is split into two parts. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Mesh API provides a developer a simple way to incorporate BLE mesh functionality in a WICED application. </p>
+<p>Mesh API provides a developer a simple way to incorporate LE mesh functionality in an AIROC application. </p>
 <p>Most application will only need access to <a class="el" href="group__wiced__bt__mesh__models.html">Mesh Models</a> library. The applications that supports adding new devices to the mesh network (provisioning) and network configuration may also use <a class="el" href="group__wiced__bt__mesh__provisioning.html">Mesh Provisioning</a> library. Applications that use Vendor specific models in addition to standard Bluetooth SIG models, may also need to access <a class="el" href="group__wiced__bt__mesh__core.html">Mesh Core</a> library functions directly. </p>
 
 
-<h3><a class="anchor" id="wiced_bt_mesh_application_structure"></a>Mesh Application Structure</h3><div class="textblock">Each WICED Mesh Application shall contain a <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">device configuration</a> and application callbacks.The device configuration provides to the mesh stack the information about the device which is supported. For example it can be a color bulb, or a dimmer, or a dimmable light with additional vendor specific functionality. The callbacks are used by the mesh stack to notify the application when certain actions shall be performed. For example, the application for the color bulb would probably be interested to process notification when the brightness shall be set to 50%, or when the color shall be set to red. </div></div><!-- contents -->
+<h3><a class="anchor" id="wiced_bt_mesh_application_structure"></a>Mesh Application Structure</h3><div class="textblock">Each AIROC Mesh Application shall contain a <a class="el" href="group__wiced__bt__mesh__core.html#gac6e2d1cc139f708ec3b70506815189a3">device configuration</a> and application callbacks.The device configuration provides to the mesh stack the information about the device which is supported. For example it can be a color bulb, or a dimmer, or a dimmable light with additional vendor specific functionality. The callbacks are used by the mesh stack to notify the application when certain actions shall be performed. For example, the application for the color bulb would probably be interested to process notification when the brightness shall be set to 50%, or when the color shall be set to red. </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

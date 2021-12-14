@@ -15,7 +15,6 @@ var searchData=
   ['notification_5fcontrol',['notification_control',['../structwiced__bt__ans__gatt__handles__t.html#a1763bdebd7dc131326e33b06cfcc5ddc',1,'wiced_bt_ans_gatt_handles_t']]],
   ['notification_5fdisabled',['notification_disabled',['../unionwiced__bt__hrs__event__data__t.html#af6c9624f12e4859352ff97c96d7d63a7',1,'wiced_bt_hrs_event_data_t']]],
   ['notification_5fenabled',['notification_enabled',['../unionwiced__bt__hrs__event__data__t.html#a5a9b76bb3856ef616fca7478284d4d54',1,'wiced_bt_hrs_event_data_t']]],
-  ['notification_5fsupported',['notification_supported',['../structwiced__bt__bac__discovery__complete__t.html#a20cc34004d8d3d4c296b085093b8e1fb',1,'wiced_bt_bac_discovery_complete_t']]],
   ['nsc_5fmask',['nsc_mask',['../structwiced__bt__avdt__cs__t.html#a9bb9316bffe43ae2a56f0fa412e12508',1,'wiced_bt_avdt_cs_t']]],
   ['null_5fcount',['null_count',['../wiced__bt__dev_8h.html#aff6710227dd48fd74334456315a0871f',1,'wiced_bt_dev.h']]],
   ['num_5fad_5ffilters',['num_ad_filters',['../structwiced__bt__mesh__provision__scan__extended__start__t.html#a6bcf4c0ae5d4420ca1c5f4baefac6b92',1,'wiced_bt_mesh_provision_scan_extended_start_t']]],
@@ -35,7 +34,6 @@ var searchData=
   ['num_5fsettings',['num_settings',['../structwiced__bt__mesh__core__config__sensor__t.html#a77d6334e007a2a11abb7fec7bd5e6be7',1,'wiced_bt_mesh_core_config_sensor_t']]],
   ['num_5fsubbands',['num_subbands',['../structwiced__codec__param__sbc__t.html#ac632e78d3cb770a4db2e76086175b1bf',1,'wiced_codec_param_sbc_t']]],
   ['num_5fuuid_5ffilters',['num_uuid_filters',['../structwiced__bt__sdp__discovery__db__t.html#a384e3670164bc5c5e13fbf01595bddc4',1,'wiced_bt_sdp_discovery_db_t']]],
-  ['number_5fof_5fbuttons',['number_of_buttons',['../structbutton__manager__t.html#a64f207dd1cdb5cc8fcfd8a5e3d5af988',1,'button_manager_t']]],
   ['numeric_5fvalue',['numeric_value',['../structwiced__bt__dev__user__cfm__req__t.html#ae32112d7faa0affc3cbea258602cb1bf',1,'wiced_bt_dev_user_cfm_req_t']]],
   ['nvram_5faccess_5fcallback',['nvram_access_callback',['../structwiced__bt__mesh__core__init__t.html#acd44d95a6055a13e04d716543d4f55af',1,'wiced_bt_mesh_core_init_t']]]
 ];

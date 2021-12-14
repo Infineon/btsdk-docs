@@ -14,7 +14,7 @@ var searchData=
   ['reserved4',['reserved4',['../union_a_d_c___c_t_l2___r_e_g.html#afc788abd71f1e46678b985c1cb67f532',1,'ADC_CTL2_REG']]],
   ['reserved7',['reserved7',['../union_l_h_l___a_d_c___c_t_l___r_e_g.html#a0ab2f056f755cf983b344a0a183be8fe',1,'LHL_ADC_CTL_REG']]],
   ['resetreasonpor',['resetReasonPor',['../miadriver_8h.html#a0b2298edad1fc611736b5dff6f2c5b9f',1,'miadriver.h']]],
-  ['rollover',['ROLLOVER',['../group__keyscan_queue.html#ggaa57e16cd48de3b9a989056ff8df26f84ab4a53dc50ba38ef5c3f266d1499ecf32',1,'keyscan.h']]],
+  ['rollover',['ROLLOVER',['../group__keyscan_queue.html#gga4f126a0a9b1d8c6a8f46a051ef8830bbab4a53dc50ba38ef5c3f266d1499ecf32',1,'keyscan.h']]],
   ['rtc',['RTC',['../group___r_t_c.html',1,'']]],
   ['rtc_2eh',['rtc.h',['../rtc_8h.html',1,'']]],
   ['rtc_5fctime',['rtc_ctime',['../group___r_t_c.html#gabaf679eee796f8b60207c9988a655a9e',1,'rtc.h']]],

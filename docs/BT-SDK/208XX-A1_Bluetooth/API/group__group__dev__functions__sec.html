@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: Security</title>
+<title>AIROC&trade; CYW208XX: Security</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -174,6 +174,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf4fa19e58b2db7ff38f8b83028865980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__sec.html#gaf4fa19e58b2db7ff38f8b83028865980">wiced_bt_set_device_class</a> (wiced_bt_dev_class_t dev_class)</td></tr>
 <tr class="memdesc:gaf4fa19e58b2db7ff38f8b83028865980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_set_device_class.  <a href="#gaf4fa19e58b2db7ff38f8b83028865980">More...</a><br /></td></tr>
 <tr class="separator:gaf4fa19e58b2db7ff38f8b83028865980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbbc974e447c9455ebe07c8c3d69d7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__sec.html#gafbbc974e447c9455ebe07c8c3d69d7d2">wiced_bt_dev_set_local_name</a> (char *p_name)</td></tr>
+<tr class="memdesc:gafbbc974e447c9455ebe07c8c3d69d7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_local_name.  <a href="#gafbbc974e447c9455ebe07c8c3d69d7d2">More...</a><br /></td></tr>
+<tr class="separator:gafbbc974e447c9455ebe07c8c3d69d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -788,6 +791,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gafbbc974e447c9455ebe07c8c3d69d7d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_local_name </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>p_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_local_name. </p>
+<p>Set the device local name</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_name</td><td>: Local device name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t <pre class="fragment">             WICED_BT_PENDING        command initiated successfully
+             WICED_BT_DEV_RESET      device not in the right state to execute the command
+             WICED_BT_NO_RESOURCES   no resources to issue command</pre> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga1623435bfdbefbf12a2fd1c64dbb71e1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1003,7 +1034,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

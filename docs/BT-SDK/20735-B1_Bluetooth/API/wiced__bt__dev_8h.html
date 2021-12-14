@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20735: wiced_bt_dev.h File Reference</title>
+<title>AIROC&trade; CYW20735: wiced_bt_dev.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1083,6 +1083,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 <tr class="memitem:af4fa19e58b2db7ff38f8b83028865980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#af4fa19e58b2db7ff38f8b83028865980">wiced_bt_set_device_class</a> (<a class="el" href="wiced__bt__types_8h.html#a7f67c2d3420bda8e18183f3ac932521d">wiced_bt_dev_class_t</a> dev_class)</td></tr>
 <tr class="memdesc:af4fa19e58b2db7ff38f8b83028865980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_set_device_class.  <a href="#af4fa19e58b2db7ff38f8b83028865980">More...</a><br /></td></tr>
 <tr class="separator:af4fa19e58b2db7ff38f8b83028865980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#afbbc974e447c9455ebe07c8c3d69d7d2">wiced_bt_dev_set_local_name</a> (char *p_name)</td></tr>
+<tr class="memdesc:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_local_name.  <a href="#afbbc974e447c9455ebe07c8c3d69d7d2">More...</a><br /></td></tr>
+<tr class="separator:afbbc974e447c9455ebe07c8c3d69d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -2545,6 +2548,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 
 </div>
 </div>
+<a class="anchor" id="afbbc974e447c9455ebe07c8c3d69d7d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_local_name </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>p_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_local_name. </p>
+<p>Set the device local name</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_name</td><td>: Local device name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t <pre class="fragment">             WICED_BT_PENDING        command initiated successfully
+             WICED_BT_DEV_RESET      device not in the right state to execute the command
+             WICED_BT_NO_RESOURCES   no resources to issue command</pre> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1623435bfdbefbf12a2fd1c64dbb71e1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2704,7 +2735,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 <p>Command to set the tx power on link</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: peer address To set Adv Tx power keep bd_addr NULL </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: peer address </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">power</td><td>: power value in db (min:-24 max:4)</td></tr>
   </table>
   </dd>
@@ -2719,7 +2750,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_smp_oob_data
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_a0e8e90cffd722479b32bba4cdecfd74.html">20735B1</a></li><li class="navelem"><a class="el" href="dir_c6bb73e1b13e2020241b51f46811f6ee.html">COMPONENT_20735B1</a></li><li class="navelem"><a class="el" href="dir_804ac0e3ed7aa68fd2e453dcf5a4f679.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

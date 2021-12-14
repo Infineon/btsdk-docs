@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20719: wiced_ble_connect_timing.h File Reference</title>
+<title>AIROC&trade; CYW20719: wiced_ble_connect_timing.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,6 @@ $(document).ready(function(){initNavTree('wiced__ble__connect__timing_8h.html','
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_ble_connect_timing.h File Reference</div>  </div>
@@ -112,8 +111,6 @@ $(document).ready(function(){initNavTree('wiced__ble__connect__timing_8h.html','
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag__app__connect__timing__data.html">tag_app_connect_timing_data</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtag__ble__connect__mesh__data.html">tag_ble_connect_mesh_data</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -121,34 +118,9 @@ Typedefs</h2></td></tr>
 typedef struct <br class="typebreak" />
 <a class="el" href="structtag__app__connect__timing__data.html">tag_app_connect_timing_data</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BLE_CONNECT_TIMING_APP_DATA</b></td></tr>
 <tr class="separator:ad9a8b23ce7621505fab7d2fac4313e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89a112a9a6a876eac1caf835e4ff290e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89a112a9a6a876eac1caf835e4ff290e"></a>
-typedef struct <br class="typebreak" />
-<a class="el" href="structtag__ble__connect__mesh__data.html">tag_ble_connect_mesh_data</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BLE_CONNECT_TIMING_MESH_DATA</b></td></tr>
-<tr class="separator:a89a112a9a6a876eac1caf835e4ff290e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a489cd148209aaf1c50377a362ab4167e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a489cd148209aaf1c50377a362ab4167e"></a>
 typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>BLE_CONNECT_TIMING_CB_t</b> )(<a class="el" href="structtag__app__connect__timing__data.html">BLE_CONNECT_TIMING_APP_DATA</a> *app_data)</td></tr>
 <tr class="separator:a489cd148209aaf1c50377a362ab4167e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8435508acb9fb0c106d2894c7313ffe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8435508acb9fb0c106d2894c7313ffe"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>BLE_CONNECT_MESH_CB_t</b> )(<a class="el" href="structtag__ble__connect__mesh__data.html">BLE_CONNECT_TIMING_MESH_DATA</a> *mesh_data)</td></tr>
-<tr class="separator:ab8435508acb9fb0c106d2894c7313ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a6017b51d532158e10cabfb993d277dd9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6017b51d532158e10cabfb993d277dd9"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CONECT_TIMING_CB_INFO_t</b> { <br />
-&#160;&#160;<b>CONNECT_INFO_PERIPHERAL</b> = (1 &lt;&lt; 8), 
-<b>CONNECT_INFO_SYNC</b> = (1 &lt;&lt; 9), 
-<b>CONNECT_INFO_LEVEL0</b> = (1 &lt;&lt; 10), 
-<b>CONNECT_INFO_LEVEL1</b> = (1 &lt;&lt; 11), 
-<br />
-&#160;&#160;<b>CONNECT_INFO_LEVEL2</b> = (1 &lt;&lt; 12)
-<br />
- }</td></tr>
-<tr class="separator:a6017b51d532158e10cabfb993d277dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a649b40ef314020da59a3972976d28b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a649b40ef314020da59a3972976d28b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CONECT_TIMING_NODE_t</b> { <b>NODE_LEVEL_0</b>, 
-<b>NODE_LEVEL_1</b>, 
-<b>NODE_LEVEL_2</b>
- }</td></tr>
-<tr class="separator:a6a649b40ef314020da59a3972976d28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -173,7 +145,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ble_bms_placement_dis
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_85240751394c5bcdb05f1cb8f644a676.html">20719B2</a></li><li class="navelem"><a class="el" href="dir_2f58f1f5c165bb08ee041e3d9010ab03.html">COMPONENT_20719B2</a></li><li class="navelem"><a class="el" href="dir_b708e40c58e64220d94b7b8755fdfc9b.html">include</a></li><li class="navelem"><a class="el" href="wiced__ble__connect__timing_8h.html">wiced_ble_connect_timing.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

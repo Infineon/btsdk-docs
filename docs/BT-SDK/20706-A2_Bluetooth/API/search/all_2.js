@@ -113,7 +113,7 @@ var searchData=
   ['btm_5fble_5fadvert_5ftype_5furi',['BTM_BLE_ADVERT_TYPE_URI',['../wiced__bt__ble_8h.html#a4e721fb996eccc386b0311f022675eb2a44dd8bf2778ab9dcc1dce483278d4e24',1,'wiced_bt_ble.h']]],
   ['btm_5fble_5fadvert_5fundirected_5fhigh',['BTM_BLE_ADVERT_UNDIRECTED_HIGH',['../wiced__bt__dev_8h.html#a1942781c78be25d498d93745db416f08a07632cd9f4092c1feb17119e4f2cfe14',1,'wiced_bt_dev.h']]],
   ['btm_5fble_5fadvert_5fundirected_5flow',['BTM_BLE_ADVERT_UNDIRECTED_LOW',['../wiced__bt__dev_8h.html#a1942781c78be25d498d93745db416f08a1db7d65be5e6287bc809fb1dc8bfe747',1,'wiced_bt_dev.h']]],
-  ['ble_20_28bluetooth_20low_20energy_29',['BLE (Bluetooth Low Energy)',['../group__btm__ble__api__functions.html',1,'']]],
+  ['bluetooth_20low_20energy',['Bluetooth Low Energy',['../group__btm__ble__api__functions.html',1,'']]],
   ['btm_5fble_5fauth_5freq_5ftypes',['BTM_BLE_AUTH_REQ_TYPES',['../wiced__bt__dev_8h.html#a5cbb7a9f3547f9bc9f3bedc184bc5587',1,'wiced_bt_dev.h']]],
   ['btm_5fble_5fauth_5fsignature_5fsize',['BTM_BLE_AUTH_SIGNATURE_SIZE',['../wiced__bt__ble_8h.html#a649e36b7823dc944550a5a2341d27878',1,'wiced_bt_ble.h']]],
   ['btm_5fble_5fconn_5fauto',['BTM_BLE_CONN_AUTO',['../wiced__bt__ble_8h.html#a85abcdffb41185cf65f29c689cf36a16a772682b72fe64ab7101e4bde893a8c47',1,'wiced_bt_ble.h']]],
@@ -248,8 +248,7 @@ var searchData=
   ['buffer_5fend',['buffer_end',['../structwiced__audio__buffer__info__t.html#a66d710e0093872b26ee80118c1a85d99',1,'wiced_audio_buffer_info_t']]],
   ['buffer_5fstart',['buffer_start',['../structwiced__audio__buffer__info__t.html#a85973b335814248c05f63543876b348e',1,'wiced_audio_buffer_info_t']]],
   ['by_5fhandle',['by_handle',['../unionwiced__bt__gatt__read__param__t.html#a15b45ef6e94393600ca77d93f634ce50',1,'wiced_bt_gatt_read_param_t']]],
-  ['bac_20library_20api',['BAC Library API',['../group__wiced__bt__bac__api__functions.html',1,'']]],
-  ['ble_20mesh',['BLE Mesh',['../group__wiced__bt__mesh.html',1,'']]],
+  ['bac_20library_20api',['BAC Library API',['../group__wiced__bt__battery__client__api__functions.html',1,'']]],
   ['bluetooth',['Bluetooth',['../group__wicedbt.html',1,'']]],
   ['br_2fedr_20_28bluetooth_20basic_20rate_20_2f_20enhanced_20data_20rate_29',['BR/EDR (Bluetooth Basic Rate / Enhanced Data Rate)',['../group__wicedbt__bredr.html',1,'']]]
 ];

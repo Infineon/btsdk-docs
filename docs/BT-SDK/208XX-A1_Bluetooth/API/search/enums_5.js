@@ -4,7 +4,7 @@ var searchData=
   ['wiced_5fbt_5fanc_5fevent_5ft',['wiced_bt_anc_event_t',['../group__wiced__bt__anc__api__functions.html#ga51a93e5ddf1112d81b0de5d70a315eab',1,'wiced_bt_anc.h']]],
   ['wiced_5fbt_5favrc_5fct_5fconnection_5fstate_5ft',['wiced_bt_avrc_ct_connection_state_t',['../group__wicedbt__avrc__ct.html#ga34d812e2d75abcf6d30a1c5f54d4b655',1,'wiced_bt_avrc_ct.h']]],
   ['wiced_5fbt_5favrc_5fct_5ffeatures_5ft',['wiced_bt_avrc_ct_features_t',['../group__wicedbt__avrc__ct.html#ga717ee5bfe3656a58f039b26a4a00e518',1,'wiced_bt_avrc_ct.h']]],
-  ['wiced_5fbt_5fbac_5fevent_5ft',['wiced_bt_bac_event_t',['../group__wiced__bt__bac__api__functions.html#gad919093f4cc497b89cd581dc286e8452',1,'wiced_bt_bac.h']]],
+  ['wiced_5fbt_5fbattery_5fclient_5fevent_5ft',['wiced_bt_battery_client_event_t',['../group__wiced__bt__battery__client__api__functions.html#ga75b2bddafddecdbb5e33a8cdae636ae4',1,'wiced_bt_battery_client.h']]],
   ['wiced_5fbt_5fble_5fadvert_5fchnl_5fmap_5fe',['wiced_bt_ble_advert_chnl_map_e',['../group__group__ble__enums.html#ga59d79284e51421afdfc5e9c472adb49b',1,'wiced_bt_ble.h']]],
   ['wiced_5fbt_5fble_5fadvert_5ffilter_5fpolicy_5fe',['wiced_bt_ble_advert_filter_policy_e',['../group__group__ble__enums.html#gae169c3a016dc0a8d0df604dda69c3249',1,'wiced_bt_ble.h']]],
   ['wiced_5fbt_5fble_5fadvert_5fmode_5fe',['wiced_bt_ble_advert_mode_e',['../group__group__dev__enums.html#ga1942781c78be25d498d93745db416f08',1,'wiced_bt_dev.h']]],

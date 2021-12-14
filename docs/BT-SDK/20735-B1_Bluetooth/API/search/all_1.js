@@ -26,6 +26,7 @@ var searchData=
   ['adv_5ffilter_5fpolicy',['adv_filter_policy',['../structwiced__bt__ble__multi__adv__params__t.html#a576101a1726df113eea4565e307d1b3d',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmax',['adv_int_max',['../structwiced__bt__ble__multi__adv__params__t.html#a9d8eda696bc4898f8d8f8d2ed03d9322',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmin',['adv_int_min',['../structwiced__bt__ble__multi__adv__params__t.html#acfed284f0421c78cbebcaff56ef8e5ba',1,'wiced_bt_ble_multi_adv_params_t']]],
+  ['adv_5fsend_5fcallback',['adv_send_callback',['../structwiced__bt__mesh__core__init__t.html#aa79b3952af85e4e8c4f645dad458e42d',1,'wiced_bt_mesh_core_init_t']]],
   ['adv_5ftx_5fpower',['adv_tx_power',['../structwiced__bt__ble__multi__adv__params__t.html#a05fcfaa3d2d009bccb832597a6b3670b',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5ftype',['adv_type',['../structwiced__bt__ble__multi__adv__params__t.html#a0c439c807af183641caf4d76bfbb44f1',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['advert_5ftype',['advert_type',['../structwiced__bt__ble__advert__elem__t.html#a945aab5444777ea0cc1755d29d68fde1',1,'wiced_bt_ble_advert_elem_t']]],
@@ -140,11 +141,19 @@ var searchData=
   ['avrc_5fsub_5fvendor',['AVRC_SUB_VENDOR',['../wiced__bt__avrc__defs_8h.html#a24195cad5a4510204fabf999ccc01033',1,'wiced_bt_avrc_defs.h']]],
   ['avrc_5fsuccess',['AVRC_SUCCESS',['../wiced__bt__avrc_8h.html#ad5a56f77558eae22c03166bee0337408',1,'wiced_bt_avrc.h']]],
   ['avrc_5funcong_5find_5fevt',['AVRC_UNCONG_IND_EVT',['../wiced__bt__avrc_8h.html#a17f381ae1c9ac077f3aac4581d8d1c03',1,'wiced_bt_avrc.h']]],
+  ['airoc_20hci_20firmware_20upgrade',['AIROC HCI Firmware Upgrade',['../group__group__hci__wiced__firmware__upgrade.html',1,'']]],
+  ['airoc_20ota_20firmware_20upgrade',['AIROC OTA Firmware Upgrade',['../group__group__ota__wiced__firmware__upgrade.html',1,'']]],
+  ['airoc_20firmware_20upgrade',['AIROC Firmware Upgrade',['../group__group__wiced__firmware__upgrade.html',1,'']]],
   ['audio_20codec_20interface',['Audio Codec Interface',['../group__interfaces.html',1,'']]],
   ['api_20functions',['API Functions',['../group__l2cap__api__functions.html',1,'']]],
+  ['airoc_20result_20codes',['AIROC Result Codes',['../group___result.html',1,'']]],
+  ['airoc_20transport',['AIROC Transport',['../group___transport.html',1,'']]],
   ['anc_20library_20api',['ANC Library API',['../group__wiced__bt__anc__api__functions.html',1,'']]],
   ['ans_20library_20api',['ANS Library API',['../group__wiced__bt__ans__api__functions.html',1,'']]],
+  ['airoc_20sleep_20configuration',['AIROC Sleep Configuration',['../group__wiced__sleep__config.html',1,'']]],
+  ['airoc_20trace_20utilities',['AIROC Trace Utilities',['../group__wiced__utils.html',1,'']]],
   ['audio_20_2f_20video',['Audio / Video',['../group__wicedbt__av.html',1,'']]],
   ['audio_20_2f_20video_20remote_20control_20_28avrcp_29',['Audio / Video Remote Control (AVRCP)',['../group__wicedbt__avrc.html',1,'']]],
-  ['avrcp_20common',['AVRCP Common',['../group__wicedbt__avrc__common.html',1,'']]]
+  ['avrcp_20common',['AVRCP Common',['../group__wicedbt__avrc__common.html',1,'']]],
+  ['airoc_20system',['AIROC System',['../group__wicedsys.html',1,'']]]
 ];

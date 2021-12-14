@@ -96,6 +96,8 @@ var group__wiced__bt__mesh__models =
       [ "lightness_actual_target", "structwiced__bt__mesh__light__lightness__status__t.html#a45bf0af793adaf5c2741145fc14b6dbe", null ],
       [ "lightness_linear_present", "structwiced__bt__mesh__light__lightness__status__t.html#a74baf2018181f39617e8fb7dc4f6cb9a", null ],
       [ "lightness_linear_target", "structwiced__bt__mesh__light__lightness__status__t.html#a3783a330c33f936b9f19fc2f131c9f80", null ],
+      [ "lux_level_present", "structwiced__bt__mesh__light__lightness__status__t.html#ae6062aaf012692913ace13bcfdcc504a", null ],
+      [ "lux_level_target", "structwiced__bt__mesh__light__lightness__status__t.html#a5d6dd5edacaec34c9353ae55cd893f04", null ],
       [ "remaining_time", "structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e", null ]
     ] ],
     [ "wiced_bt_mesh_light_lightness_set_t", "structwiced__bt__mesh__light__lightness__set__t.html", [
@@ -418,6 +420,7 @@ var group__wiced__bt__mesh__models =
     [ "wiced_model_scene_store_handler_t", "group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45", null ],
     [ "wiced_bt_mesh_model_admin_property_server_message_handler", "group__wiced__bt__mesh__models.html#gadadea936ad14f7ecdef0e8419eda2934", null ],
     [ "wiced_bt_mesh_model_client_property_server_message_handler", "group__wiced__bt__mesh__models.html#gab4ab2ce6eb5e4bf979c11e352d206e3f", null ],
+    [ "wiced_bt_mesh_model_find_element_idx", "group__wiced__bt__mesh__models.html#ga8a49a7e773deb5fc3400b0fc363263a8", null ],
     [ "wiced_bt_mesh_model_manufacturer_property_server_message_handler", "group__wiced__bt__mesh__models.html#gab74a3871693811ae897a7d80d8e3f93a", null ],
     [ "wiced_bt_mesh_model_property_client_init", "group__wiced__bt__mesh__models.html#ga09b33cd37abb8712637cfec3223d2005", null ],
     [ "wiced_bt_mesh_model_property_client_message_handler", "group__wiced__bt__mesh__models.html#gaf590eae376dce25f148d12efa96a181d", null ],

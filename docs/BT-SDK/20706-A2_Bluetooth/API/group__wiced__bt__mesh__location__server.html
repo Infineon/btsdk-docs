@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20706: Mesh Location Server</title>
+<title>AIROC&trade; CYW20706: Mesh Location Server</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__location__serv
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device.  
+<p>The AIROC Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga4e80009e6350f38795e567d86f2736b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device. </p>
+<p>The AIROC Mesh Location Server module provides a way for a client to set the Global and Local location for a mesh device. </p>
 <p>Setup location can be retrieved by the same or different clients. The Location Server may also be configured to publish unsolicited messages with the location information to a specific node or to a group of nodes.</p>
 <p>Two types of location information can be exchanged between the client and the server. The Global Location Data (see <a class="el" href="structwiced__bt__mesh__location__global__data__t.html">wiced_bt_mesh_location_global_data_t</a>) and the Local Location Data (see <a class="el" href="structwiced__bt__mesh__location__local__data__t.html">wiced_bt_mesh_location_local_data_t</a>).</p>
 <p>On startup the application should call the wiced_bt_mesh_model_location_server_init function providing the callback to be executed when a Get or Set request is received from a mesh device. The application should call the wiced_bt_mesh_model_location_server_send function in response to a get request, a set request when reply is required or when application logic requires location information to be sent out. In the latter case the message will be sent out only if device is configured remotely with the destination address where the location status should be set to and and the application key to be used to secure the message. </p>
@@ -331,7 +331,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

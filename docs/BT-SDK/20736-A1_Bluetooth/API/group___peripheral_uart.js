@@ -38,11 +38,11 @@ var group___peripheral_uart =
     [ "P_UART_RX_STATE", "group___peripheral_uart.html#ga5b6973f972e9f83855fd9e032d66677e", null ],
     [ "P_UART_TRANSPORT_PACKET", "group___peripheral_uart.html#gad425508c4be689d619904772901f098d", null ],
     [ "P_UART_TX_STATE", "group___peripheral_uart.html#ga21675bf8355e97fe3d05330f74d8fa8a", [
-      [ "P_UART_LCR_STB_MASK", "group___peripheral_uart.html#gga1f3b6c692395e5007ff47ce5d9304c1ca9619523776aa10972c260de4107f7fdb", null ],
-      [ "P_UART_LCR_PEN_MASK", "group___peripheral_uart.html#gga1f3b6c692395e5007ff47ce5d9304c1caf4c5e064ae3b0b9497e44636a4df8092", null ],
-      [ "P_UART_LCR_EPS_MASK", "group___peripheral_uart.html#gga1f3b6c692395e5007ff47ce5d9304c1ca7e1bc993805af72c9632cddb817f7ab3", null ],
-      [ "P_UART_LCR_SLIP_MASK", "group___peripheral_uart.html#gga1f3b6c692395e5007ff47ce5d9304c1cace4bcc01c33659dd5a855871e952a164", null ],
-      [ "P_UART_MCR_LOOPBACK_MASK", "group___peripheral_uart.html#gga01aea4eb01aa6415eee118b5a5ee3dada6dba858d36c53100fd5863b8794a7a93", null ]
+      [ "P_UART_LCR_STB_MASK", "group___peripheral_uart.html#gga92c4bd66c8074c3d126a069275a0a80ca9619523776aa10972c260de4107f7fdb", null ],
+      [ "P_UART_LCR_PEN_MASK", "group___peripheral_uart.html#gga92c4bd66c8074c3d126a069275a0a80caf4c5e064ae3b0b9497e44636a4df8092", null ],
+      [ "P_UART_LCR_EPS_MASK", "group___peripheral_uart.html#gga92c4bd66c8074c3d126a069275a0a80ca7e1bc993805af72c9632cddb817f7ab3", null ],
+      [ "P_UART_LCR_SLIP_MASK", "group___peripheral_uart.html#gga92c4bd66c8074c3d126a069275a0a80cace4bcc01c33659dd5a855871e952a164", null ],
+      [ "P_UART_MCR_LOOPBACK_MASK", "group___peripheral_uart.html#ggaa7df87806f64f3b241c8cde9eb57cad5a6dba858d36c53100fd5863b8794a7a93", null ]
     ] ],
     [ "P_UART_FUNCTION_TAG", "group___peripheral_uart.html#gab30a582a9bc6af11147affc68837a789", null ],
     [ "P_UART_RX_STATE_TAG", "group___peripheral_uart.html#ga7b0bf22592d992bff599c213f5b73394", null ],

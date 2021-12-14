@@ -21,6 +21,7 @@ var searchData=
   ['adv_5ffilter_5fpolicy',['adv_filter_policy',['../structwiced__bt__ble__multi__adv__params__t.html#a576101a1726df113eea4565e307d1b3d',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmax',['adv_int_max',['../structwiced__bt__ble__multi__adv__params__t.html#a9d8eda696bc4898f8d8f8d2ed03d9322',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5fint_5fmin',['adv_int_min',['../structwiced__bt__ble__multi__adv__params__t.html#acfed284f0421c78cbebcaff56ef8e5ba',1,'wiced_bt_ble_multi_adv_params_t']]],
+  ['adv_5fsend_5fcallback',['adv_send_callback',['../structwiced__bt__mesh__core__init__t.html#aa79b3952af85e4e8c4f645dad458e42d',1,'wiced_bt_mesh_core_init_t']]],
   ['adv_5ftx_5fpower',['adv_tx_power',['../structwiced__bt__ble__multi__adv__params__t.html#a05fcfaa3d2d009bccb832597a6b3670b',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['adv_5ftype',['adv_type',['../structwiced__bt__ble__multi__adv__params__t.html#a0c439c807af183641caf4d76bfbb44f1',1,'wiced_bt_ble_multi_adv_params_t']]],
   ['advert_5ftype',['advert_type',['../structwiced__bt__ble__advert__elem__t.html#a945aab5444777ea0cc1755d29d68fde1',1,'wiced_bt_ble_advert_elem_t']]],

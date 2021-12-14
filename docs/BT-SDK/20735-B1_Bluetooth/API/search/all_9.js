@@ -54,5 +54,5 @@ var searchData=
   ['iv_5fidx',['iv_idx',['../structwiced__bt__mesh__local__device__set__data__t.html#a287de9a6759e860c089f7c7386e7a824',1,'wiced_bt_mesh_local_device_set_data_t']]],
   ['iv_5findex',['iv_index',['../structwiced__bt__mesh__core__state__beacon__t.html#a1b99ff3a01c88a42dbaaa91d9dcea0fb',1,'wiced_bt_mesh_core_state_beacon_t']]],
   ['iv_5fupdate',['iv_update',['../structwiced__bt__mesh__local__device__set__data__t.html#a39866c84e509301532dc884d31be8a67',1,'wiced_bt_mesh_local_device_set_data_t']]],
-  ['iap2_20protocol_20library_20api',['IAP2 Protocol Library API',['../group__wiced__bt__iap2__api__functions.html',1,'']]]
+  ['iap2_20protocol_20library_20api',['iAP2 Protocol Library API',['../group__wiced__bt__iap2__api__functions.html',1,'']]]
 ];

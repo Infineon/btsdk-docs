@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW43012: PUARTDriver</title>
+<title>AIROC&trade; CYW43012: Peripheral UART (PUART)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,14 +98,17 @@ $(document).ready(function(){initNavTree('group___p_u_a_r_t_driver.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">PUARTDriver<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">Peripheral UART (PUART)<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga899e336f088e0b42a42dfb18099aa2ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga899e336f088e0b42a42dfb18099aa2ff">wiced_hal_puart_init</a> (void)</td></tr>
-<tr class="memdesc:ga899e336f088e0b42a42dfb18099aa2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware.  <a href="#ga899e336f088e0b42a42dfb18099aa2ff">More...</a><br /></td></tr>
+<tr class="memdesc:ga899e336f088e0b42a42dfb18099aa2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Peripheral UART interface with the default configuration parameters.  <a href="#ga899e336f088e0b42a42dfb18099aa2ff">More...</a><br /></td></tr>
 <tr class="separator:ga899e336f088e0b42a42dfb18099aa2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab00a374289aa00f8adee64a426ecb0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab00a374289aa00f8adee64a426ecb0c1">wiced_hal_puart_flow_on</a> (void)</td></tr>
 <tr class="memdesc:gab00a374289aa00f8adee64a426ecb0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable flow control.  <a href="#gab00a374289aa00f8adee64a426ecb0c1">More...</a><br /></td></tr>
@@ -134,9 +137,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4029b09bc208b55dbba881ed4c7038c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">wiced_hal_puart_enable_rx</a> (void)</td></tr>
 <tr class="memdesc:gac4029b09bc208b55dbba881ed4c7038c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable receive capability (specifically, by enabling PUART RX interrupts through the MIA driver).  <a href="#gac4029b09bc208b55dbba881ed4c7038c">More...</a><br /></td></tr>
 <tr class="separator:gac4029b09bc208b55dbba881ed4c7038c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07f270e7fabc6b74189f88353f863925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate)</td></tr>
-<tr class="memdesc:ga07f270e7fabc6b74189f88353f863925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="#ga07f270e7fabc6b74189f88353f863925">More...</a><br /></td></tr>
-<tr class="separator:ga07f270e7fabc6b74189f88353f863925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate) __attribute__((deprecated(&quot;Please use <a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a>()&quot;)))</td></tr>
+<tr class="memdesc:gafa330450c115f00b4fb19aa8ce710a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="#gafa330450c115f00b4fb19aa8ce710a7c">More...</a><br /></td></tr>
+<tr class="separator:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga08c6d9e0eae1c19172f09ddb4317d9d4">wiced_hal_puart_synchronous_read</a> (uint8_t *buffer, uint32_t length)</td></tr>
 <tr class="memdesc:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read in a set of bytes sequentially.  <a href="#ga08c6d9e0eae1c19172f09ddb4317d9d4">More...</a><br /></td></tr>
 <tr class="separator:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,9 +158,92 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a">wiced_hal_puart_set_watermark_level</a> (uint32_t watermark_level)</td></tr>
 <tr class="memdesc:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the watermark level to the received value  <a href="#ga7c5b8d25b90360fb8bcf98f4858c633a">More...</a><br /></td></tr>
 <tr class="separator:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab165ee1b50a45b84c706b7041017ecd4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a> (uint32_t baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
+<tr class="memdesc:gab165ee1b50a45b84c706b7041017ecd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the parity and stop bits as per received value  <a href="#gab165ee1b50a45b84c706b7041017ecd4">More...</a><br /></td></tr>
+<tr class="separator:gab165ee1b50a45b84c706b7041017ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Function Documentation</h2>
+<p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. </p>
+<p>Typical use-cases involve printing messages over UART/RS-232, or to communicate with peripheral devices.</p>
+<p><b>Example Usage:</b></p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> testPUARTDriver(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    uint8_t readbyte;</div>
+<div class="line">    uint8_t loopCtrl = 1;</div>
+<div class="line">    <span class="keywordtype">char</span> printBuffer[50];</div>
+<div class="line"></div>
+<div class="line">    <span class="comment">//Pins for PUART should be configured from wiced_platform_pin_config.c</span></div>
+<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#ga899e336f088e0b42a42dfb18099aa2ff">wiced_hal_puart_init</a>();</div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#ga1f2ebf5f0afa63286b36f359cb1748d8">wiced_hal_puart_flow_off</a>();  <span class="comment">//turn off flow control</span></div>
+<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#gaa9aa92b462b4a3374910416dbb7b51c7">wiced_hal_puart_enable_tx</a>();</div>
+<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">wiced_hal_puart_enable_rx</a>();</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span>(loopCtrl)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">while</span>(<a class="code" href="group___p_u_a_r_t_driver.html#ga2f748ab52301a3c65260fa07ff2ecd19">wiced_hal_puart_read</a>(&amp;readbyte))</div>
+<div class="line">        {</div>
+<div class="line">            <a class="code" href="group___p_u_a_r_t_driver.html#ga95212130c1ec335d6614e50cdb795168">wiced_hal_puart_write</a>(readbyte);</div>
+<div class="line"></div>
+<div class="line">            <span class="keywordflow">if</span>(readbyte == <span class="charliteral">&#39;S&#39;</span>)</div>
+<div class="line">            {</div>
+<div class="line">                <a class="code" href="group___p_u_a_r_t_driver.html#ga5f7cddd9a6c57e1a60aaaf62c8030f7d">wiced_hal_puart_print</a>(<span class="stringliteral">&quot;\nYou typed &#39;S&#39;.&quot;</span>);</div>
+<div class="line"></div>
+<div class="line">                sprintf(printBuffer, <span class="stringliteral">&quot;\nThis message sprintf&#39;ed here.&quot;</span>);</div>
+<div class="line">                <a class="code" href="group___p_u_a_r_t_driver.html#ga5f7cddd9a6c57e1a60aaaf62c8030f7d">wiced_hal_puart_print</a>(printBuffer);</div>
+<div class="line">            }</div>
+<div class="line"></div>
+<div class="line">            <span class="keywordflow">if</span>(readbyte == <span class="charliteral">&#39;E&#39;</span>) <span class="comment">// End.</span></div>
+<div class="line">            {</div>
+<div class="line">                loopCtrl = 0;</div>
+<div class="line">            }</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gab165ee1b50a45b84c706b7041017ecd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_hal_puart_configuration </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>baudrate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">parity_t&#160;</td>
+          <td class="paramname"><em>parity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">stop_bit_t&#160;</td>
+          <td class="paramname"><em>stop_bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the parity and stop bits as per received value </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">baudrate</td><td>- Desired rate in symbols/sec ex. 9600 </td></tr>
+    <tr><td class="paramname">parity</td><td>- PARITY_ODD for odd parity, PARITY_EVEN for even parity, PARITY_NONE for no parity. </td></tr>
+    <tr><td class="paramname">stop_bit</td><td>- STOP_BIT_1 for 1 stop bit, STOP_BIT_2 for 2 stop bits.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_bool_t - WICED_TRUE if the configuration was successfully set, otherwise WICED_FALSE. NOTE: For baudrate greater than 2.727272 Mb/sec use of 2 stop bits is mandatory due to hardware limitation. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga0345acfe70d2bb2e1894031f0ad442f8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -297,16 +383,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. </p>
-<p>Typical use-cases involve printing messages over UART/RS-232, or to communicate with peripheral devices. / Example Usage: void testPUARTDriver(void) { uint8_t readbyte; uint8_t loopCtrl = 1; char printBuffer[50];</p>
-<p><a class="el" href="group___p_u_a_r_t_driver.html#ga899e336f088e0b42a42dfb18099aa2ff" title="Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stre...">wiced_hal_puart_init()</a>;</p>
-<p>Possible uart tx and rx combination. Pin for Rx: p34, Pin for Tx: p31 Note that p34 and p31 might not be avaliable for use on your specific hardware platform. Please see the User Documentation to reference the valid pins. wiced_hal_puart_selectUartPads(34, 31, 0, 0)</p>
-<p>wiced_hal_puart_flowOff(); //turn off flow control wiced_hal_puart_enableTx(); wiced_hal_puart_enableRx();</p>
-<p>while(loopCtrl) { while(wiced_hal_puart_read(&amp;readbyte)) { wiced_hal_puart_write(readbyte);</p>
-<p>if(readbyte == 'S') { wiced_hal_puart_print("\nYou typed 'S'.");</p>
-<p>sprintf(printBuffer, "\nThis message sprintf'ed here."); wiced_hal_puart_print(printBuffer); }</p>
-<p>if(readbyte == 'E') // End. { loopCtrl = 0; } } } } Initialize the Peripheral UART interface with the default configuration parameters. This must be invoked once at boot before using any of PUART's services.</p>
-<p>Default baud rate is 115200 Bd. This can be changed by calling "wiced_hal_puart_setBaudrate()" as described later, after this initialization function.</p>
+<p>Initialize the Peripheral UART interface with the default configuration parameters. </p>
+<p>This must be invoked once at boot before using any of PUART's services.</p>
+<p>Default baud rate is 115200 Bd. This can be changed by calling "wiced_hal_puart_configuration()" as described later, after this initialization function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>
@@ -494,7 +573,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga07f270e7fabc6b74189f88353f863925"></a>
+<a class="anchor" id="gafa330450c115f00b4fb19aa8ce710a7c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -646,7 +725,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

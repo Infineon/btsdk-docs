@@ -32,7 +32,6 @@ var searchData=
   ['maxnegotiationattempts',['maxNegotiationAttempts',['../structwiced__bt__hidd__pm__pwr__state__t.html#a1b233542e72dd901805dba18d8e9d88d',1,'wiced_bt_hidd_pm_pwr_state_t']]],
   ['measurement_5fperiod',['measurement_period',['../structwiced__bt__mesh__sensor__config__descriptor__t.html#aee12a5da325982693371d8dcbe57323a',1,'wiced_bt_mesh_sensor_config_descriptor_t::measurement_period()'],['../structwiced__bt__mesh__sensor__descriptor__data__t.html#aee12a5da325982693371d8dcbe57323a',1,'wiced_bt_mesh_sensor_descriptor_data_t::measurement_period()']]],
   ['media_5ftype',['media_type',['../structwiced__bt__avdt__sep__info__t.html#a4b184d5976feb6927aa2a1bd3bc157cc',1,'wiced_bt_avdt_sep_info_t::media_type()'],['../structwiced__bt__avdt__cs__t.html#a4b184d5976feb6927aa2a1bd3bc157cc',1,'wiced_bt_avdt_cs_t::media_type()']]],
-  ['medium_5fhold_5fduration',['medium_hold_duration',['../structwiced__button__manager__configuration__t.html#a0c5bf4318f9409d6c4e62f796091e619',1,'wiced_button_manager_configuration_t']]],
   ['mem_5ffree',['mem_free',['../structwiced__bt__sdp__discovery__db__t.html#a018ca54b4009ff9bf2dce3333d3d2b56',1,'wiced_bt_sdp_discovery_db_t']]],
   ['mem_5fsize',['mem_size',['../structwiced__bt__sdp__discovery__db__t.html#a3f6a3b0b58cbdacf4ce9a0c9b3d64794',1,'wiced_bt_sdp_discovery_db_t']]],
   ['mesh_5fcore_5freport_5fevents_5fnode_5faddr',['mesh_core_report_events_node_addr',['../group__wiced__bt__mesh__core.html#gaa736dd7fa55e875325e7a38a61641192',1,'wiced_bt_mesh_core.h']]],

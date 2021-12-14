@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW43012: BLE (Bluetooth Low Energy)</title>
+<title>AIROC&trade; CYW43012: LE (Bluetooth Low Energy)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,11 +98,11 @@ $(document).ready(function(){initNavTree('group__btm__ble__api__functions.html',
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">BLE (Bluetooth Low Energy)<div class="ingroups"><a class="el" href="group__wicedbt___device_management.html">Device Management</a></div></div>  </div>
+<div class="title">LE (Bluetooth Low Energy)<div class="ingroups"><a class="el" href="group__wicedbt___device_management.html">Device Management</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>BLE (Bluetooth Low Energy) Functions.  
+<p>LE (Bluetooth Low Energy) Functions.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -205,7 +205,7 @@ Functions</h2></td></tr>
 <tr class="separator:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>BLE (Bluetooth Low Energy) Functions. </p>
+<p>LE (Bluetooth Low Energy) Functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaa1a08bf54c9c06015c1bbafbaab433c1"></a>
 <div class="memitem">
@@ -235,8 +235,8 @@ Functions</h2></td></tr>
 <p>Private Device Address Resolution</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rpa</td><td>BLE Resolvable Private Address </td></tr>
-    <tr><td class="paramname">irk</td><td>BLE IRK </td></tr>
+    <tr><td class="paramname">rpa</td><td>LE Resolvable Private Address </td></tr>
+    <tr><td class="paramname">irk</td><td>LE IRK </td></tr>
   </table>
   </dd>
 </dl>
@@ -388,7 +388,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>remote device address. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="structwiced__bt__ble__conn__params__t.html" title="BLE connection parameteres. ">wiced_bt_ble_conn_params_t</a></td><td>- Connection Parameters</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="structwiced__bt__ble__conn__params__t.html" title="LE connection parameteres. ">wiced_bt_ble_conn_params_t</a></td><td>- Connection Parameters</td></tr>
   </table>
   </dd>
 </dl>
@@ -756,7 +756,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_ble_set_background_connection_type. </p>
-<p>Set BLE background connection procedure type.</p>
+<p>Set LE background connection procedure type.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">conn_type</td><td>BTM_BLE_CONN_NONE, BTM_BLE_CONN_AUTO, or BTM_BLE_CONN_SELECTIVE </td></tr>
@@ -1187,7 +1187,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: remote bd address </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_key_mask</td><td>: ble key mask stored</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_key_mask</td><td>: le key mask stored</td></tr>
   </table>
   </dd>
 </dl>
@@ -1308,7 +1308,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_btm_get_private_bda. </p>
-<p>Acquire current BLE Resolvable Private Address</p>
+<p>Acquire current LE Resolvable Private Address</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
@@ -1324,7 +1324,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['offset',['offset',['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t']]],
+  ['offset',['offset',['../structwiced__bt__battery__client__data__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_battery_client_data_t::offset()'],['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t::offset()']]],
   ['on_5fpower_5fup',['on_power_up',['../structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6',1,'wiced_bt_mesh_power_onoff_data_t']]],
   ['onoff',['onoff',['../structwiced__bt__mesh__onoff__set__data__t.html#ab846f82707d4c23e43f5208dab504c77',1,'wiced_bt_mesh_onoff_set_data_t']]],
   ['onpowerup_5fstate',['onpowerup_state',['../wiced__bt__mesh__cfg_8h.html#ac86843b7a21bf25e410cd048df734105',1,'wiced_bt_mesh_cfg.h']]],

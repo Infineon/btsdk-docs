@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW43012: wiced_bt_mesh_app.h File Reference</title>
+<title>AIROC&trade; CYW43012: wiced_bt_mesh_app.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -247,11 +247,14 @@ struct {</td></tr>
 <tr class="memdesc:ac4d11ecc83b7478b71d234670a9da07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification period changed.  <a href="#ac4d11ecc83b7478b71d234670a9da07c">More...</a><br /></td></tr>
 <tr class="separator:ac4d11ecc83b7478b71d234670a9da07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02c8b558e795840ceb2c70503df86818"><td class="memItemLeft" align="right" valign="top">typedef uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a02c8b558e795840ceb2c70503df86818">wiced_bt_mesh_app_proc_rx_cmd_t</a> )(uint16_t opcode, uint8_t *p_data, uint32_t length)</td></tr>
-<tr class="memdesc:a02c8b558e795840ceb2c70503df86818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processing of a WICED HCI Command from the MCU.  <a href="#a02c8b558e795840ceb2c70503df86818">More...</a><br /></td></tr>
+<tr class="memdesc:a02c8b558e795840ceb2c70503df86818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processing of a AIROC HCI Command from the MCU.  <a href="#a02c8b558e795840ceb2c70503df86818">More...</a><br /></td></tr>
 <tr class="separator:a02c8b558e795840ceb2c70503df86818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f00ff42b289e14d637a42ad98c6e94"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a67f00ff42b289e14d637a42ad98c6e94">wiced_bt_mesh_app_lpn_sleep_t</a> )(uint32_t duration)</td></tr>
 <tr class="memdesc:a67f00ff42b289e14d637a42ad98c6e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Low Power Node sleep.  <a href="#a67f00ff42b289e14d637a42ad98c6e94">More...</a><br /></td></tr>
 <tr class="separator:a67f00ff42b289e14d637a42ad98c6e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe25d581594f3ec081bc27971b9b5ec3"><td class="memItemLeft" align="right" valign="top">typedef wiced_bool_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#afe25d581594f3ec081bc27971b9b5ec3">wiced_bt_mesh_app_non_conn_adv_handler_t</a> )(int8_t rssi, const uint8_t *p_adv_data, const uint8_t *remote_bd_addr)</td></tr>
+<tr class="memdesc:afe25d581594f3ec081bc27971b9b5ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-connectable adv packet application handler.  <a href="#afe25d581594f3ec081bc27971b9b5ec3">More...</a><br /></td></tr>
+<tr class="separator:afe25d581594f3ec081bc27971b9b5ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42a106dd0a1478451970fe7c7a59a3b3"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a42a106dd0a1478451970fe7c7a59a3b3">wiced_bt_mesh_app_factory_reset_t</a> )(void)</td></tr>
 <tr class="memdesc:a42a106dd0a1478451970fe7c7a59a3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory reset notification.  <a href="#a42a106dd0a1478451970fe7c7a59a3b3">More...</a><br /></td></tr>
 <tr class="separator:a42a106dd0a1478451970fe7c7a59a3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,6 +273,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_application_hard
 <tr class="memitem:a76e079c3781d0cccd4d08e8471ad5efc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a76e079c3781d0cccd4d08e8471ad5efc">mesh_application_get_nvram_id_app_start</a> (void)</td></tr>
 <tr class="memdesc:a76e079c3781d0cccd4d08e8471ad5efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first usable by application NVRAM Identifier.  <a href="#a76e079c3781d0cccd4d08e8471ad5efc">More...</a><br /></td></tr>
 <tr class="separator:a76e079c3781d0cccd4d08e8471ad5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389b20cf9a38ec164ade375438aaa82b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a389b20cf9a38ec164ade375438aaa82b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__app_8h.html#a389b20cf9a38ec164ade375438aaa82b">mesh_application_reg_non_conn_adv_handler</a> (<a class="el" href="wiced__bt__mesh__app_8h.html#afe25d581594f3ec081bc27971b9b5ec3">wiced_bt_mesh_app_non_conn_adv_handler_t</a> handler)</td></tr>
+<tr class="memdesc:a389b20cf9a38ec164ade375438aaa82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an application dependent non-connectable adv packet handler Register an application dependent non-connectable adv packet handler. <br /></td></tr>
+<tr class="separator:a389b20cf9a38ec164ade375438aaa82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -440,6 +447,30 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
 
 </div>
 </div>
+<a class="anchor" id="afe25d581594f3ec081bc27971b9b5ec3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef wiced_bool_t(* wiced_bt_mesh_app_non_conn_adv_handler_t)(int8_t rssi, const uint8_t *p_adv_data, const uint8_t *remote_bd_addr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Non-connectable adv packet application handler. </p>
+<p>A customer application can implement this function to handle application specific non-connectable adv packets.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rssi</td><td>Adv packet RSSI value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_adv_data</td><td>Adv packet data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>Remote device address</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE if application processed adv and it does not need to be processed by the core </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ac4d11ecc83b7478b71d234670a9da07c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +482,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
 </div><div class="memdoc">
 
 <p>Notification period changed. </p>
-<p>Application may be notified by the model library that it needs to periodically send current Status notifications. Application for the sensor devices, i.e. declare WICED_BT_MESH_MODEL_SENSOR_SERVER model on one of the elements, are required to handle this callback. If the device does not have sensors, support for this callback is optional. Applications that do not want to handle the callback, should make sure that they report changes to the local states to the Mesh Models library. For example, an application for a light where the brightness can be adjusted both over BT and locally, may report local changes every time something is adjusted locally. The Mesh Models library will remember all the status changes and will automatically send notifications as appropriate.</p>
+<p>Application may be notified by the model library that it needs to periodically send current Status notifications. Application for the sensor devices, i.e. declare WICED_BT_MESH_MODEL_SENSOR_SERVER model on one of the elements, are required to handle this callback. If the device does not have sensors, support for this callback is optional. Applications that do not want to handle the callback, should make sure that they report changes to the local states to the Mesh Models library. For example, an application for a light where the brightness can be adjusted both over Bluetooth and locally, may report local changes every time something is adjusted locally. The Mesh Models library will remember all the status changes and will automatically send notifications as appropriate.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">element</td><td>Index of the element </td></tr>
@@ -475,13 +506,13 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
       </table>
 </div><div class="memdoc">
 
-<p>Processing of a WICED HCI Command from the MCU. </p>
-<p>Application shall implement this function to process WICED HCI commands received over the WICED UART or WICED SPI transport.</p>
+<p>Processing of a AIROC HCI Command from the MCU. </p>
+<p>Application shall implement this function to process AIROC HCI commands received over the "WICED UART" or SPI transport.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">opcode</td><td>WICED HCI Command Opcode </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>WICED HCI Command parameters </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Length of the WICED HCI Command parameters</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">opcode</td><td>AIROC HCI Command Opcode </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>AIROC HCI Command parameters </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Length of the AIROC HCI Command parameters</td></tr>
   </table>
   </dd>
 </dl>
@@ -515,7 +546,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_system_id</b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__app_8h.html">wiced_bt_mesh_app.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

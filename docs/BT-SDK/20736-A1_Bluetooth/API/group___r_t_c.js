@@ -1,7 +1,7 @@
 var group___r_t_c =
 [
     [ "tRTC_LHL_ADC_RTC_CTL_REG", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html", [
-      [ "bitmap", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#a7f0aab273e513c36ad8f2f526549c2d7", null ],
+      [ "bitmap", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#a24a40834bcf5f8c9e0a357c40390d1d2", null ],
       [ "lhl_adc_rtc_ctl_reg", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#adb6b3fe1400ff94224e891f8e9ada729", null ],
       [ "reserved1", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#afcfd9004b2604b08068988140cc7e658", null ],
       [ "reserved2", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#ae1b046f6cf511e50ff6424a126203560", null ],
@@ -11,8 +11,8 @@ var group___r_t_c =
       [ "rtcTimerFuncEn", "uniont_r_t_c___l_h_l___a_d_c___r_t_c___c_t_l___r_e_g.html#a315e8c2c711318d107ca80415c1e7655", null ]
     ] ],
     [ "tRTC_REAL_TIME_CLOCK", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html", [
-      [ "reg16map", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#afcba1d01f1ddc2cc2c32dd906562852b", null ],
-      [ "reg32map", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#a3cd1a32a8b7075982a46557421b34f3d", null ],
+      [ "reg16map", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#a7d2ef9347b0eb4e8804be31198284049", null ],
+      [ "reg32map", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#a3d55776bfe4a9dcbc114515d7ba20e1d", null ],
       [ "rtc16", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#ac5a7f7ab9f6e75a242ce24113d778b62", null ],
       [ "rtc32", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#ae382428a3e298830d78e6352c056bea1", null ],
       [ "rtc64", "uniont_r_t_c___r_e_a_l___t_i_m_e___c_l_o_c_k.html#a7007a47d86be07ebbb2df38f8ef3e638", null ]

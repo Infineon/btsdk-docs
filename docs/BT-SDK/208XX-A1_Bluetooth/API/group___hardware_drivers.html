@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: Hardware Drivers</title>
+<title>AIROC&trade; CYW208XX: Hardware Drivers</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -102,12 +102,15 @@ $(document).ready(function(){initNavTree('group___hardware_drivers.html','');});
 <div class="title">Hardware Drivers</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
+<tr class="memitem:group__wiced__sleep__config"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html">AIROC Sleep Configuration</a></td></tr>
+<tr class="memdesc:group__wiced__sleep__config"><td class="mdescLeft">&#160;</td><td class="mdescRight">This driver provides simplified access to the AIROC sleep framework on the CYW20819 device. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group___transport.html">AIROC Transport</a></td></tr>
+<tr class="memdesc:group__group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the transport utilities for configuring the transport, sending data and receiving data. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___aes_calculation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___aes_calculation.html">AesCalculation</a></td></tr>
 <tr class="memdesc:group___aes_calculation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the AES calculation with Hardware acceleration. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +141,7 @@ Modules</h2></td></tr>
 <tr class="memdesc:group__nvram"><td class="mdescLeft">&#160;</td><td class="mdescRight">This driver provides simplified access to the volatile section ("VS") of memory. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___p_u_a_r_t_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html">Peripheral UART (PUART)</a></td></tr>
+<tr class="memdesc:group___p_u_a_r_t_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___peripheral_spi_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___peripheral_spi_driver.html">PeripheralSpiDriver</a></td></tr>
 <tr class="memdesc:group___peripheral_spi_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an SPI driver to facilitate communication with other devices on an SPI bus (such as a temperature sensor, etc). <br /></td></tr>
@@ -158,60 +162,17 @@ Modules</h2></td></tr>
 <tr class="memitem:group__timer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html">Timer Management Services</a></td></tr>
 <tr class="memdesc:group__timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the API declarations for Timer services. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wiced__sleep__config"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html">WICED Sleep Configuration</a></td></tr>
-<tr class="memdesc:group__wiced__sleep__config"><td class="mdescLeft">&#160;</td><td class="mdescRight">This driver provides simplified access to the WICED sleep framework on the CYW20819 device. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group___transport.html">WICED Transport</a></td></tr>
-<tr class="memdesc:group__group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the transport utilities for configuring the transport, sending data and receiving data. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__watchdog"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__watchdog.html">Watchdog Timer</a></td></tr>
 <tr class="memdesc:group__watchdog"><td class="mdescLeft">&#160;</td><td class="mdescRight">This driver manages the hardware watchdog countdown timer. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. </p>
-<p>Typical use-cases involve printing messages over UART/RS-232, or to communicate with peripheral devices.</p>
-<p><b>Example Usage:</b></p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> testPUARTDriver(<span class="keywordtype">void</span>)</div>
-<div class="line">{</div>
-<div class="line">    UINT8 readbyte;</div>
-<div class="line">    UINT8 loopCtrl = 1;</div>
-<div class="line">    <span class="keywordtype">char</span> printBuffer[50];</div>
-<div class="line"></div>
-<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#ga899e336f088e0b42a42dfb18099aa2ff">wiced_hal_puart_init</a>();</div>
-<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#ga8d32796eae79e7ed2b9bf92562f9a66e">wiced_hal_puart_select_uart_pads</a>(34, 31, 0, 0)</div>
-<div class="line"></div>
-<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#ga1f2ebf5f0afa63286b36f359cb1748d8">wiced_hal_puart_flow_off</a>();</div>
-<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#gaa9aa92b462b4a3374910416dbb7b51c7">wiced_hal_puart_enable_tx</a>();</div>
-<div class="line">    <a class="code" href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">wiced_hal_puart_enable_rx</a>();</div>
-<div class="line"></div>
-<div class="line">    while(loopCtrl)</div>
-<div class="line">    {</div>
-<div class="line">        <span class="keywordflow">while</span>(<a class="code" href="group___p_u_a_r_t_driver.html#ga12cd4a9d4c5e013ceab1fe3904486860">wiced_hal_puart_read</a>(&amp;readbyte))</div>
-<div class="line">        {</div>
-<div class="line">            <a class="code" href="group___p_u_a_r_t_driver.html#ga29717294b885ea1be7f5a081ecef8e90">wiced_hal_puart_write</a>(readbyte);</div>
-<div class="line"></div>
-<div class="line">            <span class="keywordflow">if</span>(readbyte == <span class="charliteral">&#39;S&#39;</span>)</div>
-<div class="line">            {</div>
-<div class="line">                <a class="code" href="group___p_u_a_r_t_driver.html#ga5f7cddd9a6c57e1a60aaaf62c8030f7d">wiced_hal_puart_print</a>(<span class="stringliteral">&quot;\nYou typed &#39;S&#39;.&quot;</span>);</div>
-<div class="line"></div>
-<div class="line">                sprintf(printBuffer, <span class="stringliteral">&quot;\nThis message sprintf&#39;ed here.&quot;</span>);</div>
-<div class="line">                <a class="code" href="group___p_u_a_r_t_driver.html#ga5f7cddd9a6c57e1a60aaaf62c8030f7d">wiced_hal_puart_print</a>(printBuffer);</div>
-<div class="line">            }</div>
-<div class="line"></div>
-<div class="line">            <span class="keywordflow">if</span>(readbyte == <span class="charliteral">&#39;E&#39;</span>) <span class="comment">// End.</span></div>
-<div class="line">            {</div>
-<div class="line">                loopCtrl = 0;</div>
-<div class="line">            }</div>
-<div class="line">        }</div>
-<div class="line">    }</div>
-<div class="line">}</div>
-</div><!-- fragment --> </div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

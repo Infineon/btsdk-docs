@@ -8,7 +8,6 @@ var searchData=
   ['vendor',['vendor',['../unionwiced__bt__avrc__msg__t.html#a823759ad132d258377e959abaea57356',1,'wiced_bt_avrc_msg_t']]],
   ['vendor_5fid',['vendor_id',['../structwiced__bt__mesh__core__state__model__app__t.html#abd60aba7846c925f784c3e89e2f54e45',1,'wiced_bt_mesh_core_state_model_app_t::vendor_id()'],['../wiced__bt__mesh__cfg_8h.html#abd60aba7846c925f784c3e89e2f54e45',1,'vendor_id():&#160;wiced_bt_mesh_cfg.h']]],
   ['vendor_5flen',['vendor_len',['../structwiced__bt__avrc__msg__vendor__t.html#a60651e38f2d42cd19d53586a602aca20',1,'wiced_bt_avrc_msg_vendor_t']]],
-  ['very_5flong_5fhold_5fduration',['very_long_hold_duration',['../structwiced__button__manager__configuration__t.html#a0c8140bcee767917eb06ad907a0f377b',1,'wiced_button_manager_configuration_t']]],
   ['volatile_5fand_5frequires_5fformat_5fwhen_5fmounting',['volatile_and_requires_format_when_mounting',['../structwiced__block__device__init__data__t.html#a74a8f63cfef666f59a01196cdef3912d',1,'wiced_block_device_init_data_t']]],
   ['volume',['volume',['../structaudio__config__t.html#abd4a07ad5250dc3249f11e83d566fb7a',1,'audio_config_t::volume()'],['../unionwiced__bt__avrc__command__t.html#aaeb8b0ad719c669eb80144132b21ba9d',1,'wiced_bt_avrc_command_t::volume()'],['../unionwiced__bt__avrc__response__t.html#abebc1c65db4f9cb31b444d52f0664454',1,'wiced_bt_avrc_response_t::volume()']]],
   ['vs1_5flen',['vs1_len',['../structwiced__fw__upgrade__nv__loc__len__t.html#af37de341cd05f3eddd9d469a21f61957',1,'wiced_fw_upgrade_nv_loc_len_t']]],

@@ -1,5 +1,7 @@
 var group___hardware_drivers =
 [
+    [ "AIROC Sleep Configuration", "group__wiced__sleep__config.html", "group__wiced__sleep__config" ],
+    [ "AIROC Transport", "group__group___transport.html", "group__group___transport" ],
     [ "AesCalculation", "group___aes_calculation.html", "group___aes_calculation" ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
     [ "Auxiliary Clock (ACLK)", "group___aux_clk_driver.html", "group___aux_clk_driver" ],
@@ -18,7 +20,5 @@ var group___hardware_drivers =
     [ "Random Number Generator (RNG)", "group___random_number_generator.html", "group___random_number_generator" ],
     [ "Serial Flash Interface", "group___serial_flash_interface_driver.html", "group___serial_flash_interface_driver" ],
     [ "Timer Management Services", "group__timer.html", "group__timer" ],
-    [ "WICED Sleep Configuration", "group__wiced__sleep__config.html", "group__wiced__sleep__config" ],
-    [ "WICED Transport", "group__group___transport.html", "group__group___transport" ],
     [ "Watchdog Timer", "group__watchdog.html", "group__watchdog" ]
 ];

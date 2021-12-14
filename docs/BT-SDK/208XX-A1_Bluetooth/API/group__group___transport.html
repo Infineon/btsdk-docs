@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: WICED Transport</title>
+<title>AIROC&trade; CYW208XX: AIROC Transport</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('group__group___transport.html','');});
 <a href="#groups">Modules</a> &#124;
 <a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
-<div class="title">WICED Transport<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">AIROC Transport<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -122,13 +122,13 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga4c42181f8444932c1076e589e4c7feef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4c42181f8444932c1076e589e4c7feef"></a>
 typedef struct <br class="typebreak" />
 _wiced_trans_buffer_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a></td></tr>
-<tr class="memdesc:ga4c42181f8444932c1076e589e4c7feef"><td class="mdescLeft">&#160;</td><td class="mdescRight">WICED Transport Internal Buffer Pool structure. <br /></td></tr>
+<tr class="memdesc:ga4c42181f8444932c1076e589e4c7feef"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Transport Internal Buffer Pool structure. <br /></td></tr>
 <tr class="separator:ga4c42181f8444932c1076e589e4c7feef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines the transport utilities for configuring the transport, sending data and receiving data. </p>
 <p>This supports the UART transport in HCI Mode</p>
-<p>The WICED Transport uses the generic pool available for receiving and sending packets over the transport. Following are the configurations of the generic pool. 1: The buffer size - 8 bytes, buffer count - 128. 2: The buffer size - 32 bytes, buffer count - 48. 3: The buffer size - 96 bytes, buffer count - 50. 4: The buffer size - 268 bytes, buffer count - 12.</p>
+<p>The AIROC Transport uses the generic pool available for receiving and sending packets over the transport. Following are the configurations of the generic pool. 1: The buffer size - 8 bytes, buffer count - 128. 2: The buffer size - 32 bytes, buffer count - 48. 3: The buffer size - 96 bytes, buffer count - 50. 4: The buffer size - 268 bytes, buffer count - 12.</p>
 <p>Using the described generic pools, the max payload size supportable is 252.(16 bytes for internal headers). If the application wants to send a packet of a size more than the max size of the buffer available in the generic pool, the application can do so by creating a transport buffer pool of the desired size. (Refer APIs wiced_transport_create_buffer_pool, wiced_transport_allocate_buffer,wiced_transport_send_buffer).</p>
 <p>If the application wants to recieve a packet of a size more than the max size of the buffer available in the generic pool, the application can do so by configuring a receive buffer pool of the desired size when doing the transport init. </p>
 </div><!-- contents -->
@@ -136,7 +136,7 @@ _wiced_trans_buffer_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

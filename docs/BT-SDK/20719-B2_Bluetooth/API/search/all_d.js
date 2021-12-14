@@ -39,6 +39,7 @@ var searchData=
   ['mem_5ffree',['mem_free',['../structwiced__bt__sdp__discovery__db__t.html#a018ca54b4009ff9bf2dce3333d3d2b56',1,'wiced_bt_sdp_discovery_db_t']]],
   ['mem_5fsize',['mem_size',['../structwiced__bt__sdp__discovery__db__t.html#a3f6a3b0b58cbdacf4ce9a0c9b3d64794',1,'wiced_bt_sdp_discovery_db_t']]],
   ['mesh_5fapplication_5fget_5fnvram_5fid_5fapp_5fstart',['mesh_application_get_nvram_id_app_start',['../wiced__bt__mesh__app_8h.html#a76e079c3781d0cccd4d08e8471ad5efc',1,'wiced_bt_mesh_app.h']]],
+  ['mesh_5fapplication_5freg_5fnon_5fconn_5fadv_5fhandler',['mesh_application_reg_non_conn_adv_handler',['../wiced__bt__mesh__app_8h.html#a389b20cf9a38ec164ade375438aaa82b',1,'wiced_bt_mesh_app.h']]],
   ['mesh_5fauth_5fvalue_5fmax_5flen',['MESH_AUTH_VALUE_MAX_LEN',['../wiced__bt__mesh__model__defs_8h.html#a6921b1df577334d18eb39ebc2cb3a8ae',1,'wiced_bt_mesh_model_defs.h']]],
   ['mesh_5fbattery_5fevent_5ft',['mesh_battery_event_t',['../structmesh__battery__event__t.html',1,'']]],
   ['mesh_5fcore_5fprovision_5fcb_5ft',['mesh_core_provision_cb_t',['../structmesh__core__provision__cb__t.html',1,'']]],

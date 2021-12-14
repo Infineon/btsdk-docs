@@ -1,0 +1,26 @@
+var group__wicedbt =
+[
+    [ "ANC Library API", "group__wiced__bt__anc__api__functions.html", "group__wiced__bt__anc__api__functions" ],
+    [ "ANS Library API", "group__wiced__bt__ans__api__functions.html", "group__wiced__bt__ans__api__functions" ],
+    [ "Audio / Video", "group__wicedbt__av.html", "group__wicedbt__av" ],
+    [ "Audio/Video Remote Control (AVRC)", "group__wicedbt__avrc.html", "group__wicedbt__avrc" ],
+    [ "BAC Library API", "group__wiced__bt__battery__client__api__functions.html", "group__wiced__bt__battery__client__api__functions" ],
+    [ "Bluetooth Stack Initialize & Configuration", "group__wiced__bt__cfg.html", "group__wiced__bt__cfg" ],
+    [ "Bluetooth Stack Platform Interface", "group__wiced__bt__platform__group.html", "group__wiced__bt__platform__group" ],
+    [ "Common Bluetooth types", "group__gentypes.html", "group__gentypes" ],
+    [ "Device Management", "group__wicedbt___device_management.html", "group__wicedbt___device_management" ],
+    [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],
+    [ "HID Device Role (HIDD) over BR/EDR", "group__hidd__api__functions.html", "group__hidd__api__functions" ],
+    [ "HID Device Role (HIDD) over LE", "group__hidd__le__api__functions.html", "group__hidd__le__api__functions" ],
+    [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
+    [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
+    [ "Isochronous (ISOC)", "group__wicedbt__isoc.html", "group__wicedbt__isoc" ],
+    [ "LE Mesh", "group__wiced__bt__mesh.html", "group__wiced__bt__mesh" ],
+    [ "Logical Link Control and Adaptation Protocol (L2CAP)", "group__l2cap.html", "group__l2cap" ],
+    [ "OBEX", "group__wicedbt__obex.html", "group__wicedbt__obex" ],
+    [ "RFCOMM", "group__rfcomm__api__functions.html", "group__rfcomm__api__functions" ],
+    [ "SPP Library API", "group__wiced__bt__spp__api__functions.html", "group__wiced__bt__spp__api__functions" ],
+    [ "Service Discovery Protocol (SDP)", "group__sdp.html", "group__sdp" ],
+    [ "Synchronous Connection Oriented (SCO) Channel", "group__sco.html", "group__sco" ],
+    [ "iAP2 Protocol Library API", "group__wiced__bt__iap2__api__functions.html", "group__wiced__bt__iap2__api__functions" ]
+];

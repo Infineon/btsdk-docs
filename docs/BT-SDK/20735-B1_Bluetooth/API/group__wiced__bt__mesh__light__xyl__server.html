@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20735: Mesh Light xyL Server</title>
+<title>AIROC&trade; CYW20735: Mesh Light xyL Server</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__light__xyl__se
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support.  
+<p>The AIROC Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga38ed3faffd2792da339f6b949735cf77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support. </p>
+<p>The AIROC Mesh Light xyL Server module provides a way for an application to implement a dimmable light device with x and y chromaticity coordinates support. </p>
 <p>The device can be controlled by a device with rich UI which can control the brightness, x and y states, but also the device can be can be controlled using a Level sliders (Generic Level client) applied to the brightness and by a On/Off switch (Generic On/Off client). The device also supports a default transition time server functionality and the application can specify on power up behavior.</p>
 <p>To include the Mesh Models support for the XYL Server module the application includes the <a class="el" href="group__wiced__bt__mesh__light__xyl__server.html#gae28a54ae411ae75d8d2c09cdbf8634fb">WICED_BT_MESH_MODEL_LIGHT_XYL_SERVER</a> in the device definition. If the device supports several lights with XYL Server support, for example, a light fixture or a chandelier with several color lights, the <a class="el" href="group__wiced__bt__mesh__light__xyl__server.html#gae28a54ae411ae75d8d2c09cdbf8634fb">WICED_BT_MESH_MODEL_LIGHT_XYL_SERVER</a>, shall be repeated for each physical device.</p>
 <p>In addition to the definition, the application shall initialize the XYL Server module by calling <a class="el" href="group__wiced__bt__mesh__light__xyl__server.html#ga7e7b580549e073406b13835b17fe47bf">wiced_bt_mesh_model_light_xyl_server_init</a> function for each primary element where the XYL functionality is required providing the <a class="el" href="group__wiced__bt__mesh__light__xyl__server.html#ga01fcf5fa347387b6262f1219b8d65901">wiced_bt_mesh_light_xyl_server_callback_t</a> callback that will be executed when the brightness level, the hue or the saturation of the device needs to be changed.</p>
@@ -165,10 +165,6 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_GENERIC_DEFTT_SRV, <a class="code" href="group__wiced__bt__mesh__default__transition__time__server.html#gaadbba5b7363b2afda149d73b56d0959d">wiced_bt_mesh_model_default_transition_time_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SCENE_SRV, <a class="code" href="group__wiced__bt__mesh__scene__server.html#gad02139dbd5de33dbfa4574f1b7524817">wiced_bt_mesh_model_scene_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SCENE_SETUP_SRV, <a class="code" href="group__wiced__bt__mesh__scene__server.html#ga1e69d93cd77b795bd811c1ae913a39e9">wiced_bt_mesh_model_scene_setup_server_message_handler</a>, NULL, NULL }, \</div>
-<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SCHEDULER_SRV, <a class="code" href="group__wiced__bt__mesh__scheduler__server.html#gaae73c916c065ec43b7da7653730b09e4">wiced_bt_mesh_model_scheduler_server_message_handler</a>, NULL, NULL }, \</div>
-<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SCHEDULER_SETUP_SRV, <a class="code" href="group__wiced__bt__mesh__scheduler__server.html#ga56a9af47a1bce8df95ffab177bcc0e36">wiced_bt_mesh_model_scheduler_setup_server_message_handler</a>, NULL, NULL }, \</div>
-<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_TIME_SRV, <a class="code" href="group__wiced__bt__mesh__time__server.html#ga3a8a503141d4226ce1a763a9673beed3">wiced_bt_mesh_model_time_server_message_handler</a>, NULL, NULL }, \</div>
-<div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_TIME_SETUP_SRV, <a class="code" href="group__wiced__bt__mesh__time__server.html#ga2b6a069963f62619d773756836d56ab1">wiced_bt_mesh_model_time_setup_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_GENERIC_ONOFF_SRV, <a class="code" href="group__wiced__bt__mesh__onoff__server.html#gae8407b3533ba16b322606715ecc95421">wiced_bt_mesh_model_onoff_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_GENERIC_POWER_ONOFF_SRV, <a class="code" href="group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348">wiced_bt_mesh_model_power_onoff_server_message_handler</a>, NULL, NULL }, \</div>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_GENERIC_POWER_ONOFF_SETUP_SRV, <a class="code" href="group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd">wiced_bt_mesh_model_power_onoff_setup_server_message_handler</a>, NULL, NULL }, \</div>
@@ -179,8 +175,6 @@ Functions</h2></td></tr>
 <div class="line">    { MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_LIGHT_XYL_SETUP_SRV, <a class="code" href="group__wiced__bt__mesh__light__xyl__server.html#ga52ff9cab20dde5c927933a2c9e24a195">wiced_bt_mesh_model_light_xyl_setup_server_message_handler</a>, NULL, NULL }</div>
 <div class="ttc" id="group__wiced__bt__mesh__power__onoff__server_html_ga6c4dd5a8835747d24d55e38a1b630bfd"><div class="ttname"><a href="group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd">wiced_bt_mesh_model_power_onoff_setup_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_power_onoff_setup_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Power On/Off Setup Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__light__lightness__server_html_ga4239007109ce36d64ff99bd73f5e37f0"><div class="ttname"><a href="group__wiced__bt__mesh__light__lightness__server.html#ga4239007109ce36d64ff99bd73f5e37f0">wiced_bt_mesh_model_light_lightness_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_light_lightness_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Light Lightness Server Message Handler. </div></div>
-<div class="ttc" id="group__wiced__bt__mesh__time__server_html_ga3a8a503141d4226ce1a763a9673beed3"><div class="ttname"><a href="group__wiced__bt__mesh__time__server.html#ga3a8a503141d4226ce1a763a9673beed3">wiced_bt_mesh_model_time_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_time_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Time Server Message Handler. </div></div>
-<div class="ttc" id="group__wiced__bt__mesh__scheduler__server_html_gaae73c916c065ec43b7da7653730b09e4"><div class="ttname"><a href="group__wiced__bt__mesh__scheduler__server.html#gaae73c916c065ec43b7da7653730b09e4">wiced_bt_mesh_model_scheduler_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_scheduler_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Scheduler Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__default__transition__time__server_html_gaadbba5b7363b2afda149d73b56d0959d"><div class="ttname"><a href="group__wiced__bt__mesh__default__transition__time__server.html#gaadbba5b7363b2afda149d73b56d0959d">wiced_bt_mesh_model_default_transition_time_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_default_transition_time_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Default Transition Time Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__light__xyl__server_html_ga6a5a2028cf7ffcfad1f3a673738d836a"><div class="ttname"><a href="group__wiced__bt__mesh__light__xyl__server.html#ga6a5a2028cf7ffcfad1f3a673738d836a">wiced_bt_mesh_model_light_xyl_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_light_xyl_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Light XYL Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__light__xyl__server_html_gadb27714f02fd077b341bafba8213f352"><div class="ttname"><a href="group__wiced__bt__mesh__light__xyl__server.html#gadb27714f02fd077b341bafba8213f352">wiced_bt_mesh_model_light_xyl_server_scene_store_handler</a></div><div class="ttdeci">uint16_t wiced_bt_mesh_model_light_xyl_server_scene_store_handler(uint8_t element_idx, uint8_t *p_buffer, uint16_t buffer_len)</div><div class="ttdoc">Light xyL Server Scene Store Handler. </div></div>
@@ -190,8 +184,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="group__wiced__bt__mesh__onoff__server_html_gae8407b3533ba16b322606715ecc95421"><div class="ttname"><a href="group__wiced__bt__mesh__onoff__server.html#gae8407b3533ba16b322606715ecc95421">wiced_bt_mesh_model_onoff_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_onoff_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">On/Off Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__light__xyl__server_html_ga4227ecba6c6acee6950adef5c42c920e"><div class="ttname"><a href="group__wiced__bt__mesh__light__xyl__server.html#ga4227ecba6c6acee6950adef5c42c920e">wiced_bt_mesh_model_light_xyl_server_scene_recall_handler</a></div><div class="ttdeci">uint16_t wiced_bt_mesh_model_light_xyl_server_scene_recall_handler(uint8_t element_idx, uint8_t *p_buffer, uint16_t buffer_len, uint32_t transition_time, uint32_t delay)</div><div class="ttdoc">Light xyL Server Scene Store Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__scene__server_html_gad02139dbd5de33dbfa4574f1b7524817"><div class="ttname"><a href="group__wiced__bt__mesh__scene__server.html#gad02139dbd5de33dbfa4574f1b7524817">wiced_bt_mesh_model_scene_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_scene_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Scene Server Message Handler. </div></div>
-<div class="ttc" id="group__wiced__bt__mesh__time__server_html_ga2b6a069963f62619d773756836d56ab1"><div class="ttname"><a href="group__wiced__bt__mesh__time__server.html#ga2b6a069963f62619d773756836d56ab1">wiced_bt_mesh_model_time_setup_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_time_setup_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Time Setup Server Message Handler. </div></div>
-<div class="ttc" id="group__wiced__bt__mesh__scheduler__server_html_ga56a9af47a1bce8df95ffab177bcc0e36"><div class="ttname"><a href="group__wiced__bt__mesh__scheduler__server.html#ga56a9af47a1bce8df95ffab177bcc0e36">wiced_bt_mesh_model_scheduler_setup_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_scheduler_setup_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Scheduler Setup Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__level__server_html_ga54956fe15bf384bcd2cc9da8435c25e2"><div class="ttname"><a href="group__wiced__bt__mesh__level__server.html#ga54956fe15bf384bcd2cc9da8435c25e2">wiced_bt_mesh_model_level_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_level_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Level Server Message Handler. </div></div>
 <div class="ttc" id="group__wiced__bt__mesh__power__onoff__server_html_gaff7b2624880843f3d34cdf348db91348"><div class="ttname"><a href="group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348">wiced_bt_mesh_model_power_onoff_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_power_onoff_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Power On/Off Server Message Handler. </div></div>
 </div><!-- fragment -->
@@ -547,7 +539,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

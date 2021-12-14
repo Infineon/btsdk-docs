@@ -31,6 +31,5 @@ var searchData=
   ['adcsampleclkpolarity',['adcSampleClkPolarity',['../union_a_d_c___c_t_l2___r_e_g.html#ac6c7f9ad53712702d76753b5d7daf942',1,'ADC_CTL2_REG']]],
   ['adcstate',['AdcState',['../struct_adc_state.html',1,'']]],
   ['addr',['addr',['../blecm_8h.html#abb11c4abd925c738791d610d1d796175',1,'blecm.h']]],
-  ['application',['Application',['../group__application.html',1,'']]],
-  ['application_20management',['Application Management',['../group__bleapp.html',1,'']]]
+  ['application_20management',['Application Management',['../group__devlpm.html',1,'']]]
 ];

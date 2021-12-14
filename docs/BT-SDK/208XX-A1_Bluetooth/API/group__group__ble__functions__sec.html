@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: Security</title>
+<title>AIROC&trade; CYW208XX: Security</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -156,7 +156,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generates an authentication signature using AES128 CMAC algorithm. </p>
-<p>The BD_ADDR given as a parameter is used to find the keys stored by WICED stack, then the keys are used to generate an authentication signature. This functionality is used to perform host-side authentication in the WICED stack. Rarely used at the application layer.</p>
+<p>The BD_ADDR given as a parameter is used to find the keys stored by AIROC stack, then the keys are used to generate an authentication signature. This functionality is used to perform host-side authentication in the AIROC stack. Rarely used at the application layer.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>peer device to sign data for (using stored keys) </td></tr>
@@ -205,7 +205,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get security mode 1 flags and encryption key size for LE peer. </p>
-<p>The GATT layer of the WICED stack will check the link's encryption status before triggering GATT read/write events on auth_readable/auth_writable characteristics. For further MITM checking, the below API should be used to verify the encryption status of the link before responding to GATT operations from the peer. This additional checking would occur in the callback <a class="el" href="wiced__bt__gatt_8h.html#a826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> registered in <a class="el" href="wiced__bt__gatt_8h.html#a4957d5c9ddc93abbcaac2c3bded135c9">wiced_bt_gatt_register</a>.</p>
+<p>The GATT layer of the AIROC stack will check the link's encryption status before triggering GATT read/write events on auth_readable/auth_writable characteristics. For further MITM checking, the below API should be used to verify the encryption status of the link before responding to GATT operations from the peer. This additional checking would occur in the callback <a class="el" href="wiced__bt__gatt_8h.html#a826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> registered in <a class="el" href="wiced__bt__gatt_8h.html#a4957d5c9ddc93abbcaac2c3bded135c9">wiced_bt_gatt_register</a>.</p>
 <p>If BTM_SEC_LE_LINK_PAIRED_WITHOUT_MITM and BTM_SEC_LE_LINK_PAIRED_WITH_MITM are both enabled in the flag, then this indicates that there is an LTK for this connection.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -312,7 +312,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This function is used to check a given data signature against the original unsigned data. </p>
-<p>The function uses the stored keys of the given LE peer device to verify the signature. This functionality is used to perform host-side authentication in the WICED stack. Rarely used at the application layer.</p>
+<p>The function uses the stored keys of the given LE peer device to verify the signature. This functionality is used to perform host-side authentication in the AIROC stack. Rarely used at the application layer.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>peer device to sign data for (using stored keys) </td></tr>
@@ -336,7 +336,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

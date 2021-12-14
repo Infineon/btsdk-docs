@@ -1,0 +1,58 @@
+var group__wiced__mem =
+[
+    [ "wiced_bt_pool_statistics_s", "structwiced__bt__pool__statistics__s.html", [
+      [ "current_allocated_count", "structwiced__bt__pool__statistics__s.html#a32a0162b268f8e2539c57cc42024e07d", null ],
+      [ "max_allocated_count", "structwiced__bt__pool__statistics__s.html#a727f123845ff9d483c6d9b0da0467203", null ],
+      [ "pool_count", "structwiced__bt__pool__statistics__s.html#a91c23b0d7b97904ff1e7d1b7f79a943d", null ],
+      [ "pool_size", "structwiced__bt__pool__statistics__s.html#a47a27add68239f6615bba90ec0527e4a", null ]
+    ] ],
+    [ "wiced_bt_heap_statistics_s", "structwiced__bt__heap__statistics__s.html", [
+      [ "allocation_failure_count", "structwiced__bt__heap__statistics__s.html#a35dfa66f2b3c43f9e6b29da47bbe8f65", null ],
+      [ "current_free_size", "structwiced__bt__heap__statistics__s.html#aea2420ab822c5ade6eb912bed4b5ea64", null ],
+      [ "current_largest_free_size", "structwiced__bt__heap__statistics__s.html#ad89433e7e2054932f245f810322029f9", null ],
+      [ "current_num_allocations", "structwiced__bt__heap__statistics__s.html#a70daecd045d8f556d21039292fb97c8f", null ],
+      [ "current_num_free_fragments", "structwiced__bt__heap__statistics__s.html#a09561040531dc3286f45cb979c2fe976", null ],
+      [ "current_size_allocated", "structwiced__bt__heap__statistics__s.html#ae1f8f4b394798cd97ff9f77a7681c19e", null ],
+      [ "heap_size", "structwiced__bt__heap__statistics__s.html#a62cc073fe56f29f4399b2d90efbc8550", null ],
+      [ "max_heap_size_used", "structwiced__bt__heap__statistics__s.html#a5b6c42ef2369324d09d74ad98f0bd5a5", null ],
+      [ "max_single_allocation", "structwiced__bt__heap__statistics__s.html#ae0be81a9a1c246a6105c47d43e83eb4a", null ]
+    ] ],
+    [ "wiced_bt_buffer_q_t", "structwiced__bt__buffer__q__t.html", [
+      [ "count", "structwiced__bt__buffer__q__t.html#a86988a65e0d3ece7990c032c159786d6", null ],
+      [ "lock", "structwiced__bt__buffer__q__t.html#a7820d4c959f7aead0ef9a6df6aa83f15", null ],
+      [ "p_first", "structwiced__bt__buffer__q__t.html#ab1b8c49e39f627c64dc2c1ff465fc63f", null ],
+      [ "p_last", "structwiced__bt__buffer__q__t.html#a19765494ba109262d6a463292b8724de", null ]
+    ] ],
+    [ "wiced_bt_get_buffer", "group__wiced__mem.html#ga39d0dd9d7e6155ba49d6a76c079405b7", null ],
+    [ "WICED_DEFAULT_HEAP", "group__wiced__mem.html#ga9ddff2d22209edda9d0193a2c81dacfc", null ],
+    [ "wiced_memory_allocate", "group__wiced__mem.html#gadb413e2ca1067d75f14e633195bd4b21", null ],
+    [ "wiced_memory_free", "group__wiced__mem.html#ga9f7d0bbbb780d88a2fe32fb496b9dff1", null ],
+    [ "wiced_bt_buffer_t", "group__wiced__mem.html#ga46491871adba51d8026e9fa85acbbaba", null ],
+    [ "wiced_bt_heap_statistics_t", "group__wiced__mem.html#ga34f77a341068c919384ae52dfc69fd50", null ],
+    [ "wiced_bt_heap_t", "group__wiced__mem.html#ga29951f8f099d15eb96c47cfbdf656c3c", null ],
+    [ "wiced_bt_pool_statistics_t", "group__wiced__mem.html#gab8ac4a4b70df70ec5a2e944e88a94ae7", null ],
+    [ "wiced_bt_pool_t", "group__wiced__mem.html#ga8eb99f9920449033af7323ed0eb8f69c", null ],
+    [ "wiced_bt_create_heap", "group__wiced__mem.html#gabd087700ddd0362c48b52e9c6f66a059", null ],
+    [ "wiced_bt_create_pool", "group__wiced__mem.html#gaa0382948eb39d8de2496e8cd11ee13ce", null ],
+    [ "wiced_bt_delete_heap", "group__wiced__mem.html#ga0f37a61eaed4ad2c267d8b70af53bcfb", null ],
+    [ "wiced_bt_delete_pool", "group__wiced__mem.html#ga5180d91f266fbb45fb60ec66485b5c2e", null ],
+    [ "wiced_bt_dequeue", "group__wiced__mem.html#ga1b0787e7f01a5eabf0fda49461d4a0fa", null ],
+    [ "wiced_bt_enqueue", "group__wiced__mem.html#ga3142e3e24bbbf661867d9abd49bf94cd", null ],
+    [ "wiced_bt_enqueue_head", "group__wiced__mem.html#ga3a76bfa31cc060df2c279049036c71b2", null ],
+    [ "wiced_bt_free_buffer", "group__wiced__mem.html#ga652a40fcdb27f8fea2d125e82aef9750", null ],
+    [ "wiced_bt_get_buffer_from_heap", "group__wiced__mem.html#gaf2a3683b317c42e9c264c5725179fe10", null ],
+    [ "wiced_bt_get_buffer_from_pool", "group__wiced__mem.html#gaba17f78395b7d5d3be0a963fc64d8a82", null ],
+    [ "wiced_bt_get_buffer_size", "group__wiced__mem.html#ga5d688277844f22111723e3339e725d8a", null ],
+    [ "wiced_bt_get_heap_statistics", "group__wiced__mem.html#ga781d441cbf87a58a121c92fb9132d9b1", null ],
+    [ "wiced_bt_get_largest_heap_buffer", "group__wiced__mem.html#ga1f954d898c5466a865a47ab097f385e7", null ],
+    [ "wiced_bt_get_pool_free_count", "group__wiced__mem.html#gac2d26815b0ed4aa9f7d72650d7c5b28f", null ],
+    [ "wiced_bt_getfirst", "group__wiced__mem.html#ga3d0f730da71f5eefc2ffb8c7047f02f9", null ],
+    [ "wiced_bt_getlast", "group__wiced__mem.html#ga0250fcacf935ca7fb2f0c802bc498316", null ],
+    [ "wiced_bt_getnext", "group__wiced__mem.html#ga88ac7077880864d79dbc134e460a814c", null ],
+    [ "wiced_bt_init_q", "group__wiced__mem.html#ga62e721c9f6a3f49dd10e5633a6a280ad", null ],
+    [ "wiced_bt_queue_get_count", "group__wiced__mem.html#ga4490eaf46263868144322240d5553285", null ],
+    [ "wiced_bt_queue_is_empty", "group__wiced__mem.html#ga3a53857937701bb4c7c1128ed3de8f8a", null ],
+    [ "wiced_bt_remove_from_queue", "group__wiced__mem.html#gabf9a622ef54fe5731cec0a055923c96f", null ],
+    [ "wiced_memory_get_free_bytes", "group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f", null ],
+    [ "wiced_set_exception_callback", "group__wiced__mem.html#ga9a5e60280610d3027effc84ee35654b6", null ]
+];

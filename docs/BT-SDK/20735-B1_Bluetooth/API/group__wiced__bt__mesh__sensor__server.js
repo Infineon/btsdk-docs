@@ -1,5 +1,6 @@
 var group__wiced__bt__mesh__sensor__server =
 [
+    [ "wiced_bt_mesh_model_format_sensor_server_data", "group__wiced__bt__mesh__sensor__server.html#gafb08fbefebd1974a849dc9e928ce2bc2", null ],
     [ "wiced_bt_mesh_model_sensor_server_column_status_send", "group__wiced__bt__mesh__sensor__server.html#gae23dc22a4ea8e68cdaa5ca643c52169b", null ],
     [ "wiced_bt_mesh_model_sensor_server_data", "group__wiced__bt__mesh__sensor__server.html#ga1ddaea44b65372c7cabadf2a7637a502", null ],
     [ "wiced_bt_mesh_model_sensor_server_init", "group__wiced__bt__mesh__sensor__server.html#gadc856e45a2e98c17342907e40393ea91", null ],

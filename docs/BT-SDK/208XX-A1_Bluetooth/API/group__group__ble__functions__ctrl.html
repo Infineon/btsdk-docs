@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: LE Controller Settings</title>
+<title>AIROC&trade; CYW208XX: LE Controller Settings</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -105,10 +105,10 @@ $(document).ready(function(){initNavTree('group__group__ble__functions__ctrl.htm
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3748634252d38e79fbc4247975a2ef43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__ctrl.html#ga3748634252d38e79fbc4247975a2ef43">wiced_bt_ble_set_channel_classification</a> (const <a class="el" href="group__group__ble__enums.html#gabde868adceda4dc951620520b6ba682c">wiced_bt_ble_chnl_map_t</a> ble_channel_map)</td></tr>
-<tr class="memdesc:ga3748634252d38e79fbc4247975a2ef43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an HCI command to the controller to set the host preferences for BLE AFH channel map.  <a href="#ga3748634252d38e79fbc4247975a2ef43">More...</a><br /></td></tr>
+<tr class="memdesc:ga3748634252d38e79fbc4247975a2ef43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an HCI command to the controller to set the host preferences for LE AFH channel map.  <a href="#ga3748634252d38e79fbc4247975a2ef43">More...</a><br /></td></tr>
 <tr class="separator:ga3748634252d38e79fbc4247975a2ef43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad02e0949bb39b3f69a099e2ade0650ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__ctrl.html#gad02e0949bb39b3f69a099e2ade0650ca">wiced_bt_ble_set_phy</a> (<a class="el" href="structwiced__bt__ble__phy__preferences__t.html">wiced_bt_ble_phy_preferences_t</a> *phy_preferences)</td></tr>
-<tr class="memdesc:gad02e0949bb39b3f69a099e2ade0650ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an HCI command to the controller to set the host preferences for the BLE PHY used on a specific pre-established LE connection.  <a href="#gad02e0949bb39b3f69a099e2ade0650ca">More...</a><br /></td></tr>
+<tr class="memdesc:gad02e0949bb39b3f69a099e2ade0650ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an HCI command to the controller to set the host preferences for the LE PHY used on a specific pre-established LE connection.  <a href="#gad02e0949bb39b3f69a099e2ade0650ca">More...</a><br /></td></tr>
 <tr class="separator:gad02e0949bb39b3f69a099e2ade0650ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga26ca4f327d2ffeff7cacdc9b3fe4f35f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__ctrl.html#ga26ca4f327d2ffeff7cacdc9b3fe4f35f">wiced_bt_ble_get_connection_parameters</a> (wiced_bt_device_address_t bda, <a class="el" href="structwiced__bt__ble__conn__params__t.html">wiced_bt_ble_conn_params_t</a> *p_conn_parameters)</td></tr>
 <tr class="memdesc:ga26ca4f327d2ffeff7cacdc9b3fe4f35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the current connection parameters being used for an active LE connection.  <a href="#ga26ca4f327d2ffeff7cacdc9b3fe4f35f">More...</a><br /></td></tr>
@@ -189,7 +189,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends an HCI command to the controller to set the host preferences for BLE AFH channel map. </p>
+<p>Sends an HCI command to the controller to set the host preferences for LE AFH channel map. </p>
 <p>The controller will block any channels indicated by the map, but may also block additional channels based on its channel assessment. In other words, this API can be used to force a channel to be blocked, but cannot force a channel to remain open if the controller deems it a bad channel&ndash;for this reason, channels not marked bad are called 'unknown'. Only channels 0-36 can be indicated, other channels are for ADV. At least 1 channel must be left (open). Example channel map to disable channel 24, rest unknown:</p>
 <div class="fragment"><div class="line">uint8_t channel_map[] = { 0xFF, 0xF7, 0xFF, 0xFF, 0xF8 };</div>
 </div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
@@ -221,7 +221,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sends an HCI command to the controller to set the host preferences for the BLE PHY used on a specific pre-established LE connection. </p>
+<p>Sends an HCI command to the controller to set the host preferences for the LE PHY used on a specific pre-established LE connection. </p>
 <p>The response to this event is triggered asynchronously via the event BTM_BLE_PHY_UPDATE_EVT, sent to the BT stack management handler <a class="el" href="group__group__dev__data__structures.html#ga50c74fb6824e881c95c1ccaf3ddf01d3">wiced_bt_management_cback_t</a> registered in <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>. The handler will receive a flags to indicate the current PHY(s) in use (<a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a>).</p>
 <p>PHY preferences must be set with knowledge of the underlying hardware. Not all PHYs are supported by all 20x19 devices. For example, 207819 only supports LE2M, but not LELR. Setting preferences for a PHY that does not exist in the hardware will have no effect, but still result in PHY update event in the management handler.</p>
 <p>PHY preferences for LELR in <a class="el" href="structwiced__bt__ble__phy__preferences__t.html#a7e29fbeccb986da96a0d6333de7cddac" title="Host preference on LE coded PHY. ">wiced_bt_ble_phy_preferences_t.phy_opts</a> can be set even if the LELR PHY is not preferred. This is because the controller can override the host's PHY preferences set by this API in favor of LELR (<em>if</em> the hardware supports LELR).</p>
@@ -280,7 +280,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sends an HCI command to the controller to tell it whether to use device privacy or network privacy for a specific pre-existing LE connection. </p>
-<p>These privacy modes were introduced in BT 5.0. WICED devices will default to device privacy mode for all links.</p>
+<p>These privacy modes were introduced in Bluetooth 5.0. AIROC devices will default to device privacy mode for all links.</p>
 <p>These privacy modes are used for peer devices that use an RPA. The modes specify what type of address the peer is allowed to use. In device privacy mode, the peer device is allowed to advertise with its identity address. In network privacy, the identity address of the peer device will not be accepted.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -311,7 +311,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

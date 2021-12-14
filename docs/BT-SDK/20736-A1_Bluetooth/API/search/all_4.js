@@ -10,6 +10,6 @@ var searchData=
   ['emconinfo_5finit',['emconinfo_init',['../group__emconinfo.html#ga3d6a9c01936ea1b5ed0cfed03db7f193',1,'emconinfo.h']]],
   ['emconninfo_5fgetrole',['emconninfo_getRole',['../group__emconinfo.html#gabde0026ea982f8ce2a35234e90ba4041',1,'emconinfo.h']]],
   ['emptyvoltage',['emptyVoltage',['../blebat_8h.html#a93d39204e473929d2ad1d8152c05bef1',1,'blebat.h']]],
-  ['end_5fof_5fscan_5fcycle',['END_OF_SCAN_CYCLE',['../group__keyscan_queue.html#ggaa57e16cd48de3b9a989056ff8df26f84ad8ba23ff4d3c25d36207e0da40355a22',1,'keyscan.h']]],
-  ['event_5fnone',['EVENT_NONE',['../group__keyscan.html#ggae33c78feb670de33d2abf21ec0624531a939a6cc6d749a232a23ff324dca6d48c',1,'keyscan.h']]]
+  ['end_5fof_5fscan_5fcycle',['END_OF_SCAN_CYCLE',['../group__keyscan_queue.html#gga4f126a0a9b1d8c6a8f46a051ef8830bbad8ba23ff4d3c25d36207e0da40355a22',1,'keyscan.h']]],
+  ['event_5fnone',['EVENT_NONE',['../group__keyscan.html#gga9a3be2d66956bd67c0b66c32d8b30f17a939a6cc6d749a232a23ff324dca6d48c',1,'keyscan.h']]]
 ];

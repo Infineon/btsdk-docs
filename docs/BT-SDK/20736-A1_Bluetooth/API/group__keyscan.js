@@ -13,7 +13,7 @@ var group__keyscan =
     ] ],
     [ "KeyscanQueue", "group__keyscan_queue.html", "group__keyscan_queue" ],
     [ "KeyscanRegistration", "group__keyscan.html#gaa30393a73c1bc897fd15d895a94770f7", [
-      [ "EVENT_NONE", "group__keyscan.html#ggae33c78feb670de33d2abf21ec0624531a939a6cc6d749a232a23ff324dca6d48c", null ]
+      [ "EVENT_NONE", "group__keyscan.html#gga9a3be2d66956bd67c0b66c32d8b30f17a939a6cc6d749a232a23ff324dca6d48c", null ]
     ] ],
     [ "keyscan_clearKeysPressedCount", "group__keyscan.html#ga0707f916a96d2a5b9eb6008d29f59025", null ],
     [ "keyscan_configGpios", "group__keyscan.html#ga4a49091bbc045a0bc0e9bde525a79228", null ],

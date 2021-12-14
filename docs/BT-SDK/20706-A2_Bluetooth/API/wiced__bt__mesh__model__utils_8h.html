@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20706: wiced_bt_mesh_model_utils.h File Reference</title>
+<title>AIROC&trade; CYW20706: wiced_bt_mesh_model_utils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -368,9 +368,9 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_light_lightn
 <tr class="memitem:a56996f903a519441d30726e702542429"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56996f903a519441d30726e702542429"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_light_lightness_server_linear_last_set</b> (uint8_t element_idx, uint16_t <a class="el" href="wiced__bt__mesh__cfg_8h.html#a952181be57dba7891e7b2da65a061e25">value</a>)</td></tr>
 <tr class="separator:a56996f903a519441d30726e702542429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f377c8a15ff8a50593bedfb39c5925"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12f377c8a15ff8a50593bedfb39c5925"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_light_lightness_server_lc_transition_start</b> (uint8_t element_idx, uint16_t actual_target, uint16_t linear_target, uint32_t transition_time, uint32_t delay)</td></tr>
-<tr class="separator:a12f377c8a15ff8a50593bedfb39c5925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa95c87a1d1ce359c2e768844a624b47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa95c87a1d1ce359c2e768844a624b47"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_light_lightness_server_lc_transition_start</b> (uint8_t element_idx, uint16_t actual_target, uint16_t linear_target, uint32_t lux_level_current, uint32_t lux_level_target, uint32_t transition_time, uint32_t delay)</td></tr>
+<tr class="separator:aaa95c87a1d1ce359c2e768844a624b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c570989ae88f0fcfe119d1d2fbd566"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58c570989ae88f0fcfe119d1d2fbd566"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_light_lightness_server_default_get</b> (uint8_t element_idx)</td></tr>
 <tr class="separator:a58c570989ae88f0fcfe119d1d2fbd566"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,9 +437,6 @@ int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_level_server_
 <tr class="memitem:aa299f0a29a2dd1025d7b568c033c19df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa299f0a29a2dd1025d7b568c033c19df"></a>
 wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_time_server_get</b> (wiced_bt_mesh_time_t *p_current_time)</td></tr>
 <tr class="separator:aa299f0a29a2dd1025d7b568c033c19df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada434f41dbfeaa0c06c67a0cf7cbb422"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada434f41dbfeaa0c06c67a0cf7cbb422"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_model_find_element_idx</b> (uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a345b5a533872a471f810a988b331f60c">model_id</a>, uint8_t start_idx)</td></tr>
-<tr class="separator:ada434f41dbfeaa0c06c67a0cf7cbb422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7b4131391a02c17cbddcb580315ea4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b7b4131391a02c17cbddcb580315ea4"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_read_node_info</b> (int <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_result)</td></tr>
 <tr class="separator:a2b7b4131391a02c17cbddcb580315ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -815,7 +812,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="wiced__bt__mesh__model__utils_8h.html">wiced_bt_mesh_model_utils.h</a></li>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

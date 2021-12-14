@@ -1,7 +1,7 @@
 var searchData=
 [
   ['keycode',['keyCode',['../keyscan_8h.html#a1093a807263df87f42299244cd04d70e',1,'keyscan.h']]],
-  ['keyevent',['KeyEvent',['../group__keyscan_queue.html#ga4f5defc39465fb9dc90e8ef1748dbc20',1,'keyscan.h']]],
+  ['keyevent',['KeyEvent',['../group__keyscan_queue.html#ga4b924c8b218304cb6e99c9ed0e721a37',1,'keyscan.h']]],
   ['keyscan',['Keyscan',['../group__keyscan.html',1,'']]],
   ['keyscan_2eh',['keyscan.h',['../keyscan_8h.html',1,'']]],
   ['keyscan_5fclearkeyspressedcount',['keyscan_clearKeysPressedCount',['../group__keyscan.html#ga0707f916a96d2a5b9eb6008d29f59025',1,'keyscan.h']]],
@@ -13,7 +13,7 @@ var searchData=
   ['keyscan_5fevents',['keyscan_events',['../struct_keyscan_state.html#a9e1e8741f71b1517e0f9dfc37cb65d96',1,'KeyscanState']]],
   ['keyscan_5feventspending',['keyscan_eventsPending',['../group__keyscan.html#gab27ee060363fca8c5034e9874bc14764',1,'keyscan.h']]],
   ['keyscan_5fflushhwevents',['keyscan_flushHwEvents',['../group__keyscan.html#ga075ceebee926ab69056f100731f21380',1,'keyscan.h']]],
-  ['keyscan_5ffw_5ffifo_5fsize',['KEYSCAN_FW_FIFO_SIZE',['../group__keyscan_queue.html#gga634f9f55e799f3052a34590f08100017a28ef28c4eb7c16aca74f3b3e139a1879',1,'keyscan.h']]],
+  ['keyscan_5ffw_5ffifo_5fsize',['KEYSCAN_FW_FIFO_SIZE',['../group__keyscan_queue.html#ggadbaf9202177df73e6880eab6e6aab329a28ef28c4eb7c16aca74f3b3e139a1879',1,'keyscan.h']]],
   ['keyscan_5fgeteventsfromhwfifo',['keyscan_getEventsFromHWFifo',['../group__keyscan.html#gae5d5a41d80ba84f4d203f62170ed7b79',1,'keyscan.h']]],
   ['keyscan_5fgetkeyspressedcount',['keyscan_getKeysPressedCount',['../group__keyscan.html#gaa248f2a0a298dcb5fefe96fae925a010',1,'keyscan.h']]],
   ['keyscan_5fgetnextevent',['keyscan_getNextEvent',['../group__keyscan.html#ga04fdf1632df1087531dd86c1ed631b56',1,'keyscan.h']]],

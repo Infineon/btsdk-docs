@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW208XX: WICED Trace Utilities</title>
+<title>AIROC&trade; CYW208XX: AIROC Trace Utilities</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('group__wiced__utils.html','');});
 <a href="#enumval-members">Enumerator</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">WICED Trace Utilities<div class="ingroups"><a class="el" href="group__wicedsys.html">WICED System</a></div></div>  </div>
+<div class="title">AIROC Trace Utilities<div class="ingroups"><a class="el" href="group__wicedsys.html">AIROC System</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -136,8 +136,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6885fbc4b6a0ff75c4b23299e64679fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#ga6885fbc4b6a0ff75c4b23299e64679fb">wiced_bt_trace_array</a> (const char *string, const uint8_t *array, const uint16_t len)</td></tr>
-<tr class="separator:ga6885fbc4b6a0ff75c4b23299e64679fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6223b42605fce1b8dea9f34eb1a803f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#ga6223b42605fce1b8dea9f34eb1a803f8">wiced_trace_array</a> (const uint8_t *p_array, uint16_t len)</td></tr>
 <tr class="separator:ga6223b42605fce1b8dea9f34eb1a803f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga342e93b2d4b710696f8c6a585dc57dc2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#ga342e93b2d4b710696f8c6a585dc57dc2">wiced_printf</a> (char *buffer, int len,...)</td></tr>
@@ -168,7 +166,7 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga8aabf22a7db88d44d213b70aa0363fa2afd172e33b82aa7d9aa0092776d906eba"></a>WICED_ROUTE_DEBUG_TO_WICED_UART&#160;</td><td class="fielddoc">
 <p>&lt; No Traces </p>
-<p>Set to WICED UART to send debug strings over the WICED debug interface </p>
+<p>Set to WICED UART to send debug strings over the AIROC debug interface </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff"></a>WICED_ROUTE_DEBUG_TO_HCI_UART&#160;</td><td class="fielddoc">
 <p>Use this to direct the debug traces over HCI UART. </p>
@@ -184,47 +182,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga6885fbc4b6a0ff75c4b23299e64679fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_trace_array </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>string</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>array</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">string</td><td>: Pointer to a string to be prepended to array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">array</td><td>: Pointer to array to be printed </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>: Length of array to be printed</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="ga10c90d0b04dc9eb9e371e6c8e8865ada"></a>
 <div class="memitem">
 <div class="memproto">
@@ -354,7 +311,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

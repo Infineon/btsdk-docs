@@ -14,6 +14,7 @@ var group__group__dev__functions__sec =
     [ "wiced_bt_dev_send_key_press_notif", "group__group__dev__functions__sec.html#gad12b350f7c723d95b5a0303beb1a8940", null ],
     [ "wiced_bt_dev_set_encryption", "group__group__dev__functions__sec.html#ga828fe3d842b9923e408a10b87ae8fb69", null ],
     [ "wiced_bt_dev_set_link_policy", "group__group__dev__functions__sec.html#gaa33eda752b4873cb9f19b0ef2634d9a4", null ],
+    [ "wiced_bt_dev_set_local_name", "group__group__dev__functions__sec.html#gafbbc974e447c9455ebe07c8c3d69d7d2", null ],
     [ "wiced_bt_get_identity_address", "group__group__dev__functions__sec.html#ga1623435bfdbefbf12a2fd1c64dbb71e1", null ],
     [ "wiced_bt_set_device_class", "group__group__dev__functions__sec.html#gaf4fa19e58b2db7ff38f8b83028865980", null ],
     [ "wiced_bt_set_pairable_mode", "group__group__dev__functions__sec.html#gae95344797140c44aa120d34957a576b3", null ],

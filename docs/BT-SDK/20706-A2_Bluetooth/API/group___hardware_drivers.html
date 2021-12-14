@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20706: Hardware Drivers</title>
+<title>AIROC&trade; CYW20706: Hardware Drivers</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,7 +96,8 @@ $(document).ready(function(){initNavTree('group___hardware_drivers.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#enumval-members">Enumerator</a>  </div>
   <div class="headertitle">
 <div class="title">Hardware Drivers</div>  </div>
 </div><!--header-->
@@ -104,6 +105,9 @@ $(document).ready(function(){initNavTree('group___hardware_drivers.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
+<tr class="memitem:group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html">AIROC Transport</a></td></tr>
+<tr class="memdesc:group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">This section describes the API's necessary to configure AIROC transport, send and receive data over the transport. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___aes_calculation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___aes_calculation.html">AesCalculation</a></td></tr>
 <tr class="memdesc:group___aes_calculation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the AES calculation with Hardware acceleration. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,7 +130,7 @@ Modules</h2></td></tr>
 <tr class="memdesc:group___i2_c_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an I2C driver to facilitate communication with other devices on an I2C bus (such as a temperature sensor, etc). <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__keyscan"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__keyscan.html">Keyscan Interface</a></td></tr>
-<tr class="memdesc:group__keyscan"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the WICED standard keyscan driver. <br /></td></tr>
+<tr class="memdesc:group__keyscan"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the AIROC standard keyscan driver. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___m_i_a_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_i_a_driver.html">Multiple Interface Adapter (MIA)</a></td></tr>
 <tr class="memdesc:group___m_i_a_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a Multiple Interface Adapter (MIA) driver to facilitate interfacing with various components of the hardware. <br /></td></tr>
@@ -154,9 +158,6 @@ Modules</h2></td></tr>
 <tr class="memitem:group__timer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html">Timer Management Services</a></td></tr>
 <tr class="memdesc:group__timer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the interfaces for Timer Management Services. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group___transport"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html">WICED Transport</a></td></tr>
-<tr class="memdesc:group___transport"><td class="mdescLeft">&#160;</td><td class="mdescRight">This section describes the API's necessary to configure WICED transport, send and receive data over the transport. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___watchdog_interface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html">Watchdog Interface</a></td></tr>
 <tr class="memdesc:group___watchdog_interface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the watchdog interface. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +168,7 @@ Modules</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

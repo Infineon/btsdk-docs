@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20735: Mesh Sensor Server</title>
+<title>AIROC&trade; CYW20735: Mesh Sensor Server</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__sensor__server
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor.  
+<p>The AIROC Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -132,6 +132,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae23dc22a4ea8e68cdaa5ca643c52169b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__server.html#gae23dc22a4ea8e68cdaa5ca643c52169b">wiced_bt_mesh_model_sensor_server_column_status_send</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, <a class="el" href="structwiced__bt__mesh__sensor__column__status__data__t.html">wiced_bt_mesh_sensor_column_status_data_t</a> *column_status_data)</td></tr>
 <tr class="memdesc:gae23dc22a4ea8e68cdaa5ca643c52169b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor Column Status send status.  <a href="#gae23dc22a4ea8e68cdaa5ca643c52169b">More...</a><br /></td></tr>
 <tr class="separator:gae23dc22a4ea8e68cdaa5ca643c52169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb08fbefebd1974a849dc9e928ce2bc2"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__server.html#gafb08fbefebd1974a849dc9e928ce2bc2">wiced_bt_mesh_model_format_sensor_server_data</a> (uint8_t element_idx, uint16_t property_id, uint8_t *p_buffer, uint16_t buffer_len)</td></tr>
+<tr class="memdesc:gafb08fbefebd1974a849dc9e928ce2bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format Sensor Data.  <a href="#gafb08fbefebd1974a849dc9e928ce2bc2">More...</a><br /></td></tr>
+<tr class="separator:gafb08fbefebd1974a849dc9e928ce2bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ddaea44b65372c7cabadf2a7637a502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__sensor__server.html#ga1ddaea44b65372c7cabadf2a7637a502">wiced_bt_mesh_model_sensor_server_data</a> (uint8_t element_idx, uint16_t property_id, void *p_ref_data)</td></tr>
 <tr class="memdesc:ga1ddaea44b65372c7cabadf2a7637a502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor Status send.  <a href="#ga1ddaea44b65372c7cabadf2a7637a502">More...</a><br /></td></tr>
 <tr class="separator:ga1ddaea44b65372c7cabadf2a7637a502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,10 +143,61 @@ Functions</h2></td></tr>
 <tr class="separator:ga5ea857d449567618ce7f299fc57ad227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor. </p>
+<p>The AIROC Mesh Sensor Server module provides a way for an application to implement a functionality for the devices that can be controlled using sensor. </p>
 <p>To include the Mesh Models support for the Sensor Server module the application shall contain the WICED_BT_MESH_MODEL_SENSOR_SERVER</p>
 <p>TBD </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gafb08fbefebd1974a849dc9e928ce2bc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_bt_mesh_model_format_sensor_server_data </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>element_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>property_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>buffer_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Format Sensor Data. </p>
+<p>An Application can call this function to format sensor data to be sent out. Function returns length of the data filled in the buffer. Property_id 0 means that we need to send data for all sensors of the element.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element_idx</td><td>Element Index where the sensor is located </td></tr>
+    <tr><td class="paramname">property_id</td><td>Property ID of the sensor for which sensor data shall be used. If Property ID is zero, the data will include all sensors of the element. </td></tr>
+    <tr><td class="paramname">p_buffer</td><td>Buffer to be filled with information </td></tr>
+    <tr><td class="paramname">buffer_len</td><td>size of the buffer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of bytess filled in the buffer. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gae23dc22a4ea8e68cdaa5ca643c52169b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +499,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20721: SPP Library API</title>
+<title>AIROC&trade; CYW20721: SPP Library API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__spp__api__functions.
 </div><!--header-->
 <div class="contents">
 
-<p>SPP library of the WICED SDK provide a simple method for an application to integrate SPP functionality.  
+<p>SPP library of the AIROC BTSDK provide a simple method for an application to integrate SPP functionality.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -127,9 +127,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga8571fb855fd7139dd611863041339980"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga8571fb855fd7139dd611863041339980">wiced_bt_spp_connection_down_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:ga8571fb855fd7139dd611863041339980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection Down callback indicates that an active session has been terminated.  <a href="#ga8571fb855fd7139dd611863041339980">More...</a><br /></td></tr>
 <tr class="separator:ga8571fb855fd7139dd611863041339980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga991d89c51fd6d6e5ac2dd40f2441ba53">wiced_bt_spp_tx_complete_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> result)</td></tr>
-<tr class="memdesc:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission Complete callback indicates that application can send more data.  <a href="#ga991d89c51fd6d6e5ac2dd40f2441ba53">More...</a><br /></td></tr>
-<tr class="separator:ga991d89c51fd6d6e5ac2dd40f2441ba53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga842fc79d956a41f5cbdaada0f1753690"><td class="memItemLeft" align="right" valign="top">typedef wiced_bool_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga842fc79d956a41f5cbdaada0f1753690">wiced_bt_spp_rx_data_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
 <tr class="memdesc:ga842fc79d956a41f5cbdaada0f1753690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rx Data callback passed to the application data received over the SPP session.  <a href="#ga842fc79d956a41f5cbdaada0f1753690">More...</a><br /></td></tr>
 <tr class="separator:ga842fc79d956a41f5cbdaada0f1753690"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +162,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga576dc790256226c7979bd9095228ab2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>SPP library of the WICED SDK provide a simple method for an application to integrate SPP functionality. </p>
+<p>SPP library of the AIROC BTSDK provide a simple method for an application to integrate SPP functionality. </p>
 <p>Application just needs to call API to connect/disconnect and send data. Library in turn indicates status of the connection and passes to the application received data. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="ga8571fb855fd7139dd611863041339980"></a>
@@ -261,28 +258,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Service not found callback indicates wiced_bt_spp_connect call requested to establish connection to a device which is currently not present, or which is not running SPP service. </p>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga991d89c51fd6d6e5ac2dd40f2441ba53"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* wiced_bt_spp_tx_complete_callback_t)(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> result)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Transmission Complete callback indicates that application can send more data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: Handle that identifies the external accessory session </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>: Result of tx operaion. 0 if success. </td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 
 </div>
@@ -549,7 +524,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>

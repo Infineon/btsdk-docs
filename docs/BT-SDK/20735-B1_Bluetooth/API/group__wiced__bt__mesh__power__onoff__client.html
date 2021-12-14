@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>WICED CYW20735: Mesh Power OnOff Client</title>
+<title>AIROC&trade; CYW20735: Mesh Power OnOff Client</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
       <tr style="height:20px"><td>&nbsp;</td></tr>
       <tr style="border-collapse: collapse; padding: 0;">
         <td style="width:20px"></td>
-        <td style="width:117px"><img src="IFXCYP_one-line.png" alt="Cypress + Infineon Logo" /></td>
+        <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        WICED<sup><font size="-1">&reg;</font></sup> BT SDK v3.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__power__onoff__
 </div><!--header-->
 <div class="contents">
 
-<p>The WICED Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices.  
+<p>The AIROC Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga30456c1896ae6fc5d8259e70a6218b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The WICED Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices. </p>
+<p>The AIROC Mesh Power On/Off Client module of the Mesh Models library provides a way for an application to manage the On Power Up behavior of other mesh devices. </p>
 <p>It is typicallly used by the applications running on devices which performs mesh network configuration.</p>
 <p>To include Power On/Off functionality, the device description shall contain WICED_BT_MESH_MODEL_POWER_ONOFF_CLIENT. The application shall also initialize the Power On/Off Client calling the <a class="el" href="group__wiced__bt__mesh__power__onoff__client.html#ga4d60833328cbf560c43ba130f56f69c7">wiced_bt_mesh_model_power_onoff_client_init</a> registering a callback to receive Power OnOff status messages</p>
 <p>To find out the current On Power Up state set on a particular device and to modify the behavior the application shall use <a class="el" href="group__wiced__bt__mesh__power__onoff__client.html#ga0e675596ea9b81df95f2bf81c886a168">wiced_bt_mesh_model_power_onoff_client_send_onpowerup_get</a>. and <a class="el" href="group__wiced__bt__mesh__power__onoff__client.html#ga30456c1896ae6fc5d8259e70a6218b4c">wiced_bt_mesh_model_power_onoff_client_send_onpowerup_set</a> methods respectively. These functions require to use the p_event parameter which include among others the address of the desgination device, the application key index, the retrnansmission parameters, the TTL, and various others. </p>
@@ -311,7 +311,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Copyright Cypress Semiconductor.</li>
+    <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
 </body>
