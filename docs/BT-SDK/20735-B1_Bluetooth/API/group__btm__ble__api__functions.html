@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -495,16 +495,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_ble_observe. </p>
-<p>This function makes the device start or stop operating in the observer role. The observer role device receives advertising events from a broadcast device.</p>
+<p>This API allows the device to register a callback to receive both connectable and non-connectable ADV packets. It is fundamentally the same as the API <a class="el" href="group__btm__ble__api__functions.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a>, except that the scan results are filtered to allow non-connectable packets. Furthermore, the scan parameters used by the observe API are the 'low_duty' parameters set in <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a>, which is passed to <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>.</p>
+<p>Refer to <a class="el" href="group__btm__ble__api__functions.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a> for an example of the callback to be used.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>: TRUE to start the observer role </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">duration</td><td>: the duration for the observer role </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_scan_result_cback</td><td>: scan result callback</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start</td><td>WICED_TRUE==start, WICED_FALSE==stop </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">duration</td><td>num_seconds to scan </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_scan_result_cback</td><td>callback to receive packets asynchronously</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>status of the operation</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>WICED_SUCCESS</li>
+<li>WICED_ERROR</li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This API should not be used at the same time as <a class="el" href="group__btm__ble__api__functions.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a>.</dd></dl>
 <p>Note : It will use Low Duty Scan configuration </p>
 
 </div>
@@ -568,22 +574,61 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_bt_ble_scan. </p>
-<p>Start LE scanning</p>
-<p>The <b>scan_type</b> parameter determines what scanning parameters and durations to use (as specified by the application configuration).</p>
-<p>Scan results are notified using <b>p_scan_result_cback</b></p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This API allows the device to register a callback to receive <em>connectable</em> ADV packets from peripheral devices. It is fundamentally the same as the API <a class="el" href="group__btm__ble__api__functions.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a>, except that the scan results are filtered to only allow connectable packets. The scan interval, window, duration, and type (active or passive), are initialized in <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a> upon calling the stack initialization API (<a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>). The packets received in the callback can be limited to a small, known set of devices using <a class="el" href="group__btm__ble__api__functions.html#ga524efdcf8f398f3bdfe71081d3882d06">wiced_bt_ble_update_scanner_filter_policy</a>.</p>
+<p>Below is an example of how to start receiving scan results in a callback and print the name of the advertised device if found in the received packet:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> scan_cback( <a class="code" href="structwiced__bt__ble__scan__results__t.html">wiced_bt_ble_scan_results_t</a> *scan_res, uint8_t *adv_data )</div>
+<div class="line">{</div>
+<div class="line">    uint8_t length;</div>
+<div class="line">    uint8_t *p_data;</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">if</span> ( p_scan_result )</div>
+<div class="line">    {</div>
+<div class="line">        p_data = <a class="code" href="group__btm__ble__api__functions.html#ga8d62204cf6ab289f977215c08d5864ca">wiced_bt_ble_check_advertising_data</a>( p_adv_data,</div>
+<div class="line">            <a class="code" href="wiced__bt__ble_8h.html#a4e721fb996eccc386b0311f022675eb2a9fe2bdd4de77389d7202a38ca3f941ba">BTM_BLE_ADVERT_TYPE_NAME_COMPLETE</a>, &amp;length );</div>
+<div class="line"></div>
+<div class="line">        <span class="keywordflow">if</span>(length)</div>
+<div class="line">        {</div>
+<div class="line">            <a class="code" href="group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780">WICED_BT_TRACE</a>(<span class="stringliteral">&quot;%B %s RSSI: %i\r\n&quot;</span>,</div>
+<div class="line">                p_scan_result-&gt;remote_bd_addr, (<span class="keywordtype">char</span> *)p_data,</div>
+<div class="line">                p_scan_result-&gt;rssi );</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">        {</div>
+<div class="line">            <a class="code" href="group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780">WICED_BT_TRACE</a>(<span class="stringliteral">&quot;%B UNK RSSI: %i\r\n&quot;</span>,</div>
+<div class="line">                p_scan_result-&gt;remote_bd_addr, p_scan_result-&gt;rssi );</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">else</span></div>
+<div class="line">    {</div>
+<div class="line">        <a class="code" href="group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780">WICED_BT_TRACE</a>( <span class="stringliteral">&quot;Scan completed\r\n&quot;</span> );</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="group__btm__ble__api__functions.html#gac2aa0e611a70b09bfc6c4c48b99abb95">wiced_bt_ble_scan</a>( <a class="code" href="wiced__bt__dev_8h.html#a5962ac95c03367e51789815eadcb25a6a3a7388c7182a40c8e867941e2cf2a816">BTM_BLE_SCAN_TYPE_HIGH_DUTY</a>, WICED_TRUE, scan_cback);</div>
+<div class="line">}</div>
+</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">scan_type</td><td>: BTM_BLE_SCAN_TYPE_NONE, BTM_BLE_SCAN_TYPE_HIGH_DUTY, BTM_BLE_SCAN_TYPE_LOW_DUTY </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">duplicate_filter_enable</td><td>: TRUE or FALSE to enable or disable duplicate filtering</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_scan_result_cback</td><td>: scan result callback</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scan_type</td><td><ul>
+<li>BTM_BLE_SCAN_TYPE_NONE: disable scan</li>
+<li>BTM_BLE_SCAN_TYPE_HIGH_DUTY: use scan params prefixed high_duty_conn_scan_*</li>
+<li>BTM_BLE_SCAN_TYPE_LOW_DUTY: use scan params prefixed low_duty_conn_scan_* </li>
+</ul>
+</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">duplicate_filter_enable</td><td>WICED_TRUE==enable, WICED_FALSE==disable </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_scan_result_cback</td><td>callback to receive packets asynchronously</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t <pre class="fragment">             WICED_BT_PENDING if successfully initiated
-             WICED_BT_BUSY if already in progress
-             WICED_BT_ILLEGAL_VALUE if parameter(s) are out of range
-             WICED_BT_NO_RESOURCES if could not allocate resources to start the command
-             WICED_BT_WRONG_MODE if the device is not up.</pre> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>WICED_BT_PENDING if successfully initiated</li>
+<li>WICED_BT_BUSY if already in progress</li>
+<li>WICED_BT_ILLEGAL_VALUE if parameter(s) are out of range</li>
+<li>WICED_BT_NO_RESOURCES if could not allocate resources to start the command</li>
+<li>WICED_BT_WRONG_MODE if the device is not up.</li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This API should not be used at the same time as <a class="el" href="group__btm__ble__api__functions.html#gaead34268d19ff7ea316c687d15714ee9">wiced_bt_ble_observe</a>. </dd></dl>
 
 </div>
 </div>

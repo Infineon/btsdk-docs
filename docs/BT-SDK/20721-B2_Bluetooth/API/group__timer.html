@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -116,9 +116,9 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga973c1b88d368ae36e35448c31eab3421"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga973c1b88d368ae36e35448c31eab3421"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_TIMER_PARAM_TYPE</b>&#160;&#160;&#160;uint32_t</td></tr>
-<tr class="separator:ga973c1b88d368ae36e35448c31eab3421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61d99d7e3142db9edaa68b0c39289841"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga61d99d7e3142db9edaa68b0c39289841"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_PARAM_TYPE</b>&#160;&#160;&#160;uint32_t</td></tr>
+<tr class="separator:ga61d99d7e3142db9edaa68b0c39289841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4034276fcf79e2c7fe1a39d366863fe6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4034276fcf79e2c7fe1a39d366863fe6"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_timer_callback_fp</b>&#160;&#160;&#160;wiced_timer_callback_t</td></tr>
 <tr class="separator:ga4034276fcf79e2c7fe1a39d366863fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,9 +135,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga5dcfd59e1092bbfc8d32b2e4e1804f6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5dcfd59e1092bbfc8d32b2e4e1804f6d"></a>
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_timer_type_t</b></td></tr>
 <tr class="separator:ga5dcfd59e1092bbfc8d32b2e4e1804f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6831181c4f73bf6551ce248388ac64e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6831181c4f73bf6551ce248388ac64e0"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_timer_callback_t</b> )(WICED_TIMER_PARAM_TYPE cb_params)</td></tr>
-<tr class="separator:ga6831181c4f73bf6551ce248388ac64e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7db3cf0e19267e077a877c64d0b54402"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7db3cf0e19267e077a877c64d0b54402"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_timer_callback_t</b> )(TIMER_PARAM_TYPE cb_params)</td></tr>
+<tr class="separator:ga7db3cf0e19267e077a877c64d0b54402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -150,9 +150,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0234ff1e63930fd55702243703f7e27f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga0234ff1e63930fd55702243703f7e27f">wiced_init_timer</a> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, wiced_timer_callback_t TimerCb, WICED_TIMER_PARAM_TYPE cBackparam, wiced_timer_type_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
-<tr class="memdesc:ga0234ff1e63930fd55702243703f7e27f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the timer.  <a href="#ga0234ff1e63930fd55702243703f7e27f">More...</a><br /></td></tr>
-<tr class="separator:ga0234ff1e63930fd55702243703f7e27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90bdb51ebab16741ac176121f340bf5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga90bdb51ebab16741ac176121f340bf5a">wiced_init_timer</a> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, wiced_timer_callback_t TimerCb, TIMER_PARAM_TYPE cBackparam, wiced_timer_type_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)</td></tr>
+<tr class="memdesc:ga90bdb51ebab16741ac176121f340bf5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the timer.  <a href="#ga90bdb51ebab16741ac176121f340bf5a">More...</a><br /></td></tr>
+<tr class="separator:ga90bdb51ebab16741ac176121f340bf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88f3fefc1d119b55f4b011b80448565a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga88f3fefc1d119b55f4b011b80448565a">wiced_start_timer</a> (<a class="el" href="structwiced__timer__t.html">wiced_timer_t</a> *p_timer, uint32_t timeout)</td></tr>
 <tr class="memdesc:ga88f3fefc1d119b55f4b011b80448565a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the timer Timer should be initialized before starting the timer.  <a href="#ga88f3fefc1d119b55f4b011b80448565a">More...</a><br /></td></tr>
 <tr class="separator:ga88f3fefc1d119b55f4b011b80448565a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga0234ff1e63930fd55702243703f7e27f"></a>
+<a class="anchor" id="ga90bdb51ebab16741ac176121f340bf5a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -213,7 +213,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">WICED_TIMER_PARAM_TYPE&#160;</td>
+          <td class="paramtype">TIMER_PARAM_TYPE&#160;</td>
           <td class="paramname"><em>cBackparam</em>, </td>
         </tr>
         <tr>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -210,15 +210,54 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html#abf28f80e90bef143796d9dfcf34dd239">C_ASSERT</a>(e)&#160;&#160;&#160;typedef char __C_ASSERT__[(e)?1:-1]</td></tr>
 <tr class="memdesc:abf28f80e90bef143796d9dfcf34dd239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to catch asserts during compilation time. <br /></td></tr>
 <tr class="separator:abf28f80e90bef143796d9dfcf34dd239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c34e0ff61cb7f1a563cdd0633fa3cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02c34e0ff61cb7f1a563cdd0633fa3cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BYTE_PACKED</b></td></tr>
+<tr class="separator:a02c34e0ff61cb7f1a563cdd0633fa3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d525cf4d116b2fe4ecc00222b256f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36d525cf4d116b2fe4ecc00222b256f1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PACKED</b></td></tr>
+<tr class="separator:a36d525cf4d116b2fe4ecc00222b256f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f07eff30140e9e7885a39dc1551f47e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f07eff30140e9e7885a39dc1551f47e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BT_PRE_PACKED_STRUCT</b></td></tr>
+<tr class="separator:a4f07eff30140e9e7885a39dc1551f47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f863982a52cee6f1fbf49b5de2ce68d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f863982a52cee6f1fbf49b5de2ce68d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>BT_POST_PACKED_STRUCT</b>&#160;&#160;&#160;__attribute__((__packed__))</td></tr>
+<tr class="separator:a0f863982a52cee6f1fbf49b5de2ce68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a280a402ab28c399fcc4168f2ed631acb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a280a402ab28c399fcc4168f2ed631acb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ALIGN4</b>&#160;&#160;&#160;__attribute__((aligned(4)))</td></tr>
+<tr class="separator:a280a402ab28c399fcc4168f2ed631acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c1f1f1d6306b3d2e6dd7dde7609e8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8c1f1f1d6306b3d2e6dd7dde7609e8f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html#ae8c1f1f1d6306b3d2e6dd7dde7609e8f">PLACE_IN_ALWAYS_ON_RAM</a></td></tr>
+<tr class="memdesc:ae8c1f1f1d6306b3d2e6dd7dde7609e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If always on memory is not supported, we don't need this at all, place anywhere. <br /></td></tr>
+<tr class="separator:ae8c1f1f1d6306b3d2e6dd7dde7609e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a3204aa572b870d0b7256a9a6ab21b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57a3204aa572b870d0b7256a9a6ab21b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_IN_ALWAYS_ON_UNINIT_RAM</b></td></tr>
+<tr class="separator:a57a3204aa572b870d0b7256a9a6ab21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51f23da110dfb069c3dd3c78e806885"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af51f23da110dfb069c3dd3c78e806885"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_IN_LIMITED_RAM</b></td></tr>
+<tr class="separator:af51f23da110dfb069c3dd3c78e806885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4140a69373edc68b2f1b1d521a358144"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4140a69373edc68b2f1b1d521a358144"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_IN_EPDS_AON_RAM</b></td></tr>
+<tr class="separator:a4140a69373edc68b2f1b1d521a358144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1c473059493873995d04c1d55d0040"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a1c473059493873995d04c1d55d0040"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_IN_EPDS_AON_UNINIT_RAM</b></td></tr>
+<tr class="separator:a9a1c473059493873995d04c1d55d0040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef21e02d97970811f868e21d7fc8409"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ef21e02d97970811f868e21d7fc8409"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_IN_MICRO_BCS_SRAM_VAR_AREA</b></td></tr>
+<tr class="separator:a5ef21e02d97970811f868e21d7fc8409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5181eb756a197a06d1c4ed1f40a065bc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>__weak</b>&#160;&#160;&#160;__attribute__((weak))</td></tr>
+<tr class="separator:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f31943a2123f2f528f4320195b90e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8f31943a2123f2f528f4320195b90e7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PLACE_TEXT_IN_RAM</b>&#160;&#160;&#160;__attribute__((section(&quot;.text_in_ram&quot;)))</td></tr>
+<tr class="separator:ac8f31943a2123f2f528f4320195b90e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb452686968e48b67397da5f97445f5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;&#160;&#160;DO NOT USE bool</td></tr>
-<tr class="memdesc:abb452686968e48b67397da5f97445f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ARM RVDS-specific struct qualifier for structs inside a pragma pack(1) / pragma pack() block.  <a href="#abb452686968e48b67397da5f97445f5b">More...</a><br /></td></tr>
+<tr class="memdesc:abb452686968e48b67397da5f97445f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">bool should not be used, so it is defined so as to generate a compilation error.  <a href="#abb452686968e48b67397da5f97445f5b">More...</a><br /></td></tr>
 <tr class="separator:abb452686968e48b67397da5f97445f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad92c940e7f2ef0d078d9326e942518e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html#ad92c940e7f2ef0d078d9326e942518e5">assert</a>&#160;&#160;&#160;DO NOT USE assert</td></tr>
 <tr class="memdesc:ad92c940e7f2ef0d078d9326e942518e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">BOOL should not be used, so it is defined so as to generate a compilation error.  <a href="#ad92c940e7f2ef0d078d9326e942518e5">More...</a><br /></td></tr>
 <tr class="separator:ad92c940e7f2ef0d078d9326e942518e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb6f9e0395b47b8d5e3eeae4fe0c116"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2eb6f9e0395b47b8d5e3eeae4fe0c116"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="brcm__fw__types_8h.html#a2eb6f9e0395b47b8d5e3eeae4fe0c116">INLINE</a>&#160;&#160;&#160;inline</td></tr>
-<tr class="memdesc:a2eb6f9e0395b47b8d5e3eeae4fe0c116"><td class="mdescLeft">&#160;</td><td class="mdescRight">__inline isn't even ANSI C - don't use it. <br /></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>INLINE</b>&#160;&#160;&#160;inline</td></tr>
 <tr class="separator:a2eb6f9e0395b47b8d5e3eeae4fe0c116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -353,8 +392,8 @@ typedef unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a clas
       </table>
 </div><div class="memdoc">
 
-<p>ARM RVDS-specific struct qualifier for structs inside a pragma pack(1) / pragma pack() block. </p>
-<p>It must be applied to ALL structs or unions in such a block of declarations as follows: BYTE_PACKED struct or BYTE_PACKED union. bool should not be used, so it is defined so as to generate a compilation error. This is in order to enforce the practice of using BOOL32 for efficiency in function arguments or return values, and BOOL8 for size efficiency in structures. The same is true of BOOL and BOOLEAN, which are ambiguous in the size vs. efficiency tradeoff and should not be used. </p>
+<p>bool should not be used, so it is defined so as to generate a compilation error. </p>
+<p>This is in order to enforce the practice of using BOOL32 for efficiency in function arguments or return values, and BOOL8 for size efficiency in structures. The same is true of BOOL and BOOLEAN, which are ambiguous in the size vs. efficiency tradeoff and should not be used. </p>
 
 </div>
 </div>

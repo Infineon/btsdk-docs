@@ -4,6 +4,7 @@ var group__wicedbt =
     [ "ANS Library API", "group__wiced__bt__ans__api__functions.html", "group__wiced__bt__ans__api__functions" ],
     [ "Audio Codec Interface", "group__interfaces.html", "group__interfaces" ],
     [ "BAC Library API", "group__wiced__bt__battery__client__api__functions.html", "group__wiced__bt__battery__client__api__functions" ],
+    [ "BAS Library API", "group__wiced__bt__bas__api__functions.html", null ],
     [ "Device Management", "group__wicedbt___device_management.html", "group__wicedbt___device_management" ],
     [ "Framework", "group__wicedbt___framework.html", "group__wicedbt___framework" ],
     [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],

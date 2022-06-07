@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -125,11 +125,14 @@ return status. They are not modifiable.
 {
     ACLK0,
     ACLK1,
+        WICED_ACLK0 = ACLK0,
+        WICED_ACLK1 = ACLK1
 };
 </pre><p>Available base clock frequencies. </p><pre class="fragment">enum CLK_SRC_FREQ_SEL
 {
     ACLK_FREQ_1_MHZ,
     ACLK_FREQ_24_MHZ
+        WICED_ACLK_FREQ_24_MHZ = ACLK_FREQ_24_MHZ
 };
 </pre> <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga45026b2651ad3866d0f8cdea2505fbcd"></a>

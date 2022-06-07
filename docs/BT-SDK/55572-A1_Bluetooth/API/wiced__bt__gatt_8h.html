@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -100,8 +100,7 @@ $(document).ready(function(){initNavTree('wiced__bt__gatt_8h.html','');});
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_bt_gatt.h File Reference</div>  </div>
 </div><!--header-->
@@ -196,6 +195,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__gap__ble__attr__value__t.html">wiced_bt_gatt_gap_ble_attr_value_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT attribute value included in central role DB.  <a href="unionwiced__bt__gatt__gap__ble__attr__value__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__gattdb__entry__s.html">wiced_gattdb_entry_s</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used by wiced_bt_gattdb APIS, to parse GATTDB.  <a href="structwiced__gattdb__entry__s.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__eatt__connection__indication__event__t.html">wiced_bt_gatt_eatt_connection_indication_event_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT connection request (used by GATT_EATT_CONNECTION_INDICATION_EVT notification) To be returned by application for accepting/rejecting the connection with the wiced_bt_eatt_connection_response.  <a href="structwiced__bt__gatt__eatt__connection__indication__event__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +225,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga3d73409cb072fcca477913ec1ec1264f">GATT_CLIENT_MAX_WRITE_SIGNED_DATA</a>&#160;&#160;&#160;(23 - 3 - <a class="el" href="group__wicedbt__gatt.html#gab44422f655258e6c80db5367ddae43e1">GATT_AUTH_SIGN_LEN</a>)</td></tr>
 <tr class="memdesc:ga3d73409cb072fcca477913ec1ec1264f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max size of application data allowed to be sent using the signed write cmd. <br /></td></tr>
 <tr class="separator:ga3d73409cb072fcca477913ec1ec1264f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0df29dc043152878ce2731e3d0b1b55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad0df29dc043152878ce2731e3d0b1b55"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#gad0df29dc043152878ce2731e3d0b1b55">WICED_GATT_HDR_SIZE</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:gad0df29dc043152878ce2731e3d0b1b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT Header size (1 byte opcode + 2 byte handle) <br /></td></tr>
+<tr class="separator:gad0df29dc043152878ce2731e3d0b1b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7c3b55ab73b0afabaf5225cb2e8f618a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7c3b55ab73b0afabaf5225cb2e8f618a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga7c3b55ab73b0afabaf5225cb2e8f618a">WICED_BT_GATT_ENCRYPED_MITM</a>&#160;&#160;&#160;<a class="el" href="group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652a093cacbaf28cf52537659a1284383370">WICED_BT_GATT_ENCRYPTED_MITM</a></td></tr>
 <tr class="memdesc:ga7c3b55ab73b0afabaf5225cb2e8f618a"><td class="mdescLeft">&#160;</td><td class="mdescRight">For backward compatiability with previous releases. <br /></td></tr>
@@ -547,9 +553,10 @@ typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memitem:ga826a5f3ef4bd8587ee6af52ed9b4a4f2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> (<a class="el" href="group__wicedbt__gatt.html#ga1a4943c0f32914d5d939b05e84c99631">wiced_bt_gatt_evt_t</a> event, <a class="el" href="unionwiced__bt__gatt__event__data__t.html">wiced_bt_gatt_event_data_t</a> *p_event_data)</td></tr>
 <tr class="memdesc:ga826a5f3ef4bd8587ee6af52ed9b4a4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT event notification callback.  <a href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">More...</a><br /></td></tr>
 <tr class="separator:ga826a5f3ef4bd8587ee6af52ed9b4a4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga55d41d1a59aedb67755dd38e9ed399bd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__gentypes.html#ga97c8bde23bbca19bb57f78d2eb6ab36c">WICED_BT_STRUCT_PACKED</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga55d41d1a59aedb67755dd38e9ed399bd">wiced_gattdb_entry_s</a></td></tr>
-<tr class="memdesc:ga55d41d1a59aedb67755dd38e9ed399bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used by wiced_bt_gattdb APIS, to parse GATTDB.  <a href="group__wicedbt__gatt.html#ga55d41d1a59aedb67755dd38e9ed399bd">More...</a><br /></td></tr>
-<tr class="separator:ga55d41d1a59aedb67755dd38e9ed399bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0dd0d33e5c2ab9f69e01a0e7e517c3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad0dd0d33e5c2ab9f69e01a0e7e517c3f"></a>
+typedef struct <a class="el" href="structwiced__gattdb__entry__s.html">wiced_gattdb_entry_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a></td></tr>
+<tr class="memdesc:gad0dd0d33e5c2ab9f69e01a0e7e517c3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used by wiced_bt_gattdb APIS, to parse GATTDB. <br /></td></tr>
+<tr class="separator:gad0dd0d33e5c2ab9f69e01a0e7e517c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga32a1818a21a0b36843697b3abc620ecd"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga32a1818a21a0b36843697b3abc620ecd">wiced_bt_gatt_eatt_on_connect_ind_t</a> )(<a class="el" href="structwiced__bt__gatt__eatt__connection__indication__event__t.html">wiced_bt_gatt_eatt_connection_indication_event_t</a> *p_ind)</td></tr>
 <tr class="memdesc:ga32a1818a21a0b36843697b3abc620ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function callbacks for EATT.  <a href="group__wicedbt__gatt.html#ga32a1818a21a0b36843697b3abc620ecd">More...</a><br /></td></tr>
 <tr class="separator:ga32a1818a21a0b36843697b3abc620ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -851,19 +858,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9a964df2795b7d430c826d7345478fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#ae9a964df2795b7d430c826d7345478fa">wiced_bt_gatt_server_send_mtu_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t remote_mtu, uint16_t my_mtu)</td></tr>
 <tr class="memdesc:ae9a964df2795b7d430c826d7345478fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to a MTU request from the client.  <a href="#ae9a964df2795b7d430c826d7345478fa">More...</a><br /></td></tr>
 <tr class="separator:ae9a964df2795b7d430c826d7345478fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95d4748c14a0e18e52bb6ba4a54c7907"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a95d4748c14a0e18e52bb6ba4a54c7907">wiced_bt_gatt_server_send_read_handle_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p_attr, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
+<tr class="memitem:a95d4748c14a0e18e52bb6ba4a54c7907"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a95d4748c14a0e18e52bb6ba4a54c7907">wiced_bt_gatt_server_send_read_handle_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t len, uint8_t *p_attr, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
 <tr class="memdesc:a95d4748c14a0e18e52bb6ba4a54c7907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to a read request from the client This API can be used to respond to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68ba9370cd9ede463ad254d241672384612c">GATT_REQ_READ</a> and <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bacaca90cb2a26ad52fb70acc38ca54879">GATT_REQ_READ_BLOB</a> request.  <a href="#a95d4748c14a0e18e52bb6ba4a54c7907">More...</a><br /></td></tr>
 <tr class="separator:a95d4748c14a0e18e52bb6ba4a54c7907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3813cc83307001566b204c17aba76c2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a3813cc83307001566b204c17aba76c2c">wiced_bt_gatt_server_send_read_by_type_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint8_t type_len, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t *p_data, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
 <tr class="memdesc:a3813cc83307001566b204c17aba76c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to a read by type request from the client This API can be used to respond to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68ba96435c77138f86fd1e9f6aae9e3bd618">GATT_REQ_READ_BY_TYPE</a> The application receivess a callback on the registered <a class="el" href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> with the <a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a2da2f92c6959754be7e5615bc6d9a878">wiced_bt_gatt_attribute_request_t::opcode</a> set to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68ba96435c77138f86fd1e9f6aae9e3bd618">GATT_REQ_READ_BY_TYPE</a>.  <a href="#a3813cc83307001566b204c17aba76c2c">More...</a><br /></td></tr>
 <tr class="separator:a3813cc83307001566b204c17aba76c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78979a4307e0e7ee77ffbe2b2df202a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a78979a4307e0e7ee77ffbe2b2df202a5">wiced_bt_gatt_server_send_read_multiple_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p_app_rsp_buffer, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
+<tr class="memitem:a78979a4307e0e7ee77ffbe2b2df202a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a78979a4307e0e7ee77ffbe2b2df202a5">wiced_bt_gatt_server_send_read_multiple_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t len, uint8_t *p_app_rsp_buffer, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
 <tr class="memdesc:a78979a4307e0e7ee77ffbe2b2df202a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to read multiple request from the client This API can be used to respond to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bada432729197e6189c196a01d65597293">GATT_REQ_READ_MULTI</a> or <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baeafa2b04ebdf14895feec3338b37252b">GATT_REQ_READ_MULTI_VAR_LENGTH</a> The application receivess a callback on the registered <a class="el" href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> with the <a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a2da2f92c6959754be7e5615bc6d9a878">wiced_bt_gatt_attribute_request_t::opcode</a> set to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bada432729197e6189c196a01d65597293">GATT_REQ_READ_MULTI</a> or <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baeafa2b04ebdf14895feec3338b37252b">GATT_REQ_READ_MULTI_VAR_LENGTH</a>.  <a href="#a78979a4307e0e7ee77ffbe2b2df202a5">More...</a><br /></td></tr>
 <tr class="separator:a78979a4307e0e7ee77ffbe2b2df202a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02b4ab03e142ceb7072eefdccff40210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a02b4ab03e142ceb7072eefdccff40210">wiced_bt_gatt_server_send_write_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t handle)</td></tr>
 <tr class="memdesc:a02b4ab03e142ceb7072eefdccff40210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to a write request from the client This API can be used to respond to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baeaf87c53ee0b114a68df4c4e2d7705e8">GATT_REQ_WRITE</a> The application receives a callback on the registered <a class="el" href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> with the <a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a2da2f92c6959754be7e5615bc6d9a878">wiced_bt_gatt_attribute_request_t::opcode</a> set to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baeaf87c53ee0b114a68df4c4e2d7705e8">GATT_REQ_WRITE</a> or <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bae9076bb7b96ed9e0541b756436068f32">GATT_CMD_WRITE</a> or <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baba3cfce19e8ccaf9445f5e3e757f24cd">GATT_CMD_SIGNED_WRITE</a> The command parameters are in <a class="el" href="structwiced__bt__gatt__write__req__t.html">wiced_bt_gatt_write_req_t</a>.  <a href="#a02b4ab03e142ceb7072eefdccff40210">More...</a><br /></td></tr>
 <tr class="separator:a02b4ab03e142ceb7072eefdccff40210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac56f597fd98cc01035bde3d76d47f306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#ac56f597fd98cc01035bde3d76d47f306">wiced_bt_gatt_server_send_prepare_write_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t handle, uint16_t offset, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p_app_rsp_buffer, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
+<tr class="memitem:ac56f597fd98cc01035bde3d76d47f306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#ac56f597fd98cc01035bde3d76d47f306">wiced_bt_gatt_server_send_prepare_write_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, uint16_t handle, uint16_t offset, uint16_t len, uint8_t *p_app_rsp_buffer, <a class="el" href="group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c">wiced_bt_gatt_app_context_t</a> p_app_ctxt)</td></tr>
 <tr class="memdesc:ac56f597fd98cc01035bde3d76d47f306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Server API to respond to a prepare write request from the client This API can be used to respond to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baf95ac38b63a8c986f291ac2bda6a2399">GATT_REQ_PREPARE_WRITE</a> The application receives a callback on the registered <a class="el" href="group__wicedbt__gatt.html#ga826a5f3ef4bd8587ee6af52ed9b4a4f2">wiced_bt_gatt_cback_t</a> with the <a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a2da2f92c6959754be7e5615bc6d9a878">wiced_bt_gatt_attribute_request_t::opcode</a> set to <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baf95ac38b63a8c986f291ac2bda6a2399">GATT_REQ_PREPARE_WRITE</a> The application is expected to queue up the writes till it receives a <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68ba5eb1dc7717102415663e5b5c4e4d6857">GATT_REQ_EXECUTE_WRITE</a> The command parameters are in <a class="el" href="structwiced__bt__gatt__write__req__t.html">wiced_bt_gatt_write_req_t</a>.  <a href="#ac56f597fd98cc01035bde3d76d47f306">More...</a><br /></td></tr>
 <tr class="separator:ac56f597fd98cc01035bde3d76d47f306"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acff2e68ac9bf052b71f66a3cab8da50a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#acff2e68ac9bf052b71f66a3cab8da50a">wiced_bt_gatt_server_send_execute_write_rsp</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode)</td></tr>
@@ -893,10 +900,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ed05bb952c196c118f3c3d5305f215e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga9ed05bb952c196c118f3c3d5305f215e">wiced_bt_gatt_client_send_discover</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga9ce8b7b2a10d8e1f851d62aa931b0e18">wiced_bt_gatt_discovery_type_t</a> discovery_type, <a class="el" href="structwiced__bt__gatt__discovery__param__t.html">wiced_bt_gatt_discovery_param_t</a> *p_discovery_param)</td></tr>
 <tr class="memdesc:ga9ed05bb952c196c118f3c3d5305f215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start an attribute discovery on an ATT server.  <a href="group__gatt__client__api__functions.html#ga9ed05bb952c196c118f3c3d5305f215e">More...</a><br /></td></tr>
 <tr class="separator:ga9ed05bb952c196c118f3c3d5305f215e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga22d6a277ecfcc3f3193e248e5a9c89c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga22d6a277ecfcc3f3193e248e5a9c89c3">wiced_bt_gatt_client_send_read_handle</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t handle, uint16_t offset, uint8_t *p_read_buf, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>, <a class="el" href="group__wicedbt__gatt.html#ga44fcc1fe578d11d29279b92a7fcc936d">wiced_bt_gatt_auth_req_t</a> auth_req)</td></tr>
+<tr class="memitem:ga22d6a277ecfcc3f3193e248e5a9c89c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga22d6a277ecfcc3f3193e248e5a9c89c3">wiced_bt_gatt_client_send_read_handle</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t handle, uint16_t offset, uint8_t *p_read_buf, uint16_t len, <a class="el" href="group__wicedbt__gatt.html#ga44fcc1fe578d11d29279b92a7fcc936d">wiced_bt_gatt_auth_req_t</a> auth_req)</td></tr>
 <tr class="memdesc:ga22d6a277ecfcc3f3193e248e5a9c89c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read from remote ATT server.  <a href="group__gatt__client__api__functions.html#ga22d6a277ecfcc3f3193e248e5a9c89c3">More...</a><br /></td></tr>
 <tr class="separator:ga22d6a277ecfcc3f3193e248e5a9c89c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaab8c3fff985e0a6beb83cd368b63e548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#gaab8c3fff985e0a6beb83cd368b63e548">wiced_bt_gatt_client_send_read_by_type</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t s_handle, uint16_t e_handle, <a class="el" href="structwiced__bt__uuid__t.html">wiced_bt_uuid_t</a> *p_uuid, uint8_t *p_read_buf, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>, <a class="el" href="group__wicedbt__gatt.html#ga44fcc1fe578d11d29279b92a7fcc936d">wiced_bt_gatt_auth_req_t</a> auth_req)</td></tr>
+<tr class="memitem:gaab8c3fff985e0a6beb83cd368b63e548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#gaab8c3fff985e0a6beb83cd368b63e548">wiced_bt_gatt_client_send_read_by_type</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t s_handle, uint16_t e_handle, <a class="el" href="structwiced__bt__uuid__t.html">wiced_bt_uuid_t</a> *p_uuid, uint8_t *p_read_buf, uint16_t len, <a class="el" href="group__wicedbt__gatt.html#ga44fcc1fe578d11d29279b92a7fcc936d">wiced_bt_gatt_auth_req_t</a> auth_req)</td></tr>
 <tr class="memdesc:gaab8c3fff985e0a6beb83cd368b63e548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read from remote ATT server.  <a href="group__gatt__client__api__functions.html#gaab8c3fff985e0a6beb83cd368b63e548">More...</a><br /></td></tr>
 <tr class="separator:gaab8c3fff985e0a6beb83cd368b63e548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga57ead21a135107e216056fb40e5013fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html#ga57ead21a135107e216056fb40e5013fd">wiced_bt_gatt_client_send_read_multiple</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a> opcode, int num_handles, uint8_t *p_handle_stream, <a class="el" href="group__wicedbt__gatt.html#ga44fcc1fe578d11d29279b92a7fcc936d">wiced_bt_gatt_auth_req_t</a> auth_req)</td></tr>
@@ -944,6 +951,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gad8044837c2bda2ff0515d86bd160d45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api.html#gad8044837c2bda2ff0515d86bd160d45e">wiced_bt_gatt_get_device_address</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> *p_bdaddr, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> *p_transport, <a class="el" href="group__bt__types.html#ga97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> *p_addr_type)</td></tr>
 <tr class="memdesc:gad8044837c2bda2ff0515d86bd160d45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to get the bluetooth device address of the connected gatt conn_id.  <a href="group__gatt__common__api.html#gad8044837c2bda2ff0515d86bd160d45e">More...</a><br /></td></tr>
 <tr class="separator:gad8044837c2bda2ff0515d86bd160d45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2bfd5052c63d135f8df4078a61d0938b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__common__api.html#ga2bfd5052c63d135f8df4078a61d0938b">wiced_bt_gatt_validate_conn_id</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>)</td></tr>
+<tr class="memdesc:ga2bfd5052c63d135f8df4078a61d0938b"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to validate connected gatt conn_id.  <a href="group__gatt__common__api.html#ga2bfd5052c63d135f8df4078a61d0938b">More...</a><br /></td></tr>
+<tr class="separator:ga2bfd5052c63d135f8df4078a61d0938b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ceb8440fce532377362c0fc59cb3d98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a1ceb8440fce532377362c0fc59cb3d98">wiced_bt_is_same_uuid</a> (const <a class="el" href="structwiced__bt__uuid__t.html">wiced_bt_uuid_t</a> *p_left, const <a class="el" href="structwiced__bt__uuid__t.html">wiced_bt_uuid_t</a> *p_right)</td></tr>
 <tr class="memdesc:a1ceb8440fce532377362c0fc59cb3d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to compare UUIDs.  <a href="#a1ceb8440fce532377362c0fc59cb3d98">More...</a><br /></td></tr>
 <tr class="separator:a1ceb8440fce532377362c0fc59cb3d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -974,18 +984,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a2bbfd2a13c894e40cbb9879000c6ce2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a2bbfd2a13c894e40cbb9879000c6ce2f">wiced_bt_gatt_get_num_queued_tx_packets</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, int *p_fragments_with_controller)</td></tr>
 <tr class="memdesc:a2bbfd2a13c894e40cbb9879000c6ce2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to get the number of packets queued to tx.  <a href="#a2bbfd2a13c894e40cbb9879000c6ce2f">More...</a><br /></td></tr>
 <tr class="separator:a2bbfd2a13c894e40cbb9879000c6ce2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga85c6d9f65723c0bdd021adc0750aaaac"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga85c6d9f65723c0bdd021adc0750aaaac">perm</a></td></tr>
-<tr class="memdesc:ga85c6d9f65723c0bdd021adc0750aaaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">attribute permission.  <a href="group__wicedbt__gatt.html#ga85c6d9f65723c0bdd021adc0750aaaac">More...</a><br /></td></tr>
-<tr class="separator:ga85c6d9f65723c0bdd021adc0750aaaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5723e60ffd628510c699eddbce90be23"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a></td></tr>
-<tr class="memdesc:ga5723e60ffd628510c699eddbce90be23"><td class="mdescLeft">&#160;</td><td class="mdescRight">attribute length .  <a href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">More...</a><br /></td></tr>
-<tr class="separator:ga5723e60ffd628510c699eddbce90be23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga966dee2a4752daf339befda5a4dd925e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga966dee2a4752daf339befda5a4dd925e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_gattdb_entry_t</b></td></tr>
-<tr class="separator:ga966dee2a4752daf339befda5a4dd925e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22363fe9f72c577712b1d8533f5b1341"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a22363fe9f72c577712b1d8533f5b1341">wiced_bt_gattdb_local_read_data_by_type</a> (<a class="el" href="group__wicedbt__gatt.html#ga9ce8b7b2a10d8e1f851d62aa931b0e18">wiced_bt_gatt_discovery_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p_db_start, <a class="el" href="unionwiced__bt__gatt__discovery__data__t.html">wiced_bt_gatt_discovery_data_t</a> *p_disc_data)</td></tr>
+<tr class="memdesc:a22363fe9f72c577712b1d8533f5b1341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to read local registered db by type, by iterating to the next in a loop database entry.  <a href="#a22363fe9f72c577712b1d8533f5b1341">More...</a><br /></td></tr>
+<tr class="separator:a22363fe9f72c577712b1d8533f5b1341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c9d67c8068bfe3a82a74fe2fcbda5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a66c9d67c8068bfe3a82a74fe2fcbda5d">wiced_bt_gattdb_next_entry</a> (<a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p_db_entry)</td></tr>
+<tr class="memdesc:a66c9d67c8068bfe3a82a74fe2fcbda5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to next GATT DB entry.  <a href="#a66c9d67c8068bfe3a82a74fe2fcbda5d">More...</a><br /></td></tr>
+<tr class="separator:a66c9d67c8068bfe3a82a74fe2fcbda5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1822b3b6f58eae86484a44cac4ea21"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#acc1822b3b6f58eae86484a44cac4ea21">wiced_bt_gattdb_getAttrUUID16</a> (const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p_db_entry)</td></tr>
+<tr class="memdesc:acc1822b3b6f58eae86484a44cac4ea21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to return the 16 bit UUID of the database entry in the local database This will return a attribute UUID in the entry.  <a href="#acc1822b3b6f58eae86484a44cac4ea21">More...</a><br /></td></tr>
+<tr class="separator:acc1822b3b6f58eae86484a44cac4ea21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398d4a5ce0cddbf8c84aad2f2c3d07ae"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a398d4a5ce0cddbf8c84aad2f2c3d07ae">wiced_bt_gattdb_getAttrValue</a> (const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p_db_entry)</td></tr>
+<tr class="memdesc:a398d4a5ce0cddbf8c84aad2f2c3d07ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to return the data of the database entry in the local database.  <a href="#a398d4a5ce0cddbf8c84aad2f2c3d07ae">More...</a><br /></td></tr>
+<tr class="separator:a398d4a5ce0cddbf8c84aad2f2c3d07ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6181cc7806199a7ba64a60dadab7c0f"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#aa6181cc7806199a7ba64a60dadab7c0f">wiced_bt_gattdb_getAttrPtr</a> (const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p)</td></tr>
+<tr class="memdesc:aa6181cc7806199a7ba64a60dadab7c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function will return a pointer to the actual attribute, skip over the header.  <a href="#aa6181cc7806199a7ba64a60dadab7c0f">More...</a><br /></td></tr>
+<tr class="separator:aa6181cc7806199a7ba64a60dadab7c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877d48da4bfe8fa5c52a75d76b6932da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__gatt_8h.html#a877d48da4bfe8fa5c52a75d76b6932da">wiced_bt_gattdb_get_attribute_uuid</a> (<a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *p_db_entry, uint8_t *p_uuid)</td></tr>
+<tr class="memdesc:a877d48da4bfe8fa5c52a75d76b6932da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_gattdb_get_attribute_uuid.  <a href="#a877d48da4bfe8fa5c52a75d76b6932da">More...</a><br /></td></tr>
+<tr class="separator:a877d48da4bfe8fa5c52a75d76b6932da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AIROC Generic Attribute (GATT) Application Programming Interface. </p>
@@ -1874,6 +1890,187 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_bt_gatt_status_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a877d48da4bfe8fa5c52a75d76b6932da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int wiced_bt_gattdb_get_attribute_uuid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p_db_entry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_uuid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_gattdb_get_attribute_uuid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_db_entry</td><td>: GATT DB atrribute entry </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_uuid</td><td>: pointer to UUID holder. Application should pass the required size of UUID It is recommended to pass uint8_t[16], so that we can avoid overflow in case of 128 bit uuid</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>size of the UUID </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6181cc7806199a7ba64a60dadab7c0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* wiced_bt_gattdb_getAttrPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will return a pointer to the actual attribute, skip over the header. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>Database entry of which the data is to be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>data of the database entry </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acc1822b3b6f58eae86484a44cac4ea21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_bt_gattdb_getAttrUUID16 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p_db_entry</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function to return the 16 bit UUID of the database entry in the local database This will return a attribute UUID in the entry. </p>
+<p>If the attribute uuid is not 2 bytes. It will return 0x0 which is invalid uuid.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_db_entry</td><td>Database entry for which the UUID is to be returned.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>16 bit UUID value if available, or 0 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a398d4a5ce0cddbf8c84aad2f2c3d07ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* wiced_bt_gattdb_getAttrValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p_db_entry</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function to return the data of the database entry in the local database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_db_entry</td><td>Database entry of which the data is to be returned.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>data of the database entry </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a22363fe9f72c577712b1d8533f5b1341"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a>* wiced_bt_gattdb_local_read_data_by_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__gatt.html#ga9ce8b7b2a10d8e1f851d62aa931b0e18">wiced_bt_gatt_discovery_type_t</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p_db_start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="unionwiced__bt__gatt__discovery__data__t.html">wiced_bt_gatt_discovery_data_t</a> *&#160;</td>
+          <td class="paramname"><em>p_disc_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function to read local registered db by type, by iterating to the next in a loop database entry. </p>
+<p>Initially <code>p_db_start</code> is set to NULL, which resets the search to the head of the local database. The database is traversed to locate the next entry which matches the intended <code>type</code>. If an entry is found the data of that entry is written to <code>p_disc_data</code> and the entry in the database is returned. The returned entry is passed in the subsequent call to this function in <code>p_db_start</code>. If an entry is not found the function returns a NULL, which indicates that the entire database has been iterated and the calling loop can end.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>Discovery type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_db_start</td><td>The database entry to search from. Value of NULL, resets the database pointer to the head </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_disc_data</td><td>discovered data, only valid if the return is not NULL</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_gattdb_entry_t * </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a66c9d67c8068bfe3a82a74fe2fcbda5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a>* wiced_bt_gattdb_next_entry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f">wiced_gattdb_entry_t</a> *&#160;</td>
+          <td class="paramname"><em>p_db_entry</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a pointer to next GATT DB entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_db_entry</td><td>current Db entry </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>next Db entry </dd></dl>
 
 </div>
 </div>

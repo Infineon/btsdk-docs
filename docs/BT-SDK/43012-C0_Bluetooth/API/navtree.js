@@ -15,16 +15,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___adc_driver.html",
-"group___result.html#ggacfc32ead8a827d53416f01b19eb58310a5ca419b87ce883d2cdc43803c730709b",
-"group__group__ota__fw__upgrade__cback__functions.html",
-"group__sco__hook__data__types.html",
-"group__wiced__bt__mesh__core.html#ga3d881aab376cb344f38a0193ca43d9f0",
-"group__wiced__bt__mesh__light__lightness__server.html#ga4239007109ce36d64ff99bd73f5e37f0",
-"group__wiced__bt__mesh__provisioning.html#ga9366e77c599dbef0e726e54c2da38440",
-"group__wicedbt__avdt.html#ga54cf593b90541780aadf9834635a4638",
-"structwiced__bt__hrc__discovery__t.html#a71a8a39270ae1bf01ad381dca0e95c1b",
-"structwiced__bt__mesh__light__ctl__set__t.html#adc4674f6ea53803d98fa2ec36759e77d",
-"structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e"
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310a9c781d6d3af16b5623ac99a31f75fe69",
+"group__group__ota__fw__upgrade__functions.html#gabb708ac34042fa81f73a13f0d99292f9",
+"group__sdp__api__functions.html",
+"group__wiced__bt__mesh__core.html#ga457c303574ad2fc3970319743c106c00",
+"group__wiced__bt__mesh__light__lightness__server.html#ga730594b6d325c881e88df4fb3ff3dd3c",
+"group__wiced__bt__mesh__provisioning.html#ga8f20ea9a27ffd2745f322e2b0f47dc96",
+"group__wicedbt__avdt.html#ga45e71e96ac67cfffc9ed91bac6325992",
+"structwiced__bt__battery__client__discovery__complete__t.html",
+"structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e",
+"structwiced__bt__mesh__property__status__data__t.html#a8b0d6200bc639dd37ff68847a0adde5f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

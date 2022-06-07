@@ -6,6 +6,7 @@ var group__rfcomm__api__functions =
     [ "wiced_bt_rfcomm_create_connection", "group__rfcomm__api__functions.html#ga0acf439d7bfa3540fe1f682e28a3ea15", null ],
     [ "wiced_bt_rfcomm_flow_control", "group__rfcomm__api__functions.html#ga87bbfb9c882d8080fef5f63e2ad256c0", null ],
     [ "wiced_bt_rfcomm_init", "group__rfcomm__api__functions.html#gaa7ccb1444f71de80e35070cc96074604", null ],
+    [ "wiced_bt_rfcomm_port_get_queue_status", "group__rfcomm__api__functions.html#ga865e448ffc3555587b59bab1e9f14173", null ],
     [ "wiced_bt_rfcomm_remove_connection", "group__rfcomm__api__functions.html#gae609bc27a6207cea08e5017ffb2940b5", null ],
     [ "wiced_bt_rfcomm_set_data_callback", "group__rfcomm__api__functions.html#ga97f7d4487a4a57230cc81ca9c290884d", null ],
     [ "wiced_bt_rfcomm_set_event_callback", "group__rfcomm__api__functions.html#ga24bb1a535b5a5b430dcc286bb32f79ac", null ],

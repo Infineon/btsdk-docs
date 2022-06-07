@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -112,13 +112,13 @@ struct <a class="el" href="struct__wiced__timer__t.html">_wiced_timer_t</a> *&#1
 <tr class="memdesc:ade90556f2c5dbfcb32cc66a3d73f6084"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal, next pointer to <a class="el" href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">wiced_timer_t</a> <br /></td></tr>
 <tr class="separator:ade90556f2c5dbfcb32cc66a3d73f6084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786f58715ee3dc840e1119d468afeb3e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a786f58715ee3dc840e1119d468afeb3e"></a>
-<a class="el" href="group__timer.html#ga2570f5f92c88d350a403ad2a174f8bd4">wiced_timer_callback_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__timer__t.html#a786f58715ee3dc840e1119d468afeb3e">p_cback</a></td></tr>
+<a class="el" href="group__timer.html#ga0b4d43333bdca44a7a8bc35a1f38f0ee">wiced_timer_callback_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__timer__t.html#a786f58715ee3dc840e1119d468afeb3e">p_cback</a></td></tr>
 <tr class="memdesc:a786f58715ee3dc840e1119d468afeb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal, the callback function <br /></td></tr>
 <tr class="separator:a786f58715ee3dc840e1119d468afeb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2b7081e28092958df5424df230d21c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2b7081e28092958df5424df230d21c6"></a>
-<a class="el" href="group__timer.html#ga1160dd4b4458a5be89ff6d174954c9a9">wiced_timer_callback_arg_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__timer__t.html#ae2b7081e28092958df5424df230d21c6">cb_arg</a></td></tr>
-<tr class="memdesc:ae2b7081e28092958df5424df230d21c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal, the callback argument <br /></td></tr>
-<tr class="separator:ae2b7081e28092958df5424df230d21c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d3f8157b45f2e080e1b9a610c98544"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1d3f8157b45f2e080e1b9a610c98544"></a>
+<a class="el" href="group__timer.html#gad17aa4d52b6a869de93c52f8139651f1">TIMER_PARAM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__timer__t.html#ae1d3f8157b45f2e080e1b9a610c98544">cb_arg</a></td></tr>
+<tr class="memdesc:ae1d3f8157b45f2e080e1b9a610c98544"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal, the callback argument <br /></td></tr>
+<tr class="separator:ae1d3f8157b45f2e080e1b9a610c98544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758f6c558cc8d68e2a25f13e046eae6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a758f6c558cc8d68e2a25f13e046eae6f"></a>
 uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__wiced__timer__t.html#a758f6c558cc8d68e2a25f13e046eae6f">pi</a></td></tr>
 <tr class="memdesc:a758f6c558cc8d68e2a25f13e046eae6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal, timer flags <br /></td></tr>
@@ -131,7 +131,7 @@ uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Timer structure. </p>
 <p>NOTE: this structure is used internally by the wiced stack. Applications MUST NOT modify any of the elements of this structure.</p>
-<p>Timer control block memory MUST be peristant from when the timer is initialized, using <a class="el" href="group__timer.html#ga6bce6342b0e621f35550ed5646c31154" title="Initializes the timer. ">wiced_init_timer()</a>, till it is de-initialized, using <a class="el" href="group__timer.html#gad18b313d83b4c4ca57f73cee258a26fd" title="Deinitialize a timer instance and stops the timer if it is running. ">wiced_deinit_timer()</a>. </p>
+<p>Timer control block memory MUST be peristant from when the timer is initialized, using <a class="el" href="group__timer.html#gaa35ef07edd85ab3582605cbb1ce98a89" title="Initializes the timer. ">wiced_init_timer()</a>, till it is de-initialized, using <a class="el" href="group__timer.html#gad18b313d83b4c4ca57f73cee258a26fd" title="Deinitialize a timer instance and stops the timer if it is running. ">wiced_deinit_timer()</a>. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="wiced__timer_8h.html">wiced_timer.h</a></li>
 </ul>

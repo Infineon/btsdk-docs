@@ -18,12 +18,12 @@ var NAVTREEINDEX =
 "group___peripheral_spi_driver.html#gaea5c4f8c05fc0aa9fcc0c8857d398eb1",
 "group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f",
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba8988dd5a723fadf5ebb3fc5eed8cb589",
-"group__wiced__bt__mesh__core.html#gafd2c62f6207d6351a615b9b81ad2a5c4",
-"group__wiced__bt__mesh__onoff__client.html#ga1e7739e0b5f369e9f5c236be43a7e71e",
-"group__wiced__bt__mesh__time__server.html#gae8f8ae85d110535c3d0b5278fca8df45",
-"structwiced__bt__l2cap__ertm__information__t.html#a97f2b1a7aaa9e6aef6fa8e8a8fc362f3",
-"structwiced__bt__mesh__light__hsl__range__set__data__t.html",
-"structwiced__bt__mesh__provision__scan__extended__start__t.html#aa025180c98f9d09380891808dafc4fa2"
+"group__wiced__bt__mesh__core.html#gaf3c01827f4350549e7256d9aed73cf9e",
+"group__wiced__bt__mesh__models.html#gaf5a568abe6992a2e8011d6abc11a9684",
+"group__wiced__bt__mesh__time__client.html#ga915ad2315147b4a60408eeee89d281ee",
+"structwiced__bt__l2cap__cfg__information__t.html#a39cc0aefc2e65bb121fa1b0caa824b20",
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html#adc4674f6ea53803d98fa2ec36759e77d",
+"structwiced__bt__mesh__provision__link__report__data__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

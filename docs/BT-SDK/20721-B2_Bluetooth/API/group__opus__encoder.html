@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -156,11 +156,11 @@ OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><
 <div class="line">enc = <a class="code" href="group__opus__encoder.html#ga08239d8c5021309d4a2e8d3097b73731">opus_encoder_create</a>(Fs, channels, application, &amp;error);</div>
 </div><!-- fragment --><p>From this point, <code>enc</code> can be used for encoding an audio stream. An encoder state <b>must</b> <b>not</b> be used for more than one stream at the same time. Similarly, the encoder state <b>must</b> <b>not</b> be re-initialized for each frame.</p>
 <p>While <a class="el" href="group__opus__encoder.html#ga08239d8c5021309d4a2e8d3097b73731" title="Allocates and initializes an encoder state. ">opus_encoder_create()</a> allocates memory for the state, it's also possible to initialize pre-allocated memory:</p>
-<div class="fragment"><div class="line"><span class="keywordtype">int</span>          size;</div>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span>          <a class="code" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>;</div>
 <div class="line"><span class="keywordtype">int</span>          error;</div>
 <div class="line"><a class="code" href="struct_opus_encoder.html">OpusEncoder</a> *enc;</div>
-<div class="line">size = <a class="code" href="group__opus__encoder.html#ga9ac72d062eca0c77711f5b04b9dcc645">opus_encoder_get_size</a>(channels);</div>
-<div class="line">enc = malloc(size);</div>
+<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a> = <a class="code" href="group__opus__encoder.html#ga9ac72d062eca0c77711f5b04b9dcc645">opus_encoder_get_size</a>(channels);</div>
+<div class="line">enc = malloc(<a class="code" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>);</div>
 <div class="line">error = <a class="code" href="group__opus__encoder.html#ga8701cc5741eed9947160faf43be0af22">opus_encoder_init</a>(enc, Fs, channels, application);</div>
 </div><!-- fragment --><p>where <a class="el" href="group__opus__encoder.html#ga9ac72d062eca0c77711f5b04b9dcc645" title="Gets the size of an OpusEncoder structure. ">opus_encoder_get_size()</a> returns the required size for the encoder state. Note that future versions of this code may change the size, so no assuptions should be made about it.</p>
 <p>The encoder state is always continuous in memory and only a shallow copy is sufficient to copy it (e.g. memcpy())</p>

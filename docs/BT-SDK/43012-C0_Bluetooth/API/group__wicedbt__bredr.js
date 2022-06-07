@@ -2,6 +2,7 @@ var group__wicedbt__bredr =
 [
     [ "wiced_bt_cancel_inquiry", "group__wicedbt__bredr.html#ga43c56d1d7a8b08e7766817fc798b7067", null ],
     [ "wiced_bt_dev_cancel_sniff_mode", "group__wicedbt__bredr.html#ga092191cdfade11d9ba5d97a9810a540d", null ],
+    [ "wiced_bt_dev_get_remote_name", "group__wicedbt__bredr.html#ga65bc31725b27be92d23b71707c4d309c", null ],
     [ "wiced_bt_dev_read_local_addr", "group__wicedbt__bredr.html#gab6a09117d2fa6f4b31d8bfb9aa4d382c", null ],
     [ "wiced_bt_dev_read_rssi", "group__wicedbt__bredr.html#gafea954a02935ce3dfa5409ff40e25ae3", null ],
     [ "wiced_bt_dev_read_tx_power", "group__wicedbt__bredr.html#ga48a580210a970a52c39fca816ccfd0d7", null ],

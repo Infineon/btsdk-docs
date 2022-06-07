@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -298,21 +298,62 @@ Enumerations</h2></td></tr>
 <b>WICED_PWM4</b>, 
 <br />
 &#160;&#160;<b>WICED_PWM5</b>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166abd902994003c1071f055c704b127e4ec">WICED_PCM_IN</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166afd9d2faf45462c037a300f79d7c5d27a">WICED_PCM_OUT</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a090383ab730931fe8bd29a38fd07f2ed">WICED_PCM_SYNC</a>, 
+<b>BT_HOST_WAKE_PDM_CH2</b> = 5, 
+<b>BT_GPIO_0_PDM_CH1</b> = 5, 
+<b>BT_GPIO_2_I2S_DI</b> = 4, 
 <br />
-&#160;&#160;<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166aa71160980a2a8aee8c9f5b150d8b7ef3">WICED_PCM_CLK</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a6d4c6bbc8d2a15e790b27dfe498ee6c6">WICED_I2S_DI</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a3adf92cacecdeba69fcde85e30d16050">WICED_I2S_MDO</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a8690a42c3e2371adb2c37ee894470881">WICED_I2S_SDO</a>, 
+&#160;&#160;<b>BT_GPIO_2_PDM_CLK</b> = 15, 
+<b>BT_GPIO_3_I2S_MWS</b> = 3, 
+<b>BT_GPIO_3_I2S_SWS</b> = 4, 
+<b>BT_GPIO_4_I2S_MDO</b> = 3, 
 <br />
-&#160;&#160;<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a0d369e387764ff55d3ca401e6c699c93">WICED_I2S_MWS</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166adcbccadda99fb1097a860406325c291c">WICED_I2S_SWS</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166ab4172722c27e312b508d85113be3641a">WICED_I2S_MCK</a>, 
-<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166ae0dcc8e9a42d84d549cf16a9b41df17c">WICED_I2S_SCK</a>, 
+&#160;&#160;<b>BT_GPIO_4_I2S_SDO</b> = 4, 
+<b>BT_GPIO_4_UART2_RTS</b> = 11, 
+<b>BT_GPIO_4_I2C_SDA</b> = 15, 
+<b>BT_GPIO_5_I2S_MCK</b> = 3, 
 <br />
-&#160;&#160;<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a739fa1953988c88924293b4acc22bac1">WICED_UNAVAILABLE</a> = 0xFF
+&#160;&#160;<b>BT_GPIO_5_I2S_SCK</b> = 4, 
+<b>BT_GPIO_5_UART2_CTS</b> = 11, 
+<b>BT_GPIO_5_I2C_SCL</b> = 15, 
+<b>BT_I2S_CLK_PCM_CLK</b> = 1, 
+<br />
+&#160;&#160;<b>BT_I2S_CLK_I2S_MCK</b> = 5, 
+<b>BT_I2S_CLK_I2S_SCK</b> = 7, 
+<b>BT_I2S_CLK_UART2_TXD</b> = 11, 
+<b>BT_I2S_DI_PCM_IN</b> = 1, 
+<br />
+&#160;&#160;<b>BT_I2S_DI_I2S_DI</b> = 4, 
+<b>BT_I2S_DI_UART2_CTS</b> = 11, 
+<b>BT_I2S_DI_I2C_SDA</b> = 13, 
+<b>BT_I2S_DO_PCM_OUT</b> = 1, 
+<br />
+&#160;&#160;<b>BT_I2S_DO_I2S_SDO</b> = 4, 
+<b>BT_I2S_DO_I2S_MDO</b> = 5, 
+<b>BT_I2S_DO_UART2_RTS</b> = 11, 
+<b>BT_I2S_DO_I2C_SCL</b> = 12, 
+<br />
+&#160;&#160;<b>BT_I2S_WS_PCM_SYNC</b> = 1, 
+<b>BT_I2S_WS_I2S_MWS</b> = 5, 
+<b>BT_I2S_WS_I2S_SWS</b> = 7, 
+<b>BT_I2S_WS_UART2_RXD</b> = 11, 
+<br />
+&#160;&#160;<b>BT_PCM_CLK_PCM_CLK</b> = 1, 
+<b>BT_PCM_CLK_I2S_MCK</b> = 5, 
+<b>BT_PCM_CLK_I2S_SCK</b> = 7, 
+<b>BT_PCM_IN_PCM_IN</b> = 1, 
+<br />
+&#160;&#160;<b>BT_PCM_IN_I2S_DI</b> = 7, 
+<b>BT_PCM_IN_I2C_SCL</b> = 12, 
+<b>BT_PCM_OUT_PCM_OUT</b> = 1, 
+<b>BT_PCM_OUT_I2S_MDO</b> = 5, 
+<br />
+&#160;&#160;<b>BT_PCM_OUT_I2S_SDO</b> = 7, 
+<b>BT_PCM_OUT_I2C_SDA</b> = 12, 
+<b>BT_PCM_SYNC_PCM_SYNC</b> = 1, 
+<b>BT_PCM_SYNC_I2S_MWS</b> = 5, 
+<br />
+&#160;&#160;<b>BT_PCM_SYNC_I2S_SWS</b> = 7, 
+<a class="el" href="group___g_p_i_o_driver.html#gga5970b1e3f6e14c03e36addfa832af166a739fa1953988c88924293b4acc22bac1">WICED_UNAVAILABLE</a> = 0xFF
 <br />
  }</td></tr>
 <tr class="memdesc:ga5970b1e3f6e14c03e36addfa832af166"><td class="mdescLeft">&#160;</td><td class="mdescRight">possible functions to be brought out through LHL GPIO's  <a href="group___g_p_i_o_driver.html#ga5970b1e3f6e14c03e36addfa832af166">More...</a><br /></td></tr>
@@ -811,39 +852,6 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a607dc6281c75acced60d416ac3adba98"></a>WICED_GCI_SECI_OUT&#160;</td><td class="fielddoc">
 <p>GCI. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166abd902994003c1071f055c704b127e4ec"></a>WICED_PCM_IN&#160;</td><td class="fielddoc">
-<p>I2S 1 DATA IN. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166afd9d2faf45462c037a300f79d7c5d27a"></a>WICED_PCM_OUT&#160;</td><td class="fielddoc">
-<p>I2S 1 DATA OUT. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a090383ab730931fe8bd29a38fd07f2ed"></a>WICED_PCM_SYNC&#160;</td><td class="fielddoc">
-<p>I2S 1 Word Select. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166aa71160980a2a8aee8c9f5b150d8b7ef3"></a>WICED_PCM_CLK&#160;</td><td class="fielddoc">
-<p>I2S 1 Clock. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a6d4c6bbc8d2a15e790b27dfe498ee6c6"></a>WICED_I2S_DI&#160;</td><td class="fielddoc">
-<p>controller or responder I2S 1 DATA IN </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a3adf92cacecdeba69fcde85e30d16050"></a>WICED_I2S_MDO&#160;</td><td class="fielddoc">
-<p>controller I2S 1 DATA OUT </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a8690a42c3e2371adb2c37ee894470881"></a>WICED_I2S_SDO&#160;</td><td class="fielddoc">
-<p>responder I2S 1 DATA OUT </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a0d369e387764ff55d3ca401e6c699c93"></a>WICED_I2S_MWS&#160;</td><td class="fielddoc">
-<p>controller I2S 1 Word Select </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166adcbccadda99fb1097a860406325c291c"></a>WICED_I2S_SWS&#160;</td><td class="fielddoc">
-<p>responder I2S 1 Word Select </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166ab4172722c27e312b508d85113be3641a"></a>WICED_I2S_MCK&#160;</td><td class="fielddoc">
-<p>controller I2S 1 Clock </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166ae0dcc8e9a42d84d549cf16a9b41df17c"></a>WICED_I2S_SCK&#160;</td><td class="fielddoc">
-<p>responder I2S 1 Clock </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga5970b1e3f6e14c03e36addfa832af166a739fa1953988c88924293b4acc22bac1"></a>WICED_UNAVAILABLE&#160;</td><td class="fielddoc">
 <p>Invalid functionality for error check. </p>

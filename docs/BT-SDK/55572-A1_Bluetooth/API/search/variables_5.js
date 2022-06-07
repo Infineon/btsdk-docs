@@ -34,5 +34,6 @@ var searchData=
   ['exec_5fwrite_5freq',['exec_write_req',['../unionwiced__bt__gatt__request__params__t.html#ae48253ab7445d588ccb1a41028deaaeb',1,'wiced_bt_gatt_request_params_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['extension_5fcode',['extension_code',['../structwiced__bt__avrc__sub__unit__info__cmd__t.html#a74176a3f43c7eb8cded0974da8b9a62d',1,'wiced_bt_avrc_sub_unit_info_cmd_t::extension_code()'],['../structwiced__bt__avrc__sub__unit__info__rsp__t.html#a74176a3f43c7eb8cded0974da8b9a62d',1,'wiced_bt_avrc_sub_unit_info_rsp_t::extension_code()']]],
+  ['extensions',['extensions',['../wiced__bt__mesh__core_8h.html#a1080ddea49768f4a77ad5123441f3599',1,'wiced_bt_mesh_core.h']]],
   ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]]
 ];

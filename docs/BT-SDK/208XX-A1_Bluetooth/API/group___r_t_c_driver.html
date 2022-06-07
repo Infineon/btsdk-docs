@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -166,8 +166,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_rtc_ctime. </p>
-<p>This function call will convert the <a class="el" href="structwiced__rtc__time__t.html" title="Defines a driver to facilitate interfacing with the RTC. ">wiced_rtc_time_t</a> object pointed by <a class="el" href="structwiced__rtc__time__t.html" title="Defines a driver to facilitate interfacing with the RTC. ">wiced_rtc_time_t</a> to c string containing a human-readable verion of the correspoing local time and data. Caller should make sure *outbuf size larger then 22 bytes.</p>
-<p>The returned string has the folloing format Mmm dd hh:mm:ss yyyy where Mmm - the month in letters dd - the day of the month hh:mm:ss - time yyyy - year</p>
+<p>This function call will convert the <a class="el" href="structwiced__rtc__time__t.html" title="Defines a driver to facilitate interfacing with the RTC. ">wiced_rtc_time_t</a> object pointed by <a class="el" href="structwiced__rtc__time__t.html" title="Defines a driver to facilitate interfacing with the RTC. ">wiced_rtc_time_t</a> to c string containing a human-readable verion of the corresponding local time and data. Caller should make sure *outbuf size larger then 22 bytes.</p>
+<p>The returned string has the following format Mmm dd hh:mm:ss yyyy where Mmm - the month in letters dd - the day of the month hh:mm:ss - time yyyy - year</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">timer</td><td>: timer object pointer to be converted </td></tr>
@@ -308,7 +308,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_rtc_time_to_seconds. </p>
-<p>Convert RTC_time broken-down format to 32-bits seocnds</p>
+<p>Convert RTC_time broken-down format to 32-bits seconds</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">rtctime</td><td>: timer object pointer to be converted </td></tr>

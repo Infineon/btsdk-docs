@@ -4,6 +4,7 @@ var group___hardware_drivers =
     [ "AIROC Transport", "group___transport.html", "group___transport" ],
     [ "AesCalculation", "group___aes_calculation.html", "group___aes_calculation" ],
     [ "GPIO", "group___g_p_i_o_driver.html", "group___g_p_i_o_driver" ],
+    [ "I2C", "group___i2_c_driver.html", "group___i2_c_driver" ],
     [ "NVRAM", "group__nvram.html", "group__nvram" ],
     [ "Peripheral SPI", "group___peripheral_spi_driver.html", "group___peripheral_spi_driver" ],
     [ "Peripheral UART (PUART)", "group___p_u_a_r_t_driver.html", "group___p_u_a_r_t_driver" ],

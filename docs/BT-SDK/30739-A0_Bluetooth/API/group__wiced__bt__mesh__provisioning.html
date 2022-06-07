@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -153,6 +153,8 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__provision__status__data__t.html">wiced_bt_mesh_provision_status_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__provision__device__capabilities__data__t.html">wiced_bt_mesh_provision_device_capabilities_data_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__provision__device__record__fragment__data__t.html">wiced_bt_mesh_provision_device_record_fragment_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__mesh__provision__device__oob__request__data__t.html">wiced_bt_mesh_provision_device_oob_request_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,15 +283,15 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga26e0ffc7d630094766c1d86c6b7132c4"><td class="memItemLeft" ><a class="anchor" id="ga26e0ffc7d630094766c1d86c6b7132c4"></a>
+<tr class="memitem:gaba1c7a2fc35e491f927a0f0bb1ac0155"><td class="memItemLeft" ><a class="anchor" id="gaba1c7a2fc35e491f927a0f0bb1ac0155"></a>
 struct {</td></tr>
 <tr class="memitem:a88c79cd52cb7992eefd326dbdc584a64"><td class="memItemLeft" ><a class="anchor" id="a88c79cd52cb7992eefd326dbdc584a64"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the NetKey. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga26e0ffc7d630094766c1d86c6b7132c4"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_get_data_t</b></td></tr>
-<tr class="separator:ga26e0ffc7d630094766c1d86c6b7132c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77a4c72233987e53c54343104cd2281b"><td class="memItemLeft" ><a class="anchor" id="ga77a4c72233987e53c54343104cd2281b"></a>
+<tr class="memitem:gaba1c7a2fc35e491f927a0f0bb1ac0155"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_get_data_t</b></td></tr>
+<tr class="separator:gaba1c7a2fc35e491f927a0f0bb1ac0155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8480c643f567aa1b6cdb1e7198ed6514"><td class="memItemLeft" ><a class="anchor" id="ga8480c643f567aa1b6cdb1e7198ed6514"></a>
 struct {</td></tr>
 <tr class="memitem:a88c79cd52cb7992eefd326dbdc584a64"><td class="memItemLeft" ><a class="anchor" id="a88c79cd52cb7992eefd326dbdc584a64"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
@@ -299,9 +301,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a79862aa6064cbbefdb152678f6f17d6f">identity</a></td></tr>
 <tr class="memdesc:a79862aa6064cbbefdb152678f6f17d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">New Node Identity state. <br /></td></tr>
 <tr class="separator:a79862aa6064cbbefdb152678f6f17d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77a4c72233987e53c54343104cd2281b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_set_data_t</b></td></tr>
-<tr class="separator:ga77a4c72233987e53c54343104cd2281b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ab7008b6e68a856d381f5e4cd8455bb"><td class="memItemLeft" ><a class="anchor" id="ga2ab7008b6e68a856d381f5e4cd8455bb"></a>
+<tr class="memitem:ga8480c643f567aa1b6cdb1e7198ed6514"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_set_data_t</b></td></tr>
+<tr class="separator:ga8480c643f567aa1b6cdb1e7198ed6514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6bb62c6d860f36c28b9d647ad9b98a4"><td class="memItemLeft" ><a class="anchor" id="gae6bb62c6d860f36c28b9d647ad9b98a4"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -315,33 +317,33 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a79862aa6064cbbefdb152678f6f17d6f">identity</a></td></tr>
 <tr class="memdesc:a79862aa6064cbbefdb152678f6f17d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node Identity state. <br /></td></tr>
 <tr class="separator:a79862aa6064cbbefdb152678f6f17d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ab7008b6e68a856d381f5e4cd8455bb"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_status_data_t</b></td></tr>
-<tr class="separator:ga2ab7008b6e68a856d381f5e4cd8455bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2531a4b23a75b991bc595373d315ec8"><td class="memItemLeft" ><a class="anchor" id="gad2531a4b23a75b991bc595373d315ec8"></a>
+<tr class="memitem:gae6bb62c6d860f36c28b9d647ad9b98a4"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_node_identity_status_data_t</b></td></tr>
+<tr class="separator:gae6bb62c6d860f36c28b9d647ad9b98a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43a2817d199f787f610be974d3679b0a"><td class="memItemLeft" ><a class="anchor" id="ga43a2817d199f787f610be974d3679b0a"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target secure beacon state (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_BEACON_STATES">MESH_BEACON_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2531a4b23a75b991bc595373d315ec8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_beacon_set_data_t</b></td></tr>
-<tr class="separator:gad2531a4b23a75b991bc595373d315ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3033350e4733f0513cec2a0aa47d061c"><td class="memItemLeft" ><a class="anchor" id="ga3033350e4733f0513cec2a0aa47d061c"></a>
+<tr class="memitem:ga43a2817d199f787f610be974d3679b0a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_beacon_set_data_t</b></td></tr>
+<tr class="separator:ga43a2817d199f787f610be974d3679b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf062e55a02cc84e19c6c67dd373a3ba"><td class="memItemLeft" ><a class="anchor" id="gabf062e55a02cc84e19c6c67dd373a3ba"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current secure beacon state (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_BEACON_STATES">MESH_BEACON_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3033350e4733f0513cec2a0aa47d061c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_beacon_status_data_t</b></td></tr>
-<tr class="separator:ga3033350e4733f0513cec2a0aa47d061c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2116de3ece59a455928d31a5e36e5760"><td class="memItemLeft" ><a class="anchor" id="ga2116de3ece59a455928d31a5e36e5760"></a>
+<tr class="memitem:gabf062e55a02cc84e19c6c67dd373a3ba"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_beacon_status_data_t</b></td></tr>
+<tr class="separator:gabf062e55a02cc84e19c6c67dd373a3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ec2ff8f63f0c8e98be6ef2e5570b7c0"><td class="memItemLeft" ><a class="anchor" id="ga2ec2ff8f63f0c8e98be6ef2e5570b7c0"></a>
 struct {</td></tr>
 <tr class="memitem:a1f1c5e13e89ff3d1c49ce061cf2c5d68"><td class="memItemLeft" ><a class="anchor" id="a1f1c5e13e89ff3d1c49ce061cf2c5d68"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1f1c5e13e89ff3d1c49ce061cf2c5d68">page_number</a></td></tr>
 <tr class="memdesc:a1f1c5e13e89ff3d1c49ce061cf2c5d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">page number of composition data to get <br /></td></tr>
 <tr class="separator:a1f1c5e13e89ff3d1c49ce061cf2c5d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2116de3ece59a455928d31a5e36e5760"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_composition_data_get_data_t</b></td></tr>
-<tr class="separator:ga2116de3ece59a455928d31a5e36e5760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa32644140a56e2b75734ce2a3c894a1e"><td class="memItemLeft" ><a class="anchor" id="gaa32644140a56e2b75734ce2a3c894a1e"></a>
+<tr class="memitem:ga2ec2ff8f63f0c8e98be6ef2e5570b7c0"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_composition_data_get_data_t</b></td></tr>
+<tr class="separator:ga2ec2ff8f63f0c8e98be6ef2e5570b7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68cf46674784d302ff7294f6212e38e8"><td class="memItemLeft" ><a class="anchor" id="ga68cf46674784d302ff7294f6212e38e8"></a>
 struct {</td></tr>
 <tr class="memitem:a1f1c5e13e89ff3d1c49ce061cf2c5d68"><td class="memItemLeft" ><a class="anchor" id="a1f1c5e13e89ff3d1c49ce061cf2c5d68"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1f1c5e13e89ff3d1c49ce061cf2c5d68">page_number</a></td></tr>
@@ -355,17 +357,17 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a> [1]</td></tr>
 <tr class="memdesc:aa86e1085c6a16f60258f29c9d5fc2144"><td class="mdescLeft">&#160;</td><td class="mdescRight">first byte of the composition data <br /></td></tr>
 <tr class="separator:aa86e1085c6a16f60258f29c9d5fc2144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa32644140a56e2b75734ce2a3c894a1e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_composition_data_status_data_t</b></td></tr>
-<tr class="separator:gaa32644140a56e2b75734ce2a3c894a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80b4602ac20dd6252a9836e4c7f238e6"><td class="memItemLeft" ><a class="anchor" id="ga80b4602ac20dd6252a9836e4c7f238e6"></a>
+<tr class="memitem:ga68cf46674784d302ff7294f6212e38e8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_composition_data_status_data_t</b></td></tr>
+<tr class="separator:ga68cf46674784d302ff7294f6212e38e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34b037743df818136c5e3b5fd539c02b"><td class="memItemLeft" ><a class="anchor" id="ga34b037743df818136c5e3b5fd539c02b"></a>
 struct {</td></tr>
 <tr class="memitem:a4d402503271315376ddf4e47674d4965"><td class="memItemLeft" ><a class="anchor" id="a4d402503271315376ddf4e47674d4965"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a4d402503271315376ddf4e47674d4965">ttl</a></td></tr>
 <tr class="memdesc:a4d402503271315376ddf4e47674d4965"><td class="mdescLeft">&#160;</td><td class="mdescRight">New Default TTL value. <br /></td></tr>
 <tr class="separator:a4d402503271315376ddf4e47674d4965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80b4602ac20dd6252a9836e4c7f238e6"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_default_ttl_set_data_t</b></td></tr>
-<tr class="separator:ga80b4602ac20dd6252a9836e4c7f238e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f4eb08807329085da35f0ece43da492"><td class="memItemLeft" ><a class="anchor" id="ga4f4eb08807329085da35f0ece43da492"></a>
+<tr class="memitem:ga34b037743df818136c5e3b5fd539c02b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_default_ttl_set_data_t</b></td></tr>
+<tr class="separator:ga34b037743df818136c5e3b5fd539c02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb782fb59a41b57b105fb5e7c4e951e1"><td class="memItemLeft" ><a class="anchor" id="gacb782fb59a41b57b105fb5e7c4e951e1"></a>
 struct {</td></tr>
 <tr class="memitem:a4d402503271315376ddf4e47674d4965"><td class="memItemLeft" ><a class="anchor" id="a4d402503271315376ddf4e47674d4965"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a4d402503271315376ddf4e47674d4965">ttl</a></td></tr>
@@ -374,49 +376,49 @@ struct {</td></tr>
 <tr class="memitem:a092a645f2bb4b3a6f9c165d42edf485f"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a092a645f2bb4b3a6f9c165d42edf485f">received_ttl</a></td></tr>
 <tr class="memdesc:a092a645f2bb4b3a6f9c165d42edf485f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the TTL that this message has been received.Client can calculate number of hops to the SRC compairing this and default TTL values.  <a href="#a092a645f2bb4b3a6f9c165d42edf485f">More...</a><br /></td></tr>
 <tr class="separator:a092a645f2bb4b3a6f9c165d42edf485f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f4eb08807329085da35f0ece43da492"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_default_ttl_status_data_t</b></td></tr>
-<tr class="separator:ga4f4eb08807329085da35f0ece43da492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64705d2301f598653bea4f500710ece3"><td class="memItemLeft" ><a class="anchor" id="ga64705d2301f598653bea4f500710ece3"></a>
+<tr class="memitem:gacb782fb59a41b57b105fb5e7c4e951e1"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_default_ttl_status_data_t</b></td></tr>
+<tr class="separator:gacb782fb59a41b57b105fb5e7c4e951e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c6f510e0d55a974e086ed1e93886f8e"><td class="memItemLeft" ><a class="anchor" id="ga2c6f510e0d55a974e086ed1e93886f8e"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">New GATT Proxy state value (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_GATT_PROXY_STATES">MESH_GATT_PROXY_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64705d2301f598653bea4f500710ece3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_gatt_proxy_set_data_t</b></td></tr>
-<tr class="separator:ga64705d2301f598653bea4f500710ece3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9cdba2230bdaf8dd64f8327b4d29d7c3"><td class="memItemLeft" ><a class="anchor" id="ga9cdba2230bdaf8dd64f8327b4d29d7c3"></a>
+<tr class="memitem:ga2c6f510e0d55a974e086ed1e93886f8e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_gatt_proxy_set_data_t</b></td></tr>
+<tr class="separator:ga2c6f510e0d55a974e086ed1e93886f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd302e3dea033c117e1f0b00539db36c"><td class="memItemLeft" ><a class="anchor" id="gabd302e3dea033c117e1f0b00539db36c"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current GATT Proxy state value (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_GATT_PROXY_STATES">MESH_GATT_PROXY_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9cdba2230bdaf8dd64f8327b4d29d7c3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_gatt_proxy_status_data_t</b></td></tr>
-<tr class="separator:ga9cdba2230bdaf8dd64f8327b4d29d7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c2f0c30554aa4336928d99d69ac63e9"><td class="memItemLeft" ><a class="anchor" id="ga3c2f0c30554aa4336928d99d69ac63e9"></a>
+<tr class="memitem:gabd302e3dea033c117e1f0b00539db36c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_gatt_proxy_status_data_t</b></td></tr>
+<tr class="separator:gabd302e3dea033c117e1f0b00539db36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaddca9c6ff65ac81544416d5467f035f"><td class="memItemLeft" ><a class="anchor" id="gaaddca9c6ff65ac81544416d5467f035f"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">New Friend state value (see <a class="el" href="/builds/repo/BT-SDK/out/repos/btsdk-include/wiced_bt_mesh_model_defs.h.html#MESH_FRIEND_STATES">MESH_FRIEND_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c2f0c30554aa4336928d99d69ac63e9"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_friend_set_data_t</b></td></tr>
-<tr class="separator:ga3c2f0c30554aa4336928d99d69ac63e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70cbf59317bf5f26f1ea1cdb31f54a5c"><td class="memItemLeft" ><a class="anchor" id="ga70cbf59317bf5f26f1ea1cdb31f54a5c"></a>
+<tr class="memitem:gaaddca9c6ff65ac81544416d5467f035f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_friend_set_data_t</b></td></tr>
+<tr class="separator:gaaddca9c6ff65ac81544416d5467f035f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga131d31a3f17e4a007dc2d77bece58329"><td class="memItemLeft" ><a class="anchor" id="ga131d31a3f17e4a007dc2d77bece58329"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
 <tr class="memdesc:a0b57aa10271a66f3dc936bba1d2f3830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current Friend state value (see <a class="el" href="/builds/repo/BT-SDK/out/repos/btsdk-include/wiced_bt_mesh_model_defs.h.html#MESH_FRIEND_STATES">MESH_FRIEND_STATES</a>) <br /></td></tr>
 <tr class="separator:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70cbf59317bf5f26f1ea1cdb31f54a5c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_friend_status_data_t</b></td></tr>
-<tr class="separator:ga70cbf59317bf5f26f1ea1cdb31f54a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b1450f24de00f648399f4743a2c3980"><td class="memItemLeft" ><a class="anchor" id="ga8b1450f24de00f648399f4743a2c3980"></a>
+<tr class="memitem:ga131d31a3f17e4a007dc2d77bece58329"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_friend_status_data_t</b></td></tr>
+<tr class="separator:ga131d31a3f17e4a007dc2d77bece58329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d269bafbd6875f595295f2b1da1e64d"><td class="memItemLeft" ><a class="anchor" id="ga1d269bafbd6875f595295f2b1da1e64d"></a>
 struct {</td></tr>
 <tr class="memitem:a88c79cd52cb7992eefd326dbdc584a64"><td class="memItemLeft" ><a class="anchor" id="a88c79cd52cb7992eefd326dbdc584a64"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">NetKey Index. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b1450f24de00f648399f4743a2c3980"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_get_data_t</b></td></tr>
-<tr class="separator:ga8b1450f24de00f648399f4743a2c3980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1856fafb35b96d9da97d0a07c7c1bf8c"><td class="memItemLeft" ><a class="anchor" id="ga1856fafb35b96d9da97d0a07c7c1bf8c"></a>
+<tr class="memitem:ga1d269bafbd6875f595295f2b1da1e64d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_get_data_t</b></td></tr>
+<tr class="separator:ga1d269bafbd6875f595295f2b1da1e64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f8780a3b9fea0fbe71adcebed06af45"><td class="memItemLeft" ><a class="anchor" id="ga1f8780a3b9fea0fbe71adcebed06af45"></a>
 struct {</td></tr>
 <tr class="memitem:a88c79cd52cb7992eefd326dbdc584a64"><td class="memItemLeft" ><a class="anchor" id="a88c79cd52cb7992eefd326dbdc584a64"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
@@ -426,9 +428,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ae35a93ab7d924b77afc6240d9da7531d">transition</a></td></tr>
 <tr class="memdesc:ae35a93ab7d924b77afc6240d9da7531d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New Key Refresh Phase Transition (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_KEY_REFRESH_PHASES">MESH_KEY_REFRESH_PHASES</a>) <br /></td></tr>
 <tr class="separator:ae35a93ab7d924b77afc6240d9da7531d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1856fafb35b96d9da97d0a07c7c1bf8c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_set_data_t</b></td></tr>
-<tr class="separator:ga1856fafb35b96d9da97d0a07c7c1bf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac681f0152f72b0b524511b6f0028f1d0"><td class="memItemLeft" ><a class="anchor" id="gac681f0152f72b0b524511b6f0028f1d0"></a>
+<tr class="memitem:ga1f8780a3b9fea0fbe71adcebed06af45"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_set_data_t</b></td></tr>
+<tr class="separator:ga1f8780a3b9fea0fbe71adcebed06af45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga686c7bf333233740abd64e1d1f0f4fc3"><td class="memItemLeft" ><a class="anchor" id="ga686c7bf333233740abd64e1d1f0f4fc3"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -442,9 +444,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a8f0aef86d47e45a899f77a8bb89d6432">phase</a></td></tr>
 <tr class="memdesc:a8f0aef86d47e45a899f77a8bb89d6432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Key Refresh Phase State (see <a class="el" href="wiced__bt__mesh__model__defs_8h.html#MESH_KEY_REFRESH_PHASES">MESH_KEY_REFRESH_PHASES</a>) <br /></td></tr>
 <tr class="separator:a8f0aef86d47e45a899f77a8bb89d6432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac681f0152f72b0b524511b6f0028f1d0"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_status_data_t</b></td></tr>
-<tr class="separator:gac681f0152f72b0b524511b6f0028f1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga914424fd0905f32690cd7d09cbfc28c3"><td class="memItemLeft" ><a class="anchor" id="ga914424fd0905f32690cd7d09cbfc28c3"></a>
+<tr class="memitem:ga686c7bf333233740abd64e1d1f0f4fc3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_key_refresh_phase_status_data_t</b></td></tr>
+<tr class="separator:ga686c7bf333233740abd64e1d1f0f4fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ce9f1d36ef8f325a232aa8443afb63c"><td class="memItemLeft" ><a class="anchor" id="ga4ce9f1d36ef8f325a232aa8443afb63c"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
@@ -458,9 +460,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1f07779eb0a80561fc82b29246730b47">retransmit_interval</a></td></tr>
 <tr class="memdesc:a1f07779eb0a80561fc82b29246730b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in milliseconds between retransmissions. <br /></td></tr>
 <tr class="separator:a1f07779eb0a80561fc82b29246730b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga914424fd0905f32690cd7d09cbfc28c3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_relay_set_data_t</b></td></tr>
-<tr class="separator:ga914424fd0905f32690cd7d09cbfc28c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc711a1159759a35e0cd2413a4ad7b83"><td class="memItemLeft" ><a class="anchor" id="gabc711a1159759a35e0cd2413a4ad7b83"></a>
+<tr class="memitem:ga4ce9f1d36ef8f325a232aa8443afb63c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_relay_set_data_t</b></td></tr>
+<tr class="separator:ga4ce9f1d36ef8f325a232aa8443afb63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10dea7149826178104d24b22e64e7432"><td class="memItemLeft" ><a class="anchor" id="ga10dea7149826178104d24b22e64e7432"></a>
 struct {</td></tr>
 <tr class="memitem:a0b57aa10271a66f3dc936bba1d2f3830"><td class="memItemLeft" ><a class="anchor" id="a0b57aa10271a66f3dc936bba1d2f3830"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0b57aa10271a66f3dc936bba1d2f3830">state</a></td></tr>
@@ -474,9 +476,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1f07779eb0a80561fc82b29246730b47">retransmit_interval</a></td></tr>
 <tr class="memdesc:a1f07779eb0a80561fc82b29246730b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in milliseconds between retransmissions. <br /></td></tr>
 <tr class="separator:a1f07779eb0a80561fc82b29246730b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc711a1159759a35e0cd2413a4ad7b83"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_relay_status_data_t</b></td></tr>
-<tr class="separator:gabc711a1159759a35e0cd2413a4ad7b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1a071fe780d4858088011a9e91f2d09b"><td class="memItemLeft" ><a class="anchor" id="ga1a071fe780d4858088011a9e91f2d09b"></a>
+<tr class="memitem:ga10dea7149826178104d24b22e64e7432"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_relay_status_data_t</b></td></tr>
+<tr class="separator:ga10dea7149826178104d24b22e64e7432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8f1dababbed7b8302f4a24384aa45e8"><td class="memItemLeft" ><a class="anchor" id="gac8f1dababbed7b8302f4a24384aa45e8"></a>
 struct {</td></tr>
 <tr class="memitem:acc07a6590d5e67223bb2345a7c64060a"><td class="memItemLeft" ><a class="anchor" id="acc07a6590d5e67223bb2345a7c64060a"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acc07a6590d5e67223bb2345a7c64060a">element_addr</a></td></tr>
@@ -490,9 +492,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a345b5a533872a471f810a988b331f60c">model_id</a></td></tr>
 <tr class="memdesc:a345b5a533872a471f810a988b331f60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model ID. <br /></td></tr>
 <tr class="separator:a345b5a533872a471f810a988b331f60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1a071fe780d4858088011a9e91f2d09b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_get_data_t</b></td></tr>
-<tr class="separator:ga1a071fe780d4858088011a9e91f2d09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae5c92c1794e740adcb16219e9473fec4"><td class="memItemLeft" ><a class="anchor" id="gae5c92c1794e740adcb16219e9473fec4"></a>
+<tr class="memitem:gac8f1dababbed7b8302f4a24384aa45e8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_get_data_t</b></td></tr>
+<tr class="separator:gac8f1dababbed7b8302f4a24384aa45e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga575f91d42e7f5b05c45dba91fbc13141"><td class="memItemLeft" ><a class="anchor" id="ga575f91d42e7f5b05c45dba91fbc13141"></a>
 struct {</td></tr>
 <tr class="memitem:acc07a6590d5e67223bb2345a7c64060a"><td class="memItemLeft" ><a class="anchor" id="acc07a6590d5e67223bb2345a7c64060a"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acc07a6590d5e67223bb2345a7c64060a">element_addr</a></td></tr>
@@ -534,9 +536,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#aa397390abae9aabd32ef3ed7a782725b">publish_retransmit_interval</a></td></tr>
 <tr class="memdesc:aa397390abae9aabd32ef3ed7a782725b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in milliseconds between retransmissions. <br /></td></tr>
 <tr class="separator:aa397390abae9aabd32ef3ed7a782725b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae5c92c1794e740adcb16219e9473fec4"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_set_data_t</b></td></tr>
-<tr class="separator:gae5c92c1794e740adcb16219e9473fec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71b32082b5d3dcad09d388d597e0e08b"><td class="memItemLeft" ><a class="anchor" id="ga71b32082b5d3dcad09d388d597e0e08b"></a>
+<tr class="memitem:ga575f91d42e7f5b05c45dba91fbc13141"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_set_data_t</b></td></tr>
+<tr class="separator:ga575f91d42e7f5b05c45dba91fbc13141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75abaf7b9d6fb0350fc21c3b194cace5"><td class="memItemLeft" ><a class="anchor" id="ga75abaf7b9d6fb0350fc21c3b194cace5"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -582,9 +584,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#aa397390abae9aabd32ef3ed7a782725b">publish_retransmit_interval</a></td></tr>
 <tr class="memdesc:aa397390abae9aabd32ef3ed7a782725b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in milliseconds between retransmissions. <br /></td></tr>
 <tr class="separator:aa397390abae9aabd32ef3ed7a782725b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga71b32082b5d3dcad09d388d597e0e08b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_status_data_t</b></td></tr>
-<tr class="separator:ga71b32082b5d3dcad09d388d597e0e08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69874c6cd261cc6b545bfc538d60ef95"><td class="memItemLeft" ><a class="anchor" id="ga69874c6cd261cc6b545bfc538d60ef95"></a>
+<tr class="memitem:ga75abaf7b9d6fb0350fc21c3b194cace5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_publication_status_data_t</b></td></tr>
+<tr class="separator:ga75abaf7b9d6fb0350fc21c3b194cace5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43c2b7a24dfc28cdb85fcc44624150e0"><td class="memItemLeft" ><a class="anchor" id="ga43c2b7a24dfc28cdb85fcc44624150e0"></a>
 struct {</td></tr>
 <tr class="memitem:a97d486d6926f9137837e1d8ecf0bbfdd"><td class="memItemLeft" ><a class="anchor" id="a97d486d6926f9137837e1d8ecf0bbfdd"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd">operation</a></td></tr>
@@ -606,9 +608,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a> [16]</td></tr>
 <tr class="memdesc:a7226b06ac3577cd90f4e87b100635cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Address. <br /></td></tr>
 <tr class="separator:a7226b06ac3577cd90f4e87b100635cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69874c6cd261cc6b545bfc538d60ef95"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_change_data_t</b></td></tr>
-<tr class="separator:ga69874c6cd261cc6b545bfc538d60ef95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga31859c2081398dd69cf6e975e8e53bde"><td class="memItemLeft" ><a class="anchor" id="ga31859c2081398dd69cf6e975e8e53bde"></a>
+<tr class="memitem:ga43c2b7a24dfc28cdb85fcc44624150e0"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_change_data_t</b></td></tr>
+<tr class="separator:ga43c2b7a24dfc28cdb85fcc44624150e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadda9490ad84b7fd432aee0c84333ed86"><td class="memItemLeft" ><a class="anchor" id="gadda9490ad84b7fd432aee0c84333ed86"></a>
 struct {</td></tr>
 <tr class="memitem:acc07a6590d5e67223bb2345a7c64060a"><td class="memItemLeft" ><a class="anchor" id="acc07a6590d5e67223bb2345a7c64060a"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acc07a6590d5e67223bb2345a7c64060a">element_addr</a></td></tr>
@@ -622,9 +624,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a345b5a533872a471f810a988b331f60c">model_id</a></td></tr>
 <tr class="memdesc:a345b5a533872a471f810a988b331f60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model ID. <br /></td></tr>
 <tr class="separator:a345b5a533872a471f810a988b331f60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga31859c2081398dd69cf6e975e8e53bde"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_get_data_t</b></td></tr>
-<tr class="separator:ga31859c2081398dd69cf6e975e8e53bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb4758e388ca1ccaee7bef61fd83b508"><td class="memItemLeft" ><a class="anchor" id="gadb4758e388ca1ccaee7bef61fd83b508"></a>
+<tr class="memitem:gadda9490ad84b7fd432aee0c84333ed86"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_get_data_t</b></td></tr>
+<tr class="separator:gadda9490ad84b7fd432aee0c84333ed86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab298c4b52ff71fe4ea763b7fe48ba34b"><td class="memItemLeft" ><a class="anchor" id="gab298c4b52ff71fe4ea763b7fe48ba34b"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -646,9 +648,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a></td></tr>
 <tr class="memdesc:a41a6aad09727eb120338c35535a652a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the address. <br /></td></tr>
 <tr class="separator:a41a6aad09727eb120338c35535a652a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb4758e388ca1ccaee7bef61fd83b508"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_status_data_t</b></td></tr>
-<tr class="separator:gadb4758e388ca1ccaee7bef61fd83b508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0fc46fbe8176c4b075ac255424266cfc"><td class="memItemLeft" ><a class="anchor" id="ga0fc46fbe8176c4b075ac255424266cfc"></a>
+<tr class="memitem:gab298c4b52ff71fe4ea763b7fe48ba34b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_status_data_t</b></td></tr>
+<tr class="separator:gab298c4b52ff71fe4ea763b7fe48ba34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee0275ff779312c91822a4614cd4af34"><td class="memItemLeft" ><a class="anchor" id="gaee0275ff779312c91822a4614cd4af34"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -674,9 +676,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a> [1]</td></tr>
 <tr class="memdesc:a4125236e4683dd508a6d8aa358742708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the first address. <br /></td></tr>
 <tr class="separator:a4125236e4683dd508a6d8aa358742708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0fc46fbe8176c4b075ac255424266cfc"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_list_data_t</b></td></tr>
-<tr class="separator:ga0fc46fbe8176c4b075ac255424266cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacedb80aa1cc9dd04e1b0a1b46dac901c"><td class="memItemLeft" ><a class="anchor" id="gacedb80aa1cc9dd04e1b0a1b46dac901c"></a>
+<tr class="memitem:gaee0275ff779312c91822a4614cd4af34"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_subscription_list_data_t</b></td></tr>
+<tr class="separator:gaee0275ff779312c91822a4614cd4af34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84f2008856a3d076c60ec14e645f11fe"><td class="memItemLeft" ><a class="anchor" id="ga84f2008856a3d076c60ec14e645f11fe"></a>
 struct {</td></tr>
 <tr class="memitem:a97d486d6926f9137837e1d8ecf0bbfdd"><td class="memItemLeft" ><a class="anchor" id="a97d486d6926f9137837e1d8ecf0bbfdd"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd">operation</a></td></tr>
@@ -690,9 +692,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ac0a0da17bfeb5fbc3542fd841ee4cc50">net_key</a> [16]</td></tr>
 <tr class="memdesc:ac0a0da17bfeb5fbc3542fd841ee4cc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the NetKey. <br /></td></tr>
 <tr class="separator:ac0a0da17bfeb5fbc3542fd841ee4cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacedb80aa1cc9dd04e1b0a1b46dac901c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_change_data_t</b></td></tr>
-<tr class="separator:gacedb80aa1cc9dd04e1b0a1b46dac901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b1087610f0f3744189a0a06c163bcf7"><td class="memItemLeft" ><a class="anchor" id="ga6b1087610f0f3744189a0a06c163bcf7"></a>
+<tr class="memitem:ga84f2008856a3d076c60ec14e645f11fe"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_change_data_t</b></td></tr>
+<tr class="separator:ga84f2008856a3d076c60ec14e645f11fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga790569d596bc2f4532eb529da40b4397"><td class="memItemLeft" ><a class="anchor" id="ga790569d596bc2f4532eb529da40b4397"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -702,9 +704,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the NetKey. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b1087610f0f3744189a0a06c163bcf7"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_status_data_t</b></td></tr>
-<tr class="separator:ga6b1087610f0f3744189a0a06c163bcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7937e908320d9079504b5388330d1e79"><td class="memItemLeft" ><a class="anchor" id="ga7937e908320d9079504b5388330d1e79"></a>
+<tr class="memitem:ga790569d596bc2f4532eb529da40b4397"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_status_data_t</b></td></tr>
+<tr class="separator:ga790569d596bc2f4532eb529da40b4397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4fb1a5388280d9786a8ef38f80622a06"><td class="memItemLeft" ><a class="anchor" id="ga4fb1a5388280d9786a8ef38f80622a06"></a>
 struct {</td></tr>
 <tr class="memitem:a2fc969948626eb680f5e663ec9939d9c"><td class="memItemLeft" ><a class="anchor" id="a2fc969948626eb680f5e663ec9939d9c"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a2fc969948626eb680f5e663ec9939d9c">num_keys</a></td></tr>
@@ -714,9 +716,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a> [1]</td></tr>
 <tr class="memdesc:a56e9b1a87694a58555fd3ac85cf48f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the netkey index. <br /></td></tr>
 <tr class="separator:a56e9b1a87694a58555fd3ac85cf48f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7937e908320d9079504b5388330d1e79"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_list_data_t</b></td></tr>
-<tr class="separator:ga7937e908320d9079504b5388330d1e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebbe9efa6e78e6f6dcdfbeb1530167ba"><td class="memItemLeft" ><a class="anchor" id="gaebbe9efa6e78e6f6dcdfbeb1530167ba"></a>
+<tr class="memitem:ga4fb1a5388280d9786a8ef38f80622a06"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_netkey_list_data_t</b></td></tr>
+<tr class="separator:ga4fb1a5388280d9786a8ef38f80622a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc32aaaacc4c9f4956b6703b9192b174"><td class="memItemLeft" ><a class="anchor" id="gacc32aaaacc4c9f4956b6703b9192b174"></a>
 struct {</td></tr>
 <tr class="memitem:a97d486d6926f9137837e1d8ecf0bbfdd"><td class="memItemLeft" ><a class="anchor" id="a97d486d6926f9137837e1d8ecf0bbfdd"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd">operation</a></td></tr>
@@ -734,17 +736,17 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a421c87fe62d52b4ff65d8ff02deb18fe">app_key</a> [16]</td></tr>
 <tr class="memdesc:a421c87fe62d52b4ff65d8ff02deb18fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the NetKey. <br /></td></tr>
 <tr class="separator:a421c87fe62d52b4ff65d8ff02deb18fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebbe9efa6e78e6f6dcdfbeb1530167ba"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_change_data_t</b></td></tr>
-<tr class="separator:gaebbe9efa6e78e6f6dcdfbeb1530167ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae16a6bcd881321398a5defd94d5d0a84"><td class="memItemLeft" ><a class="anchor" id="gae16a6bcd881321398a5defd94d5d0a84"></a>
+<tr class="memitem:gacc32aaaacc4c9f4956b6703b9192b174"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_change_data_t</b></td></tr>
+<tr class="separator:gacc32aaaacc4c9f4956b6703b9192b174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87b8c8ccaf9d6491135b2ad3224858e4"><td class="memItemLeft" ><a class="anchor" id="ga87b8c8ccaf9d6491135b2ad3224858e4"></a>
 struct {</td></tr>
 <tr class="memitem:a88c79cd52cb7992eefd326dbdc584a64"><td class="memItemLeft" ><a class="anchor" id="a88c79cd52cb7992eefd326dbdc584a64"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">NetKey Index. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae16a6bcd881321398a5defd94d5d0a84"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_get_data_t</b></td></tr>
-<tr class="separator:gae16a6bcd881321398a5defd94d5d0a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed0731266fd788856fb1e7cab7f6b6fa"><td class="memItemLeft" ><a class="anchor" id="gaed0731266fd788856fb1e7cab7f6b6fa"></a>
+<tr class="memitem:ga87b8c8ccaf9d6491135b2ad3224858e4"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_get_data_t</b></td></tr>
+<tr class="separator:ga87b8c8ccaf9d6491135b2ad3224858e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89bbf5f320978a4cfdef0cb8eb84796c"><td class="memItemLeft" ><a class="anchor" id="ga89bbf5f320978a4cfdef0cb8eb84796c"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -758,9 +760,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
 <tr class="memdesc:a65ecdf93f477372c38b29a69e896d6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the AppKey. <br /></td></tr>
 <tr class="separator:a65ecdf93f477372c38b29a69e896d6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed0731266fd788856fb1e7cab7f6b6fa"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_status_data_t</b></td></tr>
-<tr class="separator:gaed0731266fd788856fb1e7cab7f6b6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga210b079f2010956409be079bf7bc35bf"><td class="memItemLeft" ><a class="anchor" id="ga210b079f2010956409be079bf7bc35bf"></a>
+<tr class="memitem:ga89bbf5f320978a4cfdef0cb8eb84796c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_status_data_t</b></td></tr>
+<tr class="separator:ga89bbf5f320978a4cfdef0cb8eb84796c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga267cd7b22d5bc9fb5a8543526c52bd31"><td class="memItemLeft" ><a class="anchor" id="ga267cd7b22d5bc9fb5a8543526c52bd31"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -778,9 +780,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a> [1]</td></tr>
 <tr class="memdesc:a9cc55d49215e4dad3622efcc361d6a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Appkey indexes. <br /></td></tr>
 <tr class="separator:a9cc55d49215e4dad3622efcc361d6a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga210b079f2010956409be079bf7bc35bf"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_list_data_t</b></td></tr>
-<tr class="separator:ga210b079f2010956409be079bf7bc35bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga409c16952e867950e2253cdd8d657bba"><td class="memItemLeft" ><a class="anchor" id="ga409c16952e867950e2253cdd8d657bba"></a>
+<tr class="memitem:ga267cd7b22d5bc9fb5a8543526c52bd31"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_appkey_list_data_t</b></td></tr>
+<tr class="separator:ga267cd7b22d5bc9fb5a8543526c52bd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e14f8f88cbb28eb5ec233d51fa8d173"><td class="memItemLeft" ><a class="anchor" id="ga1e14f8f88cbb28eb5ec233d51fa8d173"></a>
 struct {</td></tr>
 <tr class="memitem:a97d486d6926f9137837e1d8ecf0bbfdd"><td class="memItemLeft" ><a class="anchor" id="a97d486d6926f9137837e1d8ecf0bbfdd"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd">operation</a></td></tr>
@@ -802,9 +804,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
 <tr class="memdesc:a65ecdf93f477372c38b29a69e896d6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">AppKey Index. <br /></td></tr>
 <tr class="separator:a65ecdf93f477372c38b29a69e896d6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga409c16952e867950e2253cdd8d657bba"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_bind_data_t</b></td></tr>
-<tr class="separator:ga409c16952e867950e2253cdd8d657bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1c62677a7669f2e511a53c8da573e0a"><td class="memItemLeft" ><a class="anchor" id="gac1c62677a7669f2e511a53c8da573e0a"></a>
+<tr class="memitem:ga1e14f8f88cbb28eb5ec233d51fa8d173"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_bind_data_t</b></td></tr>
+<tr class="separator:ga1e14f8f88cbb28eb5ec233d51fa8d173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad57f79ece1afb5e892911184b4545e94"><td class="memItemLeft" ><a class="anchor" id="gad57f79ece1afb5e892911184b4545e94"></a>
 struct {</td></tr>
 <tr class="memitem:acc07a6590d5e67223bb2345a7c64060a"><td class="memItemLeft" ><a class="anchor" id="acc07a6590d5e67223bb2345a7c64060a"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acc07a6590d5e67223bb2345a7c64060a">element_addr</a></td></tr>
@@ -818,9 +820,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a345b5a533872a471f810a988b331f60c">model_id</a></td></tr>
 <tr class="memdesc:a345b5a533872a471f810a988b331f60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model ID. <br /></td></tr>
 <tr class="separator:a345b5a533872a471f810a988b331f60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1c62677a7669f2e511a53c8da573e0a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_get_data_t</b></td></tr>
-<tr class="separator:gac1c62677a7669f2e511a53c8da573e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa0c8de76a26148d5ebf617c44f19731a"><td class="memItemLeft" ><a class="anchor" id="gaa0c8de76a26148d5ebf617c44f19731a"></a>
+<tr class="memitem:gad57f79ece1afb5e892911184b4545e94"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_get_data_t</b></td></tr>
+<tr class="separator:gad57f79ece1afb5e892911184b4545e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34f2a47bfa00e9e4cd324629904257a6"><td class="memItemLeft" ><a class="anchor" id="ga34f2a47bfa00e9e4cd324629904257a6"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -842,9 +844,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
 <tr class="memdesc:a65ecdf93f477372c38b29a69e896d6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">AppKey Index. <br /></td></tr>
 <tr class="separator:a65ecdf93f477372c38b29a69e896d6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa0c8de76a26148d5ebf617c44f19731a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_bind_status_data_t</b></td></tr>
-<tr class="separator:gaa0c8de76a26148d5ebf617c44f19731a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cdca14193c119296c7aa72042108f0a"><td class="memItemLeft" ><a class="anchor" id="ga0cdca14193c119296c7aa72042108f0a"></a>
+<tr class="memitem:ga34f2a47bfa00e9e4cd324629904257a6"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_bind_status_data_t</b></td></tr>
+<tr class="separator:ga34f2a47bfa00e9e4cd324629904257a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae690f07fd7ccb2b058facb50f91d5e9e"><td class="memItemLeft" ><a class="anchor" id="gae690f07fd7ccb2b058facb50f91d5e9e"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -870,9 +872,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a> [1]</td></tr>
 <tr class="memdesc:a9cc55d49215e4dad3622efcc361d6a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the model_app indexes. <br /></td></tr>
 <tr class="separator:a9cc55d49215e4dad3622efcc361d6a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cdca14193c119296c7aa72042108f0a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_list_data_t</b></td></tr>
-<tr class="separator:ga0cdca14193c119296c7aa72042108f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga57864c7e9b3adc372c9caa185c55a9a2"><td class="memItemLeft" ><a class="anchor" id="ga57864c7e9b3adc372c9caa185c55a9a2"></a>
+<tr class="memitem:gae690f07fd7ccb2b058facb50f91d5e9e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_model_app_list_data_t</b></td></tr>
+<tr class="separator:gae690f07fd7ccb2b058facb50f91d5e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4eb1728deae385e9bc174ea6326cf675"><td class="memItemLeft" ><a class="anchor" id="ga4eb1728deae385e9bc174ea6326cf675"></a>
 struct {</td></tr>
 <tr class="memitem:abdb25224e80c12cc955628fdc60c3475"><td class="memItemLeft" ><a class="anchor" id="abdb25224e80c12cc955628fdc60c3475"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#abdb25224e80c12cc955628fdc60c3475">subscription_src</a></td></tr>
@@ -886,9 +888,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a81b43df06332b4fef558297592bb7ff1">period</a></td></tr>
 <tr class="memdesc:a81b43df06332b4fef558297592bb7ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Period in seconds for receiving Heartbeat messages. <br /></td></tr>
 <tr class="separator:a81b43df06332b4fef558297592bb7ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga57864c7e9b3adc372c9caa185c55a9a2"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_subscription_set_data_t</b></td></tr>
-<tr class="separator:ga57864c7e9b3adc372c9caa185c55a9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27c88b97f83ac3c2e202fccf3d4d9db8"><td class="memItemLeft" ><a class="anchor" id="ga27c88b97f83ac3c2e202fccf3d4d9db8"></a>
+<tr class="memitem:ga4eb1728deae385e9bc174ea6326cf675"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_subscription_set_data_t</b></td></tr>
+<tr class="separator:ga4eb1728deae385e9bc174ea6326cf675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfd7797f0d18ba281536501eac7057a9"><td class="memItemLeft" ><a class="anchor" id="gadfd7797f0d18ba281536501eac7057a9"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -918,9 +920,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a9a938c45a1efdb4e533be26a56a37024">max_hops</a></td></tr>
 <tr class="memdesc:a9a938c45a1efdb4e533be26a56a37024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum hops when receiving Heartbeat messages. <br /></td></tr>
 <tr class="separator:a9a938c45a1efdb4e533be26a56a37024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27c88b97f83ac3c2e202fccf3d4d9db8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_subscription_status_data_t</b></td></tr>
-<tr class="separator:ga27c88b97f83ac3c2e202fccf3d4d9db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad74526cffc54a4db1c79d2418687d121"><td class="memItemLeft" ><a class="anchor" id="gad74526cffc54a4db1c79d2418687d121"></a>
+<tr class="memitem:gadfd7797f0d18ba281536501eac7057a9"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_subscription_status_data_t</b></td></tr>
+<tr class="separator:gadfd7797f0d18ba281536501eac7057a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d80f39da8d3d1d331e5c1642b9d8ca3"><td class="memItemLeft" ><a class="anchor" id="ga0d80f39da8d3d1d331e5c1642b9d8ca3"></a>
 struct {</td></tr>
 <tr class="memitem:a834830f4861b4307a85bed6f748ccf2c"><td class="memItemLeft" ><a class="anchor" id="a834830f4861b4307a85bed6f748ccf2c"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a834830f4861b4307a85bed6f748ccf2c">publication_dst</a></td></tr>
@@ -958,9 +960,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">NetKey Index. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad74526cffc54a4db1c79d2418687d121"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_publication_set_data_t</b></td></tr>
-<tr class="separator:gad74526cffc54a4db1c79d2418687d121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb341bb2c1dd6c06a618dffb28f9da60"><td class="memItemLeft" ><a class="anchor" id="gaeb341bb2c1dd6c06a618dffb28f9da60"></a>
+<tr class="memitem:ga0d80f39da8d3d1d331e5c1642b9d8ca3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_publication_set_data_t</b></td></tr>
+<tr class="separator:ga0d80f39da8d3d1d331e5c1642b9d8ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf7bfe848863e2de7eaa98b946066f97f"><td class="memItemLeft" ><a class="anchor" id="gaf7bfe848863e2de7eaa98b946066f97f"></a>
 struct {</td></tr>
 <tr class="memitem:ade818037fd6c985038ff29656089758d"><td class="memItemLeft" ><a class="anchor" id="ade818037fd6c985038ff29656089758d"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a></td></tr>
@@ -1002,9 +1004,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a></td></tr>
 <tr class="memdesc:a88c79cd52cb7992eefd326dbdc584a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">NetKey Index. <br /></td></tr>
 <tr class="separator:a88c79cd52cb7992eefd326dbdc584a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb341bb2c1dd6c06a618dffb28f9da60"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_publication_status_data_t</b></td></tr>
-<tr class="separator:gaeb341bb2c1dd6c06a618dffb28f9da60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga00d2db8294194d1e75797c5a566d06ff"><td class="memItemLeft" ><a class="anchor" id="ga00d2db8294194d1e75797c5a566d06ff"></a>
+<tr class="memitem:gaf7bfe848863e2de7eaa98b946066f97f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_heartbeat_publication_status_data_t</b></td></tr>
+<tr class="separator:gaf7bfe848863e2de7eaa98b946066f97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeba90434b9d8f342b532f257b4037df3"><td class="memItemLeft" ><a class="anchor" id="gaeba90434b9d8f342b532f257b4037df3"></a>
 struct {</td></tr>
 <tr class="memitem:a20302e2c99a60d3f612dba57e3f6333b"><td class="memItemLeft" ><a class="anchor" id="a20302e2c99a60d3f612dba57e3f6333b"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a20302e2c99a60d3f612dba57e3f6333b">count</a></td></tr>
@@ -1014,9 +1016,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acd9ed1ccc44de55e1d3eff5569663695">interval</a></td></tr>
 <tr class="memdesc:a6c52a3d605c056768b59164ce8df8334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval between transmissions in milliseconds. <br /></td></tr>
 <tr class="separator:a6c52a3d605c056768b59164ce8df8334"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga00d2db8294194d1e75797c5a566d06ff"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_network_transmit_set_data_t</b></td></tr>
-<tr class="separator:ga00d2db8294194d1e75797c5a566d06ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga60307dba5e3da2785ccaa1f1a9820ce5"><td class="memItemLeft" ><a class="anchor" id="ga60307dba5e3da2785ccaa1f1a9820ce5"></a>
+<tr class="memitem:gaeba90434b9d8f342b532f257b4037df3"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_network_transmit_set_data_t</b></td></tr>
+<tr class="separator:gaeba90434b9d8f342b532f257b4037df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f47186b10da05a5562eac3112f45a4b"><td class="memItemLeft" ><a class="anchor" id="ga0f47186b10da05a5562eac3112f45a4b"></a>
 struct {</td></tr>
 <tr class="memitem:a20302e2c99a60d3f612dba57e3f6333b"><td class="memItemLeft" ><a class="anchor" id="a20302e2c99a60d3f612dba57e3f6333b"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a20302e2c99a60d3f612dba57e3f6333b">count</a></td></tr>
@@ -1026,9 +1028,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#acd9ed1ccc44de55e1d3eff5569663695">interval</a></td></tr>
 <tr class="memdesc:acd9ed1ccc44de55e1d3eff5569663695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval between transmissions in milliseconds. <br /></td></tr>
 <tr class="separator:acd9ed1ccc44de55e1d3eff5569663695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga60307dba5e3da2785ccaa1f1a9820ce5"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_network_transmit_status_data_t</b></td></tr>
-<tr class="separator:ga60307dba5e3da2785ccaa1f1a9820ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga147bbfec8f583c2a9b884106fe911074"><td class="memItemLeft" ><a class="anchor" id="ga147bbfec8f583c2a9b884106fe911074"></a>
+<tr class="memitem:ga0f47186b10da05a5562eac3112f45a4b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_config_network_transmit_status_data_t</b></td></tr>
+<tr class="separator:ga0f47186b10da05a5562eac3112f45a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ca668f90a4c2ab87b5e154a9ab03621"><td class="memItemLeft" ><a class="anchor" id="ga0ca668f90a4c2ab87b5e154a9ab03621"></a>
 struct {</td></tr>
 <tr class="memitem:a65ecdf93f477372c38b29a69e896d6ba"><td class="memItemLeft" ><a class="anchor" id="a65ecdf93f477372c38b29a69e896d6ba"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
@@ -1050,25 +1052,25 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ca457289efd9569638be2041063b47e">fault_array</a> [10]</td></tr>
 <tr class="memdesc:a0ca457289efd9569638be2041063b47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a sequence of 1-octet fault values <br /></td></tr>
 <tr class="separator:a0ca457289efd9569638be2041063b47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga147bbfec8f583c2a9b884106fe911074"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_status_data_t</b></td></tr>
-<tr class="separator:ga147bbfec8f583c2a9b884106fe911074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e2a093ed97985e2cc23a5d7588273df"><td class="memItemLeft" ><a class="anchor" id="ga6e2a093ed97985e2cc23a5d7588273df"></a>
+<tr class="memitem:ga0ca668f90a4c2ab87b5e154a9ab03621"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_status_data_t</b></td></tr>
+<tr class="separator:ga0ca668f90a4c2ab87b5e154a9ab03621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b68b1e66d26cf51e89cd1c484868d0f"><td class="memItemLeft" ><a class="anchor" id="ga4b68b1e66d26cf51e89cd1c484868d0f"></a>
 struct {</td></tr>
 <tr class="memitem:a685ae33c442d30cc507fa5415f536e74"><td class="memItemLeft" ><a class="anchor" id="a685ae33c442d30cc507fa5415f536e74"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a685ae33c442d30cc507fa5415f536e74">company_id</a></td></tr>
 <tr class="memdesc:a685ae33c442d30cc507fa5415f536e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit Bluetooth assigned Company Identifier <br /></td></tr>
 <tr class="separator:a685ae33c442d30cc507fa5415f536e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e2a093ed97985e2cc23a5d7588273df"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_get_data_t</b></td></tr>
-<tr class="separator:ga6e2a093ed97985e2cc23a5d7588273df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2ef8abbe7262b5d6d60da5db9f81fec"><td class="memItemLeft" ><a class="anchor" id="gab2ef8abbe7262b5d6d60da5db9f81fec"></a>
+<tr class="memitem:ga4b68b1e66d26cf51e89cd1c484868d0f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_get_data_t</b></td></tr>
+<tr class="separator:ga4b68b1e66d26cf51e89cd1c484868d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5dfb8faf6e8f5626539e82d4342831be"><td class="memItemLeft" ><a class="anchor" id="ga5dfb8faf6e8f5626539e82d4342831be"></a>
 struct {</td></tr>
 <tr class="memitem:a685ae33c442d30cc507fa5415f536e74"><td class="memItemLeft" ><a class="anchor" id="a685ae33c442d30cc507fa5415f536e74"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a685ae33c442d30cc507fa5415f536e74">company_id</a></td></tr>
 <tr class="memdesc:a685ae33c442d30cc507fa5415f536e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit Bluetooth assigned Company Identifier <br /></td></tr>
 <tr class="separator:a685ae33c442d30cc507fa5415f536e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2ef8abbe7262b5d6d60da5db9f81fec"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_clear_data_t</b></td></tr>
-<tr class="separator:gab2ef8abbe7262b5d6d60da5db9f81fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad51d7933e3d11886eebb2dcd65489d83"><td class="memItemLeft" ><a class="anchor" id="gad51d7933e3d11886eebb2dcd65489d83"></a>
+<tr class="memitem:ga5dfb8faf6e8f5626539e82d4342831be"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_clear_data_t</b></td></tr>
+<tr class="separator:ga5dfb8faf6e8f5626539e82d4342831be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6c5f9abf8ea5a714ab545f94b602cfd"><td class="memItemLeft" ><a class="anchor" id="gaa6c5f9abf8ea5a714ab545f94b602cfd"></a>
 struct {</td></tr>
 <tr class="memitem:a1e6927fa1486224044e568f9c370519b"><td class="memItemLeft" ><a class="anchor" id="a1e6927fa1486224044e568f9c370519b"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a></td></tr>
@@ -1078,9 +1080,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a685ae33c442d30cc507fa5415f536e74">company_id</a></td></tr>
 <tr class="memdesc:a685ae33c442d30cc507fa5415f536e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-bit Bluetooth assigned Company Identifier <br /></td></tr>
 <tr class="separator:a685ae33c442d30cc507fa5415f536e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad51d7933e3d11886eebb2dcd65489d83"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_test_data_t</b></td></tr>
-<tr class="separator:gad51d7933e3d11886eebb2dcd65489d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0e7d25ad36207b427121e0b9df8c33f"><td class="memItemLeft" ><a class="anchor" id="gae0e7d25ad36207b427121e0b9df8c33f"></a>
+<tr class="memitem:gaa6c5f9abf8ea5a714ab545f94b602cfd"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_test_data_t</b></td></tr>
+<tr class="separator:gaa6c5f9abf8ea5a714ab545f94b602cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1931f7e6ddf29f77b54dd5223e42277f"><td class="memItemLeft" ><a class="anchor" id="ga1931f7e6ddf29f77b54dd5223e42277f"></a>
 struct {</td></tr>
 <tr class="memitem:a65ecdf93f477372c38b29a69e896d6ba"><td class="memItemLeft" ><a class="anchor" id="a65ecdf93f477372c38b29a69e896d6ba"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
@@ -1102,16 +1104,16 @@ struct {</td></tr>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ca457289efd9569638be2041063b47e">fault_array</a> [10]</td></tr>
 <tr class="memdesc:a0ca457289efd9569638be2041063b47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a sequence of 1-octet fault values <br /></td></tr>
 <tr class="separator:a0ca457289efd9569638be2041063b47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0e7d25ad36207b427121e0b9df8c33f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_status_data_t</b></td></tr>
-<tr class="separator:gae0e7d25ad36207b427121e0b9df8c33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a60ba388af4f39536da4d4f7b75e504"><td class="memItemLeft" ><a class="anchor" id="ga5a60ba388af4f39536da4d4f7b75e504"></a>
+<tr class="memitem:ga1931f7e6ddf29f77b54dd5223e42277f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_fault_status_data_t</b></td></tr>
+<tr class="separator:ga1931f7e6ddf29f77b54dd5223e42277f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac956f55d38f936515b5304a0a0f08d6a"><td class="memItemLeft" ><a class="anchor" id="gac956f55d38f936515b5304a0a0f08d6a"></a>
 struct {</td></tr>
 <tr class="memitem:aa9a5ca7f789545806df82f0ea0cae53e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#aa9a5ca7f789545806df82f0ea0cae53e">divisor</a></td></tr>
 <tr class="memdesc:aa9a5ca7f789545806df82f0ea0cae53e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divider for the Publish Period.  <a href="#aa9a5ca7f789545806df82f0ea0cae53e">More...</a><br /></td></tr>
 <tr class="separator:aa9a5ca7f789545806df82f0ea0cae53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a60ba388af4f39536da4d4f7b75e504"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_period_set_data_t</b></td></tr>
-<tr class="separator:ga5a60ba388af4f39536da4d4f7b75e504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed47f23154437dfbd5980494b371c206"><td class="memItemLeft" ><a class="anchor" id="gaed47f23154437dfbd5980494b371c206"></a>
+<tr class="memitem:gac956f55d38f936515b5304a0a0f08d6a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_period_set_data_t</b></td></tr>
+<tr class="separator:gac956f55d38f936515b5304a0a0f08d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga443ae832366edc6c2688f588f191aabb"><td class="memItemLeft" ><a class="anchor" id="ga443ae832366edc6c2688f588f191aabb"></a>
 struct {</td></tr>
 <tr class="memitem:a65ecdf93f477372c38b29a69e896d6ba"><td class="memItemLeft" ><a class="anchor" id="a65ecdf93f477372c38b29a69e896d6ba"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a></td></tr>
@@ -1120,33 +1122,33 @@ struct {</td></tr>
 <tr class="memitem:aa9a5ca7f789545806df82f0ea0cae53e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#aa9a5ca7f789545806df82f0ea0cae53e">divisor</a></td></tr>
 <tr class="memdesc:aa9a5ca7f789545806df82f0ea0cae53e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divider for the Publish Period.  <a href="#aa9a5ca7f789545806df82f0ea0cae53e">More...</a><br /></td></tr>
 <tr class="separator:aa9a5ca7f789545806df82f0ea0cae53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed47f23154437dfbd5980494b371c206"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_period_status_data_t</b></td></tr>
-<tr class="separator:gaed47f23154437dfbd5980494b371c206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf3b8a0572f499d941cda88ee7f659506"><td class="memItemLeft" ><a class="anchor" id="gaf3b8a0572f499d941cda88ee7f659506"></a>
+<tr class="memitem:ga443ae832366edc6c2688f588f191aabb"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_period_status_data_t</b></td></tr>
+<tr class="separator:ga443ae832366edc6c2688f588f191aabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1780910fd3252c3cdb8640f230791e7d"><td class="memItemLeft" ><a class="anchor" id="ga1780910fd3252c3cdb8640f230791e7d"></a>
 struct {</td></tr>
 <tr class="memitem:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="memItemLeft" ><a class="anchor" id="a0ff73b1428e9cd11a4f7a6cf46b7b550"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a></td></tr>
 <tr class="memdesc:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Attention Timer state. <br /></td></tr>
 <tr class="separator:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf3b8a0572f499d941cda88ee7f659506"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_attention_set_data_t</b></td></tr>
-<tr class="separator:gaf3b8a0572f499d941cda88ee7f659506"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaece460ad432768a8b6d4256ba5a97194"><td class="memItemLeft" ><a class="anchor" id="gaece460ad432768a8b6d4256ba5a97194"></a>
+<tr class="memitem:ga1780910fd3252c3cdb8640f230791e7d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_attention_set_data_t</b></td></tr>
+<tr class="separator:ga1780910fd3252c3cdb8640f230791e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ceb480bb06a9c5c6e986b3ad16b6a3c"><td class="memItemLeft" ><a class="anchor" id="ga0ceb480bb06a9c5c6e986b3ad16b6a3c"></a>
 struct {</td></tr>
 <tr class="memitem:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="memItemLeft" ><a class="anchor" id="a0ff73b1428e9cd11a4f7a6cf46b7b550"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a></td></tr>
 <tr class="memdesc:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the Attention Timer state. <br /></td></tr>
 <tr class="separator:a0ff73b1428e9cd11a4f7a6cf46b7b550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaece460ad432768a8b6d4256ba5a97194"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_attention_status_data_t</b></td></tr>
-<tr class="separator:gaece460ad432768a8b6d4256ba5a97194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga10843ff08098ea185fb3a12e6d934d53"><td class="memItemLeft" ><a class="anchor" id="ga10843ff08098ea185fb3a12e6d934d53"></a>
+<tr class="memitem:ga0ceb480bb06a9c5c6e986b3ad16b6a3c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_health_attention_status_data_t</b></td></tr>
+<tr class="separator:ga0ceb480bb06a9c5c6e986b3ad16b6a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb11e7aab3f5b99e6bb3a9b8e27ab400"><td class="memItemLeft" ><a class="anchor" id="gadb11e7aab3f5b99e6bb3a9b8e27ab400"></a>
 struct {</td></tr>
 <tr class="memitem:ab3371dec7376470768bacb36c432e7be"><td class="memItemLeft" ><a class="anchor" id="ab3371dec7376470768bacb36c432e7be"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ab3371dec7376470768bacb36c432e7be">lpn_addr</a></td></tr>
 <tr class="memdesc:ab3371dec7376470768bacb36c432e7be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unicast address of the Low Power node. <br /></td></tr>
 <tr class="separator:ab3371dec7376470768bacb36c432e7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga10843ff08098ea185fb3a12e6d934d53"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_lpn_poll_timeout_get_data_t</b></td></tr>
-<tr class="separator:ga10843ff08098ea185fb3a12e6d934d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5593237b324ef3337777c9fecbfb1d9a"><td class="memItemLeft" ><a class="anchor" id="ga5593237b324ef3337777c9fecbfb1d9a"></a>
+<tr class="memitem:gadb11e7aab3f5b99e6bb3a9b8e27ab400"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_lpn_poll_timeout_get_data_t</b></td></tr>
+<tr class="separator:gadb11e7aab3f5b99e6bb3a9b8e27ab400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41cd8768d42c60df661b300edd1967fb"><td class="memItemLeft" ><a class="anchor" id="ga41cd8768d42c60df661b300edd1967fb"></a>
 struct {</td></tr>
 <tr class="memitem:ab3371dec7376470768bacb36c432e7be"><td class="memItemLeft" ><a class="anchor" id="ab3371dec7376470768bacb36c432e7be"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ab3371dec7376470768bacb36c432e7be">lpn_addr</a></td></tr>
@@ -1156,16 +1158,16 @@ struct {</td></tr>
 &#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a33e1fb7c2a245d6e65047d9811ab6952">poll_timeout</a></td></tr>
 <tr class="memdesc:a33e1fb7c2a245d6e65047d9811ab6952"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current value of the PollTimeout timer of the Low Power node. <br /></td></tr>
 <tr class="separator:a33e1fb7c2a245d6e65047d9811ab6952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5593237b324ef3337777c9fecbfb1d9a"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_lpn_poll_timeout_status_data_t</b></td></tr>
-<tr class="separator:ga5593237b324ef3337777c9fecbfb1d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a7c6289edae317cf66859ced8379315"><td class="memItemLeft" ><a class="anchor" id="ga2a7c6289edae317cf66859ced8379315"></a>
+<tr class="memitem:ga41cd8768d42c60df661b300edd1967fb"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_lpn_poll_timeout_status_data_t</b></td></tr>
+<tr class="separator:ga41cd8768d42c60df661b300edd1967fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a13b3329bf15a93d56625cbc6968e37"><td class="memItemLeft" ><a class="anchor" id="ga4a13b3329bf15a93d56625cbc6968e37"></a>
 struct {</td></tr>
 <tr class="memitem:a1d127017fb298b889f4ba24752d08b8e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a></td></tr>
 <tr class="memdesc:a1d127017fb298b889f4ba24752d08b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The proxy filter type (0-accept list, 1-reject list).  <a href="#a1d127017fb298b889f4ba24752d08b8e">More...</a><br /></td></tr>
 <tr class="separator:a1d127017fb298b889f4ba24752d08b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a7c6289edae317cf66859ced8379315"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_set_type_data_t</b></td></tr>
-<tr class="separator:ga2a7c6289edae317cf66859ced8379315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed39b946b59d7a8ced9a0508497cbf21"><td class="memItemLeft" ><a class="anchor" id="gaed39b946b59d7a8ced9a0508497cbf21"></a>
+<tr class="memitem:ga4a13b3329bf15a93d56625cbc6968e37"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_set_type_data_t</b></td></tr>
+<tr class="separator:ga4a13b3329bf15a93d56625cbc6968e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0ab17fa00642cc1bdc5799eca7daa49"><td class="memItemLeft" ><a class="anchor" id="gab0ab17fa00642cc1bdc5799eca7daa49"></a>
 struct {</td></tr>
 <tr class="memitem:afe49eef223d34e5580b7e50f40409deb"><td class="memItemLeft" ><a class="anchor" id="afe49eef223d34e5580b7e50f40409deb"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#afe49eef223d34e5580b7e50f40409deb">addr_num</a></td></tr>
@@ -1175,9 +1177,9 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a> [1]</td></tr>
 <tr class="memdesc:a4125236e4683dd508a6d8aa358742708"><td class="mdescLeft">&#160;</td><td class="mdescRight">First address to delete. <br /></td></tr>
 <tr class="separator:a4125236e4683dd508a6d8aa358742708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaed39b946b59d7a8ced9a0508497cbf21"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_change_addr_data_t</b></td></tr>
-<tr class="separator:gaed39b946b59d7a8ced9a0508497cbf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac854324eb88dc03536a4b6389a223b21"><td class="memItemLeft" ><a class="anchor" id="gac854324eb88dc03536a4b6389a223b21"></a>
+<tr class="memitem:gab0ab17fa00642cc1bdc5799eca7daa49"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_change_addr_data_t</b></td></tr>
+<tr class="separator:gab0ab17fa00642cc1bdc5799eca7daa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade2ef6b69dc16e0f85962d8d7366b01c"><td class="memItemLeft" ><a class="anchor" id="gade2ef6b69dc16e0f85962d8d7366b01c"></a>
 struct {</td></tr>
 <tr class="memitem:a1d127017fb298b889f4ba24752d08b8e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a></td></tr>
 <tr class="memdesc:a1d127017fb298b889f4ba24752d08b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The proxy filter type (0-accept list, 1-reject list).  <a href="#a1d127017fb298b889f4ba24752d08b8e">More...</a><br /></td></tr>
@@ -1185,8 +1187,8 @@ struct {</td></tr>
 <tr class="memitem:ae1b377cad5fd3498c1921a034b9f7c61"><td class="memItemLeft" >&#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__bt__mesh__provision_8h.html#ae1b377cad5fd3498c1921a034b9f7c61">list_size</a></td></tr>
 <tr class="memdesc:ae1b377cad5fd3498c1921a034b9f7c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of addresses in the proxy filter list.  <a href="#ae1b377cad5fd3498c1921a034b9f7c61">More...</a><br /></td></tr>
 <tr class="separator:ae1b377cad5fd3498c1921a034b9f7c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac854324eb88dc03536a4b6389a223b21"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_status_data_t</b></td></tr>
-<tr class="separator:gac854324eb88dc03536a4b6389a223b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade2ef6b69dc16e0f85962d8d7366b01c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_proxy_filter_status_data_t</b></td></tr>
+<tr class="separator:gade2ef6b69dc16e0f85962d8d7366b01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacbe4e5d8a37099c5d81cf01610c6c248"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gacbe4e5d8a37099c5d81cf01610c6c248">wiced_bt_mesh_provision_server_callback_t</a> )(uint16_t event, void *p_data)</td></tr>
 <tr class="memdesc:gacbe4e5d8a37099c5d81cf01610c6c248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provision Server callback.  <a href="#gacbe4e5d8a37099c5d81cf01610c6c248">More...</a><br /></td></tr>
 <tr class="separator:gacbe4e5d8a37099c5d81cf01610c6c248"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1248,7 +1250,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga1b9f2c0b16806208c1434cbd19ae094d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy Connect.  <a href="#ga1b9f2c0b16806208c1434cbd19ae094d">More...</a><br /></td></tr>
 <tr class="separator:ga1b9f2c0b16806208c1434cbd19ae094d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga498c876da4517a9ad622c9d6b400b85f"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga498c876da4517a9ad622c9d6b400b85f">wiced_bt_mesh_client_proxy_disconnect</a> (void)</td></tr>
-<tr class="memdesc:ga498c876da4517a9ad622c9d6b400b85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy Disonnect.  <a href="#ga498c876da4517a9ad622c9d6b400b85f">More...</a><br /></td></tr>
+<tr class="memdesc:ga498c876da4517a9ad622c9d6b400b85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy Disconnect.  <a href="#ga498c876da4517a9ad622c9d6b400b85f">More...</a><br /></td></tr>
 <tr class="separator:ga498c876da4517a9ad622c9d6b400b85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf732c6251eb54195b4853239fa93a0ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gaf732c6251eb54195b4853239fa93a0ba">wiced_bt_mesh_config_client_init</a> (<a class="el" href="group__wiced__bt__mesh__provisioning.html#ga2fe5b47efb4d2086b5b185a17a179c81">wiced_bt_mesh_config_client_callback_t</a> *p_callback, wiced_bool_t is_provisioned)</td></tr>
 <tr class="memdesc:gaf732c6251eb54195b4853239fa93a0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Config Client Model initialization.  <a href="#gaf732c6251eb54195b4853239fa93a0ba">More...</a><br /></td></tr>
@@ -1421,6 +1423,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga52f486d590b801e9d551e27e3a8fd483"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga52f486d590b801e9d551e27e3a8fd483">wiced_bt_mesh_provision_scan_stop</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event)</td></tr>
 <tr class="memdesc:ga52f486d590b801e9d551e27e3a8fd483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scan Stop.  <a href="#ga52f486d590b801e9d551e27e3a8fd483">More...</a><br /></td></tr>
 <tr class="separator:ga52f486d590b801e9d551e27e3a8fd483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67ff1cf5af81b4fa3b3575ceafeb11cd"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga67ff1cf5af81b4fa3b3575ceafeb11cd">wiced_bt_mesh_provision_retrieve_record</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, <a class="el" href="structwiced__bt__mesh__provision__device__record__fragment__data__t.html">wiced_bt_mesh_provision_device_record_fragment_data_t</a> *p_data)</td></tr>
+<tr class="memdesc:ga67ff1cf5af81b4fa3b3575ceafeb11cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve fragment of the provisioning record from the peer device.  <a href="#ga67ff1cf5af81b4fa3b3575ceafeb11cd">More...</a><br /></td></tr>
+<tr class="separator:ga67ff1cf5af81b4fa3b3575ceafeb11cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65a520aece993585a65364b4eeae0c94"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga65a520aece993585a65364b4eeae0c94">wiced_bt_mesh_provision_send_invite</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event)</td></tr>
+<tr class="memdesc:ga65a520aece993585a65364b4eeae0c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function can be called by application triggering Remote Provisioning Server to send invite PDU to device.  <a href="#ga65a520aece993585a65364b4eeae0c94">More...</a><br /></td></tr>
+<tr class="separator:ga65a520aece993585a65364b4eeae0c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1438,7 +1446,7 @@ Definition for messages exchanged between the Provisioner Library and the Provis
 <tr class="separator:ga6712de2040fbcb639ae5b5ec00e61766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa3ff86dd816dfec28c06313e030ade36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa3ff86dd816dfec28c06313e030ade36"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#gaa3ff86dd816dfec28c06313e030ade36">WICED_BT_MESH_PROVISION_CONNECT_STATUS</a>&#160;&#160;&#160;202</td></tr>
-<tr class="memdesc:gaa3ff86dd816dfec28c06313e030ade36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provision Linke established or dropped. <br /></td></tr>
+<tr class="memdesc:gaa3ff86dd816dfec28c06313e030ade36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provision Link established or dropped. <br /></td></tr>
 <tr class="separator:gaa3ff86dd816dfec28c06313e030ade36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga819ee424105769900a3101e338128586"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga819ee424105769900a3101e338128586"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga819ee424105769900a3101e338128586">WICED_BT_MESH_PROVISION_STARTED</a>&#160;&#160;&#160;203</td></tr>
@@ -1460,6 +1468,14 @@ Definition for messages exchanged between the Provisioner Library and the Provis
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga6b7b35b9f2062caf1e0dce97fe9a133d">WICED_BT_MESH_PROXY_DEVICE</a>&#160;&#160;&#160;207</td></tr>
 <tr class="memdesc:ga6b7b35b9f2062caf1e0dce97fe9a133d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proxy device info. <br /></td></tr>
 <tr class="separator:ga6b7b35b9f2062caf1e0dce97fe9a133d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a116211898a40ad5a677a2ce918daa7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4a116211898a40ad5a677a2ce918daa7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga4a116211898a40ad5a677a2ce918daa7">WICED_BT_MESH_DEVICE_PROVISIONING_RECORD_LIST</a>&#160;&#160;&#160;208</td></tr>
+<tr class="memdesc:ga4a116211898a40ad5a677a2ce918daa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of provisioning record. <br /></td></tr>
+<tr class="separator:ga4a116211898a40ad5a677a2ce918daa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga454187cdfe7b65d35ddc530d0dffbfff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga454187cdfe7b65d35ddc530d0dffbfff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__provisioning.html#ga454187cdfe7b65d35ddc530d0dffbfff">WICED_BT_MESH_DEVICE_PROVISIONING_RECORD_RESP</a>&#160;&#160;&#160;209</td></tr>
+<tr class="memdesc:ga454187cdfe7b65d35ddc530d0dffbfff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provisioning record response. <br /></td></tr>
+<tr class="separator:ga454187cdfe7b65d35ddc530d0dffbfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Definition for the mesh config messages exchanged between the Provisioner Library and the Provisioner Client Application</h2></td></tr>
@@ -1964,8 +1980,8 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
       </table>
 </div><div class="memdoc">
 
-<p>Proxy Disonnect. </p>
-<p>The application can call this function to terminat GATT Proxy connection.</p>
+<p>Proxy Disconnect. </p>
+<p>The application can call this function to terminate GATT Proxy connection.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">None</td><td></td></tr>
@@ -2819,7 +2835,7 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 </div><div class="memdoc">
 
 <p>Change Model Subscription. </p>
-<p>The application can call this function to change a model subcription data by sending a Config Model Subscription Add, Virtual Address Add, Delete, Virtual Address Delete, Overwrite, Virtual Address Overwrite, or Delete All message to a peer device.</p>
+<p>The application can call this function to change a model subscription data by sending a Config Model Subscription Add, Virtual Address Add, Delete, Virtual Address Delete, Overwrite, Virtual Address Overwrite, or Delete All message to a peer device.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_event</td><td>Mesh event with information about received message which contain the address of the peer device. </td></tr>
@@ -2856,7 +2872,7 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 </div><div class="memdoc">
 
 <p>Get Model Subscription. </p>
-<p>The application can call this function to get current model subcription list by sending a Config Model Subscription Get message to a peer device.</p>
+<p>The application can call this function to get current model subscription list by sending a Config Model Subscription Get message to a peer device.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_event</td><td>Mesh event with information about received message which contain the address of the peer device. </td></tr>
@@ -3641,7 +3657,7 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 </div><div class="memdoc">
 
 <p>Provision Set Out of Band data. </p>
-<p>Application should call this function to setup OOB data used during provisioing</p>
+<p>Application should call this function to setup OOB data used during provisioning</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p_event</td><td>Pointer to the mesh event which identifies remote provisioning server </td></tr>
@@ -3747,6 +3763,42 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_TRUE/WICED_FALSE - success/failed. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga67ff1cf5af81b4fa3b3575ceafeb11cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_mesh_provision_retrieve_record </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *&#160;</td>
+          <td class="paramname"><em>p_event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structwiced__bt__mesh__provision__device__record__fragment__data__t.html">wiced_bt_mesh_provision_device_record_fragment_data_t</a> *&#160;</td>
+          <td class="paramname"><em>p_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve fragment of the provisioning record from the peer device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_event</td><td>mesh event </td></tr>
+    <tr><td class="paramname">p_data</td><td>pointer to the fragment descriptor to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_bool_t WICED_TRUE/WICED_FALSE - success/failed. </dd></dl>
 
 </div>
 </div>
@@ -3928,6 +3980,31 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 
 </div>
 </div>
+<a class="anchor" id="ga65a520aece993585a65364b4eeae0c94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_mesh_provision_send_invite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *&#160;</td>
+          <td class="paramname"><em>p_event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The function can be called by application triggering Remote Provisioning Server to send invite PDU to device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p_event</td><td>mesh event </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_bool_t WICED_TRUE/WICED_FALSE - success/failed. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga0881bc700e7e3aab0ac438bd4f1642d7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3979,7 +4056,7 @@ Definition for the mesh provisioning messages exchanged between the Provisioner 
 </div><div class="memdoc">
 
 <p>Provision Set Out of Band data. </p>
-<p>Application should call this function to setup OOB data used during provisioing of the local device</p>
+<p>Application should call this function to setup OOB data used during provisioning of the local device</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p_oob</td><td>Out of band data </td></tr>

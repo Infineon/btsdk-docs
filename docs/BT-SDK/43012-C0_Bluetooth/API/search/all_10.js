@@ -96,6 +96,7 @@ var searchData=
   ['phy_5fopts',['phy_opts',['../structwiced__bt__ble__phy__preferences__t.html#a554295f10e6c6adcb0d377961072c859',1,'wiced_bt_ble_phy_preferences_t']]],
   ['pin_5frequest',['pin_request',['../unionwiced__bt__management__evt__data__t.html#a2576a3a911a65909fe306f6da8c836f8',1,'wiced_bt_management_evt_data_t']]],
   ['pin_5fto_5fport',['PIN_TO_PORT',['../group___g_p_i_o_driver.html#ga87812a7094cd303d921c20ebd85e9178',1,'wiced_hal_gpio.h']]],
+  ['place_5fin_5falways_5fon_5fram',['PLACE_IN_ALWAYS_ON_RAM',['../brcm__fw__types_8h.html#ae8c1f1f1d6306b3d2e6dd7dde7609e8f',1,'brcm_fw_types.h']]],
   ['platform_5faudio_5fconfig_5ft',['platform_audio_config_t',['../structplatform__audio__config__t.html',1,'']]],
   ['platform_5faudio_5fdevice_2eh',['platform_audio_device.h',['../platform__audio__device_8h.html',1,'']]],
   ['platform_5faudio_5fdevice_5fconfigure',['platform_audio_device_configure',['../platform__audio__device_8h.html#afe2a40233a4f41386365d1351ce839e7',1,'platform_audio_device.h']]],

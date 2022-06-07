@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -120,16 +120,17 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga1160dd4b4458a5be89ff6d174954c9a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1160dd4b4458a5be89ff6d174954c9a9"></a>
-typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga1160dd4b4458a5be89ff6d174954c9a9">wiced_timer_callback_arg_t</a></td></tr>
-<tr class="memdesc:ga1160dd4b4458a5be89ff6d174954c9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer callback argument type. <br /></td></tr>
-<tr class="separator:ga1160dd4b4458a5be89ff6d174954c9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae5ec97ae150269b363d7107837899e12"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae5ec97ae150269b363d7107837899e12"></a>
-typedef <a class="el" href="group__timer.html#ga1160dd4b4458a5be89ff6d174954c9a9">wiced_timer_callback_arg_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_TIMER_PARAM_TYPE</b></td></tr>
-<tr class="separator:gae5ec97ae150269b363d7107837899e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2570f5f92c88d350a403ad2a174f8bd4"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga2570f5f92c88d350a403ad2a174f8bd4">wiced_timer_callback_t</a> )(<a class="el" href="group__timer.html#ga1160dd4b4458a5be89ff6d174954c9a9">wiced_timer_callback_arg_t</a> cb_params)</td></tr>
-<tr class="memdesc:ga2570f5f92c88d350a403ad2a174f8bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function prototype for the timer call back.  <a href="group__timer.html#ga2570f5f92c88d350a403ad2a174f8bd4">More...</a><br /></td></tr>
-<tr class="separator:ga2570f5f92c88d350a403ad2a174f8bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad17aa4d52b6a869de93c52f8139651f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad17aa4d52b6a869de93c52f8139651f1"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#gad17aa4d52b6a869de93c52f8139651f1">TIMER_PARAM_TYPE</a></td></tr>
+<tr class="memdesc:gad17aa4d52b6a869de93c52f8139651f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer callback argument type. <br /></td></tr>
+<tr class="separator:gad17aa4d52b6a869de93c52f8139651f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b3dbf64407067ba19592dad7d697301"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8b3dbf64407067ba19592dad7d697301"></a>
+typedef <a class="el" href="group__timer.html#gad17aa4d52b6a869de93c52f8139651f1">TIMER_PARAM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga8b3dbf64407067ba19592dad7d697301">WICED_TIMER_PARAM_TYPE</a></td></tr>
+<tr class="memdesc:ga8b3dbf64407067ba19592dad7d697301"><td class="mdescLeft">&#160;</td><td class="mdescRight">To avoid recompiling older apps. <br /></td></tr>
+<tr class="separator:ga8b3dbf64407067ba19592dad7d697301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b4d43333bdca44a7a8bc35a1f38f0ee"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga0b4d43333bdca44a7a8bc35a1f38f0ee">wiced_timer_callback_t</a> )(<a class="el" href="group__timer.html#gad17aa4d52b6a869de93c52f8139651f1">TIMER_PARAM_TYPE</a> cb_params)</td></tr>
+<tr class="memdesc:ga0b4d43333bdca44a7a8bc35a1f38f0ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function prototype for the timer call back.  <a href="group__timer.html#ga0b4d43333bdca44a7a8bc35a1f38f0ee">More...</a><br /></td></tr>
+<tr class="separator:ga0b4d43333bdca44a7a8bc35a1f38f0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga17d6126f35ffcd39044f30fcaad297cc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__wiced__timer__t.html">_wiced_timer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">wiced_timer_t</a></td></tr>
 <tr class="memdesc:ga17d6126f35ffcd39044f30fcaad297cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer structure.  <a href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">More...</a><br /></td></tr>
 <tr class="separator:ga17d6126f35ffcd39044f30fcaad297cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,9 +147,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6bce6342b0e621f35550ed5646c31154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga6bce6342b0e621f35550ed5646c31154">wiced_init_timer</a> (<a class="el" href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">wiced_timer_t</a> *p_timer, <a class="el" href="group__timer.html#ga2570f5f92c88d350a403ad2a174f8bd4">wiced_timer_callback_t</a> *p_timer_cb, <a class="el" href="group__timer.html#ga1160dd4b4458a5be89ff6d174954c9a9">wiced_timer_callback_arg_t</a> cb_arg, <a class="el" href="group__timer.html#ga90ed93f708e4e32fae546ca915816628">wiced_timer_type_e</a> timer_type)</td></tr>
-<tr class="memdesc:ga6bce6342b0e621f35550ed5646c31154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the timer.  <a href="group__timer.html#ga6bce6342b0e621f35550ed5646c31154">More...</a><br /></td></tr>
-<tr class="separator:ga6bce6342b0e621f35550ed5646c31154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa35ef07edd85ab3582605cbb1ce98a89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#gaa35ef07edd85ab3582605cbb1ce98a89">wiced_init_timer</a> (<a class="el" href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">wiced_timer_t</a> *p_timer, <a class="el" href="group__timer.html#ga0b4d43333bdca44a7a8bc35a1f38f0ee">wiced_timer_callback_t</a> *p_timer_cb, <a class="el" href="group__timer.html#gad17aa4d52b6a869de93c52f8139651f1">TIMER_PARAM_TYPE</a> cb_arg, <a class="el" href="group__timer.html#ga90ed93f708e4e32fae546ca915816628">wiced_timer_type_e</a> timer_type)</td></tr>
+<tr class="memdesc:gaa35ef07edd85ab3582605cbb1ce98a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the timer.  <a href="group__timer.html#gaa35ef07edd85ab3582605cbb1ce98a89">More...</a><br /></td></tr>
+<tr class="separator:gaa35ef07edd85ab3582605cbb1ce98a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03465ced8e9ddb566caeb608934a3069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer.html#ga03465ced8e9ddb566caeb608934a3069">wiced_start_timer</a> (<a class="el" href="group__timer.html#ga17d6126f35ffcd39044f30fcaad297cc">wiced_timer_t</a> *p_timer, uint32_t timeout_ms)</td></tr>
 <tr class="memdesc:ga03465ced8e9ddb566caeb608934a3069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a timer.  <a href="group__timer.html#ga03465ced8e9ddb566caeb608934a3069">More...</a><br /></td></tr>
 <tr class="separator:ga03465ced8e9ddb566caeb608934a3069"><td class="memSeparator" colspan="2">&#160;</td></tr>

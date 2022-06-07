@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -168,7 +168,7 @@ OPUS_WARN_UNUSED_RESULT int&#160;</td><td class="memItemRight" valign="bottom"><
 <div class="line"><span class="keywordflow">if</span> (rp != NULL)</div>
 <div class="line">    <a class="code" href="group__opus__repacketizer.html#gadef533688e80dcc96a32b955657aaf28">opus_repacketizer_init</a>(rp);</div>
 </div><!-- fragment --><p>Then the application should submit packets with <a class="el" href="group__opus__repacketizer.html#gabbb133a5fd263bb43fc62b7e3da84abe" title="Add a packet to the current repacketizer state. ">opus_repacketizer_cat()</a>, extract new packets with <a class="el" href="group__opus__repacketizer.html#ga993965b2f62e43b580b9c42ad2054668" title="Construct a new packet from data previously submitted to the repacketizer state via opus_repacketizer...">opus_repacketizer_out()</a> or <a class="el" href="group__opus__repacketizer.html#ga15d327737f162b2a16a2370c33184de6" title="Construct a new packet from data previously submitted to the repacketizer state via opus_repacketizer...">opus_repacketizer_out_range()</a>, and then reset the state for the next set of input packets via <a class="el" href="group__opus__repacketizer.html#gadef533688e80dcc96a32b955657aaf28" title="(Re)initializes a previously allocated repacketizer state. ">opus_repacketizer_init()</a>.</p>
-<p>For example, to split a sequence of packets into individual frames: </p><div class="fragment"><div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *<a class="code" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>;</div>
+<p>For example, to split a sequence of packets into individual frames: </p><div class="fragment"><div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *data;</div>
 <div class="line"><span class="keywordtype">int</span> <a class="code" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>;</div>
 <div class="line"><span class="keywordflow">while</span> (get_next_packet(&amp;data, &amp;len))</div>
 <div class="line">{</div>

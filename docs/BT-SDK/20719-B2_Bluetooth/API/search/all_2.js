@@ -262,6 +262,7 @@ var searchData=
   ['buffer_5fstart',['buffer_start',['../structwiced__audio__buffer__info__t.html#a85973b335814248c05f63543876b348e',1,'wiced_audio_buffer_info_t']]],
   ['by_5fhandle',['by_handle',['../unionwiced__bt__gatt__read__param__t.html#a15b45ef6e94393600ca77d93f634ce50',1,'wiced_bt_gatt_read_param_t']]],
   ['byte',['BYTE',['../brcm__fw__types_8h.html#a4ae1dab0fb4b072a66584546209e7d58',1,'brcm_fw_types.h']]],
+  ['bas_20library_20api',['BAS Library API',['../group__wiced__bt__bas__api__functions.html',1,'']]],
   ['bac_20library_20api',['BAC Library API',['../group__wiced__bt__battery__client__api__functions.html',1,'']]],
   ['bluetooth',['Bluetooth',['../group__wicedbt.html',1,'']]],
   ['br_2fedr_20_28bluetooth_20basic_20rate_20_2f_20enhanced_20data_20rate_29',['BR/EDR (Bluetooth Basic Rate / Enhanced Data Rate)',['../group__wicedbt__bredr.html',1,'']]]

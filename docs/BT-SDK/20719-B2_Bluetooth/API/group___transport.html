@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,7 +119,7 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memdesc:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wiced transport status handler. <br /></td></tr>
 <tr class="separator:ga7b9d02d5fdbf9d3dd635d92be25d3372"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="memItemLeft" align="right" valign="top">typedef uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#gac18db9b6503a1f1fd4ff237c5d4fccca">wiced_tranport_data_handler_t</a> )(uint8_t *p_data, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
-<tr class="memdesc:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wiced transport data handler Call back registered by the application to recieve data.  <a href="#gac18db9b6503a1f1fd4ff237c5d4fccca">More...</a><br /></td></tr>
+<tr class="memdesc:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wiced transport data handler Call back registered by the application to receive data.  <a href="#gac18db9b6503a1f1fd4ff237c5d4fccca">More...</a><br /></td></tr>
 <tr class="separator:gac18db9b6503a1f1fd4ff237c5d4fccca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa346b15f3bee3902b565a13ab0f82815"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#gaa346b15f3bee3902b565a13ab0f82815">wiced_transport_tx_complete_t</a> )(<a class="el" href="group___transport.html#ga4c42181f8444932c1076e589e4c7feef">wiced_transport_buffer_pool_t</a> *p_pool)</td></tr>
 <tr class="memdesc:gaa346b15f3bee3902b565a13ab0f82815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wiced transport tx complete indication.  <a href="#gaa346b15f3bee3902b565a13ab0f82815">More...</a><br /></td></tr>
@@ -270,7 +270,7 @@ Functions</h2></td></tr>
 <p>This supports UART transport in HCI Mode</p>
 <p>Wiced Transport uses the generic pool available for receiving and sending packet over the transport. Following are the configurations of the generic pool 1: buffer size - 8 bytes, buffer count - 128 2: buffer size - 32 bytes, buffer count - 48 3: buffer size - 96 bytes, buffer count - 50 4: buffer size - 268 bytes, buffer count - 12</p>
 <p>Using above generic pools the max payload size supportable is 252.(16 bytes for internal headers) If the application wants to send packet of size more than the max size of the buffer available in the generic pool, application can do so by creating a transport buffer pool of the desired size. (Refer APIs wiced_transport_create_buffer_pool, wiced_transport_allocate_buffer,wiced_transport_send_buffer)</p>
-<p>If the application wants to recieve packet of size more than the max size of the buffer available in the generic pool, application can do so by configuring a receive buffer pool of the desired size when doing transport init. </p>
+<p>If the application wants to receive packet of size more than the max size of the buffer available in the generic pool, application can do so by configuring a receive buffer pool of the desired size when doing transport init. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="ga510ca05d93ec47cfcbef6f3e87e38dbe"></a>
 <div class="memitem">
@@ -297,7 +297,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Wiced transport data handler Call back registered by the application to recieve data. </p>
+<p>Wiced transport data handler Call back registered by the application to receive data. </p>
 <p>Application has to free the buffer in which data is received. Use the API wiced_transport_free_buffer to free the rx buffer</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -367,7 +367,7 @@ Functions</h2></td></tr>
 <p>Note: If user would like to turn off HCI UART flow control, then this function must be called in APPLICATION_START()</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">on</td><td>- true, enalbe CTS RTS Flow Control false, disable CTS RTS Flow Control</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">on</td><td>- true, enable CTS RTS Flow Control false, disable CTS RTS Flow Control</td></tr>
   </table>
   </dd>
 </dl>
@@ -541,7 +541,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_transport_init. </p>
-<p>Intializes and configures the transport and also registers the handlers to be invoked on transport detection and on receiving the data</p>
+<p>Initializes and configures the transport and also registers the handlers to be invoked on transport detection and on receiving the data</p>
 <ul>
 <li><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -633,7 +633,7 @@ Functions</h2></td></tr>
 <p>Function wiced_transport_send_data. </p>
 <p>Send the packet to the host over the transport. This function allocates a buffer internally and prepare the header, copy the payload and then sends the packet over the transport. Maximum size of the buffer that can be allocated is 268 bytes</p>
 <p>Transport internally uses a buffer from the pool which is available for all general purposes Following are the configuration of the internal pool 1: buffer size - 8 bytes, buffer count - 128 2: buffer size - 32 bytes, buffer count - 48 3: buffer size - 96 bytes, buffer count - 50 4: buffer size - 268 bytes, buffer count - 12</p>
-<p>Note: Using above genric pools max supportable payload size = 252(16 bytes for internal headers). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Note: Using above generic pools max supportable payload size = 252(16 bytes for internal headers). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">code</td><td>:Group code and command code </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>:Pointer to the payload </td></tr>

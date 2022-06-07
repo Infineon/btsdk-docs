@@ -152,6 +152,11 @@ var group__wicedbt__gatt =
     [ "wiced_bt_gatt_gap_ble_attr_value_t", "unionwiced__bt__gatt__gap__ble__attr__value__t.html", [
       [ "addr_resolution", "unionwiced__bt__gatt__gap__ble__attr__value__t.html#a978bdb24d58cfef26160ad48910e2bfc", null ]
     ] ],
+    [ "wiced_gattdb_entry_s", "structwiced__gattdb__entry__s.html", [
+      [ "handle", "structwiced__gattdb__entry__s.html#af242d6e3b6108ea75e1eb236e94c8240", null ],
+      [ "len", "structwiced__gattdb__entry__s.html#a5723e60ffd628510c699eddbce90be23", null ],
+      [ "perm", "structwiced__gattdb__entry__s.html#a85c6d9f65723c0bdd021adc0750aaaac", null ]
+    ] ],
     [ "wiced_bt_gatt_eatt_connection_indication_event_t", "structwiced__bt__gatt__eatt__connection__indication__event__t.html", [
       [ "bdaddr", "structwiced__bt__gatt__eatt__connection__indication__event__t.html#a17f123b687ff9e7b1ff6f55af5fe0865", null ],
       [ "lcids", "structwiced__bt__gatt__eatt__connection__indication__event__t.html#a824ffd435e954f433005492edaf044df", null ],
@@ -249,6 +254,7 @@ var group__wicedbt__gatt =
     [ "SECONDARY_SERVICE_UUID128", "group__wicedbt__gatt.html#ga89f8e59473d0ae05e542d5f9b30da0e4", null ],
     [ "SECONDARY_SERVICE_UUID16", "group__wicedbt__gatt.html#gaa8c2276d328994e2969466b0be137cc3", null ],
     [ "WICED_BT_GATT_ENCRYPED_MITM", "group__wicedbt__gatt.html#ga7c3b55ab73b0afabaf5225cb2e8f618a", null ],
+    [ "WICED_GATT_HDR_SIZE", "group__wicedbt__gatt.html#gad0df29dc043152878ce2731e3d0b1b55", null ],
     [ "wiced_bt_eatt_drbs", "group__wicedbt__gatt.html#gaccfa49f84e56ea41ab53e943e2e5acc6", null ],
     [ "wiced_bt_eatt_lcid_list", "group__wicedbt__gatt.html#ga28e10c1787e3db895975e3f614315273", null ],
     [ "wiced_bt_gatt_app_context_t", "group__wicedbt__gatt.html#ga80c3de8e66dd4257528aeaf34484d14c", null ],
@@ -273,7 +279,7 @@ var group__wicedbt__gatt =
     [ "wiced_bt_gatt_read_multiple_req_t", "group__wicedbt__gatt.html#ga89d72c4a9ea5ed338a990db1b69dda7e", null ],
     [ "wiced_bt_gatt_server_char_config_t", "group__wicedbt__gatt.html#gac459e3c6da6cdc4b53b477d6cc2d0661", null ],
     [ "wiced_bt_gatt_status_t", "group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a", null ],
-    [ "wiced_gattdb_entry_s", "group__wicedbt__gatt.html#ga55d41d1a59aedb67755dd38e9ed399bd", null ],
+    [ "wiced_gattdb_entry_t", "group__wicedbt__gatt.html#gad0dd0d33e5c2ab9f69e01a0e7e517c3f", null ],
     [ "gatt_appearance_e", "group__wicedbt__gatt.html#ga244b6c64a958765582c0d6a2c1fdfed4", [
       [ "APPEARANCE_CONTROL_DEVICE_MULTI_SWITCH", "group__wicedbt__gatt.html#gga244b6c64a958765582c0d6a2c1fdfed4a4733ab1a379b5f0979355730bc334a39", null ],
       [ "APPEARANCE_CONTROL_DEVICE_BUTTON", "group__wicedbt__gatt.html#gga244b6c64a958765582c0d6a2c1fdfed4a530b2160cd0fe4775c905d2c2a59c8d1", null ],
@@ -488,7 +494,5 @@ var group__wicedbt__gatt =
       [ "WICED_BT_GATT_OUT_OF_RANGE", "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652a0036290c8a33c53d72e27b02865528b3", null ],
       [ "WICED_BT_GATT_BAD_OPCODE", "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652a84304c1c9643ef269e18963fe8d11df0", null ],
       [ "WICED_BT_GATT_INVALID_CONNECTION_ID", "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652a9d2a6d96d94e68fca532e7b39905fcad", null ]
-    ] ],
-    [ "len", "group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23", null ],
-    [ "perm", "group__wicedbt__gatt.html#ga85c6d9f65723c0bdd021adc0750aaaac", null ]
+    ] ]
 ];

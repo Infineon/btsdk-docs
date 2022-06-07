@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,9 +119,8 @@ uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__settings__t.html#a1bc4b9561e1ed329a1333209dcadee8e">security_requirement_mask</a></td></tr>
 <tr class="memdesc:a1bc4b9561e1ed329a1333209dcadee8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Security requirements mask (BTM_SEC_NONE, or combination of BTM_SEC_IN_AUTHENTICATE, BTM_SEC_OUT_AUTHENTICATE, BTM_SEC_ENCRYPT (see <a class="el" href="wiced__bt__dev_8h.html#abc9b4dbc8e43ce6442971e2804d1aca5">wiced_bt_sec_level_e</a>)) <br /></td></tr>
 <tr class="separator:a1bc4b9561e1ed329a1333209dcadee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7624d6382cb4ed38093a7e906789fbd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7624d6382cb4ed38093a7e906789fbd7"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__settings__t.html#a7624d6382cb4ed38093a7e906789fbd7">max_simultaneous_links</a></td></tr>
-<tr class="memdesc:a7624d6382cb4ed38093a7e906789fbd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number simultaneous links to different devices. <br /></td></tr>
+<tr class="memitem:a7624d6382cb4ed38093a7e906789fbd7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__settings__t.html#a7624d6382cb4ed38093a7e906789fbd7">max_simultaneous_links</a></td></tr>
+<tr class="memdesc:a7624d6382cb4ed38093a7e906789fbd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number simultaneous links to different devices.  <a href="#a7624d6382cb4ed38093a7e906789fbd7">More...</a><br /></td></tr>
 <tr class="separator:a7624d6382cb4ed38093a7e906789fbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a9c5d52cfb61a49d7504b06fd1c7ddf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a9c5d52cfb61a49d7504b06fd1c7ddf"></a>
 <a class="el" href="structwiced__bt__cfg__br__edr__scan__settings__t.html">wiced_bt_cfg_br_edr_scan_settings_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__settings__t.html#a5a9c5d52cfb61a49d7504b06fd1c7ddf">br_edr_scan_cfg</a></td></tr>
@@ -190,6 +189,21 @@ int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 
 <p>Maximum number of Filter Accept List devices allowed. </p>
 <p>Cannot be more than 128 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7624d6382cb4ed38093a7e906789fbd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t max_simultaneous_links</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum number simultaneous links to different devices. </p>
+<p>This information is used for memory allocation, limiting number of active connections is left up to applications. </p>
 
 </div>
 </div>

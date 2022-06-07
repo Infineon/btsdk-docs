@@ -1,5 +1,11 @@
 var group__rfcomm__api__functions =
 [
+    [ "wiced_port_status_t", "structwiced__port__status__t.html", [
+      [ "flags", "structwiced__port__status__t.html#a1e87af3c18a2fd36c61faf89949bdc3f", null ],
+      [ "in_queue_size", "structwiced__port__status__t.html#a6a4a705979ecd4485ffaf5f09fb28be6", null ],
+      [ "mtu_size", "structwiced__port__status__t.html#a7494d27aae03bdf1d9092563e1cc1026", null ],
+      [ "out_queue_size", "structwiced__port__status__t.html#aa9dc3d49eb072c1d652c01a883a03771", null ]
+    ] ],
     [ "PORT_MASK_ALL", "group__rfcomm__api__functions.html#ga802c52c03865b1cb09af25e41363275d", null ],
     [ "wiced_bt_rfcomm_init", "group__rfcomm__api__functions.html#ga2fdabf7ca61dc4582b77496e82a11295", null ],
     [ "wiced_bt_port_event_cback_t", "group__rfcomm__api__functions.html#ga1d36e8ff5632a45dd5f91e02b5ec76c2", null ],
@@ -69,6 +75,7 @@ var group__rfcomm__api__functions =
     [ "wiced_bt_rfcomm_control", "group__rfcomm__api__functions.html#ga417a74cdea9648969a1d28cb403cf0d3", null ],
     [ "wiced_bt_rfcomm_create_connection", "group__rfcomm__api__functions.html#ga0acf439d7bfa3540fe1f682e28a3ea15", null ],
     [ "wiced_bt_rfcomm_flow_control", "group__rfcomm__api__functions.html#ga87bbfb9c882d8080fef5f63e2ad256c0", null ],
+    [ "wiced_bt_rfcomm_port_get_queue_status", "group__rfcomm__api__functions.html#ga865e448ffc3555587b59bab1e9f14173", null ],
     [ "wiced_bt_rfcomm_read_data", "group__rfcomm__api__functions.html#ga2f25652d11064bf6879355e18dc03188", null ],
     [ "wiced_bt_rfcomm_remove_connection", "group__rfcomm__api__functions.html#gae609bc27a6207cea08e5017ffb2940b5", null ],
     [ "wiced_bt_rfcomm_set_event_callback", "group__rfcomm__api__functions.html#gabbe544a7a6843471ef384c6dafc976aa", null ],

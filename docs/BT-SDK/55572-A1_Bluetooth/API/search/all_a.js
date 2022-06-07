@@ -1,5 +1,13 @@
 var searchData=
 [
+  ['i2c',['I2C',['../group___i2_c_driver.html',1,'']]],
+  ['i2cm_5fbusy',['I2CM_BUSY',['../group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea0b82f8163a4021c3f90329fd3ee56759',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fop_5ffailed',['I2CM_OP_FAILED',['../group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea9e628df9ccc57b1d2c539633c90bfbf7',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fspeed_5f1000khz',['I2CM_SPEED_1000KHZ',['../group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a1ee8d763b3714bf7d0b8001cc4f583da',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fspeed_5f100khz',['I2CM_SPEED_100KHZ',['../group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a2fa669fc9820cf8ace8eadae500de28b',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fspeed_5f400khz',['I2CM_SPEED_400KHZ',['../group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a2d1bde442eaafa8362826726077de137',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fspeed_5f800khz',['I2CM_SPEED_800KHZ',['../group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a21cfe14be160b1030d832b5c8443f036',1,'wiced_hal_i2c.h']]],
+  ['i2cm_5fsuccess',['I2CM_SUCCESS',['../group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea01540758b38146ad68cf1bddfc7fa36f',1,'wiced_hal_i2c.h']]],
   ['iap2_5faccessory_5fuuid',['IAP2_ACCESSORY_UUID',['../group__wiced__bt__iap2__api__functions.html#ga45b0503e9ef940ba2675705f23c8751c',1,'wiced_bt_iap2.h']]],
   ['iap2_5fdevice_5fuuid',['IAP2_DEVICE_UUID',['../group__wiced__bt__iap2__api__functions.html#gaccf6dd28500eb42719b6ce07342239a6',1,'wiced_bt_iap2.h']]],
   ['id',['id',['../structt_h_c_i___e_x_t___f_l_o_w___s_p_e_c.html#a1e6927fa1486224044e568f9c370519b',1,'tHCI_EXT_FLOW_SPEC::id()'],['../structwiced__bt__mesh__property__get__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_property_get_data_t::id()'],['../structwiced__bt__mesh__properties__status__data__t.html#aacce74ab4e266853217783b13acad523',1,'wiced_bt_mesh_properties_status_data_t::id()'],['../structwiced__bt__mesh__property__set__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_property_set_data_t::id()'],['../structwiced__bt__mesh__property__status__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_property_status_data_t::id()'],['../structwiced__bt__mesh__light__lc__property__get__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_light_lc_property_get_data_t::id()'],['../structwiced__bt__mesh__light__lc__property__set__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_light_lc_property_set_data_t::id()'],['../structwiced__bt__mesh__light__lc__property__status__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'wiced_bt_mesh_light_lc_property_status_data_t::id()'],['../wiced__bt__mesh__cfg_8h.html#a4fc3a0c58dfbd1e68224521185cb9384',1,'id():&#160;wiced_bt_mesh_cfg.h'],['../wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b',1,'id():&#160;wiced_bt_mesh_provision.h']]],
@@ -8,6 +16,7 @@ var searchData=
   ['identify_5fduration',['identify_duration',['../structmesh__core__provision__cb__t.html#a9e9f508693ebfeac11721621b59a5620',1,'mesh_core_provision_cb_t::identify_duration()'],['../structwiced__bt__mesh__provision__connect__data__t.html#a9e9f508693ebfeac11721621b59a5620',1,'wiced_bt_mesh_provision_connect_data_t::identify_duration()'],['../wiced__bt__mesh__core_8h.html#a9e9f508693ebfeac11721621b59a5620',1,'identify_duration():&#160;wiced_bt_mesh_core.h']]],
   ['identity',['identity',['../wiced__bt__mesh__provision_8h.html#a79862aa6064cbbefdb152678f6f17d6f',1,'wiced_bt_mesh_provision.h']]],
   ['idle_5ftout',['idle_tout',['../structwiced__bt__avdt__reg__t.html#a8db44e0b37deaa379c65ee515330db83',1,'wiced_bt_avdt_reg_t']]],
+  ['immediate_5frepetition_5fcount',['immediate_repetition_count',['../structwiced__bt__isoc__big__sync__established__t.html#a6a0eccf160704000ee50c066eaf44673',1,'wiced_bt_isoc_big_sync_established_t']]],
   ['in',['in',['../group__sco__hook.html#ga39ac15453ab1b80e9578b4114879d09d',1,'wiced_bt_sco_hook_event_mic_samples_t::in()'],['../group__sco__hook.html#ga39ac15453ab1b80e9578b4114879d09d',1,'wiced_bt_sco_hook_event_mic_samples_t::@26::@27::in()']]],
   ['in_5fprogress',['in_progress',['../wiced__bt__mesh__core_8h.html#ad08bc69b8a15bf1acd03f861ded687ac',1,'wiced_bt_mesh_core.h']]],
   ['in_5fuse',['in_use',['../structwiced__bt__avdt__sep__info__t.html#af8a3166da11afe4efd8a40f32b6802fc',1,'wiced_bt_avdt_sep_info_t']]],
@@ -52,7 +61,7 @@ var searchData=
   ['is_5fscan_5frsp_5fadv_5freport',['IS_SCAN_RSP_ADV_REPORT',['../group__btm__ble__api__functions.html#ga0b6eb23b26afb4c0a34e175bf1d0e735',1,'wiced_bt_ble.h']]],
   ['is_5fscannable_5fadv_5freport',['IS_SCANNABLE_ADV_REPORT',['../group__btm__ble__api__functions.html#ga1ff2fec9720644ff4d9a30df03e441be',1,'wiced_bt_ble.h']]],
   ['is_5fstatic_5frand_5faddr_5fused',['is_static_rand_addr_used',['../structwiced__bt__dev__local__addr__ext__t.html#a7909c672b48e6349638e18f548822e53',1,'wiced_bt_dev_local_addr_ext_t']]],
-  ['iso_5finterval',['iso_interval',['../structwiced__ble__isoc__cis__established__data__t.html#a49e7eb174320231deae5ec255b46e5d7',1,'wiced_ble_isoc_cis_established_data_t::iso_interval()'],['../structwiced__bt__ble__cig__param__test__t.html#a49e7eb174320231deae5ec255b46e5d7',1,'wiced_bt_ble_cig_param_test_t::iso_interval()']]],
+  ['iso_5finterval',['iso_interval',['../structwiced__bt__isoc__cis__established__data__t.html#a49e7eb174320231deae5ec255b46e5d7',1,'wiced_bt_isoc_cis_established_data_t::iso_interval()'],['../structwiced__bt__isoc__big__sync__established__t.html#a49e7eb174320231deae5ec255b46e5d7',1,'wiced_bt_isoc_big_sync_established_t::iso_interval()'],['../structwiced__bt__ble__cig__param__test__t.html#a49e7eb174320231deae5ec255b46e5d7',1,'wiced_bt_ble_cig_param_test_t::iso_interval()']]],
   ['item_5fcount',['item_count',['../structwiced__bt__avrc__browse__get__items__rsp__t.html#a3fd32e7431b317b3b9300b1129d47987',1,'wiced_bt_avrc_browse_get_items_rsp_t']]],
   ['item_5flength',['item_length',['../structwiced__bt__avrc__item__t.html#aea5f45915ab3ecd8a422632f9f9c04c0',1,'wiced_bt_avrc_item_t']]],
   ['item_5flist',['item_list',['../structwiced__bt__avrc__browse__get__items__rsp__t.html#aefb2738e0affefc4033dc34d1915028a',1,'wiced_bt_avrc_browse_get_items_rsp_t']]],
@@ -62,7 +71,7 @@ var searchData=
   ['iv_5findex',['iv_index',['../structwiced__bt__mesh__core__state__beacon__t.html#a1b99ff3a01c88a42dbaaa91d9dcea0fb',1,'wiced_bt_mesh_core_state_beacon_t']]],
   ['iv_5fupdate',['iv_update',['../structwiced__bt__mesh__local__device__set__data__t.html#a39866c84e509301532dc884d31be8a67',1,'wiced_bt_mesh_local_device_set_data_t']]],
   ['iap2_20protocol_20library_20api',['iAP2 Protocol Library API',['../group__wiced__bt__iap2__api__functions.html',1,'']]],
-  ['isochronous_20_28isoc_29',['Isochronous (ISOC)',['../group__wicedbt__isoc.html',1,'']]],
+  ['ischoronous_20_28isoc_29',['Ischoronous (ISOC)',['../group__wicedbt__isoc.html',1,'']]],
   ['isoc_20data_20types_20and_20macros',['ISOC data types and macros',['../group__wicedbt__isoc__defs.html',1,'']]],
-  ['isochronous_20_28isoc_29_20functions',['Isochronous (ISOC) functions',['../group__wicedbt__isoc__functions.html',1,'']]]
+  ['ischoronous_20_28isoc_29_20functions',['Ischoronous (ISOC) functions',['../group__wicedbt__isoc__functions.html',1,'']]]
 ];

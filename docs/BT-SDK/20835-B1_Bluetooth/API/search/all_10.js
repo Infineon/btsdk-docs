@@ -48,6 +48,7 @@ var searchData=
   ['phase',['phase',['../wiced__bt__mesh__provision_8h.html#a8f0aef86d47e45a899f77a8bb89d6432',1,'wiced_bt_mesh_provision.h']]],
   ['phy_5fopts',['phy_opts',['../structwiced__bt__ble__phy__preferences__t.html#a554295f10e6c6adcb0d377961072c859',1,'wiced_bt_ble_phy_preferences_t']]],
   ['pin_5frequest',['pin_request',['../unionwiced__bt__management__evt__data__t.html#a2576a3a911a65909fe306f6da8c836f8',1,'wiced_bt_management_evt_data_t']]],
+  ['place_5fin_5falways_5fon_5fram',['PLACE_IN_ALWAYS_ON_RAM',['../brcm__fw__types_8h.html#ae8c1f1f1d6306b3d2e6dd7dde7609e8f',1,'brcm_fw_types.h']]],
   ['pltk',['pltk',['../wiced__bt__dev_8h.html#a8f96c527c69b70551211654038570c9c',1,'wiced_bt_dev.h']]],
   ['pm_5ferr_5fcode',['pm_err_code',['../unionwiced__bt__hidd__event__data__t.html#a7975ad5494879f17801165bd084016f6',1,'wiced_bt_hidd_event_data_t']]],
   ['pm_5finterval',['pm_interval',['../unionwiced__bt__hidd__event__data__t.html#ad983f204ae69dab4779cc9f02b1434cc',1,'wiced_bt_hidd_event_data_t']]],

@@ -123,6 +123,7 @@ var group___result =
       [ "WICED_BT_USE_DEFAULT_SECURITY", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a5752389a74963552776151a3ee008cdc", null ],
       [ "WICED_BT_KEY_MISSING", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a399c866606d76b34ac44edf90add12d4", null ],
       [ "WICED_BT_ENCRYPT_DISABLED", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a4708e8eb0830a4188da03a689cda9d7d", null ],
+      [ "WICED_BT_SERVICE_NOT_FOUND", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a182262df81b723ca8795f01cf0c2b3bc", null ],
       [ "FILESYSTEM_RESULT_LIST", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ab6cc046f991e08c43f3a999634f9bb8a", null ]
     ] ]
 ];

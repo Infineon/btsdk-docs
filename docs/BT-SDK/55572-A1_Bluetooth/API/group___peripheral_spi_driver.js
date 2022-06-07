@@ -5,8 +5,15 @@ var group___peripheral_spi_driver =
     [ "WICED_SPI_MODE", "group___peripheral_spi_driver.html#ga54cf66480e6263cd2081c3393aaad710", null ],
     [ "WICED_SPI_SS_MODE", "group___peripheral_spi_driver.html#gae612c7678155da1e454606c0a5cf8f23", null ],
     [ "WICED_SPI_SS_POLARITY", "group___peripheral_spi_driver.html#ga4bc6763f74d2d9a3a5cb0dfbaf6240fe", [
-      [ "SPI_MASTER", "group___peripheral_spi_driver.html#gga4caf8d8f829279fba122163d961608a4a84379dc90398ca075038c8d5ee465f6a", null ],
-      [ "SPI_SLAVE", "group___peripheral_spi_driver.html#gga4caf8d8f829279fba122163d961608a4abc98c1546fe12d3fceb1f86cf670faa9", null ]
+      [ "I2CM_SPEED_100KHZ", "group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a2fa669fc9820cf8ace8eadae500de28b", null ],
+      [ "I2CM_SPEED_400KHZ", "group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a2d1bde442eaafa8362826726077de137", null ],
+      [ "I2CM_SPEED_800KHZ", "group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a21cfe14be160b1030d832b5c8443f036", null ],
+      [ "I2CM_SPEED_1000KHZ", "group___i2_c_driver.html#gga4caf8d8f829279fba122163d961608a4a1ee8d763b3714bf7d0b8001cc4f583da", null ],
+      [ "I2CM_SUCCESS", "group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea01540758b38146ad68cf1bddfc7fa36f", null ],
+      [ "I2CM_OP_FAILED", "group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea9e628df9ccc57b1d2c539633c90bfbf7", null ],
+      [ "I2CM_BUSY", "group___i2_c_driver.html#gga96a58e29e8dbf2b5bdeb775cba46556ea0b82f8163a4021c3f90329fd3ee56759", null ],
+      [ "SPI_MASTER", "group___peripheral_spi_driver.html#ggab48899087cc647f0f791ed0c459adc53a84379dc90398ca075038c8d5ee465f6a", null ],
+      [ "SPI_SLAVE", "group___peripheral_spi_driver.html#ggab48899087cc647f0f791ed0c459adc53abc98c1546fe12d3fceb1f86cf670faa9", null ]
     ] ],
     [ "spi_interface_t", "group___peripheral_spi_driver.html#gac6144d3ea3ef78e7923c351d3b62170e", [
       [ "SPI1", "group___peripheral_spi_driver.html#ggac6144d3ea3ef78e7923c351d3b62170eadd83ddb396fbcb33f2d61248e5c4a185", null ],

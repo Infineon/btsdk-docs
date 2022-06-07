@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -140,6 +140,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaee2a3607c36bda3fb34a14a2b81905a8"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rfcomm__api__functions.html#gaee2a3607c36bda3fb34a14a2b81905a8">wiced_bt_rfcomm_control_data_flow</a> (BD_ADDR peer_bda)</td></tr>
 <tr class="memdesc:gaee2a3607c36bda3fb34a14a2b81905a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function enables flow control based on ACL buffer availability.  <a href="#gaee2a3607c36bda3fb34a14a2b81905a8">More...</a><br /></td></tr>
 <tr class="separator:gaee2a3607c36bda3fb34a14a2b81905a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga865e448ffc3555587b59bab1e9f14173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__rfcomm_8h.html#a67a77aad84c51f52a3a3283258fc620d">wiced_bt_rfcomm_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rfcomm__api__functions.html#ga865e448ffc3555587b59bab1e9f14173">wiced_bt_rfcomm_port_get_queue_status</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="structwiced__port__status__t.html">wiced_port_status_t</a> *p_status)</td></tr>
+<tr class="memdesc:ga865e448ffc3555587b59bab1e9f14173"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function reports current status of a connection.  <a href="#ga865e448ffc3555587b59bab1e9f14173">More...</a><br /></td></tr>
+<tr class="separator:ga865e448ffc3555587b59bab1e9f14173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>RFCOMM Functions. </p>
@@ -393,6 +396,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b> WICED_BT_RFCOMM_SUCCESS </b> : If successful <b> WICED_BT_RFCOMM_ERROR </b> : If pool allocation fails </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga865e448ffc3555587b59bab1e9f14173"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__rfcomm_8h.html#a67a77aad84c51f52a3a3283258fc620d">wiced_bt_rfcomm_result_t</a> wiced_bt_rfcomm_port_get_queue_status </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structwiced__port__status__t.html">wiced_port_status_t</a> *&#160;</td>
+          <td class="paramname"><em>p_status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function reports current status of a connection. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>: The connection handle returned by <a class="el" href="group__rfcomm__api__functions.html#ga0acf439d7bfa3540fe1f682e28a3ea15">wiced_bt_rfcomm_create_connection </a> </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_status</td><td>: pointer to the <a class="el" href="structwiced__port__status__t.html">wiced_port_status_t</a> structur to receive connection status</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b> WICED_BT_RFCOMM_SUCCESS </b> : If successful <b> WICED_BT_RFCOMM_BAD_HANDLE </b> : If the handle is out of range <b> WICED_BT_RFCOMM_NOT_OPENED </b> : If the connection is not opened </dd></dl>
 
 </div>
 </div>

@@ -2,9 +2,11 @@ var group__wiced__bt__battery__client__api__functions =
 [
     [ "wiced_bt_battery_client_discovery_complete_t", "structwiced__bt__battery__client__discovery__complete__t.html", [
       [ "conn_id", "structwiced__bt__battery__client__discovery__complete__t.html#a71a8a39270ae1bf01ad381dca0e95c1b", null ],
+      [ "notification_supported", "structwiced__bt__battery__client__discovery__complete__t.html#a20cc34004d8d3d4c296b085093b8e1fb", null ],
       [ "status", "structwiced__bt__battery__client__discovery__complete__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47", null ]
     ] ],
     [ "wiced_bt_battery_client_data_t", "structwiced__bt__battery__client__data__t.html", [
+      [ "battery_level", "structwiced__bt__battery__client__data__t.html#a3c0aee7bfb6e464e575c6fe45ebf9b86", null ],
       [ "conn_id", "structwiced__bt__battery__client__data__t.html#a71a8a39270ae1bf01ad381dca0e95c1b", null ],
       [ "handle", "structwiced__bt__battery__client__data__t.html#af242d6e3b6108ea75e1eb236e94c8240", null ],
       [ "len", "structwiced__bt__battery__client__data__t.html#a8aed22e2c7b283705ec82e0120515618", null ],

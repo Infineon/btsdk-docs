@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -149,6 +149,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga08b1a111be46bb1341db8329a98ba2c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga08b1a111be46bb1341db8329a98ba2c2">wiced_bt_dev_write_eir</a> (uint8_t *p_buff, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga08b1a111be46bb1341db8329a98ba2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_write_eir.  <a href="#ga08b1a111be46bb1341db8329a98ba2c2">More...</a><br /></td></tr>
 <tr class="separator:ga08b1a111be46bb1341db8329a98ba2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65bc31725b27be92d23b71707c4d309c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga65bc31725b27be92d23b71707c4d309c">wiced_bt_dev_get_remote_name</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="wiced__bt__dev_8h.html#a7a9c3da3a9578a2e2f9275e8b0490d98">wiced_bt_remote_name_cback_t</a> *p_remote_name_result_cback)</td></tr>
+<tr class="memdesc:ga65bc31725b27be92d23b71707c4d309c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the BT Friendly name from the remote device.  <a href="#ga65bc31725b27be92d23b71707c4d309c">More...</a><br /></td></tr>
+<tr class="separator:ga65bc31725b27be92d23b71707c4d309c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Bluetooth Basic Rate / Enhanced Data Rate Functions. </p>
@@ -192,6 +195,49 @@ Functions</h2></td></tr>
 <p>Function wiced_bt_dev_cancel_sniff_mode. </p>
 <p>Take a connection out of sniff mode. A check is made if the connection is already in sniff mode, and if not, the cancel sniff mode is ignored.</p>
 <dl class="section return"><dt>Returns</dt><dd>WICED_BT_PENDING if successfully initiated, otherwise error </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga65bc31725b27be92d23b71707c4d309c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_get_remote_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__dev_8h.html#a7a9c3da3a9578a2e2f9275e8b0490d98">wiced_bt_remote_name_cback_t</a> *&#160;</td>
+          <td class="paramname"><em>p_remote_name_result_cback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the BT Friendly name from the remote device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>Peer BD address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_remote_name_result_cback</td><td>remote name result callback</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li>WICED_BT_PENDING if successfully initiated</li>
+<li>WICED_BT_BUSY if already in progress</li>
+<li>WICED_BT_ILLEGAL_VALUE if parameter(s) are out of range</li>
+<li>WICED_BT_NO_RESOURCES if could not allocate resources to start the command</li>
+<li>WICED_BT_WRONG_MODE if the device is not up. </li>
+</ul>
+</dd></dl>
 
 </div>
 </div>

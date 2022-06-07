@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -220,10 +220,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#adf90fcab3f9b7f9b434ccc9ffd19a594">WICED_BT_MESH_REMOTE_PROVISION_STATE_LINK_ACTIVE</a>&#160;&#160;&#160;0x02</td></tr>
 <tr class="memdesc:adf90fcab3f9b7f9b434ccc9ffd19a594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Active. <br /></td></tr>
 <tr class="separator:adf90fcab3f9b7f9b434ccc9ffd19a594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87c1eb050edbc8a1faed2e826aeef5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac87c1eb050edbc8a1faed2e826aeef5b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#ac87c1eb050edbc8a1faed2e826aeef5b">WICED_BT_MESH_REMOTE_PROVISION_STATE_OUTBOUNT_PDU_TRANSFER</a>&#160;&#160;&#160;0x03</td></tr>
-<tr class="memdesc:ac87c1eb050edbc8a1faed2e826aeef5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Oubound PDU transfer. <br /></td></tr>
-<tr class="separator:ac87c1eb050edbc8a1faed2e826aeef5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326b907a92ed905e93478801ff79c408"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a326b907a92ed905e93478801ff79c408"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a326b907a92ed905e93478801ff79c408">WICED_BT_MESH_REMOTE_PROVISION_STATE_OUTBOUND_PDU_TRANSFER</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="memdesc:a326b907a92ed905e93478801ff79c408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Outbound PDU transfer. <br /></td></tr>
+<tr class="separator:a326b907a92ed905e93478801ff79c408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414259072e8a3408447d6c9dda001020"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a414259072e8a3408447d6c9dda001020"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__defs_8h.html#a414259072e8a3408447d6c9dda001020">WICED_BT_MESH_REMOTE_PROVISION_STATE_LINK_CLOSING</a>&#160;&#160;&#160;0x04</td></tr>
 <tr class="memdesc:a414259072e8a3408447d6c9dda001020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link Closing. <br /></td></tr>
@@ -2769,14 +2769,17 @@ Macros</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="MESH_PROVISIONING_DEVICE_KEY_REFRESH_PROCEDURES"></a></p>
 </div></td></tr>
 <tr class="memitem:ab9c29330df0ca4cc0cfc57e6fba3ff9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9c29330df0ca4cc0cfc57e6fba3ff9a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_DEV_KEY_REFRESH</b>&#160;&#160;&#160;0</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_DEV_KEY_REFRESH</b>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:ab9c29330df0ca4cc0cfc57e6fba3ff9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e028862feb3a51e4b5d728da1dbb46a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e028862feb3a51e4b5d728da1dbb46a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_NODE_ADDRESS_REFRESH</b>&#160;&#160;&#160;1</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_NODE_ADDRESS_REFRESH</b>&#160;&#160;&#160;0x01</td></tr>
 <tr class="separator:a5e028862feb3a51e4b5d728da1dbb46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e6ae570d224142f900cee193c0752aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e6ae570d224142f900cee193c0752aa"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_NODE_COMPOSITION_REFRESH</b>&#160;&#160;&#160;2</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_NODE_COMPOSITION_REFRESH</b>&#160;&#160;&#160;0x02</td></tr>
 <tr class="separator:a6e6ae570d224142f900cee193c0752aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91b57a6587bda83802a1443cb56cec66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91b57a6587bda83802a1443cb56cec66"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_RECORD_RETRIEVAL</b>&#160;&#160;&#160;0xFE</td></tr>
+<tr class="separator:a91b57a6587bda83802a1443cb56cec66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a294a3022ffa1bebc1c80e0a480229388"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a294a3022ffa1bebc1c80e0a480229388"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_PROVISION_PROCEDURE_PROVISION</b>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="separator:a294a3022ffa1bebc1c80e0a480229388"><td class="memSeparator" colspan="2">&#160;</td></tr>

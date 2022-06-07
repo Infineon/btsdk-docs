@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -130,7 +130,7 @@ _wiced_trans_buffer_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a
 <p>This supports the UART transport in HCI Mode</p>
 <p>The AIROC Transport uses the generic pool available for receiving and sending packets over the transport. Following are the configurations of the generic pool. 1: The buffer size - 8 bytes, buffer count - 128. 2: The buffer size - 32 bytes, buffer count - 48. 3: The buffer size - 96 bytes, buffer count - 50. 4: The buffer size - 268 bytes, buffer count - 12.</p>
 <p>Using the described generic pools, the max payload size supportable is 252.(16 bytes for internal headers). If the application wants to send a packet of a size more than the max size of the buffer available in the generic pool, the application can do so by creating a transport buffer pool of the desired size. (Refer APIs wiced_transport_create_buffer_pool, wiced_transport_allocate_buffer,wiced_transport_send_buffer).</p>
-<p>If the application wants to recieve a packet of a size more than the max size of the buffer available in the generic pool, the application can do so by configuring a receive buffer pool of the desired size when doing the transport init. </p>
+<p>If the application wants to receive a packet of a size more than the max size of the buffer available in the generic pool, the application can do so by configuring a receive buffer pool of the desired size when doing the transport init. </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

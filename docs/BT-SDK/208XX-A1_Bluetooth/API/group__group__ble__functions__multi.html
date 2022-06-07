@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,8 @@ $(document).ready(function(){initNavTree('group__group__ble__functions__multi.ht
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Multi Advertising<div class="ingroups"><a class="el" href="group__group__ble__functions.html">Functions</a></div></div>  </div>
@@ -105,6 +107,20 @@ $(document).ready(function(){initNavTree('group__group__ble__functions__multi.ht
 <p>Multi advertisements allow the device to advertise as if it is multiple LE broadcast devices.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gabfe1eac107c33a26a78571b87d634fe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabfe1eac107c33a26a78571b87d634fe3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#gabfe1eac107c33a26a78571b87d634fe3">BD_FEATURES_LEN</a>&#160;&#160;&#160;8</td></tr>
+<tr class="memdesc:gabfe1eac107c33a26a78571b87d634fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Features length. <br /></td></tr>
+<tr class="separator:gabfe1eac107c33a26a78571b87d634fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga9cb210a889f910ce1c6299350749dd1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9cb210a889f910ce1c6299350749dd1c"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#ga9cb210a889f910ce1c6299350749dd1c">wiced_bt_features_t</a> [<a class="el" href="group__group__ble__functions__multi.html#gabfe1eac107c33a26a78571b87d634fe3">BD_FEATURES_LEN</a>]</td></tr>
+<tr class="memdesc:ga9cb210a889f910ce1c6299350749dd1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Features supported data structure. <br /></td></tr>
+<tr class="separator:ga9cb210a889f910ce1c6299350749dd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad7c886fa1ae0a32a7a80f42d5de7bac6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#gad7c886fa1ae0a32a7a80f42d5de7bac6">wiced_start_multi_advertisements</a> (uint8_t advertising_enable, uint8_t adv_instance)</td></tr>
@@ -131,17 +147,86 @@ Functions</h2></td></tr>
 <tr class="memitem:ga91b6c2557800b5d63f8c94c17af05183"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#ga91b6c2557800b5d63f8c94c17af05183">wiced_bt_dev_remove_device_from_address_resolution_db</a> (<a class="el" href="group__group__dev__data__structures.html#ga13cb4b676485347f10cf308988911109">wiced_bt_device_link_keys_t</a> *p_link_keys)</td></tr>
 <tr class="memdesc:ga91b6c2557800b5d63f8c94c17af05183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the link key information from internal address resolution db.  <a href="#ga91b6c2557800b5d63f8c94c17af05183">More...</a><br /></td></tr>
 <tr class="separator:ga91b6c2557800b5d63f8c94c17af05183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga173adf38c45042ae37a34fe37f9a7410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#ga173adf38c45042ae37a34fe37f9a7410">wiced_bt_ble_config_privacy</a> (wiced_bool_t privacy_mode)</td></tr>
+<tr class="memdesc:ga173adf38c45042ae37a34fe37f9a7410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_config_privacy.  <a href="#ga173adf38c45042ae37a34fe37f9a7410">More...</a><br /></td></tr>
+<tr class="separator:ga173adf38c45042ae37a34fe37f9a7410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#gac39c9efdd1042d3f8855d854237dc3d6">wiced_bt_dev_get_ble_keys</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="group__group__dev__enums.html#gae2140187208ce279eae8d9248a2e8a0e">wiced_bt_dev_le_key_type_t</a> *p_key_mask)</td></tr>
 <tr class="memdesc:gac39c9efdd1042d3f8855d854237dc3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the LE key mask from stored key information of nv ram.  <a href="#gac39c9efdd1042d3f8855d854237dc3d6">More...</a><br /></td></tr>
 <tr class="separator:gac39c9efdd1042d3f8855d854237dc3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga25741accdeebfb7297645d5ead4197ba"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#ga25741accdeebfb7297645d5ead4197ba">wiced_btm_get_private_bda</a> (void)</td></tr>
 <tr class="memdesc:ga25741accdeebfb7297645d5ead4197ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire current LE Resolvable Private Address.  <a href="#ga25741accdeebfb7297645d5ead4197ba">More...</a><br /></td></tr>
 <tr class="separator:ga25741accdeebfb7297645d5ead4197ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5bc1e0f5151f2b2e550bbd8c96035a82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__functions__multi.html#ga5bc1e0f5151f2b2e550bbd8c96035a82">wiced_bt_ble_read_le_features</a> (wiced_bt_device_address_t bda, <a class="el" href="group__group__ble__functions__multi.html#ga9cb210a889f910ce1c6299350749dd1c">wiced_bt_features_t</a> <a class="el" href="wiced__bt__mesh__cfg_8h.html#a05394e2501b222db77c3a39194523065">features</a>)</td></tr>
+<tr class="memdesc:ga5bc1e0f5151f2b2e550bbd8c96035a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_read_le_features.  <a href="#ga5bc1e0f5151f2b2e550bbd8c96035a82">More...</a><br /></td></tr>
+<tr class="separator:ga5bc1e0f5151f2b2e550bbd8c96035a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Multi advertisements allow the device to advertise as if it is multiple LE broadcast devices. </p>
 <p>The device makes available 16 advertising instances. Instance 0 is controlled by the default ADV functionality using wiced_bt_ble_start_advertisements and should not be controlled using the *_multi_advertisements APIs. Each instance has associated ADV parameters, raw data, scan response data, transmit power, local address, as well as the ability to register for events immediately before and after packet TX. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga173adf38c45042ae37a34fe37f9a7410"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_bt_dev_status_t</a> wiced_bt_ble_config_privacy </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramname"><em>privacy_mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_ble_config_privacy. </p>
+<p>This function sets the local privacy mode</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">privacy_mode</td><td>TRUE to enable privacy on local device, FALSE to disable privacy on local device</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_bt_dev_status_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5bc1e0f5151f2b2e550bbd8c96035a82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_ble_read_le_features </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
+          <td class="paramname"><em>bda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group__ble__functions__multi.html#ga9cb210a889f910ce1c6299350749dd1c">wiced_bt_features_t</a>&#160;</td>
+          <td class="paramname"><em>features</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_ble_read_le_features. </p>
+<p>This API returns the features supported by the <code>bda</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bda</td><td>Device address pointer, pass NULL for local device </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">features</td><td>Pointer to store the supported features </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_BT_SUCCESS contents of features are valid WICED_BT_ERROR otherwise. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga806119ffc38aa9ec12a03f9f2c8c8d43"></a>
 <div class="memitem">
 <div class="memproto">
