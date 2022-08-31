@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"structwiced__bt__ble__connection__param__update__t.html#ac6af0821db9e8b3c896614f619e85243":[7,1,9,34,1],
 "structwiced__bt__ble__connection__param__update__t.html#ade818037fd6c985038ff29656089758d":[7,1,9,34,3],
 "structwiced__bt__ble__ext__adv__duration__config__t.html":[7,1,9,57,6],
 "structwiced__bt__ble__ext__adv__duration__config__t.html#a1a72a90a41456c55b3a930430b7a13f6":[7,1,9,57,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "structwiced__bt__dev__encryption__status__t.html":[7,1,9,41],
 "structwiced__bt__dev__encryption__status__t.html#a37f805590566e72da2b892efca45960c":[7,1,9,41,0],
 "structwiced__bt__dev__encryption__status__t.html#a5177d250bbf908abce7353b001a51f82":[7,1,9,41,1],
-"structwiced__bt__dev__encryption__status__t.html#a7de905425ef3363920c0950d739903a0":[7,1,9,41,3],
-"structwiced__bt__dev__encryption__status__t.html#aaee9578b774434bb1970bf77a548f0cb":[7,1,9,41,2]
+"structwiced__bt__dev__encryption__status__t.html#a7de905425ef3363920c0950d739903a0":[7,1,9,41,3]
 };

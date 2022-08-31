@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__mesh__core__state__app__key__t.html#a852b86a2eaee9852ada7a43e61e311a2":[7,1,11,1,8,0],
 "structwiced__bt__mesh__core__state__app__key__t.html#aa60a0c39d29c4a6fdaac5bfc05f1dbec":[7,1,11,1,8,1],
 "structwiced__bt__mesh__core__state__beacon__t.html":[7,1,11,1,12],
 "structwiced__bt__mesh__core__state__beacon__t.html#a058259d558a6670bc25672a5173cc281":[7,1,11,1,12,0],
@@ -81,10 +82,11 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__event____t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e":[7,1,11,1,23,5],
 "structwiced__bt__mesh__event____t.html#a78a2f6d43ce0639168275d5bac8cac9b":[7,1,11,1,23,21],
 "structwiced__bt__mesh__event____t.html#a890a5f699e1821d80b4cd8a10ae45a2d":[7,1,11,1,23,16],
-"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,11,1,23,24],
+"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,11,1,23,25],
 "structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49":[7,1,11,1,23,15],
 "structwiced__bt__mesh__event____t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,1,11,1,23,7],
 "structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a":[7,1,11,1,23,8],
+"structwiced__bt__mesh__event____t.html#aac31f72953746e656497ea212a091aaf":[7,1,11,1,23,24],
 "structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934":[7,1,11,1,23,17],
 "structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,1,11,1,23,20],
 "structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf":[7,1,11,1,23,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__light__lightness__status__data__t.html#af27d9627f4a2f2839ae2c3500301b87e":[7,1,11,2,17,2],
 "structwiced__bt__mesh__light__lightness__status__t.html":[7,1,11,2,18],
 "structwiced__bt__mesh__light__lightness__status__t.html#a3783a330c33f936b9f19fc2f131c9f80":[7,1,11,2,18,3],
-"structwiced__bt__mesh__light__lightness__status__t.html#a45bf0af793adaf5c2741145fc14b6dbe":[7,1,11,2,18,1],
-"structwiced__bt__mesh__light__lightness__status__t.html#a5d6dd5edacaec34c9353ae55cd893f04":[7,1,11,2,18,5],
-"structwiced__bt__mesh__light__lightness__status__t.html#a7353a3eb720f23188596a63569fbe8ec":[7,1,11,2,18,0]
+"structwiced__bt__mesh__light__lightness__status__t.html#a45bf0af793adaf5c2741145fc14b6dbe":[7,1,11,2,18,1]
 };

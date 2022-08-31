@@ -41,7 +41,6 @@ var searchData=
   ['remote_5fbd_5faddr',['remote_bd_addr',['../structwiced__bt__ble__scan__results__t.html#a1d7324bb1e473b629b3ffaf7c38c7f98',1,'wiced_bt_ble_scan_results_t::remote_bd_addr()'],['../structwiced__bt__dev__inquiry__scan__result__t.html#a1d7324bb1e473b629b3ffaf7c38c7f98',1,'wiced_bt_dev_inquiry_scan_result_t::remote_bd_addr()'],['../structsdp__discovery__record__t.html#a1d7324bb1e473b629b3ffaf7c38c7f98',1,'sdp_discovery_record_t::remote_bd_addr()']]],
   ['remote_5fbd_5fname',['remote_bd_name',['../structwiced__bt__dev__remote__name__result__t.html#a92299b194af602f6b523a1f18eb79e99',1,'wiced_bt_dev_remote_name_result_t']]],
   ['remote_5foob_5fdata_5frequest',['remote_oob_data_request',['../unionwiced__bt__management__evt__data__t.html#af186c2f016c0dfab623f7b8dae1079c4',1,'wiced_bt_management_evt_data_t']]],
-  ['replay_5fcache_5fsize',['replay_cache_size',['../wiced__bt__mesh__cfg_8h.html#aa6858d73668cc0a03224d86687b51377',1,'wiced_bt_mesh_cfg.h']]],
   ['reply',['reply',['../structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f',1,'wiced_bt_mesh_event__t']]],
   ['reply_5ftimeout',['reply_timeout',['../structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47',1,'wiced_bt_mesh_event__t']]],
   ['report_5fconn',['report_conn',['../unionwiced__bt__avdt__ctrl__t.html#a6535172b3b9c55ea6509691db450b17f',1,'wiced_bt_avdt_ctrl_t']]],
@@ -73,5 +72,7 @@ var searchData=
   ['rssi_5ffactor',['rssi_factor',['../wiced__bt__mesh__cfg_8h.html#a2f6964e0e31458b18938e4e6d55e91d8',1,'wiced_bt_mesh_cfg.h']]],
   ['rtrans_5ftimeout',['rtrans_timeout',['../structwiced__bt__l2cap__fcr__options__t.html#ab354c08b88768cc329bd7f108898f83b',1,'wiced_bt_l2cap_fcr_options_t']]],
   ['rx_5fbuff_5fpool_5fcfg',['rx_buff_pool_cfg',['../wiced__transport_8h.html#a66034389972edde796e89217e2e69202',1,'wiced_transport.h']]],
+  ['rx_5fcnt',['rx_cnt',['../structwiced__bt__mesh__core__delay__statistics__t.html#ac4d763b359e41d4f238eb40d68b46ed1',1,'wiced_bt_mesh_core_delay_statistics_t']]],
+  ['rx_5fdelay',['rx_delay',['../structwiced__bt__mesh__core__delay__statistics__t.html#a91107aebf5f60f611adaf322f8059038',1,'wiced_bt_mesh_core_delay_statistics_t']]],
   ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]]
 ];

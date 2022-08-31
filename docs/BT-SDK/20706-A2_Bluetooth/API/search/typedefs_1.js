@@ -200,6 +200,7 @@ var searchData=
   ['wiced_5fgattdb_5fentry_5ft',['wiced_gattdb_entry_t',['../wiced__bt__gatt_8h.html#a3af50bd5445cb8d2ce12f84506f3b265',1,'wiced_bt_gatt.h']]],
   ['wiced_5fhal_5fbatmon_5fobserver_5ffp',['wiced_hal_batmon_observer_fp',['../group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995',1,'wiced_hal_batmon.h']]],
   ['wiced_5fhci_5ffirmware_5fupgrade_5fstatus_5fcallback_5ft',['wiced_hci_firmware_upgrade_status_callback_t',['../group__group__hci__fw__upgrade__cback__functions.html#ga36b554786c780fa2380331f79f991514',1,'wiced_bt_hci_firmware_upgrade.h']]],
+  ['wiced_5fmem_5fpre_5finit_5fcontrol',['WICED_MEM_PRE_INIT_CONTROL',['../wiced__memory__pre__init_8h.html#a50fe24b3f886c010df09aea4cd1b104b',1,'wiced_memory_pre_init.h']]],
   ['wiced_5fmodel_5fscene_5frecall_5fhandler_5ft',['wiced_model_scene_recall_handler_t',['../group__wiced__bt__mesh__models.html#ga14ca9e69ea94ccfbd44c574b786440c1',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fmodel_5fscene_5fstore_5fhandler_5ft',['wiced_model_scene_store_handler_t',['../group__wiced__bt__mesh__models.html#gaaf3c246bde4017cf5fcc0c04cb005e45',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fota_5ffirmware_5fevent_5fcallback_5ft',['wiced_ota_firmware_event_callback_t',['../group__group__ota__fw__upgrade__cback__functions.html#gad4e7a2fccd707c5281bf76c9e0dfcfc7',1,'wiced_bt_ota_firmware_upgrade.h']]],

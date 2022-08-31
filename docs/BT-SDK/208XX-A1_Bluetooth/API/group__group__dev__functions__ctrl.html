@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -279,7 +279,7 @@ Functions</h2></td></tr>
 <p>The application can invoke this function to enable the coex functionality. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">seci_baud_rate</td><td>- SECI baud rate. Ensure to set a valid baud rate which will be used for the SECI communication between BT and WLAN chip. The maximum supported value is up to 4M.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">seci_baud_rate</td><td>- SECI baud rate. Ensure to set a valid baud rate which will be used for the SECI communication between Bluetooth and WLAN chip. The maximum supported value is up to 4M.</td></tr>
   </table>
   </dd>
 </dl>
@@ -703,7 +703,7 @@ This API works when there is only one ACL connection. </dd></dl>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>new BD_ADDR to set </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">addr_type</td><td><ul>
-<li>BLE_ADDR_RANDOM (only for BLE, not BR/EDR or dual mode)</li>
+<li>BLE_ADDR_RANDOM (only for LE, not BR/EDR or dual mode)</li>
 <li>BLE_ADDR_PUBLIC</li>
 </ul>
 </td></tr>

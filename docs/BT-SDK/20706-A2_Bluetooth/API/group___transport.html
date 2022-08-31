@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -399,10 +399,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Application can invoke this function to confgure and enable low power mode of operation. </p>
-<p>Application resumes on waking from sleep. Application can also configure the BT DEV WAKE GPIO and the active mode of the BT DEV WAKE GPIO using this function. BT DEV WAKE GPIO -Host can wake the device from sleep by setting the BT device wake pin active, if the device is in sleep mode</p>
+<p>Application resumes on waking from sleep. Application can also configure the BT_DEV_WAKE GPIO and the active mode of the BT_DEV_WAKE GPIO using this function. BT_DEV_WAKE GPIO - Host can wake the device from sleep by setting the Bluetooth device wake pin active, if the device is in sleep mode</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bt_dev_wake_gpio</td><td>: BT Device Wake pin, Use arm gpio as the BT_DEV_WAKE pin </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bt_dev_wake_gpio</td><td>: Bluetooth Device Wake pin, Use arm gpio as the BT_DEV_WAKE pin </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">bt_dev_wake_mode</td><td>: Active Mode of the BT_DEV_WAKE pin</td></tr>
   </table>
   </dd>

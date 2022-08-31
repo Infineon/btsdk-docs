@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__anc__new__alert__notification__t.html#ab2278a404c82c3505ad19baeb555d458":[7,1,0,5,2],
 "structwiced__bt__anc__new__alert__notification__t.html#acf7f0833669eadba0bc4262377d49538":[7,1,0,5,3],
 "structwiced__bt__anc__supported__new__alerts__result__t.html":[7,1,0,1],
 "structwiced__bt__anc__supported__new__alerts__result__t.html#a5f76a20cca021b05b21545bb11dbd9f1":[7,1,0,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__core__provision__start__t.html#ac06670b9dd0bae66ac354de86e8e6f36":[7,1,11,1,18,3],
 "structwiced__bt__mesh__core__provision__start__t.html#acf71546f50219c2b2c44bc261264ec70":[7,1,11,1,18,2],
 "structwiced__bt__mesh__core__state__app__key__t.html":[7,1,11,1,8],
-"structwiced__bt__mesh__core__state__app__key__t.html#a22f3b78c54405482a77f0c82141b779f":[7,1,11,1,8,2],
-"structwiced__bt__mesh__core__state__app__key__t.html#a852b86a2eaee9852ada7a43e61e311a2":[7,1,11,1,8,0]
+"structwiced__bt__mesh__core__state__app__key__t.html#a22f3b78c54405482a77f0c82141b779f":[7,1,11,1,8,2]
 };

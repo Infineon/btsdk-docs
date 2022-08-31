@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796":[7,1,12,2,1,7],
 "structwiced__bt__l2cap__cfg__information__t.html#a39cc0aefc2e65bb121fa1b0caa824b20":[7,1,12,2,1,9],
 "structwiced__bt__l2cap__cfg__information__t.html#a551cefcd48f2a929589e54d67f029107":[7,1,12,2,1,2],
 "structwiced__bt__l2cap__cfg__information__t.html#a60affc11fe43fcba461a70fd7998c0e4":[7,1,12,2,1,1],
@@ -185,10 +186,11 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47":[7,1,11,1,23,14],
 "structwiced__bt__mesh__event____t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e":[7,1,11,1,23,5],
 "structwiced__bt__mesh__event____t.html#a890a5f699e1821d80b4cd8a10ae45a2d":[7,1,11,1,23,16],
-"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,11,1,23,24],
+"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,11,1,23,25],
 "structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49":[7,1,11,1,23,15],
 "structwiced__bt__mesh__event____t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,1,11,1,23,7],
 "structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a":[7,1,11,1,23,8],
+"structwiced__bt__mesh__event____t.html#aac31f72953746e656497ea212a091aaf":[7,1,11,1,23,24],
 "structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934":[7,1,11,1,23,17],
 "structwiced__bt__mesh__event____t.html#ac71c8e5aa3872ef50bff47a8e5a5f48d":[7,1,11,1,23,21],
 "structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,1,11,1,23,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__light__delta__uv__range__data__t.html":[7,1,11,2,41],
 "structwiced__bt__mesh__light__delta__uv__range__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,11,2,41,1],
 "structwiced__bt__mesh__light__delta__uv__range__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,11,2,41,0],
-"structwiced__bt__mesh__light__delta__uv__set__level__t.html":[7,1,11,2,38],
-"structwiced__bt__mesh__light__delta__uv__set__level__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,11,2,38,2],
-"structwiced__bt__mesh__light__delta__uv__set__level__t.html#a864fde14aaec72616f08a10c4a3a07ad":[7,1,11,2,38,1]
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html":[7,1,11,2,38]
 };

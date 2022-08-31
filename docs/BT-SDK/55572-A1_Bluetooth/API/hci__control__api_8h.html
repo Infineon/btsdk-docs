@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1586,6 +1586,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a5556e4f469bb41347e5e489fc20e91f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5556e4f469bb41347e5e489fc20e91f2"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_PROVISION_RETRIEVE_RECORD</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x91 )  /* Request fragment of the provisioning record from the device */</td></tr>
 <tr class="separator:a5556e4f469bb41347e5e489fc20e91f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b9c2e770e7417401076172f08d44c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0b9c2e770e7417401076172f08d44c2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CORE_DELAY_STATS_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x92 )  /* Get delay statistics */</td></tr>
+<tr class="separator:af0b9c2e770e7417401076172f08d44c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8958be974f162f8f34b8c9c19fe6fb54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8958be974f162f8f34b8c9c19fe6fb54"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x00 )    /* Battery Client connect */</td></tr>
 <tr class="separator:a8958be974f162f8f34b8c9c19fe6fb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1788,7 +1791,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_PUSH_NVRAM_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x03 ) /* Push NVRAM data by ID */</td></tr>
 <tr class="separator:a9f487aecf1f90db0bad56eeb603f0041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a692f0ec586959fac3cc16b344bc8ec04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a692f0ec586959fac3cc16b344bc8ec04"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_BT_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x04 ) /* Start BT stack */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_BT_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x04 ) /* Start Bluetooth stack */</td></tr>
 <tr class="separator:a692f0ec586959fac3cc16b344bc8ec04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4b5a02b3c13b0f0e9b4a61f79b88138"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4b5a02b3c13b0f0e9b4a61f79b88138"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCI_AUDIO_COMMAND_BUTTON</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCI_AUDIO &lt;&lt; 8 ) | 0x30 ) /* Button event */</td></tr>
@@ -1844,6 +1847,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49ad873bfbf26cee8ab85c17d1e5208a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_RSSI</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0C )  /* Collect RSSI values */</td></tr>
 <tr class="separator:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e7cb6b1afcfdd5eab88000736cfe617"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e7cb6b1afcfdd5eab88000736cfe617"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_APP_INFO_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0D )  /* Get node application info (FW ID) */</td></tr>
+<tr class="separator:a2e7cb6b1afcfdd5eab88000736cfe617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a74ca308517b3d62636fa33d3cfc83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77a74ca308517b3d62636fa33d3cfc83"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0E )  /* Firmware update start */</td></tr>
+<tr class="separator:a77a74ca308517b3d62636fa33d3cfc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a259e18848ed58db1dd5db7b7b1226480"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a259e18848ed58db1dd5db7b7b1226480"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0F )  /* Firmware image data */</td></tr>
+<tr class="separator:a259e18848ed58db1dd5db7b7b1226480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9872c0526610f9fcac4940ac4662d1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9872c0526610f9fcac4940ac4662d1c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_APPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x10 )  /* Apply new firmware image */</td></tr>
+<tr class="separator:ab9872c0526610f9fcac4940ac4662d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8954de849a8ff18ba967b34fc2a213"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f8954de849a8ff18ba967b34fc2a213"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_CANCEL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x11 )  /* Cancel firmware update */</td></tr>
+<tr class="separator:a6f8954de849a8ff18ba967b34fc2a213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a9e283121aadd2608628a5d98e0fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a9e283121aadd2608628a5d98e0fe1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a32a9e283121aadd2608628a5d98e0fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2043,7 +2061,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_EVENT_PEER_MTU</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE &lt;&lt; 8 ) | 0x08 )    /* Client MTU Request */</td></tr>
 <tr class="separator:a40f1582e4fccbfde61cdc5161a6f14f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5882238303f9548bc1dfe69e605c51b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5882238303f9548bc1dfe69e605c51b1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_EVENT_CONN_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE &lt;&lt; 8 ) | 0x09 )    /* BLE connection parameter update event */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_EVENT_CONN_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE &lt;&lt; 8 ) | 0x09 )    /* LE connection parameter update event */</td></tr>
 <tr class="separator:a5882238303f9548bc1dfe69e605c51b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae18d9f0853c35df01c076b0f525c9122"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae18d9f0853c35df01c076b0f525c9122"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GATT_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_GATT &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
@@ -2993,6 +3011,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a3fd4db704cf76cc7f0ed6d534a57db26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fd4db704cf76cc7f0ed6d534a57db26"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_PROVISION_DEVICE_CAPABITIES</b>&#160;&#160;&#160;HCI_CONTROL_MESH_EVENT_PROVISION_DEVICE_CAPABILITIES           /* Deprecated, retained for backward compatibility */</td></tr>
 <tr class="separator:a3fd4db704cf76cc7f0ed6d534a57db26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a9caa311ae6e48e2bb0b9878583303"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27a9caa311ae6e48e2bb0b9878583303"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_CORE_DELAY_STATS_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x4c )      /* Delay statistics Status event */</td></tr>
+<tr class="separator:a27a9caa311ae6e48e2bb0b9878583303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4002fbe00ad373df48a63c23a33b32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f4002fbe00ad373df48a63c23a33b32"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x00 )    /* Battery Client connected */</td></tr>
 <tr class="separator:a8f4002fbe00ad373df48a63c23a33b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3221,6 +3242,12 @@ Macros</h2></td></tr>
 <tr class="memitem:aafa43cfb907c320931562683f490b844"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa43cfb907c320931562683f490b844"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_RSSI_VALUES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0c )  /* [Src Node] [Peer addr][RSSI] ... */</td></tr>
 <tr class="separator:aafa43cfb907c320931562683f490b844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_APP_INFO</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0d )  /* Node application info (FW ID) */</td></tr>
+<tr class="separator:a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c68470fb978af740a74492fa16e324"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21c68470fb978af740a74492fa16e324"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_OTA_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0e )  /* Firmware update command status */</td></tr>
+<tr class="separator:a21c68470fb978af740a74492fa16e324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e07a61a92465d36d8ee059bab0a6742"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e07a61a92465d36d8ee059bab0a6742"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a9e07a61a92465d36d8ee059bab0a6742"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3278,12 +3305,27 @@ Macros</h2></td></tr>
 <tr class="memitem:aea8ff2944c76457bc069c9f169e166cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea8ff2944c76457bc069c9f169e166cf"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_ACCEPT_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0D )</td></tr>
 <tr class="separator:aea8ff2944c76457bc069c9f169e166cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ff65fc66f777e1e9f3c880288e66f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4ff65fc66f777e1e9f3c880288e66f1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_REJECT_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0E )</td></tr>
-<tr class="separator:ad4ff65fc66f777e1e9f3c880288e66f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa37f30f7e4eda3086e2f341207cd567b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa37f30f7e4eda3086e2f341207cd567b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_TERMIANTE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0F )</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_TERMIANTE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0E )</td></tr>
 <tr class="separator:aa37f30f7e4eda3086e2f341207cd567b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6a4889cb0f2556034cff7928ed19e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e6a4889cb0f2556034cff7928ed19e5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_SOURCE_START_STREAMIMG</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x0F)</td></tr>
+<tr class="separator:a6e6a4889cb0f2556034cff7928ed19e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516a0324e1242cf7951085d0c94e6fca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a516a0324e1242cf7951085d0c94e6fca"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_ASSISTANT_SCAN_SOURCE</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x11)</td></tr>
+<tr class="separator:a516a0324e1242cf7951085d0c94e6fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177f099ccdb092ac0ecc403d4f29af1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a177f099ccdb092ac0ecc403d4f29af1d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_ASSISTANT_SELECT_SOURCE</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x14)</td></tr>
+<tr class="separator:a177f099ccdb092ac0ecc403d4f29af1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4997c33cb1e3281a775e568d90e4b31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4997c33cb1e3281a775e568d90e4b31"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_SINK_FIND_SOURCES</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x15)</td></tr>
+<tr class="separator:aa4997c33cb1e3281a775e568d90e4b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92159670e28923bd6e97db51539b5785"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92159670e28923bd6e97db51539b5785"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_SINK_SYNC_TO_SOURCES</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x16)</td></tr>
+<tr class="separator:a92159670e28923bd6e97db51539b5785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690a294ff13d1ea3b390f91cf6fe6cee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a690a294ff13d1ea3b390f91cf6fe6cee"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_SINK_LISTEN_TO_BROADCAST</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x18)</td></tr>
+<tr class="separator:a690a294ff13d1ea3b390f91cf6fe6cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1646737258649fc16d9d324483965637"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1646737258649fc16d9d324483965637"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_MEDIA_PLAYER_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a1646737258649fc16d9d324483965637"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3305,6 +3347,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a43f479e6eb1b0892a1e79246dfedadef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43f479e6eb1b0892a1e79246dfedadef"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_CALL_TERMINATED_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x07 )</td></tr>
 <tr class="separator:a43f479e6eb1b0892a1e79246dfedadef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd1c64cfb3943735eb82a06c71af930"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3dd1c64cfb3943735eb82a06c71af930"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_BRADCAST_SINK_STREAM_RSP_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x08 )</td></tr>
+<tr class="separator:a3dd1c64cfb3943735eb82a06c71af930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3582,7 +3627,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_1027fe475f2fc294df81e132d7b4a871.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_67ed218154fa89e40a9b32e1cb1d7ee5.html">btsdk-include</a></li><li class="navelem"><a class="el" href="hci__control__api_8h.html">hci_control_api.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

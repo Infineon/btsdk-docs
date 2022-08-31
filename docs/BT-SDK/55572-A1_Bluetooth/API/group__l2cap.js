@@ -60,9 +60,9 @@ var group__l2cap =
       [ "fixed_data_cback", "structwiced__bt__l2cap__fixed__chnl__reg__t.html#adbae0891ef191c26ab63c467f0bf51fe", null ],
       [ "fixed_tx_complete_cback", "structwiced__bt__l2cap__fixed__chnl__reg__t.html#abba4ecf607604bcd94468fe9daa6a413", null ]
     ] ],
-    [ "BLE", "group__l2cap__le__api__functions.html", "group__l2cap__le__api__functions" ],
     [ "BR/EDR", "group__l2cap__br__edr__api__functions.html", "group__l2cap__br__edr__api__functions" ],
     [ "Common", "group__l2cap__common__api__functions.html", "group__l2cap__common__api__functions" ],
+    [ "LE", "group__l2cap__le__api__functions.html", "group__l2cap__le__api__functions" ],
     [ "L2C_BLE_INVALID_PSM", "group__l2cap.html#ga032af010a1e5d51fb5e3206be77c01b3", null ],
     [ "L2C_BLE_IS_VALID_PSM", "group__l2cap.html#gabd075c971c2d6c15bd2f51765053e1c4", null ],
     [ "L2C_INVALID_PSM", "group__l2cap.html#ga526c4ea340fa1eadc1301b3080b6bb41", null ],

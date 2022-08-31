@@ -234,6 +234,7 @@ var searchData=
   ['l2cap_5finfo_5fresp_5fresult_5fsuccess',['L2CAP_INFO_RESP_RESULT_SUCCESS',['../l2cdefs_8h.html#ac23bfbccafec05a54e746acc62852694',1,'l2cdefs.h']]],
   ['l2cap_5finfo_5frsp_5flen',['L2CAP_INFO_RSP_LEN',['../l2cdefs_8h.html#afe4a77fca686b08e2d648bd6e72856ea',1,'l2cdefs.h']]],
   ['l2cap_5flast_5ffixed_5fchnl',['L2CAP_LAST_FIXED_CHNL',['../l2cdefs_8h.html#af28ea52d850c59bf7c26cb57605930c2',1,'l2cdefs.h']]],
+  ['le',['LE',['../group__l2cap__le__api__functions.html',1,'']]],
   ['l2cap_5fle_5fcoc_5fconn_5freq_5flen',['L2CAP_LE_COC_CONN_REQ_LEN',['../l2cdefs_8h.html#a7a6ddf211bda368c065ff37b4c30c96e',1,'l2cdefs.h']]],
   ['l2cap_5fle_5fcoc_5fconn_5frsp_5flen',['L2CAP_LE_COC_CONN_RSP_LEN',['../l2cdefs_8h.html#a20a880c0a80ec99400c8f6bb35f01321',1,'l2cdefs.h']]],
   ['l2cap_5fmax_5fheader_5ffcs',['L2CAP_MAX_HEADER_FCS',['../l2cdefs_8h.html#a892a7f9f8569452b26ed41560814051d',1,'l2cdefs.h']]],
@@ -372,7 +373,5 @@ var searchData=
   ['lpn_5fscan',['lpn_scan',['../unionwiced__bt__mesh__core__state__t.html#ac57fc576c40e62f4fc023416440b0fa3',1,'wiced_bt_mesh_core_state_t']]],
   ['lpn_5fsleep',['lpn_sleep',['../unionwiced__bt__mesh__core__state__t.html#a90d72a7eaec388bf7b534f43e959ab96',1,'wiced_bt_mesh_core_state_t']]],
   ['lsr',['lsr',['../structwiced__bt__avdt__report__blk__t.html#a8ecb12ac36585fd75033b28e3157ebb2',1,'wiced_bt_avdt_report_blk_t']]],
-  ['lux_5flevel_5fpresent',['lux_level_present',['../structwiced__bt__mesh__light__lightness__status__t.html#ae6062aaf012692913ace13bcfdcc504a',1,'wiced_bt_mesh_light_lightness_status_t']]],
-  ['lux_5flevel_5ftarget',['lux_level_target',['../structwiced__bt__mesh__light__lightness__status__t.html#a5d6dd5edacaec34c9353ae55cd893f04',1,'wiced_bt_mesh_light_lightness_status_t']]],
   ['le_20mesh',['LE Mesh',['../group__wiced__bt__mesh.html',1,'']]]
 ];

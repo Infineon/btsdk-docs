@@ -1,6 +1,7 @@
 var searchData=
 [
   ['t_5fsdp_5fdiscovery_5fattr',['t_sdp_discovery_attr',['../structt__sdp__discovery__attr.html',1,'']]],
+  ['tag_5fmem_5fpre_5finit_5fcontrol',['tag_mem_pre_init_control',['../structtag__mem__pre__init__control.html',1,'']]],
   ['tai_5fof_5fdelta_5fchange',['tai_of_delta_change',['../structwiced__bt__mesh__time__tai__utc__delta__set__t.html#aff21a4ead6a11e71a8a988b32c1e6466',1,'wiced_bt_mesh_time_tai_utc_delta_set_t::tai_of_delta_change()'],['../structwiced__bt__mesh__time__tai__utc__delta__status__t.html#aff21a4ead6a11e71a8a988b32c1e6466',1,'wiced_bt_mesh_time_tai_utc_delta_status_t::tai_of_delta_change()']]],
   ['tai_5fof_5fzone_5fchange',['tai_of_zone_change',['../structwiced__bt__mesh__time__zone__set__t.html#a23c03cd16bcb09bed62d7e1e78f4352a',1,'wiced_bt_mesh_time_zone_set_t::tai_of_zone_change()'],['../structwiced__bt__mesh__time__zone__status__t.html#a23c03cd16bcb09bed62d7e1e78f4352a',1,'wiced_bt_mesh_time_zone_status_t::tai_of_zone_change()']]],
   ['tai_5fseconds',['tai_seconds',['../structwiced__bt__mesh__time__state__msg__t.html#a014c88833682a292bfb44aed34086571',1,'wiced_bt_mesh_time_state_msg_t']]],
@@ -45,7 +46,9 @@ var searchData=
   ['trigger_5ftype_5fpercentage',['trigger_type_percentage',['../structwiced__bt__mesh__sensor__config__cadence__t.html#a042e475505b83de239dcb9aaea7b09a8',1,'wiced_bt_mesh_sensor_config_cadence_t']]],
   ['tsep',['tsep',['../structwiced__bt__avdt__sep__info__t.html#a6a2ddf063a4004e3aaea44e46df7279a',1,'wiced_bt_avdt_sep_info_t::tsep()'],['../structwiced__bt__avdt__cs__t.html#a6a2ddf063a4004e3aaea44e46df7279a',1,'wiced_bt_avdt_cs_t::tsep()']]],
   ['ttl',['ttl',['../structwiced__bt__mesh__event____t.html#a4d402503271315376ddf4e47674d4965',1,'wiced_bt_mesh_event__t::ttl()'],['../wiced__bt__mesh__core_8h.html#a4d402503271315376ddf4e47674d4965',1,'ttl():&#160;wiced_bt_mesh_core.h'],['../wiced__bt__mesh__provision_8h.html#a4d402503271315376ddf4e47674d4965',1,'ttl():&#160;wiced_bt_mesh_provision.h']]],
+  ['tx_5fcnt',['tx_cnt',['../structwiced__bt__mesh__core__delay__statistics__t.html#a401dd022349f23172a53f7487b528b13',1,'wiced_bt_mesh_core_delay_statistics_t']]],
   ['tx_5fcomplete_5fcback',['tx_complete_cback',['../structwiced__bt__l2cap__appl__information__t.html#ab54068a956cdd5676f3c37dc69dc3093',1,'wiced_bt_l2cap_appl_information_t']]],
+  ['tx_5fdelay',['tx_delay',['../structwiced__bt__mesh__core__delay__statistics__t.html#aac31f72953746e656497ea212a091aaf',1,'wiced_bt_mesh_core_delay_statistics_t::tx_delay()'],['../structwiced__bt__mesh__event____t.html#aac31f72953746e656497ea212a091aaf',1,'wiced_bt_mesh_event__t::tx_delay()']]],
   ['tx_5fflag',['tx_flag',['../structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042',1,'wiced_bt_mesh_event__t']]],
   ['tx_5finterval',['tx_interval',['../structwiced__bt__sco__connection__change__t.html#a02e18c4cedf238d3deccfd0137dd2312',1,'wiced_bt_sco_connection_change_t']]],
   ['tx_5fpkt_5flen',['tx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a39683860aaba7b6e2e2c94986d67fce6',1,'wiced_bt_sco_connection_change_t']]],

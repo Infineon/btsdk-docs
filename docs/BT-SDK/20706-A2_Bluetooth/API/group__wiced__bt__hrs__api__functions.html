@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -150,10 +150,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga423f74e46ed3f8fb379759fe474177fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function on start up to initialize HRS library.  <a href="#ga423f74e46ed3f8fb379759fe474177fd">More...</a><br /></td></tr>
 <tr class="separator:ga423f74e46ed3f8fb379759fe474177fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad0c7dbf1bdd504d204ac7af4df593da3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#gad0c7dbf1bdd504d204ac7af4df593da3">wiced_bt_hrs_connection_up</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>)</td></tr>
-<tr class="memdesc:gad0c7dbf1bdd504d204ac7af4df593da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when BLE connection with a peer device has been established.  <a href="#gad0c7dbf1bdd504d204ac7af4df593da3">More...</a><br /></td></tr>
+<tr class="memdesc:gad0c7dbf1bdd504d204ac7af4df593da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when LE connection with a peer device has been established.  <a href="#gad0c7dbf1bdd504d204ac7af4df593da3">More...</a><br /></td></tr>
 <tr class="separator:gad0c7dbf1bdd504d204ac7af4df593da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#gac93fe14d4e3f9e9eaad388d55da7b04e">wiced_bt_hrs_connection_down</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>)</td></tr>
-<tr class="memdesc:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when BLE connection with a peer device has been disconnected.  <a href="#gac93fe14d4e3f9e9eaad388d55da7b04e">More...</a><br /></td></tr>
+<tr class="memdesc:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when LE connection with a peer device has been disconnected.  <a href="#gac93fe14d4e3f9e9eaad388d55da7b04e">More...</a><br /></td></tr>
 <tr class="separator:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga29cee0b47e06cac4ca15c8ce36001506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga29cee0b47e06cac4ca15c8ce36001506">wiced_bt_hrs_process_client_read_req</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__gatt__read__t.html">wiced_bt_gatt_read_t</a> *p_read)</td></tr>
 <tr class="memdesc:ga29cee0b47e06cac4ca15c8ce36001506"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when it receives GATT read request on Heart rate service characteristic and descriptors.  <a href="#ga29cee0b47e06cac4ca15c8ce36001506">More...</a><br /></td></tr>
@@ -236,7 +236,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The application calls this function when BLE connection with a peer device has been disconnected. </p>
+<p>The application calls this function when LE connection with a peer device has been disconnected. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">conn_id</td><td>: GATT connection ID.</td></tr>
@@ -261,7 +261,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The application calls this function when BLE connection with a peer device has been established. </p>
+<p>The application calls this function when LE connection with a peer device has been established. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">conn_id</td><td>: GATT connection ID.</td></tr>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"group__wicedbt__avrc.html#gaf25cbe904e7238523f8b269fc932c922":[7,1,3,459],
 "group__wicedbt__avrc.html#gaf25cbe904e7238523f8b269fc932c922":[7,1,2,3,459],
 "group__wicedbt__avrc.html#gaf2eae7ba2f504752ccb066a86f7b15aa":[7,1,3,515],
 "group__wicedbt__avrc.html#gaf2eae7ba2f504752ccb066a86f7b15aa":[7,1,2,3,515],
@@ -49,8 +50,8 @@ var NAVTREEINDEX17 =
 "group__wicedbt__avrc.html#gafd3130cee93bc94a882eff1f863f97aa":[7,1,2,3,333],
 "group__wicedbt__avrc.html#gafdeeb812bcc17dd89ea9a5fedd063180":[7,1,3,344],
 "group__wicedbt__avrc.html#gafdeeb812bcc17dd89ea9a5fedd063180":[7,1,2,3,344],
-"group__wicedbt__avrc.html#gafe2c48c8b00a2f732f35c88180a7e53b":[7,1,3,330],
 "group__wicedbt__avrc.html#gafe2c48c8b00a2f732f35c88180a7e53b":[7,1,2,3,330],
+"group__wicedbt__avrc.html#gafe2c48c8b00a2f732f35c88180a7e53b":[7,1,3,330],
 "group__wicedbt__avrc.html#gafe2d7f2a2f8f0258f9ca679e56ae5c9c":[7,1,3,136],
 "group__wicedbt__avrc.html#gafe2d7f2a2f8f0258f9ca679e56ae5c9c":[7,1,2,3,136],
 "group__wicedbt__avrc.html#gafe376c6e74e5de07095709226a4c9aa7":[7,1,3,99],
@@ -63,8 +64,8 @@ var NAVTREEINDEX17 =
 "group__wicedbt__avrc.html#gafe8bf7dadb0b8ec6af00a1fc2361c680":[7,1,2,3,288],
 "group__wicedbt__avrc.html#gafec11cd34dca449a7093aaeedb7e47f2":[7,1,3,602],
 "group__wicedbt__avrc.html#gafec11cd34dca449a7093aaeedb7e47f2":[7,1,2,3,602],
-"group__wicedbt__avrc.html#gaff212f0430000e09f92fe47876994c6d":[7,1,2,3,251],
 "group__wicedbt__avrc.html#gaff212f0430000e09f92fe47876994c6d":[7,1,3,251],
+"group__wicedbt__avrc.html#gaff212f0430000e09f92fe47876994c6d":[7,1,2,3,251],
 "group__wicedbt__avrc.html#gaff4ee2d00ce746b7c91b8e8684e23427":[7,1,3,122],
 "group__wicedbt__avrc.html#gaff4ee2d00ce746b7c91b8e8684e23427":[7,1,2,3,122],
 "group__wicedbt__avrc.html#gaff80854a4dc0c8da02b5b65d2c67dca6":[7,1,3,268],
@@ -101,8 +102,8 @@ var NAVTREEINDEX17 =
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3ca9d8d2cf7f45e9c72bb17e1bec88e97b8":[7,1,2,3,665,7],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cab7ed614c0f6012e90d8db3b2a430e2ac":[7,1,3,665,4],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cab7ed614c0f6012e90d8db3b2a430e2ac":[7,1,2,3,665,4],
-"group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cabf454db5bdfd28b6a7a8f1d888389bb7":[7,1,3,665,8],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cabf454db5bdfd28b6a7a8f1d888389bb7":[7,1,2,3,665,8],
+"group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cabf454db5bdfd28b6a7a8f1d888389bb7":[7,1,3,665,8],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cac8b9db2d97ac3c32d2455053aa4f6873":[7,1,3,665,6],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cac8b9db2d97ac3c32d2455053aa4f6873":[7,1,2,3,665,6],
 "group__wicedbt__avrc.html#ggafe764cb02abe95c03a74f6117ea13b3cad847732c9765a0a7b9cb3fcc209dcd6f":[7,1,3,665,0],
@@ -137,8 +138,8 @@ var NAVTREEINDEX17 =
 "group__wicedbt__avrc__ct.html#ga53748556a7fea2ee3df84ba019aa0a7d":[7,1,2,3,61,23],
 "group__wicedbt__avrc__ct.html#ga54ec8030b93000e29784e654d15ee98f":[7,1,3,61,0],
 "group__wicedbt__avrc__ct.html#ga54ec8030b93000e29784e654d15ee98f":[7,1,2,3,61,0],
-"group__wicedbt__avrc__ct.html#ga5cabc9351dd2ae3f48042d6962c1edf3":[7,1,2,3,61,7],
 "group__wicedbt__avrc__ct.html#ga5cabc9351dd2ae3f48042d6962c1edf3":[7,1,3,61,7],
+"group__wicedbt__avrc__ct.html#ga5cabc9351dd2ae3f48042d6962c1edf3":[7,1,2,3,61,7],
 "group__wicedbt__avrc__ct.html#ga6c493acef5808d8118e3f898089a3043":[7,1,3,61,17],
 "group__wicedbt__avrc__ct.html#ga6c493acef5808d8118e3f898089a3043":[7,1,2,3,61,17],
 "group__wicedbt__avrc__ct.html#ga750dc60f71a0a6590a11f473666fee2a":[7,1,3,61,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "group__wicedbt__gatt.html#ga2926551345864002835e4fe2b8336abc":[7,1,10,93],
 "group__wicedbt__gatt.html#ga2aa8ca0f2b0155154210eb6067ca34ac":[7,1,10,73],
 "group__wicedbt__gatt.html#ga2f41eeeff34e8001557ccb19a73c1836":[7,1,10,136],
-"group__wicedbt__gatt.html#ga32a1818a21a0b36843697b3abc620ecd":[7,1,10,118],
-"group__wicedbt__gatt.html#ga3333698dc0578407e13fe9f086175ecc":[7,1,10,114]
+"group__wicedbt__gatt.html#ga32a1818a21a0b36843697b3abc620ecd":[7,1,10,118]
 };

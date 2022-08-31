@@ -224,6 +224,7 @@ var group__wiced__bt__mesh__core =
       [ "status", "structwiced__bt__mesh__event____t.html#ac71c8e5aa3872ef50bff47a8e5a5f48d", null ],
       [ "timer", "structwiced__bt__mesh__event____t.html#a1a7f3ca3b31eee23b57a7a0542f18cd0", null ],
       [ "ttl", "structwiced__bt__mesh__event____t.html#a4d402503271315376ddf4e47674d4965", null ],
+      [ "tx_delay", "structwiced__bt__mesh__event____t.html#aac31f72953746e656497ea212a091aaf", null ],
       [ "tx_flag", "structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042", null ]
     ] ],
     [ "WICED_BT_MESH_CORE_CMD_SPECIAL_DIRECTED_PROXY_CAPABILITIES_STATUS", "group__wiced__bt__mesh__core.html#ga1e855fbaa67e6060e2dbcc610427ffb5", null ],

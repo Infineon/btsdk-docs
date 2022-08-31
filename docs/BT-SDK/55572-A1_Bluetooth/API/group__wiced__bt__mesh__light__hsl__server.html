@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -159,7 +159,7 @@ Functions</h2></td></tr>
 <p>The definition of the HSL Server spans three elements. To include the Mesh Models support for the HSL Server module the application includes the <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gab330cac44df7024819bff2f0d94b72e8">WICED_BT_MESH_MODEL_LIGHT_HSL_SERVER</a>, the WICED_BT_MESH_MODEL_LIGHT_HSL_HUE_SERVER, and the WICED_BT_MESH_MODEL_LIGHT_HSL_SATURATION_SERVER in three consecutive elements in the device definition. If the device supports several lights with HSL Server support, for example, a light fixture or a chandelier with several color lights, the triplet of <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gab330cac44df7024819bff2f0d94b72e8">WICED_BT_MESH_MODEL_LIGHT_HSL_SERVER</a>, WICED_BT_MESH_MODEL_LIGHT_HSL_HUE_SERVER and WICED_BT_MESH_MODEL_LIGHT_HSL_SATURATION_SERVER shall be repeated for each physical device.</p>
 <p>In addition to the definition, the application shall initialize the HSL Server module by calling <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#ga3bc33dafd57f3d1f0f907e0234374dc5">wiced_bt_mesh_model_light_hsl_server_init</a> function for each primary element where the HSL functionality is required providing the <a class="el" href="group__wiced__bt__mesh__light__hsl__server.html#gaca62061f62c0221672b88d0f8e065da2">wiced_bt_mesh_light_hsl_server_callback_t</a> callback that will be executed when the brightness level, the hue or the saturation of the device needs to be changed.</p>
 <p>If device supports local control, for example, when the brightness of the device can be changed locally, the application should call the wiced_bt_mesh_model_light_hsl_status_changed function so that the library can maintain correct state and send an appropriate status message if it is configured to do so.</p>
-<p>Most of the functionality of the Light HSL server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#ab5606452893f6bbf4bb891630369cb25">WICED_BT_MESH_LIGHT_HSL_SET</a> event. If a client requests to change the brightness or the color to the target values over a period of time, the library will maintain the timer and will periodically call the application with appropriate values.</p>
+<p>Most of the functionality of the Light HSL server device is implemented in the Mesh Models Library. The application only needs to set hardware appropriately on receiving <a class="el" href="wiced__bt__mesh__models_8h.html#a0ba5822e4132217513124b1294ead5ea">WICED_BT_MESH_LIGHT_HSL_STATUS</a> event. If a client requests to change the brightness or the color to the target values over a period of time, the library will maintain the timer and will periodically call the application with appropriate values.</p>
 <p>The default transition time is managed by the Mesh Models library. The application provides factory default in the default_transition_time element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga9688eadf5eb70829c29b8b5e7417ef7b">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client.</p>
 <p>The on power up behavior is managed by the Mesh Models library. The application provides factory default in the onpowerup_state element of the <a class="el" href="group__wiced__bt__mesh__core.html#ga9688eadf5eb70829c29b8b5e7417ef7b">wiced_bt_mesh_core_config_t</a> configuration structure. The default value is used unless overwritten by the default transition time client. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -252,7 +252,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">element_idx</td><td>Element index of the primary element </td></tr>
-    <tr><td class="paramname">event</td><td>The only event that the application should process is <a class="el" href="wiced__bt__mesh__models_8h.html#ab5606452893f6bbf4bb891630369cb25">WICED_BT_MESH_LIGHT_HSL_SET</a> </td></tr>
+    <tr><td class="paramname">event</td><td>The only event that the application should process is <a class="el" href="wiced__bt__mesh__models_8h.html#a0ba5822e4132217513124b1294ead5ea">WICED_BT_MESH_LIGHT_HSL_STATUS</a> </td></tr>
     <tr><td class="paramname">p_data</td><td>Pointer to the <a class="el" href="structwiced__bt__mesh__light__hsl__status__data__t.html">wiced_bt_mesh_light_hsl_status_data_t</a> structure</td></tr>
   </table>
   </dd>

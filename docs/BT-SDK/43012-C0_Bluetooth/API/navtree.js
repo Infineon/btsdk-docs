@@ -20,10 +20,10 @@ var NAVTREEINDEX =
 "group__sdp__api__functions.html",
 "group__wiced__bt__mesh__core.html#ga457c303574ad2fc3970319743c106c00",
 "group__wiced__bt__mesh__light__lightness__server.html#ga730594b6d325c881e88df4fb3ff3dd3c",
-"group__wiced__bt__mesh__provisioning.html#ga8f20ea9a27ffd2745f322e2b0f47dc96",
-"group__wicedbt__avdt.html#ga45e71e96ac67cfffc9ed91bac6325992",
-"structwiced__bt__battery__client__discovery__complete__t.html",
-"structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e",
+"group__wiced__bt__mesh__provisioning.html#ga8ed4d7842b7e9dc817289602bed8b726",
+"group__wicedbt__avdt.html#ga387bd1c1553672c8666f2b290ca6f11e",
+"structwiced__bt__battery__client__data__t.html#af242d6e3b6108ea75e1eb236e94c8240",
+"structwiced__bt__mesh__level__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
 "structwiced__bt__mesh__property__status__data__t.html#a8b0d6200bc639dd37ff68847a0adde5f"
 ];
 

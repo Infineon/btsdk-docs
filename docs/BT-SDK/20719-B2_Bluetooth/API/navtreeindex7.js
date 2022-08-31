@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__wicedbt__av__a2d__helper.html#gab32a5584267f6873c2c5440985b501c4":[7,1,2,1,0,4],
 "group__wicedbt__av__a2d__helper.html#gabf393fe616585a9ae694a5e89b8c5d76":[7,1,2,1,0,16],
 "group__wicedbt__av__a2d__helper.html#gacb050bae5f1841338bc9a5a96a552457":[7,1,2,1,0,22],
 "group__wicedbt__av__a2d__helper.html#gad192d339d80f88f0ab96ce1d5d1be313":[7,1,2,1,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__avrc__tg__absolute__volume__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,2,3,2,5,0],
 "structwiced__bt__avrc__tg__passthrough__cmd__t.html":[7,1,2,3,2,4],
 "structwiced__bt__avrc__tg__passthrough__cmd__t.html#a1a5aaa930940857f68f245eeb89506b5":[7,1,2,3,2,4,0],
-"structwiced__bt__avrc__tg__passthrough__cmd__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,2,3,2,4,1],
-"structwiced__bt__avrc__tg__play__status__t.html":[7,1,2,3,2,3]
+"structwiced__bt__avrc__tg__passthrough__cmd__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,2,3,2,4,1]
 };

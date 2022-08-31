@@ -1,8 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"structwiced__bt__mesh__light__lightness__status__t.html#a7353a3eb720f23188596a63569fbe8ec":[7,1,11,2,18,0],
 "structwiced__bt__mesh__light__lightness__status__t.html#a74baf2018181f39617e8fb7dc4f6cb9a":[7,1,11,2,18,2],
-"structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,11,2,18,6],
-"structwiced__bt__mesh__light__lightness__status__t.html#ae6062aaf012692913ace13bcfdcc504a":[7,1,11,2,18,4],
+"structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,11,2,18,4],
 "structwiced__bt__mesh__light__xyl__data__t.html":[7,1,11,2,54],
 "structwiced__bt__mesh__light__xyl__data__t.html#a4dde988b1b2adba65ae3efa69f65d960":[7,1,11,2,54,1],
 "structwiced__bt__mesh__light__xyl__data__t.html#a968eb4438426da63f07e28bfa3578bda":[7,1,11,2,54,0],

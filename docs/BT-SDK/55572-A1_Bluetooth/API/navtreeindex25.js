@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"structwiced__bt__hidd__ble__rpt__data__t.html":[7,1,12,4],
 "structwiced__bt__hidd__ble__rpt__data__t.html#a70d5de92826151be54874adc90f04166":[7,1,12,4,0],
 "structwiced__bt__hidd__ble__rpt__map__info__t.html":[7,1,12,3],
 "structwiced__bt__hidd__ble__rpt__map__info__t.html#a7c9142851367c0cab0ce61572b8efd0c":[7,1,12,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "structwiced__bt__mesh__core__config__sensor__t.html#a77d6334e007a2a11abb7fec7bd5e6be7":[7,1,15,1,4,4],
 "structwiced__bt__mesh__core__config__sensor__t.html#a8d665a621e312f01b66359ff69081f90":[7,1,15,1,4,2],
 "structwiced__bt__mesh__core__config__sensor__t.html#abe222f6d3581e7920dcad5306cc906a8":[7,1,15,1,4,1],
-"structwiced__bt__mesh__core__config__sensor__t.html#ad39bfe7de446e4fc386ed7c3645acbcd":[7,1,15,1,4,6],
-"structwiced__bt__mesh__core__config__sensor__t.html#ae6973a1ab6134515eb51ea7874704553":[7,1,15,1,4,3]
+"structwiced__bt__mesh__core__config__sensor__t.html#ad39bfe7de446e4fc386ed7c3645acbcd":[7,1,15,1,4,6]
 };

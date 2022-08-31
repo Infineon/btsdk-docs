@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"structwiced__bt__avrc__tg__play__status__t.html":[7,1,2,3,2,3],
 "structwiced__bt__avrc__tg__play__status__t.html#a023697a5e8087c679d3b09421c81da96":[7,1,2,3,2,3,2],
 "structwiced__bt__avrc__tg__play__status__t.html#a3a20d3c70b04daaa813457245627f23f":[7,1,2,3,2,3,0],
 "structwiced__bt__avrc__tg__play__status__t.html#aef27afaad82d4181b02b11042a34861d":[7,1,2,3,2,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__mesh__core__statistics__t.html#aad3f823013aecd5429d902fddbe89949":[7,1,11,1,21,16],
 "structwiced__bt__mesh__core__statistics__t.html#ab29fd18b043cc02d3fe21f54e7579640":[7,1,11,1,21,17],
 "structwiced__bt__mesh__core__statistics__t.html#ab39492d5254d1a856cce6c292919d2c6":[7,1,11,1,21,1],
-"structwiced__bt__mesh__core__statistics__t.html#ab46a8db477e082a60ffadce34530c271":[7,1,11,1,21,3],
-"structwiced__bt__mesh__core__statistics__t.html#ab828eadbdd24cb25098903341c8097c6":[7,1,11,1,21,13]
+"structwiced__bt__mesh__core__statistics__t.html#ab46a8db477e082a60ffadce34530c271":[7,1,11,1,21,3]
 };

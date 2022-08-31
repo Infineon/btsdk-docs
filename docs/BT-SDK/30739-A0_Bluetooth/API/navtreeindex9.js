@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__audio__insert__data.html":[6,1,2,1,2,5],
 "structwiced__bt__audio__insert__data__audio.html":[6,1,2,1,2,4],
 "structwiced__bt__audio__insert__data__sco.html":[6,1,2,1,2,3],
 "structwiced__bt__audio__insert__event__audio__info__t.html":[6,1,2,1,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__core__state__proxy__serivce__t.html":[6,1,11,1,13],
 "structwiced__bt__mesh__core__state__proxy__serivce__t.html#a1d127017fb298b889f4ba24752d08b8e":[6,1,11,1,13,1],
 "structwiced__bt__mesh__core__state__proxy__serivce__t.html#a88c79cd52cb7992eefd326dbdc584a64":[6,1,11,1,13,0],
-"structwiced__bt__mesh__core__state__seq__t.html":[6,1,11,1,6],
-"structwiced__bt__mesh__core__state__seq__t.html#a41a6aad09727eb120338c35535a652a6":[6,1,11,1,6,0]
+"structwiced__bt__mesh__core__state__seq__t.html":[6,1,11,1,6]
 };

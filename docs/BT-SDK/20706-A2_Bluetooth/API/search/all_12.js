@@ -47,7 +47,6 @@ var searchData=
   ['remote_5fcontrol_5ffeature_5ftarget',['REMOTE_CONTROL_FEATURE_TARGET',['../group__wicedbt__avrc__ct.html#gga717ee5bfe3656a58f039b26a4a00e518a5cb8a54c77a36132be781ef968ddedf1',1,'wiced_bt_avrc_ct.h']]],
   ['remote_5fcontrol_5finitialized',['REMOTE_CONTROL_INITIALIZED',['../group__wicedbt__avrc__ct.html#gga34d812e2d75abcf6d30a1c5f54d4b655a65dafb7a7929a45d047440da69074882',1,'wiced_bt_avrc_ct.h']]],
   ['remote_5foob_5fdata_5frequest',['remote_oob_data_request',['../unionwiced__bt__management__evt__data__t.html#af186c2f016c0dfab623f7b8dae1079c4',1,'wiced_bt_management_evt_data_t']]],
-  ['replay_5fcache_5fsize',['replay_cache_size',['../wiced__bt__mesh__cfg_8h.html#aa6858d73668cc0a03224d86687b51377',1,'wiced_bt_mesh_cfg.h']]],
   ['reply',['reply',['../structwiced__bt__mesh__event____t.html#a6b61e176817d67212481b1075c4c426f',1,'wiced_bt_mesh_event__t']]],
   ['reply_5ftimeout',['reply_timeout',['../structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47',1,'wiced_bt_mesh_event__t']]],
   ['report_5fconn',['report_conn',['../unionwiced__bt__avdt__ctrl__t.html#a6535172b3b9c55ea6509691db450b17f',1,'wiced_bt_avdt_ctrl_t']]],
@@ -81,5 +80,7 @@ var searchData=
   ['rtcdriver',['RTCDriver',['../group___r_t_c_driver.html',1,'']]],
   ['rtrans_5ftimeout',['rtrans_timeout',['../structwiced__bt__l2cap__fcr__options__t.html#ab354c08b88768cc329bd7f108898f83b',1,'wiced_bt_l2cap_fcr_options_t']]],
   ['rx_5fbuff_5fpool_5fcfg',['rx_buff_pool_cfg',['../wiced__transport_8h.html#a66034389972edde796e89217e2e69202',1,'wiced_transport.h']]],
+  ['rx_5fcnt',['rx_cnt',['../structwiced__bt__mesh__core__delay__statistics__t.html#ac4d763b359e41d4f238eb40d68b46ed1',1,'wiced_bt_mesh_core_delay_statistics_t']]],
+  ['rx_5fdelay',['rx_delay',['../structwiced__bt__mesh__core__delay__statistics__t.html#a91107aebf5f60f611adaf322f8059038',1,'wiced_bt_mesh_core_delay_statistics_t']]],
   ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]]
 ];

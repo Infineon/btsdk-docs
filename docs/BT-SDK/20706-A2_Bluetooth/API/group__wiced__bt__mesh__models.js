@@ -96,8 +96,6 @@ var group__wiced__bt__mesh__models =
       [ "lightness_actual_target", "structwiced__bt__mesh__light__lightness__status__t.html#a45bf0af793adaf5c2741145fc14b6dbe", null ],
       [ "lightness_linear_present", "structwiced__bt__mesh__light__lightness__status__t.html#a74baf2018181f39617e8fb7dc4f6cb9a", null ],
       [ "lightness_linear_target", "structwiced__bt__mesh__light__lightness__status__t.html#a3783a330c33f936b9f19fc2f131c9f80", null ],
-      [ "lux_level_present", "structwiced__bt__mesh__light__lightness__status__t.html#ae6062aaf012692913ace13bcfdcc504a", null ],
-      [ "lux_level_target", "structwiced__bt__mesh__light__lightness__status__t.html#a5d6dd5edacaec34c9353ae55cd893f04", null ],
       [ "remaining_time", "structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e", null ]
     ] ],
     [ "wiced_bt_mesh_light_lightness_set_t", "structwiced__bt__mesh__light__lightness__set__t.html", [
@@ -433,5 +431,6 @@ var group__wiced__bt__mesh__models =
     [ "wiced_bt_mesh_remote_provisioning_connectable_adv_packet", "group__wiced__bt__mesh__models.html#gaca85d3e843373ba038d444bf75349cc0", null ],
     [ "wiced_bt_mesh_remote_provisioning_nonconnectable_adv_packet", "group__wiced__bt__mesh__models.html#ga645656708d9462cca755b56f5b43ac43", null ],
     [ "wiced_bt_mesh_remote_provisioning_scan_rsp", "group__wiced__bt__mesh__models.html#ga58171fb0b81158e89d751c49222a765b", null ],
-    [ "wiced_bt_mesh_remote_provisioning_server_init", "group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d", null ]
+    [ "wiced_bt_mesh_remote_provisioning_server_init", "group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d", null ],
+    [ "wiced_bt_mesh_model_timer_server_get_interval", "group__wiced__bt__mesh__models.html#gadd4e9a3c7edc1b5c0e7a20106f3be48d", null ]
 ];

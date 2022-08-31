@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sleep permission Note : In WICED_SLEEP_MODE_NO_TRANSPORT case, application will be restarted on exiting out of the power shutdown sleep. </p>
-<p>Application MUST NOT allow sleep, when any BT activity is involved. If the application desires to save any state (16 bits of data) before going to power save it can do so by using <a class="el" href="wiced__power__save_8h.html#ad03c9800a962caedda3ee8691fd5d9c0" title="Function wiced_power_save_store_state. ">wiced_power_save_store_state()</a> and retrieve the state on coming back from power save by using <a class="el" href="wiced__power__save_8h.html#a57e64d77726189108fc0e3fed04e0394" title="Function wiced_power_save_retrieve_state. ">wiced_power_save_retrieve_state()</a>. To prevent FW from putting the chip in Shutdown/PDS sleep mode, select WICED_SLEEP_NOT_ALLOWED. </p>
+<p>Application MUST NOT allow sleep, when any Bluetooth activity is involved. If the application desires to save any state (16 bits of data) before going to power save it can do so by using <a class="el" href="wiced__power__save_8h.html#ad03c9800a962caedda3ee8691fd5d9c0" title="Function wiced_power_save_store_state. ">wiced_power_save_store_state()</a> and retrieve the state on coming back from power save by using <a class="el" href="wiced__power__save_8h.html#a57e64d77726189108fc0e3fed04e0394" title="Function wiced_power_save_retrieve_state. ">wiced_power_save_retrieve_state()</a>. To prevent FW from putting the chip in Shutdown/PDS sleep mode, select WICED_SLEEP_NOT_ALLOWED. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a5711a6c22c9c52c9ea07239e533e1a2ca7fc5884694f32a0aa9170927d9cc124e"></a>WICED_SLEEP_NOT_ALLOWED&#160;</td><td class="fielddoc">
 <p>Sleep is not allowed. </p>
@@ -789,7 +789,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_sleep_config. </p>
-<p>Application can invoke this function to enable/disable low power mode of operation. In this mode, the device achieves power savings by suspending the application and allowing the device to sleep btween BLE advertising intervals. Enabling sleep mode with this API does not immediately put the device in low power mode, it simply enables the device to transition to low power when idle. The application is suspended and resumed transparently by the device when it enters and exits sleep. Device wakeup can be triggered by any ativity on an active peripheral, GPIO, the BT radio, or an interrupt from a timer started by the application.</p>
+<p>Application can invoke this function to enable/disable low power mode of operation. In this mode, the device achieves power savings by suspending the application and allowing the device to sleep btween LE advertising intervals. Enabling sleep mode with this API does not immediately put the device in low power mode, it simply enables the device to transition to low power when idle. The application is suspended and resumed transparently by the device when it enters and exits sleep. Device wakeup can be triggered by any ativity on an active peripheral, GPIO, the Bluetooth radio, or an interrupt from a timer started by the application.</p>
 <p>The bt_wake and host_wake parameters are not needed for embedded SoC applications, and should be set to NULL. They are only used in external MCU scenaraios where BT_DEV_WAKE and BT_HOST_WAKE GPIOs are used by external MCU and device to wake each other.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -833,7 +833,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_dfe1a3f1aebaf7808aac04d8efeaa371.html">20706A2</a></li><li class="navelem"><a class="el" href="dir_27c0d2e28299465a4deda711a0122378.html">COMPONENT_20706A2</a></li><li class="navelem"><a class="el" href="dir_003b0e1e9bb967e03a0232170ec9b427.html">include</a></li><li class="navelem"><a class="el" href="wiced__power__save_8h.html">wiced_power_save.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_135f124c4bb9632d5d3db4488a8a613f.html">20706A2</a></li><li class="navelem"><a class="el" href="dir_928b01b3db2946f0fbcc555abe1ec600.html">COMPONENT_20706A2</a></li><li class="navelem"><a class="el" href="dir_1c2cd57f7b0f5136f23e167b28f42bec.html">include</a></li><li class="navelem"><a class="el" href="wiced__power__save_8h.html">wiced_power_save.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

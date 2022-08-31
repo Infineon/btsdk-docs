@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -100,7 +100,8 @@ $(document).ready(function(){initNavTree('group__wiced__bt__mesh__models.html','
 <a href="#groups">Modules</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Mesh Models Library API<div class="ingroups"><a class="el" href="group__wiced__bt__mesh.html">LE Mesh</a></div></div>  </div>
 </div><!--header-->
@@ -562,6 +563,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8a49a7e773deb5fc3400b0fc363263a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find model in the node configuration starting with specified element index.  <a href="#ga8a49a7e773deb5fc3400b0fc363263a8">More...</a><br /></td></tr>
 <tr class="separator:ga8a49a7e773deb5fc3400b0fc363263a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gadd4e9a3c7edc1b5c0e7a20106f3be48d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#gadd4e9a3c7edc1b5c0e7a20106f3be48d">wiced_bt_mesh_model_timer_server_get_interval</a></td></tr>
+<tr class="memdesc:gadd4e9a3c7edc1b5c0e7a20106f3be48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in seconds to send time get message while the time isn't set yet.  <a href="#gadd4e9a3c7edc1b5c0e7a20106f3be48d">More...</a><br /></td></tr>
+<tr class="separator:gadd4e9a3c7edc1b5c0e7a20106f3be48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Following macros can be used instantiate the mesh models</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp20527e17fa6dc8bbc45281ed596cfb48"></a><a class="anchor" id="WICED_BT_MESH_MODEL_DEFINITIONS"></a></p>
@@ -649,9 +656,6 @@ Following macros can be used instantiate the mesh models</h2></td></tr>
 <tr class="memitem:ga7a3553826b2f58faa14d33654cbc4a6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7a3553826b2f58faa14d33654cbc4a6a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_SCHEDULER_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SCHEDULER_CLNT, <a class="el" href="group__wiced__bt__mesh__scheduler__client.html#ga376e8ac053469571e2f7e9425413dcfe">wiced_bt_mesh_model_scheduler_client_message_handler</a>, NULL, NULL }</td></tr>
 <tr class="separator:ga7a3553826b2f58faa14d33654cbc4a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadce501e044b922fb4a26bdf329ddf716"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadce501e044b922fb4a26bdf329ddf716"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_TIME_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_TIME_CLNT, <a class="el" href="group__wiced__bt__mesh__time__client.html#ga662c823f204ba19f2aed787a910343cd">wiced_bt_mesh_model_time_client_message_handler</a>, NULL, NULL }</td></tr>
-<tr class="separator:gadce501e044b922fb4a26bdf329ddf716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadce501e044b922fb4a26bdf329ddf716"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadce501e044b922fb4a26bdf329ddf716"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_MESH_MODEL_TIME_CLIENT</b>&#160;&#160;&#160;{ MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_TIME_CLNT, <a class="el" href="group__wiced__bt__mesh__time__client.html#ga662c823f204ba19f2aed787a910343cd">wiced_bt_mesh_model_time_client_message_handler</a>, NULL, NULL }</td></tr>
 <tr class="separator:gadce501e044b922fb4a26bdf329ddf716"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1837,6 +1841,22 @@ Battery Service Required State Flags</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="gadd4e9a3c7edc1b5c0e7a20106f3be48d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t wiced_bt_mesh_model_timer_server_get_interval</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interval in seconds to send time get message while the time isn't set yet. </p>
+<p>The value can be changed by the application. 0 means don't send time get message if time isn't initialized. Default value is 0. </p>
 
 </div>
 </div>

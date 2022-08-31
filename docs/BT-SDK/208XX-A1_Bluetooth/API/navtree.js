@@ -22,11 +22,11 @@ var NAVTREEINDEX =
 "group__keyscan_button.html",
 "group__wiced__bt__iap2__api__functions.html#gab869d34e26353e11fdbb8dc6857a9dc0",
 "group__wiced__bt__mesh__light__ctl__client.html#ga77fcfdad659ca7d66bd22b107fa79a3b",
-"group__wiced__bt__mesh__provisioning.html#ga09b83f6240bf4427927b3b5b887d05ef",
-"group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18",
-"structwiced__bt__anc__supported__new__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b",
-"structwiced__bt__hrs__notification__disabled__t.html",
-"structwiced__bt__mesh__light__ctl__default__data__t.html",
+"group__wiced__bt__mesh__provisioning.html#ga0881bc700e7e3aab0ac438bd4f1642d7",
+"group__wicedbt__audio__utils.html",
+"structwiced__bt__anc__supported__new__alerts__result__t.html#a5f76a20cca021b05b21545bb11dbd9f1",
+"structwiced__bt__hrs__notification__data__t.html#aefc5a2d5795531c1603017b2b31acc40",
+"structwiced__bt__mesh__light__ctl__data__t.html#a968eb4438426da63f07e28bfa3578bda",
 "structwiced__bt__mesh__provision__capabilities__data__t.html#a1e40486383afb52cf25151991493d0c5",
 "unionwiced__bt__avrc__ct__features__data__t.html#ad900906d2caeb63f0ab1720d446d93bc"
 ];

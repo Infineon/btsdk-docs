@@ -65,7 +65,5 @@ var searchData=
   ['lpn_5faddr',['lpn_addr',['../wiced__bt__mesh__provision_8h.html#ab3371dec7376470768bacb36c432e7be',1,'wiced_bt_mesh_provision.h']]],
   ['lpn_5fscan',['lpn_scan',['../unionwiced__bt__mesh__core__state__t.html#ac57fc576c40e62f4fc023416440b0fa3',1,'wiced_bt_mesh_core_state_t']]],
   ['lpn_5fsleep',['lpn_sleep',['../unionwiced__bt__mesh__core__state__t.html#a90d72a7eaec388bf7b534f43e959ab96',1,'wiced_bt_mesh_core_state_t']]],
-  ['lsbfirst',['lsbFirst',['../structwiced__hal__pcm__param__t.html#abf2b89bc68855cf70a9addc39ee3f752',1,'wiced_hal_pcm_param_t']]],
-  ['lux_5flevel_5fpresent',['lux_level_present',['../structwiced__bt__mesh__light__lightness__status__t.html#ae6062aaf012692913ace13bcfdcc504a',1,'wiced_bt_mesh_light_lightness_status_t']]],
-  ['lux_5flevel_5ftarget',['lux_level_target',['../structwiced__bt__mesh__light__lightness__status__t.html#a5d6dd5edacaec34c9353ae55cd893f04',1,'wiced_bt_mesh_light_lightness_status_t']]]
+  ['lsbfirst',['lsbFirst',['../structwiced__hal__pcm__param__t.html#abf2b89bc68855cf70a9addc39ee3f752',1,'wiced_hal_pcm_param_t']]]
 ];

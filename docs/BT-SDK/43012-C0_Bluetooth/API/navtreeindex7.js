@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__wicedbt__avdt.html#ga387bd1c1553672c8666f2b290ca6f11e":[7,1,2,2,22],
 "group__wicedbt__avdt.html#ga45e71e96ac67cfffc9ed91bac6325992":[7,1,2,2,15],
 "group__wicedbt__avdt.html#ga54cf593b90541780aadf9834635a4638":[7,1,2,2,21],
 "group__wicedbt__avdt.html#ga574a454d68cfcc3a6a99b848622d2cf0":[7,1,2,2,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__battery__client__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6":[7,1,3,1,5],
 "structwiced__bt__battery__client__data__t.html#a8aed22e2c7b283705ec82e0120515618":[7,1,3,1,3],
 "structwiced__bt__battery__client__data__t.html#aaa1ded1f77a9c12a196ed4ba2ce5f95d":[7,1,3,1,7],
-"structwiced__bt__battery__client__data__t.html#ac681806181c80437cfab37335f62ff39":[7,1,3,1,4],
-"structwiced__bt__battery__client__data__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,3,1,2]
+"structwiced__bt__battery__client__data__t.html#ac681806181c80437cfab37335f62ff39":[7,1,3,1,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"structwiced__bt__dev__encryption__status__t.html#aaee9578b774434bb1970bf77a548f0cb":[7,1,9,41,2],
 "structwiced__bt__dev__inq__parms__t.html":[7,1,9,6],
 "structwiced__bt__dev__inq__parms__t.html#a37e90f5e3bd99fac2021fb3a326607d4":[7,1,9,6,3],
 "structwiced__bt__dev__inq__parms__t.html#ab599a5ae0ad35d4123fe404c73167284":[7,1,9,6,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "structwiced__bt__hidd__ble__reg__info__t.html":[7,1,12,7],
 "structwiced__bt__hidd__ble__reg__info__t.html#a0835e42446b13887ff86063446a4a65d":[7,1,12,7,0],
 "structwiced__bt__hidd__ble__reg__info__t.html#a0d117f305c2c148e84c6200a429d3f97":[7,1,12,7,2],
-"structwiced__bt__hidd__ble__reg__info__t.html#ac3387f98e407c763c1d694149b1636bf":[7,1,12,7,1],
-"structwiced__bt__hidd__ble__rpt__data__t.html":[7,1,12,4]
+"structwiced__bt__hidd__ble__reg__info__t.html#ac3387f98e407c763c1d694149b1636bf":[7,1,12,7,1]
 };

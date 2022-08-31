@@ -20,10 +20,10 @@ var NAVTREEINDEX =
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a3a85d487ecbcbcca35b3223ecfa8ba4a",
 "group__wiced__bt__mesh__core.html#ga56ccaf452f6865b7487897210d77cc22",
 "group__wiced__bt__mesh__light__xyl__client.html#ga68a8e6db251777f69e19fc5045939935",
-"group__wiced__bt__mesh__provisioning.html#gaa055d94d6542f5b408a6307c376710c0",
-"group__wicedbt__av__a2d__helper.html#gabf393fe616585a9ae694a5e89b8c5d76",
-"structwiced__bt__avrc__tg__play__status__t.html#a023697a5e8087c679d3b09421c81da96",
-"structwiced__bt__mesh__core__statistics__t.html#abdfdcfd0549fa1212f82340bb18a032a",
+"group__wiced__bt__mesh__provisioning.html#ga9fa82908adbc925b11ac1054dad231e1",
+"group__wicedbt__av__a2d__helper.html#gab32a5584267f6873c2c5440985b501c4",
+"structwiced__bt__avrc__tg__play__status__t.html",
+"structwiced__bt__mesh__core__statistics__t.html#ab828eadbdd24cb25098903341c8097c6",
 "structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7",
 "structwiced__rtc__time__t.html#a57ca98d8f6d4baf0fe41c583c7dcb0d5"
 ];

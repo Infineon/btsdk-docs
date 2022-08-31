@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"structwiced__bt__anc__discovery__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,0,0],
 "structwiced__bt__anc__discovery__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,0,0,1],
 "structwiced__bt__anc__enable__disable__alerts__result__t.html":[7,1,0,4],
 "structwiced__bt__anc__enable__disable__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__core__state__beacon__t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,1,10,1,12,1],
 "structwiced__bt__mesh__core__state__beacon__t.html#abf6528cd337e0e9cb2ee0185aef4c1f4":[7,1,10,1,12,3],
 "structwiced__bt__mesh__core__state__friendship__t.html":[7,1,10,1,11],
-"structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f":[7,1,10,1,11,1],
-"structwiced__bt__mesh__core__state__friendship__t.html#a41a6aad09727eb120338c35535a652a6":[7,1,10,1,11,0]
+"structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f":[7,1,10,1,11,1]
 };

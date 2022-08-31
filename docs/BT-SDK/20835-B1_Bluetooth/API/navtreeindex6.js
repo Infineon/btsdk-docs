@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__wiced__bt__mesh__time__client.html#ga81b8ff07ee0e255e9ebbe28b67df13da":[7,1,11,2,101,10],
 "group__wiced__bt__mesh__time__client.html#ga915ad2315147b4a60408eeee89d281ee":[7,1,11,2,101,1],
 "group__wiced__bt__mesh__time__client.html#gaa307574cf2dba5cfad6814e67001e90b":[7,1,11,2,101,6],
 "group__wiced__bt__mesh__time__client.html#gad57b2a6f9bcaeddf7c23416f5b9a8a3d":[7,1,11,2,101,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "structwiced__bt__l2cap__appl__information__t.html#ad1cfd13ae51381979141b789ce8da2f5":[7,1,12,1,0,2],
 "structwiced__bt__l2cap__appl__information__t.html#af120110b06f7e8e2881a049aec7d9606":[7,1,12,1,0,8],
 "structwiced__bt__l2cap__cfg__information__t.html":[7,1,12,2,1],
-"structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f":[7,1,12,2,1,4],
-"structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796":[7,1,12,2,1,7]
+"structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f":[7,1,12,2,1,4]
 };

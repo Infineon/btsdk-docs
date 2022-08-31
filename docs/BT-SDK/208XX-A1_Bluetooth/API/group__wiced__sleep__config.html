@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -246,7 +246,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This API is used to enter HID OFF mode. </p>
-<p>The application can call this API at any time when there is not BT activity</p>
+<p>The application can call this API at any time when there is not Bluetooth activity</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">wakeup_time</td><td>: wake up time in milliseconds. Application can configure for both GPIO wake and/or timed wake. Forever sleep(i.e. no timed wake) can be configure by setting wakeup_time = 0. The max time is 0x3fffff LPO cycles which is ~128010 milliseconds considering 32.768 KHz LPO. LPO can have 3000ppm error in some HW configurations.</td></tr>
@@ -256,7 +256,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_ABORTED if HID off sleep aborts. Never returns if HID off sleep configure success.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>API must be called without any BT activity. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>API must be called without any Bluetooth activity. </dd></dl>
 
 </div>
 </div>

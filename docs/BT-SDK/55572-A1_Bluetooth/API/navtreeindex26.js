@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structwiced__bt__mesh__core__config__sensor__t.html#ae6973a1ab6134515eb51ea7874704553":[7,1,15,1,4,3],
 "structwiced__bt__mesh__core__config__sensor__t.html#af818d207fdadd1d42b3f6e34f43609bd":[7,1,15,1,4,5],
 "structwiced__bt__mesh__core__hal__api__t.html":[7,1,15,1,16],
 "structwiced__bt__mesh__core__hal__api__t.html#a0e42e4524a06aea1a426c74826c2ec11":[7,1,15,1,16,2],
@@ -125,10 +126,11 @@ var NAVTREEINDEX26 =
 "structwiced__bt__mesh__event____t.html#a7389b2a7e380437f6af8ee6784f93a47":[7,1,15,1,23,14],
 "structwiced__bt__mesh__event____t.html#a74794ae4e53b0a5e847a8f33fc5fbd6e":[7,1,15,1,23,5],
 "structwiced__bt__mesh__event____t.html#a890a5f699e1821d80b4cd8a10ae45a2d":[7,1,15,1,23,16],
-"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,15,1,23,24],
+"structwiced__bt__mesh__event____t.html#a9bc203bec977ff9eca018660844ad042":[7,1,15,1,23,25],
 "structwiced__bt__mesh__event____t.html#a9e817b5279fd147d7a5b53ec556bfe49":[7,1,15,1,23,15],
 "structwiced__bt__mesh__event____t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,1,15,1,23,7],
 "structwiced__bt__mesh__event____t.html#aa6161ae10c48014f8d738ee16a4de74a":[7,1,15,1,23,8],
+"structwiced__bt__mesh__event____t.html#aac31f72953746e656497ea212a091aaf":[7,1,15,1,23,24],
 "structwiced__bt__mesh__event____t.html#ab49728107d19a75a401215330b469934":[7,1,15,1,23,17],
 "structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,1,15,1,23,20],
 "structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf":[7,1,15,1,23,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,15,2,67,2],
 "structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a56282d8f945484706e00e7ebcd67b9a3":[7,1,15,2,67,1],
 "structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,15,2,67,0],
-"structwiced__bt__mesh__light__lc__mode__set__data__t.html":[7,1,15,2,63],
-"structwiced__bt__mesh__light__lc__mode__set__data__t.html#a37e90f5e3bd99fac2021fb3a326607d4":[7,1,15,2,63,0],
-"structwiced__bt__mesh__light__lc__occupancy__mode__set__data__t.html":[7,1,15,2,64]
+"structwiced__bt__mesh__light__lc__mode__set__data__t.html":[7,1,15,2,63]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652ac3c64147f016a2d28fa71c7ba82a531f":[7,1,10,144,9],
 "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652acc2bc3ff958f4fe3c5c7d1f57e2839b5":[7,1,10,144,42],
 "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652ad0d4739a3643df18be9c71a1dfa0fb44":[7,1,10,144,17],
 "group__wicedbt__gatt.html#gga972f2437538363989cee28019cb06652ad98032cb0f4e9f788e95ff168ca82f45":[7,1,10,144,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "structwiced__bt__anc__supported__unread__alerts__result__t.html":[7,1,0,2],
 "structwiced__bt__anc__supported__unread__alerts__result__t.html#a5f76a20cca021b05b21545bb11dbd9f1":[7,1,0,2,2],
 "structwiced__bt__anc__supported__unread__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,2,0],
-"structwiced__bt__anc__supported__unread__alerts__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,0,2,1],
-"structwiced__bt__anc__unread__alert__notification__t.html":[7,1,0,6]
+"structwiced__bt__anc__supported__unread__alerts__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,0,2,1]
 };

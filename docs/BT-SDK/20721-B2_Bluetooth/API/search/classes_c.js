@@ -270,6 +270,7 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fapp_5ffunc_5ftable_5ft',['wiced_bt_mesh_app_func_table_t',['../structwiced__bt__mesh__app__func__table__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fconnect_5fstatus_5fdata_5ft',['wiced_bt_mesh_connect_status_data_t',['../structwiced__bt__mesh__connect__status__data__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fcore_5fconfig_5fsensor_5ft',['wiced_bt_mesh_core_config_sensor_t',['../structwiced__bt__mesh__core__config__sensor__t.html',1,'']]],
+  ['wiced_5fbt_5fmesh_5fcore_5fdelay_5fstatistics_5ft',['wiced_bt_mesh_core_delay_statistics_t',['../structwiced__bt__mesh__core__delay__statistics__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fcore_5fhal_5fapi_5ft',['wiced_bt_mesh_core_hal_api_t',['../structwiced__bt__mesh__core__hal__api__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fcore_5finit_5ft',['wiced_bt_mesh_core_init_t',['../structwiced__bt__mesh__core__init__t.html',1,'']]],
   ['wiced_5fbt_5fmesh_5fcore_5fprecord_5fdescriptor_5ft',['wiced_bt_mesh_core_precord_descriptor_t',['../structwiced__bt__mesh__core__precord__descriptor__t.html',1,'']]],

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -164,7 +164,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="group__wiced__bt__mesh__scene__server_html_gad02139dbd5de33dbfa4574f1b7524817"><div class="ttname"><a href="group__wiced__bt__mesh__scene__server.html#gad02139dbd5de33dbfa4574f1b7524817">wiced_bt_mesh_model_scene_server_message_handler</a></div><div class="ttdeci">wiced_bool_t wiced_bt_mesh_model_scene_server_message_handler(wiced_bt_mesh_event_t *p_event, uint8_t *p_data, uint16_t data_len)</div><div class="ttdoc">Scene Server Message Handler. </div></div>
 </div><!-- fragment -->
 <p>Mesh OnOff Server Device. </p>
-<p>The model is used as a base for multiple other models. This device is typically not used standalone. The closest is Power OnOff Device which adds on power up behavior to the device and then can be used standalone. </p>
+<p>The model is used as a base for multiple other models. This device is typically not used standalone. The closest is Power OnOff Device which adds on power up behavior to the device and then can be used standalone. With the TIME_AND_SCHEDULER_SUPPORT the model TIME_CLNT is needed just to send TIME_GET message. Therefore message_handler is NULL. </p>
 
 </div>
 </div>

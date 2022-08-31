@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -197,7 +197,7 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SCO connection change event related data.  <a href="structwiced__bt__sco__connection__change__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__connection__param__update__t.html">wiced_bt_ble_connection_param_update_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE connection parameter update event related data.  <a href="structwiced__bt__ble__connection__param__update__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE connection parameter update event related data.  <a href="structwiced__bt__ble__connection__param__update__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__enabled__t.html">wiced_bt_dev_enabled_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device enabled (used by BTM_ENABLED_EVT)  <a href="structwiced__bt__dev__enabled__t.html#details">More...</a><br /></td></tr>
@@ -224,7 +224,7 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BR/EDR Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_REQUEST_EVT)  <a href="structwiced__bt__dev__bredr__io__caps__req__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__dev__ble__io__caps__req__t.html">wiced_bt_dev_ble_io_caps_req_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_REQUEST_EVT)  <a href="structwiced__bt__dev__ble__io__caps__req__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_REQUEST_EVT)  <a href="structwiced__bt__dev__ble__io__caps__req__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__ble__keys__t.html">wiced_bt_ble_keys_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -853,7 +853,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga08b1a111be46bb1341db8329a98ba2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_write_eir.  <a href="group__wicedbt__bredr.html#ga08b1a111be46bb1341db8329a98ba2c2">More...</a><br /></td></tr>
 <tr class="separator:ga08b1a111be46bb1341db8329a98ba2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga65bc31725b27be92d23b71707c4d309c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__bredr.html#ga65bc31725b27be92d23b71707c4d309c">wiced_bt_dev_get_remote_name</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, <a class="el" href="wiced__bt__dev_8h.html#a7a9c3da3a9578a2e2f9275e8b0490d98">wiced_bt_remote_name_cback_t</a> *p_remote_name_result_cback)</td></tr>
-<tr class="memdesc:ga65bc31725b27be92d23b71707c4d309c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the BT Friendly name from the remote device.  <a href="group__wicedbt__bredr.html#ga65bc31725b27be92d23b71707c4d309c">More...</a><br /></td></tr>
+<tr class="memdesc:ga65bc31725b27be92d23b71707c4d309c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Bluetooth Friendly name from the remote device.  <a href="group__wicedbt__bredr.html#ga65bc31725b27be92d23b71707c4d309c">More...</a><br /></td></tr>
 <tr class="separator:ga65bc31725b27be92d23b71707c4d309c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga25d190c6dec75838e2ae09d5db385ad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__btm__sec__api__functions.html#ga25d190c6dec75838e2ae09d5db385ad7">wiced_bt_dev_pin_code_reply</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> res, uint8_t pin_len, uint8_t *p_pin)</td></tr>
 <tr class="memdesc:ga25d190c6dec75838e2ae09d5db385ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_pin_code_reply.  <a href="group__btm__sec__api__functions.html#ga25d190c6dec75838e2ae09d5db385ad7">More...</a><br /></td></tr>
@@ -1695,8 +1695,8 @@ Functions</h2></td></tr>
 <p>Event data: <a class="el" href="structwiced__bt__dev__bredr__io__caps__rsp__t.html" title="Data type for IO capabalities response (BTM_PAIRING_IO_CAPABILITIES_BR_EDR_RESPONSE_EVT) ...">wiced_bt_dev_bredr_io_caps_rsp_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65af8f48bfceb6ce2d2b0f411c03e9aa249"></a>BTM_PAIRING_IO_CAPABILITIES_BLE_REQUEST_EVT&#160;</td><td class="fielddoc">
-<p>Requesting IO capabilities for BLE pairing. </p>
-<p>Peripheral can check peer io capabilities in event data before updating with local io capabilities. Event data: <a class="el" href="structwiced__bt__dev__ble__io__caps__req__t.html" title="BLE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_REQU...">wiced_bt_dev_ble_io_caps_req_t</a> </p>
+<p>Requesting IO capabilities for LE pairing. </p>
+<p>Peripheral can check peer io capabilities in event data before updating with local io capabilities. Event data: <a class="el" href="structwiced__bt__dev__ble__io__caps__req__t.html" title="LE Pairing IO Capabilities (to be filled by application callback on BTM_PAIRING_IO_CAPABILITIES_REQUE...">wiced_bt_dev_ble_io_caps_req_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a7e861203d374f29d924eca282b7e257b"></a>BTM_PAIRING_COMPLETE_EVT&#160;</td><td class="fielddoc">
 <p>received SIMPLE_PAIRING_COMPLETE event. </p>
@@ -1743,11 +1743,11 @@ Functions</h2></td></tr>
 <p>If successful, return WICED_BT_SUCCESS. Event data: <a class="el" href="structwiced__bt__local__identity__keys__t.html" title="LE identity key for local device (used by BTM_LE_LOCAL_IDENTITY_KEYS_UPDATE_EVT and BTM_LE_LOCAL_KEYS...">wiced_bt_local_identity_keys_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a17ebb889169fd1ef9b0ae861a6368031"></a>BTM_BLE_SCAN_STATE_CHANGED_EVT&#160;</td><td class="fielddoc">
-<p>BLE scan state change. </p>
+<p>LE scan state change. </p>
 <p>Event data: <a class="el" href="wiced__bt__dev_8h.html#afaba53a20aad0fb7a2536d9c2df7c96e" title="scan type (see wiced_bt_ble_scan_type_e) ">wiced_bt_ble_scan_type_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a57cdb2aee27d2c768ec8dee97a227c9a"></a>BTM_BLE_ADVERT_STATE_CHANGED_EVT&#160;</td><td class="fielddoc">
-<p>BLE advertisement state change. </p>
+<p>LE advertisement state change. </p>
 <p>Event data: <a class="el" href="wiced__bt__dev_8h.html#ad1d90fe02e687ba52b02f970cb0ad3d3" title="Advertisement type (see wiced_bt_ble_advert_mode_e) ">wiced_bt_ble_advert_mode_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65adab633d8b20b3bdae03abdca5e38a58e"></a>BTM_SMP_REMOTE_OOB_DATA_REQUEST_EVT&#160;</td><td class="fielddoc">
@@ -1779,8 +1779,8 @@ Functions</h2></td></tr>
 <p>Event data: <a class="el" href="structwiced__bt__sco__connection__change__t.html" title="SCO connection change event related data. ">wiced_bt_sco_connection_change_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4a427fc37161f2041016d7936399be65a6e6df529fc0869b66488a4609deb4d0d"></a>BTM_BLE_CONNECTION_PARAM_UPDATE&#160;</td><td class="fielddoc">
-<p>BLE connection parameter update. </p>
-<p>Event data: <a class="el" href="structwiced__bt__ble__connection__param__update__t.html" title="BLE connection parameter update event related data. ">wiced_bt_ble_connection_param_update_t</a> </p>
+<p>LE connection parameter update. </p>
+<p>Event data: <a class="el" href="structwiced__bt__ble__connection__param__update__t.html" title="LE connection parameter update event related data. ">wiced_bt_ble_connection_param_update_t</a> </p>
 </td></tr>
 </table>
 
@@ -2410,7 +2410,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: device address to use </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">addr_type</td><td>: device address type, should be BLE_ADDR_RANDOM or BLE_ADDR_PUBLIC BLE_ADDR_RANDOM should be used only for BLE Only mode, not for BR-EDR or Dual Mode</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr_type</td><td>: device address type, should be BLE_ADDR_RANDOM or BLE_ADDR_PUBLIC BLE_ADDR_RANDOM should be used only for LE Only mode, not for BR-EDR or Dual Mode</td></tr>
   </table>
   </dd>
 </dl>
@@ -2487,7 +2487,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b0d7399fdb83b50c343ccf2a2eea1fc0.html">out</a></li><li class="navelem"><a class="el" href="dir_8b48c74f8a287233768f77156e5a7fc4.html">repos</a></li><li class="navelem"><a class="el" href="dir_dfe1a3f1aebaf7808aac04d8efeaa371.html">20706A2</a></li><li class="navelem"><a class="el" href="dir_27c0d2e28299465a4deda711a0122378.html">COMPONENT_20706A2</a></li><li class="navelem"><a class="el" href="dir_003b0e1e9bb967e03a0232170ec9b427.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_135f124c4bb9632d5d3db4488a8a613f.html">20706A2</a></li><li class="navelem"><a class="el" href="dir_928b01b3db2946f0fbcc555abe1ec600.html">COMPONENT_20706A2</a></li><li class="navelem"><a class="el" href="dir_1c2cd57f7b0f5136f23e167b28f42bec.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__dev_8h.html">wiced_bt_dev.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

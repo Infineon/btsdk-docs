@@ -75,6 +75,7 @@ var searchData=
   ['wiced_5fhal_5fwdog_2eh',['wiced_hal_wdog.h',['../wiced__hal__wdog_8h.html',1,'']]],
   ['wiced_5fhci_2eh',['wiced_hci.h',['../wiced__hci_8h.html',1,'']]],
   ['wiced_5fmemory_2eh',['wiced_memory.h',['../wiced__memory_8h.html',1,'']]],
+  ['wiced_5fmemory_5fpre_5finit_2eh',['wiced_memory_pre_init.h',['../wiced__memory__pre__init_8h.html',1,'']]],
   ['wiced_5fplatform_5faudio_5fcommon_2eh',['wiced_platform_audio_common.h',['../wiced__platform__audio__common_8h.html',1,'']]],
   ['wiced_5fpower_5fsave_2eh',['wiced_power_save.h',['../wiced__power__save_8h.html',1,'']]],
   ['wiced_5frtc_2eh',['wiced_rtc.h',['../wiced__rtc_8h.html',1,'']]],

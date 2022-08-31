@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"group__wicedbt__audio__utils.html":[7,1,2,0],
 "group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18":[7,1,2,0,11],
 "group__wicedbt__audio__utils.html#ga22fa1ef356aaf7042d917e443f526318":[7,1,2,0,7],
 "group__wicedbt__audio__utils.html#ga344cea5a47ed0ff641b8ca6bc879f71d":[7,1,2,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__anc__new__alert__notification__t.html#a8a840c5463f52d52ac7c759de4d478c0":[7,1,0,5,1],
 "structwiced__bt__anc__new__alert__notification__t.html#ab2278a404c82c3505ad19baeb555d458":[7,1,0,5,2],
 "structwiced__bt__anc__new__alert__notification__t.html#acf7f0833669eadba0bc4262377d49538":[7,1,0,5,3],
-"structwiced__bt__anc__supported__new__alerts__result__t.html":[7,1,0,1],
-"structwiced__bt__anc__supported__new__alerts__result__t.html#a5f76a20cca021b05b21545bb11dbd9f1":[7,1,0,1,2]
+"structwiced__bt__anc__supported__new__alerts__result__t.html":[7,1,0,1]
 };

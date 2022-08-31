@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v3.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -135,7 +135,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gad290568b4d425c45c6ba6d67d5817b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current native Bluetooth clock This counter is 28 bits, and ticks every 312.5 us and is adjusted for drift through sleep, etc.  <a href="#gad290568b4d425c45c6ba6d67d5817b95">More...</a><br /></td></tr>
 <tr class="separator:gad290568b4d425c45c6ba6d67d5817b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaacf804d81f85b001920123a4fa7e8e7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#gaaacf804d81f85b001920123a4fa7e8e7">wiced_hidd_get_bt_clocks_since</a> (uint32_t before)</td></tr>
-<tr class="memdesc:gaaacf804d81f85b001920123a4fa7e8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the time elapsed since "before", in BT clocks.  <a href="#gaaacf804d81f85b001920123a4fa7e8e7">More...</a><br /></td></tr>
+<tr class="memdesc:gaaacf804d81f85b001920123a4fa7e8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the time elapsed since "before", in Bluetooth clocks.  <a href="#gaaacf804d81f85b001920123a4fa7e8e7">More...</a><br /></td></tr>
 <tr class="separator:gaaacf804d81f85b001920123a4fa7e8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3762a4f5f924c5548b73b9ccb1c7d7da"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__functions.html#ga3762a4f5f924c5548b73b9ccb1c7d7da">wiced_hidd_is_transport_detection_polling_on</a> (void)</td></tr>
 <tr class="memdesc:ga3762a4f5f924c5548b73b9ccb1c7d7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if transport (UART, USB etc.) detection polling is still on-going.  <a href="#ga3762a4f5f924c5548b73b9ccb1c7d7da">More...</a><br /></td></tr>
@@ -946,7 +946,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the time elapsed since "before", in BT clocks. </p>
+<p>Compute the time elapsed since "before", in Bluetooth clocks. </p>
 <p>This functions handles rollovers. Clock resets will cause a large value to be returned (i.e. expiring any timers).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -954,7 +954,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the time elapsed, in BT clocks (312.5 us). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the time elapsed, in Bluetooth clocks (312.5 us). </dd></dl>
 
 </div>
 </div>
@@ -973,7 +973,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the current native Bluetooth clock This counter is 28 bits, and ticks every 312.5 us and is adjusted for drift through sleep, etc. </p>
-<p>To compute differences and times elapsed, use <a class="el" href="group__hidd__functions.html#gaaacf804d81f85b001920123a4fa7e8e7" title="Compute the time elapsed since &quot;before&quot;, in BT clocks. ">wiced_hidd_get_bt_clocks_since()</a>.</p>
+<p>To compute differences and times elapsed, use <a class="el" href="group__hidd__functions.html#gaaacf804d81f85b001920123a4fa7e8e7" title="Compute the time elapsed since &quot;before&quot;, in Bluetooth clocks. ">wiced_hidd_get_bt_clocks_since()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>

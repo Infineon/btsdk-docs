@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"group__wicedbt__avdt.html#gac777414649db9badafc4477afccd55bd":[6,1,2,2,24],
 "group__wicedbt__avdt.html#gad298d8a4d6142243bf9a4e2ad62392fd":[6,1,2,2,16],
 "group__wicedbt__avdt.html#gaf5191f686f163cecd7fb77f55cf880a8":[6,1,2,2,18],
 "group__wicedbt__avdt.html#gafe5f559efdb92c9fd6973cc9c61997d6":[6,1,2,2,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__audio__insert__advanced__control__config.html":[6,1,2,1,2,2],
 "structwiced__bt__audio__insert__advanced__control__config__audio.html":[6,1,2,1,2,1],
 "structwiced__bt__audio__insert__advanced__control__config__sco.html":[6,1,2,1,2,0],
-"structwiced__bt__audio__insert__config.html":[6,1,2,1,2,6],
-"structwiced__bt__audio__insert__data.html":[6,1,2,1,2,5]
+"structwiced__bt__audio__insert__config.html":[6,1,2,1,2,6]
 };
