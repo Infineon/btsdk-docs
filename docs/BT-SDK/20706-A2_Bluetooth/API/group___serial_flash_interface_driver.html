@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('group___serial_flash_interface_driver.
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Serial Flash Interface<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
@@ -105,6 +106,15 @@ $(document).ready(function(){initNavTree('group___serial_flash_interface_driver.
 <p>Defines a driver for the Serial Flash interface.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gaec43f0411f3bafaf5e85fbff35ab3b97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___serial_flash_interface_driver.html#gaec43f0411f3bafaf5e85fbff35ab3b97">wiced_hal_sflash_force_erase</a>(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)&#160;&#160;&#160;sfi_erase(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memdesc:gaec43f0411f3bafaf5e85fbff35ab3b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force to erase len number of bytes from the serial flash.  <a href="#gaec43f0411f3bafaf5e85fbff35ab3b97">More...</a><br /></td></tr>
+<tr class="separator:gaec43f0411f3bafaf5e85fbff35ab3b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga081038d3e9328c1c4b253c864b513306"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___serial_flash_interface_driver.html#ga081038d3e9328c1c4b253c864b513306">wiced_hal_sflash_force_write</a>(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, buffer)&#160;&#160;&#160;sfi_write(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, buffer)</td></tr>
+<tr class="memdesc:ga081038d3e9328c1c4b253c864b513306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force to write data from memory to a certain location on the serial flash module.  <a href="#ga081038d3e9328c1c4b253c864b513306">More...</a><br /></td></tr>
+<tr class="separator:ga081038d3e9328c1c4b253c864b513306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga1e1987606c06a240499657735b7a6317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___serial_flash_interface_driver.html#ga1e1987606c06a240499657735b7a6317">wiced_hal_sflash_init</a> (void)</td></tr>
@@ -144,6 +154,91 @@ Functions</h2></td></tr>
 <li>Supports JEDEC's CFI (Common Flash Interface) compatible SPI Flash chips from Cypress Semiconductors, SST, STMicroelectronics, Atmel, MXIC, Adesto, Winbond.</li>
 </ol>
 <p>Similar to the I2C EEPROM Interface Driver, this driver includes checks to ensure safe data handling operation&ndash;it will not allow any write or erase operations to take place within active sections (i.e., sections that the system currently uses for boot, etc). Note that read operations are unrestricted. Please reference the Kit Guide for more information regarding these active sections, their importance, and what roles they play in the system. </p>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="gaec43f0411f3bafaf5e85fbff35ab3b97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define wiced_hal_sflash_force_erase</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;sfi_erase(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Force to erase len number of bytes from the serial flash. </p>
+<p>Depending on the starting address and length, it calls sector or block erase to do the work.</p>
+<p>(!) Please ensure that the address and (address + length) of data to be written does not go beyond the size of the memory module. If they do, the erase operation will "wrap around" and start erasing the starting address of the memory (boot sector), rendering the device inoperable.</p>
+<p>(!) Note that due to the nature of Serial Flash memory and the limitations of sector and/or block boundaries, it is possible that the number of bytes erased could be greater than len.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>- The starting erase address on the serial flash. </td></tr>
+    <tr><td class="paramname">len</td><td>- The number of bytes to erase.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none Note: Please set serial flash size using wiced_hal_sflash_set_size API before using this API.Otherwise erase fails. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga081038d3e9328c1c4b253c864b513306"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define wiced_hal_sflash_force_write</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">buffer&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;sfi_write(<a class="el" href="wiced__bt__mesh__provision_8h.html#ac7c4f26482361ce6f8fd186406e2c756">addr</a>, <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, buffer)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Force to write data from memory to a certain location on the serial flash module. </p>
+<p>(!) Please ensure that the address and (address + length) of data to be written does not go beyond the size of the memory module. If they do, the write operation will "wrap around" and start corrupting the starting address of the memory (boot sector), rendering the device inoperable.</p>
+<p>(!) Note that this function will not allow corruption of certain memory locations, such as currently active sections (boot sectors) and sections required for the proper function of the Bluetooth subsystem.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>- The starting destination address on the serial flash. </td></tr>
+    <tr><td class="paramname">len</td><td>- The number of bytes to write. </td></tr>
+    <tr><td class="paramname">buf</td><td>- Pointer to source data buffer.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of bytes written. Note: Please set serial flash size using wiced_hal_sflash_set_size API before using this API. Otherwise write fails. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaec1779640af5d964ba360a8defdff8f6"></a>
 <div class="memitem">

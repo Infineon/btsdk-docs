@@ -10,6 +10,7 @@ var NAVTREEINDEX0 =
 "group___aes_calculation.html#gabe5b4fead5151644478345fb2cbaacc2":[7,2,1,0],
 "group___aux_clk_driver.html":[7,2,3],
 "group___aux_clk_driver.html#ga45026b2651ad3866d0f8cdea2505fbcd":[7,2,3,0],
+"group___aux_clk_driver.html#ga8c6cd7e4e057ebe70e03cb29e1ce1f62":[7,2,3,2],
 "group___aux_clk_driver.html#gae220c25f5fe7fb42d5fa2b7b38a0055e":[7,2,3,1],
 "group___battery_monitor_driver.html":[7,2,4],
 "group___battery_monitor_driver.html#ga21315e3f4b95bc712189bbcbbd6c7995":[7,2,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ae7bd41cc5cbdb03fc74599ffcf30f89b":[7,0,3,0,1],
 "group___result.html#ggacfc32ead8a827d53416f01b19eb58310af113250051e3f56b91a391896ed1bc5e":[7,0,3,0,12],
 "group___result.html#ggacfc32ead8a827d53416f01b19eb58310af4d928d2210ac856af660a21bacd5a36":[7,0,3,0,70],
-"group___result.html#ggacfc32ead8a827d53416f01b19eb58310af77481974fd2e5d329a45851c4ffc0c1":[7,0,3,0,67],
-"group___result.html#ggacfc32ead8a827d53416f01b19eb58310af8a1f1a243c27f2bf6c0b608e91c0661":[7,0,3,0,48]
+"group___result.html#ggacfc32ead8a827d53416f01b19eb58310af77481974fd2e5d329a45851c4ffc0c1":[7,0,3,0,67]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX7 =
 {
+"group__wiced__bt__mesh__level__server.html#ga81857d857bc6c3a765832336b567ff62":[7,1,12,2,76,5],
+"group__wiced__bt__mesh__level__server.html#gad207befcb62cd7360cfb4871062ef982":[7,1,12,2,76,0],
+"group__wiced__bt__mesh__level__server.html#gad39b8a61c8da1036850c8bd67bd69368":[7,1,12,2,76,6],
+"group__wiced__bt__mesh__light__ctl__client.html":[7,1,12,2,77],
+"group__wiced__bt__mesh__light__ctl__client.html#ga1ad33bce8aa9da4eb9b26fad95f697d0":[7,1,12,2,77,10],
+"group__wiced__bt__mesh__light__ctl__client.html#ga248addf8f4f397b3b0f28670c2abde3f":[7,1,12,2,77,9],
+"group__wiced__bt__mesh__light__ctl__client.html#ga40a2c9aa9bcbc96342b203438b1794df":[7,1,12,2,77,3],
+"group__wiced__bt__mesh__light__ctl__client.html#ga7349deb0d8ef0a9796ba6e69dea33721":[7,1,12,2,77,0],
 "group__wiced__bt__mesh__light__ctl__client.html#ga77fcfdad659ca7d66bd22b107fa79a3b":[7,1,12,2,77,6],
 "group__wiced__bt__mesh__light__ctl__client.html#ga85f95cda591ad444665dc03f8660531c":[7,1,12,2,77,1],
 "group__wiced__bt__mesh__light__ctl__client.html#ga8bff760779ac2cb673e4508a9fea1131":[7,1,12,2,77,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX7 =
 "group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd":[7,1,12,2,94,5],
 "group__wiced__bt__mesh__power__onoff__server.html#ga705b7e97399405ef469cf04d6ccac61e":[7,1,12,2,94,0],
 "group__wiced__bt__mesh__power__onoff__server.html#gaa1b53bc8839cec6ae49c7c9c82c0e023":[7,1,12,2,94,1],
-"group__wiced__bt__mesh__power__onoff__server.html#gad2d93f44c4787441548fbabc440dde36":[7,1,12,2,94,4],
-"group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348":[7,1,12,2,94,3],
-"group__wiced__bt__mesh__provisioning.html":[7,1,12,3],
-"group__wiced__bt__mesh__provisioning.html#ga000a31a42874bf809a252f9de8e59fbe":[7,1,12,3,133],
-"group__wiced__bt__mesh__provisioning.html#ga0067a50c291c21e9b580f8cc49bb54ec":[7,1,12,3,90],
-"group__wiced__bt__mesh__provisioning.html#ga00ed04aadce3556c99b2843de6e59a96":[7,1,12,3,125],
-"group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56":[7,1,12,3,142],
-"group__wiced__bt__mesh__provisioning.html#ga068479df386f1a92e0916586483651a0":[7,1,12,3,44],
-"group__wiced__bt__mesh__provisioning.html#ga06c7244e2e167ae29995e8ff6da58c36":[7,1,12,3,145]
+"group__wiced__bt__mesh__power__onoff__server.html#gad2d93f44c4787441548fbabc440dde36":[7,1,12,2,94,4]
 };

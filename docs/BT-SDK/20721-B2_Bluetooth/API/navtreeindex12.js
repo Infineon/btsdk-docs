@@ -1,5 +1,15 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__rc__event__t.html":[7,1,2,3,2,6],
+"structwiced__bt__rc__event__t.html#a03895f0a094b3c0a98affa867c97be95":[7,1,2,3,2,6,7],
+"structwiced__bt__rc__event__t.html#a0823f6eb8619cf4a445527641d9b9f7e":[7,1,2,3,2,6,4],
+"structwiced__bt__rc__event__t.html#a14f5b01c5e47ebeac8385e996e0f62c8":[7,1,2,3,2,6,0],
+"structwiced__bt__rc__event__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,2,3,2,6,2],
+"structwiced__bt__rc__event__t.html#a337470a3d363db6ed5c0d444f01893ec":[7,1,2,3,2,6,5],
+"structwiced__bt__rc__event__t.html#a5328c028d33455f28c04927923316382":[7,1,2,3,2,6,1],
+"structwiced__bt__rc__event__t.html#add30f6fd57aaddfaf17568ea3169787a":[7,1,2,3,2,6,6],
+"structwiced__bt__rc__event__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,2,3,2,6,3],
+"structwiced__bt__sco__hook__event__mic__samples__t.html":[7,1,15,1,0],
 "structwiced__bt__sco__params__t.html":[7,1,2,6,0],
 "structwiced__bt__sco__params__t.html#a2e75ea30290a80030360f3fae2027e7c":[7,1,2,6,0,3],
 "structwiced__bt__sco__params__t.html#a9ed3b26c2d665b1bf7e2807175b92d26":[7,1,2,6,0,2],

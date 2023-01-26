@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -171,9 +171,9 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>session_key</b> [<
 <tr class="memitem:abcdac0dc790fe56007d1fed60f3cb600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcdac0dc790fe56007d1fed60f3cb600"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>random</b> [<a class="el" href="wiced__bt__mesh__model__defs_8h.html#aaacde22503bfd288426bce0fd611f3f4">WICED_BT_MESH_PROVISION_RANDOM_LEN</a> *2]</td></tr>
 <tr class="separator:abcdac0dc790fe56007d1fed60f3cb600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c97bc17553545d29e87a527682d6575"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__core__provision__cb__t.html#a8c97bc17553545d29e87a527682d6575">oob_value</a> [16]</td></tr>
-<tr class="memdesc:a8c97bc17553545d29e87a527682d6575"><td class="mdescLeft">&#160;</td><td class="mdescRight">max static OOB value len is 256 bits(16bytes).  <a href="#a8c97bc17553545d29e87a527682d6575">More...</a><br /></td></tr>
-<tr class="separator:a8c97bc17553545d29e87a527682d6575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e4a6d7cf31b902901677340eb02d4a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__core__provision__cb__t.html#af1e4a6d7cf31b902901677340eb02d4a">oob_value</a> [32]</td></tr>
+<tr class="memdesc:af1e4a6d7cf31b902901677340eb02d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">max static OOB value len is 256 bits(32bytes).  <a href="#af1e4a6d7cf31b902901677340eb02d4a">More...</a><br /></td></tr>
+<tr class="separator:af1e4a6d7cf31b902901677340eb02d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c1e835f5c62b35a53285769d7319d0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c1e835f5c62b35a53285769d7319d0c"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmesh__core__provision__cb__t.html#a5c1e835f5c62b35a53285769d7319d0c">oob_value_len</a></td></tr>
 <tr class="memdesc:a5c1e835f5c62b35a53285769d7319d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">length of the OOB value <br /></td></tr>
@@ -189,17 +189,17 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Mesh Core Provisioning Control Block. </p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a8c97bc17553545d29e87a527682d6575"></a>
+<a class="anchor" id="af1e4a6d7cf31b902901677340eb02d4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t oob_value[16]</td>
+          <td class="memname">uint8_t oob_value[32]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>max static OOB value len is 256 bits(16bytes). </p>
+<p>max static OOB value len is 256 bits(32bytes). </p>
 <p>Max input and output OOB value length is 8 bytes </p>
 
 </div>

@@ -1,5 +1,16 @@
 var NAVTREEINDEX5 =
 {
+"group__wiced__bt__mesh__power__onoff__client.html#ga94870fe5e8d5f65f1df7497c17b6d6b3":[7,1,10,2,93,0],
+"group__wiced__bt__mesh__power__onoff__server.html":[7,1,10,2,94],
+"group__wiced__bt__mesh__power__onoff__server.html#ga33d6d3848a29f85f2c33c29f3d0382c4":[7,1,10,2,94,2],
+"group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd":[7,1,10,2,94,5],
+"group__wiced__bt__mesh__power__onoff__server.html#ga705b7e97399405ef469cf04d6ccac61e":[7,1,10,2,94,0],
+"group__wiced__bt__mesh__power__onoff__server.html#gaa1b53bc8839cec6ae49c7c9c82c0e023":[7,1,10,2,94,1],
+"group__wiced__bt__mesh__power__onoff__server.html#gad2d93f44c4787441548fbabc440dde36":[7,1,10,2,94,4],
+"group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348":[7,1,10,2,94,3],
+"group__wiced__bt__mesh__provisioning.html":[7,1,10,3],
+"group__wiced__bt__mesh__provisioning.html#ga000a31a42874bf809a252f9de8e59fbe":[7,1,10,3,133],
+"group__wiced__bt__mesh__provisioning.html#ga0067a50c291c21e9b580f8cc49bb54ec":[7,1,10,3,90],
 "group__wiced__bt__mesh__provisioning.html#ga00ed04aadce3556c99b2843de6e59a96":[7,1,10,3,125],
 "group__wiced__bt__mesh__provisioning.html#ga04be24c844df281f0814ffab8892fc56":[7,1,10,3,142],
 "group__wiced__bt__mesh__provisioning.html#ga068479df386f1a92e0916586483651a0":[7,1,10,3,44],
@@ -238,16 +249,5 @@ var NAVTREEINDEX5 =
 "group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2":[7,0,4,3],
 "group__wiced__utils.html#gac71e4685a9df31378eb9869d8db2f939":[7,0,4,1],
 "group__wiced__utils.html#gac798b93324e501ebc39ae11be1c26780":[7,0,4,0],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff":[7,0,4,3,2],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9":[7,0,4,3,4],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2ab2896f5df650dcc7627ed6a7a91c5e60":[7,0,4,3,0],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1":[7,0,4,3,3],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2afd172e33b82aa7d9aa0092776d906eba":[7,0,4,3,1],
-"group__wicedbt.html":[7,1],
-"group__wicedbt___device_management.html":[7,1,5],
-"group__wicedbt___framework.html":[7,1,6],
-"group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5":[7,1,6,0],
-"group__wicedbt__a2dp.html":[7,1,2,1],
-"group__wicedbt__a2dp.html#ga00d931eea740da7d5d867797b5048655":[7,1,2,1,2],
-"group__wicedbt__a2dp.html#ga73a7d02bde825807202680eaa6e4c5c5":[7,1,2,1,7]
+"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff":[7,0,4,3,2]
 };

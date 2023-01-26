@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -393,6 +393,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aca80f2701e37437ab5fbab4aa29072c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca80f2701e37437ab5fbab4aa29072c1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_read_tx_power</b>&#160;&#160;&#160;BTM_ReadTxPower</td></tr>
 <tr class="separator:aca80f2701e37437ab5fbab4aa29072c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3890e896ff30a4bedbe6aa3e28ac11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb3890e896ff30a4bedbe6aa3e28ac11"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_default_link_super_tout</b>&#160;&#160;&#160;BTM_SetDefaultLinkSuperTout</td></tr>
+<tr class="separator:afb3890e896ff30a4bedbe6aa3e28ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -936,6 +939,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a48a580210a970a52c39fca816ccfd0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a48a580210a970a52c39fca816ccfd0d7">wiced_bt_dev_read_tx_power</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, <a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
 <tr class="memdesc:a48a580210a970a52c39fca816ccfd0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_read_tx_power.  <a href="#a48a580210a970a52c39fca816ccfd0d7">More...</a><br /></td></tr>
 <tr class="separator:a48a580210a970a52c39fca816ccfd0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3571b01d21890d067c1ffd33581401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aab3571b01d21890d067c1ffd33581401">wiced_bt_dev_set_default_link_super_tout</a> (uint16_t timeout)</td></tr>
+<tr class="memdesc:aab3571b01d21890d067c1ffd33581401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_default_link_super_tout.  <a href="#aab3571b01d21890d067c1ffd33581401">More...</a><br /></td></tr>
+<tr class="separator:aab3571b01d21890d067c1ffd33581401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -2311,6 +2317,32 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Callback for hci traces</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aab3571b01d21890d067c1ffd33581401"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_dev_set_default_link_super_tout </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_set_default_link_super_tout. </p>
+<p>Set the default value for HCI "Write Link Supervision Timeout" command to use when an ACL link is created.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>: Supervision timeout (multiple of 10ms in the range of 100ms and 32.0s)</td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__mesh__core__statistics__t.html#a5d77370d28b3e91eb63f28274714ea63":[7,1,11,1,21,5],
+"structwiced__bt__mesh__core__statistics__t.html#a6ab1fbaeb2370c94e451dcd8489b320b":[7,1,11,1,21,6],
+"structwiced__bt__mesh__core__statistics__t.html#a6badf881500d21ea593eecbf4d23b6a8":[7,1,11,1,21,12],
+"structwiced__bt__mesh__core__statistics__t.html#a6bea0dc4ae7ffba9c81897a3c90bb658":[7,1,11,1,21,0],
+"structwiced__bt__mesh__core__statistics__t.html#a72ea80e142d9a7f2ce8558f509a37302":[7,1,11,1,21,19],
+"structwiced__bt__mesh__core__statistics__t.html#aa794e0f58119ddd7fd3852c183ad5447":[7,1,11,1,21,4],
+"structwiced__bt__mesh__core__statistics__t.html#aad3f823013aecd5429d902fddbe89949":[7,1,11,1,21,16],
+"structwiced__bt__mesh__core__statistics__t.html#ab29fd18b043cc02d3fe21f54e7579640":[7,1,11,1,21,17],
+"structwiced__bt__mesh__core__statistics__t.html#ab39492d5254d1a856cce6c292919d2c6":[7,1,11,1,21,1],
+"structwiced__bt__mesh__core__statistics__t.html#ab46a8db477e082a60ffadce34530c271":[7,1,11,1,21,3],
 "structwiced__bt__mesh__core__statistics__t.html#ab828eadbdd24cb25098903341c8097c6":[7,1,11,1,21,13],
 "structwiced__bt__mesh__core__statistics__t.html#abdfdcfd0549fa1212f82340bb18a032a":[7,1,11,1,21,8],
 "structwiced__bt__mesh__core__statistics__t.html#af899f64f04b05faa0a44cc778d94cbd0":[7,1,11,1,21,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__light__xyl__xy__settings__t.html#a86e6872ec9440240ea8d9ab089525d2b":[7,1,11,2,55,5],
 "structwiced__bt__mesh__light__xyl__xy__settings__t.html#ab5379478017ff6051cdd90b108dca2d8":[7,1,11,2,55,2],
 "structwiced__bt__mesh__local__device__set__data__t.html":[7,1,11,3,0],
-"structwiced__bt__mesh__local__device__set__data__t.html#a287de9a6759e860c089f7c7386e7a824":[7,1,11,3,0,2],
-"structwiced__bt__mesh__local__device__set__data__t.html#a2a5abc74f4c3049cd802e24a2bdbf84b":[7,1,11,3,0,7],
-"structwiced__bt__mesh__local__device__set__data__t.html#a39866c84e509301532dc884d31be8a67":[7,1,11,3,0,3],
-"structwiced__bt__mesh__local__device__set__data__t.html#a41a6aad09727eb120338c35535a652a6":[7,1,11,3,0,0],
-"structwiced__bt__mesh__local__device__set__data__t.html#a45b67531f6291b13445235a55b0f5c1f":[7,1,11,3,0,5],
-"structwiced__bt__mesh__local__device__set__data__t.html#a88c79cd52cb7992eefd326dbdc584a64":[7,1,11,3,0,6],
-"structwiced__bt__mesh__local__device__set__data__t.html#ab8e06aba4f99ff36f813e298de64a1fd":[7,1,11,3,0,1],
-"structwiced__bt__mesh__local__device__set__data__t.html#ad5e559123f0766eb803c9925d4a3a3d1":[7,1,11,3,0,4],
-"structwiced__bt__mesh__location__global__data__t.html":[7,1,11,2,1],
-"structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57":[7,1,11,2,1,1],
-"structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4":[7,1,11,2,1,2]
+"structwiced__bt__mesh__local__device__set__data__t.html#a287de9a6759e860c089f7c7386e7a824":[7,1,11,3,0,2]
 };

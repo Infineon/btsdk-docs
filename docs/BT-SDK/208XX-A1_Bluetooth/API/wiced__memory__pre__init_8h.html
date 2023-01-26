@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -131,14 +131,34 @@ typedef struct <br class="typebreak" />
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a031768ae9e4d800319774916a79b2642"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a031768ae9e4d800319774916a79b2642"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__memory__pre__init_8h.html#a031768ae9e4d800319774916a79b2642">wiced_memory_pre_init</a> (<a class="el" href="wiced__memory__pre__init_8h.html#a50fe24b3f886c010df09aea4cd1b104b">WICED_MEM_PRE_INIT_CONTROL</a> *mem_pre_init)</td></tr>
-<tr class="memdesc:a031768ae9e4d800319774916a79b2642"><td class="mdescLeft">&#160;</td><td class="mdescRight">set pre-init memory allocation parameters call this from spar_crt_init function to set parameters prior to allocations <br /></td></tr>
+<tr class="memitem:a031768ae9e4d800319774916a79b2642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__memory__pre__init_8h.html#a031768ae9e4d800319774916a79b2642">wiced_memory_pre_init</a> (<a class="el" href="wiced__memory__pre__init_8h.html#a50fe24b3f886c010df09aea4cd1b104b">WICED_MEM_PRE_INIT_CONTROL</a> *mem_pre_init)</td></tr>
+<tr class="memdesc:a031768ae9e4d800319774916a79b2642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description: set pre-init memory allocation parameters.  <a href="#a031768ae9e4d800319774916a79b2642">More...</a><br /></td></tr>
 <tr class="separator:a031768ae9e4d800319774916a79b2642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>support memory allocation tuning </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a031768ae9e4d800319774916a79b2642"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_memory_pre_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__memory__pre__init_8h.html#a50fe24b3f886c010df09aea4cd1b104b">WICED_MEM_PRE_INIT_CONTROL</a> *&#160;</td>
+          <td class="paramname"><em>mem_pre_init</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Description: set pre-init memory allocation parameters. </p>
+<p>call this from spar_crt_init function to set parameters prior to allocations Note: Application don't need to call this function. Application only need to provide global variable, g_mem_pre_init and tuning the parameters.</p>
+<p>Input: mem_pre_init - Parameters to pre init the memory, please see the above usage for more information. Output: None Return: None </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

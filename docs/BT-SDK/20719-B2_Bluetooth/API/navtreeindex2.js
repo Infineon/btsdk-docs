@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__group__wiced__firmware__upgrade.html#ga27fc916ae66e079b3459f1e553999f09":[7,0,0,4],
 "group__group__wiced__firmware__upgrade.html#ga4433b3bf0f43473881496851ba1fdf9d":[7,0,0,6],
 "group__group__wiced__firmware__upgrade.html#ga727cb6e7242599b5958a1840b63ceb44":[7,0,0,7],
 "group__group__wiced__firmware__upgrade.html#gafc75a6dab6803a4ea2ec5418f696b8c3":[7,0,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0112e9137a7447efcbfa03eeb7e31a49":[7,1,16,1,8,13],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0e441205b20cc13da23016c9ecaed01e":[7,1,16,1,8,14],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a226a15886664ae9e82185e78b2709e8d":[7,1,16,1,8,2],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2beb4c28604bac144ee0e9d0b2f84fed":[7,1,16,1,8,9],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2ecbb604d4a0ab697e4f8098ca79a5eb":[7,1,16,1,8,6]
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2beb4c28604bac144ee0e9d0b2f84fed":[7,1,16,1,8,9]
 };

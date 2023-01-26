@@ -1,5 +1,14 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__mesh__level__set__move__t.html#a70d4fc7788f641b6913d1a8280206a9b":[7,1,12,2,7,2],
+"structwiced__bt__mesh__level__set__move__t.html#ac822e6d5f7ae5e33ce0ee0deb060e040":[7,1,12,2,7,0],
+"structwiced__bt__mesh__level__set__move__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,12,2,7,1],
+"structwiced__bt__mesh__level__status__data__t.html":[7,1,12,2,8],
+"structwiced__bt__mesh__level__status__data__t.html#a2aa30fdfd72cf31a978cb20db080c2a5":[7,1,12,2,8,2],
+"structwiced__bt__mesh__level__status__data__t.html#a56f1fa0cf51ce72d82e9209ee2a7299c":[7,1,12,2,8,0],
+"structwiced__bt__mesh__level__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,12,2,8,1],
+"structwiced__bt__mesh__light__ctl__data__t.html":[7,1,12,2,31],
+"structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e":[7,1,12,2,31,2],
 "structwiced__bt__mesh__light__ctl__data__t.html#a968eb4438426da63f07e28bfa3578bda":[7,1,12,2,31,1],
 "structwiced__bt__mesh__light__ctl__data__t.html#aa89cdf6c8632f721c3033cc5904e8087":[7,1,12,2,31,0],
 "structwiced__bt__mesh__light__ctl__default__data__t.html":[7,1,12,2,35],
@@ -240,14 +249,5 @@ var NAVTREEINDEX12 =
 "structwiced__bt__mesh__property__set__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,1,12,2,29,3],
 "structwiced__bt__mesh__property__set__data__t.html#a2c18aaad4bff3be18292e343c3b28dc8":[7,1,12,2,29,4],
 "structwiced__bt__mesh__property__set__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384":[7,1,12,2,29,1],
-"structwiced__bt__mesh__property__set__data__t.html#a8aed22e2c7b283705ec82e0120515618":[7,1,12,2,29,2],
-"structwiced__bt__mesh__property__set__data__t.html#a8b0d6200bc639dd37ff68847a0adde5f":[7,1,12,2,29,0],
-"structwiced__bt__mesh__property__status__data__t.html":[7,1,12,2,30],
-"structwiced__bt__mesh__property__status__data__t.html#a1d127017fb298b889f4ba24752d08b8e":[7,1,12,2,30,3],
-"structwiced__bt__mesh__property__status__data__t.html#a1ed5b151a90f7e99af8cca2e6875ddf4":[7,1,12,2,30,4],
-"structwiced__bt__mesh__property__status__data__t.html#a4fc3a0c58dfbd1e68224521185cb9384":[7,1,12,2,30,1],
-"structwiced__bt__mesh__property__status__data__t.html#a8aed22e2c7b283705ec82e0120515618":[7,1,12,2,30,2],
-"structwiced__bt__mesh__property__status__data__t.html#a8b0d6200bc639dd37ff68847a0adde5f":[7,1,12,2,30,0],
-"structwiced__bt__mesh__provision__capabilities__data__t.html":[7,1,12,3,18],
-"structwiced__bt__mesh__provision__capabilities__data__t.html#a120cd573c407780952f0fe08fc5ddfba":[7,1,12,3,18,1]
+"structwiced__bt__mesh__property__set__data__t.html#a8aed22e2c7b283705ec82e0120515618":[7,1,12,2,29,2]
 };

@@ -26,5 +26,6 @@ var group___transport =
     [ "wiced_transport_uart_interrupt_disable", "group___transport.html#ga9c0041d618b887df9bfdf618a0e66a0b", null ],
     [ "wiced_transport_uart_interrupt_enable", "group___transport.html#ga5f3040f84d93b4e1a540464763ac96dc", null ],
     [ "wiced_transport_uart_rx_pause", "group___transport.html#ga32496559306c07207717ea110266993c", null ],
-    [ "wiced_transport_uart_rx_resume", "group___transport.html#ga7c6f067f6fe6dd8e25fb3c6201495340", null ]
+    [ "wiced_transport_uart_rx_resume", "group___transport.html#ga7c6f067f6fe6dd8e25fb3c6201495340", null ],
+    [ "wiced_uart_raw_mode_set_max_receive_timeout", "group___transport.html#gac33bf175a7ade6b5423c68b67aeaf158", null ]
 ];

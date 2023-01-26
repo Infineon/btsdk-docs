@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"structwiced__bt__mesh__core__provision__start__t.html#acf71546f50219c2b2c44bc261264ec70":[7,1,10,1,18,2],
+"structwiced__bt__mesh__core__state__app__key__t.html":[7,1,10,1,8],
+"structwiced__bt__mesh__core__state__app__key__t.html#a22f3b78c54405482a77f0c82141b779f":[7,1,10,1,8,2],
+"structwiced__bt__mesh__core__state__app__key__t.html#a852b86a2eaee9852ada7a43e61e311a2":[7,1,10,1,8,0],
+"structwiced__bt__mesh__core__state__app__key__t.html#aa60a0c39d29c4a6fdaac5bfc05f1dbec":[7,1,10,1,8,1],
+"structwiced__bt__mesh__core__state__beacon__t.html":[7,1,10,1,12],
+"structwiced__bt__mesh__core__state__beacon__t.html#a058259d558a6670bc25672a5173cc281":[7,1,10,1,12,0],
+"structwiced__bt__mesh__core__state__beacon__t.html#a1b99ff3a01c88a42dbaaa91d9dcea0fb":[7,1,10,1,12,2],
+"structwiced__bt__mesh__core__state__beacon__t.html#aa2585d779da0ab21273a8d92de9a0ebe":[7,1,10,1,12,1],
+"structwiced__bt__mesh__core__state__beacon__t.html#abf6528cd337e0e9cb2ee0185aef4c1f4":[7,1,10,1,12,3],
+"structwiced__bt__mesh__core__state__friendship__t.html":[7,1,10,1,11],
+"structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f":[7,1,10,1,11,1],
 "structwiced__bt__mesh__core__state__friendship__t.html#a41a6aad09727eb120338c35535a652a6":[7,1,10,1,11,0],
 "structwiced__bt__mesh__core__state__iv__t.html":[7,1,10,1,5],
 "structwiced__bt__mesh__core__state__iv__t.html#aafd95f8c7a99b9189ede7cdf0871ebe8":[7,1,10,1,5,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "structwiced__bt__mesh__light__lightness__status__data__t.html":[7,1,10,2,17],
 "structwiced__bt__mesh__light__lightness__status__data__t.html#a0aeb19c8e9ac98318e93f84e69d3243f":[7,1,10,2,17,0],
 "structwiced__bt__mesh__light__lightness__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,10,2,17,1],
-"structwiced__bt__mesh__light__lightness__status__data__t.html#af27d9627f4a2f2839ae2c3500301b87e":[7,1,10,2,17,2],
-"structwiced__bt__mesh__light__lightness__status__t.html":[7,1,10,2,18],
-"structwiced__bt__mesh__light__lightness__status__t.html#a3783a330c33f936b9f19fc2f131c9f80":[7,1,10,2,18,3],
-"structwiced__bt__mesh__light__lightness__status__t.html#a45bf0af793adaf5c2741145fc14b6dbe":[7,1,10,2,18,1],
-"structwiced__bt__mesh__light__lightness__status__t.html#a7353a3eb720f23188596a63569fbe8ec":[7,1,10,2,18,0],
-"structwiced__bt__mesh__light__lightness__status__t.html#a74baf2018181f39617e8fb7dc4f6cb9a":[7,1,10,2,18,2],
-"structwiced__bt__mesh__light__lightness__status__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,10,2,18,4],
-"structwiced__bt__mesh__light__xyl__data__t.html":[7,1,10,2,54],
-"structwiced__bt__mesh__light__xyl__data__t.html#a4dde988b1b2adba65ae3efa69f65d960":[7,1,10,2,54,1],
-"structwiced__bt__mesh__light__xyl__data__t.html#a968eb4438426da63f07e28bfa3578bda":[7,1,10,2,54,0],
-"structwiced__bt__mesh__light__xyl__data__t.html#ab0580f504a7428539be299fa71565f30":[7,1,10,2,54,2],
-"structwiced__bt__mesh__light__xyl__default__data__t.html":[7,1,10,2,59],
-"structwiced__bt__mesh__light__xyl__default__data__t.html#ab5bae9353df67146de6a493d0569bdd0":[7,1,10,2,59,0]
+"structwiced__bt__mesh__light__lightness__status__data__t.html#af27d9627f4a2f2839ae2c3500301b87e":[7,1,10,2,17,2]
 };

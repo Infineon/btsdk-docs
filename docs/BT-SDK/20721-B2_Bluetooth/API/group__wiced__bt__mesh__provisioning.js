@@ -112,7 +112,7 @@ var group__wiced__bt__mesh__provisioning =
       [ "output_oob_action", "structwiced__bt__mesh__provision__capabilities__data__t.html#ad01e23f6c0b11f365c9c4095a3057a0e", null ],
       [ "output_oob_size", "structwiced__bt__mesh__provision__capabilities__data__t.html#a95f298b809c97e2d93d2b1900a01b3cc", null ],
       [ "pub_key_type", "structwiced__bt__mesh__provision__capabilities__data__t.html#ac9c087c55abf46b46ece74370ca39d42", null ],
-      [ "static_oob", "structwiced__bt__mesh__provision__capabilities__data__t.html#a1e40486383afb52cf25151991493d0c5", null ],
+      [ "static_oob", "structwiced__bt__mesh__provision__capabilities__data__t.html#a770dfb243023cd942336c976184f86b0", null ],
       [ "static_oob_type", "structwiced__bt__mesh__provision__capabilities__data__t.html#aa2bab113df363b1c56d14939ca6856ac", null ]
     ] ],
     [ "wiced_bt_mesh_provision_status_data_t", "structwiced__bt__mesh__provision__status__data__t.html", [

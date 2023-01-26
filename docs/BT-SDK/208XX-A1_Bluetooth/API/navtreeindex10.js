@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__anc__enable__disable__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,4,0],
+"structwiced__bt__anc__enable__disable__alerts__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,0,4,1],
+"structwiced__bt__anc__new__alert__notification__t.html":[7,1,0,5],
+"structwiced__bt__anc__new__alert__notification__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,5,0],
+"structwiced__bt__anc__new__alert__notification__t.html#a8a840c5463f52d52ac7c759de4d478c0":[7,1,0,5,1],
+"structwiced__bt__anc__new__alert__notification__t.html#ab2278a404c82c3505ad19baeb555d458":[7,1,0,5,2],
+"structwiced__bt__anc__new__alert__notification__t.html#acf7f0833669eadba0bc4262377d49538":[7,1,0,5,3],
+"structwiced__bt__anc__supported__new__alerts__result__t.html":[7,1,0,1],
 "structwiced__bt__anc__supported__new__alerts__result__t.html#a5f76a20cca021b05b21545bb11dbd9f1":[7,1,0,1,2],
 "structwiced__bt__anc__supported__new__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,1,0],
 "structwiced__bt__anc__supported__new__alerts__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,0,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__hrc__start__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,10,1,1],
 "structwiced__bt__hrc__stop__t.html":[7,1,10,2],
 "structwiced__bt__hrc__stop__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,10,2,0],
-"structwiced__bt__hrc__stop__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,10,2,1],
-"structwiced__bt__hrs__handles__t.html":[7,1,11,0],
-"structwiced__bt__hrs__handles__t.html#a10e251ca482543ec4f81f4006b000aed":[7,1,11,0,1],
-"structwiced__bt__hrs__handles__t.html#a30cfcf503497984749cd11c38f56ae8a":[7,1,11,0,0],
-"structwiced__bt__hrs__handles__t.html#a39cce0358f4f4988ac97b1e9f078cfc7":[7,1,11,0,2],
-"structwiced__bt__hrs__handles__t.html#a900b69af7d674b8db3bceae754b4955a":[7,1,11,0,3],
-"structwiced__bt__hrs__notification__data__t.html":[7,1,11,4],
-"structwiced__bt__hrs__notification__data__t.html#a073dd87afbe192bdb2dd7e78f461ea43":[7,1,11,4,1],
-"structwiced__bt__hrs__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4":[7,1,11,4,2]
+"structwiced__bt__hrc__stop__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47":[7,1,10,2,1]
 };

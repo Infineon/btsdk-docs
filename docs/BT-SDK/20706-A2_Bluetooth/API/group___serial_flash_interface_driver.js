@@ -1,5 +1,7 @@
 var group___serial_flash_interface_driver =
 [
+    [ "wiced_hal_sflash_force_erase", "group___serial_flash_interface_driver.html#gaec43f0411f3bafaf5e85fbff35ab3b97", null ],
+    [ "wiced_hal_sflash_force_write", "group___serial_flash_interface_driver.html#ga081038d3e9328c1c4b253c864b513306", null ],
     [ "wiced_hal_sflash_erase", "group___serial_flash_interface_driver.html#gaec1779640af5d964ba360a8defdff8f6", null ],
     [ "wiced_hal_sflash_get_4_byte_address", "group___serial_flash_interface_driver.html#ga51b302097d2df0731cffc5ae0e41a5b0", null ],
     [ "wiced_hal_sflash_get_erase_sector_size_256K", "group___serial_flash_interface_driver.html#ga2af9d9885b550cc465dd39b1e890c6ca", null ],

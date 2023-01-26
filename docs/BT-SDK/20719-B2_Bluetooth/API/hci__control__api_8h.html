@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -644,6 +644,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a6da0d69e3c97e45fb3b410da6ded0467"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6da0d69e3c97e45fb3b410da6ded0467"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_KEY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x08 )     /* Send USB key */</td></tr>
 <tr class="separator:a6da0d69e3c97e45fb3b410da6ded0467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165e9777d99403b146b0b569afa4af1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a165e9777d99403b146b0b569afa4af1e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_START_REQ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x09 )     /* Audio Start Request */</td></tr>
+<tr class="separator:a165e9777d99403b146b0b569afa4af1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd757ad3f384ad2b707220f478bae1d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd757ad3f384ad2b707220f478bae1d5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_STOP_REQ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0A )     /* Audio Stop Request */</td></tr>
+<tr class="separator:abd757ad3f384ad2b707220f478bae1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4802b286a573c64ae9172f46e8a047"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb4802b286a573c64ae9172f46e8a047"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0B )     /* Audio Data */</td></tr>
+<tr class="separator:acb4802b286a573c64ae9172f46e8a047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01645a4d03dc317ff083bf723760123"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab01645a4d03dc317ff083bf723760123"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_SET_COPY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0C )     /* Enable/Disable Audio Data copy */</td></tr>
+<tr class="separator:ab01645a4d03dc317ff083bf723760123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23739a1459e84b534b911bbb191b3aa2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23739a1459e84b534b911bbb191b3aa2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_MIC_START_STOP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0D )     /* Audio MIC Start/stop */</td></tr>
+<tr class="separator:a23739a1459e84b534b911bbb191b3aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbeb800431750fe7c4416457eb2dee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6dbeb800431750fe7c4416457eb2dee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_TEST_COMMAND_ENCAPSULATED_HCI_COMMAND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_TEST &lt;&lt; 8 ) | 0x10 )     /* Encapsulated HCI command - For manufacturing test purposes */</td></tr>
 <tr class="separator:ae6dbeb800431750fe7c4416457eb2dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1151,6 +1166,27 @@ Macros</h2></td></tr>
 <tr class="memitem:ab73ad151f4739402962732b38dc12876"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab73ad151f4739402962732b38dc12876"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_UPLOAD_GET_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x66 )  /* Get current status and phase */</td></tr>
 <tr class="separator:ab73ad151f4739402962732b38dc12876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac691f5532db4d388c4232ba33102498c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac691f5532db4d388c4232ba33102498c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x67 )  /* FW Distribution start */</td></tr>
+<tr class="separator:ac691f5532db4d388c4232ba33102498c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ddddc79a765f2d98bdadf98de86cd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79ddddc79a765f2d98bdadf98de86cd8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_SUSPEND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x68 )  /* FW Distribution suspend */</td></tr>
+<tr class="separator:a79ddddc79a765f2d98bdadf98de86cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e573056f42b5d08b7d6d07ab2ef0792"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e573056f42b5d08b7d6d07ab2ef0792"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_RESUME</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x69 )  /* FW Distribution resume */</td></tr>
+<tr class="separator:a8e573056f42b5d08b7d6d07ab2ef0792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4cf1c5dea6d1bca1d0f76a75a669a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a4cf1c5dea6d1bca1d0f76a75a669a9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_STOP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x6a )  /* FW Distribution stop */</td></tr>
+<tr class="separator:a9a4cf1c5dea6d1bca1d0f76a75a669a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302e1b5931e90583246d5cfc871cd24d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a302e1b5931e90583246d5cfc871cd24d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_DISTRIBUTION_GET_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x6b )  /* FW Distribution get current status */</td></tr>
+<tr class="separator:a302e1b5931e90583246d5cfc871cd24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab028423e8708c9592a68c3982fcdb7ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab028423e8708c9592a68c3982fcdb7ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_UPDATE_INFO_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x6c )  /* FW Update get device firmware info */</td></tr>
+<tr class="separator:ab028423e8708c9592a68c3982fcdb7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1d70e3756925137feb161c3a62c2f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae1d70e3756925137feb161c3a62c2f6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_FW_UPDATE_METADATA_CHECK</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x6d )  /* FW Update check metadata (to see if FW can be accepted) */</td></tr>
+<tr class="separator:aae1d70e3756925137feb161c3a62c2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b6f6032a68026bfbf8c1951cf7a964"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6b6f6032a68026bfbf8c1951cf7a964"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CORE_NETWORK_LAYER_TRNSMIT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x01 )  /* Network Layer Transmit Mesage command */</td></tr>
 <tr class="separator:ac6b6f6032a68026bfbf8c1951cf7a964"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1589,6 +1625,30 @@ Macros</h2></td></tr>
 <tr class="memitem:af0b9c2e770e7417401076172f08d44c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0b9c2e770e7417401076172f08d44c2"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CORE_DELAY_STATS_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x92 )  /* Get delay statistics */</td></tr>
 <tr class="separator:af0b9c2e770e7417401076172f08d44c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1a300c03124af383e5ac61fd3d808c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c1a300c03124af383e5ac61fd3d808c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_OPCODES_AGGREGATOR_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x93 )  /* Opcodes Aggregator starts, the following commands will be added to a sequence (not sent) */</td></tr>
+<tr class="separator:a0c1a300c03124af383e5ac61fd3d808c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908251aaaddc5365efa344387afcd452"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a908251aaaddc5365efa344387afcd452"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_OPCODES_AGGREGATOR_FINISH</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x94 )  /* Opcodes Aggregator finishes and the sequence will be sent to peer device */</td></tr>
+<tr class="separator:a908251aaaddc5365efa344387afcd452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e2c69c8a5cdcd9b37c9307324907e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59e2c69c8a5cdcd9b37c9307324907e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_LARGE_COMPOS_DATA_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x95 )  /* Large Composition Data Get */</td></tr>
+<tr class="separator:a59e2c69c8a5cdcd9b37c9307324907e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4ab276ec7d2cc57b7064a40f45e0b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd4ab276ec7d2cc57b7064a40f45e0b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_MODELS_METADATA_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x96 )  /* Models Metadata Get */</td></tr>
+<tr class="separator:abd4ab276ec7d2cc57b7064a40f45e0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d915f11676cef633926d1fcef56df0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d915f11676cef633926d1fcef56df0a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_SAR_TRANSMITTER_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x97 )  /* SAR Transmitter Get */</td></tr>
+<tr class="separator:a7d915f11676cef633926d1fcef56df0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d49acc0377502007db6b8d8760e650"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4d49acc0377502007db6b8d8760e650"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_SAR_TRANSMITTER_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x98 )  /* SAR Transmitter Set */</td></tr>
+<tr class="separator:ae4d49acc0377502007db6b8d8760e650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5029abab155166563ab6f33a5e481842"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5029abab155166563ab6f33a5e481842"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_SAR_RECEIVER_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x99 )  /* SAR Receiver Get */</td></tr>
+<tr class="separator:a5029abab155166563ab6f33a5e481842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6851d46feac6a54297ac38bb32fc10fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6851d46feac6a54297ac38bb32fc10fa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_COMMAND_CONFIG_SAR_RECEIVER_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x9a )  /* SAR Receiver Set */</td></tr>
+<tr class="separator:a6851d46feac6a54297ac38bb32fc10fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8958be974f162f8f34b8c9c19fe6fb54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8958be974f162f8f34b8c9c19fe6fb54"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x00 )    /* Battery Client connect */</td></tr>
 <tr class="separator:a8958be974f162f8f34b8c9c19fe6fb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1676,6 +1736,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a30ab22c1a190a9e75cf86fd873d0a234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30ab22c1a190a9e75cf86fd873d0a234"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_COMMAND_NUMBER_SIGNAL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x22 )</td></tr>
 <tr class="separator:a30ab22c1a190a9e75cf86fd873d0a234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389511bc34eb263bf7bf3d69e2ef2337"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a389511bc34eb263bf7bf3d69e2ef2337"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_COMMAND_READ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x23 )</td></tr>
+<tr class="separator:a389511bc34eb263bf7bf3d69e2ef2337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90bdff47810d409309b886bb7174f851"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90bdff47810d409309b886bb7174f851"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_FINDME_LOCATOR_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_FINDME_LOCATOR &lt;&lt; 8 ) | 0x00 )    /* FindMe Target connect */</td></tr>
 <tr class="separator:a90bdff47810d409309b886bb7174f851"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2267,6 +2330,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a755d30b5279a594a6733bccceb71503e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a755d30b5279a594a6733bccceb71503e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_STATE_CHANGE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x06 )    /* Device State Change */</td></tr>
 <tr class="separator:a755d30b5279a594a6733bccceb71503e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f395e70a640e8723ca1235c783e9476"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f395e70a640e8723ca1235c783e9476"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_AUDIO_DATA_REQ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x07 )    /* Audio data request */</td></tr>
+<tr class="separator:a9f395e70a640e8723ca1235c783e9476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae057b1b0177deb75a8757aca0c80afe3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae057b1b0177deb75a8757aca0c80afe3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_AUDIO_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x08 )    /* Audio data */</td></tr>
+<tr class="separator:ae057b1b0177deb75a8757aca0c80afe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9781f55cdf7f68ba80ff50212fa3d6a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9781f55cdf7f68ba80ff50212fa3d6a7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_AUDIO_STOP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x09 )    /* Audio data stopped */</td></tr>
+<tr class="separator:a9781f55cdf7f68ba80ff50212fa3d6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bb2c1609c0e1b762c3a9e9acdcbb6d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bb2c1609c0e1b762c3a9e9acdcbb6d5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_CAPABILITY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0A )    /* Device capability */</td></tr>
+<tr class="separator:a4bb2c1609c0e1b762c3a9e9acdcbb6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24f6f539fd5b7d5f6dbe51ee8176402b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0xFF )    /* Result status for HID commands */</td></tr>
 <tr class="separator:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2780,6 +2855,15 @@ Macros</h2></td></tr>
 <tr class="memitem:ad73ec00ebd8a6367d1ecaec78931d0af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad73ec00ebd8a6367d1ecaec78931d0af"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_TIME_SET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x55 )  /* Time Set event */</td></tr>
 <tr class="separator:ad73ec00ebd8a6367d1ecaec78931d0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc56f43f6b4fd173dc78e8ac74f3580"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfc56f43f6b4fd173dc78e8ac74f3580"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_FW_DISTRIBUTION_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x56 )  /* FW Distribution status event */</td></tr>
+<tr class="separator:adfc56f43f6b4fd173dc78e8ac74f3580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1915c32d8358c578b853f4d782b8b08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1915c32d8358c578b853f4d782b8b08"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_FW_UPDATE_INFO_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x57 )  /* FW Update info status event */</td></tr>
+<tr class="separator:ae1915c32d8358c578b853f4d782b8b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfcf3cde968baa9817fe9f6e385ee6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8dfcf3cde968baa9817fe9f6e385ee6b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_FW_UPDATE_METADATA_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH_MODELS &lt;&lt; 8 ) | 0x58 )  /* FW Update metadata status event */</td></tr>
+<tr class="separator:a8dfcf3cde968baa9817fe9f6e385ee6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a690fa1eecc8af25090a156e9e39058af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a690fa1eecc8af25090a156e9e39058af"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x00 )      /* Command status event */</td></tr>
 <tr class="separator:a690fa1eecc8af25090a156e9e39058af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3014,6 +3098,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a27a9caa311ae6e48e2bb0b9878583303"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27a9caa311ae6e48e2bb0b9878583303"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_CORE_DELAY_STATS_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x4c )      /* Delay statistics Status event */</td></tr>
 <tr class="separator:a27a9caa311ae6e48e2bb0b9878583303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb6fb28f3aa5aeb714a4e8c9f9f970a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fb6fb28f3aa5aeb714a4e8c9f9f970a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_OPCODES_AGGREGATOR_ADD_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x4d )      /* Opcodes Aggregator add message Status event */</td></tr>
+<tr class="separator:a8fb6fb28f3aa5aeb714a4e8c9f9f970a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a9eeef058ea71bbeb3a32262565ac1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1a9eeef058ea71bbeb3a32262565ac1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_LARGE_COMPOS_DATA_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x4e )      /* Large Composition Data status */</td></tr>
+<tr class="separator:ad1a9eeef058ea71bbeb3a32262565ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf15e757e6650820f17b6553be766fff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf15e757e6650820f17b6553be766fff"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_MODELS_METADATA_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x4f )      /* Models Metadata status */</td></tr>
+<tr class="separator:adf15e757e6650820f17b6553be766fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97ebdeff3be65b9d9b58cf88033474d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a97ebdeff3be65b9d9b58cf88033474d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_SAR_TRANSMITTER_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x50 )      /* SAR Transmitter Status */</td></tr>
+<tr class="separator:a97ebdeff3be65b9d9b58cf88033474d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797a279fe08a41db387d7a4cd8c31e1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a797a279fe08a41db387d7a4cd8c31e1f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_MESH_EVENT_SAR_RECEIVER_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_MESH &lt;&lt; 8 ) | 0x51 )      /* SAR Receiver Status */</td></tr>
+<tr class="separator:a797a279fe08a41db387d7a4cd8c31e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4002fbe00ad373df48a63c23a33b32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f4002fbe00ad373df48a63c23a33b32"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BATT_CLIENT_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BATT_CLIENT &lt;&lt; 8 ) | 0x00 )    /* Battery Client connected */</td></tr>
 <tr class="separator:a8f4002fbe00ad373df48a63c23a33b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3299,9 +3398,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a7ebe8825a577920837d1f47d5a0dd2dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ebe8825a577920837d1f47d5a0dd2dc"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_UNMUTE_VOL_DOWN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0B )</td></tr>
 <tr class="separator:a7ebe8825a577920837d1f47d5a0dd2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a416c43aa86480e4c5e4e3fc03a2066e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a416c43aa86480e4c5e4e3fc03a2066e3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0C )</td></tr>
-<tr class="separator:a416c43aa86480e4c5e4e3fc03a2066e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f98e9b00d3528acbc1e8ded2291287"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6f98e9b00d3528acbc1e8ded2291287"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_PLACE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0C )</td></tr>
+<tr class="separator:ac6f98e9b00d3528acbc1e8ded2291287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8ff2944c76457bc069c9f169e166cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea8ff2944c76457bc069c9f169e166cf"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_ACCEPT_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0D )</td></tr>
 <tr class="separator:aea8ff2944c76457bc069c9f169e166cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3326,6 +3425,30 @@ Macros</h2></td></tr>
 <tr class="memitem:a690a294ff13d1ea3b390f91cf6fe6cee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a690a294ff13d1ea3b390f91cf6fe6cee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_BROADCAST_SINK_LISTEN_TO_BROADCAST</b>&#160;&#160;&#160;((HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8) | 0x18)</td></tr>
 <tr class="separator:a690a294ff13d1ea3b390f91cf6fe6cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa17c6e87bc7d791ddc7d9fb6e0aaf30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa17c6e87bc7d791ddc7d9fb6e0aaf30"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_HOLD_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x19 )</td></tr>
+<tr class="separator:afa17c6e87bc7d791ddc7d9fb6e0aaf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877d0c6f5fd8d9a80bc3666761971199"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a877d0c6f5fd8d9a80bc3666761971199"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_RETRIEVE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1A )</td></tr>
+<tr class="separator:a877d0c6f5fd8d9a80bc3666761971199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782e468b07045d59052a658e845f2746"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a782e468b07045d59052a658e845f2746"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_REMOTELY_HOLD_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1B )</td></tr>
+<tr class="separator:a782e468b07045d59052a658e845f2746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8c1e5f1749d7a4b49e8e5a48348754"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a8c1e5f1749d7a4b49e8e5a48348754"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_REM_RETRIEVE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1C )</td></tr>
+<tr class="separator:a3a8c1e5f1749d7a4b49e8e5a48348754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19301977c4fc13090a17513c9216480d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19301977c4fc13090a17513c9216480d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_ORIGINATE_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1D )</td></tr>
+<tr class="separator:a19301977c4fc13090a17513c9216480d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5120835b9c584a64346b134cb8d0864"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5120835b9c584a64346b134cb8d0864"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_LOC_REM_HELD_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1E )</td></tr>
+<tr class="separator:af5120835b9c584a64346b134cb8d0864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe09bff2746c14bd31fb6dcc18ed940"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fe09bff2746c14bd31fb6dcc18ed940"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_JOIN_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x1F )</td></tr>
+<tr class="separator:a3fe09bff2746c14bd31fb6dcc18ed940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416c43aa86480e4c5e4e3fc03a2066e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a416c43aa86480e4c5e4e3fc03a2066e3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_CALL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x20 )</td></tr>
+<tr class="separator:a416c43aa86480e4c5e4e3fc03a2066e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1646737258649fc16d9d324483965637"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1646737258649fc16d9d324483965637"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_MEDIA_PLAYER_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a1646737258649fc16d9d324483965637"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3347,9 +3470,15 @@ Macros</h2></td></tr>
 <tr class="memitem:a43f479e6eb1b0892a1e79246dfedadef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43f479e6eb1b0892a1e79246dfedadef"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_CALL_TERMINATED_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x07 )</td></tr>
 <tr class="separator:a43f479e6eb1b0892a1e79246dfedadef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd1c64cfb3943735eb82a06c71af930"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3dd1c64cfb3943735eb82a06c71af930"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_BRADCAST_SINK_STREAM_RSP_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x08 )</td></tr>
-<tr class="separator:a3dd1c64cfb3943735eb82a06c71af930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e96216fbd89e0ee548c134164259135"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e96216fbd89e0ee548c134164259135"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_BROADCAST_SINK_STREAM_RSP_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x08 )</td></tr>
+<tr class="separator:a9e96216fbd89e0ee548c134164259135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9770e4a09b27ca990ff58d6d80c1c751"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9770e4a09b27ca990ff58d6d80c1c751"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_STATUS_UPDATE_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x09 )</td></tr>
+<tr class="separator:a9770e4a09b27ca990ff58d6d80c1c751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d78ac9f1e0e2899a3fd1a4e0b2509d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50d78ac9f1e0e2899a3fd1a4e0b2509d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_MUTE_AND_VOLUME_STATUS_EVT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x0a )</td></tr>
+<tr class="separator:a50d78ac9f1e0e2899a3fd1a4e0b2509d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8eba4dadc7cfa08b900cd9796d48065"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab8eba4dadc7cfa08b900cd9796d48065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3608,10 +3737,67 @@ Macros</h2></td></tr>
 <tr class="memitem:a1cefb777d841025ea92ed36039e63038"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cefb777d841025ea92ed36039e63038"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_STATUS_FAIL_CONN_TOUT</b>&#160;&#160;&#160;3   /* Link loss occured due to connection timeout */</td></tr>
 <tr class="separator:a1cefb777d841025ea92ed36039e63038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc0a632322365bf29dc690a558715d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfc0a632322365bf29dc690a558715d7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_IR</b>&#160;&#160;&#160;0xf0</td></tr>
+<tr class="separator:acfc0a632322365bf29dc690a558715d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9369f1ff7d9d09f748cd52e43ca08b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9369f1ff7d9d09f748cd52e43ca08b4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_AUDIO</b>&#160;&#160;&#160;0xf1</td></tr>
+<tr class="separator:ab9369f1ff7d9d09f748cd52e43ca08b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647bc203ec8b4e04c82aa511119d8d31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a647bc203ec8b4e04c82aa511119d8d31"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_MOTION</b>&#160;&#160;&#160;0xf2</td></tr>
+<tr class="separator:a647bc203ec8b4e04c82aa511119d8d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7aeedff4312db9741c8d0f847658a9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7aeedff4312db9741c8d0f847658a9f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_CONNECT</b>&#160;&#160;&#160;0xf3</td></tr>
+<tr class="separator:aa7aeedff4312db9741c8d0f847658a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01358022f7171c47b472417e9a0b03d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac01358022f7171c47b472417e9a0b03d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_HOME</b>&#160;&#160;&#160;0xf4</td></tr>
+<tr class="separator:ac01358022f7171c47b472417e9a0b03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab6aabbda447c38753f21a126d90c47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ab6aabbda447c38753f21a126d90c47"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_BACK</b>&#160;&#160;&#160;0xf5</td></tr>
+<tr class="separator:a4ab6aabbda447c38753f21a126d90c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7ba2fd84eda43345bfde51c7af5041"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc7ba2fd84eda43345bfde51c7af5041"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_MUTE</b>&#160;&#160;&#160;0xf6</td></tr>
+<tr class="separator:abc7ba2fd84eda43345bfde51c7af5041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172dba644312c0d4d93f9023c747466c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a172dba644312c0d4d93f9023c747466c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_KEY_POWER</b>&#160;&#160;&#160;0xf7</td></tr>
+<tr class="separator:a172dba644312c0d4d93f9023c747466c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a10e71f45af19710466f5d1defd58b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63a10e71f45af19710466f5d1defd58b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_SUPPORT</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="separator:a63a10e71f45af19710466f5d1defd58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20bbf72b53af7a66bbb492b71e954fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af20bbf72b53af7a66bbb492b71e954fe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_8K</b>&#160;&#160;&#160;0x2</td></tr>
+<tr class="separator:af20bbf72b53af7a66bbb492b71e954fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70264ac0861ec533a3c6d039bdd055ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70264ac0861ec533a3c6d039bdd055ed"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_16K</b>&#160;&#160;&#160;0x4</td></tr>
+<tr class="separator:a70264ac0861ec533a3c6d039bdd055ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93db35f92ea5f82a795124fc40306563"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93db35f92ea5f82a795124fc40306563"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_DIGITAL_MIC</b>&#160;&#160;&#160;0x8</td></tr>
+<tr class="separator:a93db35f92ea5f82a795124fc40306563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b24754fdf10dd140006bc184ef49f03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b24754fdf10dd140006bc184ef49f03"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_ADPCM</b>&#160;&#160;&#160;0x10</td></tr>
+<tr class="separator:a6b24754fdf10dd140006bc184ef49f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01eb8ea4a0137bb6fbbdf7432686462"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad01eb8ea4a0137bb6fbbdf7432686462"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_AUDIO_OPUS</b>&#160;&#160;&#160;0x20</td></tr>
+<tr class="separator:ad01eb8ea4a0137bb6fbbdf7432686462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76fdc7a93d9a5bdd54fc8b4e6e59d183"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76fdc7a93d9a5bdd54fc8b4e6e59d183"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_MOUSE_SUPPORT</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="separator:a76fdc7a93d9a5bdd54fc8b4e6e59d183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d652130e87e71430435f527e5bace"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab53d652130e87e71430435f527e5bace"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_MOUSE_8_BIT</b>&#160;&#160;&#160;0x2</td></tr>
+<tr class="separator:ab53d652130e87e71430435f527e5bace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08773c59a52a4f23df8333e78da5f0cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08773c59a52a4f23df8333e78da5f0cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_MOUSE_12_BIT</b>&#160;&#160;&#160;0x4</td></tr>
+<tr class="separator:a08773c59a52a4f23df8333e78da5f0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b0b7c961c9907a9d29cc02f4836e75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38b0b7c961c9907a9d29cc02f4836e75"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_MOUSE_16_BIT</b>&#160;&#160;&#160;0x8</td></tr>
+<tr class="separator:a38b0b7c961c9907a9d29cc02f4836e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a024f9766946e75a45f243d1403d07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5a024f9766946e75a45f243d1403d07"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_IR_SUPPORT</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="separator:ae5a024f9766946e75a45f243d1403d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
-<p>Copyright 2016-2022, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation. All rights reserved.</p>
+<p>Copyright 2016-2023, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation. All rights reserved.</p>
 <p>This software, including source code, documentation and related materials ("Software") is owned by Cypress Semiconductor Corporation or one of its affiliates ("Cypress") and is protected by and subject to worldwide patent protection (United States and foreign), United States copyright laws and international treaty provisions. Therefore, you may use this Software only as provided in the license agreement accompanying the software package from which you obtained this Software ("EULA"). If no EULA applies, Cypress hereby grants you a personal, non-exclusive, non-transferable license to copy, modify, and compile the Software source code solely for use in connection with Cypress's integrated circuit products. Any reproduction, modification, translation, compilation, or representation of this Software except as specified above is prohibited without the express written permission of Cypress.</p>
 <p>Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress reserves the right to make changes to the Software without notice. Cypress does not assume any liability arising out of the application or use of the Software or any product or circuit described in the Software. Cypress does not authorize its products for use in any products where a malfunction or failure of the Cypress product may reasonably be expected to result in significant property damage, injury or death ("High Risk Product"). By including Cypress's product in a High Risk Product, the manufacturer of such system or application assumes all risk of such use and in doing so agrees to indemnify Cypress against all liability. </p><pre class="fragment">  HCI Control Protocol Definitions
 

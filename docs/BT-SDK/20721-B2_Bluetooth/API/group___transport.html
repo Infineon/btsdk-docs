@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -264,6 +264,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#gac30365f6e30bc8f0c92e5cf3c6aa1bea">wiced_set_hci_uart_cts_rts_flow_control</a> (<a class="el" href="brcm__fw__types_8h.html#afaf1a5695cbcf260776fe64134890c27">BOOL32</a> on)</td></tr>
 <tr class="memdesc:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_hci_uart_cts_rts_flow_control.  <a href="#gac30365f6e30bc8f0c92e5cf3c6aa1bea">More...</a><br /></td></tr>
 <tr class="separator:gac30365f6e30bc8f0c92e5cf3c6aa1bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac33bf175a7ade6b5423c68b67aeaf158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___transport.html#gac33bf175a7ade6b5423c68b67aeaf158">wiced_uart_raw_mode_set_max_receive_timeout</a> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> timeout)</td></tr>
+<tr class="memdesc:gac33bf175a7ade6b5423c68b67aeaf158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_uart_raw_mode_set_max_receive_timeout.  <a href="#gac33bf175a7ade6b5423c68b67aeaf158">More...</a><br /></td></tr>
+<tr class="separator:gac33bf175a7ade6b5423c68b67aeaf158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines the transport utilities for configuring the transport, send data and receive data. </p>
@@ -834,6 +837,31 @@ Functions</h2></td></tr>
 
 <p>Function wiced_transport_uart_rx_resume. </p>
 <p>Resume / Enable the HCI UART Rx. </p>
+
+</div>
+</div>
+<a class="anchor" id="gac33bf175a7ade6b5423c68b67aeaf158"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_uart_raw_mode_set_max_receive_timeout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a>&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_uart_raw_mode_set_max_receive_timeout. </p>
+<p>Configure the timeout beforing calling Wiced transport receive data handler</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>: timeout value in ms </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

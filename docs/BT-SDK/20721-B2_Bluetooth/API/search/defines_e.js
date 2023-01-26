@@ -213,5 +213,6 @@ var searchData=
   ['wiced_5fhal_5fmic_5ffifo_5fstatus_5fok',['WICED_HAL_MIC_FIFO_STATUS_OK',['../wiced__hal__mic_8h.html#acd45b8a42658a130ec9e5557e8ce0460',1,'wiced_hal_mic.h']]],
   ['wiced_5fhci_5fchannel_5finstance_5fsize',['WICED_HCI_CHANNEL_INSTANCE_SIZE',['../wiced__hci_8h.html#ab0bc166ae35c3de3e432ed1c9ad06b8a',1,'wiced_hci.h']]],
   ['wiced_5fhci_5finvalid_5fchannel',['WICED_HCI_INVALID_CHANNEL',['../wiced__hci_8h.html#ab5a7e32c0ed55dbacdbc42101ad12f1f',1,'wiced_hci.h']]],
+  ['wiced_5fmem_5fpre_5finit_5fignore',['WICED_MEM_PRE_INIT_IGNORE',['../wiced__memory__pre__init_8h.html#a95ec9e268babfc75667e19cb556800d4',1,'wiced_memory_pre_init.h']]],
   ['wiced_5ftrans_5fheader_5fsize',['WICED_TRANS_HEADER_SIZE',['../wiced__hci_8h.html#af58835d0ff6b3f1cd576d1af2a0fa1bc',1,'wiced_hci.h']]]
 ];

@@ -1,5 +1,17 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__rc__event__t.html#add30f6fd57aaddfaf17568ea3169787a":[7,1,2,3,2,6,6],
+"structwiced__bt__rc__event__t.html#af242d6e3b6108ea75e1eb236e94c8240":[7,1,2,3,2,6,3],
+"structwiced__bt__sco__params__t.html":[7,1,2,4,0],
+"structwiced__bt__sco__params__t.html#a2e75ea30290a80030360f3fae2027e7c":[7,1,2,4,0,3],
+"structwiced__bt__sco__params__t.html#a9ed3b26c2d665b1bf7e2807175b92d26":[7,1,2,4,0,2],
+"structwiced__bt__sco__params__t.html#aa1c72375adb301530685491acb4b2fdd":[7,1,2,4,0,0],
+"structwiced__bt__sco__params__t.html#ae8b48a29504c067028bd34b9448083c4":[7,1,2,4,0,1],
+"structwiced__bt__spp__reg__t.html":[7,1,14,0],
+"structwiced__bt__spp__reg__t.html#a0b40df9091359d66f82157697ee79d05":[7,1,14,0,3],
+"structwiced__bt__spp__reg__t.html#a28841e27fe9efc3bda5393e595ead4e3":[7,1,14,0,2],
+"structwiced__bt__spp__reg__t.html#a3608799c7db9e4732e4f88eb5aaedfec":[7,1,14,0,1],
+"structwiced__bt__spp__reg__t.html#a7d5ed2c0a8254d9fab032e0cf369d079":[7,1,14,0,0],
 "structwiced__bt__spp__reg__t.html#a94f2abff10f23a3bfc9751facfe9651d":[7,1,14,0,6],
 "structwiced__bt__spp__reg__t.html#a9738b3c2f44532f4c2c9d62838594cb1":[7,1,14,0,4],
 "structwiced__bt__spp__reg__t.html#aefa2be089fd56821b92fe080d17c8f53":[7,1,14,0,5],

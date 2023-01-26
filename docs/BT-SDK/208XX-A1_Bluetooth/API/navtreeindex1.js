@@ -244,10 +244,10 @@ var NAVTREEINDEX1 =
 "group__group___peripheral_spi_driver__enums.html#gaae2dbe3730eb820828195d4351dce9a5":[7,2,13,0,6],
 "group__group___peripheral_spi_driver__enums.html#gac6144d3ea3ef78e7923c351d3b62170e":[7,2,13,0,4],
 "group__group___peripheral_spi_driver__enums.html#gae506139af46f1328f631ddacd54af96d":[7,2,13,0,5],
-"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2da132a5bd29dc7e15c78b902401b7d20d8":[7,2,13,0,2,1],
-"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2da1495209101b95e8768c996a26cb64aea":[7,2,13,0,2,2],
-"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2da5b57596881e19937c0e74bb3e5664d8c":[7,2,13,0,2,0],
+"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2da84379dc90398ca075038c8d5ee465f6a":[7,2,13,0,2,0],
+"group__group___peripheral_spi_driver__enums.html#gga0411cd49bb5b71852cecd93bcbf0ca2dabc98c1546fe12d3fceb1f86cf670faa9":[7,2,13,0,2,1],
 "group__group___peripheral_spi_driver__enums.html#gga23e4236e76e30bf62f85f9e7026d6be4a5a6abe145caf9794d5a70e5472ee988f":[7,2,13,0,3,1],
 "group__group___peripheral_spi_driver__enums.html#gga23e4236e76e30bf62f85f9e7026d6be4a8912f763c0e7854e08dfbe61b7a57cc6":[7,2,13,0,3,0],
-"group__group___peripheral_spi_driver__enums.html#gga257d08e39e34f30499952a3f19318f3da47427f7e4262df83c6fa0e03c8e4b3cd":[7,2,13,0,7,0]
+"group__group___peripheral_spi_driver__enums.html#gga257d08e39e34f30499952a3f19318f3da47427f7e4262df83c6fa0e03c8e4b3cd":[7,2,13,0,7,0],
+"group__group___peripheral_spi_driver__enums.html#gga257d08e39e34f30499952a3f19318f3dab0bbee1f2cdab6872b65b235afa6acac":[7,2,13,0,7,1]
 };
