@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('wiced__hal__i2c_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -106,6 +107,12 @@ $(document).ready(function(){initNavTree('wiced__hal__i2c_8h.html','');});
 <p>List of parameters and defined functions needed to access the Inter-Integrated Circuit (I2C, IIC) driver.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga759ab95ef2358d445c3ea6e64b086958"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga759ab95ef2358d445c3ea6e64b086958"></a>
+typedef void&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_SLAVE_CALLBACK_HANDLER</b> (uint32_t evtFlag, uint8_t *rx_PktPointer, uint16_t rx_PktLength)</td></tr>
+<tr class="separator:ga759ab95ef2358d445c3ea6e64b086958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#ggadf764cbdea00d65edcd07bb9953ad2b7a2fa669fc9820cf8ace8eadae500de28b">I2CM_SPEED_100KHZ</a> = 240, 
@@ -120,6 +127,11 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga99fb83031ce9923c84392b4e92f956b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transaction Status Return Values.  <a href="group___i2_c_driver.html#ga99fb83031ce9923c84392b4e92f956b5">More...</a><br /></td></tr>
 <tr class="separator:ga99fb83031ce9923c84392b4e92f956b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc6126af1d45847bc59afa0aa3216b04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabc6126af1d45847bc59afa0aa3216b04"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>I2C_TRAN_EVENT_MASK_RX_DONE</b> = 1, 
+<b>I2C_TRAN_EVENT_MASK_TX_DONE</b> = 2, 
+<b>I2C_TRAN_EVENT_MASK_RX_STOP</b> = 4
+ }</td></tr>
+<tr class="separator:gabc6126af1d45847bc59afa0aa3216b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -144,6 +156,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8ba8edea12d81f1a55df7a8a17859d39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#ga8ba8edea12d81f1a55df7a8a17859d39">wiced_hal_i2c_combined_read</a> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *rx_data, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> rx_data_len, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *tx_data, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> tx_data_len, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> slave)</td></tr>
 <tr class="memdesc:ga8ba8edea12d81f1a55df7a8a17859d39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes two transactions back-to-back with a repeated start condition between the first and the second.  <a href="group___i2_c_driver.html#ga8ba8edea12d81f1a55df7a8a17859d39">More...</a><br /></td></tr>
 <tr class="separator:ga8ba8edea12d81f1a55df7a8a17859d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0251291d2961ab8e3ea630892e50c9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0251291d2961ab8e3ea630892e50c9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_i2c_slave_set_device_address</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> address)</td></tr>
+<tr class="separator:gaa0251291d2961ab8e3ea630892e50c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1419e0327169b8a9b04c218f64daae35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1419e0327169b8a9b04c218f64daae35"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_i2c_slave_select_pads</b> (<a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> scl_pin, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> sda_pin)</td></tr>
+<tr class="separator:ga1419e0327169b8a9b04c218f64daae35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6d30be893ba2718c39bfd12e92ae6d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf6d30be893ba2718c39bfd12e92ae6d1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_i2c_slave_init</b> (void)</td></tr>
+<tr class="separator:gaf6d30be893ba2718c39bfd12e92ae6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6c513f0dfdaf2b5522417e76e20cb10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae6c513f0dfdaf2b5522417e76e20cb10"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_i2c_slave_register_cb</b> (I2C_SLAVE_CALLBACK_HANDLER *cb)</td></tr>
+<tr class="separator:gae6c513f0dfdaf2b5522417e76e20cb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga643f001a02913b2cb06a2d3fae4e6982"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga643f001a02913b2cb06a2d3fae4e6982"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_i2c_slave_synchronous_write</b> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> *buffer, <a class="el" href="brcm__fw__types_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> length)</td></tr>
+<tr class="separator:ga643f001a02913b2cb06a2d3fae4e6982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of parameters and defined functions needed to access the Inter-Integrated Circuit (I2C, IIC) driver. </p>

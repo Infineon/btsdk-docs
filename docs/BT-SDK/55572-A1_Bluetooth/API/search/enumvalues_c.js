@@ -386,6 +386,7 @@ var searchData=
   ['wiced_5froute_5fdebug_5fto_5fdbg_5fuart',['WICED_ROUTE_DEBUG_TO_DBG_UART',['../wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1',1,'wiced_bt_printf.h']]],
   ['wiced_5froute_5fdebug_5fto_5fhci_5fuart',['WICED_ROUTE_DEBUG_TO_HCI_UART',['../wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff',1,'wiced_bt_printf.h']]],
   ['wiced_5froute_5fdebug_5fto_5fpuart',['WICED_ROUTE_DEBUG_TO_PUART',['../wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9',1,'wiced_bt_printf.h']]],
+  ['wiced_5froute_5fdebug_5fto_5fscb_5fuart',['WICED_ROUTE_DEBUG_TO_SCB_UART',['../wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2a25d8d2cca42a4d07165c31a582235c73',1,'wiced_bt_printf.h']]],
   ['wiced_5froute_5fdebug_5fto_5fwiced_5fuart',['WICED_ROUTE_DEBUG_TO_WICED_UART',['../wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2afd172e33b82aa7d9aa0092776d906eba',1,'wiced_bt_printf.h']]],
   ['wiced_5frouting_5ferror',['WICED_ROUTING_ERROR',['../group___result.html#ggacfc32ead8a827d53416f01b19eb58310a567d9de6cc02d3d9effc4b6576f5b258',1,'wiced_result.h']]],
   ['wiced_5fsemaphore_5ferror',['WICED_SEMAPHORE_ERROR',['../group___result.html#ggacfc32ead8a827d53416f01b19eb58310a5f7bd8ce5d660212f1c3017c8fa76fe7',1,'wiced_result.h']]],

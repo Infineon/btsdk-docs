@@ -138,6 +138,7 @@ var searchData=
   ['btm_5fble_5fevt_5fnon_5fconnectable_5fadvertisement',['BTM_BLE_EVT_NON_CONNECTABLE_ADVERTISEMENT',['../wiced__bt__ble_8h.html#a8b68ab04e941d86c922eabbcd4be2322a91240584862e30f683773c8c7b290018',1,'wiced_bt_ble.h']]],
   ['btm_5fble_5fevt_5fscan_5frsp',['BTM_BLE_EVT_SCAN_RSP',['../wiced__bt__ble_8h.html#a8b68ab04e941d86c922eabbcd4be2322a78c2c5239edc6b00ebe03fb26a6a142b',1,'wiced_bt_ble.h']]],
   ['btm_5fble_5fevt_5fscannable_5fadvertisement',['BTM_BLE_EVT_SCANNABLE_ADVERTISEMENT',['../wiced__bt__ble_8h.html#a8b68ab04e941d86c922eabbcd4be2322ae9e302d4b48c6f5d2130b33d24d7702b',1,'wiced_bt_ble.h']]],
+  ['btm_5fble_5fmulti_5fadv_5fset_5frandom_5faddr_5fevt',['BTM_BLE_MULTI_ADV_SET_RANDOM_ADDR_EVT',['../group__group__ble__enums.html#ga6e2f22a1d4a363f93cd355d76ba8ecd1',1,'wiced_bt_ble_multi_adv.h']]],
   ['btm_5fble_5fphy_5fupdate_5fevt',['BTM_BLE_PHY_UPDATE_EVT',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65ab6f87a638df97b57c0a5a2a77a0e1b97',1,'wiced_bt_dev.h']]],
   ['btm_5fble_5fscan_5fmode_5factive',['BTM_BLE_SCAN_MODE_ACTIVE',['../wiced__bt__ble_8h.html#a363c245dbaa273d5d2a3df18f7f24c64a11e13ff43acd03c0ef9d869e17b6bf86',1,'wiced_bt_ble.h']]],
   ['btm_5fble_5fscan_5fmode_5fnone',['BTM_BLE_SCAN_MODE_NONE',['../wiced__bt__ble_8h.html#a363c245dbaa273d5d2a3df18f7f24c64a985d759e30d319e92097e77dacc7d4fb',1,'wiced_bt_ble.h']]],

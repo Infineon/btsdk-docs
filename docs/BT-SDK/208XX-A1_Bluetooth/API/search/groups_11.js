@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['server',['Server',['../group__gatt__server__api__functions.html',1,'']]],
   ['scanning',['Scanning',['../group__group__ble__functions__scan.html',1,'']]],
   ['security',['Security',['../group__group__ble__functions__sec.html',1,'']]],
   ['security',['Security',['../group__group__dev__functions__sec.html',1,'']]],

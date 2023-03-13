@@ -77,7 +77,7 @@ var NAVTREEINDEX2 =
 "group__hidd__functions.html#gafdce39869e908fb16d17d5f0bcae2bc2":[7,1,10,0,4],
 "group__interfaces.html":[7,1,2],
 "group__ir_tx.html":[7,2,10],
-"group__ir_tx.html#ga283fa0cdc4164c46e22e03fead9a17a4":[7,2,10,0],
+"group__ir_tx.html#ga193eeb376a1f4b55ce8c8900bc63a171":[7,2,10,0],
 "group__keyscan.html":[7,2,11],
 "group__keyscan.html#ga2d049bb622878f77a709a3351012b332":[7,2,11,2],
 "group__keyscan.html#ga32c36da481a346183e95ae6536fd40dd":[7,2,11,5],

@@ -16,6 +16,7 @@ var searchData=
   ['target_5fsaturation',['target_saturation',['../structwiced__bt__mesh__light__hsl__saturation__status__data__t.html#a3d7e351ac623a0fa5bee7455d7ae85f4',1,'wiced_bt_mesh_light_hsl_saturation_status_data_t']]],
   ['target_5fscene',['target_scene',['../structwiced__bt__mesh__scene__status__data__t.html#a47016015204320ce2d093661c2d8391b',1,'wiced_bt_mesh_scene_status_data_t']]],
   ['target_5ftemperature',['target_temperature',['../structwiced__bt__mesh__light__ctl__temperature__set__t.html#a8d635c050452c20c44ba058443ad5543',1,'wiced_bt_mesh_light_ctl_temperature_set_t']]],
+  ['tbtm_5fble_5fmulti_5fadv_5fcback',['tBTM_BLE_MULTI_ADV_CBACK',['../group__group__ble__enums.html#ga3c2a585441de758eefba56c8750f4d67',1,'wiced_bt_ble_multi_adv.h']]],
   ['temperature',['temperature',['../structwiced__bt__mesh__light__ctl__data__t.html#a6bd95140398cc8f4b44157b17d6ba31e',1,'wiced_bt_mesh_light_ctl_data_t']]],
   ['test_5fid',['test_id',['../wiced__bt__mesh__core_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_core.h'],['../wiced__bt__mesh__provision_8h.html#a8510baea193b21c69ed1838a97173644',1,'test_id():&#160;wiced_bt_mesh_provision.h']]],
   ['tgpio_5fpin_5foutput_5fconfig',['tGPIO_PIN_OUTPUT_CONFIG',['../group___g_p_i_o_driver.html#ga438c820f04ac7149e6914a08b527c111',1,'wiced_hal_gpio.h']]],

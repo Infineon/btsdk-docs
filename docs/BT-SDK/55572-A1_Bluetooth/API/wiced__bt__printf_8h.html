@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -127,7 +127,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff">WICED_ROUTE_DEBUG_TO_HCI_UART</a>, 
 <a class="el" href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1">WICED_ROUTE_DEBUG_TO_DBG_UART</a>, 
 <br />
-&#160;&#160;<a class="el" href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9">WICED_ROUTE_DEBUG_TO_PUART</a>
+&#160;&#160;<a class="el" href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9">WICED_ROUTE_DEBUG_TO_PUART</a>, 
+<a class="el" href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2a25d8d2cca42a4d07165c31a582235c73">WICED_ROUTE_DEBUG_TO_SCB_UART</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a8aabf22a7db88d44d213b70aa0363fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug UARTs.  <a href="wiced__bt__printf_8h.html#a8aabf22a7db88d44d213b70aa0363fa2">More...</a><br /></td></tr>
@@ -194,6 +195,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>BTU_sprintf</b> (char 
 <tr><td class="fieldname"><a class="anchor" id="a8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9"></a>WICED_ROUTE_DEBUG_TO_PUART&#160;</td><td class="fielddoc">
 <p>send debug strings as plain text to the peripheral uart (PUART) </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8aabf22a7db88d44d213b70aa0363fa2a25d8d2cca42a4d07165c31a582235c73"></a>WICED_ROUTE_DEBUG_TO_SCB_UART&#160;</td><td class="fielddoc">
+<p>send debug strings as plain text to the peripheral SCB uart </p>
+</td></tr>
 </table>
 
 </div>
@@ -215,7 +219,29 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>BTU_sprintf</b> (char 
 
 <p>Function wiced_set_debug_uart. </p>
 <p>To specify the UART to be used for the debug traces</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>When configure the BT TRACE route to SCB UART, please following the steps below: </p><pre class="fragment"> 1. Set debug trace route to SCB UART:
+    wiced_set_debug_uart(WICED_ROUTE_DEBUG_TO_SCB_UART);
+
+ 2. Select GPIO for SCB UART RX and TX:
+    SCB0 only use WICED_GPIO_15 and WICED_GPIO_14
+    wiced_hal_gpio_select_function(WICED_GPIO_14, WICED_ARM_SCB0_UART_RXD);
+    wiced_hal_gpio_select_function(WICED_GPIO_15, WICED_ARM_SCB0_UART_TXD);
+
+    SCB1 only use WICED_GPIO_19 and WICED_GPIO_18
+    wiced_hal_gpio_select_function(WICED_GPIO_18, WICED_ARM_SCB1_UART_RXD);
+    wiced_hal_gpio_select_function(WICED_GPIO_19, WICED_ARM_SCB1_UART_TXD);
+
+ 3. Set ARM GPIO TX as output:
+    SCB0:
+    wiced_hal_gpio_configure_pin(WICED_GPIO_15, GPIO_OUTPUT_ENABLE, 0);
+    SCB1:
+    wiced_hal_gpio_configure_pin(WICED_GPIO_19, GPIO_OUTPUT_ENABLE, 0);
+
+ 4. Initialize and configure the SCB uart:
+    wiced_hal_puart_init();
+    wiced_hal_puart_flow_off();
+    wiced_hal_puart_enable_tx();
+</pre><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">uart</td><td>: UART to be used</td></tr>
   </table>

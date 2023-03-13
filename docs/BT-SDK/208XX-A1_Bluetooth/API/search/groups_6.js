@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gatt_20database',['GATT Database',['../group__gattdb__api__functions.html',1,'']]],
   ['gki',['GKI',['../group___g_k_i.html',1,'']]],
   ['gpio',['GPIO',['../group___g_p_i_o_driver.html',1,'']]],
   ['group_5faclk_5fenum',['Group_ACLK_enum',['../group__group___a_c_l_k__enum.html',1,'']]],

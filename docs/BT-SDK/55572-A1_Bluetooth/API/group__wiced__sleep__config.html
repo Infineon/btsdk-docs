@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -134,9 +134,6 @@ Macros</h2></td></tr>
 <tr class="memitem:ga1277ba41b4bb531b4fa37946cce534a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga1277ba41b4bb531b4fa37946cce534a0">WICED_SLEEP_WAKE_SOURCE_MASK</a></td></tr>
 <tr class="memdesc:ga1277ba41b4bb531b4fa37946cce534a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">All wake sources.  <a href="#ga1277ba41b4bb531b4fa37946cce534a0">More...</a><br /></td></tr>
 <tr class="separator:ga1277ba41b4bb531b4fa37946cce534a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f74f56368a900b67c8813adb1c7f6b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2f74f56368a900b67c8813adb1c7f6b2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_sleep_configure</b>(p_sleep_config)&#160;&#160;&#160;((void)p_sleep_config, <a class="el" href="group__gentypes.html#ga98455f16ecc9e3b1e94af3d3437416f5">WICED_FALSE</a>)</td></tr>
-<tr class="separator:ga2f74f56368a900b67c8813adb1c7f6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -172,9 +169,24 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga5711a6c22c9c52c9ea07239e533e1a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep permission Note: SHUTDOWN mode sleep puts the chip in the lowest power saving sleep mode.  <a href="group__wiced__sleep__config.html#ga5711a6c22c9c52c9ea07239e533e1a2c">More...</a><br /></td></tr>
 <tr class="separator:ga5711a6c22c9c52c9ea07239e533e1a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96dd336fdae50a3370ce7784ddb708c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a> { <br />
+&#160;&#160;<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a8ac159c83304abfb493de07571c12c41">PMU_SLEEP_NOT_ALLOWED</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a26af97911503120dda068a9d4c9015cb">PMU_SLEEP_WITH_XTAL_ON</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7aa6e521bc50f6330295be1851df14e63d">PMU_SLEEP_WITH_XTAL_OFF</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a394ebd6b6c1ea891ea8b2dc1de2c594f">PMU_SLEEP_LITE_PDS</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a721e15e9d01bc1ab1499c4af13e63bd6">PMU_SLEEP_PDS</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a6ac11b3d8f59d9996333c77e370426c2">PMU_SLEEP_EPDS</a>, 
+<b>PMU_SLEEP_MAX</b> =PMU_SLEEP_EPDS
+<br />
+ }</td></tr>
+<tr class="separator:ga96dd336fdae50a3370ce7784ddb708c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab966e40697a96c196f67cdea675f967b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#gab966e40697a96c196f67cdea675f967b">wiced_sleep_allow_sleep</a> (<a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a> sleep_mode)</td></tr>
+<tr class="memdesc:gab966e40697a96c196f67cdea675f967b"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to configure PMU sleep mode parameters.  <a href="#gab966e40697a96c196f67cdea675f967b">More...</a><br /></td></tr>
+<tr class="separator:gab966e40697a96c196f67cdea675f967b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae16b5586250539a0026a9fef4d71a517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517">wiced_sleep_configure</a> (<a class="el" href="structwiced__sleep__config__t.html">wiced_sleep_config_t</a> *p_sleep_config)</td></tr>
 <tr class="memdesc:gae16b5586250539a0026a9fef4d71a517"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to configure sleep mode parameters.  <a href="#gae16b5586250539a0026a9fef4d71a517">More...</a><br /></td></tr>
 <tr class="separator:gae16b5586250539a0026a9fef4d71a517"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,6 +255,38 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga96dd336fdae50a3370ce7784ddb708c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7a8ac159c83304abfb493de07571c12c41"></a>PMU_SLEEP_NOT_ALLOWED&#160;</td><td class="fielddoc">
+<p>sleep is not allowed </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7a26af97911503120dda068a9d4c9015cb"></a>PMU_SLEEP_WITH_XTAL_ON&#160;</td><td class="fielddoc">
+<p>sleep is not disabling any part of HW, just doing processor sleep </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7aa6e521bc50f6330295be1851df14e63d"></a>PMU_SLEEP_WITH_XTAL_OFF&#160;</td><td class="fielddoc">
+<p>same as PMU_SLEEP_WITH_XTAL but XTAL is disabled </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7a394ebd6b6c1ea891ea8b2dc1de2c594f"></a>PMU_SLEEP_LITE_PDS&#160;</td><td class="fielddoc">
+<p>PDS sleep is disabling part of HW during sleep but isolation is not enabled. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7a721e15e9d01bc1ab1499c4af13e63bd6"></a>PMU_SLEEP_PDS&#160;</td><td class="fielddoc">
+<p>PDS sleep is disabling part of HW during sleep. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga96dd336fdae50a3370ce7784ddb708c7a6ac11b3d8f59d9996333c77e370426c2"></a>PMU_SLEEP_EPDS&#160;</td><td class="fielddoc">
+<p>EPDS sleep is disabling most of HW during sleep, RAM is powered ON, after sleep system reboots. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="ga46069887a0627072cdde146f6ee18e38"></a>
 <div class="memitem">
 <div class="memproto">
@@ -359,6 +403,31 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gab966e40697a96c196f67cdea675f967b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_sleep_allow_sleep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a>&#160;</td>
+          <td class="paramname"><em>sleep_mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>API to configure PMU sleep mode parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sleep_mode</td><td>see </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gae16b5586250539a0026a9fef4d71a517"></a>
 <div class="memitem">
 <div class="memproto">

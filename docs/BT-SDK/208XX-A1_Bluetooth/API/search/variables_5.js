@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['e_5fhandle',['e_handle',['../structwiced__bt__gatt__discovery__param__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_discovery_param_t::e_handle()'],['../structwiced__bt__gatt__read__by__type__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_read_by_type_t::e_handle()'],['../structwiced__bt__gatt__group__value__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_group_value_t::e_handle()'],['../structwiced__bt__gatt__included__service__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_included_service_t::e_handle()']]],
   ['ediv',['ediv',['../wiced__bt__dev_8h.html#a8b4886f4bc0d3f0051ed5ca662f3a607',1,'wiced_bt_dev.h']]],
   ['eir_5fcomplete_5flist',['eir_complete_list',['../structwiced__bt__dev__inquiry__scan__result__t.html#a3a591ca4c331eab0d129dbc19cf6d5b8',1,'wiced_bt_dev_inquiry_scan_result_t']]],
   ['eir_5fuuid',['eir_uuid',['../structwiced__bt__dev__inquiry__scan__result__t.html#a345ad3f931137bebef15d0e59daf19f8',1,'wiced_bt_dev_inquiry_scan_result_t']]],
@@ -23,6 +24,7 @@ var searchData=
   ['evtq_5fmaxnumelements',['evtq_maxNumElements',['../structwiced__hidd__app__event__queue__t.html#afd7ac3395f6b1e7ec823bc2703e129f5',1,'wiced_hidd_app_event_queue_t']]],
   ['evtq_5freadindex',['evtq_readIndex',['../structwiced__hidd__app__event__queue__t.html#a10ff0d5ed1d351b72c3f50f165dbb890',1,'wiced_hidd_app_event_queue_t']]],
   ['evtq_5fwriteindex',['evtq_writeIndex',['../structwiced__hidd__app__event__queue__t.html#af47103cf534b74f5cdadfddf5fd40a5f',1,'wiced_hidd_app_event_queue_t']]],
+  ['exec_5fwrite',['exec_write',['../unionwiced__bt__gatt__request__data__t.html#a51924c6528891bbd652edbc59f43fc99',1,'wiced_bt_gatt_request_data_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['extensions',['extensions',['../wiced__bt__mesh__core_8h.html#a1080ddea49768f4a77ad5123441f3599',1,'wiced_bt_mesh_core.h']]],
   ['externalaccessoryprotocolname',['ExternalAccessoryProtocolName',['../group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721',1,'wiced_bt_iap2.h']]]

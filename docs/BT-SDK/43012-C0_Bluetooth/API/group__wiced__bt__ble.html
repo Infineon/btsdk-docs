@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -131,6 +131,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gae25489f3d9efb48610193a691338158e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#gae25489f3d9efb48610193a691338158e">wiced_set_multi_advertisement_data</a> (uint8_t *p_data, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t adv_instance)</td></tr>
 <tr class="memdesc:gae25489f3d9efb48610193a691338158e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refer to <a class="el" href="group__btm__ble__api__functions.html#gab51079605334c28e06d02f44ffd5ec6b">wiced_bt_ble_set_raw_advertisement_data</a>.  <a href="#gae25489f3d9efb48610193a691338158e">More...</a><br /></td></tr>
 <tr class="separator:gae25489f3d9efb48610193a691338158e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11f35db695f9b4e39a424b42538b4e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#ga11f35db695f9b4e39a424b42538b4e8f">wiced_set_multi_advertisement_app_cback</a> (<a class="el" href="group__group__ble__enums.html#ga3c2a585441de758eefba56c8750f4d67">tBTM_BLE_MULTI_ADV_CBACK</a> *p_app_cback)</td></tr>
+<tr class="memdesc:ga11f35db695f9b4e39a424b42538b4e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a application callback with the wiced_multi_adv_utils_lib library.  <a href="#ga11f35db695f9b4e39a424b42538b4e8f">More...</a><br /></td></tr>
+<tr class="separator:ga11f35db695f9b4e39a424b42538b4e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#gae9716f7d7a87aa2449cd6a966fd23b03">wiced_set_multi_advertisement_rpa_timeout</a> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> inst_id, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> timeout)</td></tr>
+<tr class="memdesc:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rpa refresh timeout for the given adv instance id used in the wiced_multi_adv_utils_lib library.  <a href="#gae9716f7d7a87aa2449cd6a966fd23b03">More...</a><br /></td></tr>
+<tr class="separator:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9d96ea3d2602245076d19753a454ec1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#ga9d96ea3d2602245076d19753a454ec1e">wiced_multi_adv_init</a> (void)</td></tr>
+<tr class="memdesc:ga9d96ea3d2602245076d19753a454ec1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the multi adv control block used in the wiced_multi_adv_utils_lib library.  <a href="#ga9d96ea3d2602245076d19753a454ec1e">More...</a><br /></td></tr>
+<tr class="separator:ga9d96ea3d2602245076d19753a454ec1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0cad1ce158c475ddc6639a4647c021e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0cad1ce158c475ddc6639a4647c021e0"></a>
 <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_set_multi_advertisement_scan_response_data</b> (uint8_t *p_data, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t adv_instance)</td></tr>
 <tr class="separator:ga0cad1ce158c475ddc6639a4647c021e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +150,56 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>LE (Bluetooth Low Energy) Functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga9d96ea3d2602245076d19753a454ec1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_multi_adv_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes the multi adv control block used in the wiced_multi_adv_utils_lib library. </p>
+<p>Must be called before any other multi_advertisement apis are called if using the wiced_multi_adv_utils_lib library.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"></td><td>return </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga11f35db695f9b4e39a424b42538b4e8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_set_multi_advertisement_app_cback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group__ble__enums.html#ga3c2a585441de758eefba56c8750f4d67">tBTM_BLE_MULTI_ADV_CBACK</a> *&#160;</td>
+          <td class="paramname"><em>p_app_cback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers a application callback with the wiced_multi_adv_utils_lib library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_app_cback</td><td>application callback</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gae25489f3d9efb48610193a691338158e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -270,30 +329,20 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 </div><div class="memdoc">
 
 <p>Sets the advertising parameters of a specific advertising instance. </p>
-<p>The parameters are populated into a struct wiced_bt_ble_multi_adv_params_t. The parameters must be set according to the constraints placed by the BT spec, otherwise the parameters will be rejected with error code BTM_ILLEGAL_VALUE.</p>
-<div class="fragment"><div class="line">{</div>
-<div class="line">    wiced_bt_ble_multi_adv_params_t params =</div>
-<div class="line">    {</div>
-<div class="line">        .adv_int_min = <a class="code" href="wiced__bt__cfg_8h.html#a2c2a2bfcf79b87620a89283b5b683b5c">WICED_BT_CFG_DEFAULT_LOW_DUTY_ADV_MIN_INTERVAL</a>,</div>
-<div class="line">        .adv_int_max = <a class="code" href="wiced__bt__cfg_8h.html#a2c2a2bfcf79b87620a89283b5b683b5c">WICED_BT_CFG_DEFAULT_LOW_DUTY_ADV_MIN_INTERVAL</a>,</div>
-<div class="line">        .adv_type = MULTI_ADVERT_NONCONNECTABLE_EVENT,</div>
-<div class="line">        .channel_map = BTM_BLE_DEFAULT_ADVERT_CHNL_MAP,</div>
-<div class="line">        .adv_filter_policy = MULTI_ADVERT_FILTER_POLICY_FILTER_ACCEPT_LIST_NOT_USED,</div>
-<div class="line">        .adv_tx_power = MULTI_ADV_TX_POWER_MAX,</div>
-<div class="line">        .peer_addr_type = <a class="code" href="wiced__bt__types_8h.html#a409fbb547f9650620650b5301df0e2ff">BLE_ADDR_PUBLIC</a>, <span class="comment">//valid only for directed type</span></div>
-<div class="line">        .peer_bd_addr = NULL, <span class="comment">//valid only for directed type</span></div>
-<div class="line">        .own_addr_type = <a class="code" href="wiced__bt__types_8h.html#a9e3dbc812e83ed3d950980bf5f09d332">BLE_ADDR_RANDOM</a></div>
-<div class="line">    };</div>
-<div class="line"></div>
-<div class="line">    uint8_t local_bda[<a class="code" href="wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe">BD_ADDR_LEN</a>] = { 0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF };</div>
-<div class="line">    memcpy(params.own_bd_addr, local_bda, <a class="code" href="wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe">BD_ADDR_LEN</a>);</div>
-<div class="line"></div>
-<div class="line">    <a class="code" href="group__wiced__bt__ble.html#ga2ac69bd579866c78c7bf8045cb7a7cd5">wiced_set_multi_advertisement_params</a>(adv_instance, &amp;params);</div>
-<div class="line">}</div>
-</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+<p>The The parameters must be set according to the constraints placed by the BT spec, otherwise the parameters will be rejected with error code BTM_ILLEGAL_VALUE.</p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adv_instance</td><td>1 to MULTI_ADV_MAX_NUM_INSTANCES </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_param</td><td>wiced_bt_ble_multi_adv_params_t</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_interval_min</td><td>min advertising interval requested </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_interval_max</td><td>max advertising interval requested </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_type</td><td>advertising type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">own_address_type</td><td>local bda address type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ownAddr</td><td>local bda to be used in the adv data for the given ad instance. If address type is random, the MSB of the ownAddr will be used to determine if a Static Random address or RPA is being used </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peerAddrType</td><td>peer bda address type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">peerAddr</td><td>peer bda </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_channel_map</td><td>advertising channel map </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">advertising_filter_policy</td><td>advertising filter policy </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">adv_instance</td><td>adv instance id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">transmit_power</td><td>transmit power</td></tr>
   </table>
   </dd>
 </dl>
@@ -304,6 +353,42 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 <li>BTM_NO_RESOURCES </li>
 </ul>
 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gae9716f7d7a87aa2449cd6a966fd23b03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_set_multi_advertisement_rpa_timeout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td>
+          <td class="paramname"><em>inst_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a>&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the rpa refresh timeout for the given adv instance id used in the wiced_multi_adv_utils_lib library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">inst_id</td><td>multi_adv instance id </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">timeout</td><td>timeout in seconds</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -332,7 +417,7 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 </div><div class="memdoc">
 
 <p>Enable or disable advertisements of a specific instance. </p>
-<p>Prior to calling this function, the instance should be instantiated and populated using the APIs below. At a minimum, <a class="el" href="group__wiced__bt__ble.html#ga2ac69bd579866c78c7bf8045cb7a7cd5">wiced_set_multi_advertisement_params</a> and <a class="el" href="group__wiced__bt__ble.html#gae25489f3d9efb48610193a691338158e">wiced_set_multi_advertisement_data</a> should be used prior.</p>
+<p>Prior to calling this function, the instance should be instantiated and populated using the APIs below. At a minimum, <a class="el" href="group__wiced__bt__ble.html#ga2ac69bd579866c78c7bf8045cb7a7cd5">wiced_set_multi_advertisement_params</a> and <a class="el" href="group__wiced__bt__ble.html#gae25489f3d9efb48610193a691338158e">wiced_set_multi_advertisement_data</a> should be used prior. If RPA is used, wiced_start_multi_advertisements should be called after the first BTM_BLE_MULTI_ADV_SET_RANDOM_ADDR event to ensure that the generated RPA is used in over the air advertisement packets.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">advertising_enable</td><td>MULTI_ADVERT_START or MULTI_ADVERT_STOP </td></tr>

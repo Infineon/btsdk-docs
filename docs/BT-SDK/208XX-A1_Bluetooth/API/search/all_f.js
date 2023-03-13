@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['offset',['offset',['../structwiced__bt__battery__client__data__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_battery_client_data_t::offset()'],['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t::offset()']]],
+  ['offset',['offset',['../structwiced__bt__gatt__value__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_value_t::offset()'],['../structwiced__bt__gatt__read__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_read_t::offset()'],['../structwiced__bt__gatt__write__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_write_t::offset()'],['../structwiced__bt__gatt__read__partial__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_read_partial_t::offset()'],['../structwiced__bt__gatt__data__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_gatt_data_t::offset()'],['../structwiced__bt__battery__client__data__t.html#ac681806181c80437cfab37335f62ff39',1,'wiced_bt_battery_client_data_t::offset()'],['../structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23',1,'wiced_bt_ota_fw_upgrad_event_data_t::offset()']]],
   ['on_5fpower_5fup',['on_power_up',['../structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6',1,'wiced_bt_mesh_power_onoff_data_t']]],
   ['onoff',['onoff',['../structwiced__bt__mesh__onoff__set__data__t.html#ab846f82707d4c23e43f5208dab504c77',1,'wiced_bt_mesh_onoff_set_data_t']]],
   ['onpowerup_5fstate',['onpowerup_state',['../wiced__bt__mesh__cfg_8h.html#ac86843b7a21bf25e410cd048df734105',1,'wiced_bt_mesh_cfg.h']]],
@@ -9,6 +9,7 @@ var searchData=
   ['oob_5ftype',['oob_type',['../structwiced__bt__smp__sc__remote__oob__req__t.html#ad0f9d155087394b97a7f30085901cd9a',1,'wiced_bt_smp_sc_remote_oob_req_t']]],
   ['oob_5fvalue',['oob_value',['../structmesh__core__provision__cb__t.html#af1e4a6d7cf31b902901677340eb02d4a',1,'mesh_core_provision_cb_t']]],
   ['oob_5fvalue_5flen',['oob_value_len',['../structmesh__core__provision__cb__t.html#a5c1e835f5c62b35a53285769d7319d0c',1,'mesh_core_provision_cb_t']]],
+  ['op',['op',['../structwiced__bt__gatt__operation__complete__t.html#a9c44e49fc7268ce43de3d4dae8edf0ba',1,'wiced_bt_gatt_operation_complete_t']]],
   ['op_5fid',['op_id',['../structwiced__bt__avrc__msg__pass__t.html#a3dbaa8bd1bf8b0fc6ef376445ca499f0',1,'wiced_bt_avrc_msg_pass_t']]],
   ['opad',['opad',['../structsha2__context.html#ab294281845c21576c714c3dd984161e7',1,'sha2_context']]],
   ['opcode',['opcode',['../structwiced__bt__avrc__hdr__t.html#a5c1b56e6bccc2a95dbddf1a08e56e87d',1,'wiced_bt_avrc_hdr_t::opcode()'],['../structwiced__bt__dev__vendor__specific__command__complete__params__t.html#aeb39438c0aa5ad494c96060b00351545',1,'wiced_bt_dev_vendor_specific_command_complete_params_t::opcode()'],['../structwiced__bt__mesh__event____t.html#aeb39438c0aa5ad494c96060b00351545',1,'wiced_bt_mesh_event__t::opcode()'],['../structwiced__bt__mesh__add__vendor__model__data__t.html#acebf561f8e189648b19ea117dfd6488a',1,'wiced_bt_mesh_add_vendor_model_data_t::opcode()']]],
@@ -17,6 +18,7 @@ var searchData=
   ['operation',['operation',['../wiced__bt__mesh__provision_8h.html#a97d486d6926f9137837e1d8ecf0bbfdd',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fadd',['OPERATION_ADD',['../group__wiced__bt__mesh__provisioning.html#ga9fa82908adbc925b11ac1054dad231e1',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fbind',['OPERATION_BIND',['../wiced__bt__mesh__provision_8h.html#a5bb1e961d44b58da24fbd25cc2ed1634',1,'wiced_bt_mesh_provision.h']]],
+  ['operation_5fcomplete',['operation_complete',['../unionwiced__bt__gatt__event__data__t.html#a1591543de83205542fe85654d2bf4152',1,'wiced_bt_gatt_event_data_t']]],
   ['operation_5fdelete',['OPERATION_DELETE',['../group__wiced__bt__mesh__provisioning.html#ga530a7b7a33ad0dda31288df908248cae',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5fdelete_5fall',['OPERATION_DELETE_ALL',['../group__wiced__bt__mesh__provisioning.html#ga438544ce7019e1a48dcfef67b2f5bc73',1,'wiced_bt_mesh_provision.h']]],
   ['operation_5foverwrite',['OPERATION_OVERWRITE',['../group__wiced__bt__mesh__provisioning.html#gab31f9359f2a7ae944e1d2436273840c1',1,'wiced_bt_mesh_provision.h']]],

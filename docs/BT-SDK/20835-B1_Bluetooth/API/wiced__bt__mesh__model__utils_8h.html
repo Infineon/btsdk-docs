@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -224,7 +224,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aae13898915537ff878191155ba42b3be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae13898915537ff878191155ba42b3be"></a>
 typedef wiced_bool_t(*&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_model_handle_cb_t</b> )(uint8_t element_idx, uint16_t src_id, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a65ecdf93f477372c38b29a69e896d6ba">app_key_idx</a>, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a4d402503271315376ddf4e47674d4965">ttl</a>, uint16_t opcode, const uint8_t *params, uint16_t params_len)</td></tr>
 <tr class="separator:aae13898915537ff878191155ba42b3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30e8da80180d7caf23451fdc1ec1d401"><td class="memItemLeft" ><a class="anchor" id="a30e8da80180d7caf23451fdc1ec1d401"></a>
+<tr class="memitem:a19d738c2d2e94634e49a073af634f93e"><td class="memItemLeft" ><a class="anchor" id="a19d738c2d2e94634e49a073af634f93e"></a>
 struct {</td></tr>
 <tr class="memitem:a345b5a533872a471f810a988b331f60c"><td class="memItemLeft" ><a class="anchor" id="a345b5a533872a471f810a988b331f60c"></a>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<b>model_id</b></td></tr>
@@ -232,9 +232,9 @@ struct {</td></tr>
 <tr class="memitem:ac0a364341f86af8a678012ac02ad8ce2"><td class="memItemLeft" ><a class="anchor" id="ac0a364341f86af8a678012ac02ad8ce2"></a>
 &#160;&#160;&#160;wiced_bt_mesh_model_handle_cb_t&#160;&#160;&#160;<b>model_handle</b></td></tr>
 <tr class="separator:ac0a364341f86af8a678012ac02ad8ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30e8da80180d7caf23451fdc1ec1d401"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_mesh_model_callback_list_item_t</b></td></tr>
-<tr class="separator:a30e8da80180d7caf23451fdc1ec1d401"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1380e88e6f024f78e3fa57e1b9eaf027"><td class="memItemLeft" ><a class="anchor" id="a1380e88e6f024f78e3fa57e1b9eaf027"></a>
+<tr class="memitem:a19d738c2d2e94634e49a073af634f93e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_mesh_model_callback_list_item_t</b></td></tr>
+<tr class="separator:a19d738c2d2e94634e49a073af634f93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aab66225e47b654de638e2f2e83eac8"><td class="memItemLeft" ><a class="anchor" id="a1aab66225e47b654de638e2f2e83eac8"></a>
 struct {</td></tr>
 <tr class="memitem:ab17e2aa224521dbaaba5d71dc12ebb93"><td class="memItemLeft" ><a class="anchor" id="ab17e2aa224521dbaaba5d71dc12ebb93"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>max_handles</b></td></tr>
@@ -245,9 +245,9 @@ struct {</td></tr>
 <tr class="memitem:adef946f0ca075613e0559a7800e57fa9"><td class="memItemLeft" ><a class="anchor" id="adef946f0ca075613e0559a7800e57fa9"></a>
 &#160;&#160;&#160;wiced_mesh_model_callback_list_item_t&#160;&#160;&#160;<b>cb_list</b> [WICED_BT_MESH_MODELS_MAX_UNIQUE_MODELS_ON_NODE]</td></tr>
 <tr class="separator:adef946f0ca075613e0559a7800e57fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1380e88e6f024f78e3fa57e1b9eaf027"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_mesh_model_handler_list_t</b></td></tr>
-<tr class="separator:a1380e88e6f024f78e3fa57e1b9eaf027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a471befa2e05c4628f49198a1065ac451"><td class="memItemLeft" ><a class="anchor" id="a471befa2e05c4628f49198a1065ac451"></a>
+<tr class="memitem:a1aab66225e47b654de638e2f2e83eac8"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_mesh_model_handler_list_t</b></td></tr>
+<tr class="separator:a1aab66225e47b654de638e2f2e83eac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5285f68801f81915277c9dc5953daea1"><td class="memItemLeft" ><a class="anchor" id="a5285f68801f81915277c9dc5953daea1"></a>
 struct {</td></tr>
 <tr class="memitem:a7af2065789bc84419b8d5fe109be83b5"><td class="memItemLeft" ><a class="anchor" id="a7af2065789bc84419b8d5fe109be83b5"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>year</b></td></tr>
@@ -267,8 +267,8 @@ struct {</td></tr>
 <tr class="memitem:a8459fc4e94de7eefc74991e41779c8fc"><td class="memItemLeft" ><a class="anchor" id="a8459fc4e94de7eefc74991e41779c8fc"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<b>second</b></td></tr>
 <tr class="separator:a8459fc4e94de7eefc74991e41779c8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a471befa2e05c4628f49198a1065ac451"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_time_t</b></td></tr>
-<tr class="separator:a471befa2e05c4628f49198a1065ac451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5285f68801f81915277c9dc5953daea1"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_time_t</b></td></tr>
+<tr class="separator:a5285f68801f81915277c9dc5953daea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52392ae6b4be1f49465b6dd82cf4cb15"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__model__utils_8h.html#a52392ae6b4be1f49465b6dd82cf4cb15">wiced_bt_mesh_transition_callback_t</a> )(uint32_t *p_present, void *ref_data, uint32_t remaining_time)</td></tr>
 <tr class="memdesc:a52392ae6b4be1f49465b6dd82cf4cb15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback from the Transition procedure that the values have been updated Parameters: p_present Array of present values.  <a href="#a52392ae6b4be1f49465b6dd82cf4cb15">More...</a><br /></td></tr>
 <tr class="separator:a52392ae6b4be1f49465b6dd82cf4cb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,7 +462,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_model_set_color_
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a78e74ffad8253d6337c826fff4337114"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78e74ffad8253d6337c826fff4337114"></a>
-<a class="el" href="group__wiced__bt__mesh__core.html#ga9e635e8867f01c7b7d2fa10ff0b15d70">wiced_bt_mesh_core_config_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_core_config</b></td></tr>
+<a class="el" href="group__wiced__bt__mesh__core.html#ga05918f33775bd00303071b8377dd4a59">wiced_bt_mesh_core_config_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mesh_core_config</b></td></tr>
 <tr class="separator:a78e74ffad8253d6337c826fff4337114"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

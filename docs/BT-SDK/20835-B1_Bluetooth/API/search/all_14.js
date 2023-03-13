@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tag_5fmem_5fpre_5finit_5fcontrol',['tag_mem_pre_init_control',['../structtag__mem__pre__init__control.html',1,'']]],
   ['tai_5fof_5fdelta_5fchange',['tai_of_delta_change',['../structwiced__bt__mesh__time__tai__utc__delta__set__t.html#aff21a4ead6a11e71a8a988b32c1e6466',1,'wiced_bt_mesh_time_tai_utc_delta_set_t::tai_of_delta_change()'],['../structwiced__bt__mesh__time__tai__utc__delta__status__t.html#aff21a4ead6a11e71a8a988b32c1e6466',1,'wiced_bt_mesh_time_tai_utc_delta_status_t::tai_of_delta_change()']]],
   ['tai_5fof_5fzone_5fchange',['tai_of_zone_change',['../structwiced__bt__mesh__time__zone__set__t.html#a23c03cd16bcb09bed62d7e1e78f4352a',1,'wiced_bt_mesh_time_zone_set_t::tai_of_zone_change()'],['../structwiced__bt__mesh__time__zone__status__t.html#a23c03cd16bcb09bed62d7e1e78f4352a',1,'wiced_bt_mesh_time_zone_status_t::tai_of_zone_change()']]],
   ['tai_5fseconds',['tai_seconds',['../structwiced__bt__mesh__time__state__msg__t.html#a014c88833682a292bfb44aed34086571',1,'wiced_bt_mesh_time_state_msg_t']]],

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -119,6 +119,10 @@ Macros</h2></td></tr>
 <tr class="memitem:gaeb4135748f31d8a45d6c0e66aabe3f1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaeb4135748f31d8a45d6c0e66aabe3f1c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MULTI_ADV_TX_POWER_MAX</b>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:gaeb4135748f31d8a45d6c0e66aabe3f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e2f22a1d4a363f93cd355d76ba8ecd1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6e2f22a1d4a363f93cd355d76ba8ecd1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__enums.html#ga6e2f22a1d4a363f93cd355d76ba8ecd1">BTM_BLE_MULTI_ADV_SET_RANDOM_ADDR_EVT</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="memdesc:ga6e2f22a1d4a363f93cd355d76ba8ecd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-advertisement application callback event. <br /></td></tr>
+<tr class="separator:ga6e2f22a1d4a363f93cd355d76ba8ecd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -130,6 +134,13 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__enums.html#ga4e4090cd2ec534fe59977f6db1e90dc3">wiced_bt_ble_multi_advert_filtering_policy_t</a></td></tr>
 <tr class="memdesc:ga4e4090cd2ec534fe59977f6db1e90dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE advertisement filtering policy (see <a class="el" href="group__group__ble__enums.html#ga1ec420c6d0f772c040c47950fe990751" title="Multi-advertisement Filtering policy. ">wiced_bt_ble_multi_advert_filtering_policy_e</a>) <br /></td></tr>
 <tr class="separator:ga4e4090cd2ec534fe59977f6db1e90dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4e2be253cd8bb6c1e29ae0942748c4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4e2be253cd8bb6c1e29ae0942748c4e"></a>
+typedef <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tBTM_BLE_MULTI_ADV_EVT</b></td></tr>
+<tr class="separator:gaa4e2be253cd8bb6c1e29ae0942748c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c2a585441de758eefba56c8750f4d67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3c2a585441de758eefba56c8750f4d67"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__ble__enums.html#ga3c2a585441de758eefba56c8750f4d67">tBTM_BLE_MULTI_ADV_CBACK</a> )(tBTM_BLE_MULTI_ADV_EVT evt, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> inst_id, void *p_ref, <a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>)</td></tr>
+<tr class="memdesc:ga3c2a585441de758eefba56c8750f4d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multi-advertisement application callback. <br /></td></tr>
+<tr class="separator:ga3c2a585441de758eefba56c8750f4d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -168,6 +179,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gae25489f3d9efb48610193a691338158e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#gae25489f3d9efb48610193a691338158e">wiced_set_multi_advertisement_data</a> (uint8_t *p_data, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t adv_instance)</td></tr>
 <tr class="memdesc:gae25489f3d9efb48610193a691338158e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refer to <a class="el" href="group__btm__ble__api__functions.html#gab51079605334c28e06d02f44ffd5ec6b">wiced_bt_ble_set_raw_advertisement_data</a>.  <a href="group__wiced__bt__ble.html#gae25489f3d9efb48610193a691338158e">More...</a><br /></td></tr>
 <tr class="separator:gae25489f3d9efb48610193a691338158e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11f35db695f9b4e39a424b42538b4e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#ga11f35db695f9b4e39a424b42538b4e8f">wiced_set_multi_advertisement_app_cback</a> (<a class="el" href="group__group__ble__enums.html#ga3c2a585441de758eefba56c8750f4d67">tBTM_BLE_MULTI_ADV_CBACK</a> *p_app_cback)</td></tr>
+<tr class="memdesc:ga11f35db695f9b4e39a424b42538b4e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a application callback with the wiced_multi_adv_utils_lib library.  <a href="group__wiced__bt__ble.html#ga11f35db695f9b4e39a424b42538b4e8f">More...</a><br /></td></tr>
+<tr class="separator:ga11f35db695f9b4e39a424b42538b4e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#gae9716f7d7a87aa2449cd6a966fd23b03">wiced_set_multi_advertisement_rpa_timeout</a> (<a class="el" href="brcm__fw__types_8h.html#ab27e9918b538ce9d8ca692479b375b6a">UINT8</a> inst_id, <a class="el" href="brcm__fw__types_8h.html#acfa284fa8026c4aace2728f7f15d6c13">UINT16</a> timeout)</td></tr>
+<tr class="memdesc:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the rpa refresh timeout for the given adv instance id used in the wiced_multi_adv_utils_lib library.  <a href="group__wiced__bt__ble.html#gae9716f7d7a87aa2449cd6a966fd23b03">More...</a><br /></td></tr>
+<tr class="separator:gae9716f7d7a87aa2449cd6a966fd23b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9d96ea3d2602245076d19753a454ec1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__ble.html#ga9d96ea3d2602245076d19753a454ec1e">wiced_multi_adv_init</a> (void)</td></tr>
+<tr class="memdesc:ga9d96ea3d2602245076d19753a454ec1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the multi adv control block used in the wiced_multi_adv_utils_lib library.  <a href="group__wiced__bt__ble.html#ga9d96ea3d2602245076d19753a454ec1e">More...</a><br /></td></tr>
+<tr class="separator:ga9d96ea3d2602245076d19753a454ec1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0cad1ce158c475ddc6639a4647c021e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0cad1ce158c475ddc6639a4647c021e0"></a>
 <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_set_multi_advertisement_scan_response_data</b> (uint8_t *p_data, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>, uint8_t adv_instance)</td></tr>
 <tr class="separator:ga0cad1ce158c475ddc6639a4647c021e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,7 +197,7 @@ wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_noti
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&gt; </p>
-<p>Definitions for multi advertisemnt APIs </p>
+<p>Definitions for multi advertisemnt APIs. If require Random Address support, must include optional prebuilt wiced_multi_adv_utils_lib library, otherwise can use function defintions provided in beacon_lib component. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

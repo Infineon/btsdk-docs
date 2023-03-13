@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -101,23 +101,32 @@ $(document).ready(function(){initNavTree('unionwiced__bt__gatt__discovery__data_
 <div class="title">wiced_bt_gatt_discovery_data_t Union Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Discovery result data Use GATT_DISCOVERY_RESULT_SERVICE_* or GATT_DISCOVERY_RESULT_CHARACTERISTIC_* macros to parse discovery data)  
+ <a href="unionwiced__bt__gatt__discovery__data__t.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a64e790448aa1a8139d1037be6b346b5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64e790448aa1a8139d1037be6b346b5b"></a>
-<a class="el" href="structwiced__bt__gatt__included__service__t.html">wiced_bt_gatt_included_service_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>included_service</b></td></tr>
+<a class="el" href="structwiced__bt__gatt__included__service__t.html">wiced_bt_gatt_included_service_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__discovery__data__t.html#a64e790448aa1a8139d1037be6b346b5b">included_service</a></td></tr>
+<tr class="memdesc:a64e790448aa1a8139d1037be6b346b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result for GATT_DISCOVER_INCLUDED_SERVICES. <br /></td></tr>
 <tr class="separator:a64e790448aa1a8139d1037be6b346b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb0bec218c2e7c57a46b262ec33e26c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeb0bec218c2e7c57a46b262ec33e26c"></a>
-<a class="el" href="structwiced__bt__gatt__group__value__t.html">wiced_bt_gatt_group_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>group_value</b></td></tr>
+<a class="el" href="structwiced__bt__gatt__group__value__t.html">wiced_bt_gatt_group_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c">group_value</a></td></tr>
+<tr class="memdesc:adeb0bec218c2e7c57a46b262ec33e26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result for GATT_DISCOVER_SERVICES_ALL or GATT_DISCOVER_SERVICES_BY_UUID. <br /></td></tr>
 <tr class="separator:adeb0bec218c2e7c57a46b262ec33e26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57dd7dda3e7538b99bf7d2ba05c12377"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57dd7dda3e7538b99bf7d2ba05c12377"></a>
-<a class="el" href="structwiced__bt__gatt__char__declaration__t.html">wiced_bt_gatt_char_declaration_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>characteristic_declaration</b></td></tr>
+<a class="el" href="structwiced__bt__gatt__char__declaration__t.html">wiced_bt_gatt_char_declaration_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__discovery__data__t.html#a57dd7dda3e7538b99bf7d2ba05c12377">characteristic_declaration</a></td></tr>
+<tr class="memdesc:a57dd7dda3e7538b99bf7d2ba05c12377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result for GATT_DISCOVER_CHARACTERISTICS. <br /></td></tr>
 <tr class="separator:a57dd7dda3e7538b99bf7d2ba05c12377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa17a1b6230b67048f8bde37b15cdfefa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa17a1b6230b67048f8bde37b15cdfefa"></a>
-<a class="el" href="structwiced__bt__gatt__char__descr__info__t.html">wiced_bt_gatt_char_descr_info_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>char_descr_info</b></td></tr>
+<a class="el" href="structwiced__bt__gatt__char__descr__info__t.html">wiced_bt_gatt_char_descr_info_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__discovery__data__t.html#aa17a1b6230b67048f8bde37b15cdfefa">char_descr_info</a></td></tr>
+<tr class="memdesc:aa17a1b6230b67048f8bde37b15cdfefa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result for GATT_DISCOVER_CHARACTERISTIC_DESCRIPTORS. <br /></td></tr>
 <tr class="separator:aa17a1b6230b67048f8bde37b15cdfefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this union was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Discovery result data Use GATT_DISCOVERY_RESULT_SERVICE_* or GATT_DISCOVERY_RESULT_CHARACTERISTIC_* macros to parse discovery data) </p>
+</div><hr/>The documentation for this union was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__gatt_8h.html">wiced_bt_gatt.h</a></li>
 </ul>
 </div><!-- contents -->

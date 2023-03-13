@@ -4,5 +4,5 @@ var searchData=
   ['int32',['INT32',['../brcm__fw__types_8h.html#a1137216524060afd426c34677fed058b',1,'brcm_fw_types.h']]],
   ['int64',['INT64',['../brcm__fw__types_8h.html#a7960ce0771c3e4798168c92d15e4b0c4',1,'brcm_fw_types.h']]],
   ['int8',['INT8',['../brcm__fw__types_8h.html#a7ebe70ceca856797319175e30bcf003d',1,'brcm_fw_types.h']]],
-  ['ir_5ftx_5fclock_5fsetting',['IR_TX_CLOCK_SETTING',['../group__ir_tx.html#ga283fa0cdc4164c46e22e03fead9a17a4',1,'wiced_irtx.h']]]
+  ['ir_5ftx_5fclock_5fsetting',['IR_TX_CLOCK_SETTING',['../group__ir_tx.html#ga193eeb376a1f4b55ce8c8900bc63a171',1,'wiced_irtx.h']]]
 ];

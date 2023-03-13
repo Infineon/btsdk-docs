@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.0 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('wiced__bt__uuid_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>This file has the Bluetooth UUIDs (<a href="https://developer.bluetooth.org/gatt/">https://developer.bluetooth.org/gatt/</a>)  
+<p>This file has the BT UUIDs (<a href="https://developer.bluetooth.org/gatt/">https://developer.bluetooth.org/gatt/</a>)  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -162,26 +162,28 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<b>UUID_SERVICE_OBJECT_TRANSFER</b> = 0x1825, 
 <b>UUID_SERVICE_WPT</b> = 0xFFFE, 
-<b>WICED_BT_UUID_AUDIO_INPUT_CONTROL_SERVICE</b> = 0x1843, 
-<b>WICED_BT_UUID_VOLUME_CONTROL_SERVICE</b> = 0x1844, 
+<b>WICED_BT_UUID_AUDIO_INPUT_CONTROL</b> = 0x1843, 
+<b>WICED_BT_UUID_VOLUME_CONTROL</b> = 0x1844, 
 <br />
-&#160;&#160;<b>WICED_BT_UUID_VOLUME_OFFSET_CONTROL_SERVICE</b> = 0x1845, 
-<b>WICED_BT_UUID_COORDINATE_SET_IDENTIFICATION_SERVICE</b> = 0x1846, 
-<b>WICED_BT_UUID_MEDIA_CONTROL_SERVICE</b> = 0x1848, 
-<b>WICED_BT_UUID_GENERIC_MEDIA_CONTROL_SERVICE</b> = 0X1849, 
+&#160;&#160;<b>WICED_BT_UUID_VOLUME_OFFSET_CONTROL</b> = 0x1845, 
+<b>WICED_BT_UUID_COORDINATE_SET_IDENTIFICATION</b> = 0x1846, 
+<b>WICED_BT_UUID_MEDIA_CONTROL</b> = 0x1848, 
+<b>WICED_BT_UUID_GENERIC_MEDIA_CONTROL</b> = 0X1849, 
 <br />
-&#160;&#160;<b>WICED_BT_UUID_TELEPHONE_BEARER_SERVICE</b> = 0x184B, 
-<b>WICED_BT_UUID_GENERIC_TELEPHONE_BEARER_SERVICE</b> = 0X184C, 
-<b>WICED_BT_UUID_MICROPHONE_CONTROL_SERVICE</b> = 0x184D, 
-<b>WICED_BT_UUID_AUDIO_STREAM_CONTROL_SERVICE</b> = 0x184E, 
+&#160;&#160;<b>WICED_BT_UUID_TELEPHONE_BEARER</b> = 0x184B, 
+<b>WICED_BT_UUID_GENERIC_TELEPHONE_BEARER</b> = 0X184C, 
+<b>WICED_BT_UUID_MICROPHONE_CONTROL</b> = 0x184D, 
+<b>WICED_BT_UUID_AUDIO_STREAM_CONTROL</b> = 0x184E, 
 <br />
-&#160;&#160;<b>WICED_BT_UUID_BROADCAST_AUDIO_SCAN_SERVICE</b> = 0X184F, 
-<b>WICED_BT_UUID_PUBLISHED_AUDIO_CAPABILITY_SERVICE</b> = 0x1850, 
-<b>WICED_BT_UUID_BASIC_AUDIO_ANNOUNCEMENT_SERVICE</b> = 0X1851, 
-<b>WICED_BT_UUID_BROADCAST_AUDIO_ANNOUNCEMENT_SERVICE</b> = 0x1852, 
+&#160;&#160;<b>WICED_BT_UUID_BROADCAST_AUDIO_SCAN</b> = 0X184F, 
+<b>WICED_BT_UUID_PUBLISHED_AUDIO_CAPABILITY</b> = 0x1850, 
+<b>WICED_BT_UUID_BASIC_AUDIO_ANNOUNCEMENT</b> = 0X1851, 
+<b>WICED_BT_UUID_BROADCAST_AUDIO_ANNOUNCEMENT</b> = 0x1852, 
 <br />
-&#160;&#160;<b>WICED_BT_UUID_ROUTING_ACTIVE_AUDIO_SERVICE</b> = 0X8FD6, 
-<b>WICED_BT_UUID_COMMON_AUDIO_SERVICE</b> = 0X8FE0
+&#160;&#160;<b>WICED_BT_UUID_COMMON_AUDIO</b> = 0X1853, 
+<b>WICED_BT_UUID_HEARING_ACCESS</b> = 0X1854, 
+<b>WICED_BT_UUID_TMAS</b> = 0X1855, 
+<b>WICED_BT_UUID_PUBLIC_BROADCAST_ANNOUNCEMENT</b> = 0X1856
 <br />
  }</td></tr>
 <tr class="memdesc:a39a2ae8bfd92a397f2482fb6e73fc7ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Service UUID per Bluetooth Assigned numbers. <br /></td></tr>
@@ -554,14 +556,15 @@ Enumerations</h2></td></tr>
 <b>UUID_CHARACTERISTIC_OBJECT_LIST_CONTROL_POINT</b> = 0x2AC6, 
 <br />
 &#160;&#160;<b>UUID_CHARACTERISTIC_OBJECT_LIST_FILTER</b> = 0x2AC7, 
-<b>UUID_CHARACTERISTIC_OBJECT_CHANGED</b> = 0x2AC8
+<b>UUID_CHARACTERISTIC_OBJECT_CHANGED</b> = 0x2AC8, 
+<b>UUID_CHARACTERISTIC_RPA_ONLY</b> = 0x2AC9
 <br />
  }</td></tr>
 <tr class="memdesc:a6cfc080d0401b76c576627b1ec1c978d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Characteristic UUID per Bluetooth Assigned numbers. <br /></td></tr>
 <tr class="separator:a6cfc080d0401b76c576627b1ec1c978d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This file has the Bluetooth UUIDs (<a href="https://developer.bluetooth.org/gatt/">https://developer.bluetooth.org/gatt/</a>) </p>
+<div class="textblock"><p>This file has the BT UUIDs (<a href="https://developer.bluetooth.org/gatt/">https://developer.bluetooth.org/gatt/</a>) </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

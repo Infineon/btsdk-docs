@@ -23,6 +23,7 @@ var searchData=
   ['num_5fattr_5ffilters',['num_attr_filters',['../structwiced__bt__sdp__discovery__db__t.html#a8ec595ae7017a68b48e4e24bbc3ac7da',1,'wiced_bt_sdp_discovery_db_t']]],
   ['num_5fcodec',['num_codec',['../structwiced__bt__avdt__cfg__t.html#a758441eb89f7f8aa5fdb0b81864a9169',1,'wiced_bt_avdt_cfg_t']]],
   ['num_5fdescriptors',['num_descriptors',['../structwiced__bt__mesh__sensor__descriptor__status__data__t.html#afde159eccc4cd1c9ef19b0d394140c9a',1,'wiced_bt_mesh_sensor_descriptor_status_data_t']]],
+  ['num_5fhandles',['num_handles',['../structwiced__bt__gatt__read__multi__t.html#a3b21afb7c6efdc8acbcfd858b66722c7',1,'wiced_bt_gatt_read_multi_t']]],
   ['num_5fkeys',['num_keys',['../wiced__bt__mesh__provision_8h.html#a2fc969948626eb680f5e663ec9939d9c',1,'wiced_bt_mesh_provision.h']]],
   ['num_5fopcodes',['num_opcodes',['../structwiced__bt__mesh__add__vendor__model__data__t.html#af88675d56f4f20c327ffea5ade71e49a',1,'wiced_bt_mesh_add_vendor_model_data_t']]],
   ['num_5fparams',['num_params',['../structwiced__bt__sdp__protocol__elem__t.html#a390ce228ed343cb6fa7f56c8687b61ea',1,'wiced_bt_sdp_protocol_elem_t']]],

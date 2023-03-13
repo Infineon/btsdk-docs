@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group__sco.html#gga4548402097137688617e39d9377fc8a2a1743bae050dc932671cc4a2ada6b9032":[7,1,21,14,0],
 "group__sco__hook.html":[7,1,2,4],
 "group__sco__hook.html#ga005ae2de3ea7b11f4885aafeb6a4de31":[7,1,2,4,1,1,1],
 "group__sco__hook.html#ga1090838c106af7b7afaaec0ee969e174":[7,1,2,4,1,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "group__wiced__bt__battery__client__api__functions.html#ga75b2bddafddecdbb5e33a8cdae636ae4":[7,1,4,4],
 "group__wiced__bt__battery__client__api__functions.html#ga88cd494a2c24cbebb0ef40456b0a4181":[7,1,4,16],
 "group__wiced__bt__battery__client__api__functions.html#ga92214a61d04868220dbe4bd0c073d3b4":[7,1,4,6],
-"group__wiced__bt__battery__client__api__functions.html#ga931f2340155d1d6393548aa65ae4f5ad":[7,1,4,11],
-"group__wiced__bt__battery__client__api__functions.html#gaac6efa407c81d62a37432e567b143052":[7,1,4,3]
+"group__wiced__bt__battery__client__api__functions.html#ga931f2340155d1d6393548aa65ae4f5ad":[7,1,4,11]
 };

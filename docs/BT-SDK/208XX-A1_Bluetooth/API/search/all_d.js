@@ -70,6 +70,7 @@ var searchData=
   ['models_5fnum',['models_num',['../wiced__bt__mesh__cfg_8h.html#aa608ab41a91794b71319ac39b463b128',1,'wiced_bt_mesh_cfg.h']]],
   ['month',['month',['../structwiced__rtc__time__t.html#a2b35975dfac711962b75b6eed01a8b76',1,'wiced_rtc_time_t::month()'],['../structwiced__bt__mesh__scheduler__action__data__t.html#a2b35975dfac711962b75b6eed01a8b76',1,'wiced_bt_mesh_scheduler_action_data_t::month()']]],
   ['move_5frollover',['move_rollover',['../wiced__bt__mesh__cfg_8h.html#a4f299c7fa7736eb7e9f2bb28b7c6dccb',1,'wiced_bt_mesh_cfg.h']]],
+  ['mtu',['mtu',['../unionwiced__bt__gatt__request__data__t.html#a2997a8aa5758871f81608a28ce97b796',1,'wiced_bt_gatt_request_data_t::mtu()'],['../unionwiced__bt__gatt__operation__complete__rsp__t.html#a2997a8aa5758871f81608a28ce97b796',1,'wiced_bt_gatt_operation_complete_rsp_t::mtu()']]],
   ['multi_5fadv_5fmax_5fnum_5finstances',['MULTI_ADV_MAX_NUM_INSTANCES',['../group__group__ble__macro.html#ga0355d755cf2e6360dd47fb5dc3e8515a',1,'wiced_bt_ble.h']]],
   ['multi_5fadv_5ftx_5fpower_5fmin',['MULTI_ADV_TX_POWER_MIN',['../group__group__ble__macro.html#ga717800040b2cd8d9de0e5a485402ee50',1,'wiced_bt_ble.h']]],
   ['multi_5fadvert_5fconnectable_5fdirect_5fevent',['MULTI_ADVERT_CONNECTABLE_DIRECT_EVENT',['../group__group__ble__enums.html#gga4f8d298fc8c52ee7b5c7153a4d73ac80aa36440c791053044402b1ba6dcdaf9d0',1,'wiced_bt_ble.h']]],

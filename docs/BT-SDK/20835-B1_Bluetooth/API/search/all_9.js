@@ -32,7 +32,7 @@ var searchData=
   ['interval',['interval',['../wiced__bt__mesh__provision_8h.html#acd9ed1ccc44de55e1d3eff5569663695',1,'wiced_bt_mesh_provision.h']]],
   ['io_5fcap',['io_cap',['../structwiced__bt__dev__bredr__io__caps__rsp__t.html#a4844fbbde08aa63c3785631bc5b75590',1,'wiced_bt_dev_bredr_io_caps_rsp_t']]],
   ['ipad',['ipad',['../structsha2__context.html#a7ba83dcbea34f1f67fd8c3130de9a2cb',1,'sha2_context']]],
-  ['ir_5ftx_5fclock_5fsetting',['IR_TX_CLOCK_SETTING',['../group__ir_tx.html#ga283fa0cdc4164c46e22e03fead9a17a4',1,'wiced_irtx.h']]],
+  ['ir_5ftx_5fclock_5fsetting',['IR_TX_CLOCK_SETTING',['../group__ir_tx.html#ga193eeb376a1f4b55ce8c8900bc63a171',1,'wiced_irtx.h']]],
   ['irk',['irk',['../wiced__bt__dev_8h.html#a6d3e9fb072da8c4bb15467bec49032d4',1,'wiced_bt_dev.h']]],
   ['irtx',['IrTx',['../group__ir_tx.html',1,'']]],
   ['is224',['is224',['../structsha2__context.html#a841ac1f0fba22047e4e566ab4ee15229',1,'sha2_context']]],

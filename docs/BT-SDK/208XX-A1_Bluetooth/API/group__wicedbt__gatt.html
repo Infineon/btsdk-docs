@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,8 +96,7 @@ $(document).ready(function(){initNavTree('group__wicedbt__gatt.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#groups">Modules</a>  </div>
   <div class="headertitle">
 <div class="title">Generic Attribute (GATT)<div class="ingroups"><a class="el" href="group__wicedbt.html">Bluetooth</a></div></div>  </div>
 </div><!--header-->
@@ -108,229 +107,24 @@ $(document).ready(function(){initNavTree('group__wicedbt__gatt.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
+<tr class="memitem:group__gatt__client__api__functions"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__client__api__functions.html">Client</a></td></tr>
+<tr class="memdesc:group__gatt__client__api__functions"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT Profile Client Functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__common__api__functions"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__common__api__functions.html">Common</a></td></tr>
+<tr class="memdesc:group__common__api__functions"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT Profile Common Functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__gattdb__api__functions"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gattdb__api__functions.html">GATT Database</a></td></tr>
+<tr class="memdesc:group__gattdb__api__functions"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT Database Access Functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group__wicedbt__gatt__utils"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt__utils.html">GATT Utilities</a></td></tr>
 <tr class="memdesc:group__wicedbt__gatt__utils"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic Attribute (GATT) Utility Functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga59b17644aead98f94a2cab805107cb90"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga59b17644aead98f94a2cab805107cb90">wiced_bt_gatt_db_init</a> (const uint8_t *p_gatt_db, uint16_t gatt_db_size)</td></tr>
-<tr class="memdesc:ga59b17644aead98f94a2cab805107cb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the GATT database.  <a href="#ga59b17644aead98f94a2cab805107cb90">More...</a><br /></td></tr>
-<tr class="separator:ga59b17644aead98f94a2cab805107cb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c1293b04258393f7e8e5201ca215c21"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga9c1293b04258393f7e8e5201ca215c21">wiced_bt_gatt_send_indication</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
-<tr class="memdesc:ga9c1293b04258393f7e8e5201ca215c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a handle value indication to a client.  <a href="#ga9c1293b04258393f7e8e5201ca215c21">More...</a><br /></td></tr>
-<tr class="separator:ga9c1293b04258393f7e8e5201ca215c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#gabe6e79a8df2dd04b926d2316b79fdc42">wiced_bt_gatt_send_notification</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t val_len, uint8_t *p_val)</td></tr>
-<tr class="memdesc:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a handle value notification to a client.  <a href="#gabe6e79a8df2dd04b926d2316b79fdc42">More...</a><br /></td></tr>
-<tr class="separator:gabe6e79a8df2dd04b926d2316b79fdc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="memItemLeft" align="right" valign="top">wiced_bt_gatt_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga9e6f8d1b4d1d89d728355687991e8a49">wiced_bt_gatt_send_response</a> (wiced_bt_gatt_status_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ade818037fd6c985038ff29656089758d">status</a>, uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t attr_handle, uint16_t attr_len, uint16_t offset, uint8_t *p_attr)</td></tr>
-<tr class="memdesc:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">When application receives a Read Request, Writes Request or Indication from the peer it can reply synchronously or return a WICED_BT_GATT_PENDING result code indicating to the stack that the message is not processed yet.  <a href="#ga9e6f8d1b4d1d89d728355687991e8a49">More...</a><br /></td></tr>
-<tr class="separator:ga9e6f8d1b4d1d89d728355687991e8a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__gatt__server__api__functions"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gatt__server__api__functions.html">Server</a></td></tr>
+<tr class="memdesc:group__gatt__server__api__functions"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT Profile Server Functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Generic Attribute (GATT) Functions. </p>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga59b17644aead98f94a2cab805107cb90"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bt_gatt_status_t wiced_bt_gatt_db_init </td>
-          <td>(</td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>p_gatt_db</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>gatt_db_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initializes the GATT database. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_gatt_db</td><td>: First element in GATT database array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">gatt_db_size</td><td>: Size (in bytes) of GATT database</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="">wiced_bt_gatt_status_t </a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga9c1293b04258393f7e8e5201ca215c21"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bt_gatt_status_t wiced_bt_gatt_send_indication </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>conn_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>attr_handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>val_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>p_val</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sends a handle value indication to a client. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">conn_id</td><td>: connection identifier. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr_handle</td><td>: Attribute handle of this handle value indication. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">val_len</td><td>: Length of notification value passed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_val</td><td>: Notification Value.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="">wiced_bt_gatt_status_t </a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gabe6e79a8df2dd04b926d2316b79fdc42"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bt_gatt_status_t wiced_bt_gatt_send_notification </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>conn_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>attr_handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>val_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>p_val</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sends a handle value notification to a client. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">conn_id</td><td>: connection identifier. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr_handle</td><td>: Attribute handle of this handle value indication. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">val_len</td><td>: Length of notification value passed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_val</td><td>: Notification Value.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="">wiced_bt_gatt_status_t </a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga9e6f8d1b4d1d89d728355687991e8a49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bt_gatt_status_t wiced_bt_gatt_send_response </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_gatt_status_t&#160;</td>
-          <td class="paramname"><em>status</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>conn_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>attr_handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>attr_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>p_attr</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>When application receives a Read Request, Writes Request or Indication from the peer it can reply synchronously or return a WICED_BT_GATT_PENDING result code indicating to the stack that the message is not processed yet. </p>
-<p>In that case the application should call this function to send data or just a confirmation to the peer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">status</td><td>: Status of the operation to be send to the peer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">conn_id</td><td>: Connection handle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr_handle</td><td>: Attribute handle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attr_len</td><td>: Length of the attribute to send </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>: Attribute value offset </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_attr</td><td>: Attribute Value</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="">wiced_bt_gatt_status_t </a> </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -101,32 +101,44 @@ $(document).ready(function(){initNavTree('structwiced__bt__gatt__connection__sta
 <div class="title">wiced_bt_gatt_connection_status_t Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>GATT connection status (used by GATT_CONNECTION_STATUS_EVT notification)  
+ <a href="structwiced__bt__gatt__connection__status__t.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a37f805590566e72da2b892efca45960c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37f805590566e72da2b892efca45960c"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><b>bd_addr</b></td></tr>
+uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a37f805590566e72da2b892efca45960c">bd_addr</a></td></tr>
+<tr class="memdesc:a37f805590566e72da2b892efca45960c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remote device address. <br /></td></tr>
 <tr class="separator:a37f805590566e72da2b892efca45960c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb7148607596ec87684d9908f27b6ea4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb7148607596ec87684d9908f27b6ea4"></a>
-wiced_bt_ble_address_type_t&#160;</td><td class="memItemRight" valign="bottom"><b>addr_type</b></td></tr>
+wiced_bt_ble_address_type_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#acb7148607596ec87684d9908f27b6ea4">addr_type</a></td></tr>
+<tr class="memdesc:acb7148607596ec87684d9908f27b6ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remmote device address type. <br /></td></tr>
 <tr class="separator:acb7148607596ec87684d9908f27b6ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a8a39270ae1bf01ad381dca0e95c1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71a8a39270ae1bf01ad381dca0e95c1b"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>conn_id</b></td></tr>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a71a8a39270ae1bf01ad381dca0e95c1b">conn_id</a></td></tr>
+<tr class="memdesc:a71a8a39270ae1bf01ad381dca0e95c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID of the connection. <br /></td></tr>
 <tr class="separator:a71a8a39270ae1bf01ad381dca0e95c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3176bbe2203ca084d3abdea0d2c21fdc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3176bbe2203ca084d3abdea0d2c21fdc"></a>
-wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
+wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a3176bbe2203ca084d3abdea0d2c21fdc">connected</a></td></tr>
+<tr class="memdesc:a3176bbe2203ca084d3abdea0d2c21fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">TRUE if connected, FALSE if disconnected. <br /></td></tr>
 <tr class="separator:a3176bbe2203ca084d3abdea0d2c21fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a9e6e1b68d477c173d07e156ca4f7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53a9e6e1b68d477c173d07e156ca4f7b"></a>
-wiced_bt_gatt_disconn_reason_t&#160;</td><td class="memItemRight" valign="bottom"><b>reason</b></td></tr>
+<a class="el" href="wiced__bt__gatt_8h.html#a3333698dc0578407e13fe9f086175ecc">wiced_bt_gatt_disconn_reason_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a53a9e6e1b68d477c173d07e156ca4f7b">reason</a></td></tr>
+<tr class="memdesc:a53a9e6e1b68d477c173d07e156ca4f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reason code (see <a class="el" href="wiced__bt__gatt_8h.html#a2f41eeeff34e8001557ccb19a73c1836">wiced_bt_gatt_disconn_reason_t </a>) <br /></td></tr>
 <tr class="separator:a53a9e6e1b68d477c173d07e156ca4f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7de905425ef3363920c0950d739903a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7de905425ef3363920c0950d739903a0"></a>
-wiced_bt_transport_t&#160;</td><td class="memItemRight" valign="bottom"><b>transport</b></td></tr>
+wiced_bt_transport_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a7de905425ef3363920c0950d739903a0">transport</a></td></tr>
+<tr class="memdesc:a7de905425ef3363920c0950d739903a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transport type of the connection. <br /></td></tr>
 <tr class="separator:a7de905425ef3363920c0950d739903a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12e261242e4603e052ae96d23950e49f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12e261242e4603e052ae96d23950e49f"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>link_role</b></td></tr>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__connection__status__t.html#a12e261242e4603e052ae96d23950e49f">link_role</a></td></tr>
+<tr class="memdesc:a12e261242e4603e052ae96d23950e49f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link role on this connection. <br /></td></tr>
 <tr class="separator:a12e261242e4603e052ae96d23950e49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>GATT connection status (used by GATT_CONNECTION_STATUS_EVT notification) </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__gatt_8h.html">wiced_bt_gatt.h</a></li>
 </ul>
 </div><!-- contents -->
