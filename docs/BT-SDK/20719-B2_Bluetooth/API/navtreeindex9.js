@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__mesh__core__statistics__t.html#a40f5d4b21e2ce60d14276d8a64f46526":[7,1,11,1,21,15],
+"structwiced__bt__mesh__core__statistics__t.html#a4dc773d8ab10555603246861cdda8df2":[7,1,11,1,21,11],
 "structwiced__bt__mesh__core__statistics__t.html#a5d77370d28b3e91eb63f28274714ea63":[7,1,11,1,21,5],
 "structwiced__bt__mesh__core__statistics__t.html#a6ab1fbaeb2370c94e451dcd8489b320b":[7,1,11,1,21,6],
 "structwiced__bt__mesh__core__statistics__t.html#a6badf881500d21ea593eecbf4d23b6a8":[7,1,11,1,21,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__light__xyl__xy__settings__t.html#a6c2ea0e2f3ad699f6b5bb36f4ada9abc":[7,1,11,2,55,4],
 "structwiced__bt__mesh__light__xyl__xy__settings__t.html#a85cc0f4334633f7f998e2d55e15aa948":[7,1,11,2,55,1],
 "structwiced__bt__mesh__light__xyl__xy__settings__t.html#a86e6872ec9440240ea8d9ab089525d2b":[7,1,11,2,55,5],
-"structwiced__bt__mesh__light__xyl__xy__settings__t.html#ab5379478017ff6051cdd90b108dca2d8":[7,1,11,2,55,2],
-"structwiced__bt__mesh__local__device__set__data__t.html":[7,1,11,3,0],
-"structwiced__bt__mesh__local__device__set__data__t.html#a287de9a6759e860c089f7c7386e7a824":[7,1,11,3,0,2]
+"structwiced__bt__mesh__light__xyl__xy__settings__t.html#ab5379478017ff6051cdd90b108dca2d8":[7,1,11,2,55,2]
 };

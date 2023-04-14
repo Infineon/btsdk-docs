@@ -262,7 +262,7 @@ var group__group__dev__data__structures =
     [ "wiced_bt_hci_trace_cback_t", "group__group__dev__data__structures.html#gae97953398baa0fc214c8af02444b2b9e", null ],
     [ "wiced_bt_inquiry_result_cback_t", "group__group__dev__data__structures.html#ga81029e82aefce8f23d7ad9bcdee15cf8", null ],
     [ "wiced_bt_lq_br_edr_stats", "group__group__dev__data__structures.html#ga6acbf30d18802a29aaa21e85aca6edce", null ],
-    [ "wiced_bt_lq_le_stats", "group__group__dev__data__structures.html#gacdaed5c69205b6a151cba15eaf601958", null ],
+    [ "wiced_bt_lq_le_stats", "group__group__dev__data__structures.html#gaa01e655b8378258153a7d22e5658987a", null ],
     [ "wiced_bt_lq_stats_result_t", "group__group__dev__data__structures.html#ga326efec01b5a3c3804d3cd9251f71dcf", null ],
     [ "wiced_bt_management_cback_t", "group__group__dev__data__structures.html#ga50c74fb6824e881c95c1ccaf3ddf01d3", null ],
     [ "wiced_bt_remote_name_cback_t", "group__group__dev__data__structures.html#ga7a9c3da3a9578a2e2f9275e8b0490d98", null ],

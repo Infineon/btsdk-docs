@@ -265,7 +265,7 @@ var searchData=
   ['wiced_5fbt_5fdev_5fset_5fconnectability',['wiced_bt_dev_set_connectability',['../group__wiced__bredr__api.html#gaf555928b7af1c2ed27adf10289f3999c',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fdev_5fset_5fdiscoverability',['wiced_bt_dev_set_discoverability',['../group__wiced__bredr__api.html#ga20d55a9ce0486637305e5cb09eb86765',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fdev_5fset_5fencryption',['wiced_bt_dev_set_encryption',['../group__ble__common__sec__api__functions.html#ga828fe3d842b9923e408a10b87ae8fb69',1,'wiced_bt_dev.h']]],
-  ['wiced_5fbt_5fdev_5fset_5flink_5fpolicy',['wiced_bt_dev_set_link_policy',['../group__wiced__bredr__api.html#gafa20b1e8c312d27e8ea2824f68ccb374',1,'wiced_bt_dev_set_link_policy(wiced_bt_device_address_t remote_bda, wiced_bt_link_policy_settings_t settings):&#160;wiced_bt_dev.h'],['../group__wicedbt__utility.html#gaa33eda752b4873cb9f19b0ef2634d9a4',1,'wiced_bt_dev_set_link_policy(wiced_bt_device_address_t remote_bda, uint16_t *settings):&#160;wiced_bt_dev.h']]],
+  ['wiced_5fbt_5fdev_5fset_5flink_5fpolicy',['wiced_bt_dev_set_link_policy',['../group__wiced__bredr__api.html#gafa20b1e8c312d27e8ea2824f68ccb374',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fdev_5fset_5fno_5fsmp_5fon_5fbr',['wiced_bt_dev_set_no_smp_on_br',['../group__btm__ble__sec__api__functions.html#ga6105fcb64c0ea326702d7e9ec4d3862b',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fdev_5fset_5fsniff_5fmode',['wiced_bt_dev_set_sniff_mode',['../group__wiced__bredr__api.html#gaf533e2a68506fc637f9fee8da186f2e2',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fdev_5fset_5fsniff_5fsubrating',['wiced_bt_dev_set_sniff_subrating',['../group__wiced__bredr__api.html#gae25ed058e78ce94a0884a6d62d1d1b8e',1,'wiced_bt_dev.h']]],

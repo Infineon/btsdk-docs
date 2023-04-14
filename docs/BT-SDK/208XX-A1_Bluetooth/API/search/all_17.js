@@ -898,7 +898,7 @@ var searchData=
   ['wiced_5fbt_5flpm_5fwake_5fsource_5fmask',['WICED_BT_LPM_WAKE_SOURCE_MASK',['../wiced__hal__lpm_8h.html#adc29c2ff13d900c2f185ee95427fb06cad3abc332e51ead7a529a35d4e3c26b37',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5flpm_5fwake_5fsource_5fquad',['WICED_BT_LPM_WAKE_SOURCE_QUAD',['../wiced__hal__lpm_8h.html#adc29c2ff13d900c2f185ee95427fb06ca11d18da6eeb4ffff78baed6eb931ff50',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5flq_5fbr_5fedr_5fstats',['wiced_bt_lq_br_edr_stats',['../group__group__dev__data__structures.html#ga6acbf30d18802a29aaa21e85aca6edce',1,'wiced_bt_dev.h']]],
-  ['wiced_5fbt_5flq_5fle_5fstats',['wiced_bt_lq_le_stats',['../group__group__dev__data__structures.html#gacdaed5c69205b6a151cba15eaf601958',1,'wiced_bt_dev.h']]],
+  ['wiced_5fbt_5flq_5fle_5fstats',['wiced_bt_lq_le_stats',['../group__group__dev__data__structures.html#gaa01e655b8378258153a7d22e5658987a',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5flq_5fstats_5fresult_5ft',['wiced_bt_lq_stats_result_t',['../group__group__dev__data__structures.html#ga326efec01b5a3c3804d3cd9251f71dcf',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fma_5fbmsg_5fbody_5ft',['wiced_bt_ma_bmsg_body_t',['../structwiced__bt__ma__bmsg__body__t.html',1,'']]],
   ['wiced_5fbt_5fma_5fbmsg_5ft',['wiced_bt_ma_bmsg_t',['../structwiced__bt__ma__bmsg__t.html',1,'']]],

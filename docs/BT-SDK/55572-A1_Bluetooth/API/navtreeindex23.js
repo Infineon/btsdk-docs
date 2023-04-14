@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"structwiced__bt__ble__cis__config__test__t.html#a108a506d0472685c2ceaca18f5a3b162":[7,3,0,12,3],
 "structwiced__bt__ble__cis__config__test__t.html#a3b980b288d37a06c108c5dfc209e8c95":[7,3,0,12,5],
 "structwiced__bt__ble__cis__config__test__t.html#a828c433f47527bd5669e9321dabf5323":[7,3,0,12,1],
 "structwiced__bt__ble__cis__config__test__t.html#a8eb3630ee051d86fc42ed90d101d7b76":[7,3,0,12,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "structwiced__bt__dev__br__edr__pairing__info__t.html#ade818037fd6c985038ff29656089758d":[7,1,9,25,0],
 "structwiced__bt__dev__bredr__io__caps__req__t.html":[7,1,9,44],
 "structwiced__bt__dev__bredr__io__caps__req__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,9,44,1],
-"structwiced__bt__dev__bredr__io__caps__req__t.html#a68d8e1a2c4acc3aa5fe523cd98dd78a8":[7,1,9,44,2]
+"structwiced__bt__dev__bredr__io__caps__req__t.html#a68d8e1a2c4acc3aa5fe523cd98dd78a8":[7,1,9,44,2],
+"structwiced__bt__dev__bredr__io__caps__req__t.html#a9aab562f2ef40c84195827e0fd4b3b54":[7,1,9,44,3]
 };

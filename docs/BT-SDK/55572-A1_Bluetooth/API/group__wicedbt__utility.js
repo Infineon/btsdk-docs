@@ -6,7 +6,6 @@ var group__wicedbt__utility =
     [ "wiced_bt_dev_read_tx_power", "group__wicedbt__utility.html#ga48a580210a970a52c39fca816ccfd0d7", null ],
     [ "wiced_bt_dev_register_hci_trace", "group__wicedbt__utility.html#ga6f76de78537f24e047f4b95c6fb91ff8", null ],
     [ "wiced_bt_dev_register_vse_callback", "group__wicedbt__utility.html#ga47d967c6345178460a13cbcb9bebebd0", null ],
-    [ "wiced_bt_dev_set_link_policy", "group__wicedbt__utility.html#gaa33eda752b4873cb9f19b0ef2634d9a4", null ],
     [ "wiced_bt_dev_update_hci_trace_mode", "group__wicedbt__utility.html#gac69677337b7352c0e3cc34d1af85ba01", null ],
     [ "wiced_bt_set_local_bdaddr", "group__wicedbt__utility.html#ga48386d791ced8eaae6bd6cd8f7e3afc2", null ],
     [ "wiced_bt_set_pairable_mode", "group__wicedbt__utility.html#gae95344797140c44aa120d34957a576b3", null ],

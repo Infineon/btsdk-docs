@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__ota__fw__upgrad__event__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6":[7,0,2,3,0,2],
+"structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23":[7,0,2,3,0,1],
 "structwiced__bt__rc__event__t.html":[7,1,2,3,2,6],
 "structwiced__bt__rc__event__t.html#a03895f0a094b3c0a98affa867c97be95":[7,1,2,3,2,6,7],
 "structwiced__bt__rc__event__t.html#a0823f6eb8619cf4a445527641d9b9f7e":[7,1,2,3,2,6,4],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"group__wicedbt__av__a2d__helper.html#ga5e6ad2137e606d96462fe95f9ebbc86d":[7,1,2,1,0,15],
+"group__wicedbt__av__a2d__helper.html#ga653486795f9a5c0765c51760939d9992":[7,1,2,1,0,3],
 "group__wicedbt__av__a2d__helper.html#ga69f01c7970813dd88f9dcb820819423a":[7,1,2,1,0,12],
 "group__wicedbt__av__a2d__helper.html#ga6af62033c6e1aa94646eded0064777f4":[7,1,2,1,0,35],
 "group__wicedbt__av__a2d__helper.html#ga712033edb3e7765b3f69d92286cee0b2":[7,1,2,1,0,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__application__id__t.html#ae2f416b0a34b7beb4ed3873d791ac393":[7,0,0,1,1],
 "structwiced__bt__audio__config__buffer__t.html":[7,1,2,0,0],
 "structwiced__bt__audio__config__buffer__t.html#a586d79d0ec374e74848a11aa5e552204":[7,1,2,0,0,3],
-"structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae":[7,1,2,0,0,0],
-"structwiced__bt__audio__config__buffer__t.html#aabe15f26dbdc1cb97a45325bfd923e2b":[7,1,2,0,0,2],
-"structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58":[7,1,2,0,0,1]
+"structwiced__bt__audio__config__buffer__t.html#a8db826fdcd6b7570d16060df7ec541ae":[7,1,2,0,0,0]
 };

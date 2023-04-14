@@ -227,9 +227,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a2bb79ad6dcadfdee2f40b3a005bf06bf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bb79ad6dcadfdee2f40b3a005bf06bf"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_MESH_MODELS</b>&#160;&#160;&#160;0x2d</td></tr>
 <tr class="separator:a2bb79ad6dcadfdee2f40b3a005bf06bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad36d395e9c67cf6f18e44bd4da0d4223"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad36d395e9c67cf6f18e44bd4da0d4223"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_CONN_MESH</b>&#160;&#160;&#160;0x2e</td></tr>
-<tr class="separator:ad36d395e9c67cf6f18e44bd4da0d4223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d22c75e28be6f724b237113da3c74f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d22c75e28be6f724b237113da3c74f7"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_GROUP_BMS</b>&#160;&#160;&#160;0x2e</td></tr>
 <tr class="separator:a6d22c75e28be6f724b237113da3c74f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1880,60 +1877,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a814d71d3cfa4bd36206f63b1fc8e4e82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a814d71d3cfa4bd36206f63b1fc8e4e82"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_CONFIGURE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x1 ) /* Test configure request */</td></tr>
 <tr class="separator:a814d71d3cfa4bd36206f63b1fc8e4e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a444f812abc4131194485acb9b9bb131b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a444f812abc4131194485acb9b9bb131b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_BECOME_PROVISIONER</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x01 )  /* Become Provisioner */</td></tr>
-<tr class="separator:a444f812abc4131194485acb9b9bb131b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f32745f41df5fed3de8b40ce890072"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7f32745f41df5fed3de8b40ce890072"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_END_PROVISIONING</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x02 )  /* Become Provisioner */</td></tr>
-<tr class="separator:af7f32745f41df5fed3de8b40ce890072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8abb763b77e3535c27fe1321044649b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8abb763b77e3535c27fe1321044649b0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_NODE_LIST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x03 )  /* Provisioner only - report list of all nodes */</td></tr>
-<tr class="separator:a8abb763b77e3535c27fe1321044649b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af36deb4300133ddea53e737e86682586"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af36deb4300133ddea53e737e86682586"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_SEND_APP_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x04 )  /* Send Application Data */</td></tr>
-<tr class="separator:af36deb4300133ddea53e737e86682586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f36c926993fec523bf3ef5fed32652"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6f36c926993fec523bf3ef5fed32652"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_RESET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x05 )  /* Reset device */</td></tr>
-<tr class="separator:af6f36c926993fec523bf3ef5fed32652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a8a55e2b2d715b8ebf03cd8f16fa422"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a8a55e2b2d715b8ebf03cd8f16fa422"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_FACTORY_RESET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x06 )  /* Factory reset the network */</td></tr>
-<tr class="separator:a8a8a55e2b2d715b8ebf03cd8f16fa422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac160af4ac14b17519bb1977302e632ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac160af4ac14b17519bb1977302e632ed"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_CONN_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x07 )  /* Report connection status */</td></tr>
-<tr class="separator:ac160af4ac14b17519bb1977302e632ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0033a1876d0eb687c1ae9c8c281d130a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0033a1876d0eb687c1ae9c8c281d130a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_PING_ALL_NODES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x08 )  /* Provisioner only - ping all nodes */</td></tr>
-<tr class="separator:a0033a1876d0eb687c1ae9c8c281d130a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a284a07d2a2676754484421839caf6492"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a284a07d2a2676754484421839caf6492"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_START_STOP_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x09 )  /* Start/Stop Data */</td></tr>
-<tr class="separator:a284a07d2a2676754484421839caf6492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8885eee088b7ffc9e3530b712b839e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8885eee088b7ffc9e3530b712b839e51"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0A )  /* Collect stats */</td></tr>
-<tr class="separator:a8885eee088b7ffc9e3530b712b839e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1bd0ab8d8b91f94d89396a9d3efa8fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1bd0ab8d8b91f94d89396a9d3efa8fb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_IDENTIFY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0B )  /* Identify node */</td></tr>
-<tr class="separator:aa1bd0ab8d8b91f94d89396a9d3efa8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49ad873bfbf26cee8ab85c17d1e5208a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_RSSI</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0C )  /* Collect RSSI values */</td></tr>
-<tr class="separator:a49ad873bfbf26cee8ab85c17d1e5208a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7cb6b1afcfdd5eab88000736cfe617"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e7cb6b1afcfdd5eab88000736cfe617"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_APP_INFO_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0D )  /* Get node application info (FW ID) */</td></tr>
-<tr class="separator:a2e7cb6b1afcfdd5eab88000736cfe617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a74ca308517b3d62636fa33d3cfc83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77a74ca308517b3d62636fa33d3cfc83"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_START</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0E )  /* Firmware update start */</td></tr>
-<tr class="separator:a77a74ca308517b3d62636fa33d3cfc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a259e18848ed58db1dd5db7b7b1226480"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a259e18848ed58db1dd5db7b7b1226480"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0F )  /* Firmware image data */</td></tr>
-<tr class="separator:a259e18848ed58db1dd5db7b7b1226480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9872c0526610f9fcac4940ac4662d1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9872c0526610f9fcac4940ac4662d1c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_APPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x10 )  /* Apply new firmware image */</td></tr>
-<tr class="separator:ab9872c0526610f9fcac4940ac4662d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f8954de849a8ff18ba967b34fc2a213"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f8954de849a8ff18ba967b34fc2a213"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_OTA_CANCEL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x11 )  /* Cancel firmware update */</td></tr>
-<tr class="separator:a6f8954de849a8ff18ba967b34fc2a213"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac473e91c568c25ebb6be095dbc59ccfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac473e91c568c25ebb6be095dbc59ccfa"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_COMMAND_GET_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x12 )  /* Collect link quality stats */</td></tr>
-<tr class="separator:ac473e91c568c25ebb6be095dbc59ccfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6762e92de5592eba155ec489ff149d78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6762e92de5592eba155ec489ff149d78"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_BECOME_PROVISIONER</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x01 )  /* Become Provisioner */</td></tr>
 <tr class="separator:a6762e92de5592eba155ec489ff149d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1979,14 +1922,17 @@ Macros</h2></td></tr>
 <tr class="memitem:a88d4bd4c75fda3371f9551bbcd77c8ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88d4bd4c75fda3371f9551bbcd77c8ef"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x0F )  /* Firmware image data */</td></tr>
 <tr class="separator:a88d4bd4c75fda3371f9551bbcd77c8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c72821b7243e29c8f6bb4fda5eae3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42c72821b7243e29c8f6bb4fda5eae3f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_VERIFY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x10 )  /* Verify received firmware image */</td></tr>
+<tr class="separator:a42c72821b7243e29c8f6bb4fda5eae3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8756ceb6c693209c63d262114077f15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8756ceb6c693209c63d262114077f15"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_APPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x10 )  /* Apply new firmware image */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_APPLY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x11 )  /* Apply new firmware image */</td></tr>
 <tr class="separator:ad8756ceb6c693209c63d262114077f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e90a5702f2dc9b550c69d42d4b2991f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e90a5702f2dc9b550c69d42d4b2991f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_CANCEL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x11 )  /* Cancel firmware update */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_OTA_CANCEL</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x12 )  /* Cancel firmware update */</td></tr>
 <tr class="separator:a5e90a5702f2dc9b550c69d42d4b2991f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca778cf6e20d9c226f1a9af27c3ac5f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca778cf6e20d9c226f1a9af27c3ac5f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_GET_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x12 )  /* Collect link quality stats */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_GET_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x13 )  /* Collect link quality stats */</td></tr>
 <tr class="separator:aca778cf6e20d9c226f1a9af27c3ac5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a9e283121aadd2608628a5d98e0fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a9e283121aadd2608628a5d98e0fe1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
@@ -3371,51 +3317,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a8ab0208ace2409bac9261127303c2e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ab0208ace2409bac9261127303c2e51"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HCITEST_EVENT_PACKET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HCITEST &lt;&lt; 8 ) | 0x02 ) /* test packet (for loopback) */</td></tr>
 <tr class="separator:a8ab0208ace2409bac9261127303c2e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33f42c866525729e2d0466d22881cc0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33f42c866525729e2d0466d22881cc0a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_NODE_PROVISIONED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x01 )  /* Node addr */</td></tr>
-<tr class="separator:a33f42c866525729e2d0466d22881cc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8163597b16b0cf52ce5f2eb672860a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf8163597b16b0cf52ce5f2eb672860a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_GET_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x02 )  /* Application Data Received */</td></tr>
-<tr class="separator:acf8163597b16b0cf52ce5f2eb672860a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bdc976e2cc4f822356d1c9d738d5976"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9bdc976e2cc4f822356d1c9d738d5976"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_APP_DATA</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x03 )  /* Application Data Received */</td></tr>
-<tr class="separator:a9bdc976e2cc4f822356d1c9d738d5976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20ec27bd760db33cefd91bfef2c5cc74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20ec27bd760db33cefd91bfef2c5cc74"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_NODE_LIST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x04 )  /* Node List report */</td></tr>
-<tr class="separator:a20ec27bd760db33cefd91bfef2c5cc74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a2f47d1843d7e4551e5d9864e1b3b88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a2f47d1843d7e4551e5d9864e1b3b88"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_CONN_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x05 )  /* Connection Status update */</td></tr>
-<tr class="separator:a8a2f47d1843d7e4551e5d9864e1b3b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e6d67d8a3eb3e4f8577bccbbb9f556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37e6d67d8a3eb3e4f8577bccbbb9f556"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_PING_RESULT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x06 )  /* Ping Result */</td></tr>
-<tr class="separator:a37e6d67d8a3eb3e4f8577bccbbb9f556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60214e8dc1ad5183fe3337afe17fb505"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60214e8dc1ad5183fe3337afe17fb505"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_DATA_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x07 )  /* Stats */</td></tr>
-<tr class="separator:a60214e8dc1ad5183fe3337afe17fb505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ebc722c5aa490d2e52f3601ca61cffe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ebc722c5aa490d2e52f3601ca61cffe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_CONN_UP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x08 )  /* Node addr */</td></tr>
-<tr class="separator:a7ebc722c5aa490d2e52f3601ca61cffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef7d59e5f7056018d13143623a3b2cc9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef7d59e5f7056018d13143623a3b2cc9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_CONN_DOWN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x09 )  /* Node addr */</td></tr>
-<tr class="separator:aef7d59e5f7056018d13143623a3b2cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02bce4e0979d4ed3b6b5e6f78e3e74a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02bce4e0979d4ed3b6b5e6f78e3e74a0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_OP_STATE_CHANGED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0a )  /* Node addr */</td></tr>
-<tr class="separator:a02bce4e0979d4ed3b6b5e6f78e3e74a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ac330f4f7aaf907020b24a043ac0b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8ac330f4f7aaf907020b24a043ac0b9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_RESET_COMPLETE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0b )  /* Node addr */</td></tr>
-<tr class="separator:ab8ac330f4f7aaf907020b24a043ac0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa43cfb907c320931562683f490b844"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafa43cfb907c320931562683f490b844"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_RSSI_VALUES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0c )  /* [Src Node] [Peer addr][RSSI] ... */</td></tr>
-<tr class="separator:aafa43cfb907c320931562683f490b844"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_APP_INFO</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0d )  /* Node application info (FW ID) */</td></tr>
-<tr class="separator:a9fcc22cbc7cb8d2c5e22e4fe5c06fb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c68470fb978af740a74492fa16e324"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21c68470fb978af740a74492fa16e324"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_OTA_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0e )  /* Firmware update command status */</td></tr>
-<tr class="separator:a21c68470fb978af740a74492fa16e324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd896d81be2209488dc0e5705add5334"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd896d81be2209488dc0e5705add5334"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_CONN_MESH_EVENT_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_CONN_MESH &lt;&lt; 8 ) | 0x0f )  /* Link quality Stats */</td></tr>
-<tr class="separator:abd896d81be2209488dc0e5705add5334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa15426a7efb4afb0d1b9c28c408bb3c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa15426a7efb4afb0d1b9c28c408bb3c9"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_NODE_PROVISIONED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x01 )  /* Node addr */</td></tr>
 <tr class="separator:aa15426a7efb4afb0d1b9c28c408bb3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3665,6 +3566,39 @@ Macros</h2></td></tr>
 <tr class="memitem:a5dbb9feabc2657e8a739a6c7d6865e3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5dbb9feabc2657e8a739a6c7d6865e3d"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BSG_STATUS_OVERRUN</b>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:a5dbb9feabc2657e8a739a6c7d6865e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e526da2a0e6b7bf0fb5a2f245b8cc95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e526da2a0e6b7bf0fb5a2f245b8cc95"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_SUCCESS</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a9e526da2a0e6b7bf0fb5a2f245b8cc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075c4ad138284ffa0b0ee2062d98fee7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a075c4ad138284ffa0b0ee2062d98fee7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_NOT_STARTED</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a075c4ad138284ffa0b0ee2062d98fee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9ac678b62a2500ddb59d8c4ac71658"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e9ac678b62a2500ddb59d8c4ac71658"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_ALREADY_STARTED</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a4e9ac678b62a2500ddb59d8c4ac71658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee9b3d1e0a6e38e0c06064681c28796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ee9b3d1e0a6e38e0c06064681c28796"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_NO_RESOURCE</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a0ee9b3d1e0a6e38e0c06064681c28796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2ef0af4fc57ca52ffc5eba328cf8f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade2ef0af4fc57ca52ffc5eba328cf8f5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_FW_NOT_ACCEPTED</b>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:ade2ef0af4fc57ca52ffc5eba328cf8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c899d99433903f6ceea615cede6e33d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c899d99433903f6ceea615cede6e33d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_SIZE_TOO_LARGE</b>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a4c899d99433903f6ceea615cede6e33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544663a46267951df272c0a96ef2226f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a544663a46267951df272c0a96ef2226f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_NODE_LIST_ERROR</b>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:a544663a46267951df272c0a96ef2226f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55be27fb785a0cbf4fbe2b274307c4ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55be27fb785a0cbf4fbe2b274307c4ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_INTERNAL_ERROR</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:a55be27fb785a0cbf4fbe2b274307c4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b92e7dfd0d65bcf29d025f7aaa2557"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5b92e7dfd0d65bcf29d025f7aaa2557"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_VERIFY_FAILED</b>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:ad5b92e7dfd0d65bcf29d025f7aaa2557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe749321c6a54630aa22d1516ffba92f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe749321c6a54630aa22d1516ffba92f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_APPLY_FAILED</b>&#160;&#160;&#160;9</td></tr>
+<tr class="separator:abe749321c6a54630aa22d1516ffba92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24a92beb281f87b48d6431eee25061e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae24a92beb281f87b48d6431eee25061e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_CONN_LOST</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ae24a92beb281f87b48d6431eee25061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5356a86213ced2eebbc50b6251f6fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc5356a86213ced2eebbc50b6251f6fe"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BD_ADDR_LEN</b>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:adc5356a86213ced2eebbc50b6251f6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>

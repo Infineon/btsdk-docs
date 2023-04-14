@@ -84,6 +84,7 @@ var searchData=
   ['rssi_5ffactor',['rssi_factor',['../wiced__bt__mesh__cfg_8h.html#a2f6964e0e31458b18938e4e6d55e91d8',1,'wiced_bt_mesh_cfg.h']]],
   ['rtcdriver',['RTCDriver',['../group___r_t_c_driver.html',1,'']]],
   ['rtos',['RTOS',['../group__rtos.html',1,'']]],
+  ['rx_5fall_5fgood_5fpkt_5fcnt',['rx_all_good_pkt_cnt',['../wiced__bt__dev_8h.html#a5ad454de17d5f083693cb9e7d146c836',1,'wiced_bt_dev.h']]],
   ['rx_5fall_5fpkt_5fcrc_5ferr',['rx_all_pkt_crc_err',['../wiced__bt__dev_8h.html#a54bf06eef62c57a21c95176b80834718',1,'wiced_bt_dev.h']]],
   ['rx_5fall_5fpkt_5fsync_5fto',['rx_all_pkt_sync_to',['../wiced__bt__dev_8h.html#a8ad51f8d41023c14d81d4606a316c8a0',1,'wiced_bt_dev.h']]],
   ['rx_5fbuff_5fpool_5fcfg',['rx_buff_pool_cfg',['../wiced__transport_8h.html#a66034389972edde796e89217e2e69202',1,'wiced_transport.h']]],

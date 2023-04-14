@@ -147,9 +147,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga491c7425febec17a94ca65556d6b844e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__utility.html#ga491c7425febec17a94ca65556d6b844e">wiced_bt_utils_acl_conn_handle_get</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
 <tr class="memdesc:ga491c7425febec17a94ca65556d6b844e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the connection handle.  <a href="#ga491c7425febec17a94ca65556d6b844e">More...</a><br /></td></tr>
 <tr class="separator:ga491c7425febec17a94ca65556d6b844e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__utility.html#gaa33eda752b4873cb9f19b0ef2634d9a4">wiced_bt_dev_set_link_policy</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, uint16_t *settings)</td></tr>
-<tr class="memdesc:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called to set the Link Policy for remote device.  <a href="#gaa33eda752b4873cb9f19b0ef2634d9a4">More...</a><br /></td></tr>
-<tr class="separator:gaa33eda752b4873cb9f19b0ef2634d9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This sections provides Bluetooth utilities functions related to trace, local bda, tx power etc. </p>
@@ -373,42 +370,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS WICED_ERROR if out of usage </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaa33eda752b4873cb9f19b0ef2634d9a4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_link_policy </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
-          <td class="paramname"><em>remote_bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t *&#160;</td>
-          <td class="paramname"><em>settings</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function is called to set the Link Policy for remote device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: remote device's address </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">in/out]</td><td>settings : pointer to the settings value. the policy setting is defined in <a class="el" href="hcidefs_8h.html" title="Host Controller Interface definitions. ">hcidefs.h</a> if the input setting consists of unsupport feature for local device, it will be cleared</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>
 </div>

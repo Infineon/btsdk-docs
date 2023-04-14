@@ -1117,6 +1117,8 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fconfig_5frelay_5fget',['wiced_bt_mesh_config_relay_get',['../group__wiced__bt__mesh__provisioning.html#ga562131f5334771617f7da6cc66b8cf2a',1,'wiced_bt_mesh_provision.h']]],
   ['wiced_5fbt_5fmesh_5fconfig_5frelay_5fset',['wiced_bt_mesh_config_relay_set',['../group__wiced__bt__mesh__provisioning.html#gaa56a1ef9d543fc828274a905d65b3d8e',1,'wiced_bt_mesh_provision.h']]],
   ['wiced_5fbt_5fmesh_5fconfig_5frelay_5fstatus',['WICED_BT_MESH_CONFIG_RELAY_STATUS',['../group__wiced__bt__mesh__provisioning.html#ga5068774210b01ed8e51de3509b10b314',1,'wiced_bt_mesh_provision.h']]],
+  ['wiced_5fbt_5fmesh_5fconfig_5fserver_5fmessage_5fhandler',['wiced_bt_mesh_config_server_message_handler',['../group__wiced__bt__mesh__models.html#gabf8b966c4acdd4d8035acb264852c951',1,'wiced_bt_mesh_models.h']]],
+  ['wiced_5fbt_5fmesh_5fconfig_5fserver_5fsend_5freply',['wiced_bt_mesh_config_server_send_reply',['../group__wiced__bt__mesh__models.html#ga040739f9972262688c78c945f631af8a',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fconfig_5fsub_5fcount_5flog_5fmax',['WICED_BT_MESH_CONFIG_SUB_COUNT_LOG_MAX',['../wiced__bt__mesh__model__defs_8h.html#a34dced1a45674f1b74709ab707976e46',1,'wiced_bt_mesh_model_defs.h']]],
   ['wiced_5fbt_5fmesh_5fconfig_5fttl_5fmax',['WICED_BT_MESH_CONFIG_TTL_MAX',['../wiced__bt__mesh__model__defs_8h.html#acc72c43dd84cbc7e86d4fbc1c2e3537b',1,'wiced_bt_mesh_model_defs.h']]],
   ['wiced_5fbt_5fmesh_5fconnect_5fstatus_5fdata_5ft',['wiced_bt_mesh_connect_status_data_t',['../structwiced__bt__mesh__connect__status__data__t.html',1,'']]],

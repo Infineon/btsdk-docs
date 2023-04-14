@@ -1,6 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"structwiced__bt__lq__stats__result__s.html#ade818037fd6c985038ff29656089758d":[7,1,9,54,4],
 "structwiced__bt__mesh__add__vendor__model__data__t.html":[7,1,15,3,2],
 "structwiced__bt__mesh__add__vendor__model__data__t.html#a345b5a533872a471f810a988b331f60c":[7,1,15,3,2,1],
 "structwiced__bt__mesh__add__vendor__model__data__t.html#a685ae33c442d30cc507fa5415f536e74":[7,1,15,3,2,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX26 =
 "structwiced__bt__mesh__light__hsl__saturation__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,15,2,50,1],
 "structwiced__bt__mesh__light__hsl__set__t.html":[7,1,15,2,45],
 "structwiced__bt__mesh__light__hsl__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,15,2,45,2],
-"structwiced__bt__mesh__light__hsl__set__t.html#acc14229c6c6e49aad6ec90498f63506b":[7,1,15,2,45,1]
+"structwiced__bt__mesh__light__hsl__set__t.html#acc14229c6c6e49aad6ec90498f63506b":[7,1,15,2,45,1],
+"structwiced__bt__mesh__light__hsl__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,15,2,45,0]
 };

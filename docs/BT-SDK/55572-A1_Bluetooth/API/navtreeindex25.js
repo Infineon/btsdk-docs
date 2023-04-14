@@ -1,6 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"structwiced__bt__heap__statistics__s.html#ae0be81a9a1c246a6105c47d43e83eb4a":[7,0,7,1,8],
 "structwiced__bt__heap__statistics__s.html#ae1f8f4b394798cd97ff9f77a7681c19e":[7,0,7,1,5],
 "structwiced__bt__heap__statistics__s.html#aea2420ab822c5ade6eb912bed4b5ea64":[7,0,7,1,1],
 "structwiced__bt__hidd__ble__dev__info__t.html":[7,1,12,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX25 =
 "structwiced__bt__lq__stats__result__s.html#a75fe7b4be37fe0dc404059f351db8ec2":[7,1,9,54,5],
 "structwiced__bt__lq__stats__result__s.html#aa119fd57c77c8462441d6ec144f55ac0":[7,1,9,54,1],
 "structwiced__bt__lq__stats__result__s.html#aa90f0d42f4f210203fb37502590a7bdb":[7,1,9,54,0],
-"structwiced__bt__lq__stats__result__s.html#acd89a2e262012d5dbf9b0d8d03111bc1":[7,1,9,54,3]
+"structwiced__bt__lq__stats__result__s.html#acd89a2e262012d5dbf9b0d8d03111bc1":[7,1,9,54,3],
+"structwiced__bt__lq__stats__result__s.html#ade818037fd6c985038ff29656089758d":[7,1,9,54,4]
 };
