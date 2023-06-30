@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -836,6 +836,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a90b5b94b5e30f6a5729106c631f84e22"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90b5b94b5e30f6a5729106c631f84e22"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PBC_COMMAND_ABORT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PBC &lt;&lt; 8 ) | 0x08 )      /* Abort current operation */</td></tr>
 <tr class="separator:a90b5b94b5e30f6a5729106c631f84e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a01976586ce7219e7924558e0783463"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a01976586ce7219e7924558e0783463"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PBC_COMMAND_GET_FAVORITE_CONTACTS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PBC &lt;&lt; 8 ) | 0x09 )      /* Get list of favorite contacts  */</td></tr>
+<tr class="separator:a4a01976586ce7219e7924558e0783463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a366e863581b9cc428d4ae03cd5321125"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a366e863581b9cc428d4ae03cd5321125"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_COC_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_COC &lt;&lt; 8 ) | 0x01 )   /* LE COC Connect */</td></tr>
 <tr class="separator:a366e863581b9cc428d4ae03cd5321125"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1934,6 +1937,21 @@ Macros</h2></td></tr>
 <tr class="memitem:aca778cf6e20d9c226f1a9af27c3ac5f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca778cf6e20d9c226f1a9af27c3ac5f8"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_GET_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x13 )  /* Collect link quality stats */</td></tr>
 <tr class="separator:aca778cf6e20d9c226f1a9af27c3ac5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18515e2a865de6af8b655b87743f3d9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18515e2a865de6af8b655b87743f3d9b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_SET_TEST_MODE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x14 )  /* Set test mode */</td></tr>
+<tr class="separator:a18515e2a865de6af8b655b87743f3d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636a5274786b9d2b6dce19e64b30c907"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a636a5274786b9d2b6dce19e64b30c907"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_NET_CREATE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x20 ) /* Create network */</td></tr>
+<tr class="separator:a636a5274786b9d2b6dce19e64b30c907"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebb167325fb425b5009f33085f25dc7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ebb167325fb425b5009f33085f25dc7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_NODE_PROVISION</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x21 ) /* Provision node */</td></tr>
+<tr class="separator:a6ebb167325fb425b5009f33085f25dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad940deebf435010aab48f40a0ae2183"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad940deebf435010aab48f40a0ae2183"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_RECORDS_GET</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x22 ) /* Request list of provisioning record IDs */</td></tr>
+<tr class="separator:aad940deebf435010aab48f40a0ae2183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1dc72cc382cfd435b539bc3107ac647"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1dc72cc382cfd435b539bc3107ac647"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_RECORD_REQUEST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x23 ) /* Request fragment of provisioning record */</td></tr>
+<tr class="separator:ab1dc72cc382cfd435b539bc3107ac647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32a9e283121aadd2608628a5d98e0fe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a9e283121aadd2608628a5d98e0fe1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a32a9e283121aadd2608628a5d98e0fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2597,6 +2615,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a256933428494f1f8a7efe39c3d64df74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a256933428494f1f8a7efe39c3d64df74"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PBC_EVENT_ABORTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PBC &lt;&lt; 8 ) | 0x08 )      /* Aborted operation event */</td></tr>
 <tr class="separator:a256933428494f1f8a7efe39c3d64df74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5df846226723112f60a0c09ac653b45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5df846226723112f60a0c09ac653b45"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PBC_EVENT_FAVORITE_CONTACTS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PBC &lt;&lt; 8 ) | 0x09 )      /* Lost of favorite contacts event */</td></tr>
+<tr class="separator:ac5df846226723112f60a0c09ac653b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8e65dc00d5cb92e1e2d3fbc255bdf54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8e65dc00d5cb92e1e2d3fbc255bdf54"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_COC_EVENT_CONNECTED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_COC &lt;&lt; 8 ) | 0x01)    /* LE COC Connected */</td></tr>
 <tr class="separator:ae8e65dc00d5cb92e1e2d3fbc255bdf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3362,6 +3383,21 @@ Macros</h2></td></tr>
 <tr class="memitem:a25559f54451bc11996e8d8d7d1d5ab83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25559f54451bc11996e8d8d7d1d5ab83"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_LQ_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x0f )  /* Link quality Stats */</td></tr>
 <tr class="separator:a25559f54451bc11996e8d8d7d1d5ab83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f4c3d8105bffae1718e090e905ac7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13f4c3d8105bffae1718e090e905ac7f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_TEST_RESULT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x10 )  /* [Node Addr] [Rx RSSI][Tx RSSI] */</td></tr>
+<tr class="separator:a13f4c3d8105bffae1718e090e905ac7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4f077a048ce0476f653363edd1776e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb4f077a048ce0476f653363edd1776e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_NET_CREATED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x20 )</td></tr>
+<tr class="separator:afb4f077a048ce0476f653363edd1776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d6c5f0f7c76ea9c03a48700001bb9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4d6c5f0f7c76ea9c03a48700001bb9c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_SCAN_REPORT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x21 )</td></tr>
+<tr class="separator:ad4d6c5f0f7c76ea9c03a48700001bb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05db2ec6bea396d56c7a0d1e2cfd4c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab05db2ec6bea396d56c7a0d1e2cfd4c9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_RECORDS_LIST</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x22 )</td></tr>
+<tr class="separator:ab05db2ec6bea396d56c7a0d1e2cfd4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43809d1ffb04a645910e50dda9ee1b21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43809d1ffb04a645910e50dda9ee1b21"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_RECORD_RESPONSE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x23 )</td></tr>
+<tr class="separator:a43809d1ffb04a645910e50dda9ee1b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e07a61a92465d36d8ee059bab0a6742"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e07a61a92465d36d8ee059bab0a6742"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_PANU_EVENT_OPEN</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_PANU &lt;&lt; 8 ) | 0x01 )</td></tr>
 <tr class="separator:a9e07a61a92465d36d8ee059bab0a6742"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3599,6 +3635,15 @@ Macros</h2></td></tr>
 <tr class="memitem:ae24a92beb281f87b48d6431eee25061e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae24a92beb281f87b48d6431eee25061e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_CONN_LOST</b>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:ae24a92beb281f87b48d6431eee25061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce534a5264e4dad0dd11075c62a75d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ce534a5264e4dad0dd11075c62a75d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_OTA_STATUS_OUT_OF_ORDER</b>&#160;&#160;&#160;11</td></tr>
+<tr class="separator:a6ce534a5264e4dad0dd11075c62a75d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a4bac947038485106c29b01a7b14b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8a4bac947038485106c29b01a7b14b1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_LQ_STATS_READ</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad8a4bac947038485106c29b01a7b14b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ff3696bd2b1eea5a79c9664934b064"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4ff3696bd2b1eea5a79c9664934b064"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_LQ_STATS_CLEAR</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ac4ff3696bd2b1eea5a79c9664934b064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5356a86213ced2eebbc50b6251f6fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc5356a86213ced2eebbc50b6251f6fe"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>BD_ADDR_LEN</b>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:adc5356a86213ced2eebbc50b6251f6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
