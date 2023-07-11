@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_l2c.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_l2c.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -111,681 +111,358 @@ $(document).ready(function(){initNavTree('wiced__bt__l2c_8h.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__fcr__options__t.html">wiced_bt_l2cap_fcr_options_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for Enhanced Retransmission Mode Options Refer to Volume 3, Part A, section 5.4 of Bluetooth Core specification for details.  <a href="structwiced__bt__l2cap__fcr__options__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for Enhanced Retransmission Mode Options Refer to Volume 3, Part A, section 5.4 of BT Core specification for details.  <a href="structwiced__bt__l2cap__fcr__options__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__cfg__information__t.html">wiced_bt_l2cap_cfg_information_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a structure to hold the configuration parameters.  <a href="structwiced__bt__l2cap__cfg__information__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__ertm__information__t.html">wiced_bt_l2cap_ertm_information_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that applications use to create or accept connections with enhanced retransmission mode.  <a href="structwiced__bt__l2cap__ertm__information__t.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__appl__information__t.html">wiced_bt_l2cap_appl_information_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the structure that applications use to register with L2CAP.  <a href="structwiced__bt__l2cap__appl__information__t.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__fixed__chnl__reg__t.html">wiced_bt_l2cap_fixed_chnl_reg_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed channel registration info (the callback addresses and channel config)  <a href="structwiced__bt__l2cap__fixed__chnl__reg__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__le__appl__information__t.html">wiced_bt_l2cap_le_appl_information_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the structure that applications use to register with LE L2CAP.  <a href="structwiced__bt__l2cap__le__appl__information__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__fixed__chnl__reg__t.html">wiced_bt_l2cap_fixed_chnl_reg_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed channel registration info (the callback addresses and channel config)  <a href="structwiced__bt__l2cap__fixed__chnl__reg__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__l2cap__ecrb__cb__ptrs__t.html">wiced_bt_l2cap_ecrb_cb_ptrs_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure containing application ECRB callbacks.  <a href="structwiced__bt__l2cap__ecrb__cb__ptrs__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga393b58267d11d569c394b326b3350412"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga393b58267d11d569c394b326b3350412"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga393b58267d11d569c394b326b3350412">L2CAP_MINIMUM_OFFSET</a>&#160;&#160;&#160;13</td></tr>
-<tr class="memdesc:ga393b58267d11d569c394b326b3350412"><td class="mdescLeft">&#160;</td><td class="mdescRight">plus control(2), SDU length(2) <br /></td></tr>
+<tr class="memitem:ga393b58267d11d569c394b326b3350412"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga393b58267d11d569c394b326b3350412">L2CAP_MINIMUM_OFFSET</a>&#160;&#160;&#160;13</td></tr>
+<tr class="memdesc:ga393b58267d11d569c394b326b3350412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum offset that L2CAP needs in a buffer.  <a href="group__l2cap.html#ga393b58267d11d569c394b326b3350412">More...</a><br /></td></tr>
 <tr class="separator:ga393b58267d11d569c394b326b3350412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaab983f0794fe13006d98d29538aa1307"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaab983f0794fe13006d98d29538aa1307"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gaab983f0794fe13006d98d29538aa1307">L2CAP_BLE_CONN_MIN_OFFSET</a>&#160;&#160;&#160;9</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaab983f0794fe13006d98d29538aa1307">L2CAP_BLE_CONN_MIN_OFFSET</a>&#160;&#160;&#160;9</td></tr>
 <tr class="memdesc:gaab983f0794fe13006d98d29538aa1307"><td class="mdescLeft">&#160;</td><td class="mdescRight">HCI type(1), len(2), handle(2), L2CAP len(2) and CID(2) <br /></td></tr>
 <tr class="separator:gaab983f0794fe13006d98d29538aa1307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6d778e008613bbc073549e6cb1ce8e47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6d778e008613bbc073549e6cb1ce8e47"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga6d778e008613bbc073549e6cb1ce8e47">L2CAP_DEFAULT_BLE_CB_POOL_ID</a>&#160;&#160;&#160;0xFF</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga6d778e008613bbc073549e6cb1ce8e47">L2CAP_DEFAULT_BLE_CB_POOL_ID</a>&#160;&#160;&#160;0xFF</td></tr>
 <tr class="memdesc:ga6d778e008613bbc073549e6cb1ce8e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the default HCI ACL buffer pool. <br /></td></tr>
 <tr class="separator:ga6d778e008613bbc073549e6cb1ce8e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2dbbfb547c0c6bdf80988cb14f716982"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2dbbfb547c0c6bdf80988cb14f716982"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga2dbbfb547c0c6bdf80988cb14f716982">L2CAP_BLE_COC_SDU_OFFSET</a>&#160;&#160;&#160;4</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga2dbbfb547c0c6bdf80988cb14f716982">L2CAP_BLE_COC_SDU_OFFSET</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:ga2dbbfb547c0c6bdf80988cb14f716982"><td class="mdescLeft">&#160;</td><td class="mdescRight">to provide upper layer some minimal offset possibly required to process incoming packets <br /></td></tr>
 <tr class="separator:ga2dbbfb547c0c6bdf80988cb14f716982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa57a2e7a58bf0f581b2ea5df0b740191"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa57a2e7a58bf0f581b2ea5df0b740191"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_BLE_TX_CONG_START_THRESH</b>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:gaa57a2e7a58bf0f581b2ea5df0b740191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab55fbb64d7fca62ec12fa10ce9c20d93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab55fbb64d7fca62ec12fa10ce9c20d93"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_BLE_TX_CONG_STOP_THRESH</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:gab55fbb64d7fca62ec12fa10ce9c20d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga21a82bdfd45b292cf3421c064ca7874d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga21a82bdfd45b292cf3421c064ca7874d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga21a82bdfd45b292cf3421c064ca7874d">L2CAP_BROADCAST_MIN_OFFSET</a>&#160;&#160;&#160;11</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga21a82bdfd45b292cf3421c064ca7874d">L2CAP_BROADCAST_MIN_OFFSET</a>&#160;&#160;&#160;11</td></tr>
 <tr class="memdesc:ga21a82bdfd45b292cf3421c064ca7874d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum offset for broadcast needs another two bytes for the PSM. <br /></td></tr>
 <tr class="separator:ga21a82bdfd45b292cf3421c064ca7874d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e5612c1b7888cb1a969861fdb7faf0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga9e5612c1b7888cb1a969861fdb7faf0b">L2CAP_PING_RESULT_OK</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:ga9e5612c1b7888cb1a969861fdb7faf0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ping result codes.  <a href="group__l2cap__data__types.html#ga9e5612c1b7888cb1a969861fdb7faf0b">More...</a><br /></td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP ping result</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_PING_RESULT"></a></p>
+<p>Ping result codes. </p>
+</div></td></tr>
+<tr class="memitem:ga9e5612c1b7888cb1a969861fdb7faf0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9e5612c1b7888cb1a969861fdb7faf0b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga9e5612c1b7888cb1a969861fdb7faf0b">L2CAP_PING_RESULT_OK</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ga9e5612c1b7888cb1a969861fdb7faf0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ping reply received OK. <br /></td></tr>
 <tr class="separator:ga9e5612c1b7888cb1a969861fdb7faf0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4e8e4a2973a1f1a2e7220b4a95d1efda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4e8e4a2973a1f1a2e7220b4a95d1efda"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga4e8e4a2973a1f1a2e7220b4a95d1efda">L2CAP_PING_RESULT_NO_LINK</a>&#160;&#160;&#160;1</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga4e8e4a2973a1f1a2e7220b4a95d1efda">L2CAP_PING_RESULT_NO_LINK</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:ga4e8e4a2973a1f1a2e7220b4a95d1efda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link could not be setup. <br /></td></tr>
 <tr class="separator:ga4e8e4a2973a1f1a2e7220b4a95d1efda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab412c5740493977b7aeca5816120519f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab412c5740493977b7aeca5816120519f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gab412c5740493977b7aeca5816120519f">L2CAP_PING_RESULT_NO_RESPONSE</a>&#160;&#160;&#160;2</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab412c5740493977b7aeca5816120519f">L2CAP_PING_RESULT_NO_RESPONSE</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:gab412c5740493977b7aeca5816120519f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remote L2CAP did not reply. <br /></td></tr>
 <tr class="separator:gab412c5740493977b7aeca5816120519f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP data write result</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_DATAWRITE"></a></p>
+<p>Result codes for <a class="el" href="group__l2cap.html#ga2cd224a6bc467d85d853540f8abdec5e">wiced_bt_l2cap_data_write()</a> </p>
+</div></td></tr>
 <tr class="memitem:ga15f1fc2aed25d306166cca74bf8608f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga15f1fc2aed25d306166cca74bf8608f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga15f1fc2aed25d306166cca74bf8608f8">L2CAP_DATAWRITE_FAILED</a>&#160;&#160;&#160;<a class="el" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td></tr>
-<tr class="memdesc:ga15f1fc2aed25d306166cca74bf8608f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result codes for <a class="el" href="group__l2cap__api__functions.html#ga2cd224a6bc467d85d853540f8abdec5e" title="Function wiced_bt_l2cap_data_write. ">wiced_bt_l2cap_data_write()</a> <br /></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga15f1fc2aed25d306166cca74bf8608f8">L2CAP_DATAWRITE_FAILED</a>&#160;&#160;&#160;<a class="el" href="group__gentypes.html#gaa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td></tr>
+<tr class="memdesc:ga15f1fc2aed25d306166cca74bf8608f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If data not accepted and error. <br /></td></tr>
 <tr class="separator:ga15f1fc2aed25d306166cca74bf8608f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac11908d21cca31282961ab23ddc67559"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac11908d21cca31282961ab23ddc67559"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_DATAWRITE_SUCCESS</b>&#160;&#160;&#160;<a class="el" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gac11908d21cca31282961ab23ddc67559">L2CAP_DATAWRITE_SUCCESS</a>&#160;&#160;&#160;<a class="el" href="group__gentypes.html#gaa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td></tr>
+<tr class="memdesc:gac11908d21cca31282961ab23ddc67559"><td class="mdescLeft">&#160;</td><td class="mdescRight">If data accepted. <br /></td></tr>
 <tr class="separator:gac11908d21cca31282961ab23ddc67559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga36a742ec81d6b130ef9fce023755ab36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36a742ec81d6b130ef9fce023755ab36"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_DATAWRITE_CONGESTED</b>&#160;&#160;&#160;2</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga36a742ec81d6b130ef9fce023755ab36">L2CAP_DATAWRITE_CONGESTED</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:ga36a742ec81d6b130ef9fce023755ab36"><td class="mdescLeft">&#160;</td><td class="mdescRight">if data accepted and the channel is congested <br /></td></tr>
 <tr class="separator:ga36a742ec81d6b130ef9fce023755ab36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c3380c72b9ed68837e360435744eab3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9c3380c72b9ed68837e360435744eab3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga9c3380c72b9ed68837e360435744eab3">L2CAP_PRIORITY_NORMAL</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:ga9c3380c72b9ed68837e360435744eab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values for priority parameter to wiced_bt_l2cap_set_acl_priority. <br /></td></tr>
-<tr class="separator:ga9c3380c72b9ed68837e360435744eab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8f483be39d6531300918dc58f067be2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa8f483be39d6531300918dc58f067be2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_PRIORITY_HIGH</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:gaa8f483be39d6531300918dc58f067be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac7a3b394ac54946914f2287f4f3bc38f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gac7a3b394ac54946914f2287f4f3bc38f">L2CAP_DIRECTION_IGNORE</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:gac7a3b394ac54946914f2287f4f3bc38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values for direction parameter to wiced_bt_l2cap_set_acl_priority.  <a href="group__l2cap__data__types.html#gac7a3b394ac54946914f2287f4f3bc38f">More...</a><br /></td></tr>
-<tr class="separator:gac7a3b394ac54946914f2287f4f3bc38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga231caf03d9b763494440d7f9efbbc493"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga231caf03d9b763494440d7f9efbbc493"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga231caf03d9b763494440d7f9efbbc493">L2CAP_DIRECTION_DATA_SOURCE</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:ga231caf03d9b763494440d7f9efbbc493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set ACL priority direction as source. <br /></td></tr>
-<tr class="separator:ga231caf03d9b763494440d7f9efbbc493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9a92c8eac5d4f355e1c23a4e50b3263f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9a92c8eac5d4f355e1c23a4e50b3263f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga9a92c8eac5d4f355e1c23a4e50b3263f">L2CAP_DIRECTION_DATA_SINK</a>&#160;&#160;&#160;2</td></tr>
-<tr class="memdesc:ga9a92c8eac5d4f355e1c23a4e50b3263f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set ACL priority direction as sink. <br /></td></tr>
-<tr class="separator:ga9a92c8eac5d4f355e1c23a4e50b3263f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73086018293c0ddf6a844dde6a1a0938"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga73086018293c0ddf6a844dde6a1a0938"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga73086018293c0ddf6a844dde6a1a0938">L2CAP_CHNL_PRIORITY_HIGH</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:ga73086018293c0ddf6a844dde6a1a0938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values for priority parameter to wiced_bt_l2cap_set_tx_priority. <br /></td></tr>
-<tr class="separator:ga73086018293c0ddf6a844dde6a1a0938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06a9d4f9d52bcac421d43b2361db35fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga06a9d4f9d52bcac421d43b2361db35fb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CHNL_PRIORITY_MEDIUM</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ga06a9d4f9d52bcac421d43b2361db35fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacbed022f75a948ccb4d6e656495ac717"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacbed022f75a948ccb4d6e656495ac717"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CHNL_PRIORITY_LOW</b>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:gacbed022f75a948ccb4d6e656495ac717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac06ed7eaf7673ef0f0db83b51e298bf0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac06ed7eaf7673ef0f0db83b51e298bf0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gac06ed7eaf7673ef0f0db83b51e298bf0">L2CAP_CHNL_DATA_RATE_HIGH</a>&#160;&#160;&#160;3</td></tr>
-<tr class="memdesc:gac06ed7eaf7673ef0f0db83b51e298bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values for Tx/Rx data rate parameter to wiced_bt_l2cap_set_chnl_data_rate. <br /></td></tr>
-<tr class="separator:gac06ed7eaf7673ef0f0db83b51e298bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga26169d25e14dc4cbc44023904c82895e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga26169d25e14dc4cbc44023904c82895e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CHNL_DATA_RATE_MEDIUM</b>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ga26169d25e14dc4cbc44023904c82895e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ba5db94ecc1d5e34e51320403f82874"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1ba5db94ecc1d5e34e51320403f82874"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CHNL_DATA_RATE_LOW</b>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ga1ba5db94ecc1d5e34e51320403f82874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3ba74fbef3b2941784e48ed2f955450a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3ba74fbef3b2941784e48ed2f955450a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CHNL_DATA_RATE_NO_TRAFFIC</b>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ga3ba74fbef3b2941784e48ed2f955450a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe8a54b9dce954e44f79274c050d4d96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gabe8a54b9dce954e44f79274c050d4d96">L2CAP_FLUSHABLE_MASK</a>&#160;&#160;&#160;0x0003</td></tr>
-<tr class="memdesc:gabe8a54b9dce954e44f79274c050d4d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data Packet Flags (bits 2-15 are reserved) layer specific 14-15 bits are used for FCR SAR.  <a href="group__l2cap__data__types.html#gabe8a54b9dce954e44f79274c050d4d96">More...</a><br /></td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP data write flags</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_DATAWRITE_FLUSH"></a></p>
+<p>Flushable/Non Flushable flags parameter used in a call <a class="el" href="group__l2cap.html#ga2cd224a6bc467d85d853540f8abdec5e">wiced_bt_l2cap_data_write()</a> </p>
+</div></td></tr>
+<tr class="memitem:gabe8a54b9dce954e44f79274c050d4d96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabe8a54b9dce954e44f79274c050d4d96"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gabe8a54b9dce954e44f79274c050d4d96">L2CAP_FLUSHABLE_MASK</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="memdesc:gabe8a54b9dce954e44f79274c050d4d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">L2CAP Flushable mask. <br /></td></tr>
 <tr class="separator:gabe8a54b9dce954e44f79274c050d4d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e49fd4e1ca33a1a0e92d240f74a1511"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0e49fd4e1ca33a1a0e92d240f74a1511"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FLUSHABLE_CH_BASED</b>&#160;&#160;&#160;0x0000</td></tr>
-<tr class="separator:ga0e49fd4e1ca33a1a0e92d240f74a1511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6561498074e97ec73b49de963fa69896"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6561498074e97ec73b49de963fa69896"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FLUSHABLE_PACKET</b>&#160;&#160;&#160;0x0001</td></tr>
-<tr class="separator:ga6561498074e97ec73b49de963fa69896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae040774bd5a495540e49d7456732c23f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae040774bd5a495540e49d7456732c23f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_NON_FLUSHABLE_PACKET</b>&#160;&#160;&#160;0x0002</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gae040774bd5a495540e49d7456732c23f">L2CAP_NON_FLUSHABLE_PACKET</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="memdesc:gae040774bd5a495540e49d7456732c23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non Flushable flag. <br /></td></tr>
 <tr class="separator:gae040774bd5a495540e49d7456732c23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadd0b467a62dacef2efdca88ded777ba8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadd0b467a62dacef2efdca88ded777ba8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gadd0b467a62dacef2efdca88ded777ba8">L2CAP_FLUSH_CHANNELS_ALL</a>&#160;&#160;&#160;0xffff</td></tr>
-<tr class="memdesc:gadd0b467a62dacef2efdca88ded777ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used in wiced_bt_l2cap_flush_channel num_to_flush definitions. <br /></td></tr>
-<tr class="separator:gadd0b467a62dacef2efdca88ded777ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d353f91f7c3c2e95134ffcfcb890015"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0d353f91f7c3c2e95134ffcfcb890015"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FLUSH_CHANNELS_GET</b>&#160;&#160;&#160;0x0000</td></tr>
-<tr class="separator:ga0d353f91f7c3c2e95134ffcfcb890015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga972f5c4387bd41dcfaf6cd30bd3d4f5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga972f5c4387bd41dcfaf6cd30bd3d4f5e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga972f5c4387bd41dcfaf6cd30bd3d4f5e">L2CAP_ROLE_PERIPHERAL</a>&#160;&#160;&#160;HCI_ROLE_PERIPHERAL</td></tr>
-<tr class="memdesc:ga972f5c4387bd41dcfaf6cd30bd3d4f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition used for wiced_bt_l2cap_set_desire_role. <br /></td></tr>
-<tr class="separator:ga972f5c4387bd41dcfaf6cd30bd3d4f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c9ea3880806b7c5f06a04c2e7d86227"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1c9ea3880806b7c5f06a04c2e7d86227"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_ROLE_CENTRAL</b>&#160;&#160;&#160;HCI_ROLE_CENTRAL</td></tr>
-<tr class="separator:ga1c9ea3880806b7c5f06a04c2e7d86227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaabfdc8c8aaca18681f322353b098a611"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaabfdc8c8aaca18681f322353b098a611"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#gaabfdc8c8aaca18681f322353b098a611">L2CAP_ROLE_ALLOW_SWITCH</a>&#160;&#160;&#160;0x80</td></tr>
-<tr class="memdesc:gaabfdc8c8aaca18681f322353b098a611"><td class="mdescLeft">&#160;</td><td class="mdescRight">set this bit to allow switch at create conn <br /></td></tr>
-<tr class="separator:gaabfdc8c8aaca18681f322353b098a611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f0bc551ede392bc1d6fe42361d94c84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5f0bc551ede392bc1d6fe42361d94c84"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga5f0bc551ede392bc1d6fe42361d94c84">L2CAP_ROLE_DISALLOW_SWITCH</a>&#160;&#160;&#160;0x40</td></tr>
-<tr class="memdesc:ga5f0bc551ede392bc1d6fe42361d94c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">set this bit to disallow switch at create conn <br /></td></tr>
-<tr class="separator:ga5f0bc551ede392bc1d6fe42361d94c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf9b005022e90c08493bb23d13755c6f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf9b005022e90c08493bb23d13755c6f8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_ROLE_CHECK_SWITCH</b>&#160;&#160;&#160;0xC0</td></tr>
-<tr class="separator:gaf9b005022e90c08493bb23d13755c6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09573a4b41ed7cbefaf7fa14869a4079"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga09573a4b41ed7cbefaf7fa14869a4079"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga09573a4b41ed7cbefaf7fa14869a4079">L2CAP_FCR_CHAN_OPT_BASIC</a>&#160;&#160;&#160;(1 &lt;&lt; L2CAP_FCR_BASIC_MODE)</td></tr>
-<tr class="memdesc:ga09573a4b41ed7cbefaf7fa14869a4079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values for 'allowed_modes' field passed in structure <a class="el" href="structwiced__bt__l2cap__ertm__information__t.html" title="Structure that applications use to create or accept connections with enhanced retransmission mode...">wiced_bt_l2cap_ertm_information_t</a>. <br /></td></tr>
-<tr class="separator:ga09573a4b41ed7cbefaf7fa14869a4079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga878cca21b18459067a518993680ba0cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga878cca21b18459067a518993680ba0cb"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_CHAN_OPT_ERTM</b>&#160;&#160;&#160;(1 &lt;&lt; L2CAP_FCR_ERTM_MODE)</td></tr>
-<tr class="separator:ga878cca21b18459067a518993680ba0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38fc97ee0a99bd9f5265afad780f3385"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga38fc97ee0a99bd9f5265afad780f3385"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_CHAN_OPT_STREAM</b>&#160;&#160;&#160;(1 &lt;&lt; L2CAP_FCR_STREAM_MODE)</td></tr>
-<tr class="separator:ga38fc97ee0a99bd9f5265afad780f3385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb1d3cbd4f7ff91855dc5c643a8f604d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafb1d3cbd4f7ff91855dc5c643a8f604d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_CHAN_OPT_ALL_MASK</b>&#160;&#160;&#160;(<a class="el" href="group__l2cap__data__types.html#ga09573a4b41ed7cbefaf7fa14869a4079">L2CAP_FCR_CHAN_OPT_BASIC</a> | L2CAP_FCR_CHAN_OPT_ERTM | L2CAP_FCR_CHAN_OPT_STREAM)</td></tr>
-<tr class="separator:gafb1d3cbd4f7ff91855dc5c643a8f604d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga526c4ea340fa1eadc1301b3080b6bb41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga526c4ea340fa1eadc1301b3080b6bb41">L2C_INVALID_PSM</a>(psm)&#160;&#160;&#160;(((psm) &amp; 0x0101) != 0x0001)</td></tr>
-<tr class="memdesc:ga526c4ea340fa1eadc1301b3080b6bb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validity check for PSM.  <a href="group__l2cap__data__types.html#ga526c4ea340fa1eadc1301b3080b6bb41">More...</a><br /></td></tr>
+<tr class="memitem:ga6561498074e97ec73b49de963fa69896"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6561498074e97ec73b49de963fa69896"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga6561498074e97ec73b49de963fa69896">L2CAP_FLUSHABLE_PACKET</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="memdesc:ga6561498074e97ec73b49de963fa69896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flushable flag. <br /></td></tr>
+<tr class="separator:ga6561498074e97ec73b49de963fa69896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP PSM</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_PSM_CHECK"></a></p>
+<p>Validity check for PSM. PSM values must be odd. Also, all PSM values must be assigned such that the least significant bit of the most sigificant octet equals zero. </p>
+</div></td></tr>
+<tr class="memitem:ga526c4ea340fa1eadc1301b3080b6bb41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga526c4ea340fa1eadc1301b3080b6bb41"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga526c4ea340fa1eadc1301b3080b6bb41">L2C_INVALID_PSM</a>(psm)&#160;&#160;&#160;(((psm) &amp; 0x0101) != 0x0001)</td></tr>
+<tr class="memdesc:ga526c4ea340fa1eadc1301b3080b6bb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true on invalid PSM. <br /></td></tr>
 <tr class="separator:ga526c4ea340fa1eadc1301b3080b6bb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3d09aad44f9c90015d3e6455a3dbadb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3d09aad44f9c90015d3e6455a3dbadb8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2C_IS_VALID_PSM</b>(psm)&#160;&#160;&#160;(((psm) &amp; 0x0101) == 0x0001)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga3d09aad44f9c90015d3e6455a3dbadb8">L2C_IS_VALID_PSM</a>(psm)&#160;&#160;&#160;(((psm) &amp; 0x0101) == 0x0001)</td></tr>
+<tr class="memdesc:ga3d09aad44f9c90015d3e6455a3dbadb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true on valid PSM. <br /></td></tr>
 <tr class="separator:ga3d09aad44f9c90015d3e6455a3dbadb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09d2c46b10a813c41302e5389e314bbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__data__types.html#ga09d2c46b10a813c41302e5389e314bbe">MINIMIUM_DYNAMIC_LE_PSM</a>&#160;&#160;&#160;0x0080</td></tr>
-<tr class="memdesc:ga09d2c46b10a813c41302e5389e314bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validity check for LE_PSM.  <a href="group__l2cap__data__types.html#ga09d2c46b10a813c41302e5389e314bbe">More...</a><br /></td></tr>
-<tr class="separator:ga09d2c46b10a813c41302e5389e314bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f03cf0e89ea3ac0472e7e0177e5d699"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1f03cf0e89ea3ac0472e7e0177e5d699"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAXIMUM_LE_PSM</b>&#160;&#160;&#160;0x00FF</td></tr>
-<tr class="separator:ga1f03cf0e89ea3ac0472e7e0177e5d699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga032af010a1e5d51fb5e3206be77c01b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga032af010a1e5d51fb5e3206be77c01b3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2C_BLE_INVALID_PSM</b>(le_psm)&#160;&#160;&#160;(!(le_psm) || (le_psm) &gt; MAX_LE_PSM)</td></tr>
-<tr class="separator:ga032af010a1e5d51fb5e3206be77c01b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd075c971c2d6c15bd2f51765053e1c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabd075c971c2d6c15bd2f51765053e1c4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2C_BLE_IS_VALID_PSM</b>(le_psm)&#160;&#160;&#160;(((le_psm) != 0) &amp;&amp; ((le_psm) &lt;= MAX_LE_PSM))</td></tr>
-<tr class="separator:gabd075c971c2d6c15bd2f51765053e1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc2789ceab822845b5e71bb440905f90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc2789ceab822845b5e71bb440905f90"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_BASIC_MODE</b>&#160;&#160;&#160;0x00</td></tr>
-<tr class="separator:adc2789ceab822845b5e71bb440905f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae042e8ea72bf32ba0a3510d2fa97fa0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae042e8ea72bf32ba0a3510d2fa97fa0b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_ERTM_MODE</b>&#160;&#160;&#160;0x03</td></tr>
-<tr class="separator:ae042e8ea72bf32ba0a3510d2fa97fa0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e6c9918ec11fb7d19aac7e96d338fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2e6c9918ec11fb7d19aac7e96d338fd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_FCR_STREAM_MODE</b>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:ac2e6c9918ec11fb7d19aac7e96d338fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP channel configuration</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_CH_CFG_MASK"></a></p>
+<p>L2CAP channel configured field bitmap. Used for <a class="el" href="group__l2cap.html#ga6827dfd644f1172740f9e69c0df06bc9">wiced_bt_l2cap_ch_cfg_bits_t</a> </p>
+</div></td></tr>
 <tr class="memitem:gacbaf7b6dab575ea7ed61eba69097b4ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacbaf7b6dab575ea7ed61eba69097b4ce"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_MTU</b>&#160;&#160;&#160;0x0001</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gacbaf7b6dab575ea7ed61eba69097b4ce">L2CAP_CH_CFG_MASK_MTU</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="memdesc:gacbaf7b6dab575ea7ed61eba69097b4ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">MTU channel configuration bit mask. <br /></td></tr>
 <tr class="separator:gacbaf7b6dab575ea7ed61eba69097b4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed9bbf317cb05ae2e3e420f7a563477a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaed9bbf317cb05ae2e3e420f7a563477a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_QOS</b>&#160;&#160;&#160;0x0002</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaed9bbf317cb05ae2e3e420f7a563477a">L2CAP_CH_CFG_MASK_QOS</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="memdesc:gaed9bbf317cb05ae2e3e420f7a563477a"><td class="mdescLeft">&#160;</td><td class="mdescRight">QOS channel configuration bit mask. <br /></td></tr>
 <tr class="separator:gaed9bbf317cb05ae2e3e420f7a563477a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab0f7c5609c68f3417ff7e6b2ae8f0b2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab0f7c5609c68f3417ff7e6b2ae8f0b2a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_FLUSH_TO</b>&#160;&#160;&#160;0x0004</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab0f7c5609c68f3417ff7e6b2ae8f0b2a">L2CAP_CH_CFG_MASK_FLUSH_TO</a>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="memdesc:gab0f7c5609c68f3417ff7e6b2ae8f0b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush to channel configuration bit mask. <br /></td></tr>
 <tr class="separator:gab0f7c5609c68f3417ff7e6b2ae8f0b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab419d29fa16426b52ab3b25926cec877"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab419d29fa16426b52ab3b25926cec877"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_FCR</b>&#160;&#160;&#160;0x0008</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab419d29fa16426b52ab3b25926cec877">L2CAP_CH_CFG_MASK_FCR</a>&#160;&#160;&#160;0x0008</td></tr>
+<tr class="memdesc:gab419d29fa16426b52ab3b25926cec877"><td class="mdescLeft">&#160;</td><td class="mdescRight">FCR channel configuration bit mask. <br /></td></tr>
 <tr class="separator:gab419d29fa16426b52ab3b25926cec877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88d1a74441d2bdf06ba44dfde36bb184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga88d1a74441d2bdf06ba44dfde36bb184"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_FCS</b>&#160;&#160;&#160;0x0010</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga88d1a74441d2bdf06ba44dfde36bb184">L2CAP_CH_CFG_MASK_FCS</a>&#160;&#160;&#160;0x0010</td></tr>
+<tr class="memdesc:ga88d1a74441d2bdf06ba44dfde36bb184"><td class="mdescLeft">&#160;</td><td class="mdescRight">FCS channel configuration bit mask. <br /></td></tr>
 <tr class="separator:ga88d1a74441d2bdf06ba44dfde36bb184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7377ca83abae385943268fa7567335ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7377ca83abae385943268fa7567335ac"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>L2CAP_CH_CFG_MASK_EXT_FLOW_SPEC</b>&#160;&#160;&#160;0x0020</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga7377ca83abae385943268fa7567335ac">L2CAP_CH_CFG_MASK_EXT_FLOW_SPEC</a>&#160;&#160;&#160;0x0020</td></tr>
+<tr class="memdesc:ga7377ca83abae385943268fa7567335ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended flow specification channel configuration bit mask. <br /></td></tr>
 <tr class="separator:ga7377ca83abae385943268fa7567335ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">L2CAP LE PSM</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p><a class="anchor" id="L2CAP_LE_PSM_CHECK"></a></p>
+<p>Validity check for LE_PSM. Fixed LE_PSMs are in the range 0x0001 - 0x007F. Dynamic LE_PSM are in the range 0x0080 - 0x00FF. The values 0x0000 and 0x0100 - 0xFFFF are reserved. </p>
+</div></td></tr>
+<tr class="memitem:ga09d2c46b10a813c41302e5389e314bbe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga09d2c46b10a813c41302e5389e314bbe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga09d2c46b10a813c41302e5389e314bbe">MINIMIUM_DYNAMIC_LE_PSM</a>&#160;&#160;&#160;0x0080</td></tr>
+<tr class="memdesc:ga09d2c46b10a813c41302e5389e314bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">First application dynamic PSM allowed. <br /></td></tr>
+<tr class="separator:ga09d2c46b10a813c41302e5389e314bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f03cf0e89ea3ac0472e7e0177e5d699"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1f03cf0e89ea3ac0472e7e0177e5d699"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga1f03cf0e89ea3ac0472e7e0177e5d699">MAXIMUM_LE_PSM</a>&#160;&#160;&#160;0x00FF</td></tr>
+<tr class="memdesc:ga1f03cf0e89ea3ac0472e7e0177e5d699"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE PSM range limit. <br /></td></tr>
+<tr class="separator:ga1f03cf0e89ea3ac0472e7e0177e5d699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga032af010a1e5d51fb5e3206be77c01b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga032af010a1e5d51fb5e3206be77c01b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga032af010a1e5d51fb5e3206be77c01b3">L2C_BLE_INVALID_PSM</a>(le_psm)&#160;&#160;&#160;(!(le_psm) || (le_psm) &gt; <a class="el" href="group__l2cap.html#ga1f03cf0e89ea3ac0472e7e0177e5d699">MAXIMUM_LE_PSM</a>)</td></tr>
+<tr class="memdesc:ga032af010a1e5d51fb5e3206be77c01b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true on invalid LE PSM. <br /></td></tr>
+<tr class="separator:ga032af010a1e5d51fb5e3206be77c01b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd075c971c2d6c15bd2f51765053e1c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabd075c971c2d6c15bd2f51765053e1c4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gabd075c971c2d6c15bd2f51765053e1c4">L2C_BLE_IS_VALID_PSM</a>(le_psm)&#160;&#160;&#160;(((le_psm) != 0) &amp;&amp; ((le_psm) &lt;= <a class="el" href="group__l2cap.html#ga1f03cf0e89ea3ac0472e7e0177e5d699">MAXIMUM_LE_PSM</a>))</td></tr>
+<tr class="memdesc:gabd075c971c2d6c15bd2f51765053e1c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true on valid LE PSM. <br /></td></tr>
+<tr class="separator:gabd075c971c2d6c15bd2f51765053e1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga27db6a77d16dcce7c6d81315a389cce2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga27db6a77d16dcce7c6d81315a389cce2"></a>
-typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_chnl_priority_t</b></td></tr>
-<tr class="separator:ga27db6a77d16dcce7c6d81315a389cce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76dd8b7eb804813109217500022f7562"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga76dd8b7eb804813109217500022f7562"></a>
-typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_chnl_data_rate_t</b></td></tr>
-<tr class="separator:ga76dd8b7eb804813109217500022f7562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga773f568a8ebf672c914c807e16f69cd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga773f568a8ebf672c914c807e16f69cd8"></a>
-typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_ch_cfg_bits_t</b></td></tr>
-<tr class="separator:ga773f568a8ebf672c914c807e16f69cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2588ef8bd80c025d5518211131f2f1ae"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a2588ef8bd80c025d5518211131f2f1ae">wiced_bt_l2cap_connected_cback_t</a> )(void *context, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t peer_mtu)</td></tr>
-<tr class="memdesc:a2588ef8bd80c025d5518211131f2f1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection established callback prototype.  <a href="#a2588ef8bd80c025d5518211131f2f1ae">More...</a><br /></td></tr>
-<tr class="separator:a2588ef8bd80c025d5518211131f2f1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeac3842c2ef15178764a3765883af96"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#afeac3842c2ef15178764a3765883af96">wiced_bt_l2cap_disconnect_indication_cback_t</a> )(void *context, uint16_t local_cid, wiced_bool_t ack)</td></tr>
-<tr class="memdesc:afeac3842c2ef15178764a3765883af96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect indication callback prototype.  <a href="#afeac3842c2ef15178764a3765883af96">More...</a><br /></td></tr>
-<tr class="separator:afeac3842c2ef15178764a3765883af96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a252de5fb62958f5f9c66ac86874cfb30"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a252de5fb62958f5f9c66ac86874cfb30">wiced_bt_l2cap_disconnect_confirm_cback_t</a> )(void *context, uint16_t local_cid, uint16_t result)</td></tr>
-<tr class="memdesc:a252de5fb62958f5f9c66ac86874cfb30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect confirm callback prototype.  <a href="#a252de5fb62958f5f9c66ac86874cfb30">More...</a><br /></td></tr>
-<tr class="separator:a252de5fb62958f5f9c66ac86874cfb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65cc6af8ee1725c38ef87c4830f29c90"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a65cc6af8ee1725c38ef87c4830f29c90">wiced_bt_l2cap_data_indication_cback_t</a> )(void *context, uint16_t local_cid, uint8_t *p_buff, uint16_t buf_len)</td></tr>
-<tr class="memdesc:a65cc6af8ee1725c38ef87c4830f29c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data received indication callback prototype.  <a href="#a65cc6af8ee1725c38ef87c4830f29c90">More...</a><br /></td></tr>
-<tr class="separator:a65cc6af8ee1725c38ef87c4830f29c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3892c692c8dd83e9cd5bbc54b6a86c8f"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a3892c692c8dd83e9cd5bbc54b6a86c8f">wiced_bt_l2cap_congestion_status_cback_t</a> )(void *context, uint16_t local_cid, wiced_bool_t congested)</td></tr>
-<tr class="memdesc:a3892c692c8dd83e9cd5bbc54b6a86c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Congestion status callback protype.  <a href="#a3892c692c8dd83e9cd5bbc54b6a86c8f">More...</a><br /></td></tr>
-<tr class="separator:a3892c692c8dd83e9cd5bbc54b6a86c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9c25935483d67848e1c8117520b4e9f"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#af9c25935483d67848e1c8117520b4e9f">wiced_bt_l2cap_tx_complete_cback_t</a> )(void *context, uint16_t local_cid, uint16_t num_sdu)</td></tr>
-<tr class="memdesc:af9c25935483d67848e1c8117520b4e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit complete callback protype.  <a href="#af9c25935483d67848e1c8117520b4e9f">More...</a><br /></td></tr>
-<tr class="separator:af9c25935483d67848e1c8117520b4e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac8fed89de6f1e886838b2217549dbf0"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#aac8fed89de6f1e886838b2217549dbf0">wiced_bt_l2cap_fixed_chnl_cback_t</a> )(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t connected, uint16_t reason, tBT_TRANSPORT transport)</td></tr>
-<tr class="memdesc:aac8fed89de6f1e886838b2217549dbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed channel connected and disconnected.  <a href="#aac8fed89de6f1e886838b2217549dbf0">More...</a><br /></td></tr>
-<tr class="separator:aac8fed89de6f1e886838b2217549dbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4626a9ff45db3cffb062669f197ae5"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#afa4626a9ff45db3cffb062669f197ae5">wiced_bt_l2cap_fixed_data_cback_t</a> )(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t *p_buff, uint16_t buf_len)</td></tr>
-<tr class="memdesc:afa4626a9ff45db3cffb062669f197ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signalling data received.  <a href="#afa4626a9ff45db3cffb062669f197ae5">More...</a><br /></td></tr>
-<tr class="separator:afa4626a9ff45db3cffb062669f197ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67b0127a3d26fddc11c853a08c9ed344"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a67b0127a3d26fddc11c853a08c9ed344">wiced_bt_l2cap_fixed_congestion_status_cback_t</a> )(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t congested)</td></tr>
-<tr class="memdesc:a67b0127a3d26fddc11c853a08c9ed344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Congestion status callback protype.  <a href="#a67b0127a3d26fddc11c853a08c9ed344">More...</a><br /></td></tr>
-<tr class="separator:a67b0127a3d26fddc11c853a08c9ed344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6163e7bdeaa2ca3a39083edd77c67ae"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#ae6163e7bdeaa2ca3a39083edd77c67ae">wiced_bt_l2cap_le_connect_indication_cback_t</a> )(void *context, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t psm, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t mtu_peer)</td></tr>
-<tr class="memdesc:ae6163e7bdeaa2ca3a39083edd77c67ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE Connection indication callback prototype.  <a href="#ae6163e7bdeaa2ca3a39083edd77c67ae">More...</a><br /></td></tr>
-<tr class="separator:ae6163e7bdeaa2ca3a39083edd77c67ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87f8db621ddb192fe2cffdba0ba21fc3"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a87f8db621ddb192fe2cffdba0ba21fc3">wiced_bt_l2cap_le_connect_confirm_cback_t</a> )(void *context, uint16_t local_cid, uint16_t result, uint16_t mtu_peer)</td></tr>
-<tr class="memdesc:a87f8db621ddb192fe2cffdba0ba21fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE Connection confirmation callback prototype.  <a href="#a87f8db621ddb192fe2cffdba0ba21fc3">More...</a><br /></td></tr>
-<tr class="separator:a87f8db621ddb192fe2cffdba0ba21fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad349a752a752b64603b05a3333317ad4"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#ad349a752a752b64603b05a3333317ad4">wiced_bt_l2cap_le_tx_complete_cback_t</a> )(void *context, uint16_t local_cid, uint16_t buf_count)</td></tr>
-<tr class="memdesc:ad349a752a752b64603b05a3333317ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE TX complete callback.  <a href="#ad349a752a752b64603b05a3333317ad4">More...</a><br /></td></tr>
-<tr class="separator:ad349a752a752b64603b05a3333317ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af390c801ec6d33bcbd83602e037bdac7"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#af390c801ec6d33bcbd83602e037bdac7">wiced_bt_l2cap_le_conformance_test_cback_t</a> )(uint16_t)</td></tr>
-<tr class="separator:af390c801ec6d33bcbd83602e037bdac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6827dfd644f1172740f9e69c0df06bc9"><td class="memItemLeft" align="right" valign="top">typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga6827dfd644f1172740f9e69c0df06bc9">wiced_bt_l2cap_ch_cfg_bits_t</a></td></tr>
+<tr class="memdesc:ga6827dfd644f1172740f9e69c0df06bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Channel configuration fields in bit map.  <a href="group__l2cap.html#ga6827dfd644f1172740f9e69c0df06bc9">More...</a><br /></td></tr>
+<tr class="separator:ga6827dfd644f1172740f9e69c0df06bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a287750427b39c4a61220a6f6ce420b"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga5a287750427b39c4a61220a6f6ce420b">wiced_bt_l2cap_connected_cback_t</a> )(<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint16_t local_cid, uint16_t peer_mtu)</td></tr>
+<tr class="memdesc:ga5a287750427b39c4a61220a6f6ce420b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection established callback prototype.  <a href="group__l2cap.html#ga5a287750427b39c4a61220a6f6ce420b">More...</a><br /></td></tr>
+<tr class="separator:ga5a287750427b39c4a61220a6f6ce420b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c901decc2fe828ce224111e25aa8fcf"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga6c901decc2fe828ce224111e25aa8fcf">wiced_bt_l2cap_disconnect_indication_cback_t</a> )(uint16_t local_cid, uint16_t reason, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> ack)</td></tr>
+<tr class="memdesc:ga6c901decc2fe828ce224111e25aa8fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect indication callback prototype.  <a href="group__l2cap.html#ga6c901decc2fe828ce224111e25aa8fcf">More...</a><br /></td></tr>
+<tr class="separator:ga6c901decc2fe828ce224111e25aa8fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3c84f91c5d343a0653fd4ad9bf9f37f"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gac3c84f91c5d343a0653fd4ad9bf9f37f">wiced_bt_l2cap_disconnect_confirm_cback_t</a> )(uint16_t local_cid, uint16_t result)</td></tr>
+<tr class="memdesc:gac3c84f91c5d343a0653fd4ad9bf9f37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect confirm callback prototype.  <a href="group__l2cap.html#gac3c84f91c5d343a0653fd4ad9bf9f37f">More...</a><br /></td></tr>
+<tr class="separator:gac3c84f91c5d343a0653fd4ad9bf9f37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe8b2098ee86de7fcf7764547b6bce79"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gafe8b2098ee86de7fcf7764547b6bce79">wiced_bt_l2cap_data_indication_cback_t</a> )(uint16_t local_cid, <a class="el" href="structt_d_r_b.html">tDRB</a> *p_drb)</td></tr>
+<tr class="memdesc:gafe8b2098ee86de7fcf7764547b6bce79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data received indication callback prototype.  <a href="group__l2cap.html#gafe8b2098ee86de7fcf7764547b6bce79">More...</a><br /></td></tr>
+<tr class="separator:gafe8b2098ee86de7fcf7764547b6bce79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7dabb2ff4388f140dcf31d9c7c6fd3e"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaa7dabb2ff4388f140dcf31d9c7c6fd3e">wiced_bt_l2cap_tx_complete_cback_t</a> )(uint16_t local_cid, void *p_data)</td></tr>
+<tr class="memdesc:gaa7dabb2ff4388f140dcf31d9c7c6fd3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit complete callback protype.  <a href="group__l2cap.html#gaa7dabb2ff4388f140dcf31d9c7c6fd3e">More...</a><br /></td></tr>
+<tr class="separator:gaa7dabb2ff4388f140dcf31d9c7c6fd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6d91701b0e489d695e3d354e2b16ce0"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gae6d91701b0e489d695e3d354e2b16ce0">wiced_bt_l2cap_fixed_chnl_cback_t</a> )(<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> connected, uint16_t reason, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
+<tr class="memdesc:gae6d91701b0e489d695e3d354e2b16ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed channel connected and disconnected.  <a href="group__l2cap.html#gae6d91701b0e489d695e3d354e2b16ce0">More...</a><br /></td></tr>
+<tr class="separator:gae6d91701b0e489d695e3d354e2b16ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f0cf2c1bfb6fcdb2a9fb81dc4379a68"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga4f0cf2c1bfb6fcdb2a9fb81dc4379a68">wiced_bt_l2cap_fixed_data_cback_t</a> )(<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memdesc:ga4f0cf2c1bfb6fcdb2a9fb81dc4379a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signalling data received.  <a href="group__l2cap.html#ga4f0cf2c1bfb6fcdb2a9fb81dc4379a68">More...</a><br /></td></tr>
+<tr class="separator:ga4f0cf2c1bfb6fcdb2a9fb81dc4379a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6d4fc543681c92c4603b09bb53028d3"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab6d4fc543681c92c4603b09bb53028d3">wiced_bt_l2cap_le_connect_indication_cback_t</a> )(<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint16_t local_cid, uint16_t psm, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t mtu_peer)</td></tr>
+<tr class="memdesc:gab6d4fc543681c92c4603b09bb53028d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE Connection indication callback prototype.  <a href="group__l2cap.html#gab6d4fc543681c92c4603b09bb53028d3">More...</a><br /></td></tr>
+<tr class="separator:gab6d4fc543681c92c4603b09bb53028d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad44bf8abf4723fb1a9b720b05aba68c0"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gad44bf8abf4723fb1a9b720b05aba68c0">wiced_bt_l2cap_drb_release_cb</a> )(<a class="el" href="structt_d_r_b.html">tDRB</a> *p_drb)</td></tr>
+<tr class="memdesc:gad44bf8abf4723fb1a9b720b05aba68c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">User DRB may be released callback prototype.  <a href="group__l2cap.html#gad44bf8abf4723fb1a9b720b05aba68c0">More...</a><br /></td></tr>
+<tr class="separator:gad44bf8abf4723fb1a9b720b05aba68c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7576c9c9a3c78731aed60341d44f135"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaa7576c9c9a3c78731aed60341d44f135">wiced_bt_l2cap_le_connect_confirm_cback_t</a> )(uint16_t local_cid, uint16_t result, uint16_t mtu_peer)</td></tr>
+<tr class="memdesc:gaa7576c9c9a3c78731aed60341d44f135"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE Connection confirmation callback prototype.  <a href="group__l2cap.html#gaa7576c9c9a3c78731aed60341d44f135">More...</a><br /></td></tr>
+<tr class="separator:gaa7576c9c9a3c78731aed60341d44f135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga174727735d78c20303eb74ef7e1acd77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga174727735d78c20303eb74ef7e1acd77"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga174727735d78c20303eb74ef7e1acd77">wiced_bt_l2cap_ecrb_connect_ind</a> )(<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> peer_addr, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, uint16_t psm, <a class="el" href="group__bt__types.html#gaff3eb04924fbda24d4efd4285c7da1bc">wiced_bt_ecrb_cid_list_t</a> lcids, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t peer_mtu)</td></tr>
+<tr class="memdesc:ga174727735d78c20303eb74ef7e1acd77"><td class="mdescLeft">&#160;</td><td class="mdescRight">ECRB Application callback for incoming connection requests. <br /></td></tr>
+<tr class="separator:ga174727735d78c20303eb74ef7e1acd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bdd755812050874f874464504bfbe19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8bdd755812050874f874464504bfbe19"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga8bdd755812050874f874464504bfbe19">wiced_bt_l2cap_ecrb_confirm_cb</a> )(uint16_t lcid, uint16_t result, uint16_t peer_mtu)</td></tr>
+<tr class="memdesc:ga8bdd755812050874f874464504bfbe19"><td class="mdescLeft">&#160;</td><td class="mdescRight">ECRB Application callback for outging connection confirms. <br /></td></tr>
+<tr class="separator:ga8bdd755812050874f874464504bfbe19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7df986d2e4418904604b110bc2c6ddf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7df986d2e4418904604b110bc2c6ddf5"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga7df986d2e4418904604b110bc2c6ddf5">wiced_bt_l2cap_ecrb_mtu_changed_cb</a> )(uint16_t lcid, uint16_t new_mtu, uint16_t new_mps)</td></tr>
+<tr class="memdesc:ga7df986d2e4418904604b110bc2c6ddf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">ECRB Application callback for channel MTU size change. <br /></td></tr>
+<tr class="separator:ga7df986d2e4418904604b110bc2c6ddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga4d963f266263672e7a672c27a21cc711"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga4d963f266263672e7a672c27a21cc711">wiced_bt_l2cap_get_current_config</a> (uint16_t lcid, <a class="el" href="structwiced__bt__l2cap__cfg__information__t.html">wiced_bt_l2cap_cfg_information_t</a> **pp_our_cfg, wiced_bt_l2cap_ch_cfg_bits_t *p_our_cfg_bits, <a class="el" href="structwiced__bt__l2cap__cfg__information__t.html">wiced_bt_l2cap_cfg_information_t</a> **pp_peer_cfg, wiced_bt_l2cap_ch_cfg_bits_t *p_peer_cfg_bits)</td></tr>
-<tr class="memdesc:ga4d963f266263672e7a672c27a21cc711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_current_config.  <a href="group__l2cap__api__functions.html#ga4d963f266263672e7a672c27a21cc711">More...</a><br /></td></tr>
+<tr class="memitem:a2f02318bf4cb6c31e2ae887e3aa71762"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__l2c_8h.html#a2f02318bf4cb6c31e2ae887e3aa71762">wiced_bt_l2cap_get_num_queued_tx_packets</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint16_t lcid, int *p_fragments_with_controller)</td></tr>
+<tr class="memdesc:a2f02318bf4cb6c31e2ae887e3aa71762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to get the number of packets queued to tx.  <a href="#a2f02318bf4cb6c31e2ae887e3aa71762">More...</a><br /></td></tr>
+<tr class="separator:a2f02318bf4cb6c31e2ae887e3aa71762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:gae9a06f8b983a720ef8f052bbaa823ad6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gae9a06f8b983a720ef8f052bbaa823ad6">wiced_bt_l2cap_register_fixed_channel</a> (uint16_t fixed_cid, <a class="el" href="structwiced__bt__l2cap__fixed__chnl__reg__t.html">wiced_bt_l2cap_fixed_chnl_reg_t</a> *p_freg)</td></tr>
+<tr class="memdesc:gae9a06f8b983a720ef8f052bbaa823ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a fixed channel.  <a href="group__l2cap.html#gae9a06f8b983a720ef8f052bbaa823ad6">More...</a><br /></td></tr>
+<tr class="separator:gae9a06f8b983a720ef8f052bbaa823ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6c839df6fd0717659e0c1758c44f9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab6c839df6fd0717659e0c1758c44f9e6">wiced_bt_l2cap_deregister_fixed_channel</a> (uint16_t fixed_cid)</td></tr>
+<tr class="memdesc:gab6c839df6fd0717659e0c1758c44f9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-register a fixed channel.  <a href="group__l2cap.html#gab6c839df6fd0717659e0c1758c44f9e6">More...</a><br /></td></tr>
+<tr class="separator:gab6c839df6fd0717659e0c1758c44f9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga306455f38d2becd14fdaa0c2298aa511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga306455f38d2becd14fdaa0c2298aa511">wiced_bt_l2cap_connect_fixed_chnl</a> (uint16_t fixed_cid, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, <a class="el" href="group__bt__types.html#ga97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> ble_addr_type)</td></tr>
+<tr class="memdesc:ga306455f38d2becd14fdaa0c2298aa511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect an fixed signalling channel to a remote device.  <a href="group__l2cap.html#ga306455f38d2becd14fdaa0c2298aa511">More...</a><br /></td></tr>
+<tr class="separator:ga306455f38d2becd14fdaa0c2298aa511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaac3977d50dff78f8cf766a5921c784a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaaac3977d50dff78f8cf766a5921c784a">wiced_bt_l2cap_send_fixed_chnl_data</a> (uint16_t fixed_cid, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memdesc:gaaac3977d50dff78f8cf766a5921c784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data on a fixed signalling channel.  <a href="group__l2cap.html#gaaac3977d50dff78f8cf766a5921c784a">More...</a><br /></td></tr>
+<tr class="separator:gaaac3977d50dff78f8cf766a5921c784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbddfd71d35ac472aa4116d9291a09e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gafbddfd71d35ac472aa4116d9291a09e1">wiced_bt_l2cap_remove_fixed_chnl</a> (uint16_t fixed_cid, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda)</td></tr>
+<tr class="memdesc:gafbddfd71d35ac472aa4116d9291a09e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a fixed channel to a remote device.  <a href="group__l2cap.html#gafbddfd71d35ac472aa4116d9291a09e1">More...</a><br /></td></tr>
+<tr class="separator:gafbddfd71d35ac472aa4116d9291a09e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga728a05e414212f3fa6a62b602d0eccb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga728a05e414212f3fa6a62b602d0eccb9">wiced_bt_l2cap_set_fixed_channel_timeout</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda, uint16_t fixed_cid, uint16_t idle_timeout)</td></tr>
+<tr class="memdesc:ga728a05e414212f3fa6a62b602d0eccb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to set the idle timeout for a fixed channel.  <a href="group__l2cap.html#ga728a05e414212f3fa6a62b602d0eccb9">More...</a><br /></td></tr>
+<tr class="separator:ga728a05e414212f3fa6a62b602d0eccb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19fedef3a0ab3ec2b155aefd73d4eb9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga19fedef3a0ab3ec2b155aefd73d4eb9e">wiced_bt_l2cap_ecrb_register</a> (uint16_t psm, <a class="el" href="structwiced__bt__l2cap__ecrb__cb__ptrs__t.html">wiced_bt_l2cap_ecrb_cb_ptrs_t</a> *p_ecrb_callbacks)</td></tr>
+<tr class="memdesc:ga19fedef3a0ab3ec2b155aefd73d4eb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Application calls this function to register support for enhanced credit-based channels.  <a href="group__l2cap.html#ga19fedef3a0ab3ec2b155aefd73d4eb9e">More...</a><br /></td></tr>
+<tr class="separator:ga19fedef3a0ab3ec2b155aefd73d4eb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga759cb1c76bec995a078fde74b3663deb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga759cb1c76bec995a078fde74b3663deb">wiced_bt_l2cap_ecrb_deregister</a> (uint16_t psm)</td></tr>
+<tr class="memdesc:ga759cb1c76bec995a078fde74b3663deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Application calls this function to deregister support for enhanced credit-based channels.  <a href="group__l2cap.html#ga759cb1c76bec995a078fde74b3663deb">More...</a><br /></td></tr>
+<tr class="separator:ga759cb1c76bec995a078fde74b3663deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga002c9dd41a84dffb8c9f8330be128e9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga002c9dd41a84dffb8c9f8330be128e9d">wiced_bt_l2cap_ecrb_connect_req</a> (uint16_t psm, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, <a class="el" href="group__bt__types.html#ga97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> bd_addr_type, <a class="el" href="group__wicedbt___device_management.html#ga4309edd4a7a1c7f30bdc57d8107e84ab">wiced_bt_ble_conn_mode_t</a> conn_mode, uint16_t our_rx_mtu, uint16_t our_rx_mps, int num_channels, <a class="el" href="structt_d_r_b.html">tDRB</a> **p_rx_drb_list, <a class="el" href="group__bt__types.html#gaff3eb04924fbda24d4efd4285c7da1bc">wiced_bt_ecrb_cid_list_t</a> lcid_list)</td></tr>
+<tr class="memdesc:ga002c9dd41a84dffb8c9f8330be128e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to create up to 5 credit-based L2CAP connections on the same PSM.  <a href="group__l2cap.html#ga002c9dd41a84dffb8c9f8330be128e9d">More...</a><br /></td></tr>
+<tr class="separator:ga002c9dd41a84dffb8c9f8330be128e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga536ec7f339490e662fffcd11a2525a5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga536ec7f339490e662fffcd11a2525a5d">wiced_bt_l2cap_ecrb_ConnectRsp</a> (uint16_t result, uint8_t trans_id, int16_t our_rx_mtu, uint16_t our_rx_mps, <a class="el" href="group__bt__types.html#gaff3eb04924fbda24d4efd4285c7da1bc">wiced_bt_ecrb_cid_list_t</a> lcid_list, <a class="el" href="structt_d_r_b.html">tDRB</a> **p_rx_drb_list)</td></tr>
+<tr class="memdesc:ga536ec7f339490e662fffcd11a2525a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to accept incoming Enhanced Credit-based L2CAP channel establishment, for which they had gotten a connect indication callback.  <a href="group__l2cap.html#ga536ec7f339490e662fffcd11a2525a5d">More...</a><br /></td></tr>
+<tr class="separator:ga536ec7f339490e662fffcd11a2525a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ca1d8190c10328fb06b68573fb88ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga1ca1d8190c10328fb06b68573fb88ac3">wiced_bt_l2cap_ecrb_reconfigure</a> (uint16_t new_rx_mtu, int16_t new_rx_mps, int num_channels, <a class="el" href="group__bt__types.html#gaff3eb04924fbda24d4efd4285c7da1bc">wiced_bt_ecrb_cid_list_t</a> lcid_list, <a class="el" href="structt_d_r_b.html">tDRB</a> **p_rx_drb_list)</td></tr>
+<tr class="memdesc:ga1ca1d8190c10328fb06b68573fb88ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to reconfigure the MTU and or MPS of Enhanced Credit-based L2CAP channels.  <a href="group__l2cap.html#ga1ca1d8190c10328fb06b68573fb88ac3">More...</a><br /></td></tr>
+<tr class="separator:ga1ca1d8190c10328fb06b68573fb88ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d963f266263672e7a672c27a21cc711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga4d963f266263672e7a672c27a21cc711">wiced_bt_l2cap_get_current_config</a> (uint16_t lcid, <a class="el" href="structwiced__bt__l2cap__cfg__information__t.html">wiced_bt_l2cap_cfg_information_t</a> **pp_our_cfg, <a class="el" href="group__l2cap.html#ga6827dfd644f1172740f9e69c0df06bc9">wiced_bt_l2cap_ch_cfg_bits_t</a> *p_our_cfg_bits, <a class="el" href="structwiced__bt__l2cap__cfg__information__t.html">wiced_bt_l2cap_cfg_information_t</a> **pp_peer_cfg, <a class="el" href="group__l2cap.html#ga6827dfd644f1172740f9e69c0df06bc9">wiced_bt_l2cap_ch_cfg_bits_t</a> *p_peer_cfg_bits)</td></tr>
+<tr class="memdesc:ga4d963f266263672e7a672c27a21cc711"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns configurations of L2CAP channel.  <a href="group__l2cap.html#ga4d963f266263672e7a672c27a21cc711">More...</a><br /></td></tr>
 <tr class="separator:ga4d963f266263672e7a672c27a21cc711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c33ee7a4034a4dbdb33d527f42f6606"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606">wiced_bt_l2cap_register</a> (uint16_t psm, <a class="el" href="structwiced__bt__l2cap__appl__information__t.html">wiced_bt_l2cap_appl_information_t</a> *p_cb_information, void *context)</td></tr>
-<tr class="memdesc:ga3c33ee7a4034a4dbdb33d527f42f6606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_register.  <a href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606">More...</a><br /></td></tr>
-<tr class="separator:ga3c33ee7a4034a4dbdb33d527f42f6606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c7c609b52d8cc676006e7a9fc28f8f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga4c7c609b52d8cc676006e7a9fc28f8f5">wiced_bt_l2cap_deregister</a> (uint16_t psm)</td></tr>
-<tr class="memdesc:ga4c7c609b52d8cc676006e7a9fc28f8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_deregister.  <a href="group__l2cap__api__functions.html#ga4c7c609b52d8cc676006e7a9fc28f8f5">More...</a><br /></td></tr>
+<tr class="memitem:gabb82303005eb9c2c60358f49c3308455"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gabb82303005eb9c2c60358f49c3308455">wiced_bt_l2cap_register</a> (uint16_t psm, <a class="el" href="structwiced__bt__l2cap__appl__information__t.html">wiced_bt_l2cap_appl_information_t</a> *p_cb_information)</td></tr>
+<tr class="memdesc:gabb82303005eb9c2c60358f49c3308455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other layers call this function to register for L2CAP services.  <a href="group__l2cap.html#gabb82303005eb9c2c60358f49c3308455">More...</a><br /></td></tr>
+<tr class="separator:gabb82303005eb9c2c60358f49c3308455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c7c609b52d8cc676006e7a9fc28f8f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga4c7c609b52d8cc676006e7a9fc28f8f5">wiced_bt_l2cap_deregister</a> (uint16_t psm)</td></tr>
+<tr class="memdesc:ga4c7c609b52d8cc676006e7a9fc28f8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other layers call this function to deregister for L2CAP services.  <a href="group__l2cap.html#ga4c7c609b52d8cc676006e7a9fc28f8f5">More...</a><br /></td></tr>
 <tr class="separator:ga4c7c609b52d8cc676006e7a9fc28f8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cf452fa369a74b725afe2bf2917abbb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga6cf452fa369a74b725afe2bf2917abbb">wiced_bt_l2cap_allocate_psm</a> (void)</td></tr>
-<tr class="memdesc:ga6cf452fa369a74b725afe2bf2917abbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_allocate_psm.  <a href="group__l2cap__api__functions.html#ga6cf452fa369a74b725afe2bf2917abbb">More...</a><br /></td></tr>
+<tr class="memitem:ga6cf452fa369a74b725afe2bf2917abbb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga6cf452fa369a74b725afe2bf2917abbb">wiced_bt_l2cap_allocate_psm</a> (void)</td></tr>
+<tr class="memdesc:ga6cf452fa369a74b725afe2bf2917abbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other layers call this function to find an unused PSM for L2CAP services.  <a href="group__l2cap.html#ga6cf452fa369a74b725afe2bf2917abbb">More...</a><br /></td></tr>
 <tr class="separator:ga6cf452fa369a74b725afe2bf2917abbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacde05b0107e2d06bc85d144100751cf3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gacde05b0107e2d06bc85d144100751cf3">wiced_bt_l2cap_connect_req</a> (uint16_t psm, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, <a class="el" href="structwiced__bt__l2cap__ertm__information__t.html">wiced_bt_l2cap_ertm_information_t</a> *p_ertm_information)</td></tr>
-<tr class="memdesc:gacde05b0107e2d06bc85d144100751cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_connect_req.  <a href="group__l2cap__api__functions.html#gacde05b0107e2d06bc85d144100751cf3">More...</a><br /></td></tr>
-<tr class="separator:gacde05b0107e2d06bc85d144100751cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga775fccf29157fa62d30389fea8a4e703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga775fccf29157fa62d30389fea8a4e703">wiced_bt_l2cap_ertm_enable</a> (void)</td></tr>
-<tr class="memdesc:ga775fccf29157fa62d30389fea8a4e703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_ertm_enable.  <a href="group__l2cap__api__functions.html#ga775fccf29157fa62d30389fea8a4e703">More...</a><br /></td></tr>
-<tr class="separator:ga775fccf29157fa62d30389fea8a4e703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73269955273cc7aace17539843b8489a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga73269955273cc7aace17539843b8489a">wiced_bt_l2cap_ertm_connect_req</a> (uint16_t psm, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, <a class="el" href="structwiced__bt__l2cap__ertm__information__t.html">wiced_bt_l2cap_ertm_information_t</a> *p_ertm_information)</td></tr>
-<tr class="memdesc:ga73269955273cc7aace17539843b8489a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_ertm_connect_req.  <a href="group__l2cap__api__functions.html#ga73269955273cc7aace17539843b8489a">More...</a><br /></td></tr>
-<tr class="separator:ga73269955273cc7aace17539843b8489a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdd50150646f5c2b687cc631c10086f8"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gacdd50150646f5c2b687cc631c10086f8">wiced_bt_l2cap_disconnect_req</a> (uint16_t cid)</td></tr>
-<tr class="memdesc:gacdd50150646f5c2b687cc631c10086f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_disconnect_req.  <a href="group__l2cap__api__functions.html#gacdd50150646f5c2b687cc631c10086f8">More...</a><br /></td></tr>
+<tr class="memitem:gacdd50150646f5c2b687cc631c10086f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gacdd50150646f5c2b687cc631c10086f8">wiced_bt_l2cap_disconnect_req</a> (uint16_t cid)</td></tr>
+<tr class="memdesc:gacdd50150646f5c2b687cc631c10086f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to disconnect a channel.  <a href="group__l2cap.html#gacdd50150646f5c2b687cc631c10086f8">More...</a><br /></td></tr>
 <tr class="separator:gacdd50150646f5c2b687cc631c10086f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga65566b353208f4de37cc91625a4abcbf"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga65566b353208f4de37cc91625a4abcbf">wiced_bt_l2cap_disconnect_rsp</a> (uint16_t cid)</td></tr>
-<tr class="memdesc:ga65566b353208f4de37cc91625a4abcbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_disconnect_rsp.  <a href="group__l2cap__api__functions.html#ga65566b353208f4de37cc91625a4abcbf">More...</a><br /></td></tr>
+<tr class="memitem:ga65566b353208f4de37cc91625a4abcbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga65566b353208f4de37cc91625a4abcbf">wiced_bt_l2cap_disconnect_rsp</a> (uint16_t cid)</td></tr>
+<tr class="memdesc:ga65566b353208f4de37cc91625a4abcbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to acknowledge the disconnection of a channel.  <a href="group__l2cap.html#ga65566b353208f4de37cc91625a4abcbf">More...</a><br /></td></tr>
 <tr class="separator:ga65566b353208f4de37cc91625a4abcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2cd224a6bc467d85d853540f8abdec5e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga2cd224a6bc467d85d853540f8abdec5e">wiced_bt_l2cap_data_write</a> (uint16_t cid, uint8_t *p_buf, uint16_t buf_len, uint16_t flags)</td></tr>
-<tr class="memdesc:ga2cd224a6bc467d85d853540f8abdec5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_data_write.  <a href="group__l2cap__api__functions.html#ga2cd224a6bc467d85d853540f8abdec5e">More...</a><br /></td></tr>
+<tr class="memitem:ga2cd224a6bc467d85d853540f8abdec5e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga2cd224a6bc467d85d853540f8abdec5e">wiced_bt_l2cap_data_write</a> (uint16_t cid, uint8_t *p_buf, uint16_t buf_len, uint16_t flags)</td></tr>
+<tr class="memdesc:ga2cd224a6bc467d85d853540f8abdec5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to write data with extended.  <a href="group__l2cap.html#ga2cd224a6bc467d85d853540f8abdec5e">More...</a><br /></td></tr>
 <tr class="separator:ga2cd224a6bc467d85d853540f8abdec5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff27f5b67e8050fe84916d3a67006a50"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gaff27f5b67e8050fe84916d3a67006a50">wiced_bt_l2cap_set_idle_timeout</a> (uint16_t cid, uint16_t timeout, wiced_bool_t is_global)</td></tr>
-<tr class="memdesc:gaff27f5b67e8050fe84916d3a67006a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_idle_timeout.  <a href="group__l2cap__api__functions.html#gaff27f5b67e8050fe84916d3a67006a50">More...</a><br /></td></tr>
+<tr class="memitem:gaff27f5b67e8050fe84916d3a67006a50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaff27f5b67e8050fe84916d3a67006a50">wiced_bt_l2cap_set_idle_timeout</a> (uint16_t cid, uint16_t timeout, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> is_global)</td></tr>
+<tr class="memdesc:gaff27f5b67e8050fe84916d3a67006a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to set the idle timeout for a connection, or for all future connections.  <a href="group__l2cap.html#gaff27f5b67e8050fe84916d3a67006a50">More...</a><br /></td></tr>
 <tr class="separator:gaff27f5b67e8050fe84916d3a67006a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaecbc344d5c60addbe1307ea11e64b09d"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gaecbc344d5c60addbe1307ea11e64b09d">wiced_bt_l2cap_set_idle_timeout_by_bd_addr</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t timeout, tBT_TRANSPORT transport)</td></tr>
-<tr class="memdesc:gaecbc344d5c60addbe1307ea11e64b09d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_idle_timeout_by_bd_addr.  <a href="group__l2cap__api__functions.html#gaecbc344d5c60addbe1307ea11e64b09d">More...</a><br /></td></tr>
-<tr class="separator:gaecbc344d5c60addbe1307ea11e64b09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae063bb78235a75f6c9439a73bd4ca12f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gae063bb78235a75f6c9439a73bd4ca12f">wiced_bt_l2cap_set_trace_level</a> (uint8_t trace_level)</td></tr>
-<tr class="memdesc:gae063bb78235a75f6c9439a73bd4ca12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_trace_level.  <a href="group__l2cap__api__functions.html#gae063bb78235a75f6c9439a73bd4ca12f">More...</a><br /></td></tr>
-<tr class="separator:gae063bb78235a75f6c9439a73bd4ca12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1be60582ea9b01e00b5441d8bfe2f279"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga1be60582ea9b01e00b5441d8bfe2f279">wiced_bt_l2cap_set_desire_role</a> (uint8_t new_role)</td></tr>
-<tr class="memdesc:ga1be60582ea9b01e00b5441d8bfe2f279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_desire_role.  <a href="group__l2cap__api__functions.html#ga1be60582ea9b01e00b5441d8bfe2f279">More...</a><br /></td></tr>
-<tr class="separator:ga1be60582ea9b01e00b5441d8bfe2f279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga62269df07fdeca67e86b7b5dd36a725d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga62269df07fdeca67e86b7b5dd36a725d">wiced_bt_l2cap_flush_channel</a> (uint16_t lcid, uint16_t num_to_flush)</td></tr>
-<tr class="memdesc:ga62269df07fdeca67e86b7b5dd36a725d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_flush_channel.  <a href="group__l2cap__api__functions.html#ga62269df07fdeca67e86b7b5dd36a725d">More...</a><br /></td></tr>
-<tr class="separator:ga62269df07fdeca67e86b7b5dd36a725d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac1053b5aa5412818516097c8295f90d1"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gac1053b5aa5412818516097c8295f90d1">wiced_bt_l2cap_set_acl_priority</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t priority)</td></tr>
-<tr class="memdesc:gac1053b5aa5412818516097c8295f90d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_acl_priority.  <a href="group__l2cap__api__functions.html#gac1053b5aa5412818516097c8295f90d1">More...</a><br /></td></tr>
-<tr class="separator:gac1053b5aa5412818516097c8295f90d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3c2e5eaaa0b399dbdbebbc41a07fb8e4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga3c2e5eaaa0b399dbdbebbc41a07fb8e4">wiced_bt_l2cap_set_acl_priority_ext</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t priority, uint8_t direction)</td></tr>
-<tr class="memdesc:ga3c2e5eaaa0b399dbdbebbc41a07fb8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_acl_priority_ext.  <a href="group__l2cap__api__functions.html#ga3c2e5eaaa0b399dbdbebbc41a07fb8e4">More...</a><br /></td></tr>
-<tr class="separator:ga3c2e5eaaa0b399dbdbebbc41a07fb8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga742bb079aba66487a86cee6e309681ef"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga742bb079aba66487a86cee6e309681ef">wiced_bt_l2cap_flow_control</a> (uint16_t cid, wiced_bool_t data_enabled)</td></tr>
-<tr class="memdesc:ga742bb079aba66487a86cee6e309681ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_flow_control.  <a href="group__l2cap__api__functions.html#ga742bb079aba66487a86cee6e309681ef">More...</a><br /></td></tr>
-<tr class="separator:ga742bb079aba66487a86cee6e309681ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab898add922fd24505677d647683edcdd"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gab898add922fd24505677d647683edcdd">wiced_bt_l2cap_set_tx_priority</a> (uint16_t cid, wiced_bt_l2cap_chnl_priority_t priority)</td></tr>
-<tr class="memdesc:gab898add922fd24505677d647683edcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_tx_priority.  <a href="group__l2cap__api__functions.html#gab898add922fd24505677d647683edcdd">More...</a><br /></td></tr>
-<tr class="separator:gab898add922fd24505677d647683edcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4c55891bf59c40eee6e8d809e1c6e76a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga4c55891bf59c40eee6e8d809e1c6e76a">wiced_bt_l2cap_set_flush_timeout</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t flush_timeout)</td></tr>
-<tr class="memdesc:ga4c55891bf59c40eee6e8d809e1c6e76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_flush_timeout.  <a href="group__l2cap__api__functions.html#ga4c55891bf59c40eee6e8d809e1c6e76a">More...</a><br /></td></tr>
-<tr class="separator:ga4c55891bf59c40eee6e8d809e1c6e76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04cf5fd660b163ba8bbaa82d01e36871"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga04cf5fd660b163ba8bbaa82d01e36871">wiced_bt_l2cap_set_chnl_flushability</a> (uint16_t cid, wiced_bool_t is_flushable)</td></tr>
-<tr class="memdesc:ga04cf5fd660b163ba8bbaa82d01e36871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_set_chnl_flushability.  <a href="group__l2cap__api__functions.html#ga04cf5fd660b163ba8bbaa82d01e36871">More...</a><br /></td></tr>
-<tr class="separator:ga04cf5fd660b163ba8bbaa82d01e36871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae099861fe24b11a8f99029410190f120"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gae099861fe24b11a8f99029410190f120">wiced_bt_l2cap_get_peer_features</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint32_t *p_ext_feat, uint8_t *p_chnl_mask)</td></tr>
-<tr class="memdesc:gae099861fe24b11a8f99029410190f120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_peer_features.  <a href="group__l2cap__api__functions.html#gae099861fe24b11a8f99029410190f120">More...</a><br /></td></tr>
-<tr class="separator:gae099861fe24b11a8f99029410190f120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebb8e6a7ac8add5164c86871af99747e"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gaebb8e6a7ac8add5164c86871af99747e">wiced_bt_l2cap_get_bdaddrby_handle</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
-<tr class="memdesc:gaebb8e6a7ac8add5164c86871af99747e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_bdaddrby_handle.  <a href="group__l2cap__api__functions.html#gaebb8e6a7ac8add5164c86871af99747e">More...</a><br /></td></tr>
+<tr class="memitem:ga9834af87f6f31578b7095bdb4e55e459"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga9834af87f6f31578b7095bdb4e55e459">wiced_bt_l2cap_set_idle_timeout_by_bd_addr</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint16_t timeout, <a class="el" href="group__bt__types.html#gae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
+<tr class="memdesc:ga9834af87f6f31578b7095bdb4e55e459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to set the idle timeout for a connection.  <a href="group__l2cap.html#ga9834af87f6f31578b7095bdb4e55e459">More...</a><br /></td></tr>
+<tr class="separator:ga9834af87f6f31578b7095bdb4e55e459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebb8e6a7ac8add5164c86871af99747e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaebb8e6a7ac8add5164c86871af99747e">wiced_bt_l2cap_get_bdaddrby_handle</a> (uint16_t handle, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr)</td></tr>
+<tr class="memdesc:gaebb8e6a7ac8add5164c86871af99747e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get BD address for the given HCI handle.  <a href="group__l2cap.html#gaebb8e6a7ac8add5164c86871af99747e">More...</a><br /></td></tr>
 <tr class="separator:gaebb8e6a7ac8add5164c86871af99747e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05e979aa160f02231051e0097f374239"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga05e979aa160f02231051e0097f374239">wiced_bt_l2cap_get_handleby_bdaddr</a> (BD_ADDR peer_bda)</td></tr>
-<tr class="memdesc:ga05e979aa160f02231051e0097f374239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_handleby_bdaddr.  <a href="group__l2cap__api__functions.html#ga05e979aa160f02231051e0097f374239">More...</a><br /></td></tr>
-<tr class="separator:ga05e979aa160f02231051e0097f374239"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0c11cd1ed947e93099670907c5cf353d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga0c11cd1ed947e93099670907c5cf353d">wiced_bt_l2cap_get_chnl_fcr_mode</a> (uint16_t lcid)</td></tr>
-<tr class="memdesc:ga0c11cd1ed947e93099670907c5cf353d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_chnl_fcr_mode.  <a href="group__l2cap__api__functions.html#ga0c11cd1ed947e93099670907c5cf353d">More...</a><br /></td></tr>
-<tr class="separator:ga0c11cd1ed947e93099670907c5cf353d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28268b114d35484254e29696a165f72a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga28268b114d35484254e29696a165f72a">wiced_bt_l2cap_cancel_ble_connect_req</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda)</td></tr>
-<tr class="memdesc:ga28268b114d35484254e29696a165f72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_cancel_ble_connect_req.  <a href="group__l2cap__api__functions.html#ga28268b114d35484254e29696a165f72a">More...</a><br /></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga28268b114d35484254e29696a165f72a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga28268b114d35484254e29696a165f72a">wiced_bt_l2cap_cancel_ble_connect_req</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda)</td></tr>
+<tr class="memdesc:ga28268b114d35484254e29696a165f72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a pending connection attempt to a BLE device.  <a href="group__l2cap.html#ga28268b114d35484254e29696a165f72a">More...</a><br /></td></tr>
 <tr class="separator:ga28268b114d35484254e29696a165f72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacfa5536d207a4b9bb796e31ad37b09b6"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gacfa5536d207a4b9bb796e31ad37b09b6">wiced_bt_l2cap_update_ble_conn_params</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bdRa, uint16_t min_int, uint16_t max_int, uint16_t latency, uint16_t timeout)</td></tr>
-<tr class="memdesc:gacfa5536d207a4b9bb796e31ad37b09b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_update_ble_conn_params.  <a href="group__l2cap__api__functions.html#gacfa5536d207a4b9bb796e31ad37b09b6">More...</a><br /></td></tr>
+<tr class="memitem:gacfa5536d207a4b9bb796e31ad37b09b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gacfa5536d207a4b9bb796e31ad37b09b6">wiced_bt_l2cap_update_ble_conn_params</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bdRa, uint16_t min_int, uint16_t max_int, uint16_t latency, uint16_t timeout)</td></tr>
+<tr class="memdesc:gacfa5536d207a4b9bb796e31ad37b09b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update BLE connection parameters.  <a href="group__l2cap.html#gacfa5536d207a4b9bb796e31ad37b09b6">More...</a><br /></td></tr>
 <tr class="separator:gacfa5536d207a4b9bb796e31ad37b09b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga84c66f4df107063ddb0adc482b5491ae"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga84c66f4df107063ddb0adc482b5491ae">wiced_bt_l2cap_enable_update_ble_conn_params</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda, wiced_bool_t enable)</td></tr>
-<tr class="memdesc:ga84c66f4df107063ddb0adc482b5491ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_enable_update_ble_conn_params.  <a href="group__l2cap__api__functions.html#ga84c66f4df107063ddb0adc482b5491ae">More...</a><br /></td></tr>
+<tr class="memitem:ga84c66f4df107063ddb0adc482b5491ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga84c66f4df107063ddb0adc482b5491ae">wiced_bt_l2cap_enable_update_ble_conn_params</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> rem_bda, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> enable)</td></tr>
+<tr class="memdesc:ga84c66f4df107063ddb0adc482b5491ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable updating BLE connection params based on the request from the peer.  <a href="group__l2cap.html#ga84c66f4df107063ddb0adc482b5491ae">More...</a><br /></td></tr>
 <tr class="separator:ga84c66f4df107063ddb0adc482b5491ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9b246f3663cee7a53e788c47172413d9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga9b246f3663cee7a53e788c47172413d9">wiced_bt_l2cap_get_ble_conn_role</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
-<tr class="memdesc:ga9b246f3663cee7a53e788c47172413d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_ble_conn_role.  <a href="group__l2cap__api__functions.html#ga9b246f3663cee7a53e788c47172413d9">More...</a><br /></td></tr>
+<tr class="memitem:ga9b246f3663cee7a53e788c47172413d9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga9b246f3663cee7a53e788c47172413d9">wiced_bt_l2cap_get_ble_conn_role</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr)</td></tr>
+<tr class="memdesc:ga9b246f3663cee7a53e788c47172413d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns the connection role.  <a href="group__l2cap.html#ga9b246f3663cee7a53e788c47172413d9">More...</a><br /></td></tr>
 <tr class="separator:ga9b246f3663cee7a53e788c47172413d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7cde6f0bce9273012fd1e7ceb30b83cb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga7cde6f0bce9273012fd1e7ceb30b83cb">wiced_bt_l2cap_get_disconnect_reason</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, tBT_TRANSPORT transport)</td></tr>
-<tr class="memdesc:ga7cde6f0bce9273012fd1e7ceb30b83cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_get_disconnect_reason.  <a href="group__l2cap__api__functions.html#ga7cde6f0bce9273012fd1e7ceb30b83cb">More...</a><br /></td></tr>
-<tr class="separator:ga7cde6f0bce9273012fd1e7ceb30b83cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabb9bbb21599fb9142db5ce68179c8369"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369">wiced_bt_l2cap_le_register</a> (uint16_t le_psm, <a class="el" href="structwiced__bt__l2cap__le__appl__information__t.html">wiced_bt_l2cap_le_appl_information_t</a> *p_cb_information, void *context)</td></tr>
-<tr class="memdesc:gabb9bbb21599fb9142db5ce68179c8369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_register.  <a href="group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369">More...</a><br /></td></tr>
-<tr class="separator:gabb9bbb21599fb9142db5ce68179c8369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9166cfd9f8619d2ecb2414d6ba3df7b7"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga9166cfd9f8619d2ecb2414d6ba3df7b7">wiced_bt_l2cap_le_deregister</a> (uint16_t le_psm)</td></tr>
-<tr class="memdesc:ga9166cfd9f8619d2ecb2414d6ba3df7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_deregister.  <a href="group__l2cap__api__functions.html#ga9166cfd9f8619d2ecb2414d6ba3df7b7">More...</a><br /></td></tr>
+<tr class="memitem:ga44312ab4c397243d0b40b55851d34a62"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga44312ab4c397243d0b40b55851d34a62">wiced_bt_l2cap_le_register</a> (uint16_t le_psm, <a class="el" href="structwiced__bt__l2cap__le__appl__information__t.html">wiced_bt_l2cap_le_appl_information_t</a> *p_cb_information)</td></tr>
+<tr class="memdesc:ga44312ab4c397243d0b40b55851d34a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other layers call this function to register L2CAP services for LE_PSM.  <a href="group__l2cap.html#ga44312ab4c397243d0b40b55851d34a62">More...</a><br /></td></tr>
+<tr class="separator:ga44312ab4c397243d0b40b55851d34a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9166cfd9f8619d2ecb2414d6ba3df7b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga9166cfd9f8619d2ecb2414d6ba3df7b7">wiced_bt_l2cap_le_deregister</a> (uint16_t le_psm)</td></tr>
+<tr class="memdesc:ga9166cfd9f8619d2ecb2414d6ba3df7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other layers call this function to deregister L2CAP services for LE_PSM.  <a href="group__l2cap.html#ga9166cfd9f8619d2ecb2414d6ba3df7b7">More...</a><br /></td></tr>
 <tr class="separator:ga9166cfd9f8619d2ecb2414d6ba3df7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9503e3b4d2f214cfa79dc6c3fec4efd9"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga9503e3b4d2f214cfa79dc6c3fec4efd9">wiced_bt_l2cap_le_connect_req</a> (uint16_t le_psm, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, <a class="el" href="wiced__bt__types_8h.html#a97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> bd_addr_type, <a class="el" href="wiced__bt__dev_8h.html#a4309edd4a7a1c7f30bdc57d8107e84ab">wiced_bt_ble_conn_mode_t</a> conn_mode, uint16_t rx_mtu, uint8_t rx_sdu_pool_id, uint8_t req_security, uint8_t req_encr_key_size)</td></tr>
-<tr class="memdesc:ga9503e3b4d2f214cfa79dc6c3fec4efd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_connect_req.  <a href="group__l2cap__api__functions.html#ga9503e3b4d2f214cfa79dc6c3fec4efd9">More...</a><br /></td></tr>
-<tr class="separator:ga9503e3b4d2f214cfa79dc6c3fec4efd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99f378f0387c81d5b24923f8ac033b9c"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga99f378f0387c81d5b24923f8ac033b9c">wiced_bt_l2cap_le_connect_rsp</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t lcid, uint16_t result, uint16_t rx_mtu, uint8_t rx_sdu_pool_id)</td></tr>
-<tr class="memdesc:ga99f378f0387c81d5b24923f8ac033b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_connect_rsp.  <a href="group__l2cap__api__functions.html#ga99f378f0387c81d5b24923f8ac033b9c">More...</a><br /></td></tr>
-<tr class="separator:ga99f378f0387c81d5b24923f8ac033b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad6cc529f5a1a6359daf1c0da80b5dc0a"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gad6cc529f5a1a6359daf1c0da80b5dc0a">wiced_bt_l2cap_le_disconnect_req</a> (uint16_t lcid)</td></tr>
-<tr class="memdesc:gad6cc529f5a1a6359daf1c0da80b5dc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_disconnect_req.  <a href="group__l2cap__api__functions.html#gad6cc529f5a1a6359daf1c0da80b5dc0a">More...</a><br /></td></tr>
+<tr class="memitem:gaf1842a34af4edc5e83e6506bc33da982"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gaf1842a34af4edc5e83e6506bc33da982">wiced_bt_l2cap_le_connect_req</a> (uint16_t le_psm, <a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, <a class="el" href="group__bt__types.html#ga97897f7408c23723933e9d21815c7294">wiced_bt_ble_address_type_t</a> bd_addr_type, <a class="el" href="group__wicedbt___device_management.html#ga4309edd4a7a1c7f30bdc57d8107e84ab">wiced_bt_ble_conn_mode_t</a> conn_mode, uint16_t rx_mtu, uint8_t req_security, uint8_t req_encr_key_size, <a class="el" href="structt_d_r_b.html">tDRB</a> *p_rx_drb)</td></tr>
+<tr class="memdesc:gaf1842a34af4edc5e83e6506bc33da982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to create an L2CAP connection for LE_PSM.  <a href="group__l2cap.html#gaf1842a34af4edc5e83e6506bc33da982">More...</a><br /></td></tr>
+<tr class="separator:gaf1842a34af4edc5e83e6506bc33da982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52799083a3026d9b6ff86416e105444c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga52799083a3026d9b6ff86416e105444c">wiced_bt_l2cap_le_connect_rsp</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> p_bd_addr, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t lcid, uint16_t result, uint16_t rx_mtu, <a class="el" href="structt_d_r_b.html">tDRB</a> *p_rx_drb)</td></tr>
+<tr class="memdesc:ga52799083a3026d9b6ff86416e105444c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to accept an incoming LE L2CAP connection, for which they had gotten an connect indication callback.  <a href="group__l2cap.html#ga52799083a3026d9b6ff86416e105444c">More...</a><br /></td></tr>
+<tr class="separator:ga52799083a3026d9b6ff86416e105444c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad6cc529f5a1a6359daf1c0da80b5dc0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gad6cc529f5a1a6359daf1c0da80b5dc0a">wiced_bt_l2cap_le_disconnect_req</a> (uint16_t lcid)</td></tr>
+<tr class="memdesc:gad6cc529f5a1a6359daf1c0da80b5dc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to disconnect a LE COC channel.  <a href="group__l2cap.html#gad6cc529f5a1a6359daf1c0da80b5dc0a">More...</a><br /></td></tr>
 <tr class="separator:gad6cc529f5a1a6359daf1c0da80b5dc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29435ef069ceca748a5c1e67c00799d0"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga29435ef069ceca748a5c1e67c00799d0">wiced_bt_l2cap_le_disconnect_rsp</a> (uint16_t lcid)</td></tr>
-<tr class="memdesc:ga29435ef069ceca748a5c1e67c00799d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_disconnect_rsp.  <a href="group__l2cap__api__functions.html#ga29435ef069ceca748a5c1e67c00799d0">More...</a><br /></td></tr>
+<tr class="memitem:ga29435ef069ceca748a5c1e67c00799d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga29435ef069ceca748a5c1e67c00799d0">wiced_bt_l2cap_le_disconnect_rsp</a> (uint16_t lcid)</td></tr>
+<tr class="memdesc:ga29435ef069ceca748a5c1e67c00799d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to acknowledge the disconnection of a LE COC channel.  <a href="group__l2cap.html#ga29435ef069ceca748a5c1e67c00799d0">More...</a><br /></td></tr>
 <tr class="separator:ga29435ef069ceca748a5c1e67c00799d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga32081364e41b54bb0bbf562824e57193"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga32081364e41b54bb0bbf562824e57193">wiced_bt_l2cap_le_data_write</a> (uint16_t cid, uint8_t *p_data, uint16_t buf_len, uint16_t flags)</td></tr>
-<tr class="memdesc:ga32081364e41b54bb0bbf562824e57193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_data_write.  <a href="group__l2cap__api__functions.html#ga32081364e41b54bb0bbf562824e57193">More...</a><br /></td></tr>
-<tr class="separator:ga32081364e41b54bb0bbf562824e57193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab1458bd4cd6e5234b615d3311917bd92"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#gab1458bd4cd6e5234b615d3311917bd92">wiced_bt_l2cap_le_set_user_congestion</a> (uint16_t lcid, wiced_bool_t is_congested)</td></tr>
-<tr class="memdesc:gab1458bd4cd6e5234b615d3311917bd92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_set_user_congestion.  <a href="group__l2cap__api__functions.html#gab1458bd4cd6e5234b615d3311917bd92">More...</a><br /></td></tr>
-<tr class="separator:gab1458bd4cd6e5234b615d3311917bd92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga97495805945b9075eec788d99a1ce8c4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga97495805945b9075eec788d99a1ce8c4">wiced_bt_l2cap_le_get_peer_mtu</a> (uint16_t lcid)</td></tr>
-<tr class="memdesc:ga97495805945b9075eec788d99a1ce8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_get_peer_mtu.  <a href="group__l2cap__api__functions.html#ga97495805945b9075eec788d99a1ce8c4">More...</a><br /></td></tr>
+<tr class="memitem:ga8724a2d6b1f7c967c7fb8caff8b045ff"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga8724a2d6b1f7c967c7fb8caff8b045ff">wiced_bt_l2cap_le_data_write</a> (uint16_t cid, uint8_t *p_data, uint16_t buf_len)</td></tr>
+<tr class="memdesc:ga8724a2d6b1f7c967c7fb8caff8b045ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data over LE connection-oriented channel.  <a href="group__l2cap.html#ga8724a2d6b1f7c967c7fb8caff8b045ff">More...</a><br /></td></tr>
+<tr class="separator:ga8724a2d6b1f7c967c7fb8caff8b045ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5f6c77c918db23fd0ac5cad6125c2f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#gab5f6c77c918db23fd0ac5cad6125c2f2">wiced_bt_l2cap_le_set_user_congestion</a> (uint16_t lcid, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> flow_off_peer)</td></tr>
+<tr class="memdesc:gab5f6c77c918db23fd0ac5cad6125c2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">App can call this function to flow control data reception from the peer (flow controlled channels only, viz LE COC, ECRB channels) To stop sending credits/flow off the remote peer set <code>flow_off_peer</code> to WICED_TRUE To resume sending credits/flow on set <code>flow_off_peer</code> to WICED_FALSE.  <a href="group__l2cap.html#gab5f6c77c918db23fd0ac5cad6125c2f2">More...</a><br /></td></tr>
+<tr class="separator:gab5f6c77c918db23fd0ac5cad6125c2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97495805945b9075eec788d99a1ce8c4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga97495805945b9075eec788d99a1ce8c4">wiced_bt_l2cap_le_get_peer_mtu</a> (uint16_t lcid)</td></tr>
+<tr class="memdesc:ga97495805945b9075eec788d99a1ce8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to get peer MTU.  <a href="group__l2cap.html#ga97495805945b9075eec788d99a1ce8c4">More...</a><br /></td></tr>
 <tr class="separator:ga97495805945b9075eec788d99a1ce8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap__api__functions.html#ga933b228e0a888ef7eb7671a2b3b7bccd">wiced_bt_l2cap_le_determ_secur_rsp</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t req_secur, uint8_t req_encr_key_size)</td></tr>
-<tr class="memdesc:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_l2cap_le_determ_secur_rsp.  <a href="group__l2cap__api__functions.html#ga933b228e0a888ef7eb7671a2b3b7bccd">More...</a><br /></td></tr>
+<tr class="memitem:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__l2cap.html#ga933b228e0a888ef7eb7671a2b3b7bccd">wiced_bt_l2cap_le_determ_secur_rsp</a> (<a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr, uint8_t req_secur, uint8_t req_encr_key_size)</td></tr>
+<tr class="memdesc:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Higher layers call this function to check if the current device security settings are sufficient to continue with call establishment.  <a href="group__l2cap.html#ga933b228e0a888ef7eb7671a2b3b7bccd">More...</a><br /></td></tr>
 <tr class="separator:ga933b228e0a888ef7eb7671a2b3b7bccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth L2CAP Application Programming Interface. </p>
-<p>Logical Link Control and Adaptation Layer Protocol, referred to as L2CAP, provides connection oriented and connectionless data services to upper layer protocols with protocol multiplexing capability and segmentation and reassembly operation. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a3892c692c8dd83e9cd5bbc54b6a86c8f"></a>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a2f02318bf4cb6c31e2ae887e3aa71762"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_congestion_status_cback_t)(void *context, uint16_t local_cid, wiced_bool_t congested)</td>
+          <td class="memname">int wiced_bt_l2cap_get_num_queued_tx_packets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__bt__types.html#gacf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>bd_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>lcid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>p_fragments_with_controller</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Congestion status callback protype. </p>
-<p>This callback is optional. If an application tries to send data when the transmit queue is full, the data will anyways be dropped.</p>
+<p>Utility function to get the number of packets queued to tx. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">congested</td><td>: TRUE if congested, FALSE if uncongested</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>bluetooth address of the peer device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lcid</td><td>: local_cid </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_fragments_with_controller</td><td>: fragments with the controller</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2588ef8bd80c025d5518211131f2f1ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_connected_cback_t)(void *context, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t peer_mtu)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Connection established callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">bd_addr</td><td>: BD Address of remote </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID assigned to the connection </td></tr>
-    <tr><td class="paramname">peer_mtu</td><td>: Peer MTU</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a65cc6af8ee1725c38ef87c4830f29c90"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_data_indication_cback_t)(void *context, uint16_t local_cid, uint8_t *p_buff, uint16_t buf_len)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Data received indication callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">p_addr_buff</td><td>: Address of buffer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a252de5fb62958f5f9c66ac86874cfb30"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_disconnect_confirm_cback_t)(void *context, uint16_t local_cid, uint16_t result)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Disconnect confirm callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">result</td><td>: Result</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="afeac3842c2ef15178764a3765883af96"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_disconnect_indication_cback_t)(void *context, uint16_t local_cid, wiced_bool_t ack)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Disconnect indication callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">ack</td><td>: Boolean whether upper layer should ack this</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aac8fed89de6f1e886838b2217549dbf0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_fixed_chnl_cback_t)(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t connected, uint16_t reason, tBT_TRANSPORT transport)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Fixed channel connected and disconnected. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bd_addr</td><td>: BD Address of remote </td></tr>
-    <tr><td class="paramname">connected</td><td>: TRUE if channel is connected, FALSE if disconnected </td></tr>
-    <tr><td class="paramname">reason</td><td>: Reason for connection failure </td></tr>
-    <tr><td class="paramname">transport</td><td>: Bluetooth Transport (BR/EDR or LE)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a67b0127a3d26fddc11c853a08c9ed344"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_fixed_congestion_status_cback_t)(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, wiced_bool_t congested)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Congestion status callback protype. </p>
-<p>This callback is optional. If an application tries to send data when the transmit queue is full, the data will anyways be dropped.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bd_addr</td><td>: remote wiced_bt_device_address_t </td></tr>
-    <tr><td class="paramname">congested</td><td>: TRUE if congested, FALSE if uncongested</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="afa4626a9ff45db3cffb062669f197ae5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_fixed_data_cback_t)(<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint8_t *p_buff, uint16_t buf_len)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Signalling data received. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bd_addr</td><td>: BD Address of remote </td></tr>
-    <tr><td class="paramname">p_buff</td><td>: Pointer to buffer with data</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af390c801ec6d33bcbd83602e037bdac7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_le_conformance_test_cback_t)(uint16_t)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a87f8db621ddb192fe2cffdba0ba21fc3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_le_connect_confirm_cback_t)(void *context, uint16_t local_cid, uint16_t result, uint16_t mtu_peer)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LE Connection confirmation callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369" title="Function wiced_bt_l2cap_le_register. ">wiced_bt_l2cap_le_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">result</td><td>: Result - 0 = connected, non-zero means failure reason </td></tr>
-    <tr><td class="paramname">mtu_peer</td><td>: MTU of the peer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ae6163e7bdeaa2ca3a39083edd77c67ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_le_connect_indication_cback_t)(void *context, <a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t psm, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t mtu_peer)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LE Connection indication callback prototype. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369" title="Function wiced_bt_l2cap_le_register. ">wiced_bt_l2cap_le_register()</a> </td></tr>
-    <tr><td class="paramname">bd_addr</td><td>: BD Address of remote </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID assigned to the connection </td></tr>
-    <tr><td class="paramname">psm</td><td>: PSM that the remote wants to connect to </td></tr>
-    <tr><td class="paramname">id</td><td>: Identifier that the remote sent </td></tr>
-    <tr><td class="paramname">mtu_peer</td><td>: MTU of the peer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad349a752a752b64603b05a3333317ad4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_le_tx_complete_cback_t)(void *context, uint16_t local_cid, uint16_t buf_count)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LE TX complete callback. </p>
-<p>(Optional) Notification after wiced_bt_l2cap_le_data_write has sent buffer to transport layer</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#gabb9bbb21599fb9142db5ce68179c8369" title="Function wiced_bt_l2cap_le_register. ">wiced_bt_l2cap_le_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">buf_count</td><td>: Number of buffers sent</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af9c25935483d67848e1c8117520b4e9f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void( wiced_bt_l2cap_tx_complete_cback_t)(void *context, uint16_t local_cid, uint16_t num_sdu)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Transmit complete callback protype. </p>
-<p>This callback is optional. If set, L2CAP will call it when packets are sent or flushed. If the count is 0xFFFF, it means all packets are sent for that CID (eRTM mode only).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>: Caller context provided with <a class="el" href="group__l2cap__api__functions.html#ga3c33ee7a4034a4dbdb33d527f42f6606" title="Function wiced_bt_l2cap_register. ">wiced_bt_l2cap_register()</a> </td></tr>
-    <tr><td class="paramname">local_cid</td><td>: Local CID </td></tr>
-    <tr><td class="paramname">num_sdu</td><td>: Number of SDUs sent or dropped</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>number of packets queued to tx </dd></dl>
 
 </div>
 </div>
@@ -794,7 +471,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__l2c_8h.html">wiced_bt_l2c.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__l2c_8h.html">wiced_bt_l2c.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

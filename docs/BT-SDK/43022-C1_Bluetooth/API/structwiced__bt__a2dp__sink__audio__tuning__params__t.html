@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_a2dp_sink_audio_tuning_params_t Struct Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_a2dp_sink_audio_tuning_params_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structwiced__bt__a2dp__sink__audio__tu
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_a2dp_sink_audio_tuning_params_t Struct Reference</div>  </div>
+<div class="title">wiced_bt_a2dp_sink_audio_tuning_params_t Struct Reference<div class="ingroups"><a class="el" href="group__wicedbt__a2dp.html">Advanced Audio Distribution Profile (A2DP) Sink</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,7 +117,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>start_buf_depth</b
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>target_buf_depth</b></td></tr>
 <tr class="separator:ae4a20d5e4b2b105f649d779b2e5a8167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e097fa866c12adb1e97bedb801e4cef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e097fa866c12adb1e97bedb801e4cef"></a>
-<a class="el" href="wiced__bt__a2dp__defs_8h.html#a3ea9872011a632658ccb7cf3029b6e0d">wiced_bt_a2dp_sink_overrun_control_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>overrun_control</b></td></tr>
+<a class="el" href="group__wicedbt__a2dp.html#ga3ea9872011a632658ccb7cf3029b6e0d">wiced_bt_a2dp_sink_overrun_control_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>overrun_control</b></td></tr>
 <tr class="separator:a9e097fa866c12adb1e97bedb801e4cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc0ed56b1259d733ea6f6916df4e7b28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc0ed56b1259d733ea6f6916df4e7b28"></a>
 int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>adj_ppm_max</b></td></tr>
@@ -145,7 +145,7 @@ int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>adj_integral_gain<
 <div class="textblock"><p>Audio quality tuning parameters Note. </p>
 <p>The average buffer level, over a period of time, is compared to the target buffer level (calculated based on the Target BUF Depth %) and used to compute the necessary clock adjustment in ppm (Level Correction). If the Level Correction stays within the ppm range defined by Level Correction Threshold High and Level Correction Threshold Low, then the algorithm only applies small clock adjustments that are proportional to the amplitude of the Level Correction (typically, 1.5%~2.0% of the Level Correction value). Otherwise, if the Level Correction falls outside of the Level Correction Threshold High and Level Correction Threshold Low interval for 3 successive adjustment periods, the algorithm applies large clock adjustments defined Adjustment ppm Max or Adjustment ppm Min in an effort to get back within range </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="wiced__bt__a2dp__defs_8h.html">wiced_bt_a2dp_defs.h</a></li>
+<li><a class="el" href="wiced__audio__sink_8h.html">wiced_audio_sink.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

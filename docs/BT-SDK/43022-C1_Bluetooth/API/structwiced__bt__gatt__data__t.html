@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_gatt_data_t Struct Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_gatt_data_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structwiced__bt__gatt__data__t.html','
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_gatt_data_t Struct Reference</div>  </div>
+<div class="title">wiced_bt_gatt_data_t Struct Reference<div class="ingroups"><a class="el" href="group__wicedbt__gatt.html">Generic Attribute (GATT)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -111,22 +111,51 @@ Data Fields</h2></td></tr>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></td></tr>
 <tr class="memdesc:af242d6e3b6108ea75e1eb236e94c8240"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle <br /></td></tr>
 <tr class="separator:af242d6e3b6108ea75e1eb236e94c8240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aed22e2c7b283705ec82e0120515618"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8aed22e2c7b283705ec82e0120515618"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#a8aed22e2c7b283705ec82e0120515618">len</a></td></tr>
-<tr class="memdesc:a8aed22e2c7b283705ec82e0120515618"><td class="mdescLeft">&#160;</td><td class="mdescRight">length of response data <br /></td></tr>
+<tr class="memitem:a8aed22e2c7b283705ec82e0120515618"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#a8aed22e2c7b283705ec82e0120515618">len</a></td></tr>
+<tr class="memdesc:a8aed22e2c7b283705ec82e0120515618"><td class="mdescLeft">&#160;</td><td class="mdescRight">length of response data or notification or indication data.  <a href="#a8aed22e2c7b283705ec82e0120515618">More...</a><br /></td></tr>
 <tr class="separator:a8aed22e2c7b283705ec82e0120515618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac681806181c80437cfab37335f62ff39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac681806181c80437cfab37335f62ff39"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#ac681806181c80437cfab37335f62ff39">offset</a></td></tr>
 <tr class="memdesc:ac681806181c80437cfab37335f62ff39"><td class="mdescLeft">&#160;</td><td class="mdescRight">offset <br /></td></tr>
 <tr class="separator:ac681806181c80437cfab37335f62ff39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8304c4af5da6e830b86d7199dc9a22e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8304c4af5da6e830b86d7199dc9a22e6"></a>
-uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6">p_data</a></td></tr>
-<tr class="memdesc:a8304c4af5da6e830b86d7199dc9a22e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">attribute data <br /></td></tr>
+<tr class="memitem:a8304c4af5da6e830b86d7199dc9a22e6"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6">p_data</a></td></tr>
+<tr class="memdesc:a8304c4af5da6e830b86d7199dc9a22e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">attribute data.  <a href="#a8304c4af5da6e830b86d7199dc9a22e6">More...</a><br /></td></tr>
 <tr class="separator:a8304c4af5da6e830b86d7199dc9a22e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Response data for read operations. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a8aed22e2c7b283705ec82e0120515618"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t len</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>length of response data or notification or indication data. </p>
+<p>In case of multiple notifications, it is total length of notification tuples pointed by p_data </p>
+
+</div>
+</div>
+<a class="anchor" id="a8304c4af5da6e830b86d7199dc9a22e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t* p_data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>attribute data. </p>
+<p>In case of multiple notifications, it is array of handle length and notification data tuples </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__gatt_8h.html">wiced_bt_gatt.h</a></li>
 </ul>
 </div><!-- contents -->

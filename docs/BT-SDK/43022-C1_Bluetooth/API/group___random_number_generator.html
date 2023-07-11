@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: RandomNumberGenerator</title>
+<title>AIROC&trade; CYW43022: Random Number Generator (RNG)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,14 +98,20 @@ $(document).ready(function(){initNavTree('group___random_number_generator.html',
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RandomNumberGenerator<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">Random Number Generator (RNG)<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a driver for the Random Number Generator (RNG).  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga57167c1311a3d6fcf91945e696247454"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___random_number_generator.html#ga57167c1311a3d6fcf91945e696247454">wiced_hal_pseudo_rand_gen_num</a> (void)</td></tr>
+<tr class="memdesc:ga57167c1311a3d6fcf91945e696247454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates and returns a pseudo random 32-bit integer.  <a href="#ga57167c1311a3d6fcf91945e696247454">More...</a><br /></td></tr>
+<tr class="separator:ga57167c1311a3d6fcf91945e696247454"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga28ec0005902aa3c72e8f378e10cc8888"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___random_number_generator.html#ga28ec0005902aa3c72e8f378e10cc8888">wiced_hal_rand_gen_num</a> (void)</td></tr>
-<tr class="memdesc:ga28ec0005902aa3c72e8f378e10cc8888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the Random Number Generator (RNG).  <a href="#ga28ec0005902aa3c72e8f378e10cc8888">More...</a><br /></td></tr>
+<tr class="memdesc:ga28ec0005902aa3c72e8f378e10cc8888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates and returns a random 32-bit integer.  <a href="#ga28ec0005902aa3c72e8f378e10cc8888">More...</a><br /></td></tr>
 <tr class="separator:ga28ec0005902aa3c72e8f378e10cc8888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaadb9e47796c3b1b8378eef1e8bc3cf4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___random_number_generator.html#gaadb9e47796c3b1b8378eef1e8bc3cf4d">wiced_hal_rand_gen_num_array</a> (uint32_t *randNumberArrayPtr, uint32_t length)</td></tr>
 <tr class="memdesc:gaadb9e47796c3b1b8378eef1e8bc3cf4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a given array with randomly generated 32-bit integers.  <a href="#gaadb9e47796c3b1b8378eef1e8bc3cf4d">More...</a><br /></td></tr>
@@ -115,6 +121,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga61a62e6f1c3ee6d1a4d7ffbe350d5184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Defines a driver for the Random Number Generator (RNG). </p>
+<p>The TRNG uses a special hardware module to generate either a single 32-bit random number or fill a given array with 32-bit random numbers. These are useful for applications such as authentication. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga61a62e6f1c3ee6d1a4d7ffbe350d5184"></a>
 <div class="memitem">
@@ -141,6 +149,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga57167c1311a3d6fcf91945e696247454"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t wiced_hal_pseudo_rand_gen_num </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates and returns a pseudo random 32-bit integer. </p>
+<p>"soft" random number.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A randomly generated 32-bit integer. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga28ec0005902aa3c72e8f378e10cc8888"></a>
 <div class="memitem">
 <div class="memproto">
@@ -155,8 +189,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Defines a driver for the Random Number Generator (RNG). </p>
-<p>The RNG uses a special hardware module to generate either a single 32-bit random number or fill a given array with 32-bit random numbers. These are useful for applications such as authentication. Generates and returns a random 32-bit integer. Internal functions check that the generating hardware is warmed up and ready before returning the random value. If the hardware is too "cold" at the time of use, the function will instead use the Bluetooth clock as a "seed" and generate a "soft" random number.</p>
+<p>Generates and returns a random 32-bit integer. </p>
+<p>Internal functions check that the generating hardware is warmed up and ready before returning the random value. If the hardware is too "cold" at the time of use, the function will instead use the BT clock as a "seed" and generate a "soft" random number.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>
@@ -192,7 +226,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Fills a given array with randomly generated 32-bit integers. </p>
-<p>Uses the function <a class="el" href="group___random_number_generator.html#ga28ec0005902aa3c72e8f378e10cc8888" title="Defines a driver for the Random Number Generator (RNG). ">wiced_hal_rand_gen_num()</a>.</p>
+<p>Uses the function <a class="el" href="group___random_number_generator.html#ga28ec0005902aa3c72e8f378e10cc8888" title="Generates and returns a random 32-bit integer. ">wiced_hal_rand_gen_num()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">randNumberArrayPtr</td><td>- Pointer to an array to be populated with the random numbers. </td></tr>

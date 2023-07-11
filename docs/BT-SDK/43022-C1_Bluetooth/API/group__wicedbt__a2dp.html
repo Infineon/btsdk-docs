@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Advanced Audio Distribution Profile (A2DP) Sink</title>
+<title>AIROC&trade; CYW43022: Advanced Audio Distribution Profile (A2DP) Sink</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,63 +96,156 @@ $(document).ready(function(){initNavTree('group__wicedbt__a2dp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Advanced Audio Distribution Profile (A2DP) Sink<div class="ingroups"><a class="el" href="group__wicedbt__av.html">Audio / Video</a></div></div>  </div>
+<div class="title">Advanced Audio Distribution Profile (A2DP) Sink</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Advanced Audio Distribution Profile.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:group__wicedbt__av__a2d__helper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__av__a2d__helper.html">A2DP Helper Functions</a></td></tr>
-<tr class="memdesc:group__wicedbt__av__a2d__helper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advanced Audio Distribution Profile. <br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2dp__sink__route__config.html">wiced_bt_a2dp_sink_route_config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio data route configuration.  <a href="structwiced__bt__a2dp__sink__route__config.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__wicedbt__a2dp__sbc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp__sbc.html">A2DP SBC Support</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2dp__source__route__config.html">wiced_bt_a2dp_source_route_config</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio data route configuration.  <a href="structwiced__bt__a2dp__source__route__config.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:group__audio__insert"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__audio__insert.html">Audio Insertion</a></td></tr>
-<tr class="memdesc:group__audio__insert"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bluetooth Audio Insert Application Programming Interface. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2dp__sink__audio__tuning__params__t.html">wiced_bt_a2dp_sink_audio_tuning_params_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio quality tuning parameters Note.  <a href="structwiced__bt__a2dp__sink__audio__tuning__params__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga28edcf1e6cd4647d381419006badb092"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092">wiced_audio_play_status_ind_t</a> )(uint8_t play_status)</td></tr>
+<tr class="memdesc:ga28edcf1e6cd4647d381419006badb092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play Status Indication Callback.  <a href="#ga28edcf1e6cd4647d381419006badb092">More...</a><br /></td></tr>
+<tr class="separator:ga28edcf1e6cd4647d381419006badb092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga3ea9872011a632658ccb7cf3029b6e0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3ea9872011a632658ccb7cf3029b6e0d"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga3ea9872011a632658ccb7cf3029b6e0d">wiced_bt_a2dp_sink_overrun_control_t</a> { <b>WICED_BT_A2DP_SINK_OVERRUN_CONTROL_FLUSH_DATA</b>, 
+<b>WICED_BT_A2DP_SINK_OVERRUN_CONTROL_FLOW_CONTROL_SOURCE</b>
+ }</td></tr>
+<tr class="memdesc:ga3ea9872011a632658ccb7cf3029b6e0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">overrun flow control flag <br /></td></tr>
+<tr class="separator:ga3ea9872011a632658ccb7cf3029b6e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga00d931eea740da7d5d867797b5048655"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga00d931eea740da7d5d867797b5048655">wiced_audio_sink_config_init</a> (<a class="el" href="structwiced__bt__a2dp__sink__audio__tuning__params__t.html">wiced_bt_a2dp_sink_audio_tuning_params_t</a> *p_param)</td></tr>
 <tr class="memdesc:ga00d931eea740da7d5d867797b5048655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wiced audio sink initialization.  <a href="#ga00d931eea740da7d5d867797b5048655">More...</a><br /></td></tr>
 <tr class="separator:ga00d931eea740da7d5d867797b5048655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9b28e8751a80b34db1b9c2123ba6a06f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga9b28e8751a80b34db1b9c2123ba6a06f">wiced_audio_sink_configure</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint32_t is_master, uint32_t audio_route, uint16_t cp_type, <a class="el" href="structwiced__bt__a2dp__codec__info__t.html">wiced_bt_a2dp_codec_info_t</a> *p_codec_info)</td></tr>
+<tr class="memitem:ga9b28e8751a80b34db1b9c2123ba6a06f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga9b28e8751a80b34db1b9c2123ba6a06f">wiced_audio_sink_configure</a> (uint16_t handle, uint32_t is_master, uint32_t audio_route, uint16_t cp_type, <a class="el" href="structwiced__bt__a2dp__codec__info__t.html">wiced_bt_a2dp_codec_info_t</a> *p_codec_info)</td></tr>
 <tr class="memdesc:ga9b28e8751a80b34db1b9c2123ba6a06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to configure the sink to perform SBC decoding and to route the decoded audio data over I2S or UART on starting the streaming.  <a href="#ga9b28e8751a80b34db1b9c2123ba6a06f">More...</a><br /></td></tr>
 <tr class="separator:ga9b28e8751a80b34db1b9c2123ba6a06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3e55d6720eba4c34f3d54ee229220df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gaa3e55d6720eba4c34f3d54ee229220df">wiced_audio_sink_reset</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
-<tr class="memdesc:gaa3e55d6720eba4c34f3d54ee229220df"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to reset the sink on stopping the streaming.  <a href="#gaa3e55d6720eba4c34f3d54ee229220df">More...</a><br /></td></tr>
+<tr class="memitem:gaa3e55d6720eba4c34f3d54ee229220df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gaa3e55d6720eba4c34f3d54ee229220df">wiced_audio_sink_reset</a> (uint16_t handle)</td></tr>
+<tr class="memdesc:gaa3e55d6720eba4c34f3d54ee229220df"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to reset the sink on stopping/suspending the streaming.  <a href="#gaa3e55d6720eba4c34f3d54ee229220df">More...</a><br /></td></tr>
 <tr class="separator:gaa3e55d6720eba4c34f3d54ee229220df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa913a3617fdd63966c9dd341c30a231d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gaa913a3617fdd63966c9dd341c30a231d">wiced_audio_sink_mute</a> (wiced_bool_t enable, uint16_t ramp_ms)</td></tr>
+<tr class="memitem:gaa913a3617fdd63966c9dd341c30a231d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gaa913a3617fdd63966c9dd341c30a231d">wiced_audio_sink_mute</a> (<a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> enable, uint16_t ramp_ms)</td></tr>
 <tr class="memdesc:gaa913a3617fdd63966c9dd341c30a231d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To mute/unmute the audio.  <a href="#gaa913a3617fdd63966c9dd341c30a231d">More...</a><br /></td></tr>
 <tr class="separator:gaa913a3617fdd63966c9dd341c30a231d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga987afb0c271d5a3591eed8e85f01c47f"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga987afb0c271d5a3591eed8e85f01c47f">wiced_audio_set_i2s_out_sf</a> (uint32_t out_sf)</td></tr>
+<tr class="memitem:ga987afb0c271d5a3591eed8e85f01c47f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga987afb0c271d5a3591eed8e85f01c47f">wiced_audio_set_i2s_out_sf</a> (uint32_t out_sf)</td></tr>
 <tr class="memdesc:ga987afb0c271d5a3591eed8e85f01c47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_set_i2s_out_sf.  <a href="#ga987afb0c271d5a3591eed8e85f01c47f">More...</a><br /></td></tr>
 <tr class="separator:ga987afb0c271d5a3591eed8e85f01c47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2dcfca87e8449f76dcbcefa7b9c96205"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2dcfca87e8449f76dcbcefa7b9c96205"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_trace_level</b> (uint8_t new_level)</td></tr>
-<tr class="separator:ga2dcfca87e8449f76dcbcefa7b9c96205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ccbe103977bb96a5e441d382fdfd92c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga8ccbe103977bb96a5e441d382fdfd92c">wiced_bt_a2d_bits_set</a> (uint8_t mask)</td></tr>
-<tr class="memdesc:ga8ccbe103977bb96a5e441d382fdfd92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_a2d_bits_set.  <a href="#ga8ccbe103977bb96a5e441d382fdfd92c">More...</a><br /></td></tr>
-<tr class="separator:ga8ccbe103977bb96a5e441d382fdfd92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga73a7d02bde825807202680eaa6e4c5c5"><td class="memItemLeft" align="right" valign="top">wiced_bt_a2d_status_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga73a7d02bde825807202680eaa6e4c5c5">wiced_bt_a2d_find_service</a> (uint16_t service_uuid, BD_ADDR <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, <a class="el" href="structwiced__bt__a2d__sdp__db__params__t.html">wiced_bt_a2d_sdp_db_params_t</a> *p_db, <a class="el" href="group__wicedbt__av__a2d__helper.html#ga6af62033c6e1aa94646eded0064777f4">wiced_bt_a2d_find_cback</a> *p_cback)</td></tr>
-<tr class="memdesc:ga73a7d02bde825807202680eaa6e4c5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_a2d_find_service.  <a href="#ga73a7d02bde825807202680eaa6e4c5c5">More...</a><br /></td></tr>
-<tr class="separator:ga73a7d02bde825807202680eaa6e4c5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28cd26515438f840e6e96a6cce808c5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#ga28cd26515438f840e6e96a6cce808c5f">wiced_audio_register_play_status_ind_cback</a> (<a class="el" href="group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092">wiced_audio_play_status_ind_t</a> cback)</td></tr>
+<tr class="memdesc:ga28cd26515438f840e6e96a6cce808c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_register_play_status_ind_cback.  <a href="#ga28cd26515438f840e6e96a6cce808c5f">More...</a><br /></td></tr>
+<tr class="separator:ga28cd26515438f840e6e96a6cce808c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaad5d0781c1f7eb978e74db624612017"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gaaad5d0781c1f7eb978e74db624612017">wiced_audio_get_jitter_buffer_state</a> (uint16_t *p_current_buf_ms, uint16_t *p_clk_tuning)</td></tr>
+<tr class="memdesc:gaaad5d0781c1f7eb978e74db624612017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_get_jitter_buffer_state.  <a href="#gaaad5d0781c1f7eb978e74db624612017">More...</a><br /></td></tr>
+<tr class="separator:gaaad5d0781c1f7eb978e74db624612017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad152df890249d635913bfdf25756995b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__a2dp.html#gad152df890249d635913bfdf25756995b">wiced_audio_sink_set_arip_I2SPinOut</a> (uint8_t arip_I2SPinOut)</td></tr>
+<tr class="memdesc:gad152df890249d635913bfdf25756995b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_sink_set_arip_I2SPinOut.  <a href="#gad152df890249d635913bfdf25756995b">More...</a><br /></td></tr>
+<tr class="separator:gad152df890249d635913bfdf25756995b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Advanced Audio Distribution Profile. </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ga28edcf1e6cd4647d381419006badb092"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* wiced_audio_play_status_ind_t)(uint8_t play_status)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Play Status Indication Callback. </p>
+<p>This will be invoked when there is a change in the play status Play status values JITTER_IDLE_STATE 0x1 JITTER_NORMAL_STATE 0x2 JITTER_UNDERRUN_STATE 0x4 JITTER_OVERRUN_STATE 0x8 </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gaaad5d0781c1f7eb978e74db624612017"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_audio_get_jitter_buffer_state </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>p_current_buf_ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>p_clk_tuning</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_get_jitter_buffer_state. </p>
+<p>Debug API to get the jitter buffer state</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_current_buf_ms</td><td>: current jitter buffer size in msec</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">p_clk_tuning</td><td>: current clock tuning value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga28cd26515438f840e6e96a6cce808c5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_audio_register_play_status_ind_cback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092">wiced_audio_play_status_ind_t</a>&#160;</td>
+          <td class="paramname"><em>cback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_register_play_status_ind_cback. </p>
+<p>Debug API to register for play status indication</p>
+<p>Called by the application before starting the streaming</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cback</td><td>: Callback function to be invoked on play status change</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga987afb0c271d5a3591eed8e85f01c47f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_audio_set_i2s_out_sf </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_audio_set_i2s_out_sf </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>out_sf</em></td><td>)</td>
@@ -192,7 +285,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_t
 <p>Wiced audio sink initialization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p_cfg</td><td>pointer to the sink config structure</td></tr>
+    <tr><td class="paramname">p_param</td><td>pointer to the tuning parameters</td></tr>
   </table>
   </dd>
 </dl>
@@ -247,7 +340,6 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">handle</td><td>AVDT connection handle</td></tr>
-    <tr><td class="paramname">is_master</td><td>Configure I2S Master/Slave</td></tr>
     <tr><td class="paramname">audio_route</td><td>- Audio route to be used to send the decoded audio data, I2S or UART</td></tr>
     <tr><td class="paramname">cp_type</td><td>Content protection type. Refer AVDT_CP_TYPE defined in <a class="el" href="wiced__bt__avdt_8h.html" title="Bluetooth Audio Video Distribution Transport Protocol (AVDTP) Application Programming Interface...">wiced_bt_avdt.h</a></td></tr>
     <tr><td class="paramname">p_codec_info</td><td>Codec information</td></tr>
@@ -265,7 +357,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_t
         <tr>
           <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_audio_sink_mute </td>
           <td>(</td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramtype"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td>
           <td class="paramname"><em>enable</em>, </td>
         </tr>
         <tr>
@@ -309,8 +401,8 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_t
       </table>
 </div><div class="memdoc">
 
-<p>API to reset the sink on stopping the streaming. </p>
-<p>Called by the application when the streaming is stopped</p>
+<p>API to reset the sink on stopping/suspending the streaming. </p>
+<p>Called by the application when the streaming is stopped/suspended</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">handle</td><td>AVDT connection handle</td></tr>
@@ -321,80 +413,29 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_set_t
 
 </div>
 </div>
-<a class="anchor" id="ga8ccbe103977bb96a5e441d382fdfd92c"></a>
+<a class="anchor" id="gad152df890249d635913bfdf25756995b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t wiced_bt_a2d_bits_set </td>
+          <td class="memname">void wiced_audio_sink_set_arip_I2SPinOut </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td class="paramname"><em>arip_I2SPinOut</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function wiced_bt_a2d_bits_set. </p>
-<p>Check the number of bits set in a given mask (used to parse stream configuration masks)</p>
+<p>Function wiced_audio_sink_set_arip_I2SPinOut. </p>
+<p>API to set dedicated I2S PinOut, input value depends on chip design</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mask</td><td>: mask to check</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ARIP_I2S_PIN_OUT_AUD1/ARIP_I2S_PIN_OUT_AUD2/ARIP_I2S_PIN_OUT_AUD3</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A2D_SET_ONE_BIT, if one and only one bit is set A2D_SET_ZERO_BIT, if all bits clear A2D_SET_MULTL_BIT, if multiple bits are set </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga73a7d02bde825807202680eaa6e4c5c5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bt_a2d_status_t wiced_bt_a2d_find_service </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>service_uuid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">BD_ADDR&#160;</td>
-          <td class="paramname"><em>bd_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structwiced__bt__a2d__sdp__db__params__t.html">wiced_bt_a2d_sdp_db_params_t</a> *&#160;</td>
-          <td class="paramname"><em>p_db</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__wicedbt__av__a2d__helper.html#ga6af62033c6e1aa94646eded0064777f4">wiced_bt_a2d_find_cback</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function wiced_bt_a2d_find_service. </p>
-<p>Performs Service Discovery and fetches SRC/SINK SDP Record Info. Information is returned for the first service record found on the server that matches the service UUID.There can only be one outstanding call to <a class="el" href="group__wicedbt__a2dp.html#ga73a7d02bde825807202680eaa6e4c5c5" title="Function wiced_bt_a2d_find_service. ">wiced_bt_a2d_find_service()</a> at a time; the application must wait for the callback before it makes another call to the function.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">service_uuid</td><td>: Indicates SRC or SNK. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>: BD address of the peer device. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_db</td><td>: Pointer to the information to initialize the discovery database. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: Pointer to the <a class="el" href="group__wicedbt__a2dp.html#ga73a7d02bde825807202680eaa6e4c5c5" title="Function wiced_bt_a2d_find_service. ">wiced_bt_a2d_find_service()</a> callback function.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="">wiced_bt_a2d_status_t</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
 </div>
 </div>

@@ -1,7 +1,7 @@
 var group___result =
 [
     [ "wiced_result_t", "group___result.html#gacfc32ead8a827d53416f01b19eb58310", [
-      [ "WICED_BT_SUCCESS", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ad54c2f811ddfa94b623bfd0e26c23673", null ],
+      [ "WICED_RESULT_LIST", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a2a4a0c443158265405b11db3aadbb822", null ],
       [ "WICED_BT_PARTIAL_RESULTS", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a9c781d6d3af16b5623ac99a31f75fe69", null ],
       [ "WICED_BT_BADARG", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a47f17a4ab699419e77d70f8a9f30076b", null ],
       [ "WICED_BT_BADOPTION", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a1ee6b4a005a84ce72ab0b83483b3e86b", null ],
@@ -52,6 +52,8 @@ var group___result =
       [ "WICED_BT_MODE4_LEVEL4_NOT_SUPPORTED", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310afe072b570312144d2be3a5d7adc5edb5", null ],
       [ "WICED_BT_USE_DEFAULT_SECURITY", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a5752389a74963552776151a3ee008cdc", null ],
       [ "WICED_BT_KEY_MISSING", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a399c866606d76b34ac44edf90add12d4", null ],
-      [ "WICED_BT_ENCRYPT_DISABLED", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a4708e8eb0830a4188da03a689cda9d7d", null ]
+      [ "WICED_BT_ENCRYPT_DISABLED", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a4708e8eb0830a4188da03a689cda9d7d", null ],
+      [ "WICED_BT_SERVICE_NOT_FOUND", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310a182262df81b723ca8795f01cf0c2b3bc", null ],
+      [ "FILESYSTEM_RESULT_LIST", "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ab6cc046f991e08c43f3a999634f9bb8a", null ]
     ] ]
 ];

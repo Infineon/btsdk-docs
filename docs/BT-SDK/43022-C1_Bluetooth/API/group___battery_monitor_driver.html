@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Battery Monitor</title>
+<title>AIROC&trade; CYW43022: BatteryMonitorDriver</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,18 +98,15 @@ $(document).ready(function(){initNavTree('group___battery_monitor_driver.html','
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Battery Monitor<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">BatteryMonitorDriver<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Defines a driver to facilitate interfacing with the Battery Monitor.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae8d6147e1230d6fcc903bc212730cb20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="brcm__fw__types_8h.html#a4ae1dab0fb4b072a66584546209e7d58">BYTE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#gae8d6147e1230d6fcc903bc212730cb20">wiced_hal_batmon_config</a> (uint8_t adcInputConnected, uint32_t measurementInterval, uint8_t numMeasurementsToAvg, uint16_t fullVoltage, uint16_t emptyVoltage, uint16_t shutdownVoltage, uint8_t maxLevel, uint8_t reportID, uint8_t reportLength, uint8_t reportOnConnect)</td></tr>
-<tr class="memdesc:gae8d6147e1230d6fcc903bc212730cb20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported ADC input channel selection for battery connection.  <a href="#gae8d6147e1230d6fcc903bc212730cb20">More...</a><br /></td></tr>
-<tr class="separator:gae8d6147e1230d6fcc903bc212730cb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c">wiced_hal_batmon_config</a> (uint8_t adcInputConnected, uint32_t measurementInterval, uint8_t numMeasurementsToAvg, uint16_t fullVoltage, uint16_t emptyVoltage, uint16_t shutdownVoltage, uint8_t maxLevel, uint8_t reportID, uint8_t reportLength, uint8_t reportOnConnect)</td></tr>
+<tr class="memdesc:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Battery Monitor.  <a href="#ga25d17d0070be322a45bd8b46f2c8db5c">More...</a><br /></td></tr>
+<tr class="separator:ga25d17d0070be322a45bd8b46f2c8db5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga77be52a45b4921946843d954426d563f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___battery_monitor_driver.html#ga77be52a45b4921946843d954426d563f">wiced_hal_batmon_init</a> (void)</td></tr>
 <tr class="memdesc:ga77be52a45b4921946843d954426d563f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize and then start the Battery Monitor.  <a href="#ga77be52a45b4921946843d954426d563f">More...</a><br /></td></tr>
 <tr class="separator:ga77be52a45b4921946843d954426d563f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,15 +115,13 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e717093e7492edf291fa2a35d461463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Defines a driver to facilitate interfacing with the Battery Monitor. </p>
-<p>The driver uses the Analog-to-Digital Converter (ADC) driver to take a moving average of the battery voltage, and decides when to suspend or shutdown the system based upon the threshold values defined by the user. This watchful protector ensures that the system is able to cleanly shut down and notify the application and/or host before there is not enough power necessary for proper system functionality. Note that the Battery Monitor relies on polling to check on the status of the battery. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gae8d6147e1230d6fcc903bc212730cb20"></a>
+<a class="anchor" id="ga25d17d0070be322a45bd8b46f2c8db5c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="brcm__fw__types_8h.html#a4ae1dab0fb4b072a66584546209e7d58">BYTE</a> wiced_hal_batmon_config </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_hal_batmon_config </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>adcInputConnected</em>, </td>
@@ -193,43 +188,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Supported ADC input channel selection for battery connection. </p>
-<pre class="fragment">typedef enum ADC_INPUT_CHANNEL_SEL {
-    ADC_INPUT_P17           =   0x0,    //GPIO 16
-    ADC_INPUT_P16           =   0x1,    //GPIO 17
-    ADC_INPUT_P15           =   0x2,    //GPIO 18
-    ADC_INPUT_P14           =   0x3,    //GPIO 19
-    ADC_INPUT_P13           =   0x4,    //GPIO 20
-    ADC_INPUT_P12           =   0x5,    //GPIO 21
-    ADC_INPUT_P11           =   0x6,    //GPIO 22
-    ADC_INPUT_P10           =   0x7,    //GPIO 23
-    ADC_INPUT_P9            =   0x8,    //GPIO 24
-    ADC_INPUT_P8            =   0x9,    //GPIO 25
-    ADC_INPUT_P1            =   0xA,    //GPIO 26
-    ADC_INPUT_P0            =   0xB,    //GPIO 27
-    ADC_INPUT_VDDIO         =   0xC,    //ADC_INPUT_VBAT_VDDIO
-    ADC_INPUT_VDD_CORE      =   0xD,    //ADC_INPUT_VDDC
-    ADC_INPUT_ADC_BGREF     =   0xE,
-    ADC_INPUT_ADC_REFGND    =   0xF,
-    ADC_INPUT_P38           =   0x10,   //GPIO 0
-    ADC_INPUT_P37           =   0x11,   //GPIO 1
-    ADC_INPUT_P36           =   0x12,   //GPIO 2
-    ADC_INPUT_P35           =   0x13,   //GPIO 3
-    ADC_INPUT_P34           =   0x14,   //GPIO 4
-    ADC_INPUT_P33           =   0x15,   //GPIO 5
-    ADC_INPUT_P32           =   0x16,   //GPIO 6
-    ADC_INPUT_P31           =   0x17,   //GPIO 7
-    ADC_INPUT_P30           =   0x18,   //GPIO 8
-    ADC_INPUT_P29           =   0x19,   //GPIO 9
-    ADC_INPUT_P28           =   0x1A,   //GPIO 10
-    ADC_INPUT_P23           =   0x1B,   //GPIO 11
-    ADC_INPUT_P22           =   0x1C,   //GPIO 12
-    ADC_INPUT_P21           =   0x1D,   //GPIO 13
-    ADC_INPUT_P19           =   0x1E,   //GPIO 14
-    ADC_INPUT_P18           =   0x1F,   //GPIO 15
-    ADC_INPUT_CHANNEL_MASK  =   0x1f,
-}ADC_INPUT_CHANNEL_SEL;
-</pre><p> Sets the configuration parameters of the Battery Monitor. This function is <em>optional</em>, since the Battery Monitor parameters are pre-populated with default values on startup. See the param descriptions below for the default values.</p>
+<p>Defines a driver to facilitate interfacing with the Battery Monitor. </p>
+<p>The driver uses the Analog-to-Digital Converter (ADC) driver to take a moving average of the battery voltage, and decides when to suspend or shutdown the system based upon the threshold values defined by the user. This watchful protector ensures that the system is able to cleanly shut down and notify the application and/or host before there is not enough power necessary for proper system functionality. Note that the Battery Monitor relies on polling to check on the status of the battery. / Supported ADC input channel selection for battery connection. typedef enum ADC_INPUT_CHANNEL_SEL { ADC_INPUT_P17 = 0x0, //GPIO 16 ADC_INPUT_P16 = 0x1, //GPIO 17 ADC_INPUT_P15 = 0x2, //GPIO 18 ADC_INPUT_P14 = 0x3, //GPIO 19 ADC_INPUT_P13 = 0x4, //GPIO 20 ADC_INPUT_P12 = 0x5, //GPIO 21 ADC_INPUT_P11 = 0x6, //GPIO 22 ADC_INPUT_P10 = 0x7, //GPIO 23 ADC_INPUT_P9 = 0x8, //GPIO 24 ADC_INPUT_P8 = 0x9, //GPIO 25 ADC_INPUT_P1 = 0xA, //GPIO 26 ADC_INPUT_P0 = 0xB, //GPIO 27 ADC_INPUT_VDDIO = 0xC, //ADC_INPUT_VBAT_VDDIO ADC_INPUT_VDD_CORE = 0xD, //ADC_INPUT_VDDC ADC_INPUT_ADC_BGREF = 0xE, ADC_INPUT_ADC_REFGND = 0xF, ADC_INPUT_P38 = 0x10, //GPIO 0 ADC_INPUT_P37 = 0x11, //GPIO 1 ADC_INPUT_P36 = 0x12, //GPIO 2 ADC_INPUT_P35 = 0x13, //GPIO 3 ADC_INPUT_P34 = 0x14, //GPIO 4 ADC_INPUT_P33 = 0x15, //GPIO 5 ADC_INPUT_P32 = 0x16, //GPIO 6 ADC_INPUT_P31 = 0x17, //GPIO 7 ADC_INPUT_P30 = 0x18, //GPIO 8 ADC_INPUT_P29 = 0x19, //GPIO 9 ADC_INPUT_P28 = 0x1A, //GPIO 10 ADC_INPUT_P23 = 0x1B, //GPIO 11 ADC_INPUT_P22 = 0x1C, //GPIO 12 ADC_INPUT_P21 = 0x1D, //GPIO 13 ADC_INPUT_P19 = 0x1E, //GPIO 14 ADC_INPUT_P18 = 0x1F, //GPIO 15 ADC_INPUT_CHANNEL_MASK = 0x1f, }ADC_INPUT_CHANNEL_SEL; Sets the configuration parameters of the Battery Monitor. This function is <em>optional</em>, since the Battery Monitor parameters are pre-populated with default values on startup. See the param descriptions below for the default values.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">adcInputConnected</td><td>- HW line connected to battery, used by ADC. Default = ADC_INPUT_VDDIO (P15). </td></tr>
@@ -245,7 +205,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>1 if all parameters were successfully set, 0 if one or more failures&ndash;check that the inputs were within their specified bounds. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE if all parameters were successfully set, WICED_FALSE if one or more failures&ndash;check that the inputs were within their specified bounds. </dd></dl>
 
 </div>
 </div>
@@ -290,7 +250,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Polls the battery by monitoring the voltage via the ADC. </p>
-<p>Takes a running average of the measured voltage and determines whether to suspend or shut down the system based upon the provided threshold values. See <a class="el" href="group___battery_monitor_driver.html#gae8d6147e1230d6fcc903bc212730cb20" title="Supported ADC input channel selection for battery connection. ">wiced_hal_batmon_config()</a>.</p>
+<p>Takes a running average of the measured voltage and determines whether to shut down the system based upon the provided threshold values. See <a class="el" href="group___battery_monitor_driver.html#ga25d17d0070be322a45bd8b46f2c8db5c" title="Defines a driver to facilitate interfacing with the Battery Monitor. ">wiced_hal_batmon_config()</a>. It also compares the current battery level with previous measurement, if different, it will inform the registered battery observers.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>

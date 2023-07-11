@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_a2d_m12.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_a2d_m12.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -95,10 +95,6 @@ $(document).ready(function(){initNavTree('wiced__bt__a2d__m12_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_bt_a2d_m12.h File Reference</div>  </div>
 </div><!--header-->
@@ -106,204 +102,14 @@ $(document).ready(function(){initNavTree('wiced__bt__a2d__m12_8h.html','');});
 
 <p>MPEG-1, 2 Audio A2DP Application Programming Interface.  
 <a href="#details">More...</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2d__m12__cie__t.html">wiced_bt_a2d_m12_cie_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:af2eb79f617514437d250edfeb9fa3bfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2eb79f617514437d250edfeb9fa3bfc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_MPL_HDR_LEN</b>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:af2eb79f617514437d250edfeb9fa3bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d0a705f73d658af33de9b0bb40bebf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5d0a705f73d658af33de9b0bb40bebf"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_INFO_LEN</b>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:ac5d0a705f73d658af33de9b0bb40bebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34575dd585fde70f534cba73cf9ffa10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34575dd585fde70f534cba73cf9ffa10"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_LAYER_MSK</b>&#160;&#160;&#160;0xE0    /* b7-b5 layer */</td></tr>
-<tr class="separator:a34575dd585fde70f534cba73cf9ffa10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77924b0d3be0cf3b14e5bf408397ea55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77924b0d3be0cf3b14e5bf408397ea55"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_LAYER1</b>&#160;&#160;&#160;0x80    /* b7: layer1 (mp1) */</td></tr>
-<tr class="separator:a77924b0d3be0cf3b14e5bf408397ea55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22499853855ec6323e571412f9539a9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22499853855ec6323e571412f9539a9c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_LAYER2</b>&#160;&#160;&#160;0x40    /* b6: layer2 (mp2) */</td></tr>
-<tr class="separator:a22499853855ec6323e571412f9539a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad40a9b97083dc5e2b667ddbd5cb2fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ad40a9b97083dc5e2b667ddbd5cb2fd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_LAYER3</b>&#160;&#160;&#160;0x20    /* b5: layer3 (mp3) */</td></tr>
-<tr class="separator:a5ad40a9b97083dc5e2b667ddbd5cb2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439970b3c8e8f7f2bff17db9d75b3cb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a439970b3c8e8f7f2bff17db9d75b3cb2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CRC_MSK</b>&#160;&#160;&#160;0x10    /* b4: CRC */</td></tr>
-<tr class="separator:a439970b3c8e8f7f2bff17db9d75b3cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b96a481a35329cffa30ef7c3641331"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0b96a481a35329cffa30ef7c3641331"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CH_MD_MSK</b>&#160;&#160;&#160;0x0F    /* b3-b0 channel mode */</td></tr>
-<tr class="separator:ae0b96a481a35329cffa30ef7c3641331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c9787e009af294edd2e643429a738a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c9787e009af294edd2e643429a738a4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CH_MD_MONO</b>&#160;&#160;&#160;0x08    /* b3: mono */</td></tr>
-<tr class="separator:a7c9787e009af294edd2e643429a738a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b70ef06ef063127b0ecb931248caa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20b70ef06ef063127b0ecb931248caa5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CH_MD_DUAL</b>&#160;&#160;&#160;0x04    /* b2: dual */</td></tr>
-<tr class="separator:a20b70ef06ef063127b0ecb931248caa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a0d498e24f84e4b062c5d54bf5da00c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a0d498e24f84e4b062c5d54bf5da00c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CH_MD_STEREO</b>&#160;&#160;&#160;0x02    /* b1: stereo */</td></tr>
-<tr class="separator:a8a0d498e24f84e4b062c5d54bf5da00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04dbfc5b06036d163c582a695453cc8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04dbfc5b06036d163c582a695453cc8b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_CH_MD_JOINT</b>&#160;&#160;&#160;0x01    /* b0: joint stereo */</td></tr>
-<tr class="separator:a04dbfc5b06036d163c582a695453cc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf41a108bc7848d7fb5c9f6bf432f8fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf41a108bc7848d7fb5c9f6bf432f8fe"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_MPF_MSK</b>&#160;&#160;&#160;0x40    /* b6: MPF */</td></tr>
-<tr class="separator:aaf41a108bc7848d7fb5c9f6bf432f8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b65e64bf3bac4520aca89eaf677e1c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b65e64bf3bac4520aca89eaf677e1c1"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_MSK</b>&#160;&#160;&#160;0x3F    /* b5-b0 sampling frequency */</td></tr>
-<tr class="separator:a9b65e64bf3bac4520aca89eaf677e1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43614726297938716fb8c08817667b95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43614726297938716fb8c08817667b95"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_16</b>&#160;&#160;&#160;0x20    /* b5:16  kHz */</td></tr>
-<tr class="separator:a43614726297938716fb8c08817667b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef8b454c6db7cb8b193e16604e0cf45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaef8b454c6db7cb8b193e16604e0cf45"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_22</b>&#160;&#160;&#160;0x10    /* b4:22.05kHz */</td></tr>
-<tr class="separator:aaef8b454c6db7cb8b193e16604e0cf45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a513f521d5a51bb5adc6b5ce18e37d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00a513f521d5a51bb5adc6b5ce18e37d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_24</b>&#160;&#160;&#160;0x08    /* b3:24  kHz */</td></tr>
-<tr class="separator:a00a513f521d5a51bb5adc6b5ce18e37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41b1ca776de033803b40e4f0a695ded"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac41b1ca776de033803b40e4f0a695ded"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_32</b>&#160;&#160;&#160;0x04    /* b2:32  kHz */</td></tr>
-<tr class="separator:ac41b1ca776de033803b40e4f0a695ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e0ed2e043792dfacbcc2b93c5be7456"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e0ed2e043792dfacbcc2b93c5be7456"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_44</b>&#160;&#160;&#160;0x02    /* b1:44.1kHz */</td></tr>
-<tr class="separator:a0e0ed2e043792dfacbcc2b93c5be7456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51a32cc85cf0965d38e8cafb92a171e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51a32cc85cf0965d38e8cafb92a171e8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_SAMP_FREQ_48</b>&#160;&#160;&#160;0x01    /* b0:48  kHz */</td></tr>
-<tr class="separator:a51a32cc85cf0965d38e8cafb92a171e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd01c0d472a02d5b30350016c0445494"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd01c0d472a02d5b30350016c0445494"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_VBR_MSK</b>&#160;&#160;&#160;0x80    /* b7: VBR */</td></tr>
-<tr class="separator:abd01c0d472a02d5b30350016c0445494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d1e110211d8e1b4b1f1a752ad04ed8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4d1e110211d8e1b4b1f1a752ad04ed8"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_MSK</b>&#160;&#160;&#160;0x7FFF  /* b6-b0 of octect 2, all of octect3*/</td></tr>
-<tr class="separator:ad4d1e110211d8e1b4b1f1a752ad04ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a055b19e0251da086a96b891e62fa7430"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a055b19e0251da086a96b891e62fa7430"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_0</b>&#160;&#160;&#160;0x0001  /* 0000 */</td></tr>
-<tr class="separator:a055b19e0251da086a96b891e62fa7430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3668bb98886020f53fce21955aa2ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed3668bb98886020f53fce21955aa2ef"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_1</b>&#160;&#160;&#160;0x0002  /* 0001 */</td></tr>
-<tr class="separator:aed3668bb98886020f53fce21955aa2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523ad1f323a2490d5d79953e490f6928"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a523ad1f323a2490d5d79953e490f6928"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_2</b>&#160;&#160;&#160;0x0004  /* 0010 */</td></tr>
-<tr class="separator:a523ad1f323a2490d5d79953e490f6928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68ebd0a5e38cdc6496640a99f688184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab68ebd0a5e38cdc6496640a99f688184"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_3</b>&#160;&#160;&#160;0x0008  /* 0011 */</td></tr>
-<tr class="separator:ab68ebd0a5e38cdc6496640a99f688184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75d2828bb7786ef2dba9e08baec5113"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa75d2828bb7786ef2dba9e08baec5113"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_4</b>&#160;&#160;&#160;0x0010  /* 0100 */</td></tr>
-<tr class="separator:aa75d2828bb7786ef2dba9e08baec5113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb4ce0e83e481d2c8415ebb1454b5eab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb4ce0e83e481d2c8415ebb1454b5eab"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_5</b>&#160;&#160;&#160;0x0020  /* 0101 */</td></tr>
-<tr class="separator:adb4ce0e83e481d2c8415ebb1454b5eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a035e8cfe77601a419e67709c7b49f36e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a035e8cfe77601a419e67709c7b49f36e"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_6</b>&#160;&#160;&#160;0x0040  /* 0110 */</td></tr>
-<tr class="separator:a035e8cfe77601a419e67709c7b49f36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b30143f473887f6e16fc761ced5a695"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b30143f473887f6e16fc761ced5a695"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_7</b>&#160;&#160;&#160;0x0080  /* 0111 */</td></tr>
-<tr class="separator:a2b30143f473887f6e16fc761ced5a695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ac3e60e5c6b0894831d7dbd7011c9f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ac3e60e5c6b0894831d7dbd7011c9f0"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_8</b>&#160;&#160;&#160;0x0100  /* 1000 */</td></tr>
-<tr class="separator:a6ac3e60e5c6b0894831d7dbd7011c9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1140ff33faaa0e8fc0a14d2ebcffabad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1140ff33faaa0e8fc0a14d2ebcffabad"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_9</b>&#160;&#160;&#160;0x0200  /* 1001 */</td></tr>
-<tr class="separator:a1140ff33faaa0e8fc0a14d2ebcffabad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed0edbebd148bc7c5664aa274b5bfb5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed0edbebd148bc7c5664aa274b5bfb5a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_10</b>&#160;&#160;&#160;0x0400  /* 1010 */</td></tr>
-<tr class="separator:aed0edbebd148bc7c5664aa274b5bfb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac83b5cc169edc72f54e99190112d2f63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac83b5cc169edc72f54e99190112d2f63"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_11</b>&#160;&#160;&#160;0x0800  /* 1011 */</td></tr>
-<tr class="separator:ac83b5cc169edc72f54e99190112d2f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b681673f64b4da7dd3f535541d55a8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b681673f64b4da7dd3f535541d55a8c"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_12</b>&#160;&#160;&#160;0x1000  /* 1100 */</td></tr>
-<tr class="separator:a8b681673f64b4da7dd3f535541d55a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a452679917e67a902574b07686490ad02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a452679917e67a902574b07686490ad02"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_13</b>&#160;&#160;&#160;0x2000  /* 1101 */</td></tr>
-<tr class="separator:a452679917e67a902574b07686490ad02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cfacbde6c1316dbae1b7cd8d215e5c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cfacbde6c1316dbae1b7cd8d215e5c2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_M12_IE_BITRATE_14</b>&#160;&#160;&#160;0x4000  /* 1110 */</td></tr>
-<tr class="separator:a2cfacbde6c1316dbae1b7cd8d215e5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acef301927c6112b13b6092ed96924351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_BLD_M12_PML_HDR</b>(p_dst, frag_offset)</td></tr>
-<tr class="separator:acef301927c6112b13b6092ed96924351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade8cab0a6990c8c4cbec70f32cd13443"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>A2D_PARS_M12_PML_HDR</b>(p_src, frag_offset)</td></tr>
-<tr class="separator:ade8cab0a6990c8c4cbec70f32cd13443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:af06d7fa0bf9303bcaedfb2ca0647eb64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af06d7fa0bf9303bcaedfb2ca0647eb64"></a>
-wiced_bt_a2d_status_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_bld_m12info</b> (uint8_t media_type, <a class="el" href="structwiced__bt__a2d__m12__cie__t.html">wiced_bt_a2d_m12_cie_t</a> *p_ie, uint8_t *p_result)</td></tr>
-<tr class="separator:af06d7fa0bf9303bcaedfb2ca0647eb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec65c0c1d390a419c96fa3b937797db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ec65c0c1d390a419c96fa3b937797db"></a>
-wiced_bt_a2d_status_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a2d_pars_m12info</b> (<a class="el" href="structwiced__bt__a2d__m12__cie__t.html">wiced_bt_a2d_m12_cie_t</a> *p_ie, uint8_t *p_info, wiced_bool_t for_caps)</td></tr>
-<tr class="separator:a7ec65c0c1d390a419c96fa3b937797db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>MPEG-1, 2 Audio A2DP Application Programming Interface. </p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="acef301927c6112b13b6092ed96924351"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define A2D_BLD_M12_PML_HDR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_dst, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">frag_offset&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{UINT16_TO_BE_STREAM(p_dst, 0); \</div>
-<div class="line">                                                UINT16_TO_BE_STREAM(p_dst, frag_offset); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="ade8cab0a6990c8c4cbec70f32cd13443"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define A2D_PARS_M12_PML_HDR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_src, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">frag_offset&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{BE_STREAM_TO_UINT16(frag_offset, p_src); \</div>
-<div class="line">                                                 BE_STREAM_TO_UINT16(frag_offset, p_src); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__a2d__m12_8h.html">wiced_bt_a2d_m12.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__a2d__m12_8h.html">wiced_bt_a2d_m12.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

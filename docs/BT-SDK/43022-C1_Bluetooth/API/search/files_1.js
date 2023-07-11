@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hci_5fcontrol_5fapi_2eh',['hci_control_api.h',['../hci__control__api_8h.html',1,'']]]
+  ['wiced_5fhal_5fpuart_2eh',['wiced_hal_puart.h',['../btsdk-include_2wiced__hal__puart_8h.html',1,'']]]
 ];

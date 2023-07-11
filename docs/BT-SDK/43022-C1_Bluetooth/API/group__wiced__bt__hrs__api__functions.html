@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: HRS Library API</title>
+<title>AIROC&trade; CYW43022: HRS Library API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('group__wiced__bt__hrs__api__functions.
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HRS Library API<div class="ingroups"><a class="el" href="group__wicedbt.html">Bluetooth</a></div></div>  </div>
+<div class="title">HRS Library API</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -155,16 +155,16 @@ Functions</h2></td></tr>
 <tr class="memitem:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#gac93fe14d4e3f9e9eaad388d55da7b04e">wiced_bt_hrs_connection_down</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>)</td></tr>
 <tr class="memdesc:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when LE connection with a peer device has been disconnected.  <a href="#gac93fe14d4e3f9e9eaad388d55da7b04e">More...</a><br /></td></tr>
 <tr class="separator:gac93fe14d4e3f9e9eaad388d55da7b04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga29cee0b47e06cac4ca15c8ce36001506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga29cee0b47e06cac4ca15c8ce36001506">wiced_bt_hrs_process_client_read_req</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__gatt__read__t.html">wiced_bt_gatt_read_t</a> *p_read)</td></tr>
+<tr class="memitem:ga29cee0b47e06cac4ca15c8ce36001506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga29cee0b47e06cac4ca15c8ce36001506">wiced_bt_hrs_process_client_read_req</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__gatt__read__t.html">wiced_bt_gatt_read_t</a> *p_read)</td></tr>
 <tr class="memdesc:ga29cee0b47e06cac4ca15c8ce36001506"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when it receives GATT read request on Heart rate service characteristic and descriptors.  <a href="#ga29cee0b47e06cac4ca15c8ce36001506">More...</a><br /></td></tr>
 <tr class="separator:ga29cee0b47e06cac4ca15c8ce36001506"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab17c264569b7a87956d1e4d7af951754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#gab17c264569b7a87956d1e4d7af951754">wiced_bt_hrs_process_client_write_req</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__gatt__write__t.html">wiced_bt_gatt_write_t</a> *p_write)</td></tr>
+<tr class="memitem:gab17c264569b7a87956d1e4d7af951754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#gab17c264569b7a87956d1e4d7af951754">wiced_bt_hrs_process_client_write_req</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, wiced_bt_gatt_write_t *p_write)</td></tr>
 <tr class="memdesc:gab17c264569b7a87956d1e4d7af951754"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function when it receives GATT write request on Heart rate service characteristic and descriptors.  <a href="#gab17c264569b7a87956d1e4d7af951754">More...</a><br /></td></tr>
 <tr class="separator:gab17c264569b7a87956d1e4d7af951754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga876ff859096e3abee632621b45774c13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga876ff859096e3abee632621b45774c13">wiced_bt_hrs_send_heart_rate</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__hrs__notification__data__t.html">wiced_bt_hrs_notification_data_t</a> *p_heart_rate_data)</td></tr>
+<tr class="memitem:ga876ff859096e3abee632621b45774c13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga876ff859096e3abee632621b45774c13">wiced_bt_hrs_send_heart_rate</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="structwiced__bt__hrs__notification__data__t.html">wiced_bt_hrs_notification_data_t</a> *p_heart_rate_data)</td></tr>
 <tr class="memdesc:ga876ff859096e3abee632621b45774c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application calls this function to send heart rate notification.  <a href="#ga876ff859096e3abee632621b45774c13">More...</a><br /></td></tr>
 <tr class="separator:ga876ff859096e3abee632621b45774c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3079f4121adc0643990b4908691a655f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga3079f4121adc0643990b4908691a655f">wiced_bt_hrs_set_previous_connection_client_notification_configuration</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, wiced_bool_t notifications_enabled)</td></tr>
+<tr class="memitem:ga3079f4121adc0643990b4908691a655f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__hrs__api__functions.html#ga3079f4121adc0643990b4908691a655f">wiced_bt_hrs_set_previous_connection_client_notification_configuration</a> (uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> notifications_enabled)</td></tr>
 <tr class="memdesc:ga3079f4121adc0643990b4908691a655f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application should call this API on successful encryption with Heart Rate client.  <a href="#ga3079f4121adc0643990b4908691a655f">More...</a><br /></td></tr>
 <tr class="separator:ga3079f4121adc0643990b4908691a655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a> wiced_bt_hrs_process_client_read_req </td>
+          <td class="memname"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a> wiced_bt_hrs_process_client_read_req </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>conn_id</em>, </td>
@@ -349,7 +349,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a> wiced_bt_hrs_process_client_write_req </td>
+          <td class="memname"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a> wiced_bt_hrs_process_client_write_req </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>conn_id</em>, </td>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structwiced__bt__gatt__write__t.html">wiced_bt_gatt_write_t</a> *&#160;</td>
+          <td class="paramtype">wiced_bt_gatt_write_t *&#160;</td>
           <td class="paramname"><em>p_write</em>&#160;</td>
         </tr>
         <tr>
@@ -385,7 +385,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="wiced__bt__gatt_8h.html#af2fed4c3092ffd14ce4f213a60c02fe4">wiced_bt_gatt_status_t</a> wiced_bt_hrs_send_heart_rate </td>
+          <td class="memname"><a class="el" href="group__wicedbt__gatt.html#ga0e035835afe92d61fe430ea19029677a">wiced_bt_gatt_status_t</a> wiced_bt_hrs_send_heart_rate </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>conn_id</em>, </td>
@@ -429,7 +429,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramtype"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td>
           <td class="paramname"><em>notifications_enabled</em>&#160;</td>
         </tr>
         <tr>

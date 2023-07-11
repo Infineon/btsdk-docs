@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: I2C</title>
+<title>AIROC&trade; CYW43022: I2C</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('group___i2_c_driver.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#groups">Modules</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -106,21 +107,27 @@ $(document).ready(function(){initNavTree('group___i2_c_driver.html','');});
 <p>Defines an I2C driver to facilitate communication with other devices on an I2C bus (such as a temperature sensor, etc).  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
+Modules</h2></td></tr>
+<tr class="memitem:group___i2_c_e_e_p_r_o_m_interface_driver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_e_e_p_r_o_m_interface_driver.html">I2C EEPROM Interface</a></td></tr>
+<tr class="memdesc:group___i2_c_e_e_p_r_o_m_interface_driver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the I2C EEPROM interface. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#ggadf764cbdea00d65edcd07bb9953ad2b7a2fa669fc9820cf8ace8eadae500de28b">I2CM_SPEED_100KHZ</a> = 240, 
-<a class="el" href="group___i2_c_driver.html#ggadf764cbdea00d65edcd07bb9953ad2b7a2d1bde442eaafa8362826726077de137">I2CM_SPEED_400KHZ</a> = 60, 
-<a class="el" href="group___i2_c_driver.html#ggadf764cbdea00d65edcd07bb9953ad2b7a21cfe14be160b1030d832b5c8443f036">I2CM_SPEED_800KHZ</a> = 30, 
-<a class="el" href="group___i2_c_driver.html#ggadf764cbdea00d65edcd07bb9953ad2b7a1ee8d763b3714bf7d0b8001cc4f583da">I2CM_SPEED_1000KHZ</a> = 24
+<tr class="memitem:gadc29c2ff13d900c2f185ee95427fb06c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#ggadc29c2ff13d900c2f185ee95427fb06ca2fa669fc9820cf8ace8eadae500de28b">I2CM_SPEED_100KHZ</a> = 16, 
+<a class="el" href="group___i2_c_driver.html#ggadc29c2ff13d900c2f185ee95427fb06ca2d1bde442eaafa8362826726077de137">I2CM_SPEED_400KHZ</a> = 64, 
+<a class="el" href="group___i2_c_driver.html#ggadc29c2ff13d900c2f185ee95427fb06ca21cfe14be160b1030d832b5c8443f036">I2CM_SPEED_800KHZ</a> = 128, 
+<a class="el" href="group___i2_c_driver.html#ggadc29c2ff13d900c2f185ee95427fb06ca1ee8d763b3714bf7d0b8001cc4f583da">I2CM_SPEED_1000KHZ</a> = 160
  }</td></tr>
-<tr class="memdesc:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed Options.  <a href="group___i2_c_driver.html#gadf764cbdea00d65edcd07bb9953ad2b7">More...</a><br /></td></tr>
-<tr class="separator:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99fb83031ce9923c84392b4e92f956b5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a01540758b38146ad68cf1bddfc7fa36f">I2CM_SUCCESS</a>, 
-<a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a9e628df9ccc57b1d2c539633c90bfbf7">I2CM_OP_FAILED</a>, 
-<a class="el" href="group___i2_c_driver.html#gga99fb83031ce9923c84392b4e92f956b5a0b82f8163a4021c3f90329fd3ee56759">I2CM_BUSY</a>
+<tr class="memdesc:gadc29c2ff13d900c2f185ee95427fb06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed Options.  <a href="group___i2_c_driver.html#gadc29c2ff13d900c2f185ee95427fb06c">More...</a><br /></td></tr>
+<tr class="separator:gadc29c2ff13d900c2f185ee95427fb06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61dadd085c1777f559549e05962b2c9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___i2_c_driver.html#gga61dadd085c1777f559549e05962b2c9ea01540758b38146ad68cf1bddfc7fa36f">I2CM_SUCCESS</a>, 
+<a class="el" href="group___i2_c_driver.html#gga61dadd085c1777f559549e05962b2c9ea9e628df9ccc57b1d2c539633c90bfbf7">I2CM_OP_FAILED</a>, 
+<a class="el" href="group___i2_c_driver.html#gga61dadd085c1777f559549e05962b2c9ea0b82f8163a4021c3f90329fd3ee56759">I2CM_BUSY</a>
  }</td></tr>
-<tr class="memdesc:ga99fb83031ce9923c84392b4e92f956b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transaction Status Return Values.  <a href="group___i2_c_driver.html#ga99fb83031ce9923c84392b4e92f956b5">More...</a><br /></td></tr>
-<tr class="separator:ga99fb83031ce9923c84392b4e92f956b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga61dadd085c1777f559549e05962b2c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transaction Status Return Values.  <a href="group___i2_c_driver.html#ga61dadd085c1777f559549e05962b2c9e">More...</a><br /></td></tr>
+<tr class="separator:ga61dadd085c1777f559549e05962b2c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -139,9 +146,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga724b205fb13d080bbbbd11aa4434589b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#ga724b205fb13d080bbbbd11aa4434589b">wiced_hal_i2c_write</a> (uint8_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, uint16_t length, uint8_t slave)</td></tr>
 <tr class="memdesc:ga724b205fb13d080bbbbd11aa4434589b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the given data to the I2C HW addressing a particualr slave address.  <a href="#ga724b205fb13d080bbbbd11aa4434589b">More...</a><br /></td></tr>
 <tr class="separator:ga724b205fb13d080bbbbd11aa4434589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#gafd39e71a9ebab9765b275a274ab8a7bb">wiced_hal_i2c_select_pads</a> (uint8_t scl_pin, uint8_t sda_pin)</td></tr>
-<tr class="memdesc:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures I2C pins.  <a href="#gafd39e71a9ebab9765b275a274ab8a7bb">More...</a><br /></td></tr>
-<tr class="separator:gafd39e71a9ebab9765b275a274ab8a7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_driver.html#ga40dec68e55c2d085a26d62ba0dc0d495">wiced_hal_i2c_combined_read</a> (uint8_t *rx_data, uint8_t rx_data_len, uint8_t *tx_data, uint16_t tx_data_len, uint8_t slave)</td></tr>
 <tr class="memdesc:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes two transactions back-to-back with a repeated start condition between the first and the second.  <a href="#ga40dec68e55c2d085a26d62ba0dc0d495">More...</a><br /></td></tr>
 <tr class="separator:ga40dec68e55c2d085a26d62ba0dc0d495"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,7 +155,7 @@ Functions</h2></td></tr>
 <p>The driver is only capable of assuming a master role. Applications use this driver to obtain the status from and control the behavior of the I2C hardware. This driver only offers services for speed control and data transfer operations.</p>
 <p>Please note that even though this driver can access off-chip memory (if installed; EEPROM, etc), please use the drivers found in <a class="el" href="wiced__hal__ieeprom_8h.html" title="List of parameters and defined functions needed to access the Inter-Integrated Circuit (I2C...">wiced_hal_ieeprom.h</a> to access those modules, as those drivers include checks to ensure safe data handling operations. This driver is intended only to interface with other devices on the I2C bus, such as a motion sensor. </p>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="gadf764cbdea00d65edcd07bb9953ad2b7"></a>
+<a class="anchor" id="gadc29c2ff13d900c2f185ee95427fb06c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -163,23 +167,23 @@ Functions</h2></td></tr>
 
 <p>Speed Options. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a2fa669fc9820cf8ace8eadae500de28b"></a>I2CM_SPEED_100KHZ&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggadc29c2ff13d900c2f185ee95427fb06ca2fa669fc9820cf8ace8eadae500de28b"></a>I2CM_SPEED_100KHZ&#160;</td><td class="fielddoc">
 <p>I2C speed is 100 KHz. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a2d1bde442eaafa8362826726077de137"></a>I2CM_SPEED_400KHZ&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ggadc29c2ff13d900c2f185ee95427fb06ca2d1bde442eaafa8362826726077de137"></a>I2CM_SPEED_400KHZ&#160;</td><td class="fielddoc">
 <p>I2C speed is 400 KHz. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a21cfe14be160b1030d832b5c8443f036"></a>I2CM_SPEED_800KHZ&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ggadc29c2ff13d900c2f185ee95427fb06ca21cfe14be160b1030d832b5c8443f036"></a>I2CM_SPEED_800KHZ&#160;</td><td class="fielddoc">
 <p>I2C speed is 800 KHz. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a1ee8d763b3714bf7d0b8001cc4f583da"></a>I2CM_SPEED_1000KHZ&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ggadc29c2ff13d900c2f185ee95427fb06ca1ee8d763b3714bf7d0b8001cc4f583da"></a>I2CM_SPEED_1000KHZ&#160;</td><td class="fielddoc">
 <p>I2C speed is 1 MHz. </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a class="anchor" id="ga99fb83031ce9923c84392b4e92f956b5"></a>
+<a class="anchor" id="ga61dadd085c1777f559549e05962b2c9e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -191,13 +195,13 @@ Functions</h2></td></tr>
 
 <p>Transaction Status Return Values. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga99fb83031ce9923c84392b4e92f956b5a01540758b38146ad68cf1bddfc7fa36f"></a>I2CM_SUCCESS&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga61dadd085c1777f559549e05962b2c9ea01540758b38146ad68cf1bddfc7fa36f"></a>I2CM_SUCCESS&#160;</td><td class="fielddoc">
 <p>The transaction was sucessful. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga99fb83031ce9923c84392b4e92f956b5a9e628df9ccc57b1d2c539633c90bfbf7"></a>I2CM_OP_FAILED&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga61dadd085c1777f559549e05962b2c9ea9e628df9ccc57b1d2c539633c90bfbf7"></a>I2CM_OP_FAILED&#160;</td><td class="fielddoc">
 <p>The attempted operation failed, possibly because of no ack from slave. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga99fb83031ce9923c84392b4e92f956b5a0b82f8163a4021c3f90329fd3ee56759"></a>I2CM_BUSY&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga61dadd085c1777f559549e05962b2c9ea0b82f8163a4021c3f90329fd3ee56759"></a>I2CM_BUSY&#160;</td><td class="fielddoc">
 <p>The I2C HW block is busy with another transaction. </p>
 </td></tr>
 </table>
@@ -283,7 +287,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The SCL ref clock cycle counter value that corresponding to the SCL speed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The SCL ref clock cycle counter value that corresponding to the SCL speed. Note: If its SCB data rate calucalation is ((speed * 100000UL)/16UL) </dd></dl>
 
 </div>
 </div>
@@ -355,41 +359,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The status of the transaction (success[0], failure[1], or busy[2]). </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gafd39e71a9ebab9765b275a274ab8a7bb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_i2c_select_pads </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>scl_pin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>sda_pin</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Configures I2C pins. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">scl_pin</td><td>LHL GPIO to be used for SCL </td></tr>
-    <tr><td class="paramname">sda_pin</td><td>LHL GPIO to be used for SDA </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

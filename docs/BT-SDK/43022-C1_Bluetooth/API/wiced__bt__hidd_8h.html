@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_hidd.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_hidd.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -99,8 +99,7 @@ $(document).ready(function(){initNavTree('wiced__bt__hidd_8h.html','');});
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_bt_hidd.h File Reference</div>  </div>
 </div><!--header-->
@@ -115,6 +114,7 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD QoS configuration.  <a href="structwiced__bt__hidd__qos__info__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__rep__data.html">wiced_bt_rep_data</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">HID-Device Response data.  <a href="structwiced__bt__rep__data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__hidd__data__t.html">wiced_bt_hidd_data_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incoming data.  <a href="structwiced__bt__hidd__data__t.html#details">More...</a><br /></td></tr>
@@ -123,6 +123,7 @@ Data Structures</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data types for HIDD event callback.  <a href="unionwiced__bt__hidd__event__data__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__hidd__reg__info__t.html">wiced_bt_hidd_reg_info_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD device registration information.  <a href="structwiced__bt__hidd__reg__info__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__hidd__pwr__md.html">wiced_bt_hidd_pwr_md</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,7 +131,8 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a91a3555ec639715261268fcb97b6de67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91a3555ec639715261268fcb97b6de67"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_TRANS_HANDSHAKE</b>&#160;&#160;&#160;(0)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a91a3555ec639715261268fcb97b6de67">HID_TRANS_HANDSHAKE</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memdesc:a91a3555ec639715261268fcb97b6de67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define the HID transaction types (see Table 3.1 Bluetooth HID Protocol Message type in the spec) <br /></td></tr>
 <tr class="separator:a91a3555ec639715261268fcb97b6de67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf66b189b93472bed0f4e6b022c5b700"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf66b189b93472bed0f4e6b022c5b700"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_TRANS_CONTROL</b>&#160;&#160;&#160;(1)</td></tr>
@@ -171,80 +173,95 @@ Macros</h2></td></tr>
 <tr class="memitem:a1c5730470539fd3e2d81e390dd78e5a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c5730470539fd3e2d81e390dd78e5a4"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_HDR_LEN</b>&#160;&#160;&#160;(1)</td></tr>
 <tr class="separator:a1c5730470539fd3e2d81e390dd78e5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e64a99492b574112cc05c70d114749"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1e64a99492b574112cc05c70d114749"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_SUCCESS</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ad1e64a99492b574112cc05c70d114749"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ad1e64a99492b574112cc05c70d114749">HID_PAR_HANDSHAKE_RSP_SUCCESS</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memdesc:ad1e64a99492b574112cc05c70d114749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for Handshake.  <a href="#ad1e64a99492b574112cc05c70d114749">More...</a><br /></td></tr>
 <tr class="separator:ad1e64a99492b574112cc05c70d114749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb10fc5c055b4f0e25cbcb71be5ada8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb10fc5c055b4f0e25cbcb71be5ada8b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_NOT_READY</b>&#160;&#160;&#160;(1)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#abb10fc5c055b4f0e25cbcb71be5ada8b">HID_PAR_HANDSHAKE_RSP_NOT_READY</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:abb10fc5c055b4f0e25cbcb71be5ada8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device is busy to accept data. <br /></td></tr>
 <tr class="separator:abb10fc5c055b4f0e25cbcb71be5ada8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a046390647a2d9332d947147c63f4f9f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a046390647a2d9332d947147c63f4f9f4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_ERR_INVALID_REP_ID</b>&#160;&#160;&#160;(2)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a046390647a2d9332d947147c63f4f9f4">HID_PAR_HANDSHAKE_RSP_ERR_INVALID_REP_ID</a>&#160;&#160;&#160;(2)</td></tr>
+<tr class="memdesc:a046390647a2d9332d947147c63f4f9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid report ID transmitted. <br /></td></tr>
 <tr class="separator:a046390647a2d9332d947147c63f4f9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb63e93a263850548311f458d79c784d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb63e93a263850548311f458d79c784d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_ERR_UNSUPPORTED_REQ</b>&#160;&#160;&#160;(3)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#acb63e93a263850548311f458d79c784d">HID_PAR_HANDSHAKE_RSP_ERR_UNSUPPORTED_REQ</a>&#160;&#160;&#160;(3)</td></tr>
+<tr class="memdesc:acb63e93a263850548311f458d79c784d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device does not support the request. <br /></td></tr>
 <tr class="separator:acb63e93a263850548311f458d79c784d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26143c4624274e7cb43887bcb2fa2c32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26143c4624274e7cb43887bcb2fa2c32"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_ERR_INVALID_PARAM</b>&#160;&#160;&#160;(4)</td></tr>
+<tr class="memitem:a26143c4624274e7cb43887bcb2fa2c32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a26143c4624274e7cb43887bcb2fa2c32">HID_PAR_HANDSHAKE_RSP_ERR_INVALID_PARAM</a>&#160;&#160;&#160;(4)</td></tr>
+<tr class="memdesc:a26143c4624274e7cb43887bcb2fa2c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter value is out of range or inappropriate for the request.  <a href="#a26143c4624274e7cb43887bcb2fa2c32">More...</a><br /></td></tr>
 <tr class="separator:a26143c4624274e7cb43887bcb2fa2c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf302880fcc8cd2d0e3080b62570ef1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf302880fcc8cd2d0e3080b62570ef1f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_ERR_UNKNOWN</b>&#160;&#160;&#160;(14)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#adf302880fcc8cd2d0e3080b62570ef1f">HID_PAR_HANDSHAKE_RSP_ERR_UNKNOWN</a>&#160;&#160;&#160;(14)</td></tr>
+<tr class="memdesc:adf302880fcc8cd2d0e3080b62570ef1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device could not identify the error condition. <br /></td></tr>
 <tr class="separator:adf302880fcc8cd2d0e3080b62570ef1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7cff6eed64303a7c203ee77283a8d52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7cff6eed64303a7c203ee77283a8d52"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_HANDSHAKE_RSP_ERR_FATAL</b>&#160;&#160;&#160;(15)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ad7cff6eed64303a7c203ee77283a8d52">HID_PAR_HANDSHAKE_RSP_ERR_FATAL</a>&#160;&#160;&#160;(15)</td></tr>
+<tr class="memdesc:ad7cff6eed64303a7c203ee77283a8d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart is essential to resume functionality. <br /></td></tr>
 <tr class="separator:ad7cff6eed64303a7c203ee77283a8d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6199b5332b70d37ff291e999dc1d27b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6199b5332b70d37ff291e999dc1d27b"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_NOP</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:ab6199b5332b70d37ff291e999dc1d27b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ab6199b5332b70d37ff291e999dc1d27b">HID_PAR_CONTROL_NOP</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memdesc:ab6199b5332b70d37ff291e999dc1d27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for Control.  <a href="#ab6199b5332b70d37ff291e999dc1d27b">More...</a><br /></td></tr>
 <tr class="separator:ab6199b5332b70d37ff291e999dc1d27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5fcac685dc07189665c0624d2e47e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b5fcac685dc07189665c0624d2e47e7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_HARD_RESET</b>&#160;&#160;&#160;(1)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a5b5fcac685dc07189665c0624d2e47e7">HID_PAR_CONTROL_HARD_RESET</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:a5b5fcac685dc07189665c0624d2e47e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Hard Reset. <br /></td></tr>
 <tr class="separator:a5b5fcac685dc07189665c0624d2e47e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74ce52cfeb6e9028a8bfbe0b43171b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af74ce52cfeb6e9028a8bfbe0b43171b9"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_SOFT_RESET</b>&#160;&#160;&#160;(2)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#af74ce52cfeb6e9028a8bfbe0b43171b9">HID_PAR_CONTROL_SOFT_RESET</a>&#160;&#160;&#160;(2)</td></tr>
+<tr class="memdesc:af74ce52cfeb6e9028a8bfbe0b43171b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform Soft Reset. <br /></td></tr>
 <tr class="separator:af74ce52cfeb6e9028a8bfbe0b43171b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6b23c19872aee2a72f83d4c8ec8711a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6b23c19872aee2a72f83d4c8ec8711a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_SUSPEND</b>&#160;&#160;&#160;(3)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ae6b23c19872aee2a72f83d4c8ec8711a">HID_PAR_CONTROL_SUSPEND</a>&#160;&#160;&#160;(3)</td></tr>
+<tr class="memdesc:ae6b23c19872aee2a72f83d4c8ec8711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to reduced power mode. <br /></td></tr>
 <tr class="separator:ae6b23c19872aee2a72f83d4c8ec8711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a740de7cd6e700e5843a2c358f22cb025"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a740de7cd6e700e5843a2c358f22cb025"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_EXIT_SUSPEND</b>&#160;&#160;&#160;(4)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a740de7cd6e700e5843a2c358f22cb025">HID_PAR_CONTROL_EXIT_SUSPEND</a>&#160;&#160;&#160;(4)</td></tr>
+<tr class="memdesc:a740de7cd6e700e5843a2c358f22cb025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit reduced power mode. <br /></td></tr>
 <tr class="separator:a740de7cd6e700e5843a2c358f22cb025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbaf20e80d1320915f396991338a2e25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbaf20e80d1320915f396991338a2e25"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_CONTROL_VIRTUAL_CABLE_UNPLUG</b>&#160;&#160;&#160;(5)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#acbaf20e80d1320915f396991338a2e25">HID_PAR_CONTROL_VIRTUAL_CABLE_UNPLUG</a>&#160;&#160;&#160;(5)</td></tr>
+<tr class="memdesc:acbaf20e80d1320915f396991338a2e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys or invalidate all bonding and Virtual Cable information. <br /></td></tr>
 <tr class="separator:acbaf20e80d1320915f396991338a2e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dbe3e03db4364bfdf9f3418a69eda8d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_MASK</b>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memitem:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a0dbe3e03db4364bfdf9f3418a69eda8d">HID_PAR_REP_TYPE_MASK</a>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memdesc:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different report types in get, set, data.  <a href="#a0dbe3e03db4364bfdf9f3418a69eda8d">More...</a><br /></td></tr>
 <tr class="separator:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0029ac7205d9ca9dd261b7703409c8b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0029ac7205d9ca9dd261b7703409c8b5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_OTHER</b>&#160;&#160;&#160;(0x00)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a0029ac7205d9ca9dd261b7703409c8b5">HID_PAR_REP_TYPE_OTHER</a>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memdesc:a0029ac7205d9ca9dd261b7703409c8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other report type. <br /></td></tr>
 <tr class="separator:a0029ac7205d9ca9dd261b7703409c8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba71891b15f2dbe7a6aa9de43ab2634a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba71891b15f2dbe7a6aa9de43ab2634a"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_INPUT</b>&#160;&#160;&#160;(0x01)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#aba71891b15f2dbe7a6aa9de43ab2634a">HID_PAR_REP_TYPE_INPUT</a>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memdesc:aba71891b15f2dbe7a6aa9de43ab2634a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input report type. <br /></td></tr>
 <tr class="separator:aba71891b15f2dbe7a6aa9de43ab2634a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affe6b128f3851894aff51125a3f4a4bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affe6b128f3851894aff51125a3f4a4bd"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_OUTPUT</b>&#160;&#160;&#160;(0x02)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#affe6b128f3851894aff51125a3f4a4bd">HID_PAR_REP_TYPE_OUTPUT</a>&#160;&#160;&#160;(0x02)</td></tr>
+<tr class="memdesc:affe6b128f3851894aff51125a3f4a4bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output report type. <br /></td></tr>
 <tr class="separator:affe6b128f3851894aff51125a3f4a4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19554b8e90a7e5f47d087ab836b09f5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19554b8e90a7e5f47d087ab836b09f5f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_FEATURE</b>&#160;&#160;&#160;(0x03)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a19554b8e90a7e5f47d087ab836b09f5f">HID_PAR_REP_TYPE_FEATURE</a>&#160;&#160;&#160;(0x03)</td></tr>
+<tr class="memdesc:a19554b8e90a7e5f47d087ab836b09f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Feature report type. <br /></td></tr>
 <tr class="separator:a19554b8e90a7e5f47d087ab836b09f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494ee80c496c3524fba30bab7c0147b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a494ee80c496c3524fba30bab7c0147b6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_GET_REP_BUFSIZE_FOLLOWS</b>&#160;&#160;&#160;(0x08)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a494ee80c496c3524fba30bab7c0147b6">HID_PAR_GET_REP_BUFSIZE_FOLLOWS</a>&#160;&#160;&#160;(0x08) /** Buffer size in two bytes after Report ID */</td></tr>
+<tr class="memdesc:a494ee80c496c3524fba30bab7c0147b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for Get Report. <br /></td></tr>
 <tr class="separator:a494ee80c496c3524fba30bab7c0147b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c8e426147237b33a661ab83a2856a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0c8e426147237b33a661ab83a2856a4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_PROTOCOL_MASK</b>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memitem:ab0c8e426147237b33a661ab83a2856a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ab0c8e426147237b33a661ab83a2856a4">HID_PAR_PROTOCOL_MASK</a>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memdesc:ab0c8e426147237b33a661ab83a2856a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for Protocol Type.  <a href="#ab0c8e426147237b33a661ab83a2856a4">More...</a><br /></td></tr>
 <tr class="separator:ab0c8e426147237b33a661ab83a2856a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3af0232e6bf04dc72f05ae37dfa45d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e3af0232e6bf04dc72f05ae37dfa45d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_PROTOCOL_REPORT</b>&#160;&#160;&#160;(0x01)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a5e3af0232e6bf04dc72f05ae37dfa45d">HID_PAR_PROTOCOL_REPORT</a>&#160;&#160;&#160;(0x01)</td></tr>
+<tr class="memdesc:a5e3af0232e6bf04dc72f05ae37dfa45d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report protocol mode, default mode. <br /></td></tr>
 <tr class="separator:a5e3af0232e6bf04dc72f05ae37dfa45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01896c7f5eb2e48a2e534f245f7266d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01896c7f5eb2e48a2e534f245f7266d5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_PROTOCOL_BOOT_MODE</b>&#160;&#160;&#160;(0x00)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a01896c7f5eb2e48a2e534f245f7266d5">HID_PAR_PROTOCOL_BOOT_MODE</a>&#160;&#160;&#160;(0x00)</td></tr>
+<tr class="memdesc:a01896c7f5eb2e48a2e534f245f7266d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boot protocol mode. <br /></td></tr>
 <tr class="separator:a01896c7f5eb2e48a2e534f245f7266d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dbe3e03db4364bfdf9f3418a69eda8d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_PAR_REP_TYPE_MASK</b>&#160;&#160;&#160;(0x03)</td></tr>
-<tr class="separator:a0dbe3e03db4364bfdf9f3418a69eda8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4d6798c2b079a214b0879b84c9e074"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c4d6798c2b079a214b0879b84c9e074"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SDP_DESCRIPTOR_REPORT</b>&#160;&#160;&#160;(0x22)</td></tr>
+<tr class="memitem:a9c4d6798c2b079a214b0879b84c9e074"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a9c4d6798c2b079a214b0879b84c9e074">HID_SDP_DESCRIPTOR_REPORT</a>&#160;&#160;&#160;(0x22)</td></tr>
+<tr class="memdesc:a9c4d6798c2b079a214b0879b84c9e074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor types in the SDP record (see Table 5.6: Descriptor Type Codes)  <a href="#a9c4d6798c2b079a214b0879b84c9e074">More...</a><br /></td></tr>
 <tr class="separator:a9c4d6798c2b079a214b0879b84c9e074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aee8f78e908a2c1d9b1db2af1eebddc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7aee8f78e908a2c1d9b1db2af1eebddc"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HID_SDP_DESCRIPTOR_PHYSICAL</b>&#160;&#160;&#160;(0x23)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a7aee8f78e908a2c1d9b1db2af1eebddc">HID_SDP_DESCRIPTOR_PHYSICAL</a>&#160;&#160;&#160;(0x23)</td></tr>
+<tr class="memdesc:a7aee8f78e908a2c1d9b1db2af1eebddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor type physical. <br /></td></tr>
 <tr class="separator:a7aee8f78e908a2c1d9b1db2af1eebddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -253,24 +270,21 @@ Typedefs</h2></td></tr>
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a></td></tr>
 <tr class="memdesc:a97cc1ffdf11e8509bb4010862968b7d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD status codes (see <a class="el" href="wiced__bt__hidd_8h.html#ac4c831287a951d2414fb34292ee4864f" title="HID status codes. ">wiced_bt_hidd_status_e</a>) <br /></td></tr>
 <tr class="separator:a97cc1ffdf11e8509bb4010862968b7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4fab70e861037a197720d4e5056151d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4fab70e861037a197720d4e5056151d"></a>
-typedef struct <a class="el" href="structwiced__bt__rep__data.html">wiced_bt_rep_data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ac4fab70e861037a197720d4e5056151d">wiced_bt_hidd_get_rep_data_t</a></td></tr>
-<tr class="memdesc:ac4fab70e861037a197720d4e5056151d"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD get report data. <br /></td></tr>
+<tr class="memitem:ac4fab70e861037a197720d4e5056151d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structwiced__bt__rep__data.html">wiced_bt_rep_data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ac4fab70e861037a197720d4e5056151d">wiced_bt_hidd_get_rep_data_t</a></td></tr>
+<tr class="memdesc:ac4fab70e861037a197720d4e5056151d"><td class="mdescLeft">&#160;</td><td class="mdescRight">HID-Device Response data.  <a href="#ac4fab70e861037a197720d4e5056151d">More...</a><br /></td></tr>
 <tr class="separator:ac4fab70e861037a197720d4e5056151d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a706ca712bdf3b9ca015f6acd163c7f7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a706ca712bdf3b9ca015f6acd163c7f7f"></a>
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a706ca712bdf3b9ca015f6acd163c7f7f">wiced_bt_hidd_cback_event_t</a></td></tr>
 <tr class="memdesc:a706ca712bdf3b9ca015f6acd163c7f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD events (see <a class="el" href="wiced__bt__hidd_8h.html#a937c5acf3ead29ddc92cfd1a3cc8aa59" title="HID-Device Callback Events. ">wiced_bt_hidd_cback_event_e</a>) <br /></td></tr>
 <tr class="separator:a706ca712bdf3b9ca015f6acd163c7f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff5c6348d87cc9af1c82d4bee3d66df3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff5c6348d87cc9af1c82d4bee3d66df3"></a>
-typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#aff5c6348d87cc9af1c82d4bee3d66df3">wiced_bt_hidd_st_t</a></td></tr>
-<tr class="memdesc:aff5c6348d87cc9af1c82d4bee3d66df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD state (see <a class="el" href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597">wiced_bt_hidd_st_e</a>) <br /></td></tr>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_hidd_st_t</b></td></tr>
 <tr class="separator:aff5c6348d87cc9af1c82d4bee3d66df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d9aca21f67779e2e78fd6a7ef9ac195"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a2d9aca21f67779e2e78fd6a7ef9ac195">wiced_bt_hidd_callback_t</a> )(<a class="el" href="wiced__bt__hidd_8h.html#a706ca712bdf3b9ca015f6acd163c7f7f">wiced_bt_hidd_cback_event_t</a> event, uint32_t <a class="el" href="wiced__bt__mesh__provision_8h.html#aa86e1085c6a16f60258f29c9d5fc2144">data</a>, <a class="el" href="unionwiced__bt__hidd__event__data__t.html">wiced_bt_hidd_event_data_t</a> *p_event_data)</td></tr>
 <tr class="memdesc:a2d9aca21f67779e2e78fd6a7ef9ac195"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD callback.  <a href="#a2d9aca21f67779e2e78fd6a7ef9ac195">More...</a><br /></td></tr>
 <tr class="separator:a2d9aca21f67779e2e78fd6a7ef9ac195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24aa6c2deee3c3d7a81d3a5ffee6a3ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24aa6c2deee3c3d7a81d3a5ffee6a3ea"></a>
-typedef struct <a class="el" href="structwiced__bt__hidd__pwr__md.html">wiced_bt_hidd_pwr_md</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a24aa6c2deee3c3d7a81d3a5ffee6a3ea">wiced_bt_hidd_pm_pwr_md_t</a></td></tr>
-<tr class="memdesc:a24aa6c2deee3c3d7a81d3a5ffee6a3ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD power mode. <br /></td></tr>
+typedef struct <a class="el" href="structwiced__bt__hidd__pwr__md.html">wiced_bt_hidd_pwr_md</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_hidd_pm_pwr_md_t</b></td></tr>
 <tr class="separator:a24aa6c2deee3c3d7a81d3a5ffee6a3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -330,35 +344,127 @@ Enumerations</h2></td></tr>
 <a class="el" href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597afb7fa32298ab1dbc679b4270505bc70d">WICED_BT_HIDD_IDLE_CONN_ST</a>, 
 <a class="el" href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597ade5cfa0b1b5284c2273f9b4e4ffbeb20">WICED_BT_HIDD_SUSP_CONN_ST</a>
  }</td></tr>
+<tr class="memdesc:a767aacaed2aada8b7636c7f3d4c14597"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD state (see <a class="el" href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597" title="HIDD state (see wiced_bt_hidd_st_e) ">wiced_bt_hidd_st_e</a>)  <a href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597">More...</a><br /></td></tr>
 <tr class="separator:a767aacaed2aada8b7636c7f3d4c14597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0c53727230b715ab5c46d2ca746e3faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#ga0c53727230b715ab5c46d2ca746e3faa">wiced_bt_hidd_register</a> (<a class="el" href="structwiced__bt__hidd__reg__info__t.html">wiced_bt_hidd_reg_info_t</a> *p_reg_info)</td></tr>
-<tr class="memdesc:ga0c53727230b715ab5c46d2ca746e3faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_register.  <a href="group__hidd__api__functions.html#ga0c53727230b715ab5c46d2ca746e3faa">More...</a><br /></td></tr>
-<tr class="separator:ga0c53727230b715ab5c46d2ca746e3faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c94f1b4148e280ef468aa0416f37856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#ga5c94f1b4148e280ef468aa0416f37856">wiced_bt_hidd_deregister</a> (void)</td></tr>
-<tr class="memdesc:ga5c94f1b4148e280ef468aa0416f37856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_deregister.  <a href="group__hidd__api__functions.html#ga5c94f1b4148e280ef468aa0416f37856">More...</a><br /></td></tr>
-<tr class="separator:ga5c94f1b4148e280ef468aa0416f37856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga70a04efe90cd77c0674b0ccd4e63fc0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#ga70a04efe90cd77c0674b0ccd4e63fc0f">wiced_bt_hidd_connect</a> (void)</td></tr>
-<tr class="memdesc:ga70a04efe90cd77c0674b0ccd4e63fc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_connect.  <a href="group__hidd__api__functions.html#ga70a04efe90cd77c0674b0ccd4e63fc0f">More...</a><br /></td></tr>
-<tr class="separator:ga70a04efe90cd77c0674b0ccd4e63fc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba93d54acfe397e2ddfde34f297df865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#gaba93d54acfe397e2ddfde34f297df865">wiced_bt_hidd_disconnect</a> (void)</td></tr>
-<tr class="memdesc:gaba93d54acfe397e2ddfde34f297df865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_disconnect.  <a href="group__hidd__api__functions.html#gaba93d54acfe397e2ddfde34f297df865">More...</a><br /></td></tr>
-<tr class="separator:gaba93d54acfe397e2ddfde34f297df865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac249b70140a5fac61badd59a60d3f1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#gac249b70140a5fac61badd59a60d3f1f3">wiced_bt_hidd_hand_shake</a> (uint8_t res_code)</td></tr>
-<tr class="memdesc:gac249b70140a5fac61badd59a60d3f1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_hand_shake.  <a href="group__hidd__api__functions.html#gac249b70140a5fac61badd59a60d3f1f3">More...</a><br /></td></tr>
-<tr class="separator:gac249b70140a5fac61badd59a60d3f1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#gaa5c41bb8cadb7312cd2aef3e1ba718ed">wiced_bt_hidd_virtual_unplug</a> (void)</td></tr>
-<tr class="memdesc:gaa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_virtual_unplug.  <a href="group__hidd__api__functions.html#gaa5c41bb8cadb7312cd2aef3e1ba718ed">More...</a><br /></td></tr>
-<tr class="separator:gaa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga120f4c0d6b5da8d9362f99706304bd18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__hidd__api__functions.html#ga120f4c0d6b5da8d9362f99706304bd18">wiced_bt_hidd_send_data</a> (wiced_bool_t control_ch, uint8_t rep_type, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
-<tr class="memdesc:ga120f4c0d6b5da8d9362f99706304bd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_send_data.  <a href="group__hidd__api__functions.html#ga120f4c0d6b5da8d9362f99706304bd18">More...</a><br /></td></tr>
-<tr class="separator:ga120f4c0d6b5da8d9362f99706304bd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a0c53727230b715ab5c46d2ca746e3faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a0c53727230b715ab5c46d2ca746e3faa">wiced_bt_hidd_register</a> (<a class="el" href="structwiced__bt__hidd__reg__info__t.html">wiced_bt_hidd_reg_info_t</a> *p_reg_info)</td></tr>
+<tr class="memdesc:a0c53727230b715ab5c46d2ca746e3faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">HIDD Functions This component maps features from the USB Human Interface Definition onto Bluetooth as a profile.  <a href="#a0c53727230b715ab5c46d2ca746e3faa">More...</a><br /></td></tr>
+<tr class="separator:a0c53727230b715ab5c46d2ca746e3faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c94f1b4148e280ef468aa0416f37856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a5c94f1b4148e280ef468aa0416f37856">wiced_bt_hidd_deregister</a> (void)</td></tr>
+<tr class="memdesc:a5c94f1b4148e280ef468aa0416f37856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_deregister.  <a href="#a5c94f1b4148e280ef468aa0416f37856">More...</a><br /></td></tr>
+<tr class="separator:a5c94f1b4148e280ef468aa0416f37856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a04efe90cd77c0674b0ccd4e63fc0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a70a04efe90cd77c0674b0ccd4e63fc0f">wiced_bt_hidd_connect</a> (void)</td></tr>
+<tr class="memdesc:a70a04efe90cd77c0674b0ccd4e63fc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_connect.  <a href="#a70a04efe90cd77c0674b0ccd4e63fc0f">More...</a><br /></td></tr>
+<tr class="separator:a70a04efe90cd77c0674b0ccd4e63fc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba93d54acfe397e2ddfde34f297df865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#aba93d54acfe397e2ddfde34f297df865">wiced_bt_hidd_disconnect</a> (void)</td></tr>
+<tr class="memdesc:aba93d54acfe397e2ddfde34f297df865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_disconnect.  <a href="#aba93d54acfe397e2ddfde34f297df865">More...</a><br /></td></tr>
+<tr class="separator:aba93d54acfe397e2ddfde34f297df865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac249b70140a5fac61badd59a60d3f1f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#ac249b70140a5fac61badd59a60d3f1f3">wiced_bt_hidd_hand_shake</a> (uint8_t res_code)</td></tr>
+<tr class="memdesc:ac249b70140a5fac61badd59a60d3f1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_hand_shake.  <a href="#ac249b70140a5fac61badd59a60d3f1f3">More...</a><br /></td></tr>
+<tr class="separator:ac249b70140a5fac61badd59a60d3f1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#aa5c41bb8cadb7312cd2aef3e1ba718ed">wiced_bt_hidd_virtual_unplug</a> (void)</td></tr>
+<tr class="memdesc:aa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_virtual_unplug.  <a href="#aa5c41bb8cadb7312cd2aef3e1ba718ed">More...</a><br /></td></tr>
+<tr class="separator:aa5c41bb8cadb7312cd2aef3e1ba718ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120f4c0d6b5da8d9362f99706304bd18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__hidd_8h.html#a120f4c0d6b5da8d9362f99706304bd18">wiced_bt_hidd_send_data</a> (<a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> control_ch, uint8_t rep_type, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memdesc:a120f4c0d6b5da8d9362f99706304bd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_hidd_send_data.  <a href="#a120f4c0d6b5da8d9362f99706304bd18">More...</a><br /></td></tr>
+<tr class="separator:a120f4c0d6b5da8d9362f99706304bd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Human Interface Device Profile (HID) Device over BR/EDR. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ab6199b5332b70d37ff291e999dc1d27b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_PAR_CONTROL_NOP&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameters for Control. </p>
+<p>No Operation </p>
+
+</div>
+</div>
+<a class="anchor" id="a26143c4624274e7cb43887bcb2fa2c32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_PAR_HANDSHAKE_RSP_ERR_INVALID_PARAM&#160;&#160;&#160;(4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameter value is out of range or inappropriate for the request. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad1e64a99492b574112cc05c70d114749"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_PAR_HANDSHAKE_RSP_SUCCESS&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameters for Handshake. </p>
+<p>Handshake successful </p>
+
+</div>
+</div>
+<a class="anchor" id="ab0c8e426147237b33a661ab83a2856a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_PAR_PROTOCOL_MASK&#160;&#160;&#160;(0x01)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameters for Protocol Type. </p>
+<p>Mask used for report type </p>
+
+</div>
+</div>
+<a class="anchor" id="a0dbe3e03db4364bfdf9f3418a69eda8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_PAR_REP_TYPE_MASK&#160;&#160;&#160;(0x03)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Different report types in get, set, data. </p>
+<p>Mask used for report type </p>
+
+</div>
+</div>
+<a class="anchor" id="a9c4d6798c2b079a214b0879b84c9e074"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HID_SDP_DESCRIPTOR_REPORT&#160;&#160;&#160;(0x22)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descriptor types in the SDP record (see Table 5.6: Descriptor Type Codes) </p>
+<p>Descriptor type report </p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a2d9aca21f67779e2e78fd6a7ef9ac195"></a>
 <div class="memitem">
 <div class="memproto">
@@ -380,6 +486,21 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac4fab70e861037a197720d4e5056151d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structwiced__bt__rep__data.html">wiced_bt_rep_data</a>  <a class="el" href="wiced__bt__hidd_8h.html#ac4fab70e861037a197720d4e5056151d">wiced_bt_hidd_get_rep_data_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>HID-Device Response data. </p>
+<p>HIDD get report data </p>
 
 </div>
 </div>
@@ -452,6 +573,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>HIDD state (see <a class="el" href="wiced__bt__hidd_8h.html#a767aacaed2aada8b7636c7f3d4c14597" title="HIDD state (see wiced_bt_hidd_st_e) ">wiced_bt_hidd_st_e</a>) </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a767aacaed2aada8b7636c7f3d4c14597ad2ef52e4ef41d2fc3daebaa0612e3d3e"></a>WICED_BT_HIDD_BUSY_CONN_ST&#160;</td><td class="fielddoc">
 <p>Busy state. </p>
@@ -539,12 +662,226 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a70a04efe90cd77c0674b0ccd4e63fc0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_connect </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_connect. </p>
+<p>Initiates a connection to the host.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5c94f1b4148e280ef468aa0416f37856"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_deregister </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_deregister. </p>
+<p>Remove HIDD service records and deregister L2CAP channel.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aba93d54acfe397e2ddfde34f297df865"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_disconnect </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_disconnect. </p>
+<p>Disconnects from the host.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac249b70140a5fac61badd59a60d3f1f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_hand_shake </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>res_code</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_hand_shake. </p>
+<p>Sends HAND-SHAKE to host.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">res_code</td><td>: Result code </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c53727230b715ab5c46d2ca746e3faa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_register </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structwiced__bt__hidd__reg__info__t.html">wiced_bt_hidd_reg_info_t</a> *&#160;</td>
+          <td class="paramname"><em>p_reg_info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>HIDD Functions This component maps features from the USB Human Interface Definition onto Bluetooth as a profile. </p>
+<p>The HID Device (HIDD) role defines a set of procedures that can be used by an application to implement a HID device level functionality over a BR/EDR Transport. Function wiced_bt_hidd_register </p><pre class="fragment">             Called at startup to register necessary info for HIDD.
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_reg_info</td><td>: Registration info </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a120f4c0d6b5da8d9362f99706304bd18"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_send_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td>
+          <td class="paramname"><em>control_ch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>rep_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>data_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_send_data. </p>
+<p>Sends input reports to host.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">control_ch</td><td>: True if control block, False otherwise </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rep_type</td><td>: Report type </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>: Report data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_len</td><td>: Data length</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa5c41bb8cadb7312cd2aef3e1ba718ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3">wiced_bt_hidd_status_t</a> wiced_bt_hidd_virtual_unplug </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_hidd_virtual_unplug. </p>
+<p>Sends VIRTUAL-UNPLUG to host.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">None</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status code (see <a class="el" href="wiced__bt__hidd_8h.html#a97cc1ffdf11e8509bb4010862968b7d3" title="HIDD status codes (see wiced_bt_hidd_status_e) ">wiced_bt_hidd_status_t</a>) </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__hidd_8h.html">wiced_bt_hidd.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__hidd_8h.html">wiced_bt_hidd.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

@@ -1,15 +1,14 @@
 var searchData=
 [
-  ['platform_5faudio_5fdevice_5fconfigure',['platform_audio_device_configure',['../platform__audio__device_8h.html#afe2a40233a4f41386365d1351ce839e7',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fdeinit',['platform_audio_device_deinit',['../platform__audio__device_8h.html#a9aa3dbe118725f5caf5851a18bde1250',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fget_5fvolume',['platform_audio_device_get_volume',['../platform__audio__device_8h.html#a50f99c08b744a395eff0e72228e79e22',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fget_5fvolume_5frange',['platform_audio_device_get_volume_range',['../platform__audio__device_8h.html#a7d0c786a363280ca7345ed0da22a6632',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5finit',['platform_audio_device_init',['../platform__audio__device_8h.html#ac59a529c4d0dd7be10a881c307349448',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fioctl',['platform_audio_device_ioctl',['../platform__audio__device_8h.html#a55151792fd99889b445ea7884029339b',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fset_5fmic_5fgain',['platform_audio_device_set_mic_gain',['../platform__audio__device_8h.html#a1180d38bfd94539a89a972b35b75ef17',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fset_5foutput_5fdevice',['platform_audio_device_set_output_device',['../platform__audio__device_8h.html#a5f99f9022e63426830b08bb0fc592d29',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fset_5fsr',['platform_audio_device_set_sr',['../platform__audio__device_8h.html#a04ea29659d19148818e749d47897348b',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fset_5fvolume',['platform_audio_device_set_volume',['../platform__audio__device_8h.html#a03db4766238e73a5144eeae3cd037801',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fstart',['platform_audio_device_start',['../platform__audio__device_8h.html#af42c4b7cfdb1f8604c176fff26d0447d',1,'platform_audio_device.h']]],
-  ['platform_5faudio_5fdevice_5fstop',['platform_audio_device_stop',['../platform__audio__device_8h.html#a0a5b6f9f42b224e91d034aa571d39d40',1,'platform_audio_device.h']]]
+  ['sha2',['sha2',['../sha2_8h.html#a5e67ecbf0b3b71cc3d66f87e356fcb95',1,'sha2.h']]],
+  ['sha2_5ffile',['sha2_file',['../sha2_8h.html#a488a192b5a7c76a6e806910761db6d21',1,'sha2.h']]],
+  ['sha2_5ffinish',['sha2_finish',['../sha2_8h.html#a2762ab9bf6601a7ab2f2bee3eb72b22a',1,'sha2.h']]],
+  ['sha2_5fhmac',['sha2_hmac',['../sha2_8h.html#a4f4f39b5d88b842a5626d1ac4b19943b',1,'sha2.h']]],
+  ['sha2_5fhmac_5ffinish',['sha2_hmac_finish',['../sha2_8h.html#afad853fc439a23fe3595d3486649d3cf',1,'sha2.h']]],
+  ['sha2_5fhmac_5freset',['sha2_hmac_reset',['../sha2_8h.html#a7f9ced2b8aec3cdd9bc7cc3ae5892816',1,'sha2.h']]],
+  ['sha2_5fhmac_5fstarts',['sha2_hmac_starts',['../sha2_8h.html#aa85ba04d982e323dc3aa9b9bc50272e7',1,'sha2.h']]],
+  ['sha2_5fhmac_5fupdate',['sha2_hmac_update',['../sha2_8h.html#ac48e02dd0fe447f1ea15cde44f7bd123',1,'sha2.h']]],
+  ['sha2_5fself_5ftest',['sha2_self_test',['../sha2_8h.html#a8a7026f38413c81e28966631a8dbc004',1,'sha2.h']]],
+  ['sha2_5fstarts',['sha2_starts',['../sha2_8h.html#ae01444aa81c862eb74f0545b8d05371a',1,'sha2.h']]],
+  ['sha2_5fupdate',['sha2_update',['../sha2_8h.html#a27f31da489bf678f99a2170df0180838',1,'sha2.h']]]
 ];

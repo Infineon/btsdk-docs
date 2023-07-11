@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_stack.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_stack.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -95,8 +95,6 @@ $(document).ready(function(){initNavTree('wiced__bt__stack_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_bt_stack.h File Reference</div>  </div>
 </div><!--header-->
@@ -107,9 +105,13 @@ $(document).ready(function(){initNavTree('wiced__bt__stack_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5ffccad07a041f9f18a6d2f132d4edf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a> (<a class="el" href="wiced__bt__dev_8h.html#a50c74fb6824e881c95c1ccaf3ddf01d3">wiced_bt_management_cback_t</a> *p_bt_management_cback, const <a class="el" href="structwiced__bt__cfg__settings__t.html">wiced_bt_cfg_settings_t</a> *p_bt_cfg_settings, const <a class="el" href="structwiced__bt__cfg__buf__pool__t.html">wiced_bt_cfg_buf_pool_t</a> wiced_bt_cfg_buf_pools[<a class="el" href="wiced__bt__cfg_8h.html#ad11afc11297ac8650c203508ad6c92ab">WICED_BT_CFG_NUM_BUF_POOLS</a>])</td></tr>
-<tr class="memdesc:ga5ffccad07a041f9f18a6d2f132d4edf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_stack_init.  <a href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">More...</a><br /></td></tr>
-<tr class="separator:ga5ffccad07a041f9f18a6d2f132d4edf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:gabac5a1c3126b145f079c6797790844af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__cfg.html#gabac5a1c3126b145f079c6797790844af">wiced_bt_stack_init</a> (<a class="el" href="group__wicedbt___device_management.html#ga50c74fb6824e881c95c1ccaf3ddf01d3">wiced_bt_management_cback_t</a> *p_bt_management_cback, const <a class="el" href="group__wiced__bt__cfg.html#ga99271cb17c921c37c931015546ecf9a9">wiced_bt_cfg_settings_t</a> *p_bt_cfg_settings)</td></tr>
+<tr class="memdesc:gabac5a1c3126b145f079c6797790844af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Bluetooth controller and stack; register callback for Bluetooth event notification.  <a href="group__wiced__bt__cfg.html#gabac5a1c3126b145f079c6797790844af">More...</a><br /></td></tr>
+<tr class="separator:gabac5a1c3126b145f079c6797790844af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7ee2ece60f1e4d174e85167c85377c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__cfg.html#gaa7ee2ece60f1e4d174e85167c85377c7">wiced_bt_stack_deinit</a> (void)</td></tr>
+<tr class="memdesc:gaa7ee2ece60f1e4d174e85167c85377c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a blocking call (returns after all de-initialisation procedures are complete) It is recommended that the application disconnect any outstanding connections prior to invoking this function.  <a href="group__wiced__bt__cfg.html#gaa7ee2ece60f1e4d174e85167c85377c7">More...</a><br /></td></tr>
+<tr class="separator:gaa7ee2ece60f1e4d174e85167c85377c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -119,14 +121,15 @@ Functions</h2></td></tr>
 <li>ACL Channels - manages ACL connections (BR/EDR and LE)</li>
 <li>SCO Channels - manages SCO connections</li>
 <li>Security - manages all security functionality</li>
-<li>Power Management - manages park, sniff, hold, etc. </li>
+<li>Power Management - manages park, sniff, hold, etc.</li>
 </ol>
+<p>WICED Bluetooth Framework Functions </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__stack_8h.html">wiced_bt_stack.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__stack_8h.html">wiced_bt_stack.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['multi_20advertising',['Multi Advertising',['../group__group__ble__functions__multi.html',1,'']]],
-  ['macro',['Macro',['../group__group__ble__macro.html',1,'']]],
+  ['multiadv',['MultiAdv',['../group__btm__ble__multi__adv__functions.html',1,'']]],
   ['macros',['Macros',['../group__group__hci__fw__upgrade__macros.html',1,'']]],
   ['macros',['Macros',['../group__group__ota__fw__upgrade__macros.html',1,'']]],
-  ['miadriver',['MIADriver',['../group___m_i_a_driver.html',1,'']]],
+  ['multiple_20interface_20adapter_20_28mia_29',['Multiple Interface Adapter (MIA)',['../group___m_i_a_driver.html',1,'']]],
   ['mutexes',['Mutexes',['../group__mutexes.html',1,'']]],
   ['mesh_20battery_20client',['Mesh Battery Client',['../group__wiced__bt__mesh__battery__client.html',1,'']]],
   ['mesh_20battery_20server',['Mesh Battery Server',['../group__wiced__bt__mesh__battery__server.html',1,'']]],

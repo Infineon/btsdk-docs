@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Events</title>
+<title>AIROC&trade; CYW43022: Events</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -107,9 +107,6 @@ $(document).ready(function(){initNavTree('group__events.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae4a50af644873c65ad3c73b19b7e5bf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__events.html#gae4a50af644873c65ad3c73b19b7e5bf8">wiced_rtos_register_timed_event</a> (wiced_timed_event_t *event_object, wiced_worker_thread_t *worker_thread, event_handler_t function, uint32_t time_ms, void *arg)</td></tr>
-<tr class="memdesc:gae4a50af644873c65ad3c73b19b7e5bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests a function be called at a regular interval.  <a href="#gae4a50af644873c65ad3c73b19b7e5bf8">More...</a><br /></td></tr>
-<tr class="separator:gae4a50af644873c65ad3c73b19b7e5bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ef76a6565d173a60637146fd073aa93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__events.html#ga1ef76a6565d173a60637146fd073aa93">wiced_rtos_send_asynchronous_event</a> (wiced_worker_thread_t *worker_thread, event_handler_t function, void *arg)</td></tr>
 <tr class="memdesc:ga1ef76a6565d173a60637146fd073aa93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an asynchronous event to the associated worker thread.  <a href="#ga1ef76a6565d173a60637146fd073aa93">More...</a><br /></td></tr>
 <tr class="separator:ga1ef76a6565d173a60637146fd073aa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,66 +114,6 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Event management functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gae4a50af644873c65ad3c73b19b7e5bf8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_register_timed_event </td>
-          <td>(</td>
-          <td class="paramtype">wiced_timed_event_t *&#160;</td>
-          <td class="paramname"><em>event_object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_worker_thread_t *&#160;</td>
-          <td class="paramname"><em>worker_thread</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">event_handler_t&#160;</td>
-          <td class="paramname"><em>function</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>time_ms</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>arg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Requests a function be called at a regular interval. </p>
-<p>This function registers a function that will be called at a regular interval. Since this is based on the RTOS time-slice scheduling, the accuracy is not high, and is affected by processor load.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">event_object</td><td>: pointer to a event handle which will be initialised </td></tr>
-    <tr><td class="paramname">worker_thread</td><td>: pointer to the worker thread in whose context the callback function runs on </td></tr>
-    <tr><td class="paramname">function</td><td>: the callback function that is to be called regularly </td></tr>
-    <tr><td class="paramname">time_ms</td><td>: the time period between function calls in milliseconds </td></tr>
-    <tr><td class="paramname">arg</td><td>: an argument that will be supplied to the function when it is called</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="ga1ef76a6565d173a60637146fd073aa93"></a>
 <div class="memitem">
 <div class="memproto">

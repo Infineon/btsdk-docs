@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_hal_nvram.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_hal_nvram.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -97,209 +97,48 @@ $(document).ready(function(){initNavTree('wiced__hal__nvram_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_hal_nvram.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Defines the interface for reading and writing any data to the NVRAM.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a7b44e18d53cf433ba4a1bf79f48f161c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__nvram_8h.html#a7b44e18d53cf433ba4a1bf79f48f161c">wiced_hal_write_nvram</a>(vs_id, data_length, p_data, p_status)&#160;&#160;&#160;wiced_platform_nvram_write(vs_id, data_length, p_data, p_status)</td></tr>
-<tr class="memdesc:a7b44e18d53cf433ba4a1bf79f48f161c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the data to NVRAM, Application can write up to 255 bytes in one VS id section.  <a href="#a7b44e18d53cf433ba4a1bf79f48f161c">More...</a><br /></td></tr>
-<tr class="separator:a7b44e18d53cf433ba4a1bf79f48f161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f8e09d3f7f10ec7d2866ac472e4199"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__nvram_8h.html#ae7f8e09d3f7f10ec7d2866ac472e4199">wiced_hal_read_nvram</a>(vs_id, data_length, p_data, p_status)&#160;&#160;&#160;wiced_platform_nvram_read(vs_id, data_length, p_data, p_status)</td></tr>
-<tr class="memdesc:ae7f8e09d3f7f10ec7d2866ac472e4199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the data from NVRAM.  <a href="#ae7f8e09d3f7f10ec7d2866ac472e4199">More...</a><br /></td></tr>
-<tr class="separator:ae7f8e09d3f7f10ec7d2866ac472e4199"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af656853dc2ed4033275933b39c4c3402"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__nvram_8h.html#af656853dc2ed4033275933b39c4c3402">wiced_hal_delete_nvram</a>(vs_id, p_status)&#160;&#160;&#160;wiced_platform_nvram_delete(vs_id, p_status)</td></tr>
-<tr class="memdesc:af656853dc2ed4033275933b39c4c3402"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes data from NVRAM at specified VS id  <a href="#af656853dc2ed4033275933b39c4c3402">More...</a><br /></td></tr>
-<tr class="separator:af656853dc2ed4033275933b39c4c3402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:abc6126af1d45847bc59afa0aa3216b04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>WICED_NVRAM_VSID_START</b> = 0x200, 
-<b>WICED_NVRAM_VSID_END</b> = 0x3FFF
- }</td></tr>
-<tr class="memdesc:abc6126af1d45847bc59afa0aa3216b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the first usable NVRAM Volatile Section Identifier.  <a href="wiced__hal__nvram_8h.html#abc6126af1d45847bc59afa0aa3216b04">More...</a><br /></td></tr>
-<tr class="separator:abc6126af1d45847bc59afa0aa3216b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf58f945b448ec101810e6ee720811545"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvram.html#gaf58f945b448ec101810e6ee720811545">WICED_NVRAM_VSID_START</a>&#160;&#160;&#160;0x200</td></tr>
+<tr class="memdesc:gaf58f945b448ec101810e6ee720811545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the first usable NVRAM Volatile Section Identifier.  <a href="group__nvram.html#gaf58f945b448ec101810e6ee720811545">More...</a><br /></td></tr>
+<tr class="separator:gaf58f945b448ec101810e6ee720811545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae30945606cd6a1830c1b41eb69de2eb7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae30945606cd6a1830c1b41eb69de2eb7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_NVRAM_VSID_END</b>&#160;&#160;&#160;0x3FFF</td></tr>
+<tr class="separator:gae30945606cd6a1830c1b41eb69de2eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7b44e18d53cf433ba4a1bf79f48f161c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7b44e18d53cf433ba4a1bf79f48f161c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_write_nvram</b>(vs_id, data_length, p_data, p_status)&#160;&#160;&#160;<a class="el" href="group__nvram.html#ga9241597f2c13b35c18843297613d165e">wiced_platform_nvram_write</a>(vs_id, data_length, p_data, p_status)</td></tr>
+<tr class="separator:ga7b44e18d53cf433ba4a1bf79f48f161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7f8e09d3f7f10ec7d2866ac472e4199"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae7f8e09d3f7f10ec7d2866ac472e4199"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_read_nvram</b>(vs_id, data_length, p_data, p_status)&#160;&#160;&#160;<a class="el" href="group__nvram.html#ga4add0268805ca286b2eb4a5bae51b32f">wiced_platform_nvram_read</a>(vs_id, data_length, p_data, p_status)</td></tr>
+<tr class="separator:gae7f8e09d3f7f10ec7d2866ac472e4199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf656853dc2ed4033275933b39c4c3402"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf656853dc2ed4033275933b39c4c3402"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_delete_nvram</b>(vs_id, p_status)&#160;&#160;&#160;<a class="el" href="group__nvram.html#ga3f2ddd71b832c19dd5230ddbf38193ab">wiced_platform_nvram_delete</a>(vs_id, p_status)</td></tr>
+<tr class="separator:gaf656853dc2ed4033275933b39c4c3402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3f2ddd71b832c19dd5230ddbf38193ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f2ddd71b832c19dd5230ddbf38193ab"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_platform_nvram_delete</b> (uint16_t vs_id, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
-<tr class="separator:a3f2ddd71b832c19dd5230ddbf38193ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4add0268805ca286b2eb4a5bae51b32f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4add0268805ca286b2eb4a5bae51b32f"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_platform_nvram_read</b> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
-<tr class="separator:a4add0268805ca286b2eb4a5bae51b32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9241597f2c13b35c18843297613d165e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9241597f2c13b35c18843297613d165e"></a>
-uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_platform_nvram_write</b> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
-<tr class="separator:a9241597f2c13b35c18843297613d165e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9241597f2c13b35c18843297613d165e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvram.html#ga9241597f2c13b35c18843297613d165e">wiced_platform_nvram_write</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
+<tr class="memdesc:ga9241597f2c13b35c18843297613d165e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the data to NVRAM, Application can write up to 255 bytes in one VS id section.  <a href="group__nvram.html#ga9241597f2c13b35c18843297613d165e">More...</a><br /></td></tr>
+<tr class="separator:ga9241597f2c13b35c18843297613d165e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4add0268805ca286b2eb4a5bae51b32f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvram.html#ga4add0268805ca286b2eb4a5bae51b32f">wiced_platform_nvram_read</a> (uint16_t vs_id, uint16_t data_length, uint8_t *p_data, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
+<tr class="memdesc:ga4add0268805ca286b2eb4a5bae51b32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the data from NVRAM.  <a href="group__nvram.html#ga4add0268805ca286b2eb4a5bae51b32f">More...</a><br /></td></tr>
+<tr class="separator:ga4add0268805ca286b2eb4a5bae51b32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f2ddd71b832c19dd5230ddbf38193ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__nvram.html#ga3f2ddd71b832c19dd5230ddbf38193ab">wiced_platform_nvram_delete</a> (uint16_t vs_id, <a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> *p_status)</td></tr>
+<tr class="memdesc:ga3f2ddd71b832c19dd5230ddbf38193ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes data from NVRAM at specified VS id  <a href="group__nvram.html#ga3f2ddd71b832c19dd5230ddbf38193ab">More...</a><br /></td></tr>
+<tr class="separator:ga3f2ddd71b832c19dd5230ddbf38193ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the interface for reading and writing any data to the NVRAM. </p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="af656853dc2ed4033275933b39c4c3402"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_delete_nvram</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">vs_id, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_status&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;wiced_platform_nvram_delete(vs_id, p_status)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deletes data from NVRAM at specified VS id </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">vs_id</td><td>: Volatile Section Identifier. Application can use the VS ids from WICED_NVRAM_VSID_START to WICED_NVRAM_VSID_END</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_status</td><td>: Pointer to location where status of the call is returned</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ae7f8e09d3f7f10ec7d2866ac472e4199"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_read_nvram</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">vs_id, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">data_length, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_data, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_status&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;wiced_platform_nvram_read(vs_id, data_length, p_data, p_status)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads the data from NVRAM. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">vs_id</td><td>: Volatile Section Identifier. Application can use the VS ids from WICED_NVRAM_VSID_START to WICED_NVRAM_VSID_END</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data_length</td><td>: Length of the data to be read from NVRAM</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_data</td><td>: Pointer to the buffer to which data will be copied</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_status</td><td>: Pointer to location where status of the call is returned</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the number of bytes read, 0 on failure </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a7b44e18d53cf433ba4a1bf79f48f161c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_write_nvram</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">vs_id, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">data_length, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_data, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">p_status&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;wiced_platform_nvram_write(vs_id, data_length, p_data, p_status)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes the data to NVRAM, Application can write up to 255 bytes in one VS id section. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">vs_id</td><td>: Volatile Section Identifier. Application can use the VS ids from WICED_NVRAM_VSID_START to WICED_NVRAM_VSID_END</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data_length</td><td>: Length of the data to be written to the NVRAM,</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_data</td><td>: Pointer to the data to be written to the NVRAM</td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_status</td><td>: Pointer to location where status of the call is returned</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>number of bytes written, 0 on error </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="abc6126af1d45847bc59afa0aa3216b04"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Defines the first usable NVRAM Volatile Section Identifier. </p>
-<p>Application can use the VS ids starting from WICED_NVRAM_VSID_START.to WICED_NVRAM_VSID_END Note: Values less than 0x200 reserved for AIROC internal purpose and not advisable to use by applications </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="dir_acb7669a1e57e9f5236ea9d3304f811b.html">hal</a></li><li class="navelem"><a class="el" href="wiced__hal__nvram_8h.html">wiced_hal_nvram.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="dir_0f3e07663ffaf11906e815356a7bce62.html">hal</a></li><li class="navelem"><a class="el" href="wiced__hal__nvram_8h.html">wiced_hal_nvram.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

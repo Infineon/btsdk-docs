@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_rtc.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_rtc.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,60 +96,330 @@ $(document).ready(function(){initNavTree('wiced__rtc_8h.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">wiced_rtc.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>List of parameters and defined functions needed to access Rtc driver.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the RTC.  <a href="structwiced__rtc__time__t.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__real__time__clock__t.html">wiced_real_time_clock_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real time clock read from hardware (48 bits)  <a href="unionwiced__real__time__clock__t.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga125547f75a5dbf9867a2ec11aafda21d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga125547f75a5dbf9867a2ec11aafda21d">wiced_rtc_init</a> (void)</td></tr>
-<tr class="memdesc:ga125547f75a5dbf9867a2ec11aafda21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_init.  <a href="group___r_t_c_driver.html#ga125547f75a5dbf9867a2ec11aafda21d">More...</a><br /></td></tr>
-<tr class="separator:ga125547f75a5dbf9867a2ec11aafda21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d3a4d58c31801fafa021aec3a925a68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga8d3a4d58c31801fafa021aec3a925a68">wiced_rtc_get_raw_clock</a> (<a class="el" href="unionwiced__real__time__clock__t.html">wiced_real_time_clock_t</a> *rtcClock)</td></tr>
-<tr class="memdesc:ga8d3a4d58c31801fafa021aec3a925a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_get_raw_clock.  <a href="group___r_t_c_driver.html#ga8d3a4d58c31801fafa021aec3a925a68">More...</a><br /></td></tr>
-<tr class="separator:ga8d3a4d58c31801fafa021aec3a925a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4f3acbef479dc03084de66bbb28189b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#gac4f3acbef479dc03084de66bbb28189b">wiced_rtc_get_time</a> (<a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *timebuf)</td></tr>
-<tr class="memdesc:gac4f3acbef479dc03084de66bbb28189b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_get_time.  <a href="group___r_t_c_driver.html#gac4f3acbef479dc03084de66bbb28189b">More...</a><br /></td></tr>
-<tr class="separator:gac4f3acbef479dc03084de66bbb28189b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga80a728b65515a474d678133b64e4c46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga80a728b65515a474d678133b64e4c46d">wiced_rtc_set_reference_time</a> (<a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *ref_time)</td></tr>
-<tr class="memdesc:ga80a728b65515a474d678133b64e4c46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_set_reference_time.  <a href="group___r_t_c_driver.html#ga80a728b65515a474d678133b64e4c46d">More...</a><br /></td></tr>
-<tr class="separator:ga80a728b65515a474d678133b64e4c46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga69850d90dbc4be3e00f6126a3baaa2dd"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga69850d90dbc4be3e00f6126a3baaa2dd">wiced_set_rtc_time</a> (<a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *newTime)</td></tr>
-<tr class="memdesc:ga69850d90dbc4be3e00f6126a3baaa2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_rtc_time.  <a href="group___r_t_c_driver.html#ga69850d90dbc4be3e00f6126a3baaa2dd">More...</a><br /></td></tr>
-<tr class="separator:ga69850d90dbc4be3e00f6126a3baaa2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e0b0164829b59b224d7a2e038ee4dd3"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga3e0b0164829b59b224d7a2e038ee4dd3">wiced_rtc_ctime</a> (<a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>, char *outbuf)</td></tr>
-<tr class="memdesc:ga3e0b0164829b59b224d7a2e038ee4dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_ctime.  <a href="group___r_t_c_driver.html#ga3e0b0164829b59b224d7a2e038ee4dd3">More...</a><br /></td></tr>
-<tr class="separator:ga3e0b0164829b59b224d7a2e038ee4dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7bba7234bd7351918dc9e73aa6712aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga7bba7234bd7351918dc9e73aa6712aa1">wiced_seconds_to_rtc_time</a> (uint32_t second, <a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *rtctime)</td></tr>
-<tr class="memdesc:ga7bba7234bd7351918dc9e73aa6712aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_seconds_to_rtc_time.  <a href="group___r_t_c_driver.html#ga7bba7234bd7351918dc9e73aa6712aa1">More...</a><br /></td></tr>
-<tr class="separator:ga7bba7234bd7351918dc9e73aa6712aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40093965b0123203888130be6b96671d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___r_t_c_driver.html#ga40093965b0123203888130be6b96671d">wiced_rtc_time_to_seconds</a> (<a class="el" href="structwiced__rtc__time__t.html">wiced_rtc_time_t</a> *rtctime, uint32_t *second)</td></tr>
-<tr class="memdesc:ga40093965b0123203888130be6b96671d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_time_to_seconds.  <a href="group___r_t_c_driver.html#ga40093965b0123203888130be6b96671d">More...</a><br /></td></tr>
-<tr class="separator:ga40093965b0123203888130be6b96671d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125547f75a5dbf9867a2ec11aafda21d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a125547f75a5dbf9867a2ec11aafda21d">wiced_rtc_init</a> (void)</td></tr>
+<tr class="memdesc:a125547f75a5dbf9867a2ec11aafda21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_init.  <a href="#a125547f75a5dbf9867a2ec11aafda21d">More...</a><br /></td></tr>
+<tr class="separator:a125547f75a5dbf9867a2ec11aafda21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4de2a2158d6b18f8a1a96e7706895d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#af4de2a2158d6b18f8a1a96e7706895d3">wiced_rtc_get_raw_clock</a> (tRTC_REAL_TIME_CLOCK *rtcClock)</td></tr>
+<tr class="memdesc:af4de2a2158d6b18f8a1a96e7706895d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_get_raw_clock.  <a href="#af4de2a2158d6b18f8a1a96e7706895d3">More...</a><br /></td></tr>
+<tr class="separator:af4de2a2158d6b18f8a1a96e7706895d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165b1a8c12c224d77a3851bf47fb94d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a165b1a8c12c224d77a3851bf47fb94d6">wiced_rtc_get_time</a> (RtcTime *timebuf)</td></tr>
+<tr class="memdesc:a165b1a8c12c224d77a3851bf47fb94d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_get_time.  <a href="#a165b1a8c12c224d77a3851bf47fb94d6">More...</a><br /></td></tr>
+<tr class="separator:a165b1a8c12c224d77a3851bf47fb94d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455849b207e60134a198c61755748f94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a455849b207e60134a198c61755748f94">wiced_rtc_set_reference_time</a> (RtcTime *ref_time)</td></tr>
+<tr class="memdesc:a455849b207e60134a198c61755748f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_set_reference_time.  <a href="#a455849b207e60134a198c61755748f94">More...</a><br /></td></tr>
+<tr class="separator:a455849b207e60134a198c61755748f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73ab6b6ea33df95045e9611558f9980"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#ab73ab6b6ea33df95045e9611558f9980">wiced_set_rtc_time</a> (RtcTime *newTime)</td></tr>
+<tr class="memdesc:ab73ab6b6ea33df95045e9611558f9980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_set_reference_time.  <a href="#ab73ab6b6ea33df95045e9611558f9980">More...</a><br /></td></tr>
+<tr class="separator:ab73ab6b6ea33df95045e9611558f9980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662a30dd797610010f499d7336937102"><td class="memItemLeft" align="right" valign="top">BOOL32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a662a30dd797610010f499d7336937102">wiced_rtc_ctime</a> (RtcTime *<a class="el" href="wiced__bt__mesh__provision_8h.html#a0ff73b1428e9cd11a4f7a6cf46b7b550">timer</a>, char *outbuf)</td></tr>
+<tr class="memdesc:a662a30dd797610010f499d7336937102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_ctime.  <a href="#a662a30dd797610010f499d7336937102">More...</a><br /></td></tr>
+<tr class="separator:a662a30dd797610010f499d7336937102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9e09cedac36d0310a88a5f80ebfbc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a1a9e09cedac36d0310a88a5f80ebfbc1">wiced_seconds_to_rtc_time</a> (UINT32 second, RtcTime *rtctime)</td></tr>
+<tr class="memdesc:a1a9e09cedac36d0310a88a5f80ebfbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_seconds_to_rtc_time.  <a href="#a1a9e09cedac36d0310a88a5f80ebfbc1">More...</a><br /></td></tr>
+<tr class="separator:a1a9e09cedac36d0310a88a5f80ebfbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2435d18c6b9fe899c5a16e6a941fc660"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__rtc_8h.html#a2435d18c6b9fe899c5a16e6a941fc660">wiced_rtc_time_to_seconds</a> (RtcTime *rtctime, UINT32 *second)</td></tr>
+<tr class="memdesc:a2435d18c6b9fe899c5a16e6a941fc660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_rtc_time_to_seconds.  <a href="#a2435d18c6b9fe899c5a16e6a941fc660">More...</a><br /></td></tr>
+<tr class="separator:a2435d18c6b9fe899c5a16e6a941fc660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>List of parameters and defined functions needed to access Rtc driver. </p>
-</div></div><!-- contents -->
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a662a30dd797610010f499d7336937102"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOL32 wiced_rtc_ctime </td>
+          <td>(</td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>timer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>outbuf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_ctime. </p>
+<p>convert the tm object pointed by timer to c string containing a human-readable verion of the correspoing local time and data</p>
+<p>the returned string has the folloing format</p>
+<p>Mmm dd hh:mm:ss yyyy where Mmm - the month in letters dd - the day of the month hh:mm:ss - time yyyy - year</p><ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer</td><td>rtc time</td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">outbuf</td><td>string output</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: SUCCESS/FALSE </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="af4de2a2158d6b18f8a1a96e7706895d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_rtc_get_raw_clock </td>
+          <td>(</td>
+          <td class="paramtype">tRTC_REAL_TIME_CLOCK *&#160;</td>
+          <td class="paramname"><em>rtcClock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_get_raw_clock. </p>
+<p>Reads Real time clock value from hardware clock.</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rtcClock</td><td>: Real time clock</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: None </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a165b1a8c12c224d77a3851bf47fb94d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_rtc_get_time </td>
+          <td>(</td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>timebuf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_get_time. </p>
+<p>get current time in RTC_time format</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timebuf</td><td>current time in rtc format</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: None </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a125547f75a5dbf9867a2ec11aafda21d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_rtc_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_init. </p>
+<p>Initialize the RTC block.</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: None </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a455849b207e60134a198c61755748f94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_rtc_set_reference_time </td>
+          <td>(</td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>ref_time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_set_reference_time. </p>
+<p>set original reference time.</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ref_time</td><td>rtc time</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: None </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a2435d18c6b9fe899c5a16e6a941fc660"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_rtc_time_to_seconds </td>
+          <td>(</td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>rtctime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UINT32 *&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_time_to_seconds. </p>
+<p>convert RTC_time broken-down format to 32-bits seocnds</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rtctime</td><td>: rtc time</td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">second</td><td>: seconds</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: NONE </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="a1a9e09cedac36d0310a88a5f80ebfbc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_seconds_to_rtc_time </td>
+          <td>(</td>
+          <td class="paramtype">UINT32&#160;</td>
+          <td class="paramname"><em>second</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>rtctime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_seconds_to_rtc_time. </p>
+<p>conver the 32 bit seconds to RTC_time broken down format</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">second</td><td>seconds</td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rtctime</td><td>rtc format output</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: NONE </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="ab73ab6b6ea33df95045e9611558f9980"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOL32 wiced_set_rtc_time </td>
+          <td>(</td>
+          <td class="paramtype">RtcTime *&#160;</td>
+          <td class="paramname"><em>newTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_rtc_set_reference_time. </p>
+<p>set the current time</p>
+<ul>
+<li><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">newTime</td><td>: rtc time for setting.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>: SUCCESS/FALSE </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="dir_acb7669a1e57e9f5236ea9d3304f811b.html">hal</a></li><li class="navelem"><a class="el" href="wiced__rtc_8h.html">wiced_rtc.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="dir_0f3e07663ffaf11906e815356a7bce62.html">hal</a></li><li class="navelem"><a class="el" href="wiced__rtc_8h.html">wiced_rtc.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

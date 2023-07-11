@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "AIROC™ CYW43012", "index.html", [
+  [ "AIROC™ CYW43022", "index.html", [
     [ "AIROC™ API Reference", "index.html#wiced_api", null ],
     [ "AIROC™ User Guides", "index.html#wiced_pdf_docs", null ],
     [ "AIROC™ Hardware Reference", "index.html#wiced_hw_docs", null ],
@@ -15,16 +15,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group___adc_driver.html",
-"group___result.html#ggacfc32ead8a827d53416f01b19eb58310a9c781d6d3af16b5623ac99a31f75fe69",
-"group__group__ota__fw__upgrade__functions.html#ga90318a6f1f8e4f418c293f4b22249e11",
-"group__sco__hook__data__types.html#gga91feb9a245967d213cd1b7325cd8fa27aaaf4345be7f281e189e4d68f8a49907c",
-"group__wiced__bt__mesh__core.html#ga33d502d849006ac4e5d252c987c35230",
-"group__wiced__bt__mesh__light__lightness__client.html#ga588eec838ef593d2c931063300a2a1e1",
-"group__wiced__bt__mesh__provisioning.html#ga6dd0fb2dcd86012521efd25f6ec7cdb2",
-"group__wicedbt__av__a2d__helper.html#gacb050bae5f1841338bc9a5a96a552457",
-"structwiced__bt__avrc__tg__track__attr__t.html",
-"structwiced__bt__mesh__level__set__delta__t.html#a284a81478e29d96532d13ebd737d6b82",
-"structwiced__bt__mesh__properties__status__data__t.html#a33bd439954516567235fc257725b42f3"
+"group___transport.html#gaa3204840aade2c90bfa311c48beabcb3",
+"group__eventflags.html#ga308a518efb15c5b6935986f1ce5dbbcc",
+"group__nvram.html#gaf58f945b448ec101810e6ee720811545",
+"group__wiced__bt__mesh__client.html#gabc49027b1a5076322f9924133dcfa2c4",
+"group__wiced__bt__mesh__light__hsl__client.html#gada984140a7f7738e42ec711a127f3e62",
+"group__wiced__bt__mesh__provisioning.html#ga3e6e4e8377819dbc70d3500d402e4ccb",
+"group__wiced__sleep__config.html#gae7bf00dadc5785f71cffbfdfb358186f",
+"group__wicedbt___device_management.html#gga4a427fc37161f2041016d7936399be65a82fac714cbb4652d374bfaf8c71e6e9c",
+"group__wicedbt__audio__utils.html#ga98706b0ad37cd100fe2c845063465821",
+"group__wicedbt__gatt.html#ggabda9597f28d2e1ddbdd82b7785a4659fa5d336bc84dd9c89c8fe9b51d6a052f03",
+"structwiced__bt__ble__cig__param__test__t.html#a00a436a6a9a19bee679880fd7c5dbbd0",
+"structwiced__bt__cfg__rfcomm__t.html#a8dff7b91f9382566714cca7ab58553fb",
+"structwiced__bt__hidd__ble__reg__info__t.html",
+"structwiced__bt__mesh__core__config__sensor__t.html#a8d665a621e312f01b66359ff69081f90",
+"structwiced__bt__mesh__light__lc__linear__out__set__data__t.html#a284a81478e29d96532d13ebd737d6b82",
+"structwiced__bt__mesh__proxy__connect__data__t.html#ace7ca43f296e0f3b089ca9be7c10fffa",
+"unionwiced__bt__management__evt__data__t.html#a9c1996f9188a2d787ceca68ecc64d046"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

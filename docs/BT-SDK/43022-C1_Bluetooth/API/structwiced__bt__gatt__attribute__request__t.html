@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_gatt_attribute_request_t Struct Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_gatt_attribute_request_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structwiced__bt__gatt__attribute__requ
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_gatt_attribute_request_t Struct Reference</div>  </div>
+<div class="title">wiced_bt_gatt_attribute_request_t Struct Reference<div class="ingroups"><a class="el" href="group__wicedbt__gatt.html">Generic Attribute (GATT)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -111,14 +111,18 @@ Data Fields</h2></td></tr>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a71a8a39270ae1bf01ad381dca0e95c1b">conn_id</a></td></tr>
 <tr class="memdesc:a71a8a39270ae1bf01ad381dca0e95c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID of the connection. <br /></td></tr>
 <tr class="separator:a71a8a39270ae1bf01ad381dca0e95c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab08bca2f2631f95a800515622cbdf8d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab08bca2f2631f95a800515622cbdf8d6"></a>
-<a class="el" href="wiced__bt__gatt_8h.html#a8206854d3618f19a8677299340aa28ac">wiced_bt_gatt_request_type_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#ab08bca2f2631f95a800515622cbdf8d6">request_type</a></td></tr>
-<tr class="memdesc:ab08bca2f2631f95a800515622cbdf8d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request type (see <a class="el" href="wiced__bt__gatt_8h.html#a72d36441600899c88b595eaece9507d5">wiced_bt_gatt_request_type_t) </a><br /></td></tr>
-<tr class="separator:ab08bca2f2631f95a800515622cbdf8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a907818963a4ad748b92a11e033817cee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a907818963a4ad748b92a11e033817cee"></a>
-<a class="el" href="unionwiced__bt__gatt__request__data__t.html">wiced_bt_gatt_request_data_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a907818963a4ad748b92a11e033817cee">data</a></td></tr>
-<tr class="memdesc:a907818963a4ad748b92a11e033817cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about attribute being request (dependent on request type) <br /></td></tr>
-<tr class="separator:a907818963a4ad748b92a11e033817cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921d5020f6c7ab58a451ad03b4d189ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a921d5020f6c7ab58a451ad03b4d189ad"></a>
+uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a921d5020f6c7ab58a451ad03b4d189ad">len_requested</a></td></tr>
+<tr class="memdesc:a921d5020f6c7ab58a451ad03b4d189ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max size of data requested as response. <br /></td></tr>
+<tr class="separator:a921d5020f6c7ab58a451ad03b4d189ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da2f92c6959754be7e5615bc6d9a878"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2da2f92c6959754be7e5615bc6d9a878"></a>
+<a class="el" href="group__wicedbt__gatt.html#ga6bf4e326bf95c613ff59591782abf6b4">wiced_bt_gatt_opcode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#a2da2f92c6959754be7e5615bc6d9a878">opcode</a></td></tr>
+<tr class="memdesc:a2da2f92c6959754be7e5615bc6d9a878"><td class="mdescLeft">&#160;</td><td class="mdescRight">GATT request opcode. <br /></td></tr>
+<tr class="separator:a2da2f92c6959754be7e5615bc6d9a878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaecaab581fbf92c7b04eabbf239f61a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaecaab581fbf92c7b04eabbf239f61a3"></a>
+<a class="el" href="unionwiced__bt__gatt__request__params__t.html">wiced_bt_gatt_request_params_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__gatt__attribute__request__t.html#aaecaab581fbf92c7b04eabbf239f61a3">data</a></td></tr>
+<tr class="memdesc:aaecaab581fbf92c7b04eabbf239f61a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information about attribute being request (dependent on request type) <br /></td></tr>
+<tr class="separator:aaecaab581fbf92c7b04eabbf239f61a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>GATT attribute request (used by GATT_ATTRIBUTE_REQUEST_EVT notification) </p>

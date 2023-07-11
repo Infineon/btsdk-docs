@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_cfg_avdt_t Struct Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_cfg_avdt_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structwiced__bt__cfg__avdt__t.html',''
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_cfg_avdt_t Struct Reference</div>  </div>
+<div class="title">wiced_bt_cfg_avdt_t Struct Reference<div class="ingroups"><a class="el" href="group__wiced__bt__cfg.html">Bluetooth Stack Initialize &amp; Configuration</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -107,9 +107,8 @@ $(document).ready(function(){initNavTree('structwiced__bt__cfg__avdt__t.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a8dff7b91f9382566714cca7ab58553fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8dff7b91f9382566714cca7ab58553fb"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__avdt__t.html#a8dff7b91f9382566714cca7ab58553fb">max_links</a></td></tr>
-<tr class="memdesc:a8dff7b91f9382566714cca7ab58553fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum simultaneous audio/video links. <br /></td></tr>
+<tr class="memitem:a8dff7b91f9382566714cca7ab58553fb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__avdt__t.html#a8dff7b91f9382566714cca7ab58553fb">max_links</a></td></tr>
+<tr class="memdesc:a8dff7b91f9382566714cca7ab58553fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum simultaneous audio/video links over AVDT.  <a href="#a8dff7b91f9382566714cca7ab58553fb">More...</a><br /></td></tr>
 <tr class="separator:a8dff7b91f9382566714cca7ab58553fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab651a7d3fda31628ab3ccd76de30e26b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab651a7d3fda31628ab3ccd76de30e26b"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__cfg__avdt__t.html#ab651a7d3fda31628ab3ccd76de30e26b">max_seps</a></td></tr>
@@ -118,7 +117,23 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Audio/Video Distribution configuration. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a8dff7b91f9382566714cca7ab58553fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t max_links</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum simultaneous audio/video links over AVDT. </p>
+<dl class="section note"><dt>Note</dt><dd>: This shall be &lt;= <a class="el" href="structwiced__bt__cfg__br__t.html#af5288ee75eb55991e0d6bb49a7beb760">wiced_bt_cfg_br_t::br_max_simultaneous_links</a>; </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__cfg_8h.html">wiced_bt_cfg.h</a></li>
 </ul>
 </div><!-- contents -->

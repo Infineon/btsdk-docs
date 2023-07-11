@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Queues</title>
+<title>AIROC&trade; CYW43022: Queues</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('group__queues.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Queue management functionss.  
+<p>Queue management functions.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -119,10 +119,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga199073726dff5306e1344c1b92818216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga199073726dff5306e1344c1b92818216">wiced_rtos_pop_from_queue</a> (wiced_queue_t *queue, void *message, uint32_t timeout_ms)</td></tr>
 <tr class="memdesc:ga199073726dff5306e1344c1b92818216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pops an object off a queue.  <a href="#ga199073726dff5306e1344c1b92818216">More...</a><br /></td></tr>
 <tr class="separator:ga199073726dff5306e1344c1b92818216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87d87d53ccb7276aeb43753f5419f80c"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga87d87d53ccb7276aeb43753f5419f80c">wiced_rtos_is_queue_empty</a> (wiced_queue_t *queue)</td></tr>
+<tr class="memitem:ga4241e95121350d26f72b8af575ad549b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga4241e95121350d26f72b8af575ad549b">wiced_rtos_deinit_queue</a> (wiced_queue_t *queue)</td></tr>
+<tr class="memdesc:ga4241e95121350d26f72b8af575ad549b"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialise a queue.  <a href="#ga4241e95121350d26f72b8af575ad549b">More...</a><br /></td></tr>
+<tr class="separator:ga4241e95121350d26f72b8af575ad549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87d87d53ccb7276aeb43753f5419f80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga87d87d53ccb7276aeb43753f5419f80c">wiced_rtos_is_queue_empty</a> (wiced_queue_t *queue)</td></tr>
 <tr class="memdesc:ga87d87d53ccb7276aeb43753f5419f80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a queue is empty.  <a href="#ga87d87d53ccb7276aeb43753f5419f80c">More...</a><br /></td></tr>
 <tr class="separator:ga87d87d53ccb7276aeb43753f5419f80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadad61699e717b9e720f95d69e11ac382"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#gadad61699e717b9e720f95d69e11ac382">wiced_rtos_is_queue_full</a> (wiced_queue_t *queue)</td></tr>
+<tr class="memitem:gadad61699e717b9e720f95d69e11ac382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#gadad61699e717b9e720f95d69e11ac382">wiced_rtos_is_queue_full</a> (wiced_queue_t *queue)</td></tr>
 <tr class="memdesc:gadad61699e717b9e720f95d69e11ac382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a queue is full.  <a href="#gadad61699e717b9e720f95d69e11ac382">More...</a><br /></td></tr>
 <tr class="separator:gadad61699e717b9e720f95d69e11ac382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga69ea6db3327987f55f50f4b1461ceeb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__queues.html#ga69ea6db3327987f55f50f4b1461ceeb2">wiced_rtos_get_queue_occupancy</a> (wiced_queue_t *queue, uint32_t *<a class="el" href="wiced__bt__mesh__provision_8h.html#a20302e2c99a60d3f612dba57e3f6333b">count</a>)</td></tr>
@@ -130,7 +133,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga69ea6db3327987f55f50f4b1461ceeb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Queue management functionss. </p>
+<p>Queue management functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga341840af6e18113d5eabac91bb1ae3cf"></a>
 <div class="memitem">
@@ -151,6 +154,34 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
 <dd>
 NULL : if an error occurred </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4241e95121350d26f72b8af575ad549b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_deinit_queue </td>
+          <td>(</td>
+          <td class="paramtype">wiced_queue_t *&#160;</td>
+          <td class="paramname"><em>queue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initialise a queue. </p>
+<p>Deletes a queue created with <a class="el" href="group__queues.html#ga5a1885df28aa1e146ca1e334f4997787">wiced_rtos_init_queue</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">queue</td><td>: a pointer to the queue handle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
+<dd>
+WICED_ERROR : if an error occurred </dd></dl>
 
 </div>
 </div>
@@ -234,7 +265,7 @@ WICED_ERROR : if an error occurred </dd></dl>
   <table class="params">
     <tr><td class="paramname">queue</td><td>: a pointer to the queue handle to be initialised </td></tr>
     <tr><td class="paramname">name</td><td>: a text string name for the queue (NULL is allowed) </td></tr>
-    <tr><td class="paramname">message_size</td><td>: size in bytes of objects that will be held in the queue </td></tr>
+    <tr><td class="paramname">message_size</td><td>: size in bytes of objects that will be held in the queue(currentlt only 1 byte is acccepted) </td></tr>
     <tr><td class="paramname">number_of_messages</td><td>: depth of the queue - i.e. max number of objects in the queue</td></tr>
   </table>
   </dd>
@@ -250,7 +281,7 @@ WICED_ERROR : if an error occurred </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_rtos_is_queue_empty </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_rtos_is_queue_empty </td>
           <td>(</td>
           <td class="paramtype">wiced_queue_t *&#160;</td>
           <td class="paramname"><em>queue</em></td><td>)</td>
@@ -277,7 +308,7 @@ WICED_ERROR : queue is not empty. </dd></dl>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_rtos_is_queue_full </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_rtos_is_queue_full </td>
           <td>(</td>
           <td class="paramtype">wiced_queue_t *&#160;</td>
           <td class="paramname"><em>queue</em></td><td>)</td>

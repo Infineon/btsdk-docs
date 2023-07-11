@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Mesh Power OnOff Server</title>
+<title>AIROC&trade; CYW43022: Mesh Power OnOff Server</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -121,13 +121,13 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga33d6d3848a29f85f2c33c29f3d0382c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#ga33d6d3848a29f85f2c33c29f3d0382c4">wiced_bt_mesh_model_power_onoff_server_init</a> (uint8_t element_idx, <a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#gaa1b53bc8839cec6ae49c7c9c82c0e023">wiced_bt_mesh_power_onoff_server_callback_t</a> *p_callback, uint32_t transition_interval, wiced_bool_t is_provisioned)</td></tr>
+<tr class="memitem:ga33d6d3848a29f85f2c33c29f3d0382c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#ga33d6d3848a29f85f2c33c29f3d0382c4">wiced_bt_mesh_model_power_onoff_server_init</a> (uint8_t element_idx, <a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#gaa1b53bc8839cec6ae49c7c9c82c0e023">wiced_bt_mesh_power_onoff_server_callback_t</a> *p_callback, uint32_t transition_interval, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> is_provisioned)</td></tr>
 <tr class="memdesc:ga33d6d3848a29f85f2c33c29f3d0382c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power On/Off Server Module initialization.  <a href="#ga33d6d3848a29f85f2c33c29f3d0382c4">More...</a><br /></td></tr>
 <tr class="separator:ga33d6d3848a29f85f2c33c29f3d0382c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff7b2624880843f3d34cdf348db91348"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348">wiced_bt_mesh_model_power_onoff_server_message_handler</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memitem:gaff7b2624880843f3d34cdf348db91348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#gaff7b2624880843f3d34cdf348db91348">wiced_bt_mesh_model_power_onoff_server_message_handler</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
 <tr class="memdesc:gaff7b2624880843f3d34cdf348db91348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power On/Off Server Message Handler.  <a href="#gaff7b2624880843f3d34cdf348db91348">More...</a><br /></td></tr>
 <tr class="separator:gaff7b2624880843f3d34cdf348db91348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c4dd5a8835747d24d55e38a1b630bfd"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd">wiced_bt_mesh_model_power_onoff_setup_server_message_handler</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
+<tr class="memitem:ga6c4dd5a8835747d24d55e38a1b630bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#ga6c4dd5a8835747d24d55e38a1b630bfd">wiced_bt_mesh_model_power_onoff_setup_server_message_handler</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, uint8_t *p_data, uint16_t <a class="el" href="wiced__bt__mesh__provision_8h.html#ad1a572736a10ff6b282c5f43c4ea1ccf">data_len</a>)</td></tr>
 <tr class="memdesc:ga6c4dd5a8835747d24d55e38a1b630bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power On/Off Setup Server Message Handler.  <a href="#ga6c4dd5a8835747d24d55e38a1b630bfd">More...</a><br /></td></tr>
 <tr class="separator:ga6c4dd5a8835747d24d55e38a1b630bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad2d93f44c4787441548fbabc440dde36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__power__onoff__server.html#gad2d93f44c4787441548fbabc440dde36">wiced_bt_mesh_model_power_onoff_server_onoff_changed</a> (uint8_t element_idx, uint8_t onoff)</td></tr>
@@ -219,7 +219,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramtype"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td>
           <td class="paramname"><em>is_provisioned</em>&#160;</td>
         </tr>
         <tr>
@@ -250,7 +250,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_bt_mesh_model_power_onoff_server_message_handler </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_bt_mesh_model_power_onoff_server_message_handler </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *&#160;</td>
           <td class="paramname"><em>p_event</em>, </td>
@@ -329,7 +329,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_bt_mesh_model_power_onoff_setup_server_message_handler </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_bt_mesh_model_power_onoff_setup_server_message_handler </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *&#160;</td>
           <td class="paramname"><em>p_event</em>, </td>

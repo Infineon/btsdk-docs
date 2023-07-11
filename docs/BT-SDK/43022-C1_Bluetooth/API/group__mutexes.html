@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Mutexes</title>
+<title>AIROC&trade; CYW43022: Mutexes</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('group__mutexes.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Mutex management functionss.  
+<p>Mutex management functions.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -119,9 +119,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf26c5eebb920a389bdda5765c7383145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mutexes.html#gaf26c5eebb920a389bdda5765c7383145">wiced_rtos_unlock_mutex</a> (wiced_mutex_t *mutex)</td></tr>
 <tr class="memdesc:gaf26c5eebb920a389bdda5765c7383145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases the lock on a mutex.  <a href="#gaf26c5eebb920a389bdda5765c7383145">More...</a><br /></td></tr>
 <tr class="separator:gaf26c5eebb920a389bdda5765c7383145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf2a7aae4fc108c8cff63397a16967724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mutexes.html#gaf2a7aae4fc108c8cff63397a16967724">wiced_rtos_deinit_mutex</a> (wiced_mutex_t *mutex)</td></tr>
+<tr class="memdesc:gaf2a7aae4fc108c8cff63397a16967724"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-initialise a mutex.  <a href="#gaf2a7aae4fc108c8cff63397a16967724">More...</a><br /></td></tr>
+<tr class="separator:gaf2a7aae4fc108c8cff63397a16967724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Mutex management functionss. </p>
+<p>Mutex management functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga5c8cf6b5ce4d8016a54c3ef4063efac7"></a>
 <div class="memitem">
@@ -142,6 +145,34 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
 <dd>
 NULL : if an error occurred </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf2a7aae4fc108c8cff63397a16967724"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_deinit_mutex </td>
+          <td>(</td>
+          <td class="paramtype">wiced_mutex_t *&#160;</td>
+          <td class="paramname"><em>mutex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>De-initialise a mutex. </p>
+<p>Deletes a mutex created with <a class="el" href="group__mutexes.html#ga081e5859dcf5719eb734e622f858fbe6">wiced_rtos_init_mutex</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mutex</td><td>: a pointer to the mutex handle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
+<dd>
+WICED_ERROR : if an error occurred </dd></dl>
 
 </div>
 </div>

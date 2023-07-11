@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Watchdog Interface</title>
+<title>AIROC&trade; CYW43022: Watchdog Interface</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -96,7 +96,6 @@ $(document).ready(function(){initNavTree('group___watchdog_interface.html','');}
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Watchdog Interface<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
@@ -106,152 +105,16 @@ $(document).ready(function(){initNavTree('group___watchdog_interface.html','');}
 <p>Defines a driver for the watchdog interface.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:gab970c57d6b05da4cb9221ddf8295734c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#gab970c57d6b05da4cb9221ddf8295734c">wiced_hal_watchdog_disable</a>&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#gad45001891199d229974743de69baee0a">wiced_hal_wdog_disable</a></td></tr>
-<tr class="memdesc:gab970c57d6b05da4cb9221ddf8295734c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the system watchdog.  <a href="#gab970c57d6b05da4cb9221ddf8295734c">More...</a><br /></td></tr>
-<tr class="separator:gab970c57d6b05da4cb9221ddf8295734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac2b03f1173c57b64d00be17bbc1b69be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#gac2b03f1173c57b64d00be17bbc1b69be">wiced_hal_watchdog_reset_system</a>&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#ga4627effaec0c10bbb5db7919043755a6">wiced_hal_wdog_reset_system</a></td></tr>
-<tr class="memdesc:gac2b03f1173c57b64d00be17bbc1b69be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a soft reset of the system.  <a href="#gac2b03f1173c57b64d00be17bbc1b69be">More...</a><br /></td></tr>
-<tr class="separator:gac2b03f1173c57b64d00be17bbc1b69be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee56d7d1f4e1793f7ca7a8c56e559f2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#gaee56d7d1f4e1793f7ca7a8c56e559f2c">wiced_hal_watchdog_restart</a>&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#ga6f4ae8d2a5556cd57c9123f2e9f5ba9f">wiced_hal_wdog_restart</a></td></tr>
-<tr class="memdesc:gaee56d7d1f4e1793f7ca7a8c56e559f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the watchdog (restart the watchdog's internal timer).  <a href="#gaee56d7d1f4e1793f7ca7a8c56e559f2c">More...</a><br /></td></tr>
-<tr class="separator:gaee56d7d1f4e1793f7ca7a8c56e559f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c153dc39b9e7b6fd108368847a5a2e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6c153dc39b9e7b6fd108368847a5a2e4"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_watchdog_coredump_set_uart_delay</b>&#160;&#160;&#160;wiced_hal_wdog_coredump_set_uart_delay</td></tr>
-<tr class="separator:ga6c153dc39b9e7b6fd108368847a5a2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga5c2b9e558d77a0b1af96e476822b3420"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5c2b9e558d77a0b1af96e476822b3420"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_watchdog_disable</b> (void)</td></tr>
-<tr class="separator:ga5c2b9e558d77a0b1af96e476822b3420"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0aadf5f8b586fc84a86005fab380b550"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0aadf5f8b586fc84a86005fab380b550"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_watchdog_reset_system</b> (void)</td></tr>
-<tr class="separator:ga0aadf5f8b586fc84a86005fab380b550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga117f2406133009e26ae5588c89da002d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga117f2406133009e26ae5588c89da002d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_watchdog_restart</b> (void)</td></tr>
-<tr class="separator:ga117f2406133009e26ae5588c89da002d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a6f85dd80094188600fa110016da40b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0a6f85dd80094188600fa110016da40b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_hal_watchdog_coredump_set_uart_delay</b> (uint16_t delayus)</td></tr>
-<tr class="separator:ga0a6f85dd80094188600fa110016da40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa0d74e275ecbf7f90639827dd8224b55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0d74e275ecbf7f90639827dd8224b55"></a>
-wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_watchdog_get_reset_reason</b> (void)</td></tr>
-<tr class="separator:gaa0d74e275ecbf7f90639827dd8224b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0df896f033ce875d80209c4348f6530d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0df896f033ce875d80209c4348f6530d"></a>
-<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_watchdog_configure_reset_gpio</b> (wiced_bt_gpio_numbers_t gpio, wiced_bool_t active_level)</td></tr>
-<tr class="separator:ga0df896f033ce875d80209c4348f6530d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba43dcc2a52a252cddbe636617d1545c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaba43dcc2a52a252cddbe636617d1545c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_watchdog_configure_reset_delay</b> (uint32_t delay_ms)</td></tr>
-<tr class="separator:gaba43dcc2a52a252cddbe636617d1545c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad45001891199d229974743de69baee0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#gad45001891199d229974743de69baee0a">wiced_hal_wdog_disable</a> (void)</td></tr>
-<tr class="memdesc:gad45001891199d229974743de69baee0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the system watchdog.  <a href="#gad45001891199d229974743de69baee0a">More...</a><br /></td></tr>
-<tr class="separator:gad45001891199d229974743de69baee0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4627effaec0c10bbb5db7919043755a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#ga4627effaec0c10bbb5db7919043755a6">wiced_hal_wdog_reset_system</a> (void)</td></tr>
 <tr class="memdesc:ga4627effaec0c10bbb5db7919043755a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a soft reset of the system.  <a href="#ga4627effaec0c10bbb5db7919043755a6">More...</a><br /></td></tr>
 <tr class="separator:ga4627effaec0c10bbb5db7919043755a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f4ae8d2a5556cd57c9123f2e9f5ba9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___watchdog_interface.html#ga6f4ae8d2a5556cd57c9123f2e9f5ba9f">wiced_hal_wdog_restart</a> (void)</td></tr>
-<tr class="memdesc:ga6f4ae8d2a5556cd57c9123f2e9f5ba9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the watchdog (restart the watchdog's internal timer).  <a href="#ga6f4ae8d2a5556cd57c9123f2e9f5ba9f">More...</a><br /></td></tr>
-<tr class="separator:ga6f4ae8d2a5556cd57c9123f2e9f5ba9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver for the watchdog interface. </p>
 <p>This driver manages the hardware watchdog countdown timer. When enabled, the watchdog timer will generate an interrupt when the timer counts down to zero, then will reload the counter. If the counter counts down to zero again, the hardware performs a device reset. The lowest priority "idle" thread restarts the watchdog counter preiodically, and other operations that may keep the system busy call wiced_hal_wdog_restart to extend the watchdog countdown. </p>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="gab970c57d6b05da4cb9221ddf8295734c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_watchdog_disable&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#gad45001891199d229974743de69baee0a">wiced_hal_wdog_disable</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Disable the system watchdog. </p>
-<p>Useful for debugging when the watchdog would interfere and reset the system when not desired (e.g. when the system is connected to a debugger, etc).</p>
-<p>NOTE: This is for debugging purposes only. Hence, there is no complementary "Enable Watchdog" function. Please do <em>not</em> use this function in production applications.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gac2b03f1173c57b64d00be17bbc1b69be"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_watchdog_reset_system&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#ga4627effaec0c10bbb5db7919043755a6">wiced_hal_wdog_reset_system</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Execute a soft reset of the system. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaee56d7d1f4e1793f7ca7a8c56e559f2c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wiced_hal_watchdog_restart&#160;&#160;&#160;<a class="el" href="group___watchdog_interface.html#ga6f4ae8d2a5556cd57c9123f2e9f5ba9f">wiced_hal_wdog_restart</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Restart the watchdog (restart the watchdog's internal timer). </p>
-<p>Used to manually "pet" the watchdog when certain processes might otherwise cause the watchdog to trigger and reset the system. The default timeout for watchdog reset is two seconds.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gad45001891199d229974743de69baee0a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_wdog_disable </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Disable the system watchdog. </p>
-<p>Useful for debugging when the watchdog would interfere and reset the system when not desired (e.g. when the system is connected to a debugger, etc).</p>
-<p>NOTE: This is for debugging purposes only. Hence, there is no complementary "Enable Watchdog" function. Please do <em>not</em> use this function in production applications.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="ga4627effaec0c10bbb5db7919043755a6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -267,32 +130,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_watchdog_config
 </div><div class="memdoc">
 
 <p>Execute a soft reset of the system. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">none</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6f4ae8d2a5556cd57c9123f2e9f5ba9f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_hal_wdog_restart </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Restart the watchdog (restart the watchdog's internal timer). </p>
-<p>Used to manually "pet" the watchdog when certain processes might otherwise cause the watchdog to trigger and reset the system. The default timeout for watchdog reset is two seconds.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>

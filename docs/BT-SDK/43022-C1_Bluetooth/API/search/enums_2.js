@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['event_5ftype_5ft',['event_type_t',['../wiced__audio__manager_8h.html#a3dc8b7ddb0947608b8d860bc469f009f',1,'wiced_audio_manager.h']]]
+  ['pwmclocktype',['PwmClockType',['../group___pwm_driver.html#gae6f1f44294b67f525ab35c3205cea26f',1,'wiced_hal_pwm.h']]]
 ];

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: I2CEEPROMInterfaceDriver</title>
+<title>AIROC&trade; CYW43022: I2C EEPROM Interface</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,14 +98,17 @@ $(document).ready(function(){initNavTree('group___i2_c_e_e_p_r_o_m_interface_dri
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">I2CEEPROMInterfaceDriver<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">I2C EEPROM Interface<div class="ingroups"><a class="el" href="group___i2_c_driver.html">I2C</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a driver for the I2C EEPROM interface.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaff5c489213e878aaa0d98f4d810b2dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_e_e_p_r_o_m_interface_driver.html#gaff5c489213e878aaa0d98f4d810b2dba">wiced_hal_ieeprom_init</a> (void)</td></tr>
-<tr class="memdesc:gaff5c489213e878aaa0d98f4d810b2dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver for the I2C EEPROM interface.  <a href="#gaff5c489213e878aaa0d98f4d810b2dba">More...</a><br /></td></tr>
+<tr class="memdesc:gaff5c489213e878aaa0d98f4d810b2dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status for EEPROM operations.  <a href="#gaff5c489213e878aaa0d98f4d810b2dba">More...</a><br /></td></tr>
 <tr class="separator:gaff5c489213e878aaa0d98f4d810b2dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9ebca89261271a36a8835405462cbe70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___i2_c_e_e_p_r_o_m_interface_driver.html#ga9ebca89261271a36a8835405462cbe70">wiced_hal_ieeprom_set_size</a> (uint32_t <a class="el" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
 <tr class="memdesc:ga9ebca89261271a36a8835405462cbe70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the size of the EEPROM module in bytes, used for bounds checking.  <a href="#ga9ebca89261271a36a8835405462cbe70">More...</a><br /></td></tr>
@@ -118,6 +121,9 @@ Functions</h2></td></tr>
 <tr class="separator:gab25cdfeb4be6e08f1df39720da1338e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Defines a driver for the I2C EEPROM interface. </p>
+<p>The driver is responsible for interfacing with an EEPROM module via the I2C bus, with its main purpose being data handling operations. For instance, any unused space (from the system partition) can be used for any purpose to store and access data. It is a handy way for an app to save information to non-volatile storage.</p>
+<p>Similar to the Serial Flash Interface Driver, this driver includes checks to ensure safe data handling operation&ndash;it will not allow any write operations to take place within active sections (i.e., sections that the system currently uses for boot, etc). Note that read operations are unrestricted. Please reference the Kit Guide or HW User Manual for your device for more information regarding these active sections, their importance, and what roles they play in the system. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gaff5c489213e878aaa0d98f4d810b2dba"></a>
 <div class="memitem">
@@ -133,9 +139,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Defines a driver for the I2C EEPROM interface. </p>
-<p>The driver is responsible for interfacing with an EEPROM module via the I2C bus, with its main purpose being data handling operations. For instance, any unused space (from the system partition) can be used for any purpose to store and access data. It is a handy way for an app to save information to non-volatile storage.</p>
-<p>Similar to the Serial Flash Interface Driver, this driver includes checks to ensure safe data handling operation&ndash;it will not allow any write operations to take place within active sections (i.e., sections that the system currently uses for boot, etc). Note that read operations are unrestricted. Please reference the User Documentation for more information regarding these active sections, their importance, and what roles they play in the system. Status for EEPROM operations. #define DRV_STATUS_SUCCESS 0x00 #define DRV_STATUS_NO_ACK 0x01 #define DRV_STATUS_INVALID_ADDR 0xFF Initialize the I2C lines and low-level EEPROM Driver. Call this before performing any operations.</p>
+<p>Status for EEPROM operations. </p>
+<p>#define DRV_STATUS_SUCCESS 0x00 #define DRV_STATUS_NO_ACK 0x01 #define DRV_STATUS_INVALID_ADDR 0xFF Initialize the I2C lines and low-level EEPROM Driver. Call this before performing any operations.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">none</td><td></td></tr>

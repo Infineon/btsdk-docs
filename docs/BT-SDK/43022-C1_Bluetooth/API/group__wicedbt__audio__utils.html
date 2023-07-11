@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: AIROC Audio Utilities</title>
+<title>AIROC&trade; CYW43022: WICED Audio Utilities</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -99,9 +99,11 @@ $(document).ready(function(){initNavTree('group__wicedbt__audio__utils.html','')
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enumval-members">Enumerator</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">AIROC Audio Utilities<div class="ingroups"><a class="el" href="group__wicedbt__av.html">Audio / Video</a></div></div>  </div>
+<div class="title">WICED Audio Utilities</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -110,9 +112,21 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__audio__config__buffer__t.html">wiced_bt_audio_config_buffer_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio buffer configuration structure Please refer wiced_audio_buffer_initialize API documentation for recommended size.  <a href="structwiced__bt__audio__config__buffer__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2dp__statistics__t.html">wiced_bt_a2dp_statistics_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A2DP statistics structure.  <a href="structwiced__bt__a2dp__statistics__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ga6b002c2a287210f371e91ee0fd388519"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6b002c2a287210f371e91ee0fd388519"></a>
+typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_route_t</b></td></tr>
+<tr class="separator:ga6b002c2a287210f371e91ee0fd388519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36e4b63782546dea3d1a04049e499ad5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36e4b63782546dea3d1a04049e499ad5"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_device_role_t</b></td></tr>
+<tr class="separator:ga36e4b63782546dea3d1a04049e499ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28a422bdf2f75d209d3a1dd2f3215809"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga28a422bdf2f75d209d3a1dd2f3215809"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_sco_data_route_t</b></td></tr>
+<tr class="separator:ga28a422bdf2f75d209d3a1dd2f3215809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga53767ab5ee3cd959a4ba76b31dba4d75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga53767ab5ee3cd959a4ba76b31dba4d75"></a>
 typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga53767ab5ee3cd959a4ba76b31dba4d75">wiced_audio_suspend_complete_cback_t</a> )(void)</td></tr>
 <tr class="memdesc:ga53767ab5ee3cd959a4ba76b31dba4d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio suspend complete callback. <br /></td></tr>
@@ -120,29 +134,45 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memitem:gadd0f597c87ce20ed2b511516de8c92e9"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gadd0f597c87ce20ed2b511516de8c92e9">wiced_audio_buffer_empty_cback_t</a> )(uint32_t total_intr_count, uint32_t total_empty_count, uint32_t consecutive_empty_count)</td></tr>
 <tr class="memdesc:gadd0f597c87ce20ed2b511516de8c92e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio buffer empty callback.  <a href="#gadd0f597c87ce20ed2b511516de8c92e9">More...</a><br /></td></tr>
 <tr class="separator:gadd0f597c87ce20ed2b511516de8c92e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">wiced_audio_congestion_status_cback_t</a> )(<a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> is_congested)</td></tr>
+<tr class="memdesc:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio congestion status callback.  <a href="#gad20d4a73d92907ebd77e87a1b4921a1a">More...</a><br /></td></tr>
+<tr class="separator:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">wiced_audio_sco_data_cback_t</a> )(uint32_t ltch_len, uint8_t *p_data)</td></tr>
+<tr class="memdesc:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SCO Rx Data callback.  <a href="#ga3912390a4fbf2a4de33e4fd2b96dcb8a">More...</a><br /></td></tr>
+<tr class="separator:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d">wiced_device_role_t</a> { <a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da7fcee7c176050e7463b89add943b48d1">WICED_AUDIO_SOURCE_ROLE</a> = 1 &lt;&lt; 1, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da9b19ee50a1b697b4228773315e6183f1">WICED_AUDIO_SINK_ROLE</a> = 1 &lt;&lt; 2, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da51749aa3d83da027416d9c9be12fb915">WICED_HF_ROLE</a> = 1 &lt;&lt; 3
+<tr class="memitem:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba9478f95dfe9d96d99984072f29914b27">AUDIO_ROUTE_I2S</a> = 0x00, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55baafe4542716a13ed81872292bf8c371d0">AUDIO_ROUTE_UART</a> = 0x01, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba6428f31b8cf94319e9c613e952725265">AUDIO_ROUTE_SINE</a> = 0x02, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba8a8a194fb200646fa35b2642e1edd1e3">AUDIO_ROUTE_APP</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba8e73675db42a0d6d30ed7558f20625a8">AUDIO_ROUTE_COMPRESSED_TRANSPORT</a> = 0x04, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55bafbf66de4599434bebc4c8ffef98b7261">AUDIO_ROUTE_COMPRESSED_APP</a> = 0x05
+<br />
  }</td></tr>
-<tr class="memdesc:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced device roles  <a href="group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d">More...</a><br /></td></tr>
-<tr class="separator:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab74a6a225513325e42dbda6b0e3a30c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gab74a6a225513325e42dbda6b0e3a30c7">wiced_audio_route_t</a> { <a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a9478f95dfe9d96d99984072f29914b27">AUDIO_ROUTE_I2S</a> = 0x00, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7aafe4542716a13ed81872292bf8c371d0">AUDIO_ROUTE_UART</a> = 0x01, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a6428f31b8cf94319e9c613e952725265">AUDIO_ROUTE_SINE</a> = 0x02, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a8e73675db42a0d6d30ed7558f20625a8">AUDIO_ROUTE_COMPRESSED_TRANSPORT</a> = 0x03
+<tr class="memdesc:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced audio routes  <a href="group__wicedbt__audio__utils.html#ga06fc87d81c62e9abb8790b6e5713c55b">More...</a><br /></td></tr>
+<tr class="separator:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a7fcee7c176050e7463b89add943b48d1">WICED_AUDIO_SOURCE_ROLE</a> = 1 &lt;&lt; 1, 
+<a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a9b19ee50a1b697b4228773315e6183f1">WICED_AUDIO_SINK_ROLE</a> = 1 &lt;&lt; 2, 
+<a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a51749aa3d83da027416d9c9be12fb915">WICED_HF_ROLE</a> = 1 &lt;&lt; 3
  }</td></tr>
-<tr class="memdesc:gab74a6a225513325e42dbda6b0e3a30c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced audio routes  <a href="group__wicedbt__audio__utils.html#gab74a6a225513325e42dbda6b0e3a30c7">More...</a><br /></td></tr>
-<tr class="separator:gab74a6a225513325e42dbda6b0e3a30c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced device roles  <a href="group__wicedbt__audio__utils.html#gadf764cbdea00d65edcd07bb9953ad2b7">More...</a><br /></td></tr>
+<tr class="separator:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99fb83031ce9923c84392b4e92f956b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga99fb83031ce9923c84392b4e92f956b5"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>WICED_SCO_ROUTE_NONE</b> = 0, 
+<b>WICED_SCO_ROUTE_APP</b>
+ }</td></tr>
+<tr class="memdesc:ga99fb83031ce9923c84392b4e92f956b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced sco data routes <br /></td></tr>
+<tr class="separator:ga99fb83031ce9923c84392b4e92f956b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga98706b0ad37cd100fe2c845063465821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga98706b0ad37cd100fe2c845063465821">wiced_audio_buffer_initialize</a> (<a class="el" href="structwiced__bt__audio__config__buffer__t.html">wiced_bt_audio_config_buffer_t</a> wiced_audio_cfg_pool)</td></tr>
 <tr class="memdesc:ga98706b0ad37cd100fe2c845063465821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_buffer_initialize.  <a href="#ga98706b0ad37cd100fe2c845063465821">More...</a><br /></td></tr>
 <tr class="separator:ga98706b0ad37cd100fe2c845063465821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f464f115209faea4152c01b28efcc18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18">wiced_audio_start</a> (int is_master, int audio_route, uint16_t lcid, <a class="el" href="structwiced__bt__a2d__sbc__cie__t.html">wiced_bt_a2d_sbc_cie_t</a> *pSbc)</td></tr>
+<tr class="memitem:ga1f464f115209faea4152c01b28efcc18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18">wiced_audio_start</a> (int is_master, int audio_route, uint16_t lcid, wiced_bt_a2d_sbc_cie_t *pSbc)</td></tr>
 <tr class="memdesc:ga1f464f115209faea4152c01b28efcc18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_start.  <a href="#ga1f464f115209faea4152c01b28efcc18">More...</a><br /></td></tr>
 <tr class="separator:ga1f464f115209faea4152c01b28efcc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf8d5174ee5c8d29a73a5ee4ef6f4ee99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gaf8d5174ee5c8d29a73a5ee4ef6f4ee99">wiced_audio_stop</a> (uint16_t lcid)</td></tr>
@@ -160,6 +190,44 @@ Functions</h2></td></tr>
 <tr class="memitem:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga344cea5a47ed0ff641b8ca6bc879f71d">wiced_audio_set_sinwave</a> (int16_t *pIn)</td></tr>
 <tr class="memdesc:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_set_sinwave.  <a href="#ga344cea5a47ed0ff641b8ca6bc879f71d">More...</a><br /></td></tr>
 <tr class="separator:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22fa1ef356aaf7042d917e443f526318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga22fa1ef356aaf7042d917e443f526318">wiced_audio_get_statistics</a> (<a class="el" href="structwiced__bt__a2dp__statistics__t.html">wiced_bt_a2dp_statistics_t</a> *buffer_stat)</td></tr>
+<tr class="memdesc:ga22fa1ef356aaf7042d917e443f526318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_get_statistics.  <a href="#ga22fa1ef356aaf7042d917e443f526318">More...</a><br /></td></tr>
+<tr class="separator:ga22fa1ef356aaf7042d917e443f526318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b45482fef8bf71102881217c9d3e377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga2b45482fef8bf71102881217c9d3e377">wiced_audio_register_congestion_cback</a> (<a class="el" href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">wiced_audio_congestion_status_cback_t</a> p_congestion_stat)</td></tr>
+<tr class="memdesc:ga2b45482fef8bf71102881217c9d3e377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_register_congestion_cback.  <a href="#ga2b45482fef8bf71102881217c9d3e377">More...</a><br /></td></tr>
+<tr class="separator:ga2b45482fef8bf71102881217c9d3e377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga96b95582dc5b5c8bb67b6dfbc166c346">wiced_audio_sco_set_data_route</a> (wiced_audio_sco_data_route_t sco_data_route, <a class="el" href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">wiced_audio_sco_data_cback_t</a> p_data_cb)</td></tr>
+<tr class="memdesc:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_sco_set_data_route.  <a href="#ga96b95582dc5b5c8bb67b6dfbc166c346">More...</a><br /></td></tr>
+<tr class="separator:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga7f40a2a8ae1df766dc2b44380233cadc">wiced_audio_sco_add_mic_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memdesc:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_sco_add_mic_stream.  <a href="#ga7f40a2a8ae1df766dc2b44380233cadc">More...</a><br /></td></tr>
+<tr class="separator:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga586d79d0ec374e74848a11aa5e552204"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga586d79d0ec374e74848a11aa5e552204"></a>
+wiced_device_role_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga586d79d0ec374e74848a11aa5e552204">role</a></td></tr>
+<tr class="memdesc:ga586d79d0ec374e74848a11aa5e552204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role if audio source, sink or hf device. <br /></td></tr>
+<tr class="separator:ga586d79d0ec374e74848a11aa5e552204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6afd2cd2c1082869da008138ce61a58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac6afd2cd2c1082869da008138ce61a58"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gac6afd2cd2c1082869da008138ce61a58">audio_tx_buffer_size</a></td></tr>
+<tr class="memdesc:gac6afd2cd2c1082869da008138ce61a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio Tx buffer size. <br /></td></tr>
+<tr class="separator:gac6afd2cd2c1082869da008138ce61a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8db826fdcd6b7570d16060df7ec541ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8db826fdcd6b7570d16060df7ec541ae"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga8db826fdcd6b7570d16060df7ec541ae">audio_codec_buffer_size</a></td></tr>
+<tr class="memdesc:ga8db826fdcd6b7570d16060df7ec541ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codec buffer size. <br /></td></tr>
+<tr class="separator:ga8db826fdcd6b7570d16060df7ec541ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaabe15f26dbdc1cb97a45325bfd923e2b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gaabe15f26dbdc1cb97a45325bfd923e2b">audio_tx_buffer_watermark_level</a></td></tr>
+<tr class="memdesc:gaabe15f26dbdc1cb97a45325bfd923e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Watermark level in % in terms of % of buffers remaining.  <a href="#gaabe15f26dbdc1cb97a45325bfd923e2b">More...</a><br /></td></tr>
+<tr class="separator:gaabe15f26dbdc1cb97a45325bfd923e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49f89df0e765bee620c337c51d397eff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga49f89df0e765bee620c337c51d397eff"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga49f89df0e765bee620c337c51d397eff">duration</a></td></tr>
+<tr class="memdesc:ga49f89df0e765bee620c337c51d397eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration of the a2dp streaming in which stats were captured. <br /></td></tr>
+<tr class="separator:ga49f89df0e765bee620c337c51d397eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3613d611fd34a8a9375c8d9e02d3349d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3613d611fd34a8a9375c8d9e02d3349d"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga3613d611fd34a8a9375c8d9e02d3349d">packet_ack_stats_table</a> [11]</td></tr>
+<tr class="memdesc:ga3613d611fd34a8a9375c8d9e02d3349d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay between packet sent OTA and ack received. <br /></td></tr>
+<tr class="separator:ga3613d611fd34a8a9375c8d9e02d3349d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -186,58 +254,108 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="gab74a6a225513325e42dbda6b0e3a30c7"></a>
+<a class="anchor" id="gad20d4a73d92907ebd77e87a1b4921a1a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="group__wicedbt__audio__utils.html#gab74a6a225513325e42dbda6b0e3a30c7">wiced_audio_route_t</a></td>
+          <td class="memname">typedef void(* wiced_audio_congestion_status_cback_t)(<a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> is_congested)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Audio congestion status callback. </p>
+<p>Callback invoked when there is a change in the audio stream congestion status. This gets invoked when the audio stream is congested and also when the congestion is cleared</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">is_congested</td><td>: TRUE - when the audio stream is congested FALSE - when the congestion is cleared </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3912390a4fbf2a4de33e4fd2b96dcb8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* wiced_audio_sco_data_cback_t)(uint32_t ltch_len, uint8_t *p_data)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SCO Rx Data callback. </p>
+<p>Callback invoked if specific SCO data route was set This gets invoked when the application want to get SCO voice data</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ltch_len</td><td>: sco data length in bytes p_data : sco voice data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga06fc87d81c62e9abb8790b6e5713c55b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>wiced audio routes </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggab74a6a225513325e42dbda6b0e3a30c7a9478f95dfe9d96d99984072f29914b27"></a>AUDIO_ROUTE_I2S&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55ba9478f95dfe9d96d99984072f29914b27"></a>AUDIO_ROUTE_I2S&#160;</td><td class="fielddoc">
 <p>Route the PCM Samples over I2S. </p>
 <p>Read from I2S in case of audio source,write to I2S in case of audio sink </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggab74a6a225513325e42dbda6b0e3a30c7aafe4542716a13ed81872292bf8c371d0"></a>AUDIO_ROUTE_UART&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55baafe4542716a13ed81872292bf8c371d0"></a>AUDIO_ROUTE_UART&#160;</td><td class="fielddoc">
 <p>Route the PCM samples over transport. </p>
 <p>Receive the audio data to be sent OTA from transport in case of audio source.Receive the audio data OTA, decode and send to transport in case of audio sink </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggab74a6a225513325e42dbda6b0e3a30c7a6428f31b8cf94319e9c613e952725265"></a>AUDIO_ROUTE_SINE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55ba6428f31b8cf94319e9c613e952725265"></a>AUDIO_ROUTE_SINE&#160;</td><td class="fielddoc">
 <p>Route the stored sine samples over the air. </p>
 <p>Applicable in case of audio source </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggab74a6a225513325e42dbda6b0e3a30c7a8e73675db42a0d6d30ed7558f20625a8"></a>AUDIO_ROUTE_COMPRESSED_TRANSPORT&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55ba8a8a194fb200646fa35b2642e1edd1e3"></a>AUDIO_ROUTE_APP&#160;</td><td class="fielddoc">
+<p>Route the PCM samples to app. </p>
+<p>Receive the audio data OTA, decode and send to app. Applicable in case of audio sink </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55ba8e73675db42a0d6d30ed7558f20625a8"></a>AUDIO_ROUTE_COMPRESSED_TRANSPORT&#160;</td><td class="fielddoc">
 <p>Route the compressed audio data(AVDTP media packet, including the header) over transport. </p>
+<p>Receive the audio data OTA and send to transport. Applicable in case of audio sink </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga06fc87d81c62e9abb8790b6e5713c55bafbf66de4599434bebc4c8ffef98b7261"></a>AUDIO_ROUTE_COMPRESSED_APP&#160;</td><td class="fielddoc">
+<p>Route the compressed audio data(AVDTP media packet, including the header) to app. </p>
 <p>Receive the audio data OTA and send to transport. Applicable in case of audio sink </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a class="anchor" id="gae50b1d8ef56665ba32a1441ed01dce9d"></a>
+<a class="anchor" id="gadf764cbdea00d65edcd07bb9953ad2b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d">wiced_device_role_t</a></td>
+          <td class="memname">anonymous enum</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>wiced device roles </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggae50b1d8ef56665ba32a1441ed01dce9da7fcee7c176050e7463b89add943b48d1"></a>WICED_AUDIO_SOURCE_ROLE&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a7fcee7c176050e7463b89add943b48d1"></a>WICED_AUDIO_SOURCE_ROLE&#160;</td><td class="fielddoc">
 <p>Audio Source. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggae50b1d8ef56665ba32a1441ed01dce9da9b19ee50a1b697b4228773315e6183f1"></a>WICED_AUDIO_SINK_ROLE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a9b19ee50a1b697b4228773315e6183f1"></a>WICED_AUDIO_SINK_ROLE&#160;</td><td class="fielddoc">
 <p>Audio Sink. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ggae50b1d8ef56665ba32a1441ed01dce9da51749aa3d83da027416d9c9be12fb915"></a>WICED_HF_ROLE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ggadf764cbdea00d65edcd07bb9953ad2b7a51749aa3d83da027416d9c9be12fb915"></a>WICED_HF_ROLE&#160;</td><td class="fielddoc">
 <p>Handsfree. </p>
 </td></tr>
 </table>
@@ -260,19 +378,46 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_audio_buffer_initialize. </p>
-<p>Audio buffer initialization. Allocates the audio buffer and returns pointer to the audio buffer</p>
+<p>Audio buffer initialization. Allocates the audio buffer and returns pointer to the audio buffer. This buffer is used by the a2dp source to hold the audio data received over the transport from the host</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">wiced_audio_cfg_pool</td><td>: Size of the audio tx buffer and codec buffer to be allocated</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS if Success, otherwise WICED_OUT_OF_HEAP_SPACE.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS if Success, otherwise WICED_NO_MEMORY.</dd></dl>
 <p>NOTE : Recommended audio_tx_buffer_size : If the application includes A2DP source profile, the transport buffer size shall be set to at least 8KB. In case of A2DP sink profile, set the transport buffer size (recommended size 0x1c00) if required to send the encoded/decoded data over the transport.</p>
-<p>Recommended audio_codec_buffer_size: </p><hr/>
-<p> | USE CASE | Recommended size | |-------------------------------------------------------------------------------&mdash;| | A2DP Source (SBC Encode) | 8KB | | A2DP Sink(SBC Decode)* | 11KB (300ms jitter buffer) + 8KB for codec | | | Total 19KB | </p><h2>| MSBC (WBS CODEC)* | 13KB = 5KB(for Encoding)+ 8KB(for Decoding) | </h2>
+<p>Recommended audio_codec_buffer_size:</p>
+<h2>In case of A2DP sink profile, set the transport buffer size if required to send the audio data over the transport </h2>
+<p>| USE CASE | Recommended size | |-------------------------------------------------------------------------------&mdash;| | A2DP Source (SBC Encode) | 8KB | | A2DP Sink(SBC Decode)* | 11KB (300ms jitter buffer) + 8KB for codec | | | Total 19KB | </p><h2>| MSBC (WBS CODEC)* | 13KB = 5KB(for Encoding)+ 8KB(for Decoding) | </h2>
 <p>TODO : Provide formula for calculating Jitter Buffer</p>
 <p>In case of multiple profiles used by application simultaneously, example A2DP sink and HFP device profiles, size specified should be the maximum of the recommended value for each profile supported. </p>
+
+</div>
+</div>
+<a class="anchor" id="ga22fa1ef356aaf7042d917e443f526318"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_audio_get_statistics </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structwiced__bt__a2dp__statistics__t.html">wiced_bt_a2dp_statistics_t</a> *&#160;</td>
+          <td class="paramname"><em>buffer_stat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_get_statistics. </p>
+<p>Used by the A2DP source to read A2DP streaming statistics</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer_stat</td><td>: pointer to fill statistics.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
@@ -295,6 +440,113 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: callback function to be invoked on audio buffer empty event</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2b45482fef8bf71102881217c9d3e377"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_audio_register_congestion_cback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">wiced_audio_congestion_status_cback_t</a>&#160;</td>
+          <td class="paramname"><em>p_congestion_stat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_register_congestion_cback. </p>
+<p>Register the callback function to be invoked on audio stream congestion status change event</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>: callback function to be invoked on audio stream congestion status change event</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7f40a2a8ae1df766dc2b44380233cadc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_audio_sco_add_mic_stream </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>sco_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_pcmsrc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_sco_add_mic_stream. </p>
+<p>Add sco microphone pcm data to internl audio pipe.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sco_index</td><td>: sco index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_pcmsrc</td><td>: microphone pcm source </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>: length of data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the legth of non transmited stream </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga96b95582dc5b5c8bb67b6dfbc166c346"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_audio_sco_set_data_route </td>
+          <td>(</td>
+          <td class="paramtype">wiced_audio_sco_data_route_t&#160;</td>
+          <td class="paramname"><em>sco_data_route</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">wiced_audio_sco_data_cback_t</a>&#160;</td>
+          <td class="paramname"><em>p_data_cb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_audio_sco_set_data_route. </p>
+<p>Register the specific sco data route and callback function</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sco_data_route</td><td>: WICED_SCO_ROUTE_NONE/WICED_SCO_ROUTE_APP </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_data_cb</td><td>: callback function to be invoked when receiving sco rx data</td></tr>
   </table>
   </dd>
 </dl>
@@ -353,7 +605,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structwiced__bt__a2d__sbc__cie__t.html">wiced_bt_a2d_sbc_cie_t</a> *&#160;</td>
+          <td class="paramtype">wiced_bt_a2d_sbc_cie_t *&#160;</td>
           <td class="paramname"><em>pSbc</em>&#160;</td>
         </tr>
         <tr>
@@ -365,10 +617,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function wiced_audio_start. </p>
-<p>To start the audio streaming</p>
+<p>Used by the A2DP source to start the audio streaming. I2S interrupts are used for timing the audio data by default. Software timer can also be used for timing the audio data which can be enabled by using the API wiced_audio_use_sw_timing. Enable the software timer before invoking wiced_audio_start</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">is_master</td><td>: If the I2S has to configured as master</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">is_master</td><td>: If the I2S has to configured as master when using I2S interrupts for timing the audio data. Set to 1 to configure I2S in the master mode. Set to 0 to configure the I2S in the slave mode.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">audio_route</td><td>: Audio route to be configured. Configure as AUDIO_ROUTE_I2S if the audio source is I2S Configure as AUDIO_ROUTE_UART if the audio source is FILE Configure as AUDIO_ROUTE_SINE if the audio source is the stored sine wave</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">lcid</td><td>: lcid</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pSbc</td><td>: SBC codec info</td></tr>
@@ -464,6 +716,22 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="gaabe15f26dbdc1cb97a45325bfd923e2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t audio_tx_buffer_watermark_level</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Watermark level in % in terms of % of buffers remaining. </p>
+<p>Default is 50 for 50%. E.g. if set to 70, fw will request additional data when buffer reaches 70% of the full buffer size (i.e., audio_tx_buffer_size). Only applicable for A2DP source applications </p>
 
 </div>
 </div>

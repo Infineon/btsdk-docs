@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['audio_5fconfig_5ft',['audio_config_t',['../structaudio__config__t.html',1,'']]]
+  ['_5fwiced_5ftimer_5ft',['_wiced_timer_t',['../struct__wiced__timer__t.html',1,'']]]
 ];

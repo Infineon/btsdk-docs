@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_gatt_operation_complete_rsp_t Union Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_gatt_operation_complete_rsp_t Union Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,30 +98,34 @@ $(document).ready(function(){initNavTree('unionwiced__bt__gatt__operation__compl
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_gatt_operation_complete_rsp_t Union Reference</div>  </div>
+<div class="title">wiced_bt_gatt_operation_complete_rsp_t Union Reference<div class="ingroups"><a class="el" href="group__wicedbt__gatt.html">Generic Attribute (GATT)</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Client Operation Complete response data (dependent on operation completed)  
+<p>Client Operation Complete response data.  
  <a href="unionwiced__bt__gatt__operation__complete__rsp__t.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:aa3052ea4e3bda7db8784831b7a321b5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3052ea4e3bda7db8784831b7a321b5a"></a>
 <a class="el" href="structwiced__bt__gatt__data__t.html">wiced_bt_gatt_data_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__operation__complete__rsp__t.html#aa3052ea4e3bda7db8784831b7a321b5a">att_value</a></td></tr>
-<tr class="memdesc:aa3052ea4e3bda7db8784831b7a321b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response data for read operations (initiated using <a class="el" href="group__client__api__functions.html#gae9f461e84e9cfd188d0dcf31982cf940" title="Function wiced_bt_gatt_send_read. ">wiced_bt_gatt_send_read</a>) <br /></td></tr>
+<tr class="memdesc:aa3052ea4e3bda7db8784831b7a321b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response data for read operations (initiated using <a class="el" href="group__gatt__client__api__functions.html#ga22d6a277ecfcc3f3193e248e5a9c89c3">wiced_bt_gatt_client_send_read_handle</a> and <a class="el" href="group__gatt__client__api__functions.html#gaab8c3fff985e0a6beb83cd368b63e548">wiced_bt_gatt_client_send_read_by_type</a> ) (or) Notification or Indication data. <br /></td></tr>
 <tr class="separator:aa3052ea4e3bda7db8784831b7a321b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7a1ded7c26c696a72c6c859becf094"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d7a1ded7c26c696a72c6c859becf094"></a>
+<a class="el" href="structwiced__bt__gatt__read__multiple__rsp__t.html">wiced_bt_gatt_read_multiple_rsp_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__operation__complete__rsp__t.html#a1d7a1ded7c26c696a72c6c859becf094">multi_rsp</a></td></tr>
+<tr class="memdesc:a1d7a1ded7c26c696a72c6c859becf094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data Response for <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bada432729197e6189c196a01d65597293">GATT_REQ_READ_MULTI</a> and <a class="el" href="group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baeafa2b04ebdf14895feec3338b37252b">GATT_REQ_READ_MULTI_VAR_LENGTH</a>. <br /></td></tr>
+<tr class="separator:a1d7a1ded7c26c696a72c6c859becf094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2997a8aa5758871f81608a28ce97b796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2997a8aa5758871f81608a28ce97b796"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__operation__complete__rsp__t.html#a2997a8aa5758871f81608a28ce97b796">mtu</a></td></tr>
 <tr class="memdesc:a2997a8aa5758871f81608a28ce97b796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response data for configuration operations. <br /></td></tr>
 <tr class="separator:a2997a8aa5758871f81608a28ce97b796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af242d6e3b6108ea75e1eb236e94c8240"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af242d6e3b6108ea75e1eb236e94c8240"></a>
 uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionwiced__bt__gatt__operation__complete__rsp__t.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a></td></tr>
-<tr class="memdesc:af242d6e3b6108ea75e1eb236e94c8240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response data for write operations (initiated using <a class="el" href="group__client__api__functions.html#ga1e8c83cd289240692f4610a1012688b3" title="Function wiced_bt_gatt_send_write. ">wiced_bt_gatt_send_write</a>) <br /></td></tr>
+<tr class="memdesc:af242d6e3b6108ea75e1eb236e94c8240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Response data for write operations (initiated using <a class="el" href="group__gatt__client__api__functions.html#ga1a0c27ab8cf1552b82d7892fef722a4a" title="Write to remote ATT server. ">wiced_bt_gatt_client_send_write</a>) <br /></td></tr>
 <tr class="separator:af242d6e3b6108ea75e1eb236e94c8240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Client Operation Complete response data (dependent on operation completed) </p>
+<div class="textblock"><p>Client Operation Complete response data. </p>
 </div><hr/>The documentation for this union was generated from the following file:<ul>
 <li><a class="el" href="wiced__bt__gatt_8h.html">wiced_bt_gatt.h</a></li>
 </ul>

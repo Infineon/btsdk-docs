@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_audio.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_audio.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -110,9 +110,21 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__audio__config__buffer__t.html">wiced_bt_audio_config_buffer_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio buffer configuration structure Please refer wiced_audio_buffer_initialize API documentation for recommended size.  <a href="structwiced__bt__audio__config__buffer__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__a2dp__statistics__t.html">wiced_bt_a2dp_statistics_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A2DP statistics structure.  <a href="structwiced__bt__a2dp__statistics__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ga6b002c2a287210f371e91ee0fd388519"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6b002c2a287210f371e91ee0fd388519"></a>
+typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_route_t</b></td></tr>
+<tr class="separator:ga6b002c2a287210f371e91ee0fd388519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36e4b63782546dea3d1a04049e499ad5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36e4b63782546dea3d1a04049e499ad5"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_device_role_t</b></td></tr>
+<tr class="separator:ga36e4b63782546dea3d1a04049e499ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28a422bdf2f75d209d3a1dd2f3215809"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga28a422bdf2f75d209d3a1dd2f3215809"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_sco_data_route_t</b></td></tr>
+<tr class="separator:ga28a422bdf2f75d209d3a1dd2f3215809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga53767ab5ee3cd959a4ba76b31dba4d75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga53767ab5ee3cd959a4ba76b31dba4d75"></a>
 typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga53767ab5ee3cd959a4ba76b31dba4d75">wiced_audio_suspend_complete_cback_t</a> )(void)</td></tr>
 <tr class="memdesc:ga53767ab5ee3cd959a4ba76b31dba4d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio suspend complete callback. <br /></td></tr>
@@ -120,29 +132,45 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memitem:gadd0f597c87ce20ed2b511516de8c92e9"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gadd0f597c87ce20ed2b511516de8c92e9">wiced_audio_buffer_empty_cback_t</a> )(uint32_t total_intr_count, uint32_t total_empty_count, uint32_t consecutive_empty_count)</td></tr>
 <tr class="memdesc:gadd0f597c87ce20ed2b511516de8c92e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio buffer empty callback.  <a href="group__wicedbt__audio__utils.html#gadd0f597c87ce20ed2b511516de8c92e9">More...</a><br /></td></tr>
 <tr class="separator:gadd0f597c87ce20ed2b511516de8c92e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">wiced_audio_congestion_status_cback_t</a> )(<a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> is_congested)</td></tr>
+<tr class="memdesc:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Audio congestion status callback.  <a href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">More...</a><br /></td></tr>
+<tr class="separator:gad20d4a73d92907ebd77e87a1b4921a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">wiced_audio_sco_data_cback_t</a> )(uint32_t ltch_len, uint8_t *p_data)</td></tr>
+<tr class="memdesc:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SCO Rx Data callback.  <a href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">More...</a><br /></td></tr>
+<tr class="separator:ga3912390a4fbf2a4de33e4fd2b96dcb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d">wiced_device_role_t</a> { <a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da7fcee7c176050e7463b89add943b48d1">WICED_AUDIO_SOURCE_ROLE</a> = 1 &lt;&lt; 1, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da9b19ee50a1b697b4228773315e6183f1">WICED_AUDIO_SINK_ROLE</a> = 1 &lt;&lt; 2, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da51749aa3d83da027416d9c9be12fb915">WICED_HF_ROLE</a> = 1 &lt;&lt; 3
+<tr class="memitem:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba9478f95dfe9d96d99984072f29914b27">AUDIO_ROUTE_I2S</a> = 0x00, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55baafe4542716a13ed81872292bf8c371d0">AUDIO_ROUTE_UART</a> = 0x01, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba6428f31b8cf94319e9c613e952725265">AUDIO_ROUTE_SINE</a> = 0x02, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba8a8a194fb200646fa35b2642e1edd1e3">AUDIO_ROUTE_APP</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55ba8e73675db42a0d6d30ed7558f20625a8">AUDIO_ROUTE_COMPRESSED_TRANSPORT</a> = 0x04, 
+<a class="el" href="group__wicedbt__audio__utils.html#gga06fc87d81c62e9abb8790b6e5713c55bafbf66de4599434bebc4c8ffef98b7261">AUDIO_ROUTE_COMPRESSED_APP</a> = 0x05
+<br />
  }</td></tr>
-<tr class="memdesc:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced device roles  <a href="group__wicedbt__audio__utils.html#gae50b1d8ef56665ba32a1441ed01dce9d">More...</a><br /></td></tr>
-<tr class="separator:gae50b1d8ef56665ba32a1441ed01dce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab74a6a225513325e42dbda6b0e3a30c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gab74a6a225513325e42dbda6b0e3a30c7">wiced_audio_route_t</a> { <a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a9478f95dfe9d96d99984072f29914b27">AUDIO_ROUTE_I2S</a> = 0x00, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7aafe4542716a13ed81872292bf8c371d0">AUDIO_ROUTE_UART</a> = 0x01, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a6428f31b8cf94319e9c613e952725265">AUDIO_ROUTE_SINE</a> = 0x02, 
-<a class="el" href="group__wicedbt__audio__utils.html#ggab74a6a225513325e42dbda6b0e3a30c7a8e73675db42a0d6d30ed7558f20625a8">AUDIO_ROUTE_COMPRESSED_TRANSPORT</a> = 0x03
+<tr class="memdesc:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced audio routes  <a href="group__wicedbt__audio__utils.html#ga06fc87d81c62e9abb8790b6e5713c55b">More...</a><br /></td></tr>
+<tr class="separator:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a7fcee7c176050e7463b89add943b48d1">WICED_AUDIO_SOURCE_ROLE</a> = 1 &lt;&lt; 1, 
+<a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a9b19ee50a1b697b4228773315e6183f1">WICED_AUDIO_SINK_ROLE</a> = 1 &lt;&lt; 2, 
+<a class="el" href="group__wicedbt__audio__utils.html#ggadf764cbdea00d65edcd07bb9953ad2b7a51749aa3d83da027416d9c9be12fb915">WICED_HF_ROLE</a> = 1 &lt;&lt; 3
  }</td></tr>
-<tr class="memdesc:gab74a6a225513325e42dbda6b0e3a30c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced audio routes  <a href="group__wicedbt__audio__utils.html#gab74a6a225513325e42dbda6b0e3a30c7">More...</a><br /></td></tr>
-<tr class="separator:gab74a6a225513325e42dbda6b0e3a30c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced device roles  <a href="group__wicedbt__audio__utils.html#gadf764cbdea00d65edcd07bb9953ad2b7">More...</a><br /></td></tr>
+<tr class="separator:gadf764cbdea00d65edcd07bb9953ad2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99fb83031ce9923c84392b4e92f956b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga99fb83031ce9923c84392b4e92f956b5"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>WICED_SCO_ROUTE_NONE</b> = 0, 
+<b>WICED_SCO_ROUTE_APP</b>
+ }</td></tr>
+<tr class="memdesc:ga99fb83031ce9923c84392b4e92f956b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced sco data routes <br /></td></tr>
+<tr class="separator:ga99fb83031ce9923c84392b4e92f956b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga98706b0ad37cd100fe2c845063465821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga98706b0ad37cd100fe2c845063465821">wiced_audio_buffer_initialize</a> (<a class="el" href="structwiced__bt__audio__config__buffer__t.html">wiced_bt_audio_config_buffer_t</a> wiced_audio_cfg_pool)</td></tr>
 <tr class="memdesc:ga98706b0ad37cd100fe2c845063465821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_buffer_initialize.  <a href="group__wicedbt__audio__utils.html#ga98706b0ad37cd100fe2c845063465821">More...</a><br /></td></tr>
 <tr class="separator:ga98706b0ad37cd100fe2c845063465821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f464f115209faea4152c01b28efcc18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18">wiced_audio_start</a> (int is_master, int audio_route, uint16_t lcid, <a class="el" href="structwiced__bt__a2d__sbc__cie__t.html">wiced_bt_a2d_sbc_cie_t</a> *pSbc)</td></tr>
+<tr class="memitem:ga1f464f115209faea4152c01b28efcc18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18">wiced_audio_start</a> (int is_master, int audio_route, uint16_t lcid, wiced_bt_a2d_sbc_cie_t *pSbc)</td></tr>
 <tr class="memdesc:ga1f464f115209faea4152c01b28efcc18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_start.  <a href="group__wicedbt__audio__utils.html#ga1f464f115209faea4152c01b28efcc18">More...</a><br /></td></tr>
 <tr class="separator:ga1f464f115209faea4152c01b28efcc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf8d5174ee5c8d29a73a5ee4ef6f4ee99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#gaf8d5174ee5c8d29a73a5ee4ef6f4ee99">wiced_audio_stop</a> (uint16_t lcid)</td></tr>
@@ -160,13 +188,25 @@ Functions</h2></td></tr>
 <tr class="memitem:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga344cea5a47ed0ff641b8ca6bc879f71d">wiced_audio_set_sinwave</a> (int16_t *pIn)</td></tr>
 <tr class="memdesc:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_set_sinwave.  <a href="group__wicedbt__audio__utils.html#ga344cea5a47ed0ff641b8ca6bc879f71d">More...</a><br /></td></tr>
 <tr class="separator:ga344cea5a47ed0ff641b8ca6bc879f71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22fa1ef356aaf7042d917e443f526318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga22fa1ef356aaf7042d917e443f526318">wiced_audio_get_statistics</a> (<a class="el" href="structwiced__bt__a2dp__statistics__t.html">wiced_bt_a2dp_statistics_t</a> *buffer_stat)</td></tr>
+<tr class="memdesc:ga22fa1ef356aaf7042d917e443f526318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_get_statistics.  <a href="group__wicedbt__audio__utils.html#ga22fa1ef356aaf7042d917e443f526318">More...</a><br /></td></tr>
+<tr class="separator:ga22fa1ef356aaf7042d917e443f526318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b45482fef8bf71102881217c9d3e377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga2b45482fef8bf71102881217c9d3e377">wiced_audio_register_congestion_cback</a> (<a class="el" href="group__wicedbt__audio__utils.html#gad20d4a73d92907ebd77e87a1b4921a1a">wiced_audio_congestion_status_cback_t</a> p_congestion_stat)</td></tr>
+<tr class="memdesc:ga2b45482fef8bf71102881217c9d3e377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_register_congestion_cback.  <a href="group__wicedbt__audio__utils.html#ga2b45482fef8bf71102881217c9d3e377">More...</a><br /></td></tr>
+<tr class="separator:ga2b45482fef8bf71102881217c9d3e377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga96b95582dc5b5c8bb67b6dfbc166c346">wiced_audio_sco_set_data_route</a> (wiced_audio_sco_data_route_t sco_data_route, <a class="el" href="group__wicedbt__audio__utils.html#ga3912390a4fbf2a4de33e4fd2b96dcb8a">wiced_audio_sco_data_cback_t</a> p_data_cb)</td></tr>
+<tr class="memdesc:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_sco_set_data_route.  <a href="group__wicedbt__audio__utils.html#ga96b95582dc5b5c8bb67b6dfbc166c346">More...</a><br /></td></tr>
+<tr class="separator:ga96b95582dc5b5c8bb67b6dfbc166c346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__audio__utils.html#ga7f40a2a8ae1df766dc2b44380233cadc">wiced_audio_sco_add_mic_stream</a> (uint16_t sco_index, uint8_t *p_pcmsrc, uint16_t <a class="el" href="group__wicedbt__gatt.html#ga5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
+<tr class="memdesc:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_audio_sco_add_mic_stream.  <a href="group__wicedbt__audio__utils.html#ga7f40a2a8ae1df766dc2b44380233cadc">More...</a><br /></td></tr>
+<tr class="separator:ga7f40a2a8ae1df766dc2b44380233cadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__audio_8h.html">wiced_bt_audio.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="dir_0f3e07663ffaf11906e815356a7bce62.html">hal</a></li><li class="navelem"><a class="el" href="wiced__bt__audio_8h.html">wiced_bt_audio.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>

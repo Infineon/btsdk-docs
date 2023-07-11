@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Event Flags</title>
+<title>AIROC&trade; CYW43022: Event Flags</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -110,7 +110,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gab3c048d1ada42601b7e0532a68d87692"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eventflags.html#gab3c048d1ada42601b7e0532a68d87692">wiced_rtos_init_event_flags</a> (wiced_event_flags_t *event_flags)</td></tr>
 <tr class="memdesc:gab3c048d1ada42601b7e0532a68d87692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise an event flags.  <a href="#gab3c048d1ada42601b7e0532a68d87692">More...</a><br /></td></tr>
 <tr class="separator:gab3c048d1ada42601b7e0532a68d87692"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae84b75998da2d72e3c03eeceb1a0e2e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eventflags.html#gae84b75998da2d72e3c03eeceb1a0e2e9">wiced_rtos_wait_for_event_flags</a> (wiced_event_flags_t *event_flags, uint32_t flags_to_wait_for, uint32_t *flags_set, wiced_bool_t clear_set_flags, wiced_event_flags_wait_option_t wait_option, uint32_t timeout_ms)</td></tr>
+<tr class="memitem:ga308a518efb15c5b6935986f1ce5dbbcc"><td class="memItemLeft" align="right" valign="top">wiced_event_flags_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eventflags.html#ga308a518efb15c5b6935986f1ce5dbbcc">wiced_rtos_create_event_flags</a> (void)</td></tr>
+<tr class="memdesc:ga308a518efb15c5b6935986f1ce5dbbcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new instance of event flags.  <a href="#ga308a518efb15c5b6935986f1ce5dbbcc">More...</a><br /></td></tr>
+<tr class="separator:ga308a518efb15c5b6935986f1ce5dbbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae84b75998da2d72e3c03eeceb1a0e2e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eventflags.html#gae84b75998da2d72e3c03eeceb1a0e2e9">wiced_rtos_wait_for_event_flags</a> (wiced_event_flags_t *event_flags, uint32_t flags_to_wait_for, uint32_t *flags_set, <a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> clear_set_flags, wiced_event_flags_wait_option_t wait_option, uint32_t timeout_ms)</td></tr>
 <tr class="memdesc:gae84b75998da2d72e3c03eeceb1a0e2e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for event flags to be set.  <a href="#gae84b75998da2d72e3c03eeceb1a0e2e9">More...</a><br /></td></tr>
 <tr class="separator:gae84b75998da2d72e3c03eeceb1a0e2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa43000da1e8402b4e427f13cb416c1a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__eventflags.html#gaa43000da1e8402b4e427f13cb416c1a6">wiced_rtos_set_event_flags</a> (wiced_event_flags_t *event_flags, uint32_t flags_to_set)</td></tr>
@@ -120,6 +123,28 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Event flags management functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga308a518efb15c5b6935986f1ce5dbbcc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_event_flags_t* wiced_rtos_create_event_flags </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new instance of event flags. </p>
+<p>Creates a new event_flag (Allocates memory for a new event flags instance and returns the pointer)</p>
+<dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
+<dd>
+NULL : if an error occurred </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gab3c048d1ada42601b7e0532a68d87692"></a>
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +235,7 @@ WICED_ERROR : if an error occurred </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramtype"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a>&#160;</td>
           <td class="paramname"><em>clear_set_flags</em>, </td>
         </tr>
         <tr>

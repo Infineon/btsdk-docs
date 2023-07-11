@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: Peripheral UART (PUART)</title>
+<title>AIROC&trade; CYW43022: Peripheral UART (PUART)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -116,7 +116,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1f2ebf5f0afa63286b36f359cb1748d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga1f2ebf5f0afa63286b36f359cb1748d8">wiced_hal_puart_flow_off</a> (void)</td></tr>
 <tr class="memdesc:ga1f2ebf5f0afa63286b36f359cb1748d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable flow control.  <a href="#ga1f2ebf5f0afa63286b36f359cb1748d8">More...</a><br /></td></tr>
 <tr class="separator:ga1f2ebf5f0afa63286b36f359cb1748d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9143850038b8d3326a0850bba91810de"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga9143850038b8d3326a0850bba91810de">wiced_hal_puart_select_uart_pads</a> (uint8_t rxdPin, uint8_t txdPin, uint8_t ctsPin, uint8_t rtsPin)</td></tr>
+<tr class="memitem:ga9143850038b8d3326a0850bba91810de"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga9143850038b8d3326a0850bba91810de">wiced_hal_puart_select_uart_pads</a> (uint8_t rxdPin, uint8_t txdPin, uint8_t ctsPin, uint8_t rtsPin)</td></tr>
 <tr class="memdesc:ga9143850038b8d3326a0850bba91810de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the TX/RX and optional CTS/RTS pins (P&lt;pin&gt;) for the UART hardware to use.  <a href="#ga9143850038b8d3326a0850bba91810de">More...</a><br /></td></tr>
 <tr class="separator:ga9143850038b8d3326a0850bba91810de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5f7cddd9a6c57e1a60aaaf62c8030f7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga5f7cddd9a6c57e1a60aaaf62c8030f7d">wiced_hal_puart_print</a> (char *string)</td></tr>
@@ -125,7 +125,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga95212130c1ec335d6614e50cdb795168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga95212130c1ec335d6614e50cdb795168">wiced_hal_puart_write</a> (uint8_t byte)</td></tr>
 <tr class="memdesc:ga95212130c1ec335d6614e50cdb795168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print/send one byte via the TX line.  <a href="#ga95212130c1ec335d6614e50cdb795168">More...</a><br /></td></tr>
 <tr class="separator:ga95212130c1ec335d6614e50cdb795168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f748ab52301a3c65260fa07ff2ecd19"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga2f748ab52301a3c65260fa07ff2ecd19">wiced_hal_puart_read</a> (uint8_t *rxByte)</td></tr>
+<tr class="memitem:ga2f748ab52301a3c65260fa07ff2ecd19"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga2f748ab52301a3c65260fa07ff2ecd19">wiced_hal_puart_read</a> (uint8_t *rxByte)</td></tr>
 <tr class="memdesc:ga2f748ab52301a3c65260fa07ff2ecd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read one byte via the RX line.  <a href="#ga2f748ab52301a3c65260fa07ff2ecd19">More...</a><br /></td></tr>
 <tr class="separator:ga2f748ab52301a3c65260fa07ff2ecd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0345acfe70d2bb2e1894031f0ad442f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga0345acfe70d2bb2e1894031f0ad442f8">wiced_hal_puart_disable_tx</a> (void)</td></tr>
@@ -137,16 +137,16 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4029b09bc208b55dbba881ed4c7038c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gac4029b09bc208b55dbba881ed4c7038c">wiced_hal_puart_enable_rx</a> (void)</td></tr>
 <tr class="memdesc:gac4029b09bc208b55dbba881ed4c7038c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable receive capability (specifically, by enabling PUART RX interrupts through the MIA driver).  <a href="#gac4029b09bc208b55dbba881ed4c7038c">More...</a><br /></td></tr>
 <tr class="separator:gac4029b09bc208b55dbba881ed4c7038c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gafa330450c115f00b4fb19aa8ce710a7c">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate) __attribute__((deprecated(&quot;Please use <a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a>()&quot;)))</td></tr>
-<tr class="memdesc:gafa330450c115f00b4fb19aa8ce710a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="#gafa330450c115f00b4fb19aa8ce710a7c">More...</a><br /></td></tr>
-<tr class="separator:gafa330450c115f00b4fb19aa8ce710a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07f270e7fabc6b74189f88353f863925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga07f270e7fabc6b74189f88353f863925">wiced_hal_puart_set_baudrate</a> (uint32_t baudrate)</td></tr>
+<tr class="memdesc:ga07f270e7fabc6b74189f88353f863925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate (Bd) to a value other than the default 115200 Bd.  <a href="#ga07f270e7fabc6b74189f88353f863925">More...</a><br /></td></tr>
+<tr class="separator:ga07f270e7fabc6b74189f88353f863925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga08c6d9e0eae1c19172f09ddb4317d9d4">wiced_hal_puart_synchronous_read</a> (uint8_t *buffer, uint32_t length)</td></tr>
 <tr class="memdesc:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read in a set of bytes sequentially.  <a href="#ga08c6d9e0eae1c19172f09ddb4317d9d4">More...</a><br /></td></tr>
 <tr class="separator:ga08c6d9e0eae1c19172f09ddb4317d9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab848ea2b506d7c75da6a2264b7f6039d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab848ea2b506d7c75da6a2264b7f6039d">wiced_hal_puart_synchronous_write</a> (uint8_t *buffer, uint32_t length)</td></tr>
 <tr class="memdesc:gab848ea2b506d7c75da6a2264b7f6039d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a set of bytes sequentially.  <a href="#gab848ea2b506d7c75da6a2264b7f6039d">More...</a><br /></td></tr>
 <tr class="separator:gab848ea2b506d7c75da6a2264b7f6039d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga177a277358e25832af9fb431840eb9b5"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga177a277358e25832af9fb431840eb9b5">wiced_hal_puart_rx_fifo_not_empty</a> (void)</td></tr>
+<tr class="memitem:ga177a277358e25832af9fb431840eb9b5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga177a277358e25832af9fb431840eb9b5">wiced_hal_puart_rx_fifo_not_empty</a> (void)</td></tr>
 <tr class="memdesc:ga177a277358e25832af9fb431840eb9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if there is any data ready in the RX FIFO.  <a href="#ga177a277358e25832af9fb431840eb9b5">More...</a><br /></td></tr>
 <tr class="separator:ga177a277358e25832af9fb431840eb9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga883540ae8ff94127b8d28ced7470a0a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga883540ae8ff94127b8d28ced7470a0a3">wiced_hal_puart_reset_puart_interrupt</a> (void)</td></tr>
@@ -158,9 +158,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#ga7c5b8d25b90360fb8bcf98f4858c633a">wiced_hal_puart_set_watermark_level</a> (uint32_t watermark_level)</td></tr>
 <tr class="memdesc:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the watermark level to the received value  <a href="#ga7c5b8d25b90360fb8bcf98f4858c633a">More...</a><br /></td></tr>
 <tr class="separator:ga7c5b8d25b90360fb8bcf98f4858c633a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab165ee1b50a45b84c706b7041017ecd4"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a> (uint32_t baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
+<tr class="memitem:gab165ee1b50a45b84c706b7041017ecd4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gab165ee1b50a45b84c706b7041017ecd4">wiced_hal_puart_configuration</a> (uint32_t baudrate, parity_t parity, stop_bit_t stop_bit)</td></tr>
 <tr class="memdesc:gab165ee1b50a45b84c706b7041017ecd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the parity and stop bits as per received value  <a href="#gab165ee1b50a45b84c706b7041017ecd4">More...</a><br /></td></tr>
 <tr class="separator:gab165ee1b50a45b84c706b7041017ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc3759646e1c37b05903092b316cce8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___p_u_a_r_t_driver.html#gacc3759646e1c37b05903092b316cce8a">wiced_hal_puart_register_sleep_callbacks</a> (void)</td></tr>
+<tr class="memdesc:gacc3759646e1c37b05903092b316cce8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers puart pre and post sleep callbacks  <a href="#gacc3759646e1c37b05903092b316cce8a">More...</a><br /></td></tr>
+<tr class="separator:gacc3759646e1c37b05903092b316cce8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Defines a driver to facilitate interfacing with the UART hardware to send and receive bytes or a stream of bytes over the UART hardware. </p>
@@ -206,7 +209,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_hal_puart_configuration </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_hal_puart_configuration </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>baudrate</em>, </td>
@@ -232,6 +235,15 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>updates the parity and stop bits as per received value </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">baudrate</td><td>- Desired rate in symbols/sec ex. 9600 </td></tr>
+    <tr><td class="paramname">parity_t</td><td>- PARITY_ODD for odd parity, PARITY_EVEN for even parity, PARITY_NONE for no parity. </td></tr>
+    <tr><td class="paramname">stop_bit_t</td><td>- STOP_BIT_1 for 1 stop bit, STOP_BIT_2 for 2 stop bits.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>BOOL32 - TRUE if the configuration was successfully set, FALSE otherwise.NOTE: For baudrate greater than 2.727272 Mb/sec use of 2 stop bits is mandatory due to hardware limitation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">baudrate</td><td>- Desired rate in symbols/sec ex. 9600 </td></tr>
@@ -385,6 +397,15 @@ Functions</h2></td></tr>
 
 <p>Initialize the Peripheral UART interface with the default configuration parameters. </p>
 <p>This must be invoked once at boot before using any of PUART's services.</p>
+<p>Default baud rate is 115200 Bd. This can be changed by calling "wiced_hal_puart_set_baudrate()" as described later, after this initialization function.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none</dd></dl>
+<p>This must be invoked once at boot before using any of PUART's services.</p>
 <p>Default baud rate is 115200 Bd. This can be changed by calling "wiced_hal_puart_configuration()" as described later, after this initialization function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -426,7 +447,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_hal_puart_read </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_hal_puart_read </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>rxByte</em></td><td>)</td>
@@ -471,6 +492,31 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gacc3759646e1c37b05903092b316cce8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_hal_puart_register_sleep_callbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>registers puart pre and post sleep callbacks </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga883540ae8ff94127b8d28ced7470a0a3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -501,7 +547,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_hal_puart_rx_fifo_not_empty </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_hal_puart_rx_fifo_not_empty </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -526,7 +572,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wiced_bool_t wiced_hal_puart_select_uart_pads </td>
+          <td class="memname"><a class="el" href="group__gentypes.html#ga2bc92bd117cfd3f6ec4ae452e6ced064">wiced_bool_t</a> wiced_hal_puart_select_uart_pads </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>rxdPin</em>, </td>
@@ -573,7 +619,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gafa330450c115f00b4fb19aa8ce710a7c"></a>
+<a class="anchor" id="ga07f270e7fabc6b74189f88353f863925"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -651,6 +697,14 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td>- Destination buffer to hold incoming bytes. </td></tr>
+    <tr><td class="paramname">lenth</td><td>- Number of bytes to read from the RX FIFO.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>- Destination buffer to hold incoming bytes. </td></tr>
     <tr><td class="paramname">length</td><td>- Number of bytes to read from the RX FIFO.</td></tr>
   </table>
   </dd>
@@ -684,6 +738,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Write a set of bytes sequentially. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>- Source buffer to hold outgoing bytes. </td></tr>
+    <tr><td class="paramname">lenth</td><td>- Number of bytes to write to the TX FIFO.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td>- Source buffer to hold outgoing bytes. </td></tr>

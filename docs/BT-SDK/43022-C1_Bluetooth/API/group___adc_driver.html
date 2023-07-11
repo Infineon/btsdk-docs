@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: AdcDriver</title>
+<title>AIROC&trade; CYW43022: Analog-to-Digital Converter (ADC)</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -100,14 +100,18 @@ $(document).ready(function(){initNavTree('group___adc_driver.html','');});
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">AdcDriver<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
+<div class="title">Analog-to-Digital Converter (ADC)<div class="ingroups"><a class="el" href="group___hardware_drivers.html">Hardware Drivers</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gaa4976150b48f90759ae5974accc7fff9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#gaa4976150b48f90759ae5974accc7fff9">ADC_INPUT_CHANNEL_SEL</a></td></tr>
-<tr class="memdesc:gaa4976150b48f90759ae5974accc7fff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver.  <a href="#gaa4976150b48f90759ae5974accc7fff9">More...</a><br /></td></tr>
+<tr class="memitem:gaa4976150b48f90759ae5974accc7fff9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4976150b48f90759ae5974accc7fff9"></a>
+typedef enum <a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#gaa4976150b48f90759ae5974accc7fff9">ADC_INPUT_CHANNEL_SEL</a></td></tr>
+<tr class="memdesc:gaa4976150b48f90759ae5974accc7fff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported ADC input channel selection. <br /></td></tr>
 <tr class="separator:gaa4976150b48f90759ae5974accc7fff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga55d5e10af7be648275f0ceae272ec874"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga55d5e10af7be648275f0ceae272ec874"></a>
 typedef enum <a class="el" href="group___adc_driver.html#gae1a9eeccba0fdc4bf83869140fb5c82d">ADC_POWER_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga55d5e10af7be648275f0ceae272ec874">ADC_POWER_TYPE</a></td></tr>
@@ -120,32 +124,51 @@ typedef enum <a class="el" href="group___adc_driver.html#ga054e4da0816f4702b6a9b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga2c8c0380970215eb31332b70837ab1d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> { <br />
-&#160;&#160;<b>ADC_INPUT_P18</b> = 0x0, 
-<b>ADC_INPUT_P17</b> = 0x1, 
-<b>ADC_INPUT_P16</b> = 0x2, 
-<b>ADC_INPUT_P15</b> = 0x3, 
+<tr class="memitem:ga2c8c0380970215eb31332b70837ab1d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2c8c0380970215eb31332b70837ab1d3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> { <br />
+&#160;&#160;<b>ADC_INPUT_P17</b> = 0x0, 
+<b>ADC_INPUT_P16</b> = 0x1, 
+<b>ADC_INPUT_P15</b> = 0x2, 
+<b>ADC_INPUT_P14</b> = 0x3, 
 <br />
-&#160;&#160;<b>ADC_INPUT_P14</b> = 0x4, 
-<b>ADC_INPUT_P13</b> = 0x5, 
-<b>ADC_INPUT_P12</b> = 0x6, 
-<b>ADC_INPUT_P11</b> = 0x7, 
+&#160;&#160;<b>ADC_INPUT_P13</b> = 0x4, 
+<b>ADC_INPUT_P12</b> = 0x5, 
+<b>ADC_INPUT_P11</b> = 0x6, 
+<b>ADC_INPUT_P10</b> = 0x7, 
 <br />
-&#160;&#160;<b>ADC_INPUT_P10</b> = 0x8, 
-<b>ADC_INPUT_P9</b> = 0x9, 
-<b>ADC_INPUT_P8</b> = 0xA, 
-<b>ADC_INPUT_P1</b> = 0xB, 
+&#160;&#160;<b>ADC_INPUT_P9</b> = 0x8, 
+<b>ADC_INPUT_P8</b> = 0x9, 
+<b>ADC_INPUT_P1</b> = 0xA, 
+<b>ADC_INPUT_P0</b> = 0xB, 
 <br />
-&#160;&#160;<b>ADC_INPUT_P0</b> = 0xC, 
+&#160;&#160;<b>ADC_INPUT_VDDIO</b> = 0xC, 
 <b>ADC_INPUT_VDD_CORE</b> = 0xD, 
 <b>ADC_INPUT_ADC_BGREF</b> = 0xE, 
 <b>ADC_INPUT_ADC_REFGND</b> = 0xF, 
 <br />
-&#160;&#160;<b>ADC_INPUT_P19</b> = 0x1F, 
-<b>ADC_INPUT_CHANNEL_MASK</b> = 0x1f
+&#160;&#160;<b>ADC_INPUT_P38</b> = 0x10, 
+<b>ADC_INPUT_P37</b> = 0x11, 
+<b>ADC_INPUT_P36</b> = 0x12, 
+<b>ADC_INPUT_P35</b> = 0x13, 
+<br />
+&#160;&#160;<b>ADC_INPUT_P34</b> = 0x14, 
+<b>ADC_INPUT_P33</b> = 0x15, 
+<b>ADC_INPUT_P32</b> = 0x16, 
+<b>ADC_INPUT_P31</b> = 0x17, 
+<br />
+&#160;&#160;<b>ADC_INPUT_P30</b> = 0x18, 
+<b>ADC_INPUT_P29</b> = 0x19, 
+<b>ADC_INPUT_P28</b> = 0x1A, 
+<b>ADC_INPUT_P23</b> = 0x1B, 
+<br />
+&#160;&#160;<b>ADC_INPUT_P22</b> = 0x1C, 
+<b>ADC_INPUT_P21</b> = 0x1D, 
+<b>ADC_INPUT_P19</b> = 0x1E, 
+<b>ADC_INPUT_P18</b> = 0x1F, 
+<br />
+&#160;&#160;<b>ADC_INPUT_CHANNEL_MASK</b> = 0x1f
 <br />
  }</td></tr>
-<tr class="memdesc:ga2c8c0380970215eb31332b70837ab1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver.  <a href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">More...</a><br /></td></tr>
+<tr class="memdesc:ga2c8c0380970215eb31332b70837ab1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported ADC input channel selection. <br /></td></tr>
 <tr class="separator:ga2c8c0380970215eb31332b70837ab1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae1a9eeccba0fdc4bf83869140fb5c82d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae1a9eeccba0fdc4bf83869140fb5c82d"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#gae1a9eeccba0fdc4bf83869140fb5c82d">ADC_POWER_TYPE</a> { <b>ADC_POWER_DOWN</b> = 1, 
 <b>ADC_POWER_UP</b> = 0
@@ -169,48 +192,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga206723ae9c327d596f93f58572917cd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga206723ae9c327d596f93f58572917cd1">wiced_hal_adc_set_input_range</a> (<a class="el" href="group___adc_driver.html#ga054e4da0816f4702b6a9be0f5aa8be36">ADC_INPUT_RANGE_SEL</a> rangeIdx)</td></tr>
 <tr class="memdesc:ga206723ae9c327d596f93f58572917cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrate and set the input voltage range expected for the ADC hardware.  <a href="#ga206723ae9c327d596f93f58572917cd1">More...</a><br /></td></tr>
 <tr class="separator:ga206723ae9c327d596f93f58572917cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5c2d30b981bd242e15630c6074de87ef"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga5c2d30b981bd242e15630c6074de87ef">wiced_hal_adc_read_raw_sample</a> (<a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> channel)</td></tr>
-<tr class="memdesc:ga5c2d30b981bd242e15630c6074de87ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the raw ADC register value for the given channel.  <a href="#ga5c2d30b981bd242e15630c6074de87ef">More...</a><br /></td></tr>
-<tr class="separator:ga5c2d30b981bd242e15630c6074de87ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga685278bab735cde84fa53ee071ee6af4"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga685278bab735cde84fa53ee071ee6af4">wiced_hal_adc_read_raw_sample</a> (<a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> channel, uint8_t avgCnt)</td></tr>
+<tr class="memdesc:ga685278bab735cde84fa53ee071ee6af4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the raw ADC register value for the given channel.  <a href="#ga685278bab735cde84fa53ee071ee6af4">More...</a><br /></td></tr>
+<tr class="separator:ga685278bab735cde84fa53ee071ee6af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7876f9f650129e08b83f426edb7ed5d3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___adc_driver.html#ga7876f9f650129e08b83f426edb7ed5d3">wiced_hal_adc_read_voltage</a> (<a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> channel)</td></tr>
 <tr class="memdesc:ga7876f9f650129e08b83f426edb7ed5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the ADC voltage value for the given channel.  <a href="#ga7876f9f650129e08b83f426edb7ed5d3">More...</a><br /></td></tr>
 <tr class="separator:ga7876f9f650129e08b83f426edb7ed5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="gaa4976150b48f90759ae5974accc7fff9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef enum <a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a> <a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p>Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver. </p>
 <p>Use this driver to measure a DC voltage via a GPIO pin. Voltage measurement values are reported in millivolts (mV).</p>
-<p>Note that the ADC channels do not correspond directly to the GPIO pin numbering convention (e.g. ADC channel 0 is tied to GPIO P18, etc). Please reference the User Documentation for more information regarding your specific platform.supported ADC input channel selection </p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="ga2c8c0380970215eb31332b70837ab1d3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Defines a driver to facilitate interfacing with the Analog-to-Digital Converter (ADC) driver. </p>
-<p>Use this driver to measure a DC voltage via a GPIO pin. Voltage measurement values are reported in millivolts (mV).</p>
-<p>Note that the ADC channels do not correspond directly to the GPIO pin numbering convention (e.g. ADC channel 0 is tied to GPIO P18, etc). Please reference the User Documentation for more information regarding your specific platform.supported ADC input channel selection </p>
-
-</div>
-</div>
+<p>Note that the ADC channels do not correspond directly to the GPIO pin numbering convention (e.g. ADC channel 15 is tied to GPIO P18, etc). Please reference the Kit Guide or HW User Manual for your device for more information regarding your specific platform. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga0ddc657a584e49ae80b32e7ec237c0b8"></a>
 <div class="memitem">
@@ -237,7 +229,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga5c2d30b981bd242e15630c6074de87ef"></a>
+<a class="anchor" id="ga685278bab735cde84fa53ee071ee6af4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -245,8 +237,18 @@ Functions</h2></td></tr>
           <td class="memname">int16_t wiced_hal_adc_read_raw_sample </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3">ADC_INPUT_CHANNEL_SEL</a>&#160;</td>
-          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>avgCnt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -255,7 +257,8 @@ Functions</h2></td></tr>
 <p>The value returned here is direct from the register.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">channel</td><td>- The input channel that corresponds to a GPIO pin.</td></tr>
+    <tr><td class="paramname">channel</td><td>- The input channel that corresponds to a GPIO pin. </td></tr>
+    <tr><td class="paramname">avgCnt</td><td>- Read adc raw avgCnt+4 times, and choose the middle avgCnt times to calculate average values</td></tr>
   </table>
   </dd>
 </dl>

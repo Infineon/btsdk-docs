@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gpio_5fstatus_5fe',['GPIO_STATUS_e',['../group___g_p_i_o_driver.html#gad7d1303531c7ce234d810b8ced530e29',1,'wiced_hal_gpio.h']]]
+  ['spi_5finterface_5ft',['spi_interface_t',['../group___peripheral_spi_driver.html#gac6144d3ea3ef78e7923c351d3b62170e',1,'wiced_hal_pspi.h']]]
 ];

@@ -1,0 +1,36 @@
+var group__wiced__bt__platform__group =
+[
+    [ "wiced_bt_stack_platform_t", "structwiced__bt__stack__platform__t.html", [
+      [ "is_legacy_bless_controller", "structwiced__bt__stack__platform__t.html#a990642a5b227aa059e0fceb1903dc492", null ],
+      [ "pf_debug_trace", "structwiced__bt__stack__platform__t.html#a3907dcc631bb7486f33eb87888aaf760", null ],
+      [ "pf_exception", "structwiced__bt__stack__platform__t.html#a2a5b4b6a6c2021397f3ee6e90bc2fb25", null ],
+      [ "pf_get_acl_to_lower_buffer", "structwiced__bt__stack__platform__t.html#a2ba37963c341ade420544943ecc656d3", null ],
+      [ "pf_get_sco_to_lower_buffer", "structwiced__bt__stack__platform__t.html#a01dd875c03894b534511f0c8c9144aa5", null ],
+      [ "pf_get_tick_count_64", "structwiced__bt__stack__platform__t.html#acb7c047ecbad7442630593e0db512be1", null ],
+      [ "pf_hci_trace_cback_t", "structwiced__bt__stack__platform__t.html#a54d3217fb56978c8bd44e9fa40bc670b", null ],
+      [ "pf_os_free", "structwiced__bt__stack__platform__t.html#a51e5c7240c68b2026f74cd3f97bffe71", null ],
+      [ "pf_os_malloc", "structwiced__bt__stack__platform__t.html#a0b7d3c94ab59acaa4bbd577de80fa45a", null ],
+      [ "pf_patch_download", "structwiced__bt__stack__platform__t.html#a2149f279701173f0f3c01dffd7543e2e", null ],
+      [ "pf_set_next_timeout", "structwiced__bt__stack__platform__t.html#a990a88e458cdc39935f12c90d9d76237", null ],
+      [ "pf_write_acl_to_lower", "structwiced__bt__stack__platform__t.html#a854322086848589546b46ef79c87bac9", null ],
+      [ "pf_write_cmd_to_lower", "structwiced__bt__stack__platform__t.html#aed4cb0dc9af320cf7dce602b8806e7f2", null ],
+      [ "pf_write_iso_to_lower", "structwiced__bt__stack__platform__t.html#a4e96288370bab069e2e999dfc7178fd0", null ],
+      [ "pf_write_sco_to_lower", "structwiced__bt__stack__platform__t.html#aeab65b5139f23d8b02dd0c32d87b0b73", null ],
+      [ "stack_lock", "structwiced__bt__stack__platform__t.html#a12ce2e214963289a9973d1c6f09a2909", null ],
+      [ "trace_buffer", "structwiced__bt__stack__platform__t.html#a99fabfb2e91a5e7e368eb6e8fe1b7f0d", null ],
+      [ "trace_buffer_len", "structwiced__bt__stack__platform__t.html#a09138356aacd564efe1564fd1e302d72", null ]
+    ] ],
+    [ "wiced_bt_internal_post_stack_init_cb", "group__wiced__bt__platform__group.html#ga3eb2e94b7d78c11e1bd3f91c34258a33", null ],
+    [ "wiced_bt_internal_stack_evt_handler_cb", "group__wiced__bt__platform__group.html#gac1c01e4af0597e1a1c589b491495c0a7", null ],
+    [ "wiced_bt_continue_reset", "group__wiced__bt__platform__group.html#gade7b4741a97ade2e02e044078bf46bc2", null ],
+    [ "wiced_bt_process_acl_data", "group__wiced__bt__platform__group.html#ga98a0933baa000767bc3ad60d0a7890e3", null ],
+    [ "wiced_bt_process_hci_events", "group__wiced__bt__platform__group.html#ga4e569527f83bc2d6f443ef3ae0f83ece", null ],
+    [ "wiced_bt_process_isoc_data", "group__wiced__bt__platform__group.html#ga9655dc8f977b3d51d80c07d69c17352c", null ],
+    [ "wiced_bt_process_sco_data", "group__wiced__bt__platform__group.html#ga3e08857799934c4e9eb3108e16cc95e1", null ],
+    [ "wiced_bt_process_timer", "group__wiced__bt__platform__group.html#gad0cd082b2d2e5c54b077d3e7aafcbc48", null ],
+    [ "wiced_bt_set_stack_config", "group__wiced__bt__platform__group.html#gaedb4a439d3f91abba89b33c1e0947991", null ],
+    [ "wiced_bt_stack_indicate_lower_tx_complete", "group__wiced__bt__platform__group.html#gaa98ea87121fed670412f976b3f0b252c", null ],
+    [ "wiced_bt_stack_init_internal", "group__wiced__bt__platform__group.html#gac40dc0f89a01ca8b864c49a9a740786f", null ],
+    [ "wiced_bt_stack_platform_initialize", "group__wiced__bt__platform__group.html#ga91ec048a4f0938e38123ccd86b267b49", null ],
+    [ "wiced_bt_stack_shutdown", "group__wiced__bt__platform__group.html#ga8a424e7de59385dc69b3189987c3fae2", null ]
+];

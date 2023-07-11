@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_local_identity_keys_t Struct Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_local_identity_keys_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('structwiced__bt__local__identity__keys
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">wiced_bt_local_identity_keys_t Struct Reference</div>  </div>
+<div class="title">wiced_bt_local_identity_keys_t Struct Reference<div class="ingroups"><a class="el" href="group__wicedbt___device_management.html">Device Management</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -107,10 +107,18 @@ $(document).ready(function(){initNavTree('structwiced__bt__local__identity__keys
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a5444a569fdfbf5c2c2289eb0ca8a25bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5444a569fdfbf5c2c2289eb0ca8a25bd"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__local__identity__keys__t.html#a5444a569fdfbf5c2c2289eb0ca8a25bd">local_key_data</a> [<a class="el" href="wiced__bt__dev_8h.html#af4b1d1b54dc1c34075463a86c083f4b8">BTM_SECURITY_LOCAL_KEY_DATA_LEN</a>]</td></tr>
-<tr class="memdesc:a5444a569fdfbf5c2c2289eb0ca8a25bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">[in/out] Local security key <br /></td></tr>
-<tr class="separator:a5444a569fdfbf5c2c2289eb0ca8a25bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71a6dc564a3b2a423919ead7993b92f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac71a6dc564a3b2a423919ead7993b92f"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__local__identity__keys__t.html#ac71a6dc564a3b2a423919ead7993b92f">key_type_mask</a></td></tr>
+<tr class="memdesc:ac71a6dc564a3b2a423919ead7993b92f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the key (BTM_BLE_KEY_TYPE_ID or BTM_BLE_KEY_TYPE_ER) <br /></td></tr>
+<tr class="separator:ac71a6dc564a3b2a423919ead7993b92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a325955f2a94898ba168e9b154c3fc049"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a325955f2a94898ba168e9b154c3fc049"></a>
+<a class="el" href="structwiced__bt__local__id__keys.html">wiced_bt_local_id_keys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__local__identity__keys__t.html#a325955f2a94898ba168e9b154c3fc049">id_keys</a></td></tr>
+<tr class="memdesc:a325955f2a94898ba168e9b154c3fc049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local ID Keys. <br /></td></tr>
+<tr class="separator:a325955f2a94898ba168e9b154c3fc049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2b7f5f811c935d33b6edf491ab6786"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e2b7f5f811c935d33b6edf491ab6786"></a>
+<a class="el" href="group__bt__types.html#ga3081047eede654f70f0bf771e34e47a8">BT_OCTET16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwiced__bt__local__identity__keys__t.html#a8e2b7f5f811c935d33b6edf491ab6786">er</a></td></tr>
+<tr class="memdesc:a8e2b7f5f811c935d33b6edf491ab6786"><td class="mdescLeft">&#160;</td><td class="mdescRight">BLE encryption key. <br /></td></tr>
+<tr class="separator:a8e2b7f5f811c935d33b6edf491ab6786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>LE identity key for local device (used by BTM_LE_LOCAL_IDENTITY_KEYS_UPDATE_EVT and BTM_LE_LOCAL_KEYS_REQUEST_EVT notification) </p>

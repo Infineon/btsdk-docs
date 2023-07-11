@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>AIROC&trade; CYW43012: wiced_bt_audio_codec.h File Reference</title>
+<title>AIROC&trade; CYW43022: wiced_bt_audio_codec.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.3 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -208,9 +208,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_register_
 <tr class="memitem:a763c9d94880bdd44d5637c763eee1c4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a763c9d94880bdd44d5637c763eee1c4d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_request_buffer_info</b> (<a class="el" href="structwiced__audio__buffer__info__t.html">wiced_audio_buffer_info_t</a> *buffer_info)</td></tr>
 <tr class="separator:a763c9d94880bdd44d5637c763eee1c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbaf041131fd87f1bdc58fe810bce9d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__audio__codec_8h.html#afbaf041131fd87f1bdc58fe810bce9d3">wiced_audio_volume_ctrl</a> (void *pIn, void *pOut, int pcm_count)</td></tr>
-<tr class="memdesc:afbaf041131fd87f1bdc58fe810bce9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume control - Ramp up/down the PCM samples during mute/un-mute.  <a href="#afbaf041131fd87f1bdc58fe810bce9d3">More...</a><br /></td></tr>
-<tr class="separator:afbaf041131fd87f1bdc58fe810bce9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the utilities used by the A2DP for configuring the audio codec. </p>
@@ -273,57 +270,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_audio_request_b
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="afbaf041131fd87f1bdc58fe810bce9d3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_audio_volume_ctrl </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>pIn</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>pOut</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pcm_count</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Volume control - Ramp up/down the PCM samples during mute/un-mute. </p>
-<p>This API is called by the codec library after the decoding is done to allow FW to ramp the audio data when mute/un-mute is requested by the application.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pIn</td><td>pointer to the pcm input buffer</td></tr>
-    <tr><td class="paramname">pIn</td><td>pointer to the pcm output buffer</td></tr>
-    <tr><td class="paramname">pcm_count</td><td>PCM input sample size</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_62c0148314a7d168a07425a753f3ec06.html">43012C0</a></li><li class="navelem"><a class="el" href="dir_ddffb916f46237a18e5e3c70c3f6e681.html">COMPONENT_43012C0</a></li><li class="navelem"><a class="el" href="dir_e5b48c8aa35495a2745d52bc6758c741.html">include</a></li><li class="navelem"><a class="el" href="wiced__bt__audio__codec_8h.html">wiced_bt_audio_codec.h</a></li>
+    <li class="navelem"><a class="el" href="dir_5dd1500b3fd4efebe941f89dfb4d9dff.html">out</a></li><li class="navelem"><a class="el" href="dir_df28c6173c0673ef10b14a7cb92bb599.html">repos</a></li><li class="navelem"><a class="el" href="dir_bd6423136be8da7536907f77878f2124.html">43022C1</a></li><li class="navelem"><a class="el" href="dir_c3fa8e159a23e45fef2c67bee070b681.html">COMPONENT_43022C1</a></li><li class="navelem"><a class="el" href="dir_4a63b208b39d378d02bed585fbaf92c5.html">include</a></li><li class="navelem"><a class="el" href="dir_0f3e07663ffaf11906e815356a7bce62.html">hal</a></li><li class="navelem"><a class="el" href="wiced__bt__audio__codec_8h.html">wiced_bt_audio_codec.h</a></li>
     <li class="footer">Copyright Infineon Technologies.</li>
   </ul>
 </div>
