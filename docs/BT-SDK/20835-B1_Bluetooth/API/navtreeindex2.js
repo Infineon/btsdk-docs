@@ -1,12 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f":[7,0,1,1,5],
-"group__group__hci__fw__upgrade__functions.html#ga8a66d398ee2380443cd1fc6407f92a56":[7,0,1,0,0,0],
-"group__group__hci__fw__upgrade__functions.html#ga8a66d398ee2380443cd1fc6407f92a56":[7,0,1,1,0],
-"group__group__hci__fw__upgrade__functions.html#gac76e8c4c7a4608e1e6a0ebd999d31dd6":[7,0,1,0,0,3],
-"group__group__hci__fw__upgrade__functions.html#gac76e8c4c7a4608e1e6a0ebd999d31dd6":[7,0,1,1,3],
-"group__group__hci__fw__upgrade__macros.html":[7,0,1,2],
-"group__group__hci__wiced__firmware__upgrade.html":[7,0,1],
 "group__group__ota__fw__upgrade__cback__functions.html":[7,0,2,0],
 "group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c":[7,0,2,0,2],
 "group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d":[7,0,2,0,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX2 =
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba1a5de995c67d0e51a7eec4eb0bb94583":[7,1,0,9,2],
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba1b7c72b0fef720da38540297c5dfcd77":[7,1,0,9,5],
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba34ed253ee7b5571638f979f1f5817a06":[7,1,0,9,8],
-"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba65c1009c67d06a2858294642be34add1":[7,1,0,9,6]
+"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba65c1009c67d06a2858294642be34add1":[7,1,0,9,6],
+"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eaba8988dd5a723fadf5ebb3fc5eed8cb589":[7,1,0,9,4],
+"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabab93f6fe155116d0f23bd9f4537dd37da":[7,1,0,9,9],
+"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabada2732a60d7d79e94b73eb36adebd44d":[7,1,0,9,7],
+"group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabaea8cedc8ef3920abc8f00161a5476ee7":[7,1,0,9,3],
+"group__wiced__bt__ans__api__functions.html":[7,1,1],
+"group__wiced__bt__ans__api__functions.html#ga0598b331f799c38cc5e4c5885082a139":[7,1,1,11],
+"group__wiced__bt__ans__api__functions.html#ga0b0cb5b58e9c52546ec5c92fcb0715ad":[7,1,1,8]
 };

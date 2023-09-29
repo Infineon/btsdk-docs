@@ -1,12 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"group__wiced__bt__hrs__api__functions.html#gga3c30b4996e2f783c38277dac8ecf5f70a21f0fc119278685a0f2a406dda342f71":[7,1,11,7,1],
-"group__wiced__bt__hrs__api__functions.html#gga3c30b4996e2f783c38277dac8ecf5f70a69d7e399818d30d21d40954b8850ad04":[7,1,11,7,0],
-"group__wiced__bt__hrs__api__functions.html#gga3c30b4996e2f783c38277dac8ecf5f70ad5c352c36f43a4452e4ad2593c93e1b4":[7,1,11,7,2],
-"group__wiced__bt__iap2__api__functions.html":[7,1,18],
-"group__wiced__bt__iap2__api__functions.html#ga01d0d189989c254a70dedfd40f86f9d3":[7,1,18,38],
-"group__wiced__bt__iap2__api__functions.html#ga1cb6ae4b52ce68dfdc268fca40aea721":[7,1,18,33],
-"group__wiced__bt__iap2__api__functions.html#ga2d9b3382d881307dedd0184c4ccaff24":[7,1,18,12],
 "group__wiced__bt__iap2__api__functions.html#ga36bdc0f6bf37670f91ce339558b91f31":[7,1,18,30],
 "group__wiced__bt__iap2__api__functions.html#ga37d747d64620aaa6ec1eeb28102e4b8b":[7,1,18,11],
 "group__wiced__bt__iap2__api__functions.html#ga38642bab4c501a155c9c960ba71dacd7":[7,1,18,28],
@@ -249,5 +242,12 @@ var NAVTREEINDEX6 =
 "group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503bae65b58a03917d903c69afa58ad57a69d":[7,1,12,1,119,15],
 "group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503bae77901c741587878c2f9f626968fb9c7":[7,1,12,1,119,3],
 "group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503baf70f3857d39bce4803998bb0032a25fc":[7,1,12,1,119,4],
-"group__wiced__bt__mesh__default__transition__time__client.html":[7,1,12,2,73]
+"group__wiced__bt__mesh__default__transition__time__client.html":[7,1,12,2,73],
+"group__wiced__bt__mesh__default__transition__time__client.html#ga47309a45c058cfb7042f6d1dbc861cf2":[7,1,12,2,73,1],
+"group__wiced__bt__mesh__default__transition__time__client.html#ga57cc036e0bf009c5817c07dca82712d4":[7,1,12,2,73,0],
+"group__wiced__bt__mesh__default__transition__time__client.html#ga917793e5f120e58e9ae1d1343e17169b":[7,1,12,2,73,4],
+"group__wiced__bt__mesh__default__transition__time__client.html#gaaaac94d4dc46111408d439757d840c0a":[7,1,12,2,73,3],
+"group__wiced__bt__mesh__default__transition__time__client.html#gaad9d968f38864e6adf54f065d09b14c7":[7,1,12,2,73,2],
+"group__wiced__bt__mesh__default__transition__time__server.html":[7,1,12,2,74],
+"group__wiced__bt__mesh__default__transition__time__server.html#ga64cb7e78d364dc23d3746506ad1c7f35":[7,1,12,2,74,1]
 };

@@ -1,28 +1,6 @@
 var searchData=
 [
-  ['hid_5fpar_5fcontrol_5fexit_5fsuspend',['HID_PAR_CONTROL_EXIT_SUSPEND',['../wiced__bt__hidd_8h.html#a740de7cd6e700e5843a2c358f22cb025',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fcontrol_5fhard_5freset',['HID_PAR_CONTROL_HARD_RESET',['../wiced__bt__hidd_8h.html#a5b5fcac685dc07189665c0624d2e47e7',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fcontrol_5fnop',['HID_PAR_CONTROL_NOP',['../wiced__bt__hidd_8h.html#ab6199b5332b70d37ff291e999dc1d27b',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fcontrol_5fsoft_5freset',['HID_PAR_CONTROL_SOFT_RESET',['../wiced__bt__hidd_8h.html#af74ce52cfeb6e9028a8bfbe0b43171b9',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fcontrol_5fsuspend',['HID_PAR_CONTROL_SUSPEND',['../wiced__bt__hidd_8h.html#ae6b23c19872aee2a72f83d4c8ec8711a',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fcontrol_5fvirtual_5fcable_5funplug',['HID_PAR_CONTROL_VIRTUAL_CABLE_UNPLUG',['../wiced__bt__hidd_8h.html#acbaf20e80d1320915f396991338a2e25',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fget_5frep_5fbufsize_5ffollows',['HID_PAR_GET_REP_BUFSIZE_FOLLOWS',['../wiced__bt__hidd_8h.html#a494ee80c496c3524fba30bab7c0147b6',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5ferr_5ffatal',['HID_PAR_HANDSHAKE_RSP_ERR_FATAL',['../wiced__bt__hidd_8h.html#ad7cff6eed64303a7c203ee77283a8d52',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5ferr_5finvalid_5fparam',['HID_PAR_HANDSHAKE_RSP_ERR_INVALID_PARAM',['../wiced__bt__hidd_8h.html#a26143c4624274e7cb43887bcb2fa2c32',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5ferr_5finvalid_5frep_5fid',['HID_PAR_HANDSHAKE_RSP_ERR_INVALID_REP_ID',['../wiced__bt__hidd_8h.html#a046390647a2d9332d947147c63f4f9f4',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5ferr_5funknown',['HID_PAR_HANDSHAKE_RSP_ERR_UNKNOWN',['../wiced__bt__hidd_8h.html#adf302880fcc8cd2d0e3080b62570ef1f',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5ferr_5funsupported_5freq',['HID_PAR_HANDSHAKE_RSP_ERR_UNSUPPORTED_REQ',['../wiced__bt__hidd_8h.html#acb63e93a263850548311f458d79c784d',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5fnot_5fready',['HID_PAR_HANDSHAKE_RSP_NOT_READY',['../wiced__bt__hidd_8h.html#abb10fc5c055b4f0e25cbcb71be5ada8b',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fhandshake_5frsp_5fsuccess',['HID_PAR_HANDSHAKE_RSP_SUCCESS',['../wiced__bt__hidd_8h.html#ad1e64a99492b574112cc05c70d114749',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fprotocol_5fboot_5fmode',['HID_PAR_PROTOCOL_BOOT_MODE',['../wiced__bt__hidd_8h.html#a01896c7f5eb2e48a2e534f245f7266d5',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fprotocol_5fmask',['HID_PAR_PROTOCOL_MASK',['../wiced__bt__hidd_8h.html#ab0c8e426147237b33a661ab83a2856a4',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5fprotocol_5freport',['HID_PAR_PROTOCOL_REPORT',['../wiced__bt__hidd_8h.html#a5e3af0232e6bf04dc72f05ae37dfa45d',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5frep_5ftype_5ffeature',['HID_PAR_REP_TYPE_FEATURE',['../wiced__bt__hidd_8h.html#a19554b8e90a7e5f47d087ab836b09f5f',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5frep_5ftype_5finput',['HID_PAR_REP_TYPE_INPUT',['../wiced__bt__hidd_8h.html#aba71891b15f2dbe7a6aa9de43ab2634a',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5frep_5ftype_5fmask',['HID_PAR_REP_TYPE_MASK',['../wiced__bt__hidd_8h.html#a0dbe3e03db4364bfdf9f3418a69eda8d',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5frep_5ftype_5fother',['HID_PAR_REP_TYPE_OTHER',['../wiced__bt__hidd_8h.html#a0029ac7205d9ca9dd261b7703409c8b5',1,'wiced_bt_hidd.h']]],
-  ['hid_5fpar_5frep_5ftype_5foutput',['HID_PAR_REP_TYPE_OUTPUT',['../wiced__bt__hidd_8h.html#affe6b128f3851894aff51125a3f4a4bd',1,'wiced_bt_hidd.h']]],
-  ['hid_5fsdp_5fdescriptor_5fphysical',['HID_SDP_DESCRIPTOR_PHYSICAL',['../wiced__bt__hidd_8h.html#a7aee8f78e908a2c1d9b1db2af1eebddc',1,'wiced_bt_hidd.h']]],
-  ['hid_5fsdp_5fdescriptor_5freport',['HID_SDP_DESCRIPTOR_REPORT',['../wiced__bt__hidd_8h.html#a9c4d6798c2b079a214b0879b84c9e074',1,'wiced_bt_hidd.h']]],
-  ['hid_5ftrans_5fhandshake',['HID_TRANS_HANDSHAKE',['../wiced__bt__hidd_8h.html#a91a3555ec639715261268fcb97b6de67',1,'wiced_bt_hidd.h']]]
+  ['len_5fuuid_5f128',['LEN_UUID_128',['../wiced__bt__types_8h.html#a18768c6f4e57988ea3ab96dc5f0009a8',1,'wiced_bt_types.h']]],
+  ['len_5fuuid_5f16',['LEN_UUID_16',['../wiced__bt__types_8h.html#a7f045f0c3506babd1d17ff4807e6f13a',1,'wiced_bt_types.h']]],
+  ['len_5fuuid_5f32',['LEN_UUID_32',['../wiced__bt__types_8h.html#a415b500c84861373e54839e9c2e02abb',1,'wiced_bt_types.h']]]
 ];

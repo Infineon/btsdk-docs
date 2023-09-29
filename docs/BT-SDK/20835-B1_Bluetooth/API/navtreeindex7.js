@@ -1,10 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"structwiced__bt__l2cap__cfg__information__t.html":[7,1,12,2,1],
-"structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f":[7,1,12,2,1,4],
-"structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796":[7,1,12,2,1,7],
-"structwiced__bt__l2cap__cfg__information__t.html#a39cc0aefc2e65bb121fa1b0caa824b20":[7,1,12,2,1,9],
-"structwiced__bt__l2cap__cfg__information__t.html#a551cefcd48f2a929589e54d67f029107":[7,1,12,2,1,2],
 "structwiced__bt__l2cap__cfg__information__t.html#a60affc11fe43fcba461a70fd7998c0e4":[7,1,12,2,1,1],
 "structwiced__bt__l2cap__cfg__information__t.html#a79260bc462661a6777bfb56c589aa39f":[7,1,12,2,1,0],
 "structwiced__bt__l2cap__cfg__information__t.html#a990864342c8e6cda4da298ec12692c29":[7,1,12,2,1,6],
@@ -249,5 +244,10 @@ var NAVTREEINDEX7 =
 "structwiced__bt__mesh__light__delta__uv__default__data__t.html#a9496a26bb12f665ca514f4e482ccf88f":[7,1,11,2,40,0],
 "structwiced__bt__mesh__light__delta__uv__last__data__t.html":[7,1,11,2,39],
 "structwiced__bt__mesh__light__delta__uv__last__data__t.html#a8fe92e45aae40b038b7d22d3a976db84":[7,1,11,2,39,0],
-"structwiced__bt__mesh__light__delta__uv__range__data__t.html":[7,1,11,2,41]
+"structwiced__bt__mesh__light__delta__uv__range__data__t.html":[7,1,11,2,41],
+"structwiced__bt__mesh__light__delta__uv__range__data__t.html#a7c109bb4723cc86bf32d05a61218b9e2":[7,1,11,2,41,1],
+"structwiced__bt__mesh__light__delta__uv__range__data__t.html#af3640e972f2c3e009773c3037a376b64":[7,1,11,2,41,0],
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html":[7,1,11,2,38],
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,11,2,38,2],
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html#a864fde14aaec72616f08a10c4a3a07ad":[7,1,11,2,38,1]
 };

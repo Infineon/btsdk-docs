@@ -1,12 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group__wiced__bt__mesh__core.html#ga45720a1052c1fae80db8aa0d05d04103":[7,1,11,1,47],
-"group__wiced__bt__mesh__core.html#ga457c303574ad2fc3970319743c106c00":[7,1,11,1,179],
-"group__wiced__bt__mesh__core.html#ga4cbaa0b9c324a631afe9008349f29520":[7,1,11,1,116],
-"group__wiced__bt__mesh__core.html#ga4d133736e6a878228e1706f8dbbd58b8":[7,1,11,1,105],
-"group__wiced__bt__mesh__core.html#ga4d2ffff71f16c7e0dc8561829514da6b":[7,1,11,1,44],
-"group__wiced__bt__mesh__core.html#ga4f0b534e9129d3cde19c380db577d33e":[7,1,11,1,168],
-"group__wiced__bt__mesh__core.html#ga54bb1df7073e9e3fcc0f495b74f6bbb7":[7,1,11,1,182],
 "group__wiced__bt__mesh__core.html#ga5566d1eed82fef8a6fca7b1cc4e9b6b7":[7,1,11,1,46],
 "group__wiced__bt__mesh__core.html#ga5597d9eebdffd2433d98301c3e9dc096":[7,1,11,1,40],
 "group__wiced__bt__mesh__core.html#ga56ccaf452f6865b7487897210d77cc22":[7,1,11,1,184],
@@ -249,5 +242,12 @@ var NAVTREEINDEX4 =
 "group__wiced__bt__mesh__light__lightness__server.html#ga1fffbf21e1b920895a4718a3a207a1a9":[7,1,11,2,84,0],
 "group__wiced__bt__mesh__light__lightness__server.html#ga4239007109ce36d64ff99bd73f5e37f0":[7,1,11,2,84,5],
 "group__wiced__bt__mesh__light__lightness__server.html#ga457be8e99b3df7a5da4c37e2217e7f9f":[7,1,11,2,84,9],
-"group__wiced__bt__mesh__light__lightness__server.html#ga4651231414253b49c34d7dd2fa962a16":[7,1,11,2,84,1]
+"group__wiced__bt__mesh__light__lightness__server.html#ga4651231414253b49c34d7dd2fa962a16":[7,1,11,2,84,1],
+"group__wiced__bt__mesh__light__lightness__server.html#ga730594b6d325c881e88df4fb3ff3dd3c":[7,1,11,2,84,2],
+"group__wiced__bt__mesh__light__lightness__server.html#ga814516f38364c0cf37c710bca3754d42":[7,1,11,2,84,3],
+"group__wiced__bt__mesh__light__lightness__server.html#gaabcd35c812f4ea1010db7f803a7e1bd3":[7,1,11,2,84,8],
+"group__wiced__bt__mesh__light__lightness__server.html#gaae4681ec20a9d843b07ee8807e68241c":[7,1,11,2,84,4],
+"group__wiced__bt__mesh__light__lightness__server.html#gad58caa585f22114fb28ec2f7dd4ab380":[7,1,11,2,84,7],
+"group__wiced__bt__mesh__light__lightness__server.html#gadcc26283abf845ba27559f4069b68578":[7,1,11,2,84,6],
+"group__wiced__bt__mesh__light__xyl__client.html":[7,1,11,2,85]
 };

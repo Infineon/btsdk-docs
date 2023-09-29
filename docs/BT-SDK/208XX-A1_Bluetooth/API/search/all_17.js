@@ -1807,6 +1807,7 @@ var searchData=
   ['wiced_5fbt_5fmesh_5fremote_5fprovisioning_5fscan_5frsp',['wiced_bt_mesh_remote_provisioning_scan_rsp',['../group__wiced__bt__mesh__models.html#ga58171fb0b81158e89d751c49222a765b',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fremote_5fprovisioning_5fserver_5finit',['wiced_bt_mesh_remote_provisioning_server_init',['../group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fremote_5fprovisioning_5fserver_5fmessage_5fhandler',['wiced_bt_mesh_remote_provisioning_server_message_handler',['../group__wiced__bt__mesh__provisioning.html#ga64a7c82065e02064aeef92d752d57acd',1,'wiced_bt_mesh_provision.h']]],
+  ['wiced_5fbt_5fmesh_5fremote_5fprovisioning_5fserver_5fset_5fmin_5frssi',['wiced_bt_mesh_remote_provisioning_server_set_min_rssi',['../group__wiced__bt__mesh__models.html#ga7ee25109a2823181ecadd25bcb42c74a',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fscene_5fclient_5fcallback_5ft',['wiced_bt_mesh_scene_client_callback_t',['../group__wiced__bt__mesh__scene__client.html#ga58a34a9e9106bac983ca8b4d19b662d8',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fscene_5fdelete',['WICED_BT_MESH_SCENE_DELETE',['../wiced__bt__mesh__models_8h.html#a0a6192dc1b13001b1e57e842be6fe3a7',1,'wiced_bt_mesh_models.h']]],
   ['wiced_5fbt_5fmesh_5fscene_5fget',['WICED_BT_MESH_SCENE_GET',['../wiced__bt__mesh__models_8h.html#a1ec3f0ac27263e6717db8402c67b4549',1,'wiced_bt_mesh_models.h']]],

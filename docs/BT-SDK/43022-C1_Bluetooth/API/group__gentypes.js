@@ -1,14 +1,15 @@
 var group__gentypes =
 [
-    [ "WICED result", "group___result.html", "group___result" ],
+    [ "wiced_bt_lock_t", "structwiced__bt__lock__t.html", [
+      [ "p_lock_context", "structwiced__bt__lock__t.html#a36ea0c8c3c2339b367c51c11c7955d11", null ],
+      [ "pf_lock_func", "structwiced__bt__lock__t.html#aa35d9fc490f2f12414e66a9998f2f3bc", null ],
+      [ "pf_unlock_func", "structwiced__bt__lock__t.html#a861e80c5fc4980c31bd56a92ca6786cc", null ]
+    ] ],
     [ "Wiced BT Types", "group__bt__types.html", "group__bt__types" ],
     [ "FALSE", "group__gentypes.html#gaa93f0eb578d23995850d61f7d61c55c1", null ],
     [ "TRUE", "group__gentypes.html#gaa8cecfc5c5c054d2875c03e77b7be15d", null ],
     [ "UNUSED_VARIABLE", "group__gentypes.html#ga4048bf3892868ded8a28f8cbdd339c09", null ],
     [ "WICED_BT_STRUCT_PACKED", "group__gentypes.html#ga97c8bde23bbca19bb57f78d2eb6ab36c", null ],
-    [ "WICED_BT_TRACE", "group__gentypes.html#ga1f4cfe52f11524db00596ab45f4cf9b5", null ],
-    [ "WICED_BT_TRACE_ARRAY", "group__gentypes.html#ga10ff3340ed1baba5a78b417fdada3113", null ],
-    [ "WICED_BT_TRACE_CRIT", "group__gentypes.html#gaaf386757dcdcd407d36542e9de683697", null ],
     [ "WICED_BT_UNION_PACKED", "group__gentypes.html#gaf559ec18050599646fbf55d40ed98b37", null ],
     [ "WICED_FALSE", "group__gentypes.html#ga98455f16ecc9e3b1e94af3d3437416f5", null ],
     [ "WICED_MEMCMP", "group__gentypes.html#gab7793d9d0219f4c7ec333562b5b91407", null ],

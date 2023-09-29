@@ -434,5 +434,6 @@ var group__wiced__bt__mesh__models =
     [ "wiced_bt_mesh_remote_provisioning_nonconnectable_adv_packet", "group__wiced__bt__mesh__models.html#ga645656708d9462cca755b56f5b43ac43", null ],
     [ "wiced_bt_mesh_remote_provisioning_scan_rsp", "group__wiced__bt__mesh__models.html#ga58171fb0b81158e89d751c49222a765b", null ],
     [ "wiced_bt_mesh_remote_provisioning_server_init", "group__wiced__bt__mesh__models.html#gab8c8aef8d2255030ba1b5b430da95d3d", null ],
+    [ "wiced_bt_mesh_remote_provisioning_server_set_min_rssi", "group__wiced__bt__mesh__models.html#ga7ee25109a2823181ecadd25bcb42c74a", null ],
     [ "wiced_bt_mesh_model_timer_server_get_interval", "group__wiced__bt__mesh__models.html#gadd4e9a3c7edc1b5c0e7a20106f3be48d", null ]
 ];

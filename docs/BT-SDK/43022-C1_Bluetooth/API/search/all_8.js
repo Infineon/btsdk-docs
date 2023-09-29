@@ -21,7 +21,6 @@ var searchData=
   ['gatt_5fclient_5fconfig_5fnone',['GATT_CLIENT_CONFIG_NONE',['../group__wicedbt__gatt.html#ggad8d1c475c5995f5351c2c52de0394321a4cc9ef78dd96b94767cb429ebffd7fee',1,'wiced_bt_gatt.h']]],
   ['gatt_5fclient_5fconfig_5fnotification',['GATT_CLIENT_CONFIG_NOTIFICATION',['../group__wicedbt__gatt.html#ggad8d1c475c5995f5351c2c52de0394321a1b8ab4c39e7f684cb0361b638cbe22bf',1,'wiced_bt_gatt.h']]],
   ['gatt_5fclient_5fmax_5fwrite_5fsigned_5fdata',['GATT_CLIENT_MAX_WRITE_SIGNED_DATA',['../group__wicedbt__gatt.html#ga3d73409cb072fcca477913ec1ec1264f',1,'wiced_bt_gatt.h']]],
-  ['gatt_5fclient_5fonly',['gatt_client_only',['../wiced__bt__mesh__cfg_8h.html#a160c42cabbbdfd3b3927f39d97af6e36',1,'wiced_bt_mesh_cfg.h']]],
   ['gatt_5fcmd_5fsigned_5fwrite',['GATT_CMD_SIGNED_WRITE',['../group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68baba3cfce19e8ccaf9445f5e3e757f24cd',1,'wiced_bt_gatt.h']]],
   ['gatt_5fcmd_5fwrite',['GATT_CMD_WRITE',['../group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bae9076bb7b96ed9e0541b756436068f32',1,'wiced_bt_gatt.h']]],
   ['gatt_5fcongestion_5fevt',['GATT_CONGESTION_EVT',['../group__wicedbt__gatt.html#gga1a4943c0f32914d5d939b05e84c99631a86ffe24cb27c75e6042c480989b79738',1,'wiced_bt_gatt.h']]],
@@ -124,17 +123,14 @@ var searchData=
   ['gattdb_5fuuid128_5fsize',['GATTDB_UUID128_SIZE',['../group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b',1,'wiced_bt_gatt.h']]],
   ['gattdb_5fuuid16_5fsize',['GATTDB_UUID16_SIZE',['../group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783',1,'wiced_bt_gatt.h']]],
   ['gatt_20server_20data_20api',['GATT Server Data API',['../group__gattsr__api__functions.html',1,'']]],
-  ['get_5fapp_5ffinetimer_5fticks',['get_app_finetimer_ticks',['../wiced__bt__mesh__model__utils_8h.html#ae6e30b92888e667f28bdc20ceccb175f',1,'wiced_bt_mesh_model_utils.h']]],
   ['get_5frep',['get_rep',['../unionwiced__bt__hidd__event__data__t.html#ac73fd2c92d86db8f980dadd2a5c7ef76',1,'wiced_bt_hidd_event_data_t']]],
   ['get_5frpt',['get_rpt',['../unionwiced__bt__hidd__ble__cback__data__t.html#afc96e32c4ca1e67cf8604b0aa92c8219',1,'wiced_bt_hidd_ble_cback_data_t']]],
-  ['get_5ftranstime_5fin_5fms',['get_transtime_in_ms',['../wiced__bt__mesh__model__utils_8h.html#a6d202928acdcc5e2b35fd75ec391e9d6',1,'wiced_bt_mesh_model_utils.h']]],
-  ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
-  ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
-  ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
+  ['getcap_5fcfm',['getcap_cfm',['../unionwiced__bt__avdt__ctrl__t.html#aa9c4406226351357813664fdb9c2ca6e',1,'wiced_bt_avdt_ctrl_t']]],
   ['gpio_5finput_5fenable',['GPIO_INPUT_ENABLE',['../group___g_p_i_o_driver.html#ggabc6126af1d45847bc59afa0aa3216b04a4111531c8681de23e196f4aba8612da1',1,'wiced_hal_gpio.h']]],
   ['gpio_5fpull_5fup_5fdown_5fnone',['GPIO_PULL_UP_DOWN_NONE',['../group___g_p_i_o_driver.html#ggabc6126af1d45847bc59afa0aa3216b04a6bf73d95a8c14336915192a7697ad188',1,'wiced_hal_gpio.h']]],
   ['gpio',['GPIO',['../group___g_p_i_o_driver.html',1,'']]],
   ['group_5fvalue',['group_value',['../unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c',1,'wiced_bt_gatt_discovery_data_t']]],
   ['guaranteed',['GUARANTEED',['../group__bt__types.html#ga8108e37b291bd525f47a5aa68293f338',1,'wiced_bt_types.h']]],
-  ['generic_20attribute_20_28gatt_29',['Generic Attribute (GATT)',['../group__wicedbt__gatt.html',1,'']]]
+  ['generic_20attribute_20_28gatt_29',['Generic Attribute (GATT)',['../group__wicedbt__gatt.html',1,'']]],
+  ['generic_20attribute_20_28gatt_29_20utilities',['Generic Attribute (GATT) Utilities',['../group__wicedbt__gatt__utils.html',1,'']]]
 ];

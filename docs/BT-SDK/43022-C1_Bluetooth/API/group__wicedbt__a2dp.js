@@ -22,6 +22,8 @@ var group__wicedbt__a2dp =
       [ "start_buf_depth", "structwiced__bt__a2dp__sink__audio__tuning__params__t.html#a13f6b7a760414bd7a9fce93f60693469", null ],
       [ "target_buf_depth", "structwiced__bt__a2dp__sink__audio__tuning__params__t.html#ae4a20d5e4b2b105f649d779b2e5a8167", null ]
     ] ],
+    [ "A2DP Helper Functions", "group__wicedbt__av__a2d__helper.html", "group__wicedbt__av__a2d__helper" ],
+    [ "A2DP SBC Support", "group__wicedbt__a2dp__sbc.html", "group__wicedbt__a2dp__sbc" ],
     [ "wiced_audio_play_status_ind_t", "group__wicedbt__a2dp.html#ga28edcf1e6cd4647d381419006badb092", null ],
     [ "wiced_bt_a2dp_sink_overrun_control_t", "group__wicedbt__a2dp.html#ga3ea9872011a632658ccb7cf3029b6e0d", null ],
     [ "wiced_audio_get_jitter_buffer_state", "group__wicedbt__a2dp.html#gaaad5d0781c1f7eb978e74db624612017", null ],

@@ -1,11 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group__wiced__sleep__config.html":[7,2,0],
-"group__wiced__sleep__config.html#ga3e452b8636fb1cbd0c16b8eb720faf7f":[7,2,0,3],
-"group__wiced__sleep__config.html#ga7a0afec9e88e0688a90aba2eee780857":[7,2,0,7],
-"group__wiced__sleep__config.html#ga8a9297d408f3a58cf3c476e9e6d924d3":[7,2,0,8],
-"group__wiced__sleep__config.html#gab82a74f26f6856dc94fd3f7f3755d76a":[7,2,0,6],
-"group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517":[7,2,0,5],
 "group__wiced__sleep__config.html#gaf45fdcacf1587e936d10e03bc23544bc":[7,2,0,4],
 "group__wiced__utils.html":[7,0,5],
 "group__wiced__utils.html#ga063e7e69efdca1f449e8b2f6bf731808":[7,0,5,7],
@@ -13,10 +7,10 @@ var NAVTREEINDEX9 =
 "group__wiced__utils.html#ga342e93b2d4b710696f8c6a585dc57dc2":[7,0,5,6],
 "group__wiced__utils.html#ga6223b42605fce1b8dea9f34eb1a803f8":[7,0,5,8],
 "group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2":[7,0,5,0],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff":[7,0,5,0,1],
 "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff":[7,0,5,2],
-"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9":[7,0,5,0,3],
+"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2a7db74b31c3fd1e591efe7db7f0fb34ff":[7,0,5,0,1],
 "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9":[7,0,5,3],
+"group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9":[7,0,5,0,3],
 "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1":[7,0,5,1],
 "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1":[7,0,5,0,2],
 "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2afd172e33b82aa7d9aa0092776d906eba":[7,0,5,0,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX9 =
 "structwiced__app__event__srzn__cb__t.html#a786bf0d6d202500c4cf06c042c76c69f":[7,3,0,0,1],
 "structwiced__audio__codec__interface__func__tbl.html":[7,1,2,4,0],
 "structwiced__bt__a2d__sdp__db__params__t.html":[7,1,2,1,0,0],
-"structwiced__bt__a2d__sdp__db__params__t.html#a15873975ac30bb80d6e4a1a47b14ca00":[7,1,2,1,0,0,1]
+"structwiced__bt__a2d__sdp__db__params__t.html#a15873975ac30bb80d6e4a1a47b14ca00":[7,1,2,1,0,0,1],
+"structwiced__bt__a2d__sdp__db__params__t.html#a95655154f49d7fb2ce00b3dc127631f2":[7,1,2,1,0,0,3],
+"structwiced__bt__a2d__sdp__db__params__t.html#aafb8710c45f74403ee3d7c12aa27f713":[7,1,2,1,0,0,2],
+"structwiced__bt__a2d__sdp__db__params__t.html#ad869c77e637e74544b7da4fc883c965e":[7,1,2,1,0,0,0],
+"structwiced__bt__a2d__service__t.html":[7,1,2,1,0,1],
+"structwiced__bt__a2d__service__t.html#a05394e2501b222db77c3a39194523065":[7,1,2,1,0,1,1],
+"structwiced__bt__a2d__service__t.html#a1141e4ebcbdd40401137776441e5a17b":[7,1,2,1,0,1,4]
 };

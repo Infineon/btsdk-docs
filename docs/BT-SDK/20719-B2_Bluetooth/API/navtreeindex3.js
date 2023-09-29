@@ -1,12 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2ecbb604d4a0ab697e4f8098ca79a5eb":[7,1,16,1,8,6],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a3a85d487ecbcbcca35b3223ecfa8ba4a":[7,1,16,1,8,3],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a3c2252d8f8f285126f416b054fec96ca":[7,1,16,1,8,8],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a42043463c14a7aed815f64872f8e45ae":[7,1,16,1,8,4],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a5225888457294a62a236e1abe0caa87e":[7,1,16,1,8,11],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a88fa3c55a0f7b6888a51dba22ac31ad6":[7,1,16,1,8,19],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a8977101f17e1245da9a2704c32ad53a4":[7,1,16,1,8,0],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328aadb073e6f55f7d242db1ed87adb19ebd":[7,1,16,1,8,16],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328ab5275ca69704e416c23b749727bf464d":[7,1,16,1,8,15],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328abecee3babd4dc41c85cb6546aa09c815":[7,1,16,1,8,12],
@@ -249,5 +242,12 @@ var NAVTREEINDEX3 =
 "group__wiced__bt__mesh__core.html#ga3ed62d2ed53178cb5ab6d04b2e16438c":[7,1,11,1,89],
 "group__wiced__bt__mesh__core.html#ga3fedf3f1b395dc5ea99a813ef1b611bd":[7,1,11,1,153],
 "group__wiced__bt__mesh__core.html#ga4347beee0b0ac99b0797b26f4a0931e4":[7,1,11,1,108],
-"group__wiced__bt__mesh__core.html#ga436f9c9c050dc77dc3a5da7215ad509d":[7,1,11,1,60]
+"group__wiced__bt__mesh__core.html#ga436f9c9c050dc77dc3a5da7215ad509d":[7,1,11,1,60],
+"group__wiced__bt__mesh__core.html#ga45720a1052c1fae80db8aa0d05d04103":[7,1,11,1,47],
+"group__wiced__bt__mesh__core.html#ga457c303574ad2fc3970319743c106c00":[7,1,11,1,179],
+"group__wiced__bt__mesh__core.html#ga4cbaa0b9c324a631afe9008349f29520":[7,1,11,1,116],
+"group__wiced__bt__mesh__core.html#ga4d133736e6a878228e1706f8dbbd58b8":[7,1,11,1,105],
+"group__wiced__bt__mesh__core.html#ga4d2ffff71f16c7e0dc8561829514da6b":[7,1,11,1,44],
+"group__wiced__bt__mesh__core.html#ga4f0b534e9129d3cde19c380db577d33e":[7,1,11,1,168],
+"group__wiced__bt__mesh__core.html#ga54bb1df7073e9e3fcc0f495b74f6bbb7":[7,1,11,1,182]
 };

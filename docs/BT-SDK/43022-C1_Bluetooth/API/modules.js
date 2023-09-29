@@ -1,26 +1,7 @@
 var modules =
 [
     [ "AIROC System", "group__wicedsys.html", "group__wicedsys" ],
-    [ "ANC Library API", "group__wiced__bt__anc__api__functions.html", "group__wiced__bt__anc__api__functions" ],
-    [ "ANS Library API", "group__wiced__bt__ans__api__functions.html", "group__wiced__bt__ans__api__functions" ],
-    [ "Advanced Audio Distribution Profile (A2DP) Sink", "group__wicedbt__a2dp.html", "group__wicedbt__a2dp" ],
-    [ "BAC Library API", "group__wiced__bt__battery__client__api__functions.html", "group__wiced__bt__battery__client__api__functions" ],
-    [ "BAS Library API", "group__wiced__bt__bas__api__functions.html", null ],
-    [ "Bluetooth Stack Initialize & Configuration", "group__wiced__bt__cfg.html", "group__wiced__bt__cfg" ],
-    [ "Bluetooth Stack Platform Interface", "group__wiced__bt__platform__group.html", "group__wiced__bt__platform__group" ],
-    [ "Common Bluetooth definitions", "group__gentypes.html", "group__gentypes" ],
-    [ "Device Management", "group__wicedbt___device_management.html", "group__wicedbt___device_management" ],
-    [ "Generic Attribute (GATT)", "group__wicedbt__gatt.html", "group__wicedbt__gatt" ],
-    [ "HID Device Role (HIDD) over BLE", "group__hidd__le__api__functions.html", "group__hidd__le__api__functions" ],
-    [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
-    [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
+    [ "Bluetooth", "group__wicedbt.html", "group__wicedbt" ],
     [ "Hardware Drivers", "group___hardware_drivers.html", "group___hardware_drivers" ],
-    [ "Ischoronous (ISOC)", "group__wicedbt__isoc.html", "group__wicedbt__isoc" ],
-    [ "LE Mesh", "group__wiced__bt__mesh.html", "group__wiced__bt__mesh" ],
-    [ "Logical Link Control and Adaptation Protocol (L2CAP)", "group__l2cap.html", "group__l2cap" ],
-    [ "Memory Management", "group__wiced__mem.html", "group__wiced__mem" ],
-    [ "RTOS", "group__rtos.html", "group__rtos" ],
-    [ "SPP Library API", "group__wiced__bt__spp__api__functions.html", "group__wiced__bt__spp__api__functions" ],
-    [ "WICED Audio Utilities", "group__wicedbt__audio__utils.html", "group__wicedbt__audio__utils" ],
-    [ "iAP2 Protocol Library API", "group__wiced__bt__iap2__api__functions.html", "group__wiced__bt__iap2__api__functions" ]
+    [ "RTOS", "group__rtos.html", "group__rtos" ]
 ];

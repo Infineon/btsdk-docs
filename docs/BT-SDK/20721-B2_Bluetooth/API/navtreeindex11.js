@@ -1,10 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structwiced__bt__mesh__light__lightness__set__t.html":[7,1,11,2,19],
-"structwiced__bt__mesh__light__lightness__set__t.html#a17312bb6480549142f7cfbcc728a75b9":[7,1,11,2,19,1],
-"structwiced__bt__mesh__light__lightness__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,11,2,19,3],
-"structwiced__bt__mesh__light__lightness__set__t.html#ace23c6ab066de48c058b1793a19ad41a":[7,1,11,2,19,2],
-"structwiced__bt__mesh__light__lightness__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,11,2,19,0],
 "structwiced__bt__mesh__light__lightness__status__data__t.html":[7,1,11,2,17],
 "structwiced__bt__mesh__light__lightness__status__data__t.html#a0aeb19c8e9ac98318e93f84e69d3243f":[7,1,11,2,17,0],
 "structwiced__bt__mesh__light__lightness__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e":[7,1,11,2,17,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX11 =
 "structwiced__bt__mesh__set__dev__key__data__t.html#a88c79cd52cb7992eefd326dbdc584a64":[7,1,11,3,1,2],
 "structwiced__bt__mesh__set__dev__key__data__t.html#ab8e06aba4f99ff36f813e298de64a1fd":[7,1,11,3,1,0],
 "structwiced__bt__ota__fw__upgrad__event__data__t.html":[7,0,2,3,0],
-"structwiced__bt__ota__fw__upgrad__event__data__t.html#a231d88a2076c53df88d8ffd7eb1c50ec":[7,0,2,3,0,0]
+"structwiced__bt__ota__fw__upgrad__event__data__t.html#a231d88a2076c53df88d8ffd7eb1c50ec":[7,0,2,3,0,0],
+"structwiced__bt__ota__fw__upgrad__event__data__t.html#a8304c4af5da6e830b86d7199dc9a22e6":[7,0,2,3,0,2],
+"structwiced__bt__ota__fw__upgrad__event__data__t.html#a894bdfa2d603d8343f8ef01dda6fcd23":[7,0,2,3,0,1],
+"structwiced__bt__rc__event__t.html":[7,1,2,3,2,6],
+"structwiced__bt__rc__event__t.html#a03895f0a094b3c0a98affa867c97be95":[7,1,2,3,2,6,7],
+"structwiced__bt__rc__event__t.html#a0823f6eb8619cf4a445527641d9b9f7e":[7,1,2,3,2,6,4]
 };

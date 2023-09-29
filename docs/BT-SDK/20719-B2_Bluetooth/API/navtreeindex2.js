@@ -1,12 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"group__group__wiced__firmware__upgrade.html#ga27fc916ae66e079b3459f1e553999f09":[7,0,0,4],
-"group__group__wiced__firmware__upgrade.html#ga4433b3bf0f43473881496851ba1fdf9d":[7,0,0,6],
-"group__group__wiced__firmware__upgrade.html#ga727cb6e7242599b5958a1840b63ceb44":[7,0,0,7],
-"group__group__wiced__firmware__upgrade.html#gafc75a6dab6803a4ea2ec5418f696b8c3":[7,0,0,5],
-"group__header__api__functions.html":[7,1,13,0,0],
-"group__header__api__functions.html":[7,1,13,1],
-"group__header__api__functions.html":[7,1,13,2,0,0],
 "group__header__api__functions.html#ga0149bc4a4c1df25c392c96260a291009":[7,1,13,0,0,7],
 "group__header__api__functions.html#ga0149bc4a4c1df25c392c96260a291009":[7,1,13,1,7],
 "group__header__api__functions.html#ga0149bc4a4c1df25c392c96260a291009":[7,1,13,2,0,0,7],
@@ -249,5 +242,12 @@ var NAVTREEINDEX2 =
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0112e9137a7447efcbfa03eeb7e31a49":[7,1,16,1,8,13],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a0e441205b20cc13da23016c9ecaed01e":[7,1,16,1,8,14],
 "group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a226a15886664ae9e82185e78b2709e8d":[7,1,16,1,8,2],
-"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2beb4c28604bac144ee0e9d0b2f84fed":[7,1,16,1,8,9]
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2beb4c28604bac144ee0e9d0b2f84fed":[7,1,16,1,8,9],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a2ecbb604d4a0ab697e4f8098ca79a5eb":[7,1,16,1,8,6],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a3a85d487ecbcbcca35b3223ecfa8ba4a":[7,1,16,1,8,3],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a3c2252d8f8f285126f416b054fec96ca":[7,1,16,1,8,8],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a42043463c14a7aed815f64872f8e45ae":[7,1,16,1,8,4],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a5225888457294a62a236e1abe0caa87e":[7,1,16,1,8,11],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a88fa3c55a0f7b6888a51dba22ac31ad6":[7,1,16,1,8,19],
+"group__sdp__types.html#gga93c6f8c9d0b76ab42e67a9f2d0dec328a8977101f17e1245da9a2704c32ad53a4":[7,1,16,1,8,0]
 };

@@ -1,10 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"structwiced__bt__mesh__provision__inbound__pdu__report__data__t.html":[7,1,11,3,13],
-"structwiced__bt__mesh__provision__inbound__pdu__report__data__t.html#a40ff77f5948b0be933f060bb625d3367":[7,1,11,3,13,1],
-"structwiced__bt__mesh__provision__inbound__pdu__report__data__t.html#aa86e1085c6a16f60258f29c9d5fc2144":[7,1,11,3,13,0],
-"structwiced__bt__mesh__provision__link__report__data__t.html":[7,1,11,3,11],
-"structwiced__bt__mesh__provision__link__report__data__t.html#a2208a0dd790e312c17b2e3737a17b5b9":[7,1,11,3,11,1],
 "structwiced__bt__mesh__provision__link__report__data__t.html#a2bf4dce1e1076f225dbf78a169d4a9c2":[7,1,11,3,11,3],
 "structwiced__bt__mesh__provision__link__report__data__t.html#a81eeab45998a64b609a5fcf8435bdad1":[7,1,11,3,11,0],
 "structwiced__bt__mesh__provision__link__report__data__t.html#ada17c117060406a3a2871c6856dd0205":[7,1,11,3,11,2],

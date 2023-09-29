@@ -1,12 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"group__wiced__bt__mesh__core.html#ga5c51b8d2c5fc488a83b9d3fd488d3e45":[7,1,11,1,139],
-"group__wiced__bt__mesh__core.html#ga600b5d849d21e516472542157e1a145f":[7,1,11,1,142],
-"group__wiced__bt__mesh__core.html#ga614041f855c21e8a06110b88d8b6a8b3":[7,1,11,1,156],
-"group__wiced__bt__mesh__core.html#ga616035a5a798fc9e8d0221db11b25452":[7,1,11,1,74],
-"group__wiced__bt__mesh__core.html#ga61c363af8adde72122d236f28a751bcd":[7,1,11,1,35],
-"group__wiced__bt__mesh__core.html#ga62869a82bc7284f80de2a4fae6ae1b7a":[7,1,11,1,141],
-"group__wiced__bt__mesh__core.html#ga64d8563df3bbb36cb1453d370a3fb45d":[7,1,11,1,72],
 "group__wiced__bt__mesh__core.html#ga64ef88eb0a8f1e4e711c79bf877ea168":[7,1,11,1,73],
 "group__wiced__bt__mesh__core.html#ga6647db924fefa3140520d23d3147b5da":[7,1,11,1,124],
 "group__wiced__bt__mesh__core.html#ga6649340d0d6ea29b5a1854c1740fe4d1":[7,1,11,1,53],
@@ -249,5 +242,12 @@ var NAVTREEINDEX5 =
 "group__wiced__bt__mesh__light__xyl__client.html#ga23c99eda097e5a3ae1d4c3ae2379d51e":[7,1,11,2,85,6],
 "group__wiced__bt__mesh__light__xyl__client.html#ga2775b4a14de345fb43363ea4321d61ff":[7,1,11,2,85,1],
 "group__wiced__bt__mesh__light__xyl__client.html#ga68a8e6db251777f69e19fc5045939935":[7,1,11,2,85,8],
-"group__wiced__bt__mesh__light__xyl__client.html#ga71983afaf9c407de53ac5332393d3356":[7,1,11,2,85,3]
+"group__wiced__bt__mesh__light__xyl__client.html#ga71983afaf9c407de53ac5332393d3356":[7,1,11,2,85,3],
+"group__wiced__bt__mesh__light__xyl__client.html#ga8ba4b64e0466d0b453621c03ab8db371":[7,1,11,2,85,4],
+"group__wiced__bt__mesh__light__xyl__client.html#gab500630eb5b907a6b5d6e72cbc67de22":[7,1,11,2,85,9],
+"group__wiced__bt__mesh__light__xyl__client.html#gacb2f82d0881540a5e2a65264bf1a645e":[7,1,11,2,85,2],
+"group__wiced__bt__mesh__light__xyl__client.html#gae01bce8b81264611cba88f9d445f5cb0":[7,1,11,2,85,0],
+"group__wiced__bt__mesh__light__xyl__client.html#gae7004f31f89fd8e51d7e8b45002e11ac":[7,1,11,2,85,7],
+"group__wiced__bt__mesh__light__xyl__client.html#gaf2d32ad0403fab041943e3ff630ba094":[7,1,11,2,85,5],
+"group__wiced__bt__mesh__light__xyl__server.html":[7,1,11,2,86]
 };
