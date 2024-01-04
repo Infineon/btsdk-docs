@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"group__wiced__bt__mesh__power__level__server.html":[7,1,12,2,92],
 "group__wiced__bt__mesh__power__level__server.html#ga02612c425d9164a6d59b8e4236a94ceb":[7,1,12,2,92,6],
 "group__wiced__bt__mesh__power__level__server.html#ga2a7638d0918f694804b4acfd8a4b69ab":[7,1,12,2,92,7],
 "group__wiced__bt__mesh__power__level__server.html#ga2fc9792afd476737b331b4e4d3f28dbd":[7,1,12,2,92,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "group__wiced__sleep__config.html#ga3e452b8636fb1cbd0c16b8eb720faf7f":[7,2,0,3],
 "group__wiced__sleep__config.html#ga7a0afec9e88e0688a90aba2eee780857":[7,2,0,7],
 "group__wiced__sleep__config.html#ga8a9297d408f3a58cf3c476e9e6d924d3":[7,2,0,8],
-"group__wiced__sleep__config.html#gab82a74f26f6856dc94fd3f7f3755d76a":[7,2,0,6],
-"group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517":[7,2,0,5]
+"group__wiced__sleep__config.html#gab82a74f26f6856dc94fd3f7f3755d76a":[7,2,0,6]
 };

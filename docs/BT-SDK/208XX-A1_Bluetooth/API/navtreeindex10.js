@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__a2d__service__t.html#a1141e4ebcbdd40401137776441e5a17b":[7,1,2,1,0,1,4],
 "structwiced__bt__a2d__service__t.html#a2d10e3be2b81d100443614e55b4b0c21":[7,1,2,1,0,1,0],
 "structwiced__bt__a2d__service__t.html#a412f90be47a00ccd253665c53b890f60":[7,1,2,1,0,1,5],
 "structwiced__bt__a2d__service__t.html#ad9460235afcc5d705ff25de7b63cfb3d":[7,1,2,1,0,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__dev__vendor__specific__command__complete__params__t.html":[7,1,5,0,0,2],
 "structwiced__bt__dev__vendor__specific__command__complete__params__t.html#a97704109da0d8dddc0bf0252196e6f2a":[7,1,5,0,0,2,2],
 "structwiced__bt__dev__vendor__specific__command__complete__params__t.html#aaad37ea486b2e94e752f580a41318d28":[7,1,5,0,0,2,1],
-"structwiced__bt__dev__vendor__specific__command__complete__params__t.html#aeb39438c0aa5ad494c96060b00351545":[7,1,5,0,0,2,0],
-"structwiced__bt__hrc__discovery__t.html":[7,1,10,0]
+"structwiced__bt__dev__vendor__specific__command__complete__params__t.html#aeb39438c0aa5ad494c96060b00351545":[7,1,5,0,0,2,0]
 };

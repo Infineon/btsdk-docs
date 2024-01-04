@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.5 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1943,6 +1943,24 @@ Macros</h2></td></tr>
 <tr class="memitem:a18515e2a865de6af8b655b87743f3d9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18515e2a865de6af8b655b87743f3d9b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_SET_TEST_MODE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x14 )  /* Set test mode */</td></tr>
 <tr class="separator:a18515e2a865de6af8b655b87743f3d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefceb7a7e8ddf665279f249d832d8b99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefceb7a7e8ddf665279f249d832d8b99"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_READ_CONFIGURATION</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x15 )  /* Read network configuration */</td></tr>
+<tr class="separator:aefceb7a7e8ddf665279f249d832d8b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c41bdf5411b30167edde01d20aa96b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85c41bdf5411b30167edde01d20aa96b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_CACHE_TLE_READ</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x16 )  /* Set cached battery reading command */</td></tr>
+<tr class="separator:a85c41bdf5411b30167edde01d20aa96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa035787de08d7277c56474637172a894"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa035787de08d7277c56474637172a894"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_GET_CHANNEL_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x17 )  /* Get per-channel PER */</td></tr>
+<tr class="separator:aa035787de08d7277c56474637172a894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a733930f3bed9879181d26b9fa9ae1255"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a733930f3bed9879181d26b9fa9ae1255"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_SET_CHANNEL_MAP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x18 )  /* Set channel map */</td></tr>
+<tr class="separator:a733930f3bed9879181d26b9fa9ae1255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed26f3a61b9d64b4a7fb5711863555ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed26f3a61b9d64b4a7fb5711863555ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_GET_AFH_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x19 )  /* Get AFH parameters */</td></tr>
+<tr class="separator:aed26f3a61b9d64b4a7fb5711863555ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567b3d3df9634e6b0e85cebf6965216d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a567b3d3df9634e6b0e85cebf6965216d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_SET_AFH_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x1A )  /* Set AFH parameters */</td></tr>
+<tr class="separator:a567b3d3df9634e6b0e85cebf6965216d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636a5274786b9d2b6dce19e64b30c907"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a636a5274786b9d2b6dce19e64b30c907"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_COMMAND_NET_CREATE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x20 ) /* Create network */</td></tr>
 <tr class="separator:a636a5274786b9d2b6dce19e64b30c907"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2072,6 +2090,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ae5e6928c64e1723a2ec4128ec9d2561a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5e6928c64e1723a2ec4128ec9d2561a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IFXVH_COMMAND_CONNECT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IFXVH &lt;&lt; 8 ) | 0x06 ) /* Initiate Scan for connection */</td></tr>
 <tr class="separator:ae5e6928c64e1723a2ec4128ec9d2561a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf4779b67d67a5a7674a74fe3d0311cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf4779b67d67a5a7674a74fe3d0311cb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IFXVH_COMMAND_CUSTOM_DEFINED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IFXVH &lt;&lt; 8 ) | 0x07 ) /* Custom Defined Command */</td></tr>
+<tr class="separator:adf4779b67d67a5a7674a74fe3d0311cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29e76801a75160fe12c1bb9a8d0a333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af29e76801a75160fe12c1bb9a8d0a333"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_DEVICE &lt;&lt; 8 ) | 0x01 )    /* Command status event for the requested operation */</td></tr>
 <tr class="separator:af29e76801a75160fe12c1bb9a8d0a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3500,6 +3521,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a13f4c3d8105bffae1718e090e905ac7f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13f4c3d8105bffae1718e090e905ac7f"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_TEST_RESULT</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x10 )  /* [Node Addr] [Rx RSSI][Tx RSSI] */</td></tr>
 <tr class="separator:a13f4c3d8105bffae1718e090e905ac7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392c689e57e0becfe0fdb2a7a51f78b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a392c689e57e0becfe0fdb2a7a51f78b9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_READ_CONFIGURATION</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x11 )  /* [TLE Read type] [TLE read cmd len [Max Batt Len][Read Duty Cycle]*/</td></tr>
+<tr class="separator:a392c689e57e0becfe0fdb2a7a51f78b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2478b9cf51bbd3c17496f0d51424a1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2478b9cf51bbd3c17496f0d51424a1d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_CHANNEL_STATS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x12 )  /* Per-channel stats response */</td></tr>
+<tr class="separator:ad2478b9cf51bbd3c17496f0d51424a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c50f9e15c4b04f5ac79f1ee0e244043"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c50f9e15c4b04f5ac79f1ee0e244043"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_NODE_PROVISION_FAILED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x13 )  /* Node addr*/</td></tr>
+<tr class="separator:a2c50f9e15c4b04f5ac79f1ee0e244043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2035785331988473ee793751c11fbe00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2035785331988473ee793751c11fbe00"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_AFH_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x14 )  /* AFH parameters */</td></tr>
+<tr class="separator:a2035785331988473ee793751c11fbe00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb4f077a048ce0476f653363edd1776e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb4f077a048ce0476f653363edd1776e"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_BMS_EVENT_NET_CREATED</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_BMS &lt;&lt; 8 ) | 0x20 )</td></tr>
 <tr class="separator:afb4f077a048ce0476f653363edd1776e"><td class="memSeparator" colspan="2">&#160;</td></tr>

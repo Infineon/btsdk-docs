@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.5 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -571,6 +571,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga040739f9972262688c78c945f631af8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#ga040739f9972262688c78c945f631af8a">wiced_bt_mesh_config_server_send_reply</a> (<a class="el" href="group__wiced__bt__mesh__core.html#gae9f682d0b0752933ed7a84a4f4054e2f">wiced_bt_mesh_event_t</a> *p_event, uint16_t opcode, uint8_t *p_buffer, uint16_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>)</td></tr>
 <tr class="memdesc:ga040739f9972262688c78c945f631af8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be called to send message through the core.  <a href="#ga040739f9972262688c78c945f631af8a">More...</a><br /></td></tr>
 <tr class="separator:ga040739f9972262688c78c945f631af8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb3d91c2bf70ed2b70b22b2d492629a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__mesh__models.html#gaeb3d91c2bf70ed2b70b22b2d492629a7">wiced_bt_mesh_config_server_send_segmented</a> (wiced_bool_t enable)</td></tr>
+<tr class="memdesc:gaeb3d91c2bf70ed2b70b22b2d492629a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function can be called to configure configuration server to send always segmented messages regardless of the message size.  <a href="#gaeb3d91c2bf70ed2b70b22b2d492629a7">More...</a><br /></td></tr>
+<tr class="separator:gaeb3d91c2bf70ed2b70b22b2d492629a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1330,6 +1333,30 @@ Battery Service Required State Flags</h2></td></tr>
     <tr><td class="paramname">opcode</td><td>opcode to send </td></tr>
     <tr><td class="paramname">params</td><td>Pointer to the parameters data to be sent out. </td></tr>
     <tr><td class="paramname">len</td><td>Size of the parameters data to be sent out. The maximum length is about 377 bytes (depends on the size of the opcode). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaeb3d91c2bf70ed2b70b22b2d492629a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_mesh_config_server_send_segmented </td>
+          <td>(</td>
+          <td class="paramtype">wiced_bool_t&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function can be called to configure configuration server to send always segmented messages regardless of the message size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enable</td><td>WICED_TRUE enables the mode when config server always sends segmented messages. WICED_FALSE disables that mode. </td></tr>
   </table>
   </dd>
 </dl>

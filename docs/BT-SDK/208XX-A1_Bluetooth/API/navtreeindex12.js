@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515":[7,1,12,1,23,20],
 "structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf":[7,1,12,1,23,4],
 "structwiced__bt__mesh__event____t.html#ade3d44b516b2103d3d25c1dd2da58a93":[7,1,12,1,23,21],
 "structwiced__bt__mesh__event____t.html#ae4118fec267d4ea4f8fe035cd8e02d88":[7,1,12,1,23,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "structwiced__bt__mesh__power__onoff__data__t.html":[7,1,12,2,10],
 "structwiced__bt__mesh__power__onoff__data__t.html#af9effca8886dc00141a32b604cac88f6":[7,1,12,2,10,0],
 "structwiced__bt__mesh__power__range__status__data__t.html":[7,1,12,2,15],
-"structwiced__bt__mesh__power__range__status__data__t.html#a6c0997d77cd914eb8fa53f54d0d1343b":[7,1,12,2,15,0],
-"structwiced__bt__mesh__power__range__status__data__t.html#ade818037fd6c985038ff29656089758d":[7,1,12,2,15,2]
+"structwiced__bt__mesh__power__range__status__data__t.html#a6c0997d77cd914eb8fa53f54d0d1343b":[7,1,12,2,15,0]
 };

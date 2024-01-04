@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"structwiced__rtc__time__t.html":[7,2,16,0],
 "structwiced__rtc__time__t.html#a14c99903ae77b71f78984096cce1f8f8":[7,2,16,0,4],
 "structwiced__rtc__time__t.html#a15b134f80414a70a78c4b2f683cace39":[7,2,16,0,1],
 "structwiced__rtc__time__t.html#a2b35975dfac711962b75b6eed01a8b76":[7,2,16,0,3],

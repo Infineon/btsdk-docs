@@ -22,13 +22,13 @@ var NAVTREEINDEX =
 "group__interfaces.html#ga493de82daf9fbfcd79f8393153221bca",
 "group__wiced__bt__iap2__api__functions.html#ga36bdc0f6bf37670f91ce339558b91f31",
 "group__wiced__bt__mesh__default__transition__time__server.html#ga989a9568ae8d235eff6e214895c40b42",
-"group__wiced__bt__mesh__power__level__server.html#ga02612c425d9164a6d59b8e4236a94ceb",
-"group__wiced__sleep__config.html#gaf45fdcacf1587e936d10e03bc23544bc",
-"structwiced__bt__a2d__service__t.html#a2d10e3be2b81d100443614e55b4b0c21",
-"structwiced__bt__hrc__discovery__t.html#a71a8a39270ae1bf01ad381dca0e95c1b",
-"structwiced__bt__mesh__event____t.html#ad1a572736a10ff6b282c5f43c4ea1ccf",
-"structwiced__bt__mesh__power__range__status__data__t.html#af56c44a29742765d2d6bab9c8fcd8b01",
-"structwiced__rtc__time__t.html#a14c99903ae77b71f78984096cce1f8f8"
+"group__wiced__bt__mesh__power__level__server.html",
+"group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517",
+"structwiced__bt__a2d__service__t.html#a1141e4ebcbdd40401137776441e5a17b",
+"structwiced__bt__hrc__discovery__t.html",
+"structwiced__bt__mesh__event____t.html#ac87170cf133e48fc4c61ea4b90bfb515",
+"structwiced__bt__mesh__power__range__status__data__t.html#ade818037fd6c985038ff29656089758d",
+"structwiced__rtc__time__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
