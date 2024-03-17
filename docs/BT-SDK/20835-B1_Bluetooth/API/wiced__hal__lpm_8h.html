@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -109,17 +109,17 @@ $(document).ready(function(){initNavTree('wiced__hal__lpm_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6198563a00fb21a764fb1b846e2b311d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6198563a00fb21a764fb1b846e2b311d"></a>
+<tr class="memitem:af6dc573641862910b2a8e57f7dc5fc89"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6dc573641862910b2a8e57f7dc5fc89"></a>
 typedef enum <br class="typebreak" />
-<a class="el" href="wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6">wiced_bt_lpm_poll_type_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a6198563a00fb21a764fb1b846e2b311d">wiced_bt_lpm_poll_type_t</a></td></tr>
-<tr class="memdesc:a6198563a00fb21a764fb1b846e2b311d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The poll type of low power mode. <br /></td></tr>
-<tr class="separator:a6198563a00fb21a764fb1b846e2b311d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<a class="el" href="wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6">wiced_bt_lpm_poll_type_e</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#af6dc573641862910b2a8e57f7dc5fc89">wiced_bt_lpm_poll_type_t</a></td></tr>
+<tr class="memdesc:af6dc573641862910b2a8e57f7dc5fc89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The poll type of low power mode. <br /></td></tr>
+<tr class="separator:af6dc573641862910b2a8e57f7dc5fc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e489184a962a0609370ed36d30a5dd2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e489184a962a0609370ed36d30a5dd2"></a>
 typedef enum <br class="typebreak" />
 <a class="el" href="wiced__hal__lpm_8h.html#a2fd4627a3479b9559e893fbadb18d580">wiced_bt_lpm_pmu_sleep_type_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a4e489184a962a0609370ed36d30a5dd2">wiced_bt_lpm_pmu_sleep_type_t</a></td></tr>
 <tr class="memdesc:a4e489184a962a0609370ed36d30a5dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sleep type of the power managment modole (PMU) <br /></td></tr>
 <tr class="separator:a4e489184a962a0609370ed36d30a5dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fff2726c049c232690b971cf7af6c22"><td class="memItemLeft" align="right" valign="top">typedef uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a8fff2726c049c232690b971cf7af6c22">wiced_bt_lpm_callback_fp</a> )(<a class="el" href="wiced__hal__lpm_8h.html#a6198563a00fb21a764fb1b846e2b311d">wiced_bt_lpm_poll_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint32_t context)</td></tr>
+<tr class="memitem:a8fff2726c049c232690b971cf7af6c22"><td class="memItemLeft" align="right" valign="top">typedef uint32_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__hal__lpm_8h.html#a8fff2726c049c232690b971cf7af6c22">wiced_bt_lpm_callback_fp</a> )(<a class="el" href="wiced__hal__lpm_8h.html#af6dc573641862910b2a8e57f7dc5fc89">wiced_bt_lpm_poll_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint32_t context)</td></tr>
 <tr class="memdesc:a8fff2726c049c232690b971cf7af6c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">This typedef is what is expected when registering a function as a callback.  <a href="#a8fff2726c049c232690b971cf7af6c22">More...</a><br /></td></tr>
 <tr class="separator:a8fff2726c049c232690b971cf7af6c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -171,7 +171,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef uint32_t(* wiced_bt_lpm_callback_fp)(<a class="el" href="wiced__hal__lpm_8h.html#a6198563a00fb21a764fb1b846e2b311d">wiced_bt_lpm_poll_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint32_t context)</td>
+          <td class="memname">typedef uint32_t(* wiced_bt_lpm_callback_fp)(<a class="el" href="wiced__hal__lpm_8h.html#af6dc573641862910b2a8e57f7dc5fc89">wiced_bt_lpm_poll_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint32_t context)</td>
         </tr>
       </table>
 </div><div class="memdoc">

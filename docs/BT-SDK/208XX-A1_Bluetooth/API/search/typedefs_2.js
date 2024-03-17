@@ -86,7 +86,7 @@ var searchData=
   ['wiced_5fbt_5flink_5fquality_5fstats_5fparam_5ft',['wiced_bt_link_quality_stats_param_t',['../group__group__dev__enums.html#gaf35adc1f29b46b8468a387c8023fd1f9',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5flpm_5fcallback_5ffp',['wiced_bt_lpm_callback_fp',['../wiced__hal__lpm_8h.html#a8fff2726c049c232690b971cf7af6c22',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5flpm_5fpmu_5fsleep_5ftype_5ft',['wiced_bt_lpm_pmu_sleep_type_t',['../wiced__hal__lpm_8h.html#a4e489184a962a0609370ed36d30a5dd2',1,'wiced_hal_lpm.h']]],
-  ['wiced_5fbt_5flpm_5fpoll_5ftype_5ft',['wiced_bt_lpm_poll_type_t',['../wiced__hal__lpm_8h.html#a6198563a00fb21a764fb1b846e2b311d',1,'wiced_hal_lpm.h']]],
+  ['wiced_5fbt_5flpm_5fpoll_5ftype_5ft',['wiced_bt_lpm_poll_type_t',['../wiced__hal__lpm_8h.html#af6dc573641862910b2a8e57f7dc5fc89',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5flq_5fbr_5fedr_5fstats',['wiced_bt_lq_br_edr_stats',['../group__group__dev__data__structures.html#ga6acbf30d18802a29aaa21e85aca6edce',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5flq_5fle_5fstats',['wiced_bt_lq_le_stats',['../group__group__dev__data__structures.html#gaa01e655b8378258153a7d22e5658987a',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5flq_5fstats_5fresult_5ft',['wiced_bt_lq_stats_result_t',['../group__group__dev__data__structures.html#ga326efec01b5a3c3804d3cd9251f71dcf',1,'wiced_bt_dev.h']]],
@@ -209,14 +209,14 @@ var searchData=
   ['wiced_5fota_5ffirmware_5fupgrade_5fstatus_5fcallback_5ft',['wiced_ota_firmware_upgrade_status_callback_t',['../group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c',1,'wiced_bt_ota_firmware_upgrade.h']]],
   ['wiced_5fsleep_5fallow_5fcheck_5fcallback',['wiced_sleep_allow_check_callback',['../group__wiced__sleep__config.html#ga3e452b8636fb1cbd0c16b8eb720faf7f',1,'wiced_sleep.h']]],
   ['wiced_5fsleep_5fpost_5fsleep_5fcallback',['wiced_sleep_post_sleep_callback',['../group__wiced__sleep__config.html#gaf45fdcacf1587e936d10e03bc23544bc',1,'wiced_sleep.h']]],
-  ['wiced_5fspi_5ftransport_5fcfg_5ft',['wiced_spi_transport_cfg_t',['../group__group__transport__data__structures.html#gaeed65590365662edcaf94557f3adcdac',1,'wiced_transport.h']]],
+  ['wiced_5fspi_5ftransport_5fcfg_5ft',['wiced_spi_transport_cfg_t',['../group__group__transport__data__structures.html#ga860054a0c3716d7c3fbfafb945f95fe8',1,'wiced_transport.h']]],
   ['wiced_5fthread_5ffunction_5ft',['wiced_thread_function_t',['../group__group__rtos__data__structures.html#ga3f7d2890e3616cdc06876bacdbf8b8bc',1,'wiced_rtos.h']]],
   ['wiced_5ftranport_5fdata_5fhandler_5ft',['wiced_tranport_data_handler_t',['../group__group__transport__cback__functions.html#gac18db9b6503a1f1fd4ff237c5d4fccca',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5fbuffer_5fpool_5ft',['wiced_transport_buffer_pool_t',['../group__group___transport.html#ga4c42181f8444932c1076e589e4c7feef',1,'wiced_transport.h']]],
-  ['wiced_5ftransport_5fcfg_5ft',['wiced_transport_cfg_t',['../group__group__transport__data__structures.html#ga5c2e061533dec3f01346b1a75a4de6ae',1,'wiced_transport.h']]],
-  ['wiced_5ftransport_5finterface_5fcfg_5ft',['wiced_transport_interface_cfg_t',['../group__group__transport__data__structures.html#gaf339b1056c161f02a8899c0dc678c5ba',1,'wiced_transport.h']]],
-  ['wiced_5ftransport_5frx_5fbuff_5fpool_5fcfg_5ft',['wiced_transport_rx_buff_pool_cfg_t',['../group__group__transport__data__structures.html#gab57a9ee7fb4cff358cb7c5fbd7203304',1,'wiced_transport.h']]],
+  ['wiced_5ftransport_5fcfg_5ft',['wiced_transport_cfg_t',['../group__group__transport__data__structures.html#gabafd5ea7364e42cee9406c6ac91a13e1',1,'wiced_transport.h']]],
+  ['wiced_5ftransport_5finterface_5fcfg_5ft',['wiced_transport_interface_cfg_t',['../group__group__transport__data__structures.html#ga93b4d20b4b129e98b33ba19fede2522c',1,'wiced_transport.h']]],
+  ['wiced_5ftransport_5frx_5fbuff_5fpool_5fcfg_5ft',['wiced_transport_rx_buff_pool_cfg_t',['../group__group__transport__data__structures.html#ga47bcc45a399776492f8a8f855f61ffd7',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5fstatus_5fhandler_5ft',['wiced_transport_status_handler_t',['../group__group__transport__cback__functions.html#ga7b9d02d5fdbf9d3dd635d92be25d3372',1,'wiced_transport.h']]],
   ['wiced_5ftransport_5ftx_5fcomplete_5ft',['wiced_transport_tx_complete_t',['../group__group__transport__cback__functions.html#gaa346b15f3bee3902b565a13ab0f82815',1,'wiced_transport.h']]],
-  ['wiced_5fuart_5ftransport_5fcfg_5ft',['wiced_uart_transport_cfg_t',['../group__group__transport__data__structures.html#gaca3faba360b8896f50a38eee28b15a1d',1,'wiced_transport.h']]]
+  ['wiced_5fuart_5ftransport_5fcfg_5ft',['wiced_uart_transport_cfg_t',['../group__group__transport__data__structures.html#ga959a410de8346b87ed83148beab2eac4',1,'wiced_transport.h']]]
 ];

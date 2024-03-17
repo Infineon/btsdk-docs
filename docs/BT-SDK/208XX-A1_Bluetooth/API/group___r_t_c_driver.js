@@ -9,8 +9,8 @@ var group___r_t_c_driver =
       [ "year", "structwiced__rtc__time__t.html#a57ca98d8f6d4baf0fe41c583c7dcb0d5", null ]
     ] ],
     [ "wiced_real_time_clock_t", "unionwiced__real__time__clock__t.html", [
-      [ "wiced_reg16map", "unionwiced__real__time__clock__t.html#a731bfa1bd8f2bc35eae4b32914b117c0", null ],
-      [ "wiced_reg32map", "unionwiced__real__time__clock__t.html#a27e71b8a0375546fa6c7f7fcf9edbf92", null ],
+      [ "wiced_reg16map", "unionwiced__real__time__clock__t.html#a988a7013c570ccb4f75ed25b0a9b3343", null ],
+      [ "wiced_reg32map", "unionwiced__real__time__clock__t.html#a71acbde66fd23eb88fce93e13f3f1aef", null ],
       [ "wiced_rtc16", "unionwiced__real__time__clock__t.html#aebfd70f2532b89392414b8996f7f677c", null ],
       [ "wiced_rtc32", "unionwiced__real__time__clock__t.html#a94005da3772cdf63a1296664957d61f2", null ],
       [ "wiced_rtc64", "unionwiced__real__time__clock__t.html#aba9b7241334bcf5c065f9d350cd1b405", null ]

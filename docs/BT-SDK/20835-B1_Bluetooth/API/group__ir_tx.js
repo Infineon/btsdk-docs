@@ -1,4 +1,4 @@
 var group__ir_tx =
 [
-    [ "IR_TX_CLOCK_SETTING", "group__ir_tx.html#ga193eeb376a1f4b55ce8c8900bc63a171", null ]
+    [ "IR_TX_CLOCK_SETTING", "group__ir_tx.html#ga7f1006bd0b00a803da372bb5f213cd5b", null ]
 ];

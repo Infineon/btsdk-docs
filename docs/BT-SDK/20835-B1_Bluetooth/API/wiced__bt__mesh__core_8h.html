@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1038,6 +1038,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_core_se
 <tr class="memitem:ae868140a5416701caf3344d35a2e09ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__core_8h.html#ae868140a5416701caf3344d35a2e09ab">wiced_bt_mesh_set_inter_segment_delay</a> (uint8_t delay_ms)</td></tr>
 <tr class="memdesc:ae868140a5416701caf3344d35a2e09ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets intersegment delay.  <a href="#ae868140a5416701caf3344d35a2e09ab">More...</a><br /></td></tr>
 <tr class="separator:ae868140a5416701caf3344d35a2e09ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0494883416da4ecab9e1cb9cc9357b3"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__mesh__core_8h.html#aa0494883416da4ecab9e1cb9cc9357b3">wiced_bt_mesh_core_generate_kdk</a> (uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a88c79cd52cb7992eefd326dbdc584a64">net_key_idx</a>, uint8_t *p_kdk)</td></tr>
+<tr class="memdesc:aa0494883416da4ecab9e1cb9cc9357b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate key derivation key.  <a href="#aa0494883416da4ecab9e1cb9cc9357b3">More...</a><br /></td></tr>
+<tr class="separator:aa0494883416da4ecab9e1cb9cc9357b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1191,6 +1194,42 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_mesh_core
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa0494883416da4ecab9e1cb9cc9357b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_mesh_core_generate_kdk </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>net_key_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>p_kdk</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate key derivation key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">net_key_idx</td><td>Global net key index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">p_kdk</td><td>Buffer for output key 16 bytes length - key derivation key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_TRUE on success. WICED_FALSE on error </dd></dl>
 
 </div>
 </div>

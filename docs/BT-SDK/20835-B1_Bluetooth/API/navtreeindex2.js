@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group__group__hci__wiced__firmware__upgrade.html":[7,0,1],
 "group__group__ota__fw__upgrade__cback__functions.html":[7,0,2,0],
 "group__group__ota__fw__upgrade__cback__functions.html#ga67f04dc1001eb69f2e7cd0151b7a2a9c":[7,0,2,0,2],
 "group__group__ota__fw__upgrade__cback__functions.html#ga9da5e9daa4a12f226d46565316c0ef2d":[7,0,2,0,1],
@@ -70,7 +71,7 @@ var NAVTREEINDEX2 =
 "group__hidd__functions.html#gafdce39869e908fb16d17d5f0bcae2bc2":[7,1,10,0,4],
 "group__interfaces.html":[7,1,2],
 "group__ir_tx.html":[7,2,10],
-"group__ir_tx.html#ga193eeb376a1f4b55ce8c8900bc63a171":[7,2,10,0],
+"group__ir_tx.html#ga7f1006bd0b00a803da372bb5f213cd5b":[7,2,10,0],
 "group__keyscan.html":[7,2,11],
 "group__keyscan.html#ga2d049bb622878f77a709a3351012b332":[7,2,11,2],
 "group__keyscan.html#ga32c36da481a346183e95ae6536fd40dd":[7,2,11,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabada2732a60d7d79e94b73eb36adebd44d":[7,1,0,9,7],
 "group__wiced__bt__anc__api__functions.html#gga51a93e5ddf1112d81b0de5d70a315eabaea8cedc8ef3920abc8f00161a5476ee7":[7,1,0,9,3],
 "group__wiced__bt__ans__api__functions.html":[7,1,1],
-"group__wiced__bt__ans__api__functions.html#ga0598b331f799c38cc5e4c5885082a139":[7,1,1,11],
-"group__wiced__bt__ans__api__functions.html#ga0b0cb5b58e9c52546ec5c92fcb0715ad":[7,1,1,8]
+"group__wiced__bt__ans__api__functions.html#ga0598b331f799c38cc5e4c5885082a139":[7,1,1,11]
 };

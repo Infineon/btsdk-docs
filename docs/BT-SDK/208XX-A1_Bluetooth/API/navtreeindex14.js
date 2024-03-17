@@ -98,9 +98,9 @@ var NAVTREEINDEX14 =
 "unionwiced__bt__mesh__core__state__t.html#acaa6edef98b614cef817f565e14ff7e6":[7,1,12,1,14,12],
 "unionwiced__bt__mesh__core__state__t.html#acf2b44773d0f89e7131715fd5a9b3a9f":[7,1,12,1,14,2],
 "unionwiced__real__time__clock__t.html":[7,2,16,1],
-"unionwiced__real__time__clock__t.html#a27e71b8a0375546fa6c7f7fcf9edbf92":[7,2,16,1,1],
-"unionwiced__real__time__clock__t.html#a731bfa1bd8f2bc35eae4b32914b117c0":[7,2,16,1,0],
+"unionwiced__real__time__clock__t.html#a71acbde66fd23eb88fce93e13f3f1aef":[7,2,16,1,1],
 "unionwiced__real__time__clock__t.html#a94005da3772cdf63a1296664957d61f2":[7,2,16,1,3],
+"unionwiced__real__time__clock__t.html#a988a7013c570ccb4f75ed25b0a9b3343":[7,2,16,1,0],
 "unionwiced__real__time__clock__t.html#aba9b7241334bcf5c065f9d350cd1b405":[7,2,16,1,4],
 "unionwiced__real__time__clock__t.html#aebfd70f2532b89392414b8996f7f677c":[7,2,16,1,2]
 };

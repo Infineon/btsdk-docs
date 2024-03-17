@@ -1,8 +1,8 @@
 var group___adc_driver =
 [
-    [ "ADC_INPUT_CHANNEL_SEL", "group___adc_driver.html#gaa4976150b48f90759ae5974accc7fff9", null ],
-    [ "ADC_INPUT_RANGE_SEL", "group___adc_driver.html#ga69f587fca9336439180ef434d9acd334", null ],
-    [ "ADC_POWER_TYPE", "group___adc_driver.html#ga55d5e10af7be648275f0ceae272ec874", null ],
+    [ "ADC_INPUT_CHANNEL_SEL", "group___adc_driver.html#gae32acba427b51bcab729809ba709e0a1", null ],
+    [ "ADC_INPUT_RANGE_SEL", "group___adc_driver.html#ga9b2bec610c1af4cc399cfafeb1023a74", null ],
+    [ "ADC_POWER_TYPE", "group___adc_driver.html#gadf182f9c5ee6979ce429d9c9cbe18402", null ],
     [ "ADC_INPUT_CHANNEL_SEL", "group___adc_driver.html#ga2c8c0380970215eb31332b70837ab1d3", null ],
     [ "ADC_INPUT_RANGE_SEL", "group___adc_driver.html#ga054e4da0816f4702b6a9be0f5aa8be36", null ],
     [ "ADC_POWER_TYPE", "group___adc_driver.html#gae1a9eeccba0fdc4bf83869140fb5c82d", null ],

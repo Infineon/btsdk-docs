@@ -16,14 +16,14 @@ var NAVTREEINDEX =
 [
 "group___adc_driver.html",
 "group___peripheral_spi_driver.html#gaea5c4f8c05fc0aa9fcc0c8857d398eb1",
-"group__group__ota__fw__upgrade__cback__functions.html",
-"group__wiced__bt__ans__api__functions.html#ga20f16662faf2a254872d7d83d6dee956",
-"group__wiced__bt__mesh__core.html#gafd2c62f6207d6351a615b9b81ad2a5c4",
-"group__wiced__bt__mesh__models.html#gafbdf505bc971ee9057220c4eade174f1",
-"group__wiced__bt__mesh__time__client.html#gaf1fe46876cffbe1989672b13d659923a",
-"structwiced__bt__l2cap__cfg__information__t.html#a60affc11fe43fcba461a70fd7998c0e4",
-"structwiced__bt__mesh__light__delta__uv__set__level__t.html#adc4674f6ea53803d98fa2ec36759e77d",
-"structwiced__bt__mesh__provision__link__report__data__t.html#a2bf4dce1e1076f225dbf78a169d4a9c2"
+"group__group__hci__wiced__firmware__upgrade.html",
+"group__wiced__bt__ans__api__functions.html#ga0b0cb5b58e9c52546ec5c92fcb0715ad",
+"group__wiced__bt__mesh__core.html#gafca0c177ae3dc8f57c806a04a24e2370",
+"group__wiced__bt__mesh__models.html#gaf781844af8b171b5effb874f6da62b60",
+"group__wiced__bt__mesh__time__client.html#gaa307574cf2dba5cfad6814e67001e90b",
+"structwiced__bt__l2cap__cfg__information__t.html#a39cc0aefc2e65bb121fa1b0caa824b20",
+"structwiced__bt__mesh__light__delta__uv__set__level__t.html#a284a81478e29d96532d13ebd737d6b82",
+"structwiced__bt__mesh__provision__link__report__data__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

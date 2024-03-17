@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group__wiced__bt__mesh__time__client.html#gaa307574cf2dba5cfad6814e67001e90b":[7,1,11,2,101,6],
+"group__wiced__bt__mesh__time__client.html#gad57b2a6f9bcaeddf7c23416f5b9a8a3d":[7,1,11,2,101,9],
 "group__wiced__bt__mesh__time__client.html#gaf1fe46876cffbe1989672b13d659923a":[7,1,11,2,101,5],
 "group__wiced__bt__mesh__time__server.html":[7,1,11,2,102],
 "group__wiced__bt__mesh__time__server.html#ga04641ad0ab9bd3b29603037895f9a34a":[7,1,11,2,102,0],
@@ -16,13 +18,13 @@ var NAVTREEINDEX6 =
 "group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4":[7,0,6,11],
 "group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c":[7,0,6,3],
 "group__wiced__mem.html#ga700ea7baf2ff77e100976a7c618af06d":[7,0,6,5],
+"group__wiced__mem.html#ga7c9277458e794018b79819d996d9d516":[7,0,6,1],
 "group__wiced__mem.html#ga91142d1b1a2e64cfbcacae67aa24867a":[7,0,6,9],
 "group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2":[7,0,6,2],
 "group__wiced__mem.html#gaa4d8555484fe8d5616346704c0dbbba3":[7,0,6,12],
 "group__wiced__mem.html#gac03f1d6ec855f5a049ccfa7aa6fbd848":[7,0,6,8],
 "group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f":[7,0,6,10],
 "group__wiced__mem.html#gaf7917256a59255b51d6b3855d829beb8":[7,0,6,6],
-"group__wiced__mem.html#gaf8ba1fa5449ccf86d2b8a22062eccb06":[7,0,6,1],
 "group__wiced__sleep__config.html":[7,2,0],
 "group__wiced__sleep__config.html#ga1277ba41b4bb531b4fa37946cce534a0":[7,2,0,3],
 "group__wiced__sleep__config.html#ga31ceb537bdb6ed5a40c2eb69685242f6":[7,2,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "structwiced__bt__l2cap__appl__information__t.html#af120110b06f7e8e2881a049aec7d9606":[7,1,12,1,0,8],
 "structwiced__bt__l2cap__cfg__information__t.html":[7,1,12,2,1],
 "structwiced__bt__l2cap__cfg__information__t.html#a1e87af3c18a2fd36c61faf89949bdc3f":[7,1,12,2,1,4],
-"structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796":[7,1,12,2,1,7],
-"structwiced__bt__l2cap__cfg__information__t.html#a39cc0aefc2e65bb121fa1b0caa824b20":[7,1,12,2,1,9],
-"structwiced__bt__l2cap__cfg__information__t.html#a551cefcd48f2a929589e54d67f029107":[7,1,12,2,1,2]
+"structwiced__bt__l2cap__cfg__information__t.html#a2997a8aa5758871f81608a28ce97b796":[7,1,12,2,1,7]
 };
