@@ -6,5 +6,6 @@ var group__wicedsys =
     [ "AIROC Result Codes", "group___result.html", "group___result" ],
     [ "AIROC Trace Utilities", "group__wiced__utils.html", "group__wiced__utils" ],
     [ "Factory Config Library API", "group__wiced__bt__factory__config__api__functions.html", "group__wiced__bt__factory__config__api__functions" ],
+    [ "Generic Helper Macros", "group__helper.html", "group__helper" ],
     [ "Memory Management", "group__wiced__mem.html", "group__wiced__mem" ]
 ];

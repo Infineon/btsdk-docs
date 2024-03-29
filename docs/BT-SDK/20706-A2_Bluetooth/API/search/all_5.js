@@ -20,6 +20,8 @@ var searchData=
   ['err_5fparam',['err_param',['../structwiced__bt__avdt__evt__hdr__t.html#aaf9a0464c401c9866d26ecde335c937e',1,'wiced_bt_avdt_evt_hdr_t']]],
   ['established',['established',['../structwiced__bt__mesh__core__state__friendship__t.html#a2d695f519ef5b882b743f605b971423f',1,'wiced_bt_mesh_core_state_friendship_t']]],
   ['event_5fid',['event_id',['../structwiced__bt__avrc__reg__notif__cmd__t.html#aee539108cc019b56d4b942795e7f79f8',1,'wiced_bt_avrc_reg_notif_cmd_t::event_id()'],['../structwiced__bt__avrc__reg__notif__rsp__t.html#aee539108cc019b56d4b942795e7f79f8',1,'wiced_bt_avrc_reg_notif_rsp_t::event_id()']]],
+  ['event_20flags',['Event Flags',['../group__eventflags.html',1,'']]],
+  ['events',['Events',['../group__events.html',1,'']]],
   ['exec_5fwrite',['exec_write',['../unionwiced__bt__gatt__request__data__t.html#a51924c6528891bbd652edbc59f43fc99',1,'wiced_bt_gatt_request_data_t']]],
   ['extended_5foob_5fdata',['extended_oob_data',['../structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771',1,'wiced_bt_dev_remote_oob_t']]],
   ['extensions',['extensions',['../wiced__bt__mesh__core_8h.html#a1080ddea49768f4a77ad5123441f3599',1,'wiced_bt_mesh_core.h']]],

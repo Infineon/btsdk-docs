@@ -7,6 +7,7 @@ var group__sco__api__functions =
       [ "use_wbs", "structwiced__bt__sco__params__t.html#a2e75ea30290a80030360f3fae2027e7c", null ]
     ] ],
     [ "wiced_bt_voice_path_setup_t", "structwiced__bt__voice__path__setup__t.html", [
+      [ "p_sco_data_cb", "structwiced__bt__voice__path__setup__t.html#addc445796169b90f557f0e908099a197", null ],
       [ "path", "structwiced__bt__voice__path__setup__t.html#a725085f700f7dd01e24a0d3b22b5b730", null ]
     ] ],
     [ "wiced_bt_sco_accept_connection", "group__sco__api__functions.html#ga7c8ecc9a1333c1c5b4da60f1dd07d990", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['random_20number_20generator_20_28rng_29',['Random Number Generator (RNG)',['../group___random_number_generator.html',1,'']]],
-  ['rfcomm',['RFCOMM',['../group__rfcomm__api__functions.html',1,'']]],
-  ['rtcdriver',['RTCDriver',['../group___r_t_c_driver.html',1,'']]]
+  ['peripheral_20spi',['Peripheral SPI',['../group___peripheral_spi_driver.html',1,'']]],
+  ['peripheral_20uart_20_28puart_29',['Peripheral UART (PUART)',['../group___p_u_a_r_t_driver.html',1,'']]],
+  ['pulse_20width_20modulation_20_28pwm_29',['Pulse Width Modulation (PWM)',['../group___pwm_driver.html',1,'']]]
 ];

@@ -11,6 +11,7 @@ var searchData=
   ['airoc_20transport',['AIROC Transport',['../group___transport.html',1,'']]],
   ['anc_20library_20api',['ANC Library API',['../group__wiced__bt__anc__api__functions.html',1,'']]],
   ['ans_20library_20api',['ANS Library API',['../group__wiced__bt__ans__api__functions.html',1,'']]],
+  ['airoc_20sleep_20configuration',['AIROC Sleep Configuration',['../group__wiced__sleep__config.html',1,'']]],
   ['airoc_20trace_20utilities',['AIROC Trace Utilities',['../group__wiced__utils.html',1,'']]],
   ['advanced_20audio_20distribution_20profile_20_28a2dp_29_20sink',['Advanced Audio Distribution Profile (A2DP) Sink',['../group__wicedbt__a2dp.html',1,'']]],
   ['a2dp_20sbc_20support',['A2DP SBC Support',['../group__wicedbt__a2dp__sbc.html',1,'']]],

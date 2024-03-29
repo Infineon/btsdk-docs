@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sha2_2eh',['sha2.h',['../sha2_8h.html',1,'']]]
+  ['hci_5fcontrol_5fapi_2eh',['hci_control_api.h',['../hci__control__api_8h.html',1,'']]]
 ];

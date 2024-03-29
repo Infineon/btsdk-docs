@@ -106,12 +106,14 @@ var searchData=
   ['get_5fplay_5fstatus',['get_play_status',['../unionwiced__bt__avrc__command__t.html#aea01a661534f9a4b6cd21a0603c20be8',1,'wiced_bt_avrc_command_t::get_play_status()'],['../unionwiced__bt__avrc__response__t.html#af7dc01946c0f42d7c6f3c4c9d80293ff',1,'wiced_bt_avrc_response_t::get_play_status()']]],
   ['get_5ftranstime_5fin_5fms',['get_transtime_in_ms',['../wiced__bt__mesh__model__utils_8h.html#a6d202928acdcc5e2b35fd75ec391e9d6',1,'wiced_bt_mesh_model_utils.h']]],
   ['getcap_5fcfm',['getcap_cfm',['../unionwiced__bt__avdt__ctrl__t.html#aa9c4406226351357813664fdb9c2ca6e',1,'wiced_bt_avdt_ctrl_t']]],
+  ['gives',['GIVES',['../brcm__fw__types_8h.html#af19be884c564a49c72525f700fe0af1d',1,'brcm_fw_types.h']]],
   ['gki',['GKI',['../group___g_k_i.html',1,'']]],
   ['global_5faltitude',['global_altitude',['../structwiced__bt__mesh__location__global__data__t.html#a321fbb281452ac3b9f2c4e6f7b6786a7',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flatitude',['global_latitude',['../structwiced__bt__mesh__location__global__data__t.html#a15fb15d1c0ba48ac264c80e36cc63f57',1,'wiced_bt_mesh_location_global_data_t']]],
   ['global_5flongitude',['global_longitude',['../structwiced__bt__mesh__location__global__data__t.html#a29cf5a10ba0bcce46865b560791c8bc4',1,'wiced_bt_mesh_location_global_data_t']]],
   ['gpio',['GPIO',['../group___g_p_i_o_driver.html',1,'']]],
   ['group_5fvalue',['group_value',['../unionwiced__bt__gatt__discovery__data__t.html#adeb0bec218c2e7c57a46b262ec33e26c',1,'wiced_bt_gatt_discovery_data_t']]],
+  ['generic_20helper_20macros',['Generic Helper Macros',['../group__helper.html',1,'']]],
   ['generic_20attribute_20_28gatt_29',['Generic Attribute (GATT)',['../group__wicedbt__gatt.html',1,'']]],
   ['gatt_20utilities',['GATT Utilities',['../group__wicedbt__gatt__utils.html',1,'']]]
 ];

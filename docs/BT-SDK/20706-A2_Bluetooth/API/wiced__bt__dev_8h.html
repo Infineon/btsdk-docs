@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -396,6 +396,9 @@ Macros</h2></td></tr>
 <tr class="memitem:afb3890e896ff30a4bedbe6aa3e28ac11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb3890e896ff30a4bedbe6aa3e28ac11"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_default_link_super_tout</b>&#160;&#160;&#160;BTM_SetDefaultLinkSuperTout</td></tr>
 <tr class="separator:afb3890e896ff30a4bedbe6aa3e28ac11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d98692e126d9d72f8e8dcc6d155ff28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d98692e126d9d72f8e8dcc6d155ff28"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_register_vse_callback</b>(cb)&#160;&#160;&#160;BTM_RegisterForVSEvents(cb, 1)</td></tr>
+<tr class="separator:a5d98692e126d9d72f8e8dcc6d155ff28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -475,6 +478,9 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="memitem:a7a9c3da3a9578a2e2f9275e8b0490d98"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a7a9c3da3a9578a2e2f9275e8b0490d98">wiced_bt_remote_name_cback_t</a> )(<a class="el" href="structwiced__bt__dev__remote__name__result__t.html">wiced_bt_dev_remote_name_result_t</a> *p_remote_name_result)</td></tr>
 <tr class="memdesc:a7a9c3da3a9578a2e2f9275e8b0490d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remote name result callback.  <a href="#a7a9c3da3a9578a2e2f9275e8b0490d98">More...</a><br /></td></tr>
 <tr class="separator:a7a9c3da3a9578a2e2f9275e8b0490d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a2e878a83923b8c96e8c37c82c9c96dbf">wiced_bt_dev_vse_callback_t</a> )(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p)</td></tr>
+<tr class="memdesc:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vendor event handler callback.  <a href="#a2e878a83923b8c96e8c37c82c9c96dbf">More...</a><br /></td></tr>
+<tr class="separator:a2e878a83923b8c96e8c37c82c9c96dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97953398baa0fc214c8af02444b2b9e"><td class="memItemLeft" align="right" valign="top">typedef void(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#ae97953398baa0fc214c8af02444b2b9e">wiced_bt_hci_trace_cback_t</a> )(<a class="el" href="wiced__bt__dev_8h.html#aa76569d7be1ed9ff5262e81b3b651325">wiced_bt_hci_trace_type_t</a> <a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>, uint16_t length, uint8_t *p_data)</td></tr>
 <tr class="memdesc:ae97953398baa0fc214c8af02444b2b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HCI trace callback.  <a href="#ae97953398baa0fc214c8af02444b2b9e">More...</a><br /></td></tr>
 <tr class="separator:ae97953398baa0fc214c8af02444b2b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -936,12 +942,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a55401bb1094abdc2047b24b78e1462ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a55401bb1094abdc2047b24b78e1462ea">wiced_bt_ble_set_adv_tx_power</a> (INT8 power)</td></tr>
 <tr class="memdesc:a55401bb1094abdc2047b24b78e1462ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_ble_set_adv_tx_power.  <a href="#a55401bb1094abdc2047b24b78e1462ea">More...</a><br /></td></tr>
 <tr class="separator:a55401bb1094abdc2047b24b78e1462ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8263c58ec739238cab4fb9d603fbd488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a8263c58ec739238cab4fb9d603fbd488">wiced_bt_dev_configure_secure_connections_only_mode</a> (void)</td></tr>
+<tr class="memdesc:a8263c58ec739238cab4fb9d603fbd488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_configure_secure_connections_only_mode.  <a href="#a8263c58ec739238cab4fb9d603fbd488">More...</a><br /></td></tr>
+<tr class="separator:a8263c58ec739238cab4fb9d603fbd488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a580210a970a52c39fca816ccfd0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a48a580210a970a52c39fca816ccfd0d7">wiced_bt_dev_read_tx_power</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport, <a class="el" href="wiced__bt__dev_8h.html#ab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
 <tr class="memdesc:a48a580210a970a52c39fca816ccfd0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_read_tx_power.  <a href="#a48a580210a970a52c39fca816ccfd0d7">More...</a><br /></td></tr>
 <tr class="separator:a48a580210a970a52c39fca816ccfd0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab3571b01d21890d067c1ffd33581401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aab3571b01d21890d067c1ffd33581401">wiced_bt_dev_set_default_link_super_tout</a> (uint16_t timeout)</td></tr>
 <tr class="memdesc:aab3571b01d21890d067c1ffd33581401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_default_link_super_tout.  <a href="#aab3571b01d21890d067c1ffd33581401">More...</a><br /></td></tr>
 <tr class="separator:aab3571b01d21890d067c1ffd33581401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717e3b25e239c8bd792eebd2776a8f6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a717e3b25e239c8bd792eebd2776a8f6d"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_RegisterForVSEvents</b> (<a class="el" href="wiced__bt__dev_8h.html#a2e878a83923b8c96e8c37c82c9c96dbf">wiced_bt_dev_vse_callback_t</a> *p_cb, BOOLEAN is_register)</td></tr>
+<tr class="separator:a717e3b25e239c8bd792eebd2776a8f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -1095,6 +1107,27 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Nothing </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2e878a83923b8c96e8c37c82c9c96dbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void( wiced_bt_dev_vse_callback_t)(uint8_t <a class="el" href="wiced__bt__gatt_8h.html#a5723e60ffd628510c699eddbce90be23">len</a>, uint8_t *p)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vendor event handler callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">len</td><td>: input data length </td></tr>
+    <tr><td class="paramname">p</td><td>: input data </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2101,6 +2134,27 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8263c58ec739238cab4fb9d603fbd488"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_bt_dev_configure_secure_connections_only_mode </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_configure_secure_connections_only_mode. </p>
+<p>Configure device to allow connections only with secure connections supported devices</p>
+<dl class="section note"><dt>Note</dt><dd>API must be called only once after BTM_ENABLED_EVT event received, before starting bluetooth activity</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('wiced__bt__sco_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -117,9 +118,63 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ga49d734e161b737d295da9de4fa72a727"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga49d734e161b737d295da9de4fa72a727"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_ACCEPT</b>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:ga49d734e161b737d295da9de4fa72a727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02079c0bf5602a19c6d2c05c4f1626b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga02079c0bf5602a19c6d2c05c4f1626b2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_RESOURCES</b>&#160;&#160;&#160;0x0D</td></tr>
+<tr class="separator:ga02079c0bf5602a19c6d2c05c4f1626b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga961d131fe75c05d30b53b74078cd2dba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga961d131fe75c05d30b53b74078cd2dba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_SECURITY</b>&#160;&#160;&#160;0x0E</td></tr>
+<tr class="separator:ga961d131fe75c05d30b53b74078cd2dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e375ab538464fd21b95caa3890056a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2e375ab538464fd21b95caa3890056a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_CONNECTION_REJECT_DEVICE</b>&#160;&#160;&#160;0x0F</td></tr>
+<tr class="separator:ga2e375ab538464fd21b95caa3890056a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3814708e5171cbf34f1bfee832f4e02e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3814708e5171cbf34f1bfee832f4e02e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_INVALID_SCO_INDEX</b>&#160;&#160;&#160;0xFFFF</td></tr>
+<tr class="separator:ga3814708e5171cbf34f1bfee832f4e02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8bdbcc0442842fafdf7cc9747b3d2ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad8bdbcc0442842fafdf7cc9747b3d2ba"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_LINK_ALL_PKT_MASK</b>&#160;&#160;&#160;0x003F</td></tr>
+<tr class="separator:gad8bdbcc0442842fafdf7cc9747b3d2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b582522a943aeb67e2ee7b906862aad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9b582522a943aeb67e2ee7b906862aad"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_LINK_ONLY_MASK</b>&#160;&#160;&#160;0x0007</td></tr>
+<tr class="separator:ga9b582522a943aeb67e2ee7b906862aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb5ee4295683cb8f50b496318011841f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacb5ee4295683cb8f50b496318011841f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_HV3</b>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="separator:gacb5ee4295683cb8f50b496318011841f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b4e06cd487a5f1e744747995102ed11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0b4e06cd487a5f1e744747995102ed11"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_EV3</b>&#160;&#160;&#160;0x0008</td></tr>
+<tr class="separator:ga0b4e06cd487a5f1e744747995102ed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc8e4eafcb9c1db54e681561ba03587b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafc8e4eafcb9c1db54e681561ba03587b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_EV4</b>&#160;&#160;&#160;0x0010</td></tr>
+<tr class="separator:gafc8e4eafcb9c1db54e681561ba03587b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57b08cf3e9083d45ebc7c4df551f0d69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga57b08cf3e9083d45ebc7c4df551f0d69"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_EV5</b>&#160;&#160;&#160;0x0020</td></tr>
+<tr class="separator:ga57b08cf3e9083d45ebc7c4df551f0d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc4d7b0c150084f7c02719e21fc714f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabc4d7b0c150084f7c02719e21fc714f1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_NO_2_EV3</b>&#160;&#160;&#160;0x0040</td></tr>
+<tr class="separator:gabc4d7b0c150084f7c02719e21fc714f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada1bbc05f33e6598085fc5684dde2aab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gada1bbc05f33e6598085fc5684dde2aab"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_NO_3_EV3</b>&#160;&#160;&#160;0x0080</td></tr>
+<tr class="separator:gada1bbc05f33e6598085fc5684dde2aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf96df28e67a977311d78e9345420a1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadf96df28e67a977311d78e9345420a1a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_NO_2_EV5</b>&#160;&#160;&#160;0x0100</td></tr>
+<tr class="separator:gadf96df28e67a977311d78e9345420a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27dd611918b66dda74daf54abd072d87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga27dd611918b66dda74daf54abd072d87"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_SCO_PKT_TYPES_MASK_NO_3_EV5</b>&#160;&#160;&#160;0x0200</td></tr>
+<tr class="separator:ga27dd611918b66dda74daf54abd072d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga790bb3988e26ca2335c728a350c63736"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga790bb3988e26ca2335c728a350c63736"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>WICED_BT_SCO_DATA_CB_GET_LENGTH</b>(ltch_len)&#160;&#160;&#160;((ltch_len&gt;&gt;8)&amp;0xff)</td></tr>
 <tr class="separator:ga790bb3988e26ca2335c728a350c63736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga142f32c995e68ede52065193069d84f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga142f32c995e68ede52065193069d84f3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_sco_create_as_acceptor_with_specific_ag</b>(ag_addr, p_sco_index)&#160;&#160;&#160;BTM_CreateSco(ag_addr, 0, 0, p_sco_index)</td></tr>
+<tr class="separator:ga142f32c995e68ede52065193069d84f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga33fcdeba6efc998d5d98ebc88e524a56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga33fcdeba6efc998d5d98ebc88e524a56"></a>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_sco_data_cb_t</b> )(uint32_t ltch_len, uint8_t *p_data)</td></tr>
+<tr class="separator:ga33fcdeba6efc998d5d98ebc88e524a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -150,6 +205,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae8704d3d0ef9c0ad9d789b6b2db4eda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#gae8704d3d0ef9c0ad9d789b6b2db4eda8">wiced_bt_sco_turn_off_pcm_clock</a> (void)</td></tr>
 <tr class="memdesc:gae8704d3d0ef9c0ad9d789b6b2db4eda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_sco_turn_off_pcm_clock.  <a href="group__sco__api__functions.html#gae8704d3d0ef9c0ad9d789b6b2db4eda8">More...</a><br /></td></tr>
 <tr class="separator:gae8704d3d0ef9c0ad9d789b6b2db4eda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0438d466579735aa5c4b1b5c5004f58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa0438d466579735aa5c4b1b5c5004f58"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_CreateSco</b> (BD_ADDR remote_bda, BOOLEAN is_orig, UINT16 pkt_types, UINT16 *p_sco_inx)</td></tr>
+<tr class="separator:gaa0438d466579735aa5c4b1b5c5004f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Synchronous Connection Oriented Channel Application Programming Interface. </p>

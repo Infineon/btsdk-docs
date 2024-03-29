@@ -1,10 +1,14 @@
 var searchData=
 [
   ['bd_5faddr_5flen',['BD_ADDR_LEN',['../wiced__bt__types_8h.html#adc5356a86213ced2eebbc50b6251f6fe',1,'wiced_bt_types.h']]],
+  ['big_5fto_5fcpu_5fendian_5f16',['BIG_TO_CPU_ENDIAN_16',['../brcm__fw__types_8h.html#a8026f833c2610fa119cef290da1a67ca',1,'brcm_fw_types.h']]],
+  ['big_5fto_5fcpu_5fendian_5f32',['BIG_TO_CPU_ENDIAN_32',['../brcm__fw__types_8h.html#aae0691e650b93b8e06e343698f16df48',1,'brcm_fw_types.h']]],
+  ['big_5fto_5fcpu_5fendian_5f64',['BIG_TO_CPU_ENDIAN_64',['../brcm__fw__types_8h.html#a7c025e66ea19b65046d5a2ffae25a6c1',1,'brcm_fw_types.h']]],
   ['ble_5faddr_5fpublic',['BLE_ADDR_PUBLIC',['../wiced__bt__types_8h.html#a409fbb547f9650620650b5301df0e2ff',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5fpublic_5fid',['BLE_ADDR_PUBLIC_ID',['../wiced__bt__types_8h.html#a5ac125aff51458f57329826c93ca922a',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5frandom',['BLE_ADDR_RANDOM',['../wiced__bt__types_8h.html#a9e3dbc812e83ed3d950980bf5f09d332',1,'wiced_bt_types.h']]],
   ['ble_5faddr_5frandom_5fid',['BLE_ADDR_RANDOM_ID',['../wiced__bt__types_8h.html#a9c8a7e2651e9ff47b802b09c21b3da3d',1,'wiced_bt_types.h']]],
+  ['bool',['bool',['../brcm__fw__types_8h.html#abb452686968e48b67397da5f97445f5b',1,'brcm_fw_types.h']]],
   ['bt_5fdevice_5ftype_5fble',['BT_DEVICE_TYPE_BLE',['../wiced__bt__types_8h.html#ae47c99f8875480ca46378a3d0cb085ad',1,'wiced_bt_types.h']]],
   ['bt_5fdevice_5ftype_5fbredr',['BT_DEVICE_TYPE_BREDR',['../wiced__bt__types_8h.html#ab37c53399e5d0c4ce577ce756b9c0e96',1,'wiced_bt_types.h']]],
   ['bt_5fdevice_5ftype_5fbredr_5fble',['BT_DEVICE_TYPE_BREDR_BLE',['../wiced__bt__types_8h.html#a1dd9130deeb116b9b937b236ac799f4a',1,'wiced_bt_types.h']]],

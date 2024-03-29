@@ -93,6 +93,7 @@ var searchData=
   ['perm',['perm',['../wiced__bt__gatt_8h.html#a85c6d9f65723c0bdd021adc0750aaaac',1,'wiced_bt_gatt.h']]],
   ['phase',['phase',['../wiced__bt__mesh__provision_8h.html#a8f0aef86d47e45a899f77a8bb89d6432',1,'wiced_bt_mesh_provision.h']]],
   ['pin_5frequest',['pin_request',['../unionwiced__bt__management__evt__data__t.html#a2576a3a911a65909fe306f6da8c836f8',1,'wiced_bt_management_evt_data_t']]],
+  ['place_5fin_5falways_5fon_5fram',['PLACE_IN_ALWAYS_ON_RAM',['../brcm__fw__types_8h.html#ae8c1f1f1d6306b3d2e6dd7dde7609e8f',1,'brcm_fw_types.h']]],
   ['play_5fitem',['play_item',['../unionwiced__bt__avrc__command__t.html#a8f1ba4c561beb6dbc638efd3114fdc29',1,'wiced_bt_avrc_command_t::play_item()'],['../unionwiced__bt__avrc__response__t.html#a325b13391da02d04163a149ba7deca56',1,'wiced_bt_avrc_response_t::play_item()']]],
   ['play_5fstatus',['play_status',['../structwiced__bt__avrc__item__player__t.html#a180287f5752c4687ef249dbe95e3f373',1,'wiced_bt_avrc_item_player_t::play_status()'],['../structwiced__bt__avrc__get__play__status__rsp__t.html#a180287f5752c4687ef249dbe95e3f373',1,'wiced_bt_avrc_get_play_status_rsp_t::play_status()']]],
   ['playable',['playable',['../structwiced__bt__avrc__item__folder__t.html#a80789497f41c25c1ebc80ec95c51d9f6',1,'wiced_bt_avrc_item_folder_t']]],

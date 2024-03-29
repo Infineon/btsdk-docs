@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['false',['FALSE',['../brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1',1,'brcm_fw_types.h']]],
   ['fast_5fcadence_5fhigh',['fast_cadence_high',['../structwiced__bt__mesh__sensor__config__cadence__t.html#ae54f82eb86fbd5218802571db540ce18',1,'wiced_bt_mesh_sensor_config_cadence_t::fast_cadence_high()'],['../structwiced__bt__mesh__sensor__cadence__t.html#ae54f82eb86fbd5218802571db540ce18',1,'wiced_bt_mesh_sensor_cadence_t::fast_cadence_high()']]],
   ['fast_5fcadence_5flow',['fast_cadence_low',['../structwiced__bt__mesh__sensor__config__cadence__t.html#af8b5d1267869e7dd129210979d5189f9',1,'wiced_bt_mesh_sensor_config_cadence_t::fast_cadence_low()'],['../structwiced__bt__mesh__sensor__cadence__t.html#af8b5d1267869e7dd129210979d5189f9',1,'wiced_bt_mesh_sensor_cadence_t::fast_cadence_low()']]],
   ['fast_5fcadence_5fperiod_5fdivisor',['fast_cadence_period_divisor',['../structwiced__bt__mesh__sensor__config__cadence__t.html#a156459577a86ed2743f55656f93bfa4d',1,'wiced_bt_mesh_sensor_config_cadence_t::fast_cadence_period_divisor()'],['../structwiced__bt__mesh__sensor__cadence__t.html#a156459577a86ed2743f55656f93bfa4d',1,'wiced_bt_mesh_sensor_cadence_t::fast_cadence_period_divisor()']]],

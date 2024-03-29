@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -1390,7 +1390,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_RSP</b>&#160;&#160;&#160;AVCT_RSP        /* Response message */</td></tr>
 <tr class="separator:a26b9cefa036463b8168f1bc4ebda37fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a6feeab27b61d5a233dd94b111a2606"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a6feeab27b61d5a233dd94b111a2606"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_CAP_ID</b>(a)&#160;&#160;&#160;(((a == <a class="el" href="wiced__bt__avrc__defs_8h.html#a10454b8709777a16ec736ea8f0cd0a6c">AVRC_CAP_COMPANY_ID</a>) || (a == <a class="el" href="wiced__bt__avrc__defs_8h.html#a0a9e48b6a65212153120de778550ce48">AVRC_CAP_EVENTS_SUPPORTED</a>)) ? TRUE : FALSE)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_CAP_ID</b>(a)&#160;&#160;&#160;(((a == <a class="el" href="wiced__bt__avrc__defs_8h.html#a10454b8709777a16ec736ea8f0cd0a6c">AVRC_CAP_COMPANY_ID</a>) || (a == <a class="el" href="wiced__bt__avrc__defs_8h.html#a0a9e48b6a65212153120de778550ce48">AVRC_CAP_EVENTS_SUPPORTED</a>)) ? <a class="el" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="el" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
 <tr class="separator:a5a6feeab27b61d5a233dd94b111a2606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a001b64093ab9262a16e6a1735bae1d74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_EVENT_ID</b>(a)</td></tr>
 <tr class="separator:a001b64093ab9262a16e6a1735bae1d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1399,13 +1399,13 @@ Macros</h2></td></tr>
 <tr class="memitem:ab6f34f2d52ed232e3a31e9c07e765b3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_MEDIA_ATTRIBUTE</b>(a)</td></tr>
 <tr class="separator:ab6f34f2d52ed232e3a31e9c07e765b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a913a0a7c64ef8d9e045f15ccc03372a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a913a0a7c64ef8d9e045f15ccc03372a6"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_BATTERY_STATUS</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#ad82f0a5382637370ab63d164274f2ab8">AVRC_BATTERY_STATUS_FULL_CHARGE</a>) ? TRUE : FALSE)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_BATTERY_STATUS</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#ad82f0a5382637370ab63d164274f2ab8">AVRC_BATTERY_STATUS_FULL_CHARGE</a>) ? <a class="el" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="el" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
 <tr class="separator:a913a0a7c64ef8d9e045f15ccc03372a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a71e259e9b2f2a4889388b2387e0b47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a71e259e9b2f2a4889388b2387e0b47"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_SYSTEM_STATUS</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#ab543d277b032e313333e244bc2f51a60">AVRC_SYSTEMSTATE_PWR_UNPLUGGED</a>) ? TRUE : FALSE)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_SYSTEM_STATUS</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#ab543d277b032e313333e244bc2f51a60">AVRC_SYSTEMSTATE_PWR_UNPLUGGED</a>) ? <a class="el" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="el" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
 <tr class="separator:a0a71e259e9b2f2a4889388b2387e0b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae40c55aab34ea780186a0af2cea05772"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae40c55aab34ea780186a0af2cea05772"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_GROUP</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#a38208a31f4abf47839c6f644b7993815">AVRC_PDU_PREV_GROUP</a>) ? TRUE : FALSE)</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_IS_VALID_GROUP</b>(a)&#160;&#160;&#160;((a &lt;= <a class="el" href="wiced__bt__avrc__defs_8h.html#a38208a31f4abf47839c6f644b7993815">AVRC_PDU_PREV_GROUP</a>) ? <a class="el" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="el" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
 <tr class="separator:ae40c55aab34ea780186a0af2cea05772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d986819bc350eb083bc80df3be9f7ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d986819bc350eb083bc80df3be9f7ef"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>AVRC_MAX_APP_ATTR_SIZE</b>&#160;&#160;&#160;16</td></tr>
@@ -2240,8 +2240,10 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(((a &lt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#a8828765038db6197435b89af97301851">AVRC_PLAYER_SETTING_SCAN</a>) || \</div>
-<div class="line">                                               (a &gt;= AVRC_PLAYER_SETTING_LOW_MENU_EXT)) ? TRUE : FALSE)</div>
+<div class="line">                                               (a &gt;= AVRC_PLAYER_SETTING_LOW_MENU_EXT)) ? <a class="code" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="code" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</div>
 <div class="ttc" id="wiced__bt__avrc__defs_8h_html_a8828765038db6197435b89af97301851"><div class="ttname"><a href="wiced__bt__avrc__defs_8h.html#a8828765038db6197435b89af97301851">AVRC_PLAYER_SETTING_SCAN</a></div><div class="ttdeci">#define AVRC_PLAYER_SETTING_SCAN</div><div class="ttdoc">Scan On/Off status. </div><div class="ttdef"><b>Definition:</b> wiced_bt_avrc_defs.h:324</div></div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdoc">Macro representing a boolean true condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:184</div></div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdoc">Macro representing a boolean false condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:187</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2259,9 +2261,11 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(((a &gt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#ace262cbd074899765912190d6c8a806e">AVRC_EVT_PLAY_STATUS_CHANGE</a>) &amp;&amp; \</div>
-<div class="line">                                              (a &lt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#ab0ef3dc2fbf61619e022ed023765375f">AVRC_EVT_VOLUME_CHANGE</a>)) ? TRUE : FALSE)</div>
+<div class="line">                                              (a &lt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#ab0ef3dc2fbf61619e022ed023765375f">AVRC_EVT_VOLUME_CHANGE</a>)) ? <a class="code" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="code" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</div>
 <div class="ttc" id="wiced__bt__avrc__defs_8h_html_ace262cbd074899765912190d6c8a806e"><div class="ttname"><a href="wiced__bt__avrc__defs_8h.html#ace262cbd074899765912190d6c8a806e">AVRC_EVT_PLAY_STATUS_CHANGE</a></div><div class="ttdeci">#define AVRC_EVT_PLAY_STATUS_CHANGE</div><div class="ttdoc">Playback Status Changed. </div><div class="ttdef"><b>Definition:</b> wiced_bt_avrc_defs.h:389</div></div>
 <div class="ttc" id="wiced__bt__avrc__defs_8h_html_ab0ef3dc2fbf61619e022ed023765375f"><div class="ttname"><a href="wiced__bt__avrc__defs_8h.html#ab0ef3dc2fbf61619e022ed023765375f">AVRC_EVT_VOLUME_CHANGE</a></div><div class="ttdeci">#define AVRC_EVT_VOLUME_CHANGE</div><div class="ttdoc">Notify Volume Change (AVRCP 1.4) </div><div class="ttdef"><b>Definition:</b> wiced_bt_avrc_defs.h:401</div></div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdoc">Macro representing a boolean true condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:184</div></div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdoc">Macro representing a boolean false condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:187</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2279,8 +2283,10 @@ typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_a
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">((a &gt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#a6f203ce0c564f1f8aa6a466d8fe86775">AVRC_MEDIA_ATTR_ID_TITLE</a>) &amp;&amp; \</div>
-<div class="line">                                             (a &lt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#a5c5e38a290f8d094c849fb133a79c351">AVRC_MEDIA_ATTR_ID_PLAYING_TIME</a>) ? TRUE : FALSE)</div>
+<div class="line">                                             (a &lt;= <a class="code" href="wiced__bt__avrc__defs_8h.html#a5c5e38a290f8d094c849fb133a79c351">AVRC_MEDIA_ATTR_ID_PLAYING_TIME</a>) ? <a class="code" href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a> : <a class="code" href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="brcm__fw__types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdoc">Macro representing a boolean true condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:184</div></div>
 <div class="ttc" id="wiced__bt__avrc__defs_8h_html_a6f203ce0c564f1f8aa6a466d8fe86775"><div class="ttname"><a href="wiced__bt__avrc__defs_8h.html#a6f203ce0c564f1f8aa6a466d8fe86775">AVRC_MEDIA_ATTR_ID_TITLE</a></div><div class="ttdeci">#define AVRC_MEDIA_ATTR_ID_TITLE</div><div class="ttdoc">Text field representing the title, song name or content description coded per specified character set...</div><div class="ttdef"><b>Definition:</b> wiced_bt_avrc_defs.h:357</div></div>
+<div class="ttc" id="brcm__fw__types_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="brcm__fw__types_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdoc">Macro representing a boolean false condition. </div><div class="ttdef"><b>Definition:</b> brcm_fw_types.h:187</div></div>
 <div class="ttc" id="wiced__bt__avrc__defs_8h_html_a5c5e38a290f8d094c849fb133a79c351"><div class="ttname"><a href="wiced__bt__avrc__defs_8h.html#a5c5e38a290f8d094c849fb133a79c351">AVRC_MEDIA_ATTR_ID_PLAYING_TIME</a></div><div class="ttdeci">#define AVRC_MEDIA_ATTR_ID_PLAYING_TIME</div><div class="ttdoc">Numeric ASCII string containing the length of the audio file in milliseconds. </div><div class="ttdef"><b>Definition:</b> wiced_bt_avrc_defs.h:363</div></div>
 </div><!-- fragment -->
 </div>

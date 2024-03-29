@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.1 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -105,7 +105,11 @@ $(document).ready(function(){initNavTree('wiced__memory_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga7dc39a43da5377d46c43f59cd55a0dac"><td class="memItemLeft" ><a class="anchor" id="ga7dc39a43da5377d46c43f59cd55a0dac"></a>
+<tr class="memitem:ga2b2c44f89a2b95de21e2b90ac8d715ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2b2c44f89a2b95de21e2b90ac8d715ad"></a>
+typedef struct wiced_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga2b2c44f89a2b95de21e2b90ac8d715ad">wiced_bt_buffer_pool_t</a></td></tr>
+<tr class="memdesc:ga2b2c44f89a2b95de21e2b90ac8d715ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced buffer pool <br /></td></tr>
+<tr class="separator:ga2b2c44f89a2b95de21e2b90ac8d715ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ccafcbf75faf30099915ade5596ab37"><td class="memItemLeft" ><a class="anchor" id="ga5ccafcbf75faf30099915ade5596ab37"></a>
 struct {</td></tr>
 <tr class="memitem:a41a59945291a60c900ac520531d7ef6b"><td class="memItemLeft" ><a class="anchor" id="a41a59945291a60c900ac520531d7ef6b"></a>
 &#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="wiced__memory_8h.html#a41a59945291a60c900ac520531d7ef6b">pool_id</a></td></tr>
@@ -127,23 +131,25 @@ struct {</td></tr>
 &#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="wiced__memory_8h.html#a15de6b51ea571c4a69626f8068b62396">total_count</a></td></tr>
 <tr class="memdesc:a15de6b51ea571c4a69626f8068b62396"><td class="mdescLeft">&#160;</td><td class="mdescRight">total number of buffers <br /></td></tr>
 <tr class="separator:a15de6b51ea571c4a69626f8068b62396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7dc39a43da5377d46c43f59cd55a0dac"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga7dc39a43da5377d46c43f59cd55a0dac">wiced_bt_buffer_statistics_t</a></td></tr>
-<tr class="memdesc:ga7dc39a43da5377d46c43f59cd55a0dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIRCC Bluetooth dynamic buffer statistics. <br /></td></tr>
-<tr class="separator:ga7dc39a43da5377d46c43f59cd55a0dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2a8a7f9b47f51538d6096cf80598b56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab2a8a7f9b47f51538d6096cf80598b56"></a>
-typedef struct _wiced_buffer_pool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gab2a8a7f9b47f51538d6096cf80598b56">wiced_bt_buffer_pool_t</a></td></tr>
-<tr class="memdesc:gab2a8a7f9b47f51538d6096cf80598b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">wiced buffer pool <br /></td></tr>
-<tr class="separator:gab2a8a7f9b47f51538d6096cf80598b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ccafcbf75faf30099915ade5596ab37"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga5ccafcbf75faf30099915ade5596ab37">wiced_bt_buffer_statistics_t</a></td></tr>
+<tr class="memdesc:ga5ccafcbf75faf30099915ade5596ab37"><td class="mdescLeft">&#160;</td><td class="mdescRight">AIROC Bluetooth dynamic buffer statistics. <br /></td></tr>
+<tr class="separator:ga5ccafcbf75faf30099915ade5596ab37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga60afb6b14c3a5fb698e1fa28b45d4f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wiced__mem.html#gab2a8a7f9b47f51538d6096cf80598b56">wiced_bt_buffer_pool_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c">wiced_bt_create_pool</a> (uint32_t buffer_size, uint32_t buffer_cnt)</td></tr>
+<tr class="memitem:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f">wiced_memory_get_free_bytes</a> (void)</td></tr>
+<tr class="memdesc:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_get_free_bytes.  <a href="group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f">More...</a><br /></td></tr>
+<tr class="separator:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4d8555484fe8d5616346704c0dbbba3"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gaa4d8555484fe8d5616346704c0dbbba3">wiced_memory_set_application_thread_stack_size</a> (uint16_t new_stack_size)</td></tr>
+<tr class="memdesc:gaa4d8555484fe8d5616346704c0dbbba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_set_application_thread_stack_size.  <a href="group__wiced__mem.html#gaa4d8555484fe8d5616346704c0dbbba3">More...</a><br /></td></tr>
+<tr class="separator:gaa4d8555484fe8d5616346704c0dbbba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60afb6b14c3a5fb698e1fa28b45d4f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__wiced__mem.html#ga2b2c44f89a2b95de21e2b90ac8d715ad">wiced_bt_buffer_pool_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c">wiced_bt_create_pool</a> (uint32_t buffer_size, uint32_t buffer_cnt)</td></tr>
 <tr class="memdesc:ga60afb6b14c3a5fb698e1fa28b45d4f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_create_pool.  <a href="group__wiced__mem.html#ga60afb6b14c3a5fb698e1fa28b45d4f2c">More...</a><br /></td></tr>
 <tr class="separator:ga60afb6b14c3a5fb698e1fa28b45d4f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga362e499624bcc944e2acf270c3247682"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga362e499624bcc944e2acf270c3247682">wiced_bt_get_buffer_from_pool</a> (<a class="el" href="group__wiced__mem.html#gab2a8a7f9b47f51538d6096cf80598b56">wiced_bt_buffer_pool_t</a> *p_pool)</td></tr>
+<tr class="memitem:ga362e499624bcc944e2acf270c3247682"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga362e499624bcc944e2acf270c3247682">wiced_bt_get_buffer_from_pool</a> (<a class="el" href="group__wiced__mem.html#ga2b2c44f89a2b95de21e2b90ac8d715ad">wiced_bt_buffer_pool_t</a> *p_pool)</td></tr>
 <tr class="memdesc:ga362e499624bcc944e2acf270c3247682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_get_buffer_from_pool.  <a href="group__wiced__mem.html#ga362e499624bcc944e2acf270c3247682">More...</a><br /></td></tr>
 <tr class="separator:ga362e499624bcc944e2acf270c3247682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf7917256a59255b51d6b3855d829beb8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gaf7917256a59255b51d6b3855d829beb8">wiced_bt_get_buffer_count</a> (<a class="el" href="group__wiced__mem.html#gab2a8a7f9b47f51538d6096cf80598b56">wiced_bt_buffer_pool_t</a> *p_pool)</td></tr>
+<tr class="memitem:gaf7917256a59255b51d6b3855d829beb8"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gaf7917256a59255b51d6b3855d829beb8">wiced_bt_get_buffer_count</a> (<a class="el" href="group__wiced__mem.html#ga2b2c44f89a2b95de21e2b90ac8d715ad">wiced_bt_buffer_pool_t</a> *p_pool)</td></tr>
 <tr class="memdesc:gaf7917256a59255b51d6b3855d829beb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_get_buffer_count.  <a href="group__wiced__mem.html#gaf7917256a59255b51d6b3855d829beb8">More...</a><br /></td></tr>
 <tr class="separator:gaf7917256a59255b51d6b3855d829beb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga700ea7baf2ff77e100976a7c618af06d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga700ea7baf2ff77e100976a7c618af06d">wiced_bt_get_buffer</a> (uint16_t buffer_size)</td></tr>
@@ -155,15 +161,21 @@ Functions</h2></td></tr>
 <tr class="memitem:gac03f1d6ec855f5a049ccfa7aa6fbd848"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gac03f1d6ec855f5a049ccfa7aa6fbd848">wiced_bt_get_buffer_size</a> (void *p_buf)</td></tr>
 <tr class="memdesc:gac03f1d6ec855f5a049ccfa7aa6fbd848"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_get_buffer_size.  <a href="group__wiced__mem.html#gac03f1d6ec855f5a049ccfa7aa6fbd848">More...</a><br /></td></tr>
 <tr class="separator:gac03f1d6ec855f5a049ccfa7aa6fbd848"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91142d1b1a2e64cfbcacae67aa24867a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga91142d1b1a2e64cfbcacae67aa24867a">wiced_bt_get_buffer_usage</a> (<a class="el" href="group__wiced__mem.html#ga7dc39a43da5377d46c43f59cd55a0dac">wiced_bt_buffer_statistics_t</a> *p_buffer_stat, uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
+<tr class="memitem:ga91142d1b1a2e64cfbcacae67aa24867a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga91142d1b1a2e64cfbcacae67aa24867a">wiced_bt_get_buffer_usage</a> (<a class="el" href="group__wiced__mem.html#ga5ccafcbf75faf30099915ade5596ab37">wiced_bt_buffer_statistics_t</a> *p_buffer_stat, uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
 <tr class="memdesc:ga91142d1b1a2e64cfbcacae67aa24867a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_get_buffer_usage.  <a href="group__wiced__mem.html#ga91142d1b1a2e64cfbcacae67aa24867a">More...</a><br /></td></tr>
 <tr class="separator:ga91142d1b1a2e64cfbcacae67aa24867a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1f1a0590591e126a631146850ade850"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gad1f1a0590591e126a631146850ade850">wiced_memory_allocate</a> (uint32_t <a class="el" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
+<tr class="memdesc:gad1f1a0590591e126a631146850ade850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_allocate.  <a href="group__wiced__mem.html#gad1f1a0590591e126a631146850ade850">More...</a><br /></td></tr>
+<tr class="separator:gad1f1a0590591e126a631146850ade850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cffc04feb3287cb93e89aae170d73d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga1cffc04feb3287cb93e89aae170d73d1">wiced_memory_free</a> (void *memoryBlock)</td></tr>
+<tr class="memdesc:ga1cffc04feb3287cb93e89aae170d73d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_free.  <a href="group__wiced__mem.html#ga1cffc04feb3287cb93e89aae170d73d1">More...</a><br /></td></tr>
+<tr class="separator:ga1cffc04feb3287cb93e89aae170d73d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95d301057888bd9f906adee32f26bdb2"><td class="memItemLeft" align="right" valign="top">UINT16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2">wiced_bt_buffer_poolutilization</a> (UINT8 <a class="el" href="wiced__memory_8h.html#a41a59945291a60c900ac520531d7ef6b">pool_id</a>)</td></tr>
+<tr class="memdesc:ga95d301057888bd9f906adee32f26bdb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get specific buffer pool utilization.  <a href="group__wiced__mem.html#ga95d301057888bd9f906adee32f26bdb2">More...</a><br /></td></tr>
+<tr class="separator:ga95d301057888bd9f906adee32f26bdb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5113b7316a4a104fe3fe7147937688a4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4">wiced_memory_permanent_allocate</a> (uint32_t <a class="el" href="wiced__bt__mesh__core_8h.html#aaba88b24a21a6c70c895c0d55f4a69a0">size</a>)</td></tr>
-<tr class="memdesc:ga5113b7316a4a104fe3fe7147937688a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_permanent_allocate.  <a href="group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4">More...</a><br /></td></tr>
+<tr class="memdesc:ga5113b7316a4a104fe3fe7147937688a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates memory for permanent usage.  <a href="group__wiced__mem.html#ga5113b7316a4a104fe3fe7147937688a4">More...</a><br /></td></tr>
 <tr class="separator:ga5113b7316a4a104fe3fe7147937688a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f">wiced_memory_get_free_bytes</a> (void)</td></tr>
-<tr class="memdesc:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_memory_get_free_bytes.  <a href="group__wiced__mem.html#gae7ff550ebc3ec2693de3b360f1a1539f">More...</a><br /></td></tr>
-<tr class="separator:gae7ff550ebc3ec2693de3b360f1a1539f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

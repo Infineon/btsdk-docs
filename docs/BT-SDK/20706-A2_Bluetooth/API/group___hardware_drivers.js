@@ -1,5 +1,6 @@
 var group___hardware_drivers =
 [
+    [ "AIROC Sleep Configuration", "group__wiced__sleep__config.html", "group__wiced__sleep__config" ],
     [ "AIROC Transport", "group___transport.html", "group___transport" ],
     [ "AesCalculation", "group___aes_calculation.html", "group___aes_calculation" ],
     [ "Analog-to-Digital Converter (ADC)", "group___adc_driver.html", "group___adc_driver" ],
