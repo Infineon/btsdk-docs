@@ -10,5 +10,6 @@ var group__wiced__utils =
       [ "WICED_ROUTE_DEBUG_TO_DBG_UART", "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2acfaed9d40ea0a26bf857f97139a311a1", null ],
       [ "WICED_ROUTE_DEBUG_TO_PUART", "group__wiced__utils.html#gga8aabf22a7db88d44d213b70aa0363fa2aadbcd6d401b6a693439a8ec3f1dd82b9", null ]
     ] ],
+    [ "wiced_set_debug_uart_baudrate", "group__wiced__utils.html#ga04bef5045d725ce557d28fc94f12fd76", null ],
     [ "wiced_set_debug_uart_patch", "group__wiced__utils.html#ga1a35b05fa8d6658b233e436c30c0fd17", null ]
 ];

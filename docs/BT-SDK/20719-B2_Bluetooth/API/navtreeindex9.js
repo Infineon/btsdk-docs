@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structwiced__bt__mesh__core__statistics__t.html#a6badf881500d21ea593eecbf4d23b6a8":[7,1,11,1,21,12],
 "structwiced__bt__mesh__core__statistics__t.html#a6bea0dc4ae7ffba9c81897a3c90bb658":[7,1,11,1,21,0],
 "structwiced__bt__mesh__core__statistics__t.html#a72ea80e142d9a7f2ce8558f509a37302":[7,1,11,1,21,19],
 "structwiced__bt__mesh__core__statistics__t.html#aa794e0f58119ddd7fd3852c183ad5447":[7,1,11,1,21,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__mesh__local__device__set__data__t.html":[7,1,11,3,0],
 "structwiced__bt__mesh__local__device__set__data__t.html#a287de9a6759e860c089f7c7386e7a824":[7,1,11,3,0,2],
 "structwiced__bt__mesh__local__device__set__data__t.html#a2a5abc74f4c3049cd802e24a2bdbf84b":[7,1,11,3,0,7],
-"structwiced__bt__mesh__local__device__set__data__t.html#a39866c84e509301532dc884d31be8a67":[7,1,11,3,0,3],
-"structwiced__bt__mesh__local__device__set__data__t.html#a41a6aad09727eb120338c35535a652a6":[7,1,11,3,0,0]
+"structwiced__bt__mesh__local__device__set__data__t.html#a39866c84e509301532dc884d31be8a67":[7,1,11,3,0,3]
 };

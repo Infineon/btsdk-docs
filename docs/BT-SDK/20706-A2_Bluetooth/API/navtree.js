@@ -16,15 +16,15 @@ var NAVTREEINDEX =
 [
 "group___adc_driver.html",
 "group___result.html#ggacfc32ead8a827d53416f01b19eb58310af8a1f1a243c27f2bf6c0b608e91c0661",
-"group__l2cap__api__functions.html#ga0c11cd1ed947e93099670907c5cf353d",
-"group__wiced__bt__hrc__api__functions.html#ga1d028023bd638a86730be627156b19ee",
-"group__wiced__bt__mesh__core.html#gaf86b79fd4adb5961c8b1091a8dc00a55",
-"group__wiced__bt__mesh__models.html#gaf5a568abe6992a2e8011d6abc11a9684",
-"group__wiced__bt__mesh__time__client.html#ga915ad2315147b4a60408eeee89d281ee",
-"group__wicedbt__bredr.html#ga849e05a5407be846c9dc55170ac7eb08",
-"structwiced__bt__l2cap__ertm__information__t.html#a81201043f8a91750cc2c0f2e4dc5ca4f",
-"structwiced__bt__mesh__light__hsl__hue__status__data__t.html#abb94f89f6e6e799c5ae0076cc03f251e",
-"structwiced__bt__mesh__provision__scan__extended__start__t.html#a367ae62b0b49d500c6cbef725eb30129"
+"group__l2cap__api__functions.html#ga28268b114d35484254e29696a165f72a",
+"group__wiced__bt__hrs__api__functions.html#gab17c264569b7a87956d1e4d7af951754",
+"group__wiced__bt__mesh__core.html#gga02a9c4bb1051423c260e310edba3503bae77901c741587878c2f9f626968fb9c7",
+"group__wiced__bt__mesh__power__level__client.html#ga17e4cac8b2ea406f87e998f4a9a992ba",
+"group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb",
+"group__wicedbt__obex.html",
+"structwiced__bt__mesh__add__vendor__model__data__t.html",
+"structwiced__bt__mesh__light__hsl__status__data__t.html",
+"structwiced__bt__mesh__provision__start__data__t.html#a8cb4db6f4ecce642fbf8de14a0858738"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

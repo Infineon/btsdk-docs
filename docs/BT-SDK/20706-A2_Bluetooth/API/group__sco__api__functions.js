@@ -10,6 +10,9 @@ var group__sco__api__functions =
       [ "p_sco_data_cb", "structwiced__bt__voice__path__setup__t.html#addc445796169b90f557f0e908099a197", null ],
       [ "path", "structwiced__bt__voice__path__setup__t.html#a725085f700f7dd01e24a0d3b22b5b730", null ]
     ] ],
+    [ "wiced_bt_sco_route_path_t", "group__sco__api__functions.html#ga4548402097137688617e39d9377fc8a2", [
+      [ "WICED_BT_SCO_OVER_APP_CB", "group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a5e43c4fea19852c300019b6817539dfd", null ]
+    ] ],
     [ "wiced_bt_sco_accept_connection", "group__sco__api__functions.html#ga7c8ecc9a1333c1c5b4da60f1dd07d990", null ],
     [ "wiced_bt_sco_create_as_acceptor", "group__sco__api__functions.html#gaba857121768256e41d47bb56eab560b8", null ],
     [ "wiced_bt_sco_create_as_initiator", "group__sco__api__functions.html#gad3c0ea63212a9cca3b0b668d7e392288", null ],

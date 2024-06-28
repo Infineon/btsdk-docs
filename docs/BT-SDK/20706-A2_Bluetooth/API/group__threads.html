@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -107,184 +107,19 @@ $(document).ready(function(){initNavTree('group__threads.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga97bc8d13bdcd1106d909d97f047fc7fb"><td class="memItemLeft" align="right" valign="top">wiced_thread_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga97bc8d13bdcd1106d909d97f047fc7fb">wiced_rtos_create_thread</a> (void)</td></tr>
-<tr class="memdesc:ga97bc8d13bdcd1106d909d97f047fc7fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new instance of thread.  <a href="#ga97bc8d13bdcd1106d909d97f047fc7fb">More...</a><br /></td></tr>
-<tr class="separator:ga97bc8d13bdcd1106d909d97f047fc7fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga60a2f07740eb45a18ff2bae2889353d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga60a2f07740eb45a18ff2bae2889353d0">wiced_rtos_init_thread</a> (wiced_thread_t *thread, uint8_t priority, const char *name, wiced_thread_function_t function, uint32_t stack_size, void *arg)</td></tr>
-<tr class="memdesc:ga60a2f07740eb45a18ff2bae2889353d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and starts a new thread.  <a href="#ga60a2f07740eb45a18ff2bae2889353d0">More...</a><br /></td></tr>
-<tr class="separator:ga60a2f07740eb45a18ff2bae2889353d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga917a4bd4ebe941e7c48c6187c0c44049">wiced_rtos_check_for_stack_overflow</a> (void)</td></tr>
-<tr class="memdesc:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is a stackoverflow.  <a href="#ga917a4bd4ebe941e7c48c6187c0c44049">More...</a><br /></td></tr>
-<tr class="separator:ga917a4bd4ebe941e7c48c6187c0c44049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7455820ec13bab707b7be62a72fffb25"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga7455820ec13bab707b7be62a72fffb25">wiced_rtos_thread_stack_size</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:ga7455820ec13bab707b7be62a72fffb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the thread stack size.  <a href="#ga7455820ec13bab707b7be62a72fffb25">More...</a><br /></td></tr>
-<tr class="separator:ga7455820ec13bab707b7be62a72fffb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e6eaef23b15fe10fb66aaf5642eb596"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga2e6eaef23b15fe10fb66aaf5642eb596">wiced_bt_rtos_max_stack_use</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:ga2e6eaef23b15fe10fb66aaf5642eb596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns maximum stack usage of the thread.  <a href="#ga2e6eaef23b15fe10fb66aaf5642eb596">More...</a><br /></td></tr>
-<tr class="separator:ga2e6eaef23b15fe10fb66aaf5642eb596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac9547485587421485ac0fbce20cddec1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#gac9547485587421485ac0fbce20cddec1">wiced_rtos_delay_milliseconds</a> (uint32_t milliseconds, wiced_delay_type_t delay_type)</td></tr>
-<tr class="memdesc:gac9547485587421485ac0fbce20cddec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep for a given period of milliseconds.  <a href="#gac9547485587421485ac0fbce20cddec1">More...</a><br /></td></tr>
-<tr class="separator:gac9547485587421485ac0fbce20cddec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae41ed6a8aec436bb76711831dccf9224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#gae41ed6a8aec436bb76711831dccf9224">wiced_rtos_delay_microseconds</a> (uint32_t microseconds)</td></tr>
-<tr class="memdesc:gae41ed6a8aec436bb76711831dccf9224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay for a given period of microseconds.  <a href="#gae41ed6a8aec436bb76711831dccf9224">More...</a><br /></td></tr>
-<tr class="separator:gae41ed6a8aec436bb76711831dccf9224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab808616a6761482cf2462029617d9377"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#gab808616a6761482cf2462029617d9377">wiced_rtos_thread_join</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:gab808616a6761482cf2462029617d9377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleeps until another thread has terminated.  <a href="#gab808616a6761482cf2462029617d9377">More...</a><br /></td></tr>
-<tr class="separator:gab808616a6761482cf2462029617d9377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba4ab4de1a97530b90dfce90869fd2b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#gaba4ab4de1a97530b90dfce90869fd2b3">wiced_rtos_thread_force_awake</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:gaba4ab4de1a97530b90dfce90869fd2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forcibly wakes another thread.  <a href="#gaba4ab4de1a97530b90dfce90869fd2b3">More...</a><br /></td></tr>
-<tr class="separator:gaba4ab4de1a97530b90dfce90869fd2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4064584fed8765160ed2f6fa941b32d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga4064584fed8765160ed2f6fa941b32d9">wiced_rtos_is_current_thread</a> (wiced_thread_t *thread)</td></tr>
-<tr class="memdesc:ga4064584fed8765160ed2f6fa941b32d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a thread is the current thread.  <a href="#ga4064584fed8765160ed2f6fa941b32d9">More...</a><br /></td></tr>
-<tr class="separator:ga4064584fed8765160ed2f6fa941b32d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga074de5c476126e33d9f0f6264417eff1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__threads.html#ga074de5c476126e33d9f0f6264417eff1">wiced_rtos_create_thread_with_stack</a> (wiced_thread_t *thread, uint8_t priority, const char *name, wiced_thread_function_t function, uint32_t stack_size, void *arg)</td></tr>
+<tr class="memdesc:ga074de5c476126e33d9f0f6264417eff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes and starts a new thread.  <a href="#ga074de5c476126e33d9f0f6264417eff1">More...</a><br /></td></tr>
+<tr class="separator:ga074de5c476126e33d9f0f6264417eff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Thread management functions. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga2e6eaef23b15fe10fb66aaf5642eb596"></a>
+<a class="anchor" id="ga074de5c476126e33d9f0f6264417eff1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t wiced_bt_rtos_max_stack_use </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns maximum stack usage of the thread. </p>
-<p>Returns maximum stack usage size if thread signature is valid, else returns 0</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">thread</td><td>: point to the thread context Note: thread is a return value from <a class="el" href="group__threads.html#ga97bc8d13bdcd1106d909d97f047fc7fb" title="Creates a new instance of thread. ">wiced_rtos_create_thread()</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>maximum stack usage </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga917a4bd4ebe941e7c48c6187c0c44049"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_bool_t wiced_rtos_check_for_stack_overflow </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks if there is a stackoverflow. </p>
-<p>Verifies if the stack of the thread from which this API is invoked is corrupted</p>
-<dl class="section return"><dt>Returns</dt><dd>TRUE : stack overflow </dd>
-<dd>
-FALSE : not stack overflow </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga97bc8d13bdcd1106d909d97f047fc7fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wiced_thread_t* wiced_rtos_create_thread </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a new instance of thread. </p>
-<p>Creates a new thread (Allocates memory for a new thread instance and returns the pointer)</p>
-<dl class="section return"><dt>Returns</dt><dd>valid pointer : on success. </dd>
-<dd>
-NULL : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gae41ed6a8aec436bb76711831dccf9224"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_delay_microseconds </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>microseconds</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Delay for a given period of microseconds. </p>
-<p>Causes the current thread to block for AT LEAST the specified number of microseconds. If the processor is heavily loaded with higher priority tasks, the delay may be much longer than requested.</p>
-<p>NOTE: All threads with equal or lower priority than the current thread will not be able to run while the delay is occurring.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">microseconds</td><td>: the time to delay in microseconds</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gac9547485587421485ac0fbce20cddec1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_delay_milliseconds </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>milliseconds</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_delay_type_t&#160;</td>
-          <td class="paramname"><em>delay_type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sleep for a given period of milliseconds. </p>
-<p>Causes the current thread to sleep for AT LEAST the specified number of milliseconds. If the processor is heavily loaded with higher priority tasks, the delay may be much longer than requested.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">milliseconds</td><td>: the time to sleep in milliseconds </td></tr>
-    <tr><td class="paramname">delay_type</td><td>: delay type to be used during the duration of the delay. Use the delay type as ALLOW_THREAD_TO_SLEEP to allow the current running thread to sleep or as KEEP_THREAD_ACTIVE to keep the current running thread active</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga60a2f07740eb45a18ff2bae2889353d0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_init_thread </td>
+          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_create_thread_with_stack </td>
           <td>(</td>
           <td class="paramtype">wiced_thread_t *&#160;</td>
           <td class="paramname"><em>thread</em>, </td>
@@ -343,112 +178,6 @@ WICED_ERROR : if an error occurred </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
 <dd>
 WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga4064584fed8765160ed2f6fa941b32d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_is_current_thread </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks if a thread is the current thread. </p>
-<p>Checks if a specified thread is the currently running thread</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">thread</td><td>: the handle of the other thread against which the current thread will be compared</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : specified thread is the current thread </dd>
-<dd>
-WICED_ERROR : specified thread is not currently running </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaba4ab4de1a97530b90dfce90869fd2b3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_thread_force_awake </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Forcibly wakes another thread. </p>
-<p>Causes the specified thread to wake from suspension. This will usually cause an error or timeout in that thread, since the task it was waiting on is not complete.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">thread</td><td>: the handle of the other thread which will be woken</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gab808616a6761482cf2462029617d9377"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_rtos_thread_join </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sleeps until another thread has terminated. </p>
-<p>Causes the current thread to sleep until the specified other thread has terminated. If the processor is heavily loaded with higher priority tasks, this thread may not wake until significantly after the thread termination.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">thread</td><td>: the handle of the other thread which will terminate</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS : on success. </dd>
-<dd>
-WICED_ERROR : if an error occurred </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga7455820ec13bab707b7be62a72fffb25"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t wiced_rtos_thread_stack_size </td>
-          <td>(</td>
-          <td class="paramtype">wiced_thread_t *&#160;</td>
-          <td class="paramname"><em>thread</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the thread stack size. </p>
-<p>Returns stack size if thread signature is valid, else returns 0</p>
-<dl class="section return"><dt>Returns</dt><dd>uint32_t : size </dd>
-<dd>
-0 : invalid thread pointer </dd></dl>
 
 </div>
 </div>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -253,6 +253,7 @@ Functions</h2></td></tr>
 
 <p>Function wiced_bt_dev_read_rssi. </p>
 <p>Get Receive Signal Strenth Index (RSSI) for the requested link</p>
+<p>Note: see Bluetooth Core Spec definition of the Read RSSI command, for BR/EDR transports, the RSSI value returned through the callback will be the difference between the measured RSSI and the limits of a range selected by the controller, where positive or negative values indicate a measurement above or below the range, and a zero value indicates the RSSI is within the range. But for LE transports, the value returned will be the absolute RSSI. If absolute RSSI is required for a BR/EDR connection, use the wiced_bt_read_raw_rssi() API from the btsdk-common middleware library.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: BD address of connection to read rssi </td></tr>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -178,7 +178,8 @@ typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_sco
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga4548402097137688617e39d9377fc8a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4548402097137688617e39d9377fc8a2"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_sco_route_path_t</b> { <b>WICED_BT_SCO_OVER_I2SPCM</b> = 0
+<tr class="memitem:ga4548402097137688617e39d9377fc8a2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sco__api__functions.html#ga4548402097137688617e39d9377fc8a2">wiced_bt_sco_route_path_t</a> { <b>WICED_BT_SCO_OVER_I2SPCM</b> = 0, 
+<a class="el" href="group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a5e43c4fea19852c300019b6817539dfd">WICED_BT_SCO_OVER_APP_CB</a> = 1
  }</td></tr>
 <tr class="separator:ga4548402097137688617e39d9377fc8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -212,6 +213,24 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_CreateSco</b> 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>SCO Definitions and Functions. </p>
 <p>SCO logical transport, is a symmetric, point-to-point transport between the central and a specific peripheral. The SCO logical transport reserves slots and can therefore be considered as a circuit-switched connection between the central and the peripheral. The central may support up to three SCO links to the same peripheral or to different peripherals. A peripheral may support up to three SCO links from the same central, or two SCO links if the links originate from different centrals. SCO packets are never retransmitted. </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga4548402097137688617e39d9377fc8a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__sco__api__functions.html#ga4548402097137688617e39d9377fc8a2">wiced_bt_sco_route_path_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga4548402097137688617e39d9377fc8a2a5e43c4fea19852c300019b6817539dfd"></a>WICED_BT_SCO_OVER_APP_CB&#160;</td><td class="fielddoc">
+<p>PCM data config for routing over APP. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga7c8ecc9a1333c1c5b4da60f1dd07d990"></a>
 <div class="memitem">

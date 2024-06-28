@@ -21,12 +21,12 @@ var NAVTREEINDEX =
 "group__semaphores.html#ga0b31c98acb2d7354af9b2b158ed5b9ef",
 "group__wiced__bt__mesh__core.html#ga64ef88eb0a8f1e4e711c79bf877ea168",
 "group__wiced__bt__mesh__light__xyl__server.html#ga01fcf5fa347387b6262f1219b8d65901",
-"group__wiced__bt__mesh__provisioning.html#gaab483c5b3521a2d8f7324fd78d8646c2",
-"group__wicedbt__av__a2d__helper.html#ga722b146cea0bd9be7c6e2ffa2d43c2a1",
-"structwiced__bt__anc__enable__disable__alerts__result__t.html",
-"structwiced__bt__mesh__core__provision__start__t.html#a52e6ed35f1cddc9502bb960813b36cf5",
-"structwiced__bt__mesh__light__lightness__status__data__t.html",
-"structwiced__bt__rc__event__t.html#a14f5b01c5e47ebeac8385e996e0f62c8"
+"group__wiced__bt__mesh__provisioning.html#gaa9666f139ff1fbca067cae133a92a4a3",
+"group__wicedbt__av__a2d__helper.html#ga712033edb3e7765b3f69d92286cee0b2",
+"structwiced__bt__anc__discovery__result__t.html#a7b785d7a4ac5272e3d3cb8af6058ec47",
+"structwiced__bt__mesh__core__provision__start__t.html",
+"structwiced__bt__mesh__light__lightness__set__t.html#adc4674f6ea53803d98fa2ec36759e77d",
+"structwiced__bt__rc__event__t.html#a0823f6eb8619cf4a445527641d9b9f7e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

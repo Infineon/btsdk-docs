@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"structwiced__fw__upgrade__nv__loc__len__t.html#af37de341cd05f3eddd9d469a21f61957":[7,0,0,0,5],
 "structwiced__pwm__config__t.html":[7,2,16,1,0],
 "structwiced__pwm__config__t.html#a649717814d87517d92d0c8b26d8c70ec":[7,2,16,1,0,1],
 "structwiced__pwm__config__t.html#afaed6675877fe8caa9033b3df01ef1ce":[7,2,16,1,0,0],

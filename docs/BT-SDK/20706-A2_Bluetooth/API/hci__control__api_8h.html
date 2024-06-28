@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -662,6 +662,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a23739a1459e84b534b911bbb191b3aa2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23739a1459e84b534b911bbb191b3aa2"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_AUDIO_MIC_START_STOP</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0D )     /* Audio MIC Start/stop */</td></tr>
 <tr class="separator:a23739a1459e84b534b911bbb191b3aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacd012cc1ab26ecbfe0f092b2719c62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adacd012cc1ab26ecbfe0f092b2719c62"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_GET_ULL_FEATURES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0E )     /* Read ULL feature charactericstics from NVRAM */</td></tr>
+<tr class="separator:adacd012cc1ab26ecbfe0f092b2719c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bcccbb599eb74ed921fb8b2bb2294de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bcccbb599eb74ed921fb8b2bb2294de"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_COMMAND_SAVE_ULL_FEATURES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0F )     /* Write ULL feature charactericstics to NVRAM */</td></tr>
+<tr class="separator:a3bcccbb599eb74ed921fb8b2bb2294de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbeb800431750fe7c4416457eb2dee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6dbeb800431750fe7c4416457eb2dee"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_TEST_COMMAND_ENCAPSULATED_HCI_COMMAND</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_TEST &lt;&lt; 8 ) | 0x10 )     /* Encapsulated HCI command - For manufacturing test purposes */</td></tr>
 <tr class="separator:ae6dbeb800431750fe7c4416457eb2dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2075,6 +2081,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a67da2ad24077eb34c6c03efb5563bd08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67da2ad24077eb34c6c03efb5563bd08"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_REM_HOLD_RETRIEVE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x22 )</td></tr>
 <tr class="separator:a67da2ad24077eb34c6c03efb5563bd08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57145e72dd9c923f6e6fc6434109ec8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57145e72dd9c923f6e6fc6434109ec8c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_LE_AUDIO_COMMAND_SET_CSIS_PARAMS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_LE_AUDIO &lt;&lt; 8 ) | 0x23 )</td></tr>
+<tr class="separator:a57145e72dd9c923f6e6fc6434109ec8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7ffc6abe040569ebafe0e28cc238a51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7ffc6abe040569ebafe0e28cc238a51"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IFXVH_COMMAND_GET_HOST_CAPABILITIES</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_IFXVH &lt;&lt; 8 ) | 0x00 ) /* Get host capabilities */</td></tr>
 <tr class="separator:af7ffc6abe040569ebafe0e28cc238a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2510,6 +2519,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a4bb2c1609c0e1b762c3a9e9acdcbb6d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bb2c1609c0e1b762c3a9e9acdcbb6d5"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_CAPABILITY</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0A )    /* Device capability */</td></tr>
 <tr class="separator:a4bb2c1609c0e1b762c3a9e9acdcbb6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec74f11bf39ef94236ef896f0dd84b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ec74f11bf39ef94236ef896f0dd84b3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_ULL_FEATURE</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0x0B )    /* ULL feature */</td></tr>
+<tr class="separator:a0ec74f11bf39ef94236ef896f0dd84b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24f6f539fd5b7d5f6dbe51ee8176402b"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_EVENT_COMMAND_STATUS</b>&#160;&#160;&#160;( ( HCI_CONTROL_GROUP_HIDD &lt;&lt; 8 ) | 0xFF )    /* Result status for HID commands */</td></tr>
 <tr class="separator:a24f6f539fd5b7d5f6dbe51ee8176402b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4010,6 +4022,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ae5a024f9766946e75a45f243d1403d07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5a024f9766946e75a45f243d1403d07"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_HIDD_IR_SUPPORT</b>&#160;&#160;&#160;0x1</td></tr>
 <tr class="separator:ae5a024f9766946e75a45f243d1403d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80fc143161962bbb7a18121f8002f7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa80fc143161962bbb7a18121f8002f7e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_ULL_HID_SUPPORT</b>&#160;&#160;&#160;0x1</td></tr>
+<tr class="separator:aa80fc143161962bbb7a18121f8002f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a072819d0b2fd97a50284870ecbba95d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a072819d0b2fd97a50284870ecbba95d1"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_CONTROL_IFXV_STATUS_IDLE</b>&#160;&#160;&#160;0x0</td></tr>
 <tr class="separator:a072819d0b2fd97a50284870ecbba95d1"><td class="memSeparator" colspan="2">&#160;</td></tr>

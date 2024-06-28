@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -930,6 +930,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad6b32f26ff97dc7087af5b62d874d830"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#ad6b32f26ff97dc7087af5b62d874d830">wiced_delete_key_info_from_ram</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bd_addr)</td></tr>
 <tr class="memdesc:ad6b32f26ff97dc7087af5b62d874d830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_delete_key_info_from_ram.  <a href="#ad6b32f26ff97dc7087af5b62d874d830">More...</a><br /></td></tr>
 <tr class="separator:ad6b32f26ff97dc7087af5b62d874d830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99097bf758f9e2698d647344bbdd3fb4"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a99097bf758f9e2698d647344bbdd3fb4">wiced_bt_conn_handle_get</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, <a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a> transport)</td></tr>
+<tr class="memdesc:a99097bf758f9e2698d647344bbdd3fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_conn_handle_get.  <a href="#a99097bf758f9e2698d647344bbdd3fb4">More...</a><br /></td></tr>
+<tr class="separator:a99097bf758f9e2698d647344bbdd3fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#aa33eda752b4873cb9f19b0ef2634d9a4">wiced_bt_dev_set_link_policy</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bda, uint16_t *settings)</td></tr>
 <tr class="memdesc:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_policy.  <a href="#aa33eda752b4873cb9f19b0ef2634d9a4">More...</a><br /></td></tr>
 <tr class="separator:aa33eda752b4873cb9f19b0ef2634d9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -954,6 +957,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a717e3b25e239c8bd792eebd2776a8f6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a717e3b25e239c8bd792eebd2776a8f6d"></a>
 uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_RegisterForVSEvents</b> (<a class="el" href="wiced__bt__dev_8h.html#a2e878a83923b8c96e8c37c82c9c96dbf">wiced_bt_dev_vse_callback_t</a> *p_cb, BOOLEAN is_register)</td></tr>
 <tr class="separator:a717e3b25e239c8bd792eebd2776a8f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8f122a671fa3e620a88fecdae539a7"><td class="memItemLeft" align="right" valign="top">wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wiced__bt__dev_8h.html#a7a8f122a671fa3e620a88fecdae539a7">wiced_bt_connect</a> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> remote_bd_addr)</td></tr>
+<tr class="memdesc:a7a8f122a671fa3e620a88fecdae539a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_register_vse_callback.  <a href="#a7a8f122a671fa3e620a88fecdae539a7">More...</a><br /></td></tr>
+<tr class="separator:a7a8f122a671fa3e620a88fecdae539a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c73f207ba29eb0180a0e1f43b3889c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6c73f207ba29eb0180a0e1f43b3889c"></a>
+wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_start_authentication</b> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bdaddr, uint16_t hci_handle)</td></tr>
+<tr class="separator:aa6c73f207ba29eb0180a0e1f43b3889c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b111dbfe4150ac3eeb62325383b9913"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b111dbfe4150ac3eeb62325383b9913"></a>
+wiced_bool_t&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_start_encryption</b> (<a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a> bdaddr)</td></tr>
+<tr class="separator:a3b111dbfe4150ac3eeb62325383b9913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1811b8a8b3cb6f8763d9ce5bdd4ca4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d1811b8a8b3cb6f8763d9ce5bdd4ca4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_lrac_disable_secure_connection</b> (void)</td></tr>
+<tr class="separator:a7d1811b8a8b3cb6f8763d9ce5bdd4ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bluetooth Management (BTM) Application Programming Interface. </p>
@@ -2134,6 +2149,69 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>BTM_RegisterForVSE
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a99097bf758f9e2698d647344bbdd3fb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t wiced_bt_conn_handle_get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>remote_bda</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#ae0d25ec063a889c537f3a77010cf5ef0">wiced_bt_transport_t</a>&#160;</td>
+          <td class="paramname"><em>transport</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_conn_handle_get. </p>
+<p>Get the connection handle</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>: remote device's address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>: BT_TRANSPORT_BR_EDR or BT_TRANSPORT_LE</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>connection handle value 0xffff for invalid </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7a8f122a671fa3e620a88fecdae539a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wiced_bool_t wiced_bt_connect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="wiced__bt__types_8h.html#acf9a377aceca799be625c0dfe554902e">wiced_bt_device_address_t</a>&#160;</td>
+          <td class="paramname"><em>remote_bd_addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_bt_dev_register_vse_callback. </p>
+<p>Description Application can register Vendor-Specific HCI event callback</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cb</td><td>: callback function to register</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WICED_SUCCESS WICED_ERROR if out of usage </dd></dl>
 
 </div>
 </div>

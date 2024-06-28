@@ -170,6 +170,7 @@ var searchData=
   ['wiced_5fbt_5frfcomm_5funinitialised',['WICED_BT_RFCOMM_UNINITIALISED',['../group___result.html#ggacfc32ead8a827d53416f01b19eb58310a0460875e630abb3c168fcb06b8b6616d',1,'wiced_result.h']]],
   ['wiced_5fbt_5fscan_5fin_5fprogress',['WICED_BT_SCAN_IN_PROGRESS',['../group___result.html#ggacfc32ead8a827d53416f01b19eb58310a66079e153a5d89cc4713a6332ff00685',1,'wiced_result.h']]],
   ['wiced_5fbt_5fsco_5fbad_5flength',['WICED_BT_SCO_BAD_LENGTH',['../group___result.html#ggacfc32ead8a827d53416f01b19eb58310a5f4b220808c0657de316b9feb9b71b02',1,'wiced_result.h']]],
+  ['wiced_5fbt_5fsco_5fover_5fapp_5fcb',['WICED_BT_SCO_OVER_APP_CB',['../group__sco__api__functions.html#gga4548402097137688617e39d9377fc8a2a5e43c4fea19852c300019b6817539dfd',1,'wiced_bt_sco.h']]],
   ['wiced_5fbt_5fsdp_5fcancel',['WICED_BT_SDP_CANCEL',['../wiced__bt__sdp_8h.html#a93c6f8c9d0b76ab42e67a9f2d0dec328ad9deb32630ad1d082962cd4a3684e9a0',1,'wiced_bt_sdp.h']]],
   ['wiced_5fbt_5fsdp_5fcfg_5ffailed',['WICED_BT_SDP_CFG_FAILED',['../wiced__bt__sdp_8h.html#a93c6f8c9d0b76ab42e67a9f2d0dec328a0e441205b20cc13da23016c9ecaed01e',1,'wiced_bt_sdp.h']]],
   ['wiced_5fbt_5fsdp_5fconn_5ffailed',['WICED_BT_SDP_CONN_FAILED',['../wiced__bt__sdp_8h.html#a93c6f8c9d0b76ab42e67a9f2d0dec328a0112e9137a7447efcbfa03eeb7e31a49',1,'wiced_bt_sdp.h']]],

@@ -41,7 +41,6 @@ var searchData=
   ['security_5frequest',['security_request',['../unionwiced__bt__management__evt__data__t.html#a260b1f58620cae21e47974d90adbc9e6',1,'wiced_bt_management_evt_data_t']]],
   ['security_5frequirement_5fmask',['security_requirement_mask',['../structwiced__bt__cfg__settings__t.html#a1bc4b9561e1ed329a1333209dcadee8e',1,'wiced_bt_cfg_settings_t']]],
   ['seid',['seid',['../structwiced__bt__avdt__sep__info__t.html#a5164f08c4cb3c7b4b78594cf3d44582d',1,'wiced_bt_avdt_sep_info_t::seid()'],['../structwiced__bt__avdt__evt__hdr__t.html#a5164f08c4cb3c7b4b78594cf3d44582d',1,'wiced_bt_avdt_evt_hdr_t::seid()']]],
-  ['semaphores',['Semaphores',['../group__semaphores.html',1,'']]],
   ['send_5fsegmented',['send_segmented',['../structwiced__bt__mesh__event____t.html#ae7a9dd8f2d9e6fe6485b0ba80fdf4533',1,'wiced_bt_mesh_event__t']]],
   ['sensor_5fstatus',['sensor_status',['../unionwiced__bt__mesh__sensor__status__message__data__t.html#a414754f4eaf9042a8833ad460e898907',1,'wiced_bt_mesh_sensor_status_message_data_t']]],
   ['sensors',['sensors',['../wiced__bt__mesh__cfg_8h.html#ad3e999377a6c3b7f3cdec5e1dbed728b',1,'wiced_bt_mesh_cfg.h']]],

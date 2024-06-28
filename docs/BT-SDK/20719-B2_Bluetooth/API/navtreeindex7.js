@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"group__wicedbt__av__a2d__helper.html#ga722b146cea0bd9be7c6e2ffa2d43c2a1":[7,1,2,1,0,6],
 "group__wicedbt__av__a2d__helper.html#ga783c8401e79dc865b6389f7a7eb309e3":[7,1,2,1,0,10],
 "group__wicedbt__av__a2d__helper.html#ga79c33dc162a9a5c1b83a090467ef2cb0":[7,1,2,1,0,21],
 "group__wicedbt__av__a2d__helper.html#ga993c5e5412998d6c3ccc603155cbaee6":[7,1,2,1,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "structwiced__bt__audio__config__buffer__t.html#aabe15f26dbdc1cb97a45325bfd923e2b":[7,1,2,0,0,2],
 "structwiced__bt__audio__config__buffer__t.html#ac6afd2cd2c1082869da008138ce61a58":[7,1,2,0,0,1],
 "structwiced__bt__avrc__ct__features__abs__vol__t.html":[7,1,2,3,1,0],
-"structwiced__bt__avrc__ct__features__abs__vol__t.html#a1699094a55a0394ff884346e034df54c":[7,1,2,3,1,0,0],
-"structwiced__bt__avrc__ct__features__abs__vol__t.html#ad34f1db284858de0038afacefa35b436":[7,1,2,3,1,0,1]
+"structwiced__bt__avrc__ct__features__abs__vol__t.html#a1699094a55a0394ff884346e034df54c":[7,1,2,3,1,0,0]
 };

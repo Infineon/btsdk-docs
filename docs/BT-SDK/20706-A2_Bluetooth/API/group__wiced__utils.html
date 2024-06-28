@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.7 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -138,6 +138,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1a35b05fa8d6658b233e436c30c0fd17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#ga1a35b05fa8d6658b233e436c30c0fd17">wiced_set_debug_uart_patch</a> (<a class="el" href="group__wiced__utils.html#ga8aabf22a7db88d44d213b70aa0363fa2">wiced_debug_uart_types_t</a> uart)</td></tr>
 <tr class="memdesc:ga1a35b05fa8d6658b233e436c30c0fd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_debug_uart.  <a href="#ga1a35b05fa8d6658b233e436c30c0fd17">More...</a><br /></td></tr>
 <tr class="separator:ga1a35b05fa8d6658b233e436c30c0fd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04bef5045d725ce557d28fc94f12fd76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__utils.html#ga04bef5045d725ce557d28fc94f12fd76">wiced_set_debug_uart_baudrate</a> (uint32_t baudrate)</td></tr>
+<tr class="memdesc:ga04bef5045d725ce557d28fc94f12fd76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_set_debug_uart_baudrate.  <a href="#ga04bef5045d725ce557d28fc94f12fd76">More...</a><br /></td></tr>
+<tr class="separator:ga04bef5045d725ce557d28fc94f12fd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Trace Utilities. </p>
@@ -251,6 +254,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga04bef5045d725ce557d28fc94f12fd76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wiced_set_debug_uart_baudrate </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>baudrate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function wiced_set_debug_uart_baudrate. </p>
+<p>It configures the value for wiced_set_debug_uart.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">baudrate</td><td>: baudrate to be used</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>To reflect the configured baudrate, wiced_set_debug_uart API should be invoked </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga1a35b05fa8d6658b233e436c30c0fd17"></a>
 <div class="memitem">
 <div class="memproto">

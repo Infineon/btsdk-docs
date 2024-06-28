@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__rc__event__t.html#a0823f6eb8619cf4a445527641d9b9f7e":[7,1,2,3,2,6,4],
 "structwiced__bt__rc__event__t.html#a14f5b01c5e47ebeac8385e996e0f62c8":[7,1,2,3,2,6,0],
 "structwiced__bt__rc__event__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,2,3,2,6,2],
 "structwiced__bt__rc__event__t.html#a337470a3d363db6ed5c0d444f01893ec":[7,1,2,3,2,6,5],

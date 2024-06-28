@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__mesh__core__provision__start__t.html":[7,1,11,1,18],
 "structwiced__bt__mesh__core__provision__start__t.html#a52e6ed35f1cddc9502bb960813b36cf5":[7,1,11,1,18,4],
 "structwiced__bt__mesh__core__provision__start__t.html#a667f83dab4442a82405f7b56b8b9a64a":[7,1,11,1,18,0],
 "structwiced__bt__mesh__core__provision__start__t.html#a8cb4db6f4ecce642fbf8de14a0858738":[7,1,11,1,18,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__mesh__light__lightness__set__t.html":[7,1,11,2,19],
 "structwiced__bt__mesh__light__lightness__set__t.html#a17312bb6480549142f7cfbcc728a75b9":[7,1,11,2,19,1],
 "structwiced__bt__mesh__light__lightness__set__t.html#a284a81478e29d96532d13ebd737d6b82":[7,1,11,2,19,3],
-"structwiced__bt__mesh__light__lightness__set__t.html#ace23c6ab066de48c058b1793a19ad41a":[7,1,11,2,19,2],
-"structwiced__bt__mesh__light__lightness__set__t.html#adc4674f6ea53803d98fa2ec36759e77d":[7,1,11,2,19,0]
+"structwiced__bt__mesh__light__lightness__set__t.html#ace23c6ab066de48c058b1793a19ad41a":[7,1,11,2,19,2]
 };
