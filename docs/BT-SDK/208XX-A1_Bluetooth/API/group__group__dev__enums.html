@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -973,7 +973,7 @@ Enumerations</h2></td></tr>
 <p>PIN request (used only with legacy devices). Event data: <a class="el" href="structwiced__bt__dev__name__and__class__t.html" title="Remote device information (used by BTM_PIN_REQUEST_EVT, BTM_SECURITY_ABORTED_EVT) ...">wiced_bt_dev_name_and_class_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65a4317d26bc146308c938678438de96cab"></a>BTM_USER_CONFIRMATION_REQUEST_EVT&#160;</td><td class="fielddoc">
-<p>received USER_CONFIRMATION_REQUEST event (respond using <a class="el" href="group__group__dev__functions__sec.html#gafc9a54cc8cf09e7f9c42c9a24ce9df97" title="Confirms the numeric value for pairing to BTM_USER_CONFIRMATION_REQUEST_EVT  of wiced_bt_management_c...">wiced_bt_dev_confirm_req_reply</a>). </p>
+<p>received USER_CONFIRMATION_REQUEST event (respond using #wiced_bt_dev_confirm_req_reply). </p>
 <p>Event data: <a class="el" href="structwiced__bt__dev__user__cfm__req__t.html" title="Data for pairing confirmation request (BTM_USER_CONFIRMATION_REQUEST_EVT event data type) ...">wiced_bt_dev_user_cfm_req_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65ac2e321db33778e75effc95483c14e265"></a>BTM_PASSKEY_NOTIFICATION_EVT&#160;</td><td class="fielddoc">
@@ -981,7 +981,7 @@ Enumerations</h2></td></tr>
 <p>Event data: <a class="el" href="structwiced__bt__dev__user__key__notif__t.html" title="Data for pairing passkey notification (BTM_USER_PASSKEY_NOTIFICATION_EVT event data type) ...">wiced_bt_dev_user_key_notif_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65a088b131278aef7d16200e55a9bb719cd"></a>BTM_PASSKEY_REQUEST_EVT&#160;</td><td class="fielddoc">
-<p>received USER_PASSKEY_REQUEST event (respond using <a class="el" href="group__group__dev__functions__sec.html#ga6c0d114b3e9c02f0f139106065d0fc91" title="Provides the pairing passkey. ">wiced_bt_dev_pass_key_req_reply</a>). </p>
+<p>received USER_PASSKEY_REQUEST event (respond using #wiced_bt_dev_pass_key_req_reply). </p>
 <p>Event data: <a class="el" href="structwiced__bt__dev__user__key__req__t.html" title="Pairing user passkey request (BTM_USER_PASSKEY_REQUEST_EVT event data type) ">wiced_bt_dev_user_key_req_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65a103e09ac213663251e549718cdf5cbe5"></a>BTM_KEYPRESS_NOTIFICATION_EVT&#160;</td><td class="fielddoc">
@@ -1025,7 +1025,7 @@ Enumerations</h2></td></tr>
 <p>Event data: <a class="el" href="structwiced__bt__dev__local__oob__t.html" title="Local OOB data BTM_READ_LOCAL_OOB_DATA_COMPLETE_EVT. ">wiced_bt_dev_local_oob_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65acf3aca6c8fd4e53a7659df498546a103"></a>BTM_REMOTE_OOB_DATA_REQUEST_EVT&#160;</td><td class="fielddoc">
-<p>OOB data from remote device (respond using <a class="el" href="group__group__dev__functions__sec.html#ga044c342a9dae8be624d64761d0016001" title="Provides the remote OOB extended data for Simple Pairing in response to BTM_REMOTE_OOB_DATA_REQUEST_E...">wiced_bt_dev_remote_oob_data_reply</a>). </p>
+<p>OOB data from remote device (respond using #wiced_bt_dev_remote_oob_data_reply). </p>
 <p>Event data: <a class="el" href="structwiced__bt__dev__remote__oob__t.html" title="BTM_REMOTE_OOB_DATA_REQUEST_EVT. ">wiced_bt_dev_remote_oob_t</a> </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga4a427fc37161f2041016d7936399be65a82fac714cbb4652d374bfaf8c71e6e9c"></a>BTM_PAIRED_DEVICE_LINK_KEYS_UPDATE_EVT&#160;</td><td class="fielddoc">

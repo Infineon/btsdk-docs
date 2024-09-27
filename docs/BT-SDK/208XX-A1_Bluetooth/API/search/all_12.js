@@ -2,7 +2,6 @@ var searchData=
 [
   ['r_5f192',['r_192',['../structwiced__bt__dev__local__oob__t.html#ad97fe3dcd7db6be10be95d1d6e07e596',1,'wiced_bt_dev_local_oob_t']]],
   ['r_5f256',['r_256',['../structwiced__bt__dev__local__oob__t.html#a5dbf6232265d8171dff097e91a2e3a35',1,'wiced_bt_dev_local_oob_t']]],
-  ['rand',['rand',['../wiced__bt__dev_8h.html#aa36285a4e1a932d092c3f584a2dbff59',1,'wiced_bt_dev.h']]],
   ['random',['random',['../structwiced__bt__mesh__core__state__beacon__t.html#abf6528cd337e0e9cb2ee0185aef4c1f4',1,'wiced_bt_mesh_core_state_beacon_t']]],
   ['randomizer',['randomizer',['../structwiced__bt__smp__sc__local__oob__t.html#a019574cc307ca48647907ca8ca314011',1,'wiced_bt_smp_sc_local_oob_t']]],
   ['random_20number_20generator_20_28rng_29',['Random Number Generator (RNG)',['../group___random_number_generator.html',1,'']]],
@@ -13,8 +12,6 @@ var searchData=
   ['raw_5fvaluex1',['raw_valuex1',['../structwiced__bt__mesh__sensor__series__get__data__t.html#a2bb6ef2f71bc168529e9c0c6bd71556f',1,'wiced_bt_mesh_sensor_series_get_data_t']]],
   ['raw_5fvaluex2',['raw_valuex2',['../structwiced__bt__mesh__sensor__series__get__data__t.html#a725abb4e114e8b203cc5ccf11f1d43e6',1,'wiced_bt_mesh_sensor_series_get_data_t']]],
   ['raw_5fvaluey',['raw_valuey',['../structwiced__bt__mesh__sensor__config__column__data__t.html#a87741b1236c1b0b0c4bf8dd6edf45168',1,'wiced_bt_mesh_sensor_config_column_data_t::raw_valuey()'],['../structwiced__bt__mesh__sensor__column__data__t.html#a933a1969fac8d8c045b272039d68a271',1,'wiced_bt_mesh_sensor_column_data_t::raw_valuey()']]],
-  ['re_5ftrans_5fcnt',['re_trans_cnt',['../wiced__bt__dev_8h.html#ae898492ac94d988a3f5897d3c98c888c',1,'wiced_bt_dev.h']]],
-  ['re_5ftrans_5fpercent',['re_trans_percent',['../wiced__bt__dev_8h.html#a0f1f8a651e5e979771cf8a25fa47bec0',1,'wiced_bt_dev.h']]],
   ['read_5flocal_5foob_5fdata_5fcomplete',['read_local_oob_data_complete',['../unionwiced__bt__management__evt__data__t.html#a5ed220e074948e270293e815f45ccad6',1,'wiced_bt_management_evt_data_t']]],
   ['read_5fmultiple',['read_multiple',['../unionwiced__bt__gatt__read__param__t.html#a6e666f6cf0a6bbebc45603a9b93d2994',1,'wiced_bt_gatt_read_param_t']]],
   ['read_5freq',['read_req',['../unionwiced__bt__gatt__request__data__t.html#ad4722d03eac84ae6ce4089d71dae073e',1,'wiced_bt_gatt_request_data_t']]],
@@ -84,17 +81,10 @@ var searchData=
   ['rssi_5ffactor',['rssi_factor',['../wiced__bt__mesh__cfg_8h.html#a2f6964e0e31458b18938e4e6d55e91d8',1,'wiced_bt_mesh_cfg.h']]],
   ['rtcdriver',['RTCDriver',['../group___r_t_c_driver.html',1,'']]],
   ['rtos',['RTOS',['../group__rtos.html',1,'']]],
-  ['rx_5fall_5fgood_5fpkt_5fcnt',['rx_all_good_pkt_cnt',['../wiced__bt__dev_8h.html#a5ad454de17d5f083693cb9e7d146c836',1,'wiced_bt_dev.h']]],
-  ['rx_5fall_5fpkt_5fcrc_5ferr',['rx_all_pkt_crc_err',['../wiced__bt__dev_8h.html#a54bf06eef62c57a21c95176b80834718',1,'wiced_bt_dev.h']]],
-  ['rx_5fall_5fpkt_5fsync_5fto',['rx_all_pkt_sync_to',['../wiced__bt__dev_8h.html#a8ad51f8d41023c14d81d4606a316c8a0',1,'wiced_bt_dev.h']]],
   ['rx_5fbuff_5fpool_5fcfg',['rx_buff_pool_cfg',['../wiced__transport_8h.html#a66034389972edde796e89217e2e69202',1,'wiced_transport.h']]],
   ['rx_5fcnt',['rx_cnt',['../structwiced__bt__mesh__core__delay__statistics__t.html#ac4d763b359e41d4f238eb40d68b46ed1',1,'wiced_bt_mesh_core_delay_statistics_t']]],
   ['rx_5fdelay',['rx_delay',['../structwiced__bt__mesh__core__delay__statistics__t.html#a91107aebf5f60f611adaf322f8059038',1,'wiced_bt_mesh_core_delay_statistics_t']]],
-  ['rx_5fgood_5fbytes',['rx_good_bytes',['../wiced__bt__dev_8h.html#ad7ba143ffe536dd1787870aeeb760dda',1,'wiced_bt_dev.h']]],
-  ['rx_5fgood_5fpkt_5fcnt',['rx_good_pkt_cnt',['../wiced__bt__dev_8h.html#a8aff43040dafee83ea9d9fd9e5842bfe',1,'wiced_bt_dev.h']]],
   ['rx_5fphy',['rx_phy',['../structwiced__bt__ble__phy__update__t.html#af6f4df0bdb65a0bc41eb5deda9d34600',1,'wiced_bt_ble_phy_update_t']]],
   ['rx_5fphys',['rx_phys',['../structwiced__bt__ble__phy__preferences__t.html#a42f8c396bf2c7ae3f7c5254c0d0a7afa',1,'wiced_bt_ble_phy_preferences_t']]],
-  ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]],
-  ['rxaclbytes',['rxAclBytes',['../wiced__bt__dev_8h.html#aced791d70d426f6a2b2db972dbe07ac6',1,'wiced_bt_dev.h']]],
-  ['rxpkts',['rxPkts',['../wiced__bt__dev_8h.html#ac079d6a72dc8890d363acb2af1931b2f',1,'wiced_bt_dev.h']]]
+  ['rx_5fpkt_5flen',['rx_pkt_len',['../structwiced__bt__sco__connection__change__t.html#a27f55d5a9f18983c1da42c17e543bf14',1,'wiced_bt_sco_connection_change_t']]]
 ];

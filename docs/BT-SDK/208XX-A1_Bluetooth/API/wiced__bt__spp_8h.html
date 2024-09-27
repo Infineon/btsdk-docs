@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -128,7 +128,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga5c5c70bb21b99504927f619833b091f5"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga5c5c70bb21b99504927f619833b091f5">wiced_bt_spp_connection_up_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *<a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:ga5c5c70bb21b99504927f619833b091f5"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga5c5c70bb21b99504927f619833b091f5">wiced_bt_spp_connection_up_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *bd_addr)</td></tr>
 <tr class="memdesc:ga5c5c70bb21b99504927f619833b091f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application must implement connection up callback to be called by the library.  <a href="group__wiced__bt__spp__api__functions.html#ga5c5c70bb21b99504927f619833b091f5">More...</a><br /></td></tr>
 <tr class="separator:ga5c5c70bb21b99504927f619833b091f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga254b2410dbd3d8c9037649489e6b8203"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga254b2410dbd3d8c9037649489e6b8203">wiced_bt_spp_connection_failed_callback_t</a> )(void)</td></tr>
@@ -149,7 +149,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga899b0c72054b59bf6cfd4918445e9efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb">wiced_bt_spp_startup</a> (<a class="el" href="structwiced__bt__spp__reg__t.html">wiced_bt_spp_reg_t</a> *p_reg)</td></tr>
 <tr class="memdesc:ga899b0c72054b59bf6cfd4918445e9efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_spp_startup.  <a href="group__wiced__bt__spp__api__functions.html#ga899b0c72054b59bf6cfd4918445e9efb">More...</a><br /></td></tr>
 <tr class="separator:ga899b0c72054b59bf6cfd4918445e9efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga957dd89800daec7d5c28fddfbae6fd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42">wiced_bt_spp_connect</a> (BD_ADDR <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:ga957dd89800daec7d5c28fddfbae6fd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42">wiced_bt_spp_connect</a> (BD_ADDR bd_addr)</td></tr>
 <tr class="memdesc:ga957dd89800daec7d5c28fddfbae6fd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_spp_connect.  <a href="group__wiced__bt__spp__api__functions.html#ga957dd89800daec7d5c28fddfbae6fd42">More...</a><br /></td></tr>
 <tr class="separator:ga957dd89800daec7d5c28fddfbae6fd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2b34d3ae523669f0f68b8bbf78f43fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga2b34d3ae523669f0f68b8bbf78f43fd6">wiced_bt_spp_disconnect</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
@@ -170,7 +170,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gac27bbd3e59da11bc092cb950333aba39"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#gac27bbd3e59da11bc092cb950333aba39">wiced_bt_spp_rfcomm_get_peer_mtu</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:gac27bbd3e59da11bc092cb950333aba39"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to read the peer_mtu size when rfcomm connection made.  <a href="group__wiced__bt__spp__api__functions.html#gac27bbd3e59da11bc092cb950333aba39">More...</a><br /></td></tr>
 <tr class="separator:gac27bbd3e59da11bc092cb950333aba39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga576dc790256226c7979bd9095228ab2f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga576dc790256226c7979bd9095228ab2f">wiced_bt_spp_get_connection_state</a> (BD_ADDR <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:ga576dc790256226c7979bd9095228ab2f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__spp__api__functions.html#ga576dc790256226c7979bd9095228ab2f">wiced_bt_spp_get_connection_state</a> (BD_ADDR bd_addr)</td></tr>
 <tr class="memdesc:ga576dc790256226c7979bd9095228ab2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPP application may use this function to get the connection state when rfcomm connection made.  <a href="group__wiced__bt__spp__api__functions.html#ga576dc790256226c7979bd9095228ab2f">More...</a><br /></td></tr>
 <tr class="separator:ga576dc790256226c7979bd9095228ab2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

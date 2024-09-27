@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -114,50 +114,50 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab6a09117d2fa6f4b31d8bfb9aa4d382c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gab6a09117d2fa6f4b31d8bfb9aa4d382c">wiced_bt_dev_read_local_addr</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
-<tr class="memdesc:gab6a09117d2fa6f4b31d8bfb9aa4d382c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the local device address.  <a href="#gab6a09117d2fa6f4b31d8bfb9aa4d382c">More...</a><br /></td></tr>
+<tr class="memitem:gab6a09117d2fa6f4b31d8bfb9aa4d382c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab6a09117d2fa6f4b31d8bfb9aa4d382c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_read_local_addr</b> (wiced_bt_device_address_t bd_addr)</td></tr>
 <tr class="separator:gab6a09117d2fa6f4b31d8bfb9aa4d382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaff614aad7be8ad5bde22d36351fac720"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gaff614aad7be8ad5bde22d36351fac720">wiced_bt_dev_vendor_specific_command</a> (uint16_t opcode, uint8_t param_len, uint8_t *p_param_buf, <a class="el" href="group__group__dev__data__structures.html#ga16af26f84329c4d5ee716691f46e3faf">wiced_bt_dev_vendor_specific_command_complete_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:gaff614aad7be8ad5bde22d36351fac720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a vendor specific HCI command to the controller.  <a href="#gaff614aad7be8ad5bde22d36351fac720">More...</a><br /></td></tr>
+<tr class="memitem:gaff614aad7be8ad5bde22d36351fac720"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaff614aad7be8ad5bde22d36351fac720"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_vendor_specific_command</b> (uint16_t opcode, uint8_t param_len, uint8_t *p_param_buf, wiced_bt_dev_vendor_specific_command_complete_cback_t *p_cback)</td></tr>
 <tr class="separator:gaff614aad7be8ad5bde22d36351fac720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06312613214e2e1b01da2e837f4f6d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga06312613214e2e1b01da2e837f4f6d05">wiced_bt_dev_register_connection_status_change</a> (<a class="el" href="group__group__dev__data__structures.html#ga4ff97728d6c3799669cbbf381fecdc3f">wiced_bt_connection_status_change_cback_t</a> *p_wiced_bt_connection_status_change_cback)</td></tr>
-<tr class="memdesc:ga06312613214e2e1b01da2e837f4f6d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a callback for connection status change.  <a href="#ga06312613214e2e1b01da2e837f4f6d05">More...</a><br /></td></tr>
+<tr class="memitem:ga06312613214e2e1b01da2e837f4f6d05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga06312613214e2e1b01da2e837f4f6d05"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_register_connection_status_change</b> (wiced_bt_connection_status_change_cback_t *p_wiced_bt_connection_status_change_cback)</td></tr>
 <tr class="separator:ga06312613214e2e1b01da2e837f4f6d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafea954a02935ce3dfa5409ff40e25ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gafea954a02935ce3dfa5409ff40e25ae3">wiced_bt_dev_read_rssi</a> (wiced_bt_device_address_t remote_bda, wiced_bt_transport_t transport, <a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:gafea954a02935ce3dfa5409ff40e25ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Receive Signal Strength Index (RSSI) for the requested link.  <a href="#gafea954a02935ce3dfa5409ff40e25ae3">More...</a><br /></td></tr>
+<tr class="memitem:gafea954a02935ce3dfa5409ff40e25ae3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafea954a02935ce3dfa5409ff40e25ae3"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_read_rssi</b> (wiced_bt_device_address_t remote_bda, wiced_bt_transport_t transport, wiced_bt_dev_cmpl_cback_t *p_cback)</td></tr>
 <tr class="separator:gafea954a02935ce3dfa5409ff40e25ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga48a580210a970a52c39fca816ccfd0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga48a580210a970a52c39fca816ccfd0d7">wiced_bt_dev_read_tx_power</a> (wiced_bt_device_address_t remote_bda, wiced_bt_transport_t transport, <a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:ga48a580210a970a52c39fca816ccfd0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the transmit power for the requested link.  <a href="#ga48a580210a970a52c39fca816ccfd0d7">More...</a><br /></td></tr>
+<tr class="memitem:ga48a580210a970a52c39fca816ccfd0d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga48a580210a970a52c39fca816ccfd0d7"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_read_tx_power</b> (wiced_bt_device_address_t remote_bda, wiced_bt_transport_t transport, wiced_bt_dev_cmpl_cback_t *p_cback)</td></tr>
 <tr class="separator:ga48a580210a970a52c39fca816ccfd0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f76de78537f24e047f4b95c6fb91ff8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga6f76de78537f24e047f4b95c6fb91ff8">wiced_bt_dev_register_hci_trace</a> (<a class="el" href="group__group__dev__data__structures.html#gae97953398baa0fc214c8af02444b2b9e">wiced_bt_hci_trace_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:ga6f76de78537f24e047f4b95c6fb91ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers to get the HCI traces.  <a href="#ga6f76de78537f24e047f4b95c6fb91ff8">More...</a><br /></td></tr>
+<tr class="memitem:ga6f76de78537f24e047f4b95c6fb91ff8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6f76de78537f24e047f4b95c6fb91ff8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_register_hci_trace</b> (wiced_bt_hci_trace_cback_t *p_cback)</td></tr>
 <tr class="separator:ga6f76de78537f24e047f4b95c6fb91ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c8336c8df5e584bc76bf98fe65d5c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga6c8336c8df5e584bc76bf98fe65d5c8d">wiced_bt_set_local_bdaddr</a> (wiced_bt_device_address_t bda, wiced_bt_ble_address_type_t addr_type)</td></tr>
-<tr class="memdesc:ga6c8336c8df5e584bc76bf98fe65d5c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Local Bluetooth Device Address.  <a href="#ga6c8336c8df5e584bc76bf98fe65d5c8d">More...</a><br /></td></tr>
+<tr class="memitem:ga6c8336c8df5e584bc76bf98fe65d5c8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6c8336c8df5e584bc76bf98fe65d5c8d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_set_local_bdaddr</b> (wiced_bt_device_address_t bda, wiced_bt_ble_address_type_t addr_type)</td></tr>
 <tr class="separator:ga6c8336c8df5e584bc76bf98fe65d5c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga8bcf7e6edc3dd8112412dc3cb4cd0837">wiced_bt_dev_get_role</a> (wiced_bt_device_address_t remote_bd_addr, UINT8 *p_role, wiced_bt_transport_t transport)</td></tr>
-<tr class="memdesc:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the role of the local device for the ACL connection with the specified remote device.  <a href="#ga8bcf7e6edc3dd8112412dc3cb4cd0837">More...</a><br /></td></tr>
+<tr class="memitem:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8bcf7e6edc3dd8112412dc3cb4cd0837"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_get_role</b> (wiced_bt_device_address_t remote_bd_addr, UINT8 *p_role, wiced_bt_transport_t transport)</td></tr>
 <tr class="separator:ga8bcf7e6edc3dd8112412dc3cb4cd0837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga782ed1a15ed7e91016ccc120f94f1898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a> (wiced_bt_device_address_t remote_bd_addr, uint8_t new_role, <a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cb)</td></tr>
+<tr class="memitem:ga782ed1a15ed7e91016ccc120f94f1898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga782ed1a15ed7e91016ccc120f94f1898">BTM_SwitchRole</a> (wiced_bt_device_address_t remote_bd_addr, uint8_t new_role, wiced_bt_dev_cmpl_cback_t *p_cb)</td></tr>
 <tr class="memdesc:ga782ed1a15ed7e91016ccc120f94f1898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_switch_role.  <a href="#ga782ed1a15ed7e91016ccc120f94f1898">More...</a><br /></td></tr>
 <tr class="separator:ga782ed1a15ed7e91016ccc120f94f1898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga78de8e3d5316111ebf8405364f3214b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga78de8e3d5316111ebf8405364f3214b8">BTM_SetLinkSuperTout</a> (wiced_bt_device_address_t remote_bd_addr, uint16_t timeout)</td></tr>
 <tr class="memdesc:ga78de8e3d5316111ebf8405364f3214b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_dev_set_link_supervision_timeout.  <a href="#ga78de8e3d5316111ebf8405364f3214b8">More...</a><br /></td></tr>
 <tr class="separator:ga78de8e3d5316111ebf8405364f3214b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga6b6f27c420d41335cc3fc326e2bb787b">wiced_bt_set_tx_power</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, INT8 power)</td></tr>
-<tr class="memdesc:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commands to set the TX power on link.  <a href="#ga6b6f27c420d41335cc3fc326e2bb787b">More...</a><br /></td></tr>
+<tr class="memitem:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6b6f27c420d41335cc3fc326e2bb787b"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_set_tx_power</b> (wiced_bt_device_address_t bd_addr, INT8 power)</td></tr>
 <tr class="separator:ga6b6f27c420d41335cc3fc326e2bb787b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabbbdf20f35c6970a92a2f0dc0b2aa40d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gabbbdf20f35c6970a92a2f0dc0b2aa40d">wiced_bt_dev_set_tx_power_range</a> (wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, INT8 max_power, INT8 min_power)</td></tr>
-<tr class="memdesc:gabbbdf20f35c6970a92a2f0dc0b2aa40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command to set the TX power range on a link.  <a href="#gabbbdf20f35c6970a92a2f0dc0b2aa40d">More...</a><br /></td></tr>
+<tr class="memitem:gabbbdf20f35c6970a92a2f0dc0b2aa40d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabbbdf20f35c6970a92a2f0dc0b2aa40d"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_set_tx_power_range</b> (wiced_bt_device_address_t bd_addr, INT8 max_power, INT8 min_power)</td></tr>
 <tr class="separator:gabbbdf20f35c6970a92a2f0dc0b2aa40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad73f1d17007df09cf4ee5f223c0a0094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gad73f1d17007df09cf4ee5f223c0a0094">wiced_bt_dev_link_quality_stats</a> (BD_ADDR bda, wiced_bt_transport_t transport, uint8_t <a class="el" href="wiced__bt__dev_8h.html#aa90f0d42f4f210203fb37502590a7bdb">action</a>, <a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *p_cback)</td></tr>
-<tr class="memdesc:gad73f1d17007df09cf4ee5f223c0a0094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the statistics for an ACL link.  <a href="#gad73f1d17007df09cf4ee5f223c0a0094">More...</a><br /></td></tr>
+<tr class="memitem:gad73f1d17007df09cf4ee5f223c0a0094"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad73f1d17007df09cf4ee5f223c0a0094"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_dev_link_quality_stats</b> (BD_ADDR bda, wiced_bt_transport_t transport, uint8_t action, wiced_bt_dev_cmpl_cback_t *p_cback)</td></tr>
 <tr class="separator:gad73f1d17007df09cf4ee5f223c0a0094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa34891858f4af31cf59a8e9d34228ac1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#gaa34891858f4af31cf59a8e9d34228ac1">wiced_bt_coex_enable</a> (uint32_t seci_baud_rate)</td></tr>
-<tr class="memdesc:gaa34891858f4af31cf59a8e9d34228ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can invoke this function to enable the coex functionality.  <a href="#gaa34891858f4af31cf59a8e9d34228ac1">More...</a><br /></td></tr>
+<tr class="memitem:gaa34891858f4af31cf59a8e9d34228ac1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa34891858f4af31cf59a8e9d34228ac1"></a>
+<a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_coex_enable</b> (uint32_t seci_baud_rate)</td></tr>
 <tr class="separator:gaa34891858f4af31cf59a8e9d34228ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a25f2513f319465608e68a02ab2c714"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group__dev__functions__ctrl.html#ga2a25f2513f319465608e68a02ab2c714">wiced_bt_coex_disable</a> (void)</td></tr>
-<tr class="memdesc:ga2a25f2513f319465608e68a02ab2c714"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application can invoke this function to disable the coex functionality.  <a href="#ga2a25f2513f319465608e68a02ab2c714">More...</a><br /></td></tr>
+<tr class="memitem:ga2a25f2513f319465608e68a02ab2c714"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2a25f2513f319465608e68a02ab2c714"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_coex_disable</b> (void)</td></tr>
 <tr class="separator:ga2a25f2513f319465608e68a02ab2c714"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -218,7 +218,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
+          <td class="paramtype">wiced_bt_dev_cmpl_cback_t *&#160;</td>
           <td class="paramname"><em>p_cb</em>&#160;</td>
         </tr>
         <tr>
@@ -240,513 +240,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wiced_result_t WICED_BT_SUCCESS if already in specified role. WICED_BT_CMD_STARTED if command issued to controller. WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified WICED_BT_MODE_UNSUPPORTED if local device doesn't support role switching </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga2a25f2513f319465608e68a02ab2c714"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_coex_disable </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The application can invoke this function to disable the coex functionality. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaa34891858f4af31cf59a8e9d34228ac1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_coex_enable </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>seci_baud_rate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The application can invoke this function to enable the coex functionality. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">seci_baud_rate</td><td>- SECI baud rate. Ensure to set a valid baud rate which will be used for the SECI communication between Bluetooth and WLAN chip. The maximum supported value is up to 4M.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga8bcf7e6edc3dd8112412dc3cb4cd0837"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_get_role </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>remote_bd_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">UINT8 *&#160;</td>
-          <td class="paramname"><em>p_role</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bt_transport_t&#160;</td>
-          <td class="paramname"><em>transport</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the role of the local device for the ACL connection with the specified remote device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bd_addr</td><td>BD address of remote device </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>BT_TRANSPORT_BR_EDR or BT_TRANSPORT_LE </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">p_role</td><td>Role of the local device</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>WICED_BT_UNKNOWN_ADDR if no active link with BD_ADDR specified </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gad73f1d17007df09cf4ee5f223c0a0094"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_link_quality_stats </td>
-          <td>(</td>
-          <td class="paramtype">BD_ADDR&#160;</td>
-          <td class="paramname"><em>bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bt_transport_t&#160;</td>
-          <td class="paramname"><em>transport</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>action</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the statistics for an ACL link. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bda</td><td>Bluetooth device address of desired link quality statistics </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>BT_TRANSPORT_BR_EDR or BT_TRANSPORT_LE </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">action</td><td><ul>
-<li>WICED_CLEAR_LINK_QUALITY_STATS = reset the link quality statistics to 0</li>
-<li>WICED_READ_LINK_QUALITY_STATS = read link quality statistics</li>
-<li>WICED_READ_THEN_CLEAR_LINK_QUALITY_STATS = read link quality stats, then clear it </li>
-</ul>
-</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>Result callback</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>WICED_BT_SUCCESS: If successful</li>
-<li>WICED_BT_PENDING: If command succesfully sent down</li>
-<li>WICED_BT_BUSY If already in progress</li>
-<li>WICED_BT_NO_RESORCES: If no memory/buffers available to sent down to controller</li>
-<li>WICED_BT_UNKNOWN_ADDR: If given BD_ADDRESS is invalid</li>
-</ul>
-</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>Callback function argument is the pointer of type wiced_bt_lq_stats_result_t.</dd>
-<dd>
-This API works when there is only one ACL connection. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gab6a09117d2fa6f4b31d8bfb9aa4d382c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_dev_read_local_addr </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>bd_addr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads the local device address. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">bd_addr</td><td>Pointer to local BD_ADDR filled upon API call</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gafea954a02935ce3dfa5409ff40e25ae3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_read_rssi </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>remote_bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bt_transport_t&#160;</td>
-          <td class="paramname"><em>transport</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the Receive Signal Strength Index (RSSI) for the requested link. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>BD_ADDR of connection to read RSSI </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>BT_TRANSPORT_BR_EDR or BT_TRANSPORT_LE </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>Callback to receive <a class="el" href="structwiced__bt__dev__rssi__result__t.html" title="RSSI Result (in response to wiced_bt_dev_read_rssi) ">wiced_bt_dev_rssi_result_t</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>WICED_BT_PENDING if command issued to controller.</li>
-<li>WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command</li>
-<li>WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified</li>
-<li>WICED_BT_BUSY if command is already in progress </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga48a580210a970a52c39fca816ccfd0d7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_read_tx_power </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>remote_bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bt_transport_t&#160;</td>
-          <td class="paramname"><em>transport</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9">wiced_bt_dev_cmpl_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads the transmit power for the requested link. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">remote_bda</td><td>BD address of connection to read TX power </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">transport</td><td>BT_TRANSPORT_BR_EDR or BT_TRANSPORT_LE </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>Callback, which will receive <a class="el" href="structwiced__bt__tx__power__result__t.html" title="TX Power Result (in response to wiced_bt_dev_read_tx_power) ">wiced_bt_tx_power_result_t</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>WICED_BT_PENDING if command issued to controller.</li>
-<li>WICED_BT_NO_RESOURCES if couldn't allocate memory to issue command</li>
-<li>WICED_BT_UNKNOWN_ADDR if no active link with bd addr specified</li>
-<li>WICED_BT_BUSY if command is already in progress. </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga06312613214e2e1b01da2e837f4f6d05"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_register_connection_status_change </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#ga4ff97728d6c3799669cbbf381fecdc3f">wiced_bt_connection_status_change_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_wiced_bt_connection_status_change_cback</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Registers a callback for connection status change. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_wiced_bt_connection_status_change_cback</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t<ul>
-<li>WICED_BT_SUCCESS : on success;</li>
-<li>WICED_BT_FAILED : if an error occurred </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6f76de78537f24e047f4b95c6fb91ff8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_dev_register_hci_trace </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#gae97953398baa0fc214c8af02444b2b9e">wiced_bt_hci_trace_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Registers to get the HCI traces. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>Callback for HCI traces</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gabbbdf20f35c6970a92a2f0dc0b2aa40d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_set_tx_power_range </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>bd_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">INT8&#160;</td>
-          <td class="paramname"><em>max_power</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">INT8&#160;</td>
-          <td class="paramname"><em>min_power</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Command to set the TX power range on a link. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>peer address of the link </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max_power</td><td>Max power value in db (Must be &lt;= 4) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">min_power</td><td>Min power value in db (Must be &gt;= -24)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="gaff614aad7be8ad5bde22d36351fac720"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_dev_vendor_specific_command </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>opcode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>param_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>p_param_buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group__dev__data__structures.html#ga16af26f84329c4d5ee716691f46e3faf">wiced_bt_dev_vendor_specific_command_complete_cback_t</a> *&#160;</td>
-          <td class="paramname"><em>p_cback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sends a vendor specific HCI command to the controller. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">opcode</td><td>Opcode of vendor specific command </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">param_len</td><td>Length of parameter buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_param_buf</td><td>Parameters </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">p_cback</td><td>Callback for command complete</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><ul>
-<li>WICED_BT_SUCCESS Command sent. (command complete callback param is NULL)</li>
-<li>WICED_BT_PENDING Command sent. Waiting for command complete event.</li>
-<li>WICED_BT_BUSY Command not sent. Waiting for command complete event for prior command. </li>
-</ul>
-</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6c8336c8df5e584bc76bf98fe65d5c8d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wiced_bt_set_local_bdaddr </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>bda</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wiced_bt_ble_address_type_t&#160;</td>
-          <td class="paramname"><em>addr_type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set Local Bluetooth Device Address. </p>
-<p>If the application passes BLE_ADDR_RANDOM as an address type, the stack will setup a static random address. For the static random address, the top two bits of the bd_addr should be set. The stack will enforce that.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>new BD_ADDR to set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">addr_type</td><td><ul>
-<li>BLE_ADDR_RANDOM (only for LE, not BR/EDR or dual mode)</li>
-<li>BLE_ADDR_PUBLIC</li>
-</ul>
-</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6b6f27c420d41335cc3fc326e2bb787b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a> wiced_bt_set_tx_power </td>
-          <td>(</td>
-          <td class="paramtype">wiced_bt_device_address_t&#160;</td>
-          <td class="paramname"><em>bd_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">INT8&#160;</td>
-          <td class="paramname"><em>power</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Commands to set the TX power on link. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bd_addr</td><td>peer address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">power</td><td>power value in db</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>wiced_result_t </dd></dl>
 
 </div>
 </div>

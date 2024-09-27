@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -188,7 +188,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gac6295c867b58e1f49a4ec6df31b32c1b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#gac6295c867b58e1f49a4ec6df31b32c1b">wiced_bt_iap2_connection_up_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *<a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:gac6295c867b58e1f49a4ec6df31b32c1b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#gac6295c867b58e1f49a4ec6df31b32c1b">wiced_bt_iap2_connection_up_callback_t</a> )(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *bd_addr)</td></tr>
 <tr class="memdesc:gac6295c867b58e1f49a4ec6df31b32c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_iap2_connection_up_callback.  <a href="#gac6295c867b58e1f49a4ec6df31b32c1b">More...</a><br /></td></tr>
 <tr class="separator:gac6295c867b58e1f49a4ec6df31b32c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga56b8c73b8bb905b7c2948de8d379b088"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#ga56b8c73b8bb905b7c2948de8d379b088">wiced_bt_iap2_connection_failed_callback_t</a> )(uint8_t err_code)</td></tr>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga36bdc0f6bf37670f91ce339558b91f31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#ga36bdc0f6bf37670f91ce339558b91f31">wiced_bt_iap2_startup</a> (<a class="el" href="structwiced__bt__iap2__reg__t.html">wiced_bt_iap2_reg_t</a> *p_reg)</td></tr>
 <tr class="memdesc:ga36bdc0f6bf37670f91ce339558b91f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_iap2_startup.  <a href="#ga36bdc0f6bf37670f91ce339558b91f31">More...</a><br /></td></tr>
 <tr class="separator:ga36bdc0f6bf37670f91ce339558b91f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae9ff9af806c575f4a4f7dc917ff5b22d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#gae9ff9af806c575f4a4f7dc917ff5b22d">wiced_bt_iap2_connect</a> (uint8_t *<a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:gae9ff9af806c575f4a4f7dc917ff5b22d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#gae9ff9af806c575f4a4f7dc917ff5b22d">wiced_bt_iap2_connect</a> (uint8_t *bd_addr)</td></tr>
 <tr class="memdesc:gae9ff9af806c575f4a4f7dc917ff5b22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function wiced_bt_iap2_connect.  <a href="#gae9ff9af806c575f4a4f7dc917ff5b22d">More...</a><br /></td></tr>
 <tr class="separator:gae9ff9af806c575f4a4f7dc917ff5b22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab869d34e26353e11fdbb8dc6857a9dc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#gab869d34e26353e11fdbb8dc6857a9dc0">wiced_bt_iap2_disconnect</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
@@ -247,7 +247,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8a0838d7e270723b31cfb01e972656ce"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#ga8a0838d7e270723b31cfb01e972656ce">wiced_bt_iap2_rfcomm_get_peer_mtu</a> (uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>)</td></tr>
 <tr class="memdesc:ga8a0838d7e270723b31cfb01e972656ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">iAP2 application use this function to read the peer_mtu size when rfcomm connection made  <a href="#ga8a0838d7e270723b31cfb01e972656ce">More...</a><br /></td></tr>
 <tr class="separator:ga8a0838d7e270723b31cfb01e972656ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5224d698c53f34d9092b322e18e7b8eb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#ga5224d698c53f34d9092b322e18e7b8eb">wiced_bt_iap2_get_connection_state</a> (uint8_t *<a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td></tr>
+<tr class="memitem:ga5224d698c53f34d9092b322e18e7b8eb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__bt__iap2__api__functions.html#ga5224d698c53f34d9092b322e18e7b8eb">wiced_bt_iap2_get_connection_state</a> (uint8_t *bd_addr)</td></tr>
 <tr class="memdesc:ga5224d698c53f34d9092b322e18e7b8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">iAP2 application use this function to get the connection state with the peer specified by btaddr  <a href="#ga5224d698c53f34d9092b322e18e7b8eb">More...</a><br /></td></tr>
 <tr class="separator:ga5224d698c53f34d9092b322e18e7b8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -346,7 +346,7 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* wiced_bt_iap2_connection_up_callback_t)(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *<a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>)</td>
+          <td class="memname">typedef void(* wiced_bt_iap2_connection_up_callback_t)(uint16_t <a class="el" href="wiced__bt__gatt_8h.html#af242d6e3b6108ea75e1eb236e94c8240">handle</a>, uint8_t *bd_addr)</td>
         </tr>
       </table>
 </div><div class="memdoc">

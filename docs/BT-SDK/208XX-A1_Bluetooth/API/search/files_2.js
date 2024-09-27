@@ -17,7 +17,6 @@ var searchData=
   ['wiced_5fbt_5fbeacon_2eh',['wiced_bt_beacon.h',['../wiced__bt__beacon_8h.html',1,'']]],
   ['wiced_5fbt_5fble_2eh',['wiced_bt_ble.h',['../wiced__bt__ble_8h.html',1,'']]],
   ['wiced_5fbt_5fcfg_2eh',['wiced_bt_cfg.h',['../wiced__bt__cfg_8h.html',1,'']]],
-  ['wiced_5fbt_5fdev_2eh',['wiced_bt_dev.h',['../wiced__bt__dev_8h.html',1,'']]],
   ['wiced_5fbt_5fedr_2eh',['wiced_bt_edr.h',['../wiced__bt__edr_8h.html',1,'']]],
   ['wiced_5fbt_5fevent_2eh',['wiced_bt_event.h',['../wiced__bt__event_8h.html',1,'']]],
   ['wiced_5fbt_5ffactory_5fapp_5fconfig_2eh',['wiced_bt_factory_app_config.h',['../wiced__bt__factory__app__config_8h.html',1,'']]],

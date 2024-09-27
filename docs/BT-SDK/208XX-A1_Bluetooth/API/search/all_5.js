@@ -1,7 +1,6 @@
 var searchData=
 [
   ['e_5fhandle',['e_handle',['../structwiced__bt__gatt__discovery__param__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_discovery_param_t::e_handle()'],['../structwiced__bt__gatt__read__by__type__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_read_by_type_t::e_handle()'],['../structwiced__bt__gatt__group__value__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_group_value_t::e_handle()'],['../structwiced__bt__gatt__included__service__t.html#ac8dbf7df9897eb9a3d27229a78c1ab04',1,'wiced_bt_gatt_included_service_t::e_handle()']]],
-  ['ediv',['ediv',['../wiced__bt__dev_8h.html#a8b4886f4bc0d3f0051ed5ca662f3a607',1,'wiced_bt_dev.h']]],
   ['eir_5fcomplete_5flist',['eir_complete_list',['../structwiced__bt__dev__inquiry__scan__result__t.html#a3a591ca4c331eab0d129dbc19cf6d5b8',1,'wiced_bt_dev_inquiry_scan_result_t']]],
   ['eir_5fuuid',['eir_uuid',['../structwiced__bt__dev__inquiry__scan__result__t.html#a345ad3f931137bebef15d0e59daf19f8',1,'wiced_bt_dev_inquiry_scan_result_t']]],
   ['element_5faddr',['element_addr',['../wiced__bt__mesh__provision_8h.html#acc07a6590d5e67223bb2345a7c64060a',1,'wiced_bt_mesh_provision.h']]],

@@ -254,17 +254,10 @@ var group__group__dev__data__structures =
       [ "user_passkey_request", "unionwiced__bt__management__evt__data__t.html#a08ca47750f2155d6c50eae32321c73ec", null ]
     ] ],
     [ "wiced_bt_br_edr_pkt_type_stats", "group__group__dev__data__structures.html#gaefd3aeccca9630321965a52c09b3efda", null ],
-    [ "wiced_bt_connection_status_change_cback_t", "group__group__dev__data__structures.html#ga4ff97728d6c3799669cbbf381fecdc3f", null ],
-    [ "wiced_bt_dev_cmpl_cback_t", "group__group__dev__data__structures.html#gab00d2714f122f0590dbafc270f0004f9", null ],
     [ "wiced_bt_dev_status_t", "group__group__dev__data__structures.html#gaebfc7a7f17241ffdaf1a70efc43ffb57", null ],
-    [ "wiced_bt_dev_vendor_specific_command_complete_cback_t", "group__group__dev__data__structures.html#ga16af26f84329c4d5ee716691f46e3faf", null ],
     [ "wiced_bt_device_link_keys_t", "group__group__dev__data__structures.html#ga2cd509b3453a1cb0248f70f5b97c7037", null ],
-    [ "wiced_bt_hci_trace_cback_t", "group__group__dev__data__structures.html#gae97953398baa0fc214c8af02444b2b9e", null ],
-    [ "wiced_bt_inquiry_result_cback_t", "group__group__dev__data__structures.html#ga81029e82aefce8f23d7ad9bcdee15cf8", null ],
     [ "wiced_bt_lq_br_edr_stats", "group__group__dev__data__structures.html#ga6acbf30d18802a29aaa21e85aca6edce", null ],
     [ "wiced_bt_lq_le_stats", "group__group__dev__data__structures.html#gaa01e655b8378258153a7d22e5658987a", null ],
     [ "wiced_bt_lq_stats_result_t", "group__group__dev__data__structures.html#ga326efec01b5a3c3804d3cd9251f71dcf", null ],
-    [ "wiced_bt_management_cback_t", "group__group__dev__data__structures.html#ga50c74fb6824e881c95c1ccaf3ddf01d3", null ],
-    [ "wiced_bt_remote_name_cback_t", "group__group__dev__data__structures.html#ga7a9c3da3a9578a2e2f9275e8b0490d98", null ],
     [ "wiced_bt_sco_type_t", "group__group__dev__data__structures.html#gaa60fe446ece8ef8847c1dc84e6485ccc", null ]
 ];

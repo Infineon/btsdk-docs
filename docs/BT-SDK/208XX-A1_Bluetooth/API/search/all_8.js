@@ -16,7 +16,6 @@ var searchData=
   ['hdrcmp_5fmask',['hdrcmp_mask',['../structwiced__bt__avdt__cfg__t.html#a4c8a0a174c42239ca6daf20a68b9199a',1,'wiced_bt_avdt_cfg_t']]],
   ['header_20operations',['Header Operations',['../group__header__api__functions.html',1,'']]],
   ['heart_5frate',['heart_rate',['../structwiced__bt__hrc__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4',1,'wiced_bt_hrc_notification_data_t::heart_rate()'],['../structwiced__bt__hrs__notification__data__t.html#a28b1c8d91d0fe79b75cd214592d180a4',1,'wiced_bt_hrs_notification_data_t::heart_rate()']]],
-  ['hecerrs',['hecErrs',['../wiced__bt__dev_8h.html#a347f76ceae5ca481ab3d36d335302947',1,'wiced_bt_dev.h']]],
   ['hidd_20over_20br_2fedr',['HIDD over BR/EDR',['../group__hidd__api__functions.html',1,'']]],
   ['hidd_20library_20api',['HIDD Library API',['../group__hidd__functions.html',1,'']]],
   ['high_5fduty_5fconn_5fduration',['high_duty_conn_duration',['../structwiced__bt__cfg__ble__scan__settings__t.html#a4db6ad71b0655164d4e46e95db34a943',1,'wiced_bt_cfg_ble_scan_settings_t']]],

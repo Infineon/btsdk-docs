@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads the current connection parameters being used for an active LE connection. </p>
-<p>To receive an asynchronous event every time the connections params change (instead of polling manually using this API), handle the event BTM_BLE_CONNECTION_PARAM_UPDATE in the <a class="el" href="group__group__dev__data__structures.html#ga50c74fb6824e881c95c1ccaf3ddf01d3">wiced_bt_management_cback_t</a>, which is registered in <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>.</p>
+<p>To receive an asynchronous event every time the connections params change (instead of polling manually using this API), handle the event BTM_BLE_CONNECTION_PARAM_UPDATE in the wiced_bt_management_cback_t, which is registered in <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>.</p>
 <p>Example use of this API to poll params: </p><div class="fragment"><div class="line">{</div>
 <div class="line">    <a class="code" href="structwiced__bt__ble__conn__params__t.html">wiced_bt_ble_conn_params_t</a> conn_params;</div>
 <div class="line"></div>
@@ -222,7 +222,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sends an HCI command to the controller to set the host preferences for the LE PHY used on a specific pre-established LE connection. </p>
-<p>The response to this event is triggered asynchronously via the event BTM_BLE_PHY_UPDATE_EVT, sent to the BT stack management handler <a class="el" href="group__group__dev__data__structures.html#ga50c74fb6824e881c95c1ccaf3ddf01d3">wiced_bt_management_cback_t</a> registered in <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>. The handler will receive a flags to indicate the current PHY(s) in use (<a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a>).</p>
+<p>The response to this event is triggered asynchronously via the event BTM_BLE_PHY_UPDATE_EVT, sent to the BT stack management handler wiced_bt_management_cback_t registered in <a class="el" href="group__wicedbt___framework.html#ga5ffccad07a041f9f18a6d2f132d4edf5">wiced_bt_stack_init</a>. The handler will receive a flags to indicate the current PHY(s) in use (<a class="el" href="structwiced__bt__ble__phy__update__t.html">wiced_bt_ble_phy_update_t</a>).</p>
 <p>PHY preferences must be set with knowledge of the underlying hardware. Not all PHYs are supported by all 20x19 devices. For example, 207819 only supports LE2M, but not LELR. Setting preferences for a PHY that does not exist in the hardware will have no effect, but still result in PHY update event in the management handler.</p>
 <p>PHY preferences for LELR in <a class="el" href="structwiced__bt__ble__phy__preferences__t.html#a7e29fbeccb986da96a0d6333de7cddac" title="Host preference on LE coded PHY. ">wiced_bt_ble_phy_preferences_t.phy_opts</a> can be set even if the LELR PHY is not preferred. This is because the controller can override the host's PHY preferences set by this API in favor of LELR (<em>if</em> the hardware supports LELR).</p>
 <p>Example of setting LE2M: </p><div class="fragment"><div class="line">{</div>

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.6 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.8 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -116,7 +116,7 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ga2588ef8bd80c025d5518211131f2f1ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2588ef8bd80c025d5518211131f2f1ae"></a>
-typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_connected_cback_t</b> )(void *context, wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t peer_mtu)</td></tr>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_connected_cback_t</b> )(void *context, wiced_bt_device_address_t bd_addr, uint16_t local_cid, uint16_t peer_mtu)</td></tr>
 <tr class="separator:ga2588ef8bd80c025d5518211131f2f1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafeac3842c2ef15178764a3765883af96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafeac3842c2ef15178764a3765883af96"></a>
 typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_disconnect_indication_cback_t</b> )(void *context, uint16_t local_cid, wiced_bool_t ack)</td></tr>
@@ -134,7 +134,7 @@ typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2c
 typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_tx_complete_cback_t</b> )(void *context, uint16_t local_cid, uint16_t num_sdu)</td></tr>
 <tr class="separator:gaf9c25935483d67848e1c8117520b4e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae6163e7bdeaa2ca3a39083edd77c67ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae6163e7bdeaa2ca3a39083edd77c67ae"></a>
-typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_le_connect_indication_cback_t</b> )(void *context, wiced_bt_device_address_t <a class="el" href="wiced__bt__dev_8h.html#a32720070bf9bf7f271fcb08f9354f4da">bd_addr</a>, uint16_t local_cid, uint16_t psm, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t mtu_peer)</td></tr>
+typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_le_connect_indication_cback_t</b> )(void *context, wiced_bt_device_address_t bd_addr, uint16_t local_cid, uint16_t psm, uint8_t <a class="el" href="wiced__bt__mesh__provision_8h.html#a1e6927fa1486224044e568f9c370519b">id</a>, uint16_t mtu_peer)</td></tr>
 <tr class="separator:gae6163e7bdeaa2ca3a39083edd77c67ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga87f8db621ddb192fe2cffdba0ba21fc3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga87f8db621ddb192fe2cffdba0ba21fc3"></a>
 typedef void(&#160;</td><td class="memItemRight" valign="bottom"><b>wiced_bt_l2cap_le_connect_confirm_cback_t</b> )(void *context, uint16_t local_cid, uint16_t result, uint16_t mtu_peer)</td></tr>
