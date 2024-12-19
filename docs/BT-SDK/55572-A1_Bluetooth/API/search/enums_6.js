@@ -78,7 +78,6 @@ var searchData=
   ['wiced_5fbt_5fisoc_5fphy_5fe',['wiced_bt_isoc_phy_e',['../group__wicedbt__isoc__defs.html#ga5f976fcebc4b50d311af3a0ceb7989d7',1,'wiced_bt_isoc.h']]],
   ['wiced_5fbt_5flink_5fpolicy_5fsettings_5fvalues_5fe',['wiced_bt_link_policy_settings_values_e',['../group__wicedbt___device_management.html#ga5ac33b180c10d23690c1bf22363f0e56',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5fmanagement_5fevt_5fe',['wiced_bt_management_evt_e',['../group__wicedbt___device_management.html#ga4a427fc37161f2041016d7936399be65',1,'wiced_bt_dev.h']]],
-  ['wiced_5fbt_5fmesh_5fcore_5fstate_5ftype_5ft',['wiced_bt_mesh_core_state_type_t',['../group__wiced__bt__mesh__core.html#ga02a9c4bb1051423c260e310edba3503b',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5fmulti_5fadv_5fopcodes_5ft',['wiced_bt_multi_adv_opcodes_t',['../group__wicedbt___device_management.html#gaf0fdeb6794ca91ad6e2c539b620d88fe',1,'wiced_bt_dev.h']]],
   ['wiced_5fbt_5frfcomm_5fport_5fevent_5fe',['wiced_bt_rfcomm_port_event_e',['../group__rfcomm__api__functions.html#ga167e3d9b581bf1b6c30c4008a9859d23',1,'wiced_bt_rfcomm.h']]],
   ['wiced_5fbt_5frfcomm_5fresult_5fe',['wiced_bt_rfcomm_result_e',['../group__rfcomm__api__functions.html#ga919c228fbe128a196f66f0569ff3c1ee',1,'wiced_bt_rfcomm.h']]],

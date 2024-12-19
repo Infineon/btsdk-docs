@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"structwiced__bt__dev__security__failed__t.html":[7,1,8,4,14],
+"structwiced__bt__dev__security__failed__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,14,0],
+"structwiced__bt__dev__security__failed__t.html#aa904d111ff996e4722c677ab290fbc77":[7,1,8,4,14,1],
+"structwiced__bt__dev__security__failed__t.html#ab8e479da74afc23640638fcab4e40062":[7,1,8,4,14,2],
+"structwiced__bt__dev__security__request__t.html":[7,1,8,4,15],
+"structwiced__bt__dev__security__request__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,15,0],
+"structwiced__bt__dev__user__cfm__req__t.html":[7,1,8,4,10],
+"structwiced__bt__dev__user__cfm__req__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,10,0],
 "structwiced__bt__dev__user__cfm__req__t.html#a7faacee0473cb2f4465b80e2d736109c":[7,1,8,4,10,2],
 "structwiced__bt__dev__user__cfm__req__t.html#aa8e43168dc15f7a281337db5d4d0614c":[7,1,8,4,10,1],
 "structwiced__bt__dev__user__cfm__req__t.html#acf7938b35e5aff5c2bcd75456f98794f":[7,1,8,4,10,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "structwiced__bt__iap2__reg__t.html#a94cbad823e4b78d8b96c1dda757274d0":[7,1,19,3,2],
 "structwiced__bt__iap2__reg__t.html#a94f2abff10f23a3bfc9751facfe9651d":[7,1,19,3,7],
 "structwiced__bt__iap2__reg__t.html#aa9e1a22489f50fa207371e0da4931a03":[7,1,19,3,4],
-"structwiced__bt__iap2__reg__t.html#aefa2be089fd56821b92fe080d17c8f53":[7,1,19,3,6],
-"structwiced__bt__isoc__big__create__sync__t.html":[7,1,8,0,2,0,16],
-"structwiced__bt__isoc__big__create__sync__t.html#a31c53cffd185910fb31f70cdd1cb8c69":[7,1,8,0,2,0,16,1],
-"structwiced__bt__isoc__big__create__sync__t.html#a3a9954847057a9c4c373abdf2ed73958":[7,1,8,0,2,0,16,4],
-"structwiced__bt__isoc__big__create__sync__t.html#a5cac56da8000c1ba7eed5a6429f2f8c8":[7,1,8,0,2,0,16,5],
-"structwiced__bt__isoc__big__create__sync__t.html#a9099921875490bea15106c28d062c865":[7,1,8,0,2,0,16,7],
-"structwiced__bt__isoc__big__create__sync__t.html#aa4268b28c0bd9d2cb94fb0bd5c3d75f8":[7,1,8,0,2,0,16,6],
-"structwiced__bt__isoc__big__create__sync__t.html#ad84cf7afce215d6b645c8ad79f127a88":[7,1,8,0,2,0,16,2],
-"structwiced__bt__isoc__big__create__sync__t.html#add54ca7a339dcf6f5e2efb96729c66b1":[7,1,8,0,2,0,16,3]
+"structwiced__bt__iap2__reg__t.html#aefa2be089fd56821b92fe080d17c8f53":[7,1,19,3,6]
 };

@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('hcidefs_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -97,7 +97,8 @@ $(document).ready(function(){initNavTree('hcidefs_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">hcidefs.h File Reference</div>  </div>
 </div><!--header-->
@@ -3576,7 +3577,7 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_EDR3_DH5_PACKET_SIZE</b>&#160;&#160;&#160;1021</td></tr>
 <tr class="separator:aa262a847ada96965cbc5f8c26de6e017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad509c42b4891bba8b02b07da6a4b1f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad509c42b4891bba8b02b07da6a4b1f2"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_EXT_FEATURES_PAGE_0</b>&#160;&#160;&#160;0       /* Extended Feature Page 0 (regular <a class="el" href="wiced__bt__mesh__cfg_8h.html#a05394e2501b222db77c3a39194523065">features</a>) */</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_EXT_FEATURES_PAGE_0</b>&#160;&#160;&#160;0       /* Extended Feature Page 0 (regular features) */</td></tr>
 <tr class="separator:aad509c42b4891bba8b02b07da6a4b1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c04d4bcde8f02cb4a7f6d4e9812c4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66c04d4bcde8f02cb4a7f6d4e9812c4a"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_EXT_FEATURES_PAGE_1</b>&#160;&#160;&#160;1       /* Extended Feature Page 1 */</td></tr>
@@ -6539,6 +6540,13 @@ Macros</h2></td></tr>
 <tr class="memitem:a1374943af7124e24368e0abadfdd3e37"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1374943af7124e24368e0abadfdd3e37"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>HCI_BRCM_LQ_BREDR_STATS</b>&#160;&#160;&#160;(0x01CE | HCI_GRP_VENDOR_SPECIFIC)</td></tr>
 <tr class="separator:a1374943af7124e24368e0abadfdd3e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a85970731380e117fa839f0db9715d41a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85970731380e117fa839f0db9715d41a"></a>
+typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="hcidefs_8h.html#a85970731380e117fa839f0db9715d41a">wiced_bt_ble_feature_bit_t</a></td></tr>
+<tr class="memdesc:a85970731380e117fa839f0db9715d41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">LE supported feature bits. <br /></td></tr>
+<tr class="separator:a85970731380e117fa839f0db9715d41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Host Controller Interface definitions. </p>

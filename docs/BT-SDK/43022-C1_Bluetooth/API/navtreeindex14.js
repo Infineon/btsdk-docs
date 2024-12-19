@@ -1,5 +1,13 @@
 var NAVTREEINDEX14 =
 {
+"structwiced__fw__upgrade__nv__loc__len__t.html#ab52b36ae75c03870671f474272297cdf":[7,0,0,0,4],
+"structwiced__fw__upgrade__nv__loc__len__t.html#af37de341cd05f3eddd9d469a21f61957":[7,0,0,0,5],
+"structwiced__pwm__config__t.html":[7,2,11,0],
+"structwiced__pwm__config__t.html#a649717814d87517d92d0c8b26d8c70ec":[7,2,11,0,1],
+"structwiced__pwm__config__t.html#afaed6675877fe8caa9033b3df01ef1ce":[7,2,11,0,0],
+"structwiced__sleep__config__t.html":[7,2,15,0],
+"structwiced__sleep__config__t.html#a1aedb2ca9cec42ddaec1ac00d4f91ece":[7,2,15,0,4],
+"structwiced__sleep__config__t.html#a4de8438f7dd93d8ea0c0b93bcc2e54ed":[7,2,15,0,5],
 "structwiced__sleep__config__t.html#a5171a33fef2269ba49d52e375fd6ef24":[7,2,15,0,3],
 "structwiced__sleep__config__t.html#a7aec05d6e1bcd4bafed40c3607298c18":[7,2,15,0,0],
 "structwiced__sleep__config__t.html#a7cc9eb9b63e22f630570032601780696":[7,2,15,0,1],

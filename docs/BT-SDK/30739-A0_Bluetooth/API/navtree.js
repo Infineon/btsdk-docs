@@ -15,17 +15,12 @@ var NAVTREEINDEX =
 [
 "group___adc_driver.html",
 "group___result.html#ggacfc32ead8a827d53416f01b19eb58310ab4c918f2ed394fbd698f228311138732",
-"group__group__hci__fw__upgrade__functions.html#ga2f0bdd8c4b347acc81c7e0172ac8611f",
-"group__opus__ctlvalues.html",
-"group__timer.html#gac559821c78cfbda4e360c77144dad978",
-"group__wiced__bt__mesh__core.html#ga92f67a898aae84860ba54500f79c2e86",
-"group__wiced__bt__mesh__model__light__lc__server.html#gac8c14c7073bfa507d604fe3b97ec530e",
-"group__wiced__bt__mesh__provisioning.html#gae8cbf09e709f763e425213155051c4db",
-"group__wicedbt__avdt.html#gac777414649db9badafc4477afccd55bd",
-"structwiced__bt__audio__insert__data.html",
-"structwiced__bt__mesh__core__state__seq__t.html#a41a6aad09727eb120338c35535a652a6",
-"structwiced__bt__mesh__light__xyl__target__status__data__t.html",
-"structwiced__bt__spp__reg__t.html#a7d5ed2c0a8254d9fab032e0cf369d079"
+"group__group__ota__fw__upgrade__cback__functions.html",
+"group__opus__ctlvalues.html#ga41f86df35af0033a7361895da88671c1",
+"group__wiced__bt__anc__api__functions.html#ga1cf1485e7d7bab38f96a9a24b2d64b77",
+"group__wicedbt__audio__utils.html#ggae50b1d8ef56665ba32a1441ed01dce9da7fcee7c176050e7463b89add943b48d1",
+"structwiced__bt__anc__supported__unread__alerts__result__t.html",
+"structwiced__pwm__config__t.html#afaed6675877fe8caa9033b3df01ef1ce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"structwiced__bt__a2dp__sink__route__config.html":[7,1,2,1,0],
+"structwiced__bt__a2dp__sink__route__config.html#a0556db1040d71594fa8e80ede03272e1":[7,1,2,1,0,0],
+"structwiced__bt__a2dp__sink__route__config.html#a19bff79808709215a7054b329cf66c40":[7,1,2,1,0,2],
+"structwiced__bt__a2dp__sink__route__config.html#ab26df626d41d2082b55ebec397bad553":[7,1,2,1,0,1],
+"structwiced__bt__a2dp__source__route__config.html":[7,1,2,1,1],
+"structwiced__bt__a2dp__source__route__config.html#a19bff79808709215a7054b329cf66c40":[7,1,2,1,1,1],
+"structwiced__bt__a2dp__source__route__config.html#ab26df626d41d2082b55ebec397bad553":[7,1,2,1,1,0],
+"structwiced__bt__a2dp__statistics__t.html":[7,1,2,0,1],
 "structwiced__bt__anc__control__alerts__result__t.html":[7,1,0,3],
 "structwiced__bt__anc__control__alerts__result__t.html#a6e9b4648f5577ef48fa3e31855157d3a":[7,1,0,3,0],
 "structwiced__bt__anc__control__alerts__result__t.html#a71a8a39270ae1bf01ad381dca0e95c1b":[7,1,0,3,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX10 =
 "structwiced__bt__ble__ext__adv__report__t.html#ac78cff7af99787faad2a285dffdde08e":[7,1,8,0,6,8,4],
 "structwiced__bt__ble__ext__adv__report__t.html#acb7148607596ec87684d9908f27b6ea4":[7,1,8,0,6,8,1],
 "structwiced__bt__ble__ext__adv__report__t.html#aefee38036bdd9802ba94bdd60e726e10":[7,1,8,0,6,8,2],
-"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html":[7,1,8,0,6,11],
-"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#a5915d7cc8be0d3a5f19054e8846acbde":[7,1,8,0,6,11,0],
-"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#aca97e29ca86d9263c47e428638f74ebd":[7,1,8,0,6,11,1],
-"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#ade818037fd6c985038ff29656089758d":[7,1,8,0,6,11,3],
-"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#af0c81ad6061d61dacde7384dcd3feebd":[7,1,8,0,6,11,2],
-"structwiced__bt__ble__ext__conn__cfg__t.html":[7,1,8,0,6,7],
-"structwiced__bt__ble__ext__conn__cfg__t.html#a25197d525074d1b931869fda4b9c9c4d":[7,1,8,0,6,7,2],
-"structwiced__bt__ble__ext__conn__cfg__t.html#a2d33ebe9f9533c5f1523833f4759b0c6":[7,1,8,0,6,7,4],
-"structwiced__bt__ble__ext__conn__cfg__t.html#a304d8105d369a5adf98f329ac36cca61":[7,1,8,0,6,7,6]
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html":[7,1,8,0,6,11]
 };

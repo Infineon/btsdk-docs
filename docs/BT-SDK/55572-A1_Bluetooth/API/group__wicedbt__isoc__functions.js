@@ -25,5 +25,6 @@ var group__wicedbt__isoc__functions =
     [ "wiced_bt_isoc_register_data_cb", "group__wicedbt__isoc__functions.html#gaaa0cb5f3fce5ce155a10410dec2d8155", null ],
     [ "wiced_bt_isoc_remove_data_path", "group__wicedbt__isoc__functions.html#gae4e0973dc5a2ba0c6710643c23604d19", null ],
     [ "wiced_bt_isoc_setup_data_path", "group__wicedbt__isoc__functions.html#ga7eb88e6327e745fcf8cfed717752f737", null ],
-    [ "wiced_bt_isoc_update_cis_conn_handle", "group__wicedbt__isoc__functions.html#gaa5617fa3c60c05740a709659a2a95ac6", null ]
+    [ "wiced_bt_isoc_update_cis_conn_handle", "group__wicedbt__isoc__functions.html#gaa5617fa3c60c05740a709659a2a95ac6", null ],
+    [ "wiced_bt_write_iso_data_to_lower", "group__wicedbt__isoc__functions.html#ga36f2ece89045a0e9c09f5750ef69adf7", null ]
 ];

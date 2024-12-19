@@ -61,7 +61,6 @@ var searchData=
   ['wiced_5fbt_5flpm_5fpmu_5fsleep_5ftype_5ft',['wiced_bt_lpm_pmu_sleep_type_t',['../wiced__hal__lpm_8h.html#a2fd4627a3479b9559e893fbadb18d580',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5flpm_5fpoll_5ftype_5fe',['wiced_bt_lpm_poll_type_e',['../wiced__hal__lpm_8h.html#a886091abbf0ab8457b8d3c0306adf5f6',1,'wiced_hal_lpm.h']]],
   ['wiced_5fbt_5fmanagement_5fevt_5fe',['wiced_bt_management_evt_e',['../wiced__bt__dev_8h.html#a4a427fc37161f2041016d7936399be65',1,'wiced_bt_dev.h']]],
-  ['wiced_5fbt_5fmesh_5fcore_5fstate_5ftype_5ft',['wiced_bt_mesh_core_state_type_t',['../group__wiced__bt__mesh__core.html#ga02a9c4bb1051423c260e310edba3503b',1,'wiced_bt_mesh_core.h']]],
   ['wiced_5fbt_5frfcomm_5fport_5fevent_5fe',['wiced_bt_rfcomm_port_event_e',['../wiced__bt__rfcomm_8h.html#a167e3d9b581bf1b6c30c4008a9859d23',1,'wiced_bt_rfcomm.h']]],
   ['wiced_5fbt_5frfcomm_5fresult_5fe',['wiced_bt_rfcomm_result_e',['../wiced__bt__rfcomm_8h.html#a919c228fbe128a196f66f0569ff3c1ee',1,'wiced_bt_rfcomm.h']]],
   ['wiced_5fbt_5frfcomm_5fsignal_5fe',['wiced_bt_rfcomm_signal_e',['../wiced__bt__rfcomm_8h.html#adc2b731e552fdb229490b5640e29714d',1,'wiced_bt_rfcomm.h']]],

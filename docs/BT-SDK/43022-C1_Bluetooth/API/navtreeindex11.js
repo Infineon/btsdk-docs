@@ -1,5 +1,13 @@
 var NAVTREEINDEX11 =
 {
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#a5915d7cc8be0d3a5f19054e8846acbde":[7,1,8,0,6,11,0],
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#aca97e29ca86d9263c47e428638f74ebd":[7,1,8,0,6,11,1],
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#ade818037fd6c985038ff29656089758d":[7,1,8,0,6,11,3],
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#af0c81ad6061d61dacde7384dcd3feebd":[7,1,8,0,6,11,2],
+"structwiced__bt__ble__ext__conn__cfg__t.html":[7,1,8,0,6,7],
+"structwiced__bt__ble__ext__conn__cfg__t.html#a25197d525074d1b931869fda4b9c9c4d":[7,1,8,0,6,7,2],
+"structwiced__bt__ble__ext__conn__cfg__t.html#a2d33ebe9f9533c5f1523833f4759b0c6":[7,1,8,0,6,7,4],
+"structwiced__bt__ble__ext__conn__cfg__t.html#a304d8105d369a5adf98f329ac36cca61":[7,1,8,0,6,7,6],
 "structwiced__bt__ble__ext__conn__cfg__t.html#a5383b140bf80fb97f5e73ca8a74c69b9":[7,1,8,0,6,7,3],
 "structwiced__bt__ble__ext__conn__cfg__t.html#a8639aaadce6de74cddc5701d5255b607":[7,1,8,0,6,7,1],
 "structwiced__bt__ble__ext__conn__cfg__t.html#a89cbec117cb1fec2c85576a894fca261":[7,1,8,0,6,7,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX11 =
 "structwiced__bt__dev__pairing__cplt__t.html#a7de905425ef3363920c0950d739903a0":[7,1,8,4,13,2],
 "structwiced__bt__dev__remote__oob__t.html":[7,1,8,4,28],
 "structwiced__bt__dev__remote__oob__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,28,0],
-"structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771":[7,1,8,4,28,1],
-"structwiced__bt__dev__security__failed__t.html":[7,1,8,4,14],
-"structwiced__bt__dev__security__failed__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,14,0],
-"structwiced__bt__dev__security__failed__t.html#aa904d111ff996e4722c677ab290fbc77":[7,1,8,4,14,1],
-"structwiced__bt__dev__security__failed__t.html#ab8e479da74afc23640638fcab4e40062":[7,1,8,4,14,2],
-"structwiced__bt__dev__security__request__t.html":[7,1,8,4,15],
-"structwiced__bt__dev__security__request__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,15,0],
-"structwiced__bt__dev__user__cfm__req__t.html":[7,1,8,4,10],
-"structwiced__bt__dev__user__cfm__req__t.html#a32720070bf9bf7f271fcb08f9354f4da":[7,1,8,4,10,0]
+"structwiced__bt__dev__remote__oob__t.html#a989528fc35ec3370fb743e9df2aa3771":[7,1,8,4,28,1]
 };

@@ -1,6 +1,7 @@
 var group__wicedbt__utility =
 [
     [ "wiced_bt_dev_deregister_vse_callback", "group__wicedbt__utility.html#ga10e6d57bbd051aaf42815071f6631d6f", null ],
+    [ "wiced_bt_dev_get_acl_conn_handle", "group__wicedbt__utility.html#gaad8a148655fbce28fb217c3c757688e5", null ],
     [ "wiced_bt_dev_get_role", "group__wicedbt__utility.html#gaea415ed132f86dbf21dcd6bc729c9ef1", null ],
     [ "wiced_bt_dev_link_quality_stats", "group__wicedbt__utility.html#ga4ab6381d133e991f9e7472c54e0be605", null ],
     [ "wiced_bt_dev_read_tx_power", "group__wicedbt__utility.html#ga48a580210a970a52c39fca816ccfd0d7", null ],
@@ -9,6 +10,5 @@ var group__wicedbt__utility =
     [ "wiced_bt_dev_update_hci_trace_mode", "group__wicedbt__utility.html#gac69677337b7352c0e3cc34d1af85ba01", null ],
     [ "wiced_bt_set_local_bdaddr", "group__wicedbt__utility.html#ga48386d791ced8eaae6bd6cd8f7e3afc2", null ],
     [ "wiced_bt_set_pairable_mode", "group__wicedbt__utility.html#gae95344797140c44aa120d34957a576b3", null ],
-    [ "wiced_bt_set_tx_power", "group__wicedbt__utility.html#ga449c0b615910dc6de36b15b870c1d920", null ],
-    [ "wiced_bt_utils_acl_conn_handle_get", "group__wicedbt__utility.html#ga491c7425febec17a94ca65556d6b844e", null ]
+    [ "wiced_bt_set_tx_power", "group__wicedbt__utility.html#ga449c0b615910dc6de36b15b870c1d920", null ]
 ];

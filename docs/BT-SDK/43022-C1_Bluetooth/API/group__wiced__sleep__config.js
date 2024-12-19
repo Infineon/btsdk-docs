@@ -13,6 +13,14 @@ var group__wiced__sleep__config =
     [ "WICED_SLEEP_WAKE_SOURCE_MASK", "group__wiced__sleep__config.html#ga1277ba41b4bb531b4fa37946cce534a0", null ],
     [ "WICED_SLEEP_WAKE_SOURCE_QUAD", "group__wiced__sleep__config.html#ga31ceb537bdb6ed5a40c2eb69685242f6", null ],
     [ "wiced_sleep_allow_check_callback", "group__wiced__sleep__config.html#ga3e452b8636fb1cbd0c16b8eb720faf7f", null ],
+    [ "pmu_sleep_t", "group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7", [
+      [ "PMU_SLEEP_NOT_ALLOWED", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a8ac159c83304abfb493de07571c12c41", null ],
+      [ "PMU_SLEEP_WITH_XTAL_ON", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a26af97911503120dda068a9d4c9015cb", null ],
+      [ "PMU_SLEEP_WITH_XTAL_OFF", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7aa6e521bc50f6330295be1851df14e63d", null ],
+      [ "PMU_SLEEP_LITE_PDS", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a394ebd6b6c1ea891ea8b2dc1de2c594f", null ],
+      [ "PMU_SLEEP_PDS", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a721e15e9d01bc1ab1499c4af13e63bd6", null ],
+      [ "PMU_SLEEP_EPDS", "group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a6ac11b3d8f59d9996333c77e370426c2", null ]
+    ] ],
     [ "wiced_sleep_boot_type_t", "group__wiced__sleep__config.html#ga46069887a0627072cdde146f6ee18e38", [
       [ "WICED_SLEEP_COLD_BOOT", "group__wiced__sleep__config.html#gga46069887a0627072cdde146f6ee18e38a3e8127106383f2e4a997b259e9e97f16", null ],
       [ "WICED_SLEEP_FAST_BOOT", "group__wiced__sleep__config.html#gga46069887a0627072cdde146f6ee18e38a204a511cb332c05c168b52b19e99bea9", null ]
@@ -34,6 +42,7 @@ var group__wiced__sleep__config =
       [ "WICED_SLEEP_WAKE_ACTIVE_LOW", "group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481ae30e895dab3082ac21e565fd1126a6a7", null ],
       [ "WICED_SLEEP_WAKE_ACTIVE_HIGH", "group__wiced__sleep__config.html#gga7365a0a0a0a19dc4b53ed5e8afa38481adf45fe82660f80ecaafc1cb9be9ee4b3", null ]
     ] ],
+    [ "wiced_sleep_allow_sleep", "group__wiced__sleep__config.html#gab966e40697a96c196f67cdea675f967b", null ],
     [ "wiced_sleep_configure", "group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517", null ],
     [ "wiced_sleep_get_boot_mode", "group__wiced__sleep__config.html#ga7a0afec9e88e0688a90aba2eee780857", null ]
 ];

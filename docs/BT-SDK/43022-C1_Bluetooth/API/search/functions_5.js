@@ -651,6 +651,7 @@ var searchData=
   ['wiced_5fset_5fmulti_5fadvertisement_5fscan_5fresponse_5fdata',['wiced_set_multi_advertisement_scan_response_data',['../group__btm__ble__multi__adv__functions.html#gaabb3afd4913a5d23eabbcece8ffc30e9',1,'wiced_bt_ble.h']]],
   ['wiced_5fset_5fmulti_5fadvertisements_5frandom_5faddress',['wiced_set_multi_advertisements_random_address',['../group__btm__ble__multi__adv__functions.html#gaf875d7862f1685f247d15f3bec49023a',1,'wiced_bt_ble.h']]],
   ['wiced_5fset_5frtc_5ftime',['wiced_set_rtc_time',['../wiced__rtc_8h.html#ab73ab6b6ea33df95045e9611558f9980',1,'wiced_rtc.h']]],
+  ['wiced_5fsleep_5fallow_5fsleep',['wiced_sleep_allow_sleep',['../group__wiced__sleep__config.html#gab966e40697a96c196f67cdea675f967b',1,'wiced_sleep.h']]],
   ['wiced_5fsleep_5fconfig',['wiced_sleep_config',['../wiced__power__save_8h.html#a12e108644e473f50519b74937827d3e7',1,'wiced_power_save.h']]],
   ['wiced_5fsleep_5fconfigure',['wiced_sleep_configure',['../group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517',1,'wiced_sleep.h']]],
   ['wiced_5fsleep_5fget_5fboot_5fmode',['wiced_sleep_get_boot_mode',['../group__wiced__sleep__config.html#ga7a0afec9e88e0688a90aba2eee780857',1,'wiced_sleep.h']]],

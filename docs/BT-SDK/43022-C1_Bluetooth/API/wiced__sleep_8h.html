@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.4 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -166,9 +166,24 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga5711a6c22c9c52c9ea07239e533e1a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep permission Note: SHUTDOWN mode sleep puts the chip in the lowest power saving sleep mode.  <a href="group__wiced__sleep__config.html#ga5711a6c22c9c52c9ea07239e533e1a2c">More...</a><br /></td></tr>
 <tr class="separator:ga5711a6c22c9c52c9ea07239e533e1a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96dd336fdae50a3370ce7784ddb708c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a> { <br />
+&#160;&#160;<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a8ac159c83304abfb493de07571c12c41">PMU_SLEEP_NOT_ALLOWED</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a26af97911503120dda068a9d4c9015cb">PMU_SLEEP_WITH_XTAL_ON</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7aa6e521bc50f6330295be1851df14e63d">PMU_SLEEP_WITH_XTAL_OFF</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a394ebd6b6c1ea891ea8b2dc1de2c594f">PMU_SLEEP_LITE_PDS</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a721e15e9d01bc1ab1499c4af13e63bd6">PMU_SLEEP_PDS</a>, 
+<a class="el" href="group__wiced__sleep__config.html#gga96dd336fdae50a3370ce7784ddb708c7a6ac11b3d8f59d9996333c77e370426c2">PMU_SLEEP_EPDS</a>, 
+<b>PMU_SLEEP_MAX</b> =PMU_SLEEP_EPDS
+<br />
+ }</td></tr>
+<tr class="separator:ga96dd336fdae50a3370ce7784ddb708c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab966e40697a96c196f67cdea675f967b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#gab966e40697a96c196f67cdea675f967b">wiced_sleep_allow_sleep</a> (<a class="el" href="group__wiced__sleep__config.html#ga96dd336fdae50a3370ce7784ddb708c7">pmu_sleep_t</a> sleep_mode)</td></tr>
+<tr class="memdesc:gab966e40697a96c196f67cdea675f967b"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to configure PMU sleep mode parameters.  <a href="group__wiced__sleep__config.html#gab966e40697a96c196f67cdea675f967b">More...</a><br /></td></tr>
+<tr class="separator:gab966e40697a96c196f67cdea675f967b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae16b5586250539a0026a9fef4d71a517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___result.html#gacfc32ead8a827d53416f01b19eb58310">wiced_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517">wiced_sleep_configure</a> (<a class="el" href="structwiced__sleep__config__t.html">wiced_sleep_config_t</a> *p_sleep_config)</td></tr>
 <tr class="memdesc:gae16b5586250539a0026a9fef4d71a517"><td class="mdescLeft">&#160;</td><td class="mdescRight">API to configure sleep mode parameters.  <a href="group__wiced__sleep__config.html#gae16b5586250539a0026a9fef4d71a517">More...</a><br /></td></tr>
 <tr class="separator:gae16b5586250539a0026a9fef4d71a517"><td class="memSeparator" colspan="2">&#160;</td></tr>

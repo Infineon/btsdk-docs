@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bafd40af1676a928ee6fc86344ac5450da":[7,1,9,114,25],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba27b61427e67ec20d346d626e1bb62964":[7,1,9,115,8],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba43670385a6ea65e5e3d1e2ff8fdd9b32":[7,1,9,115,7],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba51a808f43fffae432dd2afb4e7c44a95":[7,1,9,115,0],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba51b265c26e9b6148ea49252f67822545":[7,1,9,115,5],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba6989a4a2b423f170ba873ad29c5c97b3":[7,1,9,115,6],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba83fd2efda59fa4b78c6868b96e7e1f93":[7,1,9,115,9],
+"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba8eb6a5e44b512de33b4c7c4d0eb575f8":[7,1,9,115,10],
 "group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba9394724415a2691ce8c39c89225718dc":[7,1,9,115,2],
 "group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5babf9a58f662a4a80b843c0def43c0eba8":[7,1,9,115,4],
 "group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5bad18befee90f3283bbe48672b67095258":[7,1,9,115,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "structwiced__bt__a2dp__sink__audio__tuning__params__t.html#acc0ed56b1259d733ea6f6916df4e7b28":[7,1,2,1,2,2],
 "structwiced__bt__a2dp__sink__audio__tuning__params__t.html#ae4a20d5e4b2b105f649d779b2e5a8167":[7,1,2,1,2,10],
 "structwiced__bt__a2dp__sink__audio__tuning__params__t.html#aefa75b37414f395ef595d4beea93fbc8":[7,1,2,1,2,5],
-"structwiced__bt__a2dp__sink__audio__tuning__params__t.html#afe7915be7e12899ca8802d827da7d604":[7,1,2,1,2,7],
-"structwiced__bt__a2dp__sink__route__config.html":[7,1,2,1,0],
-"structwiced__bt__a2dp__sink__route__config.html#a0556db1040d71594fa8e80ede03272e1":[7,1,2,1,0,0],
-"structwiced__bt__a2dp__sink__route__config.html#a19bff79808709215a7054b329cf66c40":[7,1,2,1,0,2],
-"structwiced__bt__a2dp__sink__route__config.html#ab26df626d41d2082b55ebec397bad553":[7,1,2,1,0,1],
-"structwiced__bt__a2dp__source__route__config.html":[7,1,2,1,1],
-"structwiced__bt__a2dp__source__route__config.html#a19bff79808709215a7054b329cf66c40":[7,1,2,1,1,1],
-"structwiced__bt__a2dp__source__route__config.html#ab26df626d41d2082b55ebec397bad553":[7,1,2,1,1,0],
-"structwiced__bt__a2dp__statistics__t.html":[7,1,2,0,1]
+"structwiced__bt__a2dp__sink__audio__tuning__params__t.html#afe7915be7e12899ca8802d827da7d604":[7,1,2,1,2,7]
 };

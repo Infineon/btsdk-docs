@@ -11,7 +11,6 @@ var group__wicedbt =
     [ "HRC Library API", "group__wiced__bt__hrc__api__functions.html", "group__wiced__bt__hrc__api__functions" ],
     [ "HRS Library API", "group__wiced__bt__hrs__api__functions.html", "group__wiced__bt__hrs__api__functions" ],
     [ "Human Interface Device (HID)", "group__wiced__bt__hid.html", "group__wiced__bt__hid" ],
-    [ "LE Mesh", "group__wiced__bt__mesh.html", "group__wiced__bt__mesh" ],
     [ "Logical Link Control and Adaptation Protocol (L2CAP)", "group__l2cap.html", "group__l2cap" ],
     [ "OBEX", "group__wicedbt__obex.html", "group__wicedbt__obex" ],
     [ "RFCOMM", "group__rfcomm__api__functions.html", "group__rfcomm__api__functions" ],

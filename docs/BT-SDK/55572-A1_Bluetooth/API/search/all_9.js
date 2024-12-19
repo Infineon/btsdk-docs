@@ -42,7 +42,6 @@ var searchData=
   ['hci_5fle_5ffeature_5fsleep_5fclk_5faccuracy_5fupdate_5fbit_5fpos',['HCI_LE_FEATURE_SLEEP_CLK_ACCURACY_UPDATE_BIT_POS',['../hcidefs_8h.html#a006d31ca2988181cdff2a682cd168132',1,'hcidefs.h']]],
   ['hci_5fle_5ffeature_5fsync_5frx_5fbit_5fpos',['HCI_LE_FEATURE_SYNC_RX_BIT_POS',['../hcidefs_8h.html#a00b08f638a1a28edbc498eb724e259c9',1,'hcidefs.h']]],
   ['hci_5fle_5ffeature_5ftx_5fmodulation_5findex_5fbit_5fpos',['HCI_LE_FEATURE_TX_MODULATION_INDEX_BIT_POS',['../hcidefs_8h.html#a36c7026fbfd73ab4dd6d7b1284ee7b57',1,'hcidefs.h']]],
-  ['hci_5fopcode',['hci_opcode',['../structwiced__bt__mesh__event____t.html#a603634f617f16fe8155ef931ce0a392f',1,'wiced_bt_mesh_event__t']]],
   ['hci_5fstatus',['hci_status',['../structwiced__bt__tx__power__result__t.html#aa904d111ff996e4722c677ab290fbc77',1,'wiced_bt_tx_power_result_t::hci_status()'],['../structwiced__bt__dev__rssi__result__t.html#aa904d111ff996e4722c677ab290fbc77',1,'wiced_bt_dev_rssi_result_t::hci_status()'],['../structwiced__bt__sco__connection__change__t.html#aa904d111ff996e4722c677ab290fbc77',1,'wiced_bt_sco_connection_change_t::hci_status()'],['../structwiced__bt__dev__security__failed__t.html#aa904d111ff996e4722c677ab290fbc77',1,'wiced_bt_dev_security_failed_t::hci_status()'],['../structwiced__bt__power__mgmt__notification__t.html#aa904d111ff996e4722c677ab290fbc77',1,'wiced_bt_power_mgmt_notification_t::hci_status()']]],
   ['hci_5ftrace_5fcommand',['HCI_TRACE_COMMAND',['../group__wicedbt___device_management.html#ggaa76569d7be1ed9ff5262e81b3b651325a5bb2ec2cf78b2319a2580cc57af49c6b',1,'wiced_bt_dev.h']]],
   ['hci_5ftrace_5fevent',['HCI_TRACE_EVENT',['../group__wicedbt___device_management.html#ggaa76569d7be1ed9ff5262e81b3b651325ad4b1a9774a21f599e68e2a32730880f2',1,'wiced_bt_dev.h']]],
@@ -125,10 +124,6 @@ var searchData=
   ['host_5fto_5fdevice_5fcount',['host_to_device_count',['../wiced__app__pre__init__cfg_8h.html#a10d851462daafae5fdb3f85f2c2f6d5c',1,'wiced_app_pre_init_cfg.h']]],
   ['host_5fto_5fdevice_5fsize',['host_to_device_size',['../wiced__app__pre__init__cfg_8h.html#a378af353e55717eea836c3307428bc9c',1,'wiced_app_pre_init_cfg.h']]],
   ['host_5fwake_5fmode',['host_wake_mode',['../structwiced__sleep__config__t.html#a5171a33fef2269ba49d52e375fd6ef24',1,'wiced_sleep_config_t']]],
-  ['hour',['hour',['../structwiced__bt__mesh__scheduler__action__data__t.html#ae5af4ff48939d13d480f87e56a9385d6',1,'wiced_bt_mesh_scheduler_action_data_t']]],
-  ['hue',['hue',['../structwiced__bt__mesh__light__hsl__data__t.html#a2d3850bf87522a9e917e8a33cf4201a5',1,'wiced_bt_mesh_light_hsl_data_t']]],
-  ['hue_5fmax',['hue_max',['../structwiced__bt__mesh__light__hsl__range__set__data__t.html#ad1d0b7aeaf52154060bb19946434a646',1,'wiced_bt_mesh_light_hsl_range_set_data_t::hue_max()'],['../structwiced__bt__mesh__light__hsl__range__status__data__t.html#ad1d0b7aeaf52154060bb19946434a646',1,'wiced_bt_mesh_light_hsl_range_status_data_t::hue_max()']]],
-  ['hue_5fmin',['hue_min',['../structwiced__bt__mesh__light__hsl__range__set__data__t.html#acc4bde8ecfb2c24668e99b08702c7429',1,'wiced_bt_mesh_light_hsl_range_set_data_t::hue_min()'],['../structwiced__bt__mesh__light__hsl__range__status__data__t.html#acc4bde8ecfb2c24668e99b08702c7429',1,'wiced_bt_mesh_light_hsl_range_status_data_t::hue_min()']]],
   ['hrc_20library_20api',['HRC Library API',['../group__wiced__bt__hrc__api__functions.html',1,'']]],
   ['hrs_20library_20api',['HRS Library API',['../group__wiced__bt__hrs__api__functions.html',1,'']]],
   ['helper_20functions',['Helper Functions',['../group__wicedbt__av__a2d__helper.html',1,'']]]

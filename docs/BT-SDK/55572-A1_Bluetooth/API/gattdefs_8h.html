@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('gattdefs_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -340,10 +340,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>GATT_UUID_SCAN_REFRESH</b>&#160;&#160;&#160;0x2A31</td></tr>
 <tr class="separator:a7d18917fed1cfc47deb5d5a2cc0af2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76cd5a955f83b52e805f6d2b5ddf75c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76cd5a955f83b52e805f6d2b5ddf75c7"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_CHAR_DECLARATION_UUID</b>(<a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)&#160;&#160;&#160;((type.len == 2) &amp;&amp; (type.uu.uuid16 == GATT_UUID_CHAR_DECLARE))</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_CHAR_DECLARATION_UUID</b>(type)&#160;&#160;&#160;((type.len == 2) &amp;&amp; (type.uu.uuid16 == GATT_UUID_CHAR_DECLARE))</td></tr>
 <tr class="separator:a76cd5a955f83b52e805f6d2b5ddf75c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d337c38c2f6c070b006ef4d228ace3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1d337c38c2f6c070b006ef4d228ace3"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_CHAR_CLIENT_CONFIG_UUID</b>(<a class="el" href="wiced__bt__mesh__provision_8h.html#a1d127017fb298b889f4ba24752d08b8e">type</a>)&#160;&#160;&#160;((type.len == 2) &amp;&amp; (type.uu.uuid16 == GATT_UUID_CHAR_CLIENT_CONFIG))</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IS_CHAR_CLIENT_CONFIG_UUID</b>(type)&#160;&#160;&#160;((type.len == 2) &amp;&amp; (type.uu.uuid16 == GATT_UUID_CHAR_CLIENT_CONFIG))</td></tr>
 <tr class="separator:ae1d337c38c2f6c070b006ef4d228ace3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>

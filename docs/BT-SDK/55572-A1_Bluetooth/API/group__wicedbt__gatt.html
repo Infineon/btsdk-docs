@@ -31,7 +31,7 @@
         <td style="width:117px"><img src="IFX_LOGO_RGB.png" alt="Infineon Logo" /></td>
         <td style="width:40px"></td>
         <td style="vertical-align:middle; text-align:left; font: bold 25px/100% Verdana, Arial, Helvetica, sans-serif;">
-        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.2 - Documentation
+        AIROC<sup><font size="-1">&trade;</font></sup> BTSDK v4.9 - Documentation
         </td>
         <td style="width:20px"></td>
       </tr>
@@ -85,7 +85,7 @@ $(document).ready(function(){initNavTree('group__wicedbt__gatt.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -532,7 +532,7 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memdesc:gad552d3214847736b105f714cbafb47b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback upon GATT EATT connection complete <br /></td></tr>
 <tr class="separator:gad552d3214847736b105f714cbafb47b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga11fdc81533d409bc77fdaffe038d06fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga11fdc81533d409bc77fdaffe038d06fc"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga11fdc81533d409bc77fdaffe038d06fc">wiced_bt_gatt_eatt_on_reconfigure_ind_t</a> )(uint16_t <a class="el" href="wiced__bt__mesh__core_8h.html#a9739cd8f75107ae54f81880818104259">conn_id</a>, uint16_t mtu, uint16_t mps)</td></tr>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga11fdc81533d409bc77fdaffe038d06fc">wiced_bt_gatt_eatt_on_reconfigure_ind_t</a> )(uint16_t conn_id, uint16_t mtu, uint16_t mps)</td></tr>
 <tr class="memdesc:ga11fdc81533d409bc77fdaffe038d06fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback upon GATT EATT reconnection complete <br /></td></tr>
 <tr class="separator:ga11fdc81533d409bc77fdaffe038d06fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga926a4a0ac48136537d97a63bbe168298"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga926a4a0ac48136537d97a63bbe168298"></a>
@@ -938,28 +938,28 @@ Service and Characteristic macros</h2></td></tr>
 <tr class="memitem:ga701776dae7f04f55d385ef6220a0a16f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga701776dae7f04f55d385ef6220a0a16f">INCLUDE_SERVICE_UUID128</a>(handle, service_handle, end_group_handle)</td></tr>
 <tr class="memdesc:ga701776dae7f04f55d385ef6220a0a16f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist 128 bit included service declaration.  <a href="#ga701776dae7f04f55d385ef6220a0a16f">More...</a><br /></td></tr>
 <tr class="separator:ga701776dae7f04f55d385ef6220a0a16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga37d397a7fc24e4391a5741acc3029fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga37d397a7fc24e4391a5741acc3029fef">CHARACTERISTIC_UUID16</a>(handle, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
+<tr class="memitem:ga37d397a7fc24e4391a5741acc3029fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga37d397a7fc24e4391a5741acc3029fef">CHARACTERISTIC_UUID16</a>(handle, handle_value, uuid, properties, permission)</td></tr>
 <tr class="memdesc:ga37d397a7fc24e4391a5741acc3029fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist readable 16 bit characteristic declaration.  <a href="#ga37d397a7fc24e4391a5741acc3029fef">More...</a><br /></td></tr>
 <tr class="separator:ga37d397a7fc24e4391a5741acc3029fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga511b4fcc444e38aa416d71e16981e48c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga511b4fcc444e38aa416d71e16981e48c">CHARACTERISTIC_UUID128</a>(handle, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
+<tr class="memitem:ga511b4fcc444e38aa416d71e16981e48c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga511b4fcc444e38aa416d71e16981e48c">CHARACTERISTIC_UUID128</a>(handle, handle_value, uuid, properties, permission)</td></tr>
 <tr class="memdesc:ga511b4fcc444e38aa416d71e16981e48c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist readable 128 bit characteristic declaration.  <a href="#ga511b4fcc444e38aa416d71e16981e48c">More...</a><br /></td></tr>
 <tr class="separator:ga511b4fcc444e38aa416d71e16981e48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28ec90f525cc293fdf0e0423048bc7b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga28ec90f525cc293fdf0e0423048bc7b9">CHARACTERISTIC_UUID16_WRITABLE</a>(handle, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
+<tr class="memitem:ga28ec90f525cc293fdf0e0423048bc7b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga28ec90f525cc293fdf0e0423048bc7b9">CHARACTERISTIC_UUID16_WRITABLE</a>(handle, handle_value, uuid, properties, permission)</td></tr>
 <tr class="memdesc:ga28ec90f525cc293fdf0e0423048bc7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist writable 16 bit characteristic declaration.  <a href="#ga28ec90f525cc293fdf0e0423048bc7b9">More...</a><br /></td></tr>
 <tr class="separator:ga28ec90f525cc293fdf0e0423048bc7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga401c1e4feca51776cf572f4c5efce274"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga401c1e4feca51776cf572f4c5efce274">CHARACTERISTIC_UUID128_WRITABLE</a>(handle, handle_value, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, <a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, permission)</td></tr>
+<tr class="memitem:ga401c1e4feca51776cf572f4c5efce274"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga401c1e4feca51776cf572f4c5efce274">CHARACTERISTIC_UUID128_WRITABLE</a>(handle, handle_value, uuid, properties, permission)</td></tr>
 <tr class="memdesc:ga401c1e4feca51776cf572f4c5efce274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist writable 128 bit characteristic declaration.  <a href="#ga401c1e4feca51776cf572f4c5efce274">More...</a><br /></td></tr>
 <tr class="separator:ga401c1e4feca51776cf572f4c5efce274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga715c8bd037ec698eb84cba0f1ddd1540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga715c8bd037ec698eb84cba0f1ddd1540">CHAR_DESCRIPTOR_UUID16_WRITABLE</a>(handle, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
+<tr class="memitem:ga715c8bd037ec698eb84cba0f1ddd1540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga715c8bd037ec698eb84cba0f1ddd1540">CHAR_DESCRIPTOR_UUID16_WRITABLE</a>(handle, uuid, permission)</td></tr>
 <tr class="memdesc:ga715c8bd037ec698eb84cba0f1ddd1540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist writable 16 bit descriptor declaration.  <a href="#ga715c8bd037ec698eb84cba0f1ddd1540">More...</a><br /></td></tr>
 <tr class="separator:ga715c8bd037ec698eb84cba0f1ddd1540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga6c73fb6be1e3c4b8ece5f79d633ba08d">CHAR_DESCRIPTOR_UUID16</a>(handle, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
+<tr class="memitem:ga6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga6c73fb6be1e3c4b8ece5f79d633ba08d">CHAR_DESCRIPTOR_UUID16</a>(handle, uuid, permission)</td></tr>
 <tr class="memdesc:ga6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist readable 16 bit descriptor declaration.  <a href="#ga6c73fb6be1e3c4b8ece5f79d633ba08d">More...</a><br /></td></tr>
 <tr class="separator:ga6c73fb6be1e3c4b8ece5f79d633ba08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga824858a2e84f93bc407d02bfd909466a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga824858a2e84f93bc407d02bfd909466a">CHAR_DESCRIPTOR_UUID128_WRITABLE</a>(handle, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
+<tr class="memitem:ga824858a2e84f93bc407d02bfd909466a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga824858a2e84f93bc407d02bfd909466a">CHAR_DESCRIPTOR_UUID128_WRITABLE</a>(handle, uuid, permission)</td></tr>
 <tr class="memdesc:ga824858a2e84f93bc407d02bfd909466a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist writable 128 bit descriptor declaration.  <a href="#ga824858a2e84f93bc407d02bfd909466a">More...</a><br /></td></tr>
 <tr class="separator:ga824858a2e84f93bc407d02bfd909466a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf33176e06fbd8c26118646723c522973"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#gaf33176e06fbd8c26118646723c522973">CHAR_DESCRIPTOR_UUID128</a>(handle, <a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, permission)</td></tr>
+<tr class="memitem:gaf33176e06fbd8c26118646723c522973"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#gaf33176e06fbd8c26118646723c522973">CHAR_DESCRIPTOR_UUID128</a>(handle, uuid, permission)</td></tr>
 <tr class="memdesc:gaf33176e06fbd8c26118646723c522973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to assist readable 128 bit descriptor declaration.  <a href="#gaf33176e06fbd8c26118646723c522973">More...</a><br /></td></tr>
 <tr class="separator:gaf33176e06fbd8c26118646723c522973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga772a09cba93b362579baaabe1675bea0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wicedbt__gatt.html#ga772a09cba93b362579baaabe1675bea0">CHAR_DESCRIPTOR_EXTENDED_PROPERTIES</a>(handle, ext_properties)</td></tr>
@@ -1041,7 +1041,7 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1058,11 +1058,10 @@ Service and Characteristic macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a>((uint16_t)(handle)), \</div>
 <div class="line">    (uint8_t)(permission | <a class="code" href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a>), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), \</div>
+<div class="line">    uuid</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad6f106f82541c47480d2a162e267030c"><div class="ttname"><a href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a></div><div class="ttdeci">#define GATTDB_PERM_SERVICE_UUID_128</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:474</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gaac9eea72e4087535001e967b961b742b"><div class="ttname"><a href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID128_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:499</div></div>
 </div><!-- fragment -->
 <p>Macro to assist readable 128 bit descriptor declaration. </p>
@@ -1083,7 +1082,7 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1101,11 +1100,10 @@ Service and Characteristic macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a>((uint16_t)(handle)), \</div>
 <div class="line">    (uint8_t)(permission | <a class="code" href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a>), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), \</div>
-<div class="line">    (uint8_t)(0), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="line">    (uint8_t)(0), \</div>
+<div class="line">    uuid</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad6f106f82541c47480d2a162e267030c"><div class="ttname"><a href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a></div><div class="ttdeci">#define GATTDB_PERM_SERVICE_UUID_128</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:474</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gaac9eea72e4087535001e967b961b742b"><div class="ttname"><a href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID128_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:499</div></div>
 </div><!-- fragment -->
 <p>Macro to assist writable 128 bit descriptor declaration. </p>
@@ -1126,7 +1124,7 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1144,9 +1142,8 @@ Service and Characteristic macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a>((uint16_t)(handle)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid)</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga13dfabe4e2cc2b544bc34faf84fb9783"><div class="ttname"><a href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID16_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:498</div></div>
 </div><!-- fragment -->
 <p>Macro to assist readable 16 bit descriptor declaration. </p>
@@ -1167,7 +1164,7 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1186,9 +1183,8 @@ Service and Characteristic macros</h2></td></tr>
 <div class="line">    (uint8_t)(permission), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a>), \</div>
 <div class="line">    (uint8_t)(0), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid)</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga13dfabe4e2cc2b544bc34faf84fb9783"><div class="ttname"><a href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID16_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:498</div></div>
 </div><!-- fragment -->
 <p>Macro to assist writable 16 bit descriptor declaration. </p>
@@ -1215,13 +1211,13 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
+          <td class="paramname">properties, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1240,17 +1236,15 @@ Service and Characteristic macros</h2></td></tr>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">    GATTDB_PERM_READABLE</a>, \</div>
 <div class="line">    21, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a>, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line">    (uint8_t)(properties), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
+<div class="line">    uuid, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission | <a class="code" href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a>), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), \</div>
+<div class="line">    uuid</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad6f106f82541c47480d2a162e267030c"><div class="ttname"><a href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a></div><div class="ttdeci">#define GATTDB_PERM_SERVICE_UUID_128</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:474</div></div>
-<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:209</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gaac9eea72e4087535001e967b961b742b"><div class="ttname"><a href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID128_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:499</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga38354ffdf7194b42d5d78069a14568d4"><div class="ttname"><a href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">GATTDB_PERM_READABLE</a></div><div class="ttdeci">#define GATTDB_PERM_READABLE</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:465</div></div>
 </div><!-- fragment -->
@@ -1278,13 +1272,13 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
+          <td class="paramname">properties, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1303,18 +1297,16 @@ Service and Characteristic macros</h2></td></tr>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">    GATTDB_PERM_READABLE</a>, \</div>
 <div class="line">    21, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a>, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line">    (uint8_t)(properties), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
+<div class="line">    uuid, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission | <a class="code" href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a>), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a>), \</div>
-<div class="line">    (uint8_t)(0), <a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">\</a></div>
-<div class="line"><a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">    uuid</a></div>
+<div class="line">    (uint8_t)(0), \</div>
+<div class="line">    uuid</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad6f106f82541c47480d2a162e267030c"><div class="ttname"><a href="group__wicedbt__gatt.html#gad6f106f82541c47480d2a162e267030c">GATTDB_PERM_SERVICE_UUID_128</a></div><div class="ttdeci">#define GATTDB_PERM_SERVICE_UUID_128</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:474</div></div>
-<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:209</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_gaac9eea72e4087535001e967b961b742b"><div class="ttname"><a href="group__wicedbt__gatt.html#gaac9eea72e4087535001e967b961b742b">GATTDB_UUID128_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID128_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:499</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga38354ffdf7194b42d5d78069a14568d4"><div class="ttname"><a href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">GATTDB_PERM_READABLE</a></div><div class="ttdeci">#define GATTDB_PERM_READABLE</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:465</div></div>
 </div><!-- fragment -->
@@ -1342,13 +1334,13 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
+          <td class="paramname">properties, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1367,16 +1359,14 @@ Service and Characteristic macros</h2></td></tr>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">    GATTDB_PERM_READABLE</a>, \</div>
 <div class="line">    0x07, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line">    (uint8_t)(properties), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
-<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:209</div></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid)</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga13dfabe4e2cc2b544bc34faf84fb9783"><div class="ttname"><a href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID16_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:498</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga38354ffdf7194b42d5d78069a14568d4"><div class="ttname"><a href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">GATTDB_PERM_READABLE</a></div><div class="ttdeci">#define GATTDB_PERM_READABLE</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:465</div></div>
 </div><!-- fragment -->
@@ -1404,13 +1394,13 @@ Service and Characteristic macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>, </td>
+          <td class="paramname">uuid, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>, </td>
+          <td class="paramname">properties, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1429,17 +1419,15 @@ Service and Characteristic macros</h2></td></tr>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">    GATTDB_PERM_READABLE</a>, \</div>
 <div class="line">    0x07, <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(GATT_UUID_CHAR_DECLARE), \</div>
-<div class="line">    (uint8_t)(<a class="code" href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line">    (uint8_t)(properties), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
 <div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>((uint16_t)(handle_value)), \</div>
 <div class="line">    (uint8_t)(permission), \</div>
 <div class="line">    (uint8_t)(<a class="code" href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a>), \</div>
 <div class="line">    (uint8_t)(0), <a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">\</a></div>
-<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(<a class="code" href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a>)</div>
-<div class="ttc" id="wiced__bt__mesh__cfg_8h_html_a71c41f69912afcb68df0c0d9aa272dc3"><div class="ttname"><a href="wiced__bt__mesh__cfg_8h.html#a71c41f69912afcb68df0c0d9aa272dc3">properties</a></div><div class="ttdeci">wiced_bt_mesh_core_config_property_t * properties</div><div class="ttdoc">Array of properties of that element. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_cfg.h:209</div></div>
+<div class="line"><a class="code" href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">    BIT16_TO_8</a>(uuid)</div>
 <div class="ttc" id="group__wicedbt__gatt_html_gad41c1417450d3265f5f3fd404ca8d4cc"><div class="ttname"><a href="group__wicedbt__gatt.html#gad41c1417450d3265f5f3fd404ca8d4cc">BIT16_TO_8</a></div><div class="ttdeci">#define BIT16_TO_8(val)</div><div class="ttdoc">Conversion macros. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:494</div></div>
-<div class="ttc" id="wiced__bt__mesh__core_8h_html_a55fdff5eb435c150ffdb70a5c95edeb3"><div class="ttname"><a href="wiced__bt__mesh__core_8h.html#a55fdff5eb435c150ffdb70a5c95edeb3">uuid</a></div><div class="ttdeci">uint8_t uuid[16]</div><div class="ttdoc">UUID of the node to provision. </div><div class="ttdef"><b>Definition:</b> wiced_bt_mesh_core.h:137</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga13dfabe4e2cc2b544bc34faf84fb9783"><div class="ttname"><a href="group__wicedbt__gatt.html#ga13dfabe4e2cc2b544bc34faf84fb9783">GATTDB_UUID16_SIZE</a></div><div class="ttdeci">#define GATTDB_UUID16_SIZE</div><div class="ttdoc">UUID lengths. </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:498</div></div>
 <div class="ttc" id="group__wicedbt__gatt_html_ga38354ffdf7194b42d5d78069a14568d4"><div class="ttname"><a href="group__wicedbt__gatt.html#ga38354ffdf7194b42d5d78069a14568d4">GATTDB_PERM_READABLE</a></div><div class="ttdeci">#define GATTDB_PERM_READABLE</div><div class="ttdoc">The permission bits (see Vol 3, Part F, 3.2.5) </div><div class="ttdef"><b>Definition:</b> wiced_bt_gatt.h:465</div></div>
 </div><!-- fragment -->

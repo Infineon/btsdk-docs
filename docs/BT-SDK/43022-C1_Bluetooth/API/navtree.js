@@ -20,15 +20,15 @@ var NAVTREEINDEX =
 "group__l2cap__api__functions.html#ga1ca1d8190c10328fb06b68573fb88ac3",
 "group__sdp.html#gaee9eb29544a00ec1b0980c829d3eea40",
 "group__wiced__bt__iap2__api__functions.html#gac6295c867b58e1f49a4ec6df31b32c1b",
-"group__wicedbt___d_m___struct.html#gga83e5618d32b7fa1fb7c17ea40555e028a40d553ff55f5b42fd922d9ff0025b6a7",
-"group__wicedbt__a2dp__sbc.html#ga612847aeb5600eb2f506293ab10a20f3",
-"group__wicedbt__avdt.html#gacc5faebef8d182149a1e46b9ef57a7eb",
-"group__wicedbt__gatt.html#gga20bd3f2b04d68644e09d61a327857f5ba9394724415a2691ce8c39c89225718dc",
-"structwiced__bt__anc__control__alerts__result__t.html",
-"structwiced__bt__ble__ext__conn__cfg__t.html#a5383b140bf80fb97f5e73ca8a74c69b9",
-"structwiced__bt__dev__user__cfm__req__t.html#a7faacee0473cb2f4465b80e2d736109c",
-"structwiced__bt__isoc__big__create__sync__t.html#ae3ba962d996a9ba9c14be083df0b1c79",
-"structwiced__sleep__config__t.html#a5171a33fef2269ba49d52e375fd6ef24"
+"group__wicedbt___d_m___struct.html#gga81db582b115f4586be18f142d054b0aca7d745a07a203cb4d2102a2c622e046d5",
+"group__wicedbt__a2dp__sbc.html",
+"group__wicedbt__avdt.html#gac4c37e99242bdabbf7f4382256fe54ed",
+"group__wicedbt__gatt.html#gga1bec0037cd2837dc90a967458b3cc68bafd40af1676a928ee6fc86344ac5450da",
+"structwiced__bt__a2dp__sink__route__config.html",
+"structwiced__bt__ble__ext__adv__set__terminated__event__data__t.html#a5915d7cc8be0d3a5f19054e8846acbde",
+"structwiced__bt__dev__security__failed__t.html",
+"structwiced__bt__isoc__big__create__sync__t.html",
+"structwiced__fw__upgrade__nv__loc__len__t.html#ab52b36ae75c03870671f474272297cdf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
